@@ -1,6 +1,6 @@
-Alliance AI Partners · Version 2.0 · October 2026
+Alliance AI Partners · Version 2.1 · October 2026
 
-This guide covers what Alliance AI Partners stands for and how the brand should look and sound. Check it whenever you're not sure something fits.
+This guide covers what Alliance AI Partners stands for and how the brand should sound. Check it whenever you're not sure something fits. How the brand looks is on hold until we choose the big idea behind it.
 
 ## Who we are
 
@@ -18,15 +18,7 @@ The full list of services, including ready-made packages for common industries, 
 
 ## Our big idea
 
-We connect people, tools, and AI so they work as one team. Two pictures explain the idea.
-
-The first is a wolf pack. Wolves survive by working together: they stay in constant contact and take turns at the front. That's how we work with partners. We join their team and move with it.
-
-The second is a constellation. The stars were always in the sky, but the lines drawn between them turned them into a map people could find their way by. Inside a business, we draw those lines, connecting the tools and data a company already has so they work together.
-
-The two pictures also meet in the real night sky. Lupus, the Wolf, is one of the 48 constellations listed by the astronomer Ptolemy in the second century.
-
-The wolf and the stars belong in our visuals and in the stories we tell in person. Keep them out of everyday sales copy, where a line like "join the pack" makes a serious company sound like a sports team.
+Not chosen yet. The big idea is the one picture or story behind our logo, visual identity, and design system. The options we're weighing are in [Big Idea Options](Big%20Idea%20Options.md).
 
 ## 1. Purpose: why we exist
 
@@ -56,16 +48,16 @@ How we work with a new partner:
 
 ## 4. Values
 
-### One pack, one goal
+### One team, one goal
 
-When we partner with a company, their goals become our goals. Wolves succeed as a pack, and we work with partners the same way. We judge our work by the partner's results, like more sales or hours saved.
+When we partner with a company, their goals become our goals. We work as part of their team, and we judge our work by the partner's results, like more sales or hours saved.
 
 - Before we start, we agree on what success looks like, using the partner's own numbers.
 - When something goes wrong, we say "we," and we fix it.
 
 ### Simple on purpose
 
-The lines of a constellation aren't really in the sky, yet they turn scattered stars into a map. Good systems work the same way: people notice that their work got easier and rarely think about the system behind it.
+A good system stays in the background. People notice that their work got easier and rarely think about what's behind it.
 
 - We pick the simplest solution that does the job.
 - Every automation has an owner and a backup plan.
@@ -81,7 +73,7 @@ Partners trust us with their data and the systems their business runs on. We pro
 
 ### Clear the path
 
-In deep snow, wolves walk in single file. The one in front breaks the trail so the others can save their strength. We do the same with new AI tools: we try them on our own business first, so partners only get what works.
+We go first. We try new AI tools on our own business before we bring them to partners, so partners only get what works.
 
 - We use what we sell.
 - We adopt a new tool only after it has proven itself in our own work.
@@ -136,8 +128,6 @@ Avoid: leverage, seamless, cutting-edge, revolutionary, game-changing, disrupt, 
 
 Say "partners" for the companies we work with, and keep "customers" for their customers.
 
-We avoid "alpha" for two reasons. The "alpha wolf" idea was dropped by the scientist who made it famous, after research showed that wild packs are families that cooperate. The word also suggests a show-off attitude that doesn't fit us.
-
 ## 6. Elevator pitch
 
 For founders and CEOs. Three sentences, about 30 seconds out loud.
@@ -170,111 +160,12 @@ The button leads to an "AI check-up," a short first project where we find where 
 
 ## 8. Visual identity
 
-### Colors
+On hold. Our colors, fonts, logo, and design system will come from the big idea, so we'll build them after we choose it.
 
-Our colors come from the night sky: deep blues that feel steady and trustworthy, and a bright cyan for the spark of AI.
+Whatever we choose:
 
-Main colors:
-
-| Name | Hex code | What it looks like | Where to use it |
-|---|---|---|---|
-| Deep Field | `#0A1426` | Very dark navy, like the night sky | Dark backgrounds, and main text on light backgrounds |
-| Alliance Blue | `#2445D4` | Strong blue with a slight lean toward purple | Buttons, links, and diagrams on light backgrounds |
-| Signal Cyan | `#2DE2F0` | Bright, glowing cyan | Highlights and buttons on dark backgrounds only |
-| Starlight | `#F4F7FB` | Soft, cool white | Light backgrounds, and text on dark backgrounds |
-
-Supporting colors:
-
-| Name | Hex code | What it looks like | Where to use it |
-|---|---|---|---|
-| Night Steel | `#16233B` | Very dark blue-gray | Cards and panels on dark backgrounds |
-| Lunar Slate | `#8592A8` | Medium blue-gray | Small text and thin lines on dark backgrounds |
-| Graphite | `#4A5770` | Dark slate gray | Small text and captions on light backgrounds |
-| Glacier | `#DDF6FA` | Pale icy blue | Highlight boxes on light backgrounds |
-| Wolf Amber | `#F2A93B` | Warm gold, the color of a wolf's eyes | Rare accents, like one important number or an urgent alert |
-
-Blue is the color people most often connect with trust, which is why banks and large tech companies use so much of it. Cyan adds energy and reads as technology. Wolf Amber is the only warm color, and it keeps the palette from feeling cold. Deep Field is named after the Hubble Deep Field, a photo of a patch of sky that looked empty but turned out to hold thousands of galaxies.
-
-Aim for about 60% background color (Deep Field or Starlight), 30% blues and grays, and 10% Signal Cyan. Use Wolf Amber rarely.
-
-**Use blue on light backgrounds and cyan on dark ones.** Cyan text on a light background is almost impossible to read.
-
-These pairs are easy to read, and each one passes WCAG AA, the standard accessibility check for text:
-
-- On Deep Field: Starlight, Signal Cyan, Wolf Amber, or Lunar Slate text
-- On Night Steel: Starlight or Lunar Slate text
-- On Starlight: Deep Field, Alliance Blue, or Graphite text
-- On Glacier: Deep Field or Alliance Blue text
-- On buttons: white text on Alliance Blue, or Deep Field text on Signal Cyan
-
-Avoid these pairs, because they're too hard to read:
-
-- Signal Cyan on any light background
-- White text on Signal Cyan
-- Alliance Blue text on Deep Field
-- Lunar Slate or Wolf Amber text on light backgrounds
-
-Skip the purple-and-pink gradients that many AI startups use. They make a brand look like one more AI app. If we use a gradient, it runs from Alliance Blue to Signal Cyan, and only for the glow around an active dot in a diagram or logo.
-
-Before printing anything, check the colors on a printed proof, since screen and print colors rarely match exactly.
-
-### Fonts
-
-We use two fonts. Both are free on Google Fonts and can be used commercially.
-
-Manrope is for headings. It's modern and strong, and its clean, even shapes work well in big headlines and diagram titles.
-
-Inter is for body text. It was designed for screens, so it stays sharp at small sizes, like labels in a diagram or line items on an invoice. Its numbers can be set to equal widths so columns line up, and it has a slashed zero, so 0 and O never get mixed up.
-
-For designers:
-
-| Use | Setting |
-|---|---|
-| Headlines | Manrope SemiBold or Bold, letters slightly tighter (-1% to -2%) |
-| Small uppercase labels | Manrope SemiBold, letters spaced out (+8% to +12%) |
-| Body text | Inter Regular, 16 px on screens, 10 to 11 pt in print |
-| Diagram labels | Inter Medium, 11 to 12 px |
-| Invoices and tables | Inter with tabular figures (`tnum`) and slashed zero (`zero`) turned on, amounts aligned right |
-
-If you make documents in Microsoft Office, install both fonts and embed them when you save PDFs. If they're missing, use Arial.
-
-### Logo ideas
-
-There are three logo options. Each comes in a dark version (light lines on Deep Field, with Signal Cyan as the accent) and a light version (dark lines on Starlight, with Alliance Blue as the accent). Cyan only appears in the dark version, because it's too faint on white.
-
-#### Option A: Lupus, the constellation wolf
-
-Here the logo is the Lupus constellation, drawn the way an astronomer would draw it: seven stars joined by thin lines, with no fur or teeth. The brightest star, Alpha Lupi, is the largest dot and the only one in the accent color, like the leader of the pack. The figure hints at a wolf on the move.
-
-At small sizes, the logo shrinks to the three brightest stars. Star-style logos are common in tech, so this one depends on telling the Lupus story wherever we can, especially on the About page and in sales decks.
-
-#### Option B: the Load-Bearing A
-
-The logo is a letter A made of two lines that meet at the top. In a real A-shaped frame, the crossbar ties the two sides together so the frame stays up. In our logo, the two sides are the partner and Alliance, and the crossbar is the partnership. It's the only part in the accent color.
-
-Dots mark three joints (the top and both ends of the crossbar), one for each thing we help partners do: scale AI, solve problems, and grow. The design is clean, works as a tiny app icon, and looks right on an invoice or a billboard. Keep the inside of the A empty, because a dot there starts to look like the "eye in the pyramid."
-
-#### Option C: the hidden wolf
-
-At first glance, this logo is a neat grid of dots and lines, like a network diagram. Look closer and the empty spaces form a wolf's head in profile, calm and facing forward. One dot just ahead of its nose is lit in the accent color, showing where the pack is heading.
-
-People enjoy spotting hidden shapes like this and tend to point them out to others. It's the hardest option to design, though, and it doesn't work at small sizes, so it would need Option B as its small icon.
-
-#### The company name
-
-All three options use the same wordmark. "ALLIANCE" is set in Manrope capitals with extra letter spacing, and "AI PARTNERS" sits smaller underneath. The two L's are joined at the bottom by a thin line with a single dot, like two partners standing side by side.
-
-#### Our recommendation
-
-Use Option B as the main logo, because it's clear and works at every size. Use the Lupus constellation from Option A as a background graphic and to tell our story on the About page.
-
-#### Logo don'ts
-
-- No fangs, snarls, glowing eyes, or wolves howling at the moon. They look aggressive or cheap.
-- No wolf heads built from triangles (the most common wolf logo online) and no sports-team wolf badges.
-- No circuit boards, brains, or robot faces.
-- Don't connect five or six dots in a full circle. The lines can accidentally form a pentagram or a six-pointed star.
-- Check trademarks early, because animal logos built from shapes are common.
+- All text must pass WCAG AA, the standard accessibility check for contrast.
+- Skip the usual AI look: sparkles, glowing brains, circuit boards, robot faces, and purple-and-pink gradients.
 
 ## Full list of services
 
@@ -457,3 +348,4 @@ Projects in healthcare, finance, insurance, and legal start with a privacy and c
 4. Pick a starting market. "Many companies" covers almost everyone. Choose one or two kinds of companies to focus on first (the industry table in the full list is a good place to start), do great work there, and let referrals bring in the next ones.
 5. Check the name. Many businesses use "Alliance," so run trademark and domain checks before paying for final logo design.
 6. Put the data promise in writing. We tell partners their data stays private. Publish a short, plain data policy that backs this up before the promise appears in marketing.
+7. Choose the big idea. The logo, colors, fonts, and design system all depend on it, so settle it before any visual work. The options are in [Big Idea Options](Big%20Idea%20Options.md).
