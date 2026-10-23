@@ -4,7 +4,7 @@ This guide covers what Alliance AI Partners stands for and how the brand should 
 
 ## Who we are
 
-Alliance AI Partners is an AI startup that teams up with companies to help them scale AI, solve business problems with AI, and grow. We call these companies our partners, because we work as part of their team.
+Alliance AI Partners is an AI startup based in the Philippines. We team up with companies in the US, Australia, and other countries to help them scale AI, solve business problems with AI, and grow. We call these companies our partners, because we work as part of their team.
 
 Our services fall under those three goals:
 
@@ -140,22 +140,57 @@ If you only have one sentence: we help companies put AI to work so they can grow
 
 ### Talking about price
 
-AI lets us charge less than most agencies, and the pitch should say so. Price works best as the second thing people hear: open with the result, then show the price that makes it easy to say yes. When price comes first, we sound like one more cheap agency, the image Note 1 warns about, and we attract buyers who leave for the next cheaper offer.
+Two things let us charge less than most AI firms: AI does the repetitive work, and our team is based in the Philippines. The pitch should say both, with pride. Price works best as the second thing people hear: open with the result, then show the price that makes it easy to say yes. When price comes first, we sound like one more cheap agency, the image Note 1 warns about, and we attract buyers who leave for the next cheaper offer.
 
-#### Why our prices are lower
-
-There are two reasons, and both must be true before we say them:
+#### Why we cost less
 
 - AI does the repetitive work. First drafts, testing, content production, and data entry take fewer hours, so a project needs fewer billable hours.
-- Our running costs are lower. Our team works from [WHERE THE TEAM IS BASED]. Say where the team is: buyers will ask, and a straight answer earns more trust than a vague one.
+- We're based in the Philippines. Our costs are lower than those of firms in the US, the UK, or Australia, and we pass the difference on to partners. Say where we are early: buyers will ask, and a straight answer earns more trust than a vague one.
+
+#### Our honest pricing promise
+
+"Honest pricing" has to mean something a partner can check. Confirm each point is true before it goes on the website:
+
+- Published starting prices for every core service.
+- A fixed quote before work starts that lists everything we'll charge. Changes are quoted before we do them.
+- No per-seat fees on the tools we build.
+- AI usage, like model fees, passed on at cost and shown on the invoice.
+- Monthly plans you can cancel with [30] days' notice.
+- You own what we build.
+- If an off-the-shelf tool or a simpler fix costs you less, we say so.
+
+#### How other AI firms charge, and what we do instead
+
+| How it's charged | A published example | What to watch | What we do instead |
+|---|---|---|---|
+| By the hour | Most US and Australian web development agencies charge US$100 to US$149 an hour ([Clutch](https://clutch.co/web-developers/pricing), September 2026). | Slow work costs more, and the final bill is hard to predict. | A fixed quote for each project |
+| Per seat | Microsoft 365 Copilot is US$30 per user a month, paid yearly, on top of a Microsoft 365 plan ([Microsoft](https://www.microsoft.com/en-us/microsoft-365/copilot/enterprise)). For 50 people, that's US$1,500 a month. | Costs rise with every person you add. | No per-seat fees on tools we build, and honest advice on which seats you need |
+| Per resolution or per call | Intercom's Fin is US$0.99 per outcome, with seats extra ([Intercom](https://www.intercom.com/pricing)). Smith.ai's AI receptionist is US$150 a month for 75 calls, then US$2.50 a call ([Smith.ai](https://smith.ai/pricing/ai-receptionist)). | Busy months cost more, so budgets are hard to set. | [A flat monthly price, with AI usage passed on at cost] |
+| Monthly retainer | SEO retainers on Clutch run from US$2,000 to US$20,000 a month, averaging US$3,199 ([Clutch](https://clutch.co/seo-firms/pricing)). | It isn't always clear what the retainer buys. | A retainer that lists the work it covers |
+| No published prices | Some firms share prices only after a sales call. | You can't compare until you've given up an hour. | Published starting prices |
+
+These are examples of how AI is priced, not attacks on these companies. Some of these tools are the right choice for a partner, and our AI assistant rollout service sets them up.
+
+#### The Philippines pitch
+
+What we can say, with sources:
+
+- The Philippines' IT and business services industry earned US$40.3 billion in 2025 and employs 1.89 million people ([IBPAP](https://admin.ibpap.org/storage/hub-resources/7Hv9U2uoLJVx2kxyRMObNm6W6L0MR57l9dZfrez7.pdf)).
+- Its English proficiency is rated "High," second in Asia ([EF English Proficiency Index 2025](https://www.ef.com/wwen/epi/regions/asia/philippines/)).
+- Sydney is two hours ahead of the Philippines, or three during Australian daylight saving. The US is 12 to 16 hours behind, and the UK is seven or eight hours behind ([NSW Government](https://www.nsw.gov.au/about-nsw/daylight-saving), [NIST](https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs)).
+- Personal data is protected by the Data Privacy Act of 2012, enforced by an independent National Privacy Commission ([Republic Act 10173](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253)).
+
+Ready-made lines for ads and social posts are in section 7.
 
 #### The pitch, written
 
 For a web page or an ad:
 
-> Spending thousands on a website, SEO, or a new brand?
+> Your AI team in the Philippines. Your savings back home.
 >
-> Much of that money pays for hours of repetitive work. We use AI for those hours, and our people spend their time on the decisions that need judgment. The work takes fewer hours, so it costs less, and you see the full price before we start.
+> Spending thousands on a website, an AI tool, SEO, or a new brand? Much of that money pays for hours of repetitive work, billed at US or Australian rates.
+>
+> Alliance AI Partners is based in the Philippines, home to a US$40 billion IT and business services industry. Our specialists use AI for the repetitive work and spend their time on the decisions that need judgment. You get a fixed quote before we start, published starting prices, and no hidden fees.
 >
 > For work AI can automate, we publish our prices, so you can compare us with any other AI firm.
 
@@ -170,7 +205,7 @@ On the services page, show starting prices. Fill these in before launch:
 
 On a sales call, after the partner has described the problem:
 
-> "Much of what you'd pay for in a project like this is hours of repetitive work. We use AI for that part, so the same project takes fewer hours and costs less. If you need ongoing help, an embedded developer from our team costs [PRICE] a month. That's [about half] of what it costs to employ someone locally, and you don't pay for recruiting, benefits, or equipment."
+> "We're based in the Philippines, and that's a big part of why we cost less. Our team's costs are lower, and AI handles the repetitive work, so the same project takes fewer hours and costs you less. Our prices are published, you get a fixed quote before we start, and if an off-the-shelf tool would be cheaper for you, we'll tell you. If you need ongoing help, an embedded developer from our team costs [PRICE] a month. That's [about half] of what it costs to employ someone locally, and you don't pay for recruiting, benefits, or equipment."
 
 #### The cost comparison
 
@@ -191,7 +226,7 @@ How the figures were worked out:
 - Australia: median weekly pay for software and applications programmers from [Jobs and Skills Australia](https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-anzsco/2613-software-and-applications-programmers) (ABS data, May 2025), times 52, plus the 12% [superannuation guarantee](https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee).
 - None of these include recruiting fees, equipment, or office space, so the real cost of hiring is higher.
 
-For agency comparisons: on Clutch, a marketplace of reviewed agencies, most [web developers](https://clutch.co/web-developers/pricing) in the US and Australia charge between US$100 and US$149 an hour, and most UK [web designers](https://clutch.co/web-designers/pricing) charge between US$50 and US$99 (September 2026). These are marketplace ranges, not official statistics.
+For agency comparisons: on Clutch, a marketplace of reviewed agencies, most [web developers](https://clutch.co/web-developers/pricing) in the US and Australia charge between US$100 and US$149 an hour, against US$25 to US$49 in the Philippines. Most [web designers](https://clutch.co/web-designers/pricing) charge US$100 to US$149 in the US and Australia, US$50 to US$99 in the UK, and under US$25 in the Philippines (September 2026). These are marketplace ranges, not official statistics, and they describe typical Philippine agencies, not our own prices.
 
 If our price is half these figures or less for the same kind of work, we can say "about half the cost of hiring locally." Do the sum for each country before saying it, and keep the working with the source links.
 
@@ -202,13 +237,19 @@ If our price is half these figures or less for the same kind of work, we can say
 - Say what our price includes, such as project management, testing, and documentation.
 - Don't write "cheapest," "best rate," or "a fraction of the cost." Give the real number instead.
 - Price comparisons need proof in all three markets. In the US, the [FTC](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation) expects a reasonable basis before a claim runs. The UK's [advertising code](https://www.asa.org.uk/type/non_broadcast/code_section/03.html) requires evidence in hand and a clear basis for any price comparison. Australia's [ACCC](https://www.accc.gov.au/business/advertising-and-promotions/false-or-misleading-claims) requires claims to be accurate and based on reasonable grounds. Have any ad that compares prices checked before it runs.
-- Call ongoing help "embedded developers," never "outsourcing" (Note 2).
+- Use "outsourcing" where buyers search for it, in ads and search pages ("outsource AI development to the Philippines"). In proposals and on calls, show what it means in practice: an embedded team in the Philippines that works inside the partner's team (Note 2).
+- Lead with skill, then price. Some buyers picture outsourcing as cheap help with little care. Reviewed work, written documentation, and real results are what change that picture.
+- Don't call other firms overpriced or dishonest. Show how they charge and what we charge, and let the partner decide. Name another firm's prices in sales conversations and proposals, and check any ad that names one before it runs.
+- Be exact about where the gap is. On Clutch, Philippine agencies charge far less than US and Australian ones for web development, web design, SEO, and software. For AI development, the Philippines and Australia sit in the same US$25 to US$49 band, while US firms charge US$50 to US$99, so don't claim a gap with Australia there.
 - Use our full name. "AI Partners" on its own sounds like any AI firm. Mention "the Alliance AI platform" only once the platform exists.
 
 #### Questions buyers will ask
 
-- "Does cheaper mean lower quality?" Our answer: "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you." Only say this if it's true.
-- "Where is your team?" "[WHERE THE TEAM IS BASED]. We overlap [X] hours a day with your working hours."
+Each answer is a promise, so use only the ones that are true.
+
+- "Does cheaper mean lower quality?" Our answer: "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you."
+- "Where is your team?" "In the Philippines. Sydney is two hours ahead of us, or three during Australian daylight saving. For US partners, we work while you sleep: brief us before you log off, and you'll see progress when you log on. For UK partners, our afternoon is your morning."
+- "Isn't outsourcing risky?" "You see progress every week, a person reviews every piece of work, and your data stays in your systems wherever possible. The Philippines also has a national privacy law, the Data Privacy Act of 2012, enforced by an independent National Privacy Commission."
 - "What happens to our data?" Point to the data policy in Note 6.
 
 ## 7. Taglines
@@ -220,6 +261,11 @@ If our price is half these figures or less for the same kind of work, we can say
 | We build it, run it, and help you grow. | Shows we stay for the long run. | About page, sales deck |
 | Less busywork. More growth. | Names the result partners want. | Ads and social media |
 | Partners in AI. Partners in growth. | Uses our name and covers both halves of what we do. | Logo lockup, email signature |
+| Your AI team in the Philippines. Your savings back home. | Names where we are as a strength and says what the partner gets. | Search ads, LinkedIn, pricing page |
+| Outsource the busywork. Keep the savings. | Uses the word buyers search for and echoes "Less busywork. More growth." | Ads and social media |
+| Honest prices, published up front. | Sets us apart from firms that share prices only after a sales call. | Pricing page, proposals |
+| Two hours behind Sydney. Nowhere near Sydney prices. | Turns the time zone into a selling point for Australian partners. | Australian ads for web, design, and SEO work |
+| Brief us before you log off. See progress when you log on. | Turns the time difference into overnight progress for US partners. | US ads, sales emails |
 
 A homepage hero could read:
 
@@ -416,7 +462,7 @@ Projects in healthcare, finance, insurance, and legal start with a privacy and c
 ## Notes before launch
 
 1. The service list is long, and a company that seems to do everything can look like a generic agency, which is the image we want to leave behind. On the website and in sales calls, lead with the three goals (scale AI, solve problems, and grow) and let people open the full list from there.
-2. Present developer staffing as part of the partnership. "Staffing" can sound like renting out people by the hour. Calling it "embedded developers" makes it clear they work inside the partner's team with all of Alliance behind them.
+2. Pitch outsourcing as a partnership. Buyers search for "outsourcing to the Philippines," so use the word in ads and search pages. Then show how it works: embedded developers who join the partner's team, with all of Alliance behind them.
 3. Lead with proof. The full list covers what companies commonly ask for today. Only put a service on the website once we can deliver it well, and show the ones with the most results and case studies first.
 4. Pick a starting market. "Many companies" covers almost everyone. Choose one or two kinds of companies to focus on first (the industry table in the full list is a good place to start), do great work there, and let referrals bring in the next ones.
 5. Check the name. Many businesses use "Alliance," so run trademark and domain checks before paying for final logo design.
