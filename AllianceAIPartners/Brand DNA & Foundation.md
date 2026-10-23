@@ -138,6 +138,79 @@ The pitch opens with the listener's problem and only then says what we do. The l
 
 If you only have one sentence: we help companies put AI to work so they can grow faster.
 
+### Talking about price
+
+AI lets us charge less than most agencies, and the pitch should say so. Price works best as the second thing people hear: open with the result, then show the price that makes it easy to say yes. When price comes first, we sound like one more cheap agency, the image Note 1 warns about, and we attract buyers who leave for the next cheaper offer.
+
+#### Why our prices are lower
+
+There are two reasons, and both must be true before we say them:
+
+- AI does the repetitive work. First drafts, testing, content production, and data entry take fewer hours, so a project needs fewer billable hours.
+- Our running costs are lower. Our team works from [WHERE THE TEAM IS BASED]. Say where the team is: buyers will ask, and a straight answer earns more trust than a vague one.
+
+#### The pitch, written
+
+For a web page or an ad:
+
+> Spending thousands on a website, SEO, or a new brand?
+>
+> Much of that money pays for hours of repetitive work. We use AI for those hours, and our people spend their time on the decisions that need judgment. The work takes fewer hours, so it costs less, and you see the full price before we start.
+>
+> For work AI can automate, we publish our prices, so you can compare us with any other AI firm.
+
+On the services page, show starting prices. Fill these in before launch:
+
+- Websites from [PRICE]
+- The AI check-up from [PRICE]
+- AI automation projects from [PRICE]
+- Embedded developers from [PRICE] a month
+
+#### The pitch, spoken
+
+On a sales call, after the partner has described the problem:
+
+> "Much of what you'd pay for in a project like this is hours of repetitive work. We use AI for that part, so the same project takes fewer hours and costs less. If you need ongoing help, an embedded developer from our team costs [PRICE] a month. That's [about half] of what it costs to employ someone locally, and you don't pay for recruiting, benefits, or equipment."
+
+#### The cost comparison
+
+Use this table when a partner is weighing us against hiring locally. It backs up the tagline "The AI team you don't have to hire." The figures are for a full-time software developer. For design or marketing work, use the matching role from the same sources.
+
+| Country | Median pay | Cost to the employer per year | Per month | Alliance embedded developer |
+|---|---|---|---|---|
+| United States | $135,980 a year | About $196,500 | About $16,400 | [PRICE] a month |
+| United Kingdom | £59,863 a year | About £69,400 | About £5,800 | [PRICE] a month |
+| Australia | A$2,537 a week (about A$131,900 a year) | About A$147,800 | About A$12,300 | [PRICE] a month |
+
+In US hourly terms, that's $65.38 an hour in pay and about $94 an hour to the employer. The $60 an hour in our early drafts was close to the pay figure but left out what employers spend on benefits.
+
+How the figures were worked out:
+
+- United States: median pay from the [Bureau of Labor Statistics](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) (May 2025 data). Benefits make up 30.8% of total compensation for professional workers ([BLS, June 2026](https://www.bls.gov/news.release/ecec.t04.htm)), so we divided pay by 0.692.
+- United Kingdom: median pay for full-time programmers and software development professionals from the [ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026) (2026 provisional figures), plus employer National Insurance at 15% above £5,000 and the minimum 3% employer pension contribution ([2026-27 rates](https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027)).
+- Australia: median weekly pay for software and applications programmers from [Jobs and Skills Australia](https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-anzsco/2613-software-and-applications-programmers) (ABS data, May 2025), times 52, plus the 12% [superannuation guarantee](https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee).
+- None of these include recruiting fees, equipment, or office space, so the real cost of hiring is higher.
+
+For agency comparisons: on Clutch, a marketplace of reviewed agencies, most [web developers](https://clutch.co/web-developers/pricing) in the US and Australia charge between US$100 and US$149 an hour, and most UK [web designers](https://clutch.co/web-designers/pricing) charge between US$50 and US$99 (September 2026). These are marketplace ranges, not official statistics.
+
+If our price is half these figures or less for the same kind of work, we can say "about half the cost of hiring locally." Do the sum for each country before saying it, and keep the working with the source links.
+
+#### Rules for price claims
+
+- Every number gets a source and a date. Keep them with the page they appear on, and update them when new figures come out. The US and UK figures above are updated every year.
+- Compare like with like: a full-time employee's yearly cost against our price for a full-time embedded developer, or an agency's hourly rate against ours.
+- Say what our price includes, such as project management, testing, and documentation.
+- Don't write "cheapest," "best rate," or "a fraction of the cost." Give the real number instead.
+- Price comparisons need proof in all three markets. In the US, the [FTC](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation) expects a reasonable basis before a claim runs. The UK's [advertising code](https://www.asa.org.uk/type/non_broadcast/code_section/03.html) requires evidence in hand and a clear basis for any price comparison. Australia's [ACCC](https://www.accc.gov.au/business/advertising-and-promotions/false-or-misleading-claims) requires claims to be accurate and based on reasonable grounds. Have any ad that compares prices checked before it runs.
+- Call ongoing help "embedded developers," never "outsourcing" (Note 2).
+- Use our full name. "AI Partners" on its own sounds like any AI firm. Mention "the Alliance AI platform" only once the platform exists.
+
+#### Questions buyers will ask
+
+- "Does cheaper mean lower quality?" Our answer: "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you." Only say this if it's true.
+- "Where is your team?" "[WHERE THE TEAM IS BASED]. We overlap [X] hours a day with your working hours."
+- "What happens to our data?" Point to the data policy in Note 6.
+
 ## 7. Taglines
 
 | Tagline | Why it works | Where to use it |
