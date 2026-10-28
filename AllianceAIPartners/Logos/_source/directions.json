@@ -1,0 +1,89 @@
+{
+  "brand": "Alliance AI Partners",
+  "directions": [
+    {
+      "rank": 1, "folder": "01-joinery", "name": "Joinery",
+      "mark": "a bold capital A built as a furniture joint from three flat square-cut parts: two thick legs lean together and overlap at the apex, locked by one small round peg, and one straight horizontal crossbar passes through both legs and sticks out a short distance beyond the outer edge of each leg like a through tenon",
+      "colors": ["#16181D", "#285E4B", "#C9A27A"],
+      "palette_text": "near-black ink #16181D for the legs, pine green #285E4B for the crossbar, oak tan #C9A27A for the peg",
+      "wordmark_desc": "the word ALLIANCE in very wide extended bold grotesque capitals in ink, with AI PARTNERS beneath it in small widely letter-spaced monospaced capitals in pine green",
+      "wordmark": [
+        {"text": "ALLIANCE", "family": "Archivo", "style": "Bold", "size": 44, "color": "#16181D", "hscale": 120, "tracking": 60},
+        {"text": "AI PARTNERS", "family": "DM Mono", "style": "Medium", "size": 14, "color": "#285E4B", "tracking": 300}
+      ]
+    },
+    {
+      "rank": 2, "folder": "02-counterpart", "name": "Counterpart",
+      "mark": "an upright rectangular sheet split vertically down the middle by a single zigzag cut with five sharp teeth, the two interlocking halves set slightly apart by a thin white gap, like the two matching halves of one agreement",
+      "colors": ["#17181C", "#A3222B"],
+      "palette_text": "near-black ink #17181C for the left half, seal red #A3222B for the right half",
+      "wordmark_desc": "the word Alliance in a classic bold book serif in ink, with AI Partners beneath it in a clean grotesque sans serif in slate gray",
+      "wordmark": [
+        {"text": "Alliance", "family": "Libre Caslon Text", "style": "Bold", "size": 46, "color": "#17181C"},
+        {"text": "AI Partners", "family": "Familjen Grotesk", "style": "Medium", "size": 18, "color": "#565B64"}
+      ]
+    },
+    {
+      "rank": 3, "folder": "03-interchange", "name": "Interchange",
+      "mark": "an abstract letter A drawn like a metro map: a thick blue line rises diagonally from the bottom left and a thick orange line rises diagonally from the bottom right, both meeting at the apex inside a single white interchange ring with a thick near-black outline, and a short thick green line forms the horizontal crossbar between them; straight segments only, flat line ends",
+      "colors": ["#0072B2", "#D55E00", "#009E73", "#111111"],
+      "palette_text": "blue #0072B2 for one line, orange #D55E00 for the other line, green #009E73 for the crossbar, near-black #111111 for the ring outline",
+      "wordmark_desc": "the words Alliance AI Partners in a bold highway-sign sans serif in near-black, with three thin parallel stripes in blue, green and orange beneath",
+      "wordmark": [
+        {"text": "Alliance AI Partners", "family": "Overpass", "style": "Bold", "size": 30, "color": "#111111"}
+      ]
+    },
+    {
+      "rank": 4, "folder": "04-on-the-level", "name": "On the Level",
+      "mark": "a bubble level seen straight on: a long horizontal rounded rectangle outline with two short vertical marks at its center and a single round bubble resting exactly centered between the two marks, perfectly level and symmetrical",
+      "colors": ["#14181B", "#CDE03C"],
+      "palette_text": "near-black ink #14181B for the outline and marks, lime #CDE03C for the bubble",
+      "wordmark_desc": "the words Alliance AI Partners in a modern geometric sans serif semibold in near-black, sitting on a fine horizontal baseline rule",
+      "wordmark": [
+        {"text": "Alliance AI Partners", "family": "Manrope", "style": "SemiBold", "size": 30, "color": "#14181B"}
+      ]
+    },
+    {
+      "rank": 5, "folder": "05-backstage", "name": "Backstage",
+      "mark": "a capital letter A made of three strips of flat stage tape: two dark strips with diagonally cut ends lean in and meet at the apex, and one short amber strip lies across them as the crossbar, like position marks taped on a stage floor",
+      "colors": ["#121212", "#EDA531"],
+      "palette_text": "black #121212 for the two tape strips, amber #EDA531 for the crossbar strip",
+      "wordmark_desc": "the words Alliance AI Partners in a clean grotesque sans serif semibold in black",
+      "wordmark": [
+        {"text": "Alliance AI Partners", "family": "Onest", "style": "SemiBold", "size": 30, "color": "#121212"}
+      ]
+    },
+    {
+      "rank": 6, "folder": "06-cantilever", "name": "Cantilever",
+      "mark": "a bold geometric capital A whose horizontal crossbar is a solid beam that extends straight out past the right leg into open space, cantilevered and unsupported at its far end, square ends, architectural and solid",
+      "colors": ["#1B1E22", "#266A60"],
+      "palette_text": "dark steel #1B1E22 for the letter, patina green #266A60 for the beam",
+      "wordmark_desc": "the words Alliance AI Partners in a geometric sans serif medium weight in the style of Futura, in dark steel",
+      "wordmark": [
+        {"text": "Alliance AI Partners", "family": "Jost", "style": "Medium", "size": 30, "color": "#1B1E22"}
+      ]
+    },
+    {
+      "rank": 7, "folder": "07-less-but-better", "name": "Less, but Better",
+      "mark": "a lowercase letter a constructed from exactly two separate geometric parts: a perfect solid circle as the bowl and a vertical rounded bar as the stem to its right, separated by a small clear gap like a control knob beside its track",
+      "colors": ["#242423", "#1D7A45"],
+      "palette_text": "charcoal #242423 for the bar, signal green #1D7A45 for the circle",
+      "wordmark_desc": "the word alliance in lowercase neat grotesque sans serif medium in charcoal, followed by AI Partners in a lighter graphite gray",
+      "wordmark": [
+        {"text": "alliance", "family": "Host Grotesk", "style": "Medium", "size": 40, "color": "#242423"},
+        {"text": "AI Partners", "family": "Host Grotesk", "style": "Regular", "size": 18, "color": "#5E5D59"}
+      ]
+    },
+    {
+      "rank": 8, "folder": "08-relay", "name": "Relay",
+      "mark": "an abstract letter A made of two thick parallel diagonal strokes on a 45 degree grid, offset from each other like two runners in a relay handoff zone, with a short bar bridging the strokes as the baton, forming the crossbar; flat, modular, square ends",
+      "colors": ["#13232B", "#177A4C"],
+      "palette_text": "dark night blue #13232B for the strokes, relay green #177A4C for the baton",
+      "wordmark_desc": "the word alliance in lowercase semibold grotesque sans serif in dark night blue, followed by AI Partners in a lighter gray blue",
+      "wordmark": [
+        {"text": "alliance", "family": "Encode Sans", "style": "SemiBold", "size": 40, "color": "#13232B"},
+        {"text": "AI Partners", "family": "Encode Sans", "style": "Regular", "size": 18, "color": "#53636B"}
+      ]
+    }
+  ]
+}
