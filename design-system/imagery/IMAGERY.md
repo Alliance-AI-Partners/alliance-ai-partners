@@ -72,7 +72,7 @@ python brand-kit/tools/generate-website-images.py IMG-07-1     # regenerates one
 
 It needs `google-genai` and `Pillow`, and reads `GEMINI_API_KEY` from the environment or the git-ignored `.env`. In a cloud session, add `generativelanguage.googleapis.com` to the environment's allowed domains first.
 
-**Review, then place them.** Check each image by eye: palette only, no text or letters, nothing the rules forbid, and the calm area where `textArea` says. Then upload it to the Figma file and fill its slots, using the node IDs in `figma`. Switch off each slot's `Show label` property once the image is in.
+**Review, then place them.** Check each image by eye: palette only, no text or letters, nothing the rules forbid, and the calm area where `textArea` says. Then upload it to the Figma file and fill its slots, using the node IDs in `figma`: give each slot instance an image fill (scale mode Fill), then switch off its `Show label` property, which also hides the ribbon hint.
 
 ## Brand graphics with conditions
 

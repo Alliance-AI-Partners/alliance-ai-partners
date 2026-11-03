@@ -89,9 +89,9 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 3. How long the AI check-up takes (`[two weeks]`), and that its call lasts one hour. The hour comes from the brand-kit booking email.
 4. How soon an embedded developer can start (`[two weeks]` after the partner says yes).
 5. How fast we reply to messages (`[one working day]`, Contact page).
-6. The published data policy behind the Data and security page (Brand DNA, Note 6).
-7. The subprocessor list: each provider, what it does, the data it may see, where it runs, and how much notice partners get before a change.
-8. The security contact, the PGP key fingerprint and the response times on the Security disclosure page.
+6. The published data policy behind the Data and security page (Brand DNA, Note 6), and a legal check of the page's four rules, which read like contract terms.
+7. The subprocessor list: each provider, what it does, the data it may see, where it runs, and how much notice partners get before a change. Its three promises about changes (we email you first, we answer an objection before the change goes ahead, we update the page on the day it takes effect) need a contract and legal check.
+8. The security contact (the page shows the sample address security@allianceaipartners.example), the PGP key fingerprint, the response times and the testing scope on the Security disclosure page, plus a legal check of its safe harbor text.
 9. The legal text of the Privacy page, and of the Terms, Cookies and Accessibility pages that share its template. A lawyer should write or review it.
 10. The registered address and company number (`[Registered address]`, `[Company number]`), in the footer and on the legal pages.
 11. The date of the Clutch SEO retainer figure (an average of US$3,199 a month), used on the Grow and Pricing pages. The Brand DNA gives it without a date, so Grow shows `[date to confirm]`.
@@ -104,6 +104,7 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 18. The sample report's pair of placeholders, `[four weeks]` for the first fix's timeline and `[two weeks]` of work for a low-effort fix, so they agree once filled in.
 19. How often the Insights newsletter goes out (`[once a month]` on the newsletter confirmation page).
 20. A link for the Clutch AI development price range (Compare page, source 7). The Brand DNA gives the figure and its date but no URL.
+21. Your working hours (`[9 am to 6 pm]` Manila time, Monday to Friday, on the Questions buyers ask page), and whether to show them in the reader's own time zone.
 
 Every figure on the site carries a source key and a dated source line, from the sources the Brand DNA lists. Recheck them before launch, because prices and statistics change.
 
