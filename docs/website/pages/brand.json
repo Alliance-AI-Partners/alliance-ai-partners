@@ -75,7 +75,7 @@
    "ground": "navy",
    "job": "Put the press essentials first: the downloads, the boilerplate and a person to ask.",
    "desktop": "Navy chapter. Heading/1 head, then two columns: Download rows (628) | boilerplate (Heading/3, Body/LG, a one-line version, Secondary 'Copy the boilerplate') above a hairline and the press contact (Heading/3, Ribbon Cyan underlined email, Body/SM note).",
-   "mobile": "Head; the Download rows (name and meta set to wrap inside the row); the boilerplate at Body/Default with a full-width Secondary copy button; the press contact.",
+   "mobile": "Head; the Download rows (name and meta wrap inside the row, 16 px gap before the action); only the logo kit row has a Download action; the boilerplate at Body/Default with a full-width Secondary copy button; the press contact.",
    "content": {
     "heading": "Press kit.",
     "accentWord": null,
@@ -87,7 +87,7 @@
      },
      {
       "title": "Brand guide",
-      "meta": "PDF · [size]"
+      "meta": "PDF · [size] · To come"
      },
      {
       "title": "Press photos",
@@ -114,7 +114,7 @@
     "Link"
    ],
    "images": [],
-   "note": "The logo kit's size is the real file (brand-kit/downloads/alliance-ai-partners-logo-kit.zip, 942,389 bytes, 90 files: 57 SVG, 30 PNG, an ICO, the webmanifest and a README). The brand guide PDF does not exist yet, so its size stays [size]; press photos are 'To come'."
+   "note": "The logo kit's size is the real file (brand-kit/downloads/alliance-ai-partners-logo-kit.zip, 942,389 bytes, 90 files: 57 SVG, 30 PNG, an ICO, the webmanifest and a README). The brand guide PDF does not exist yet, so its size stays [size]; press photos are 'To come'. The brand guide and press photos rows have no Download action (hidden in the instance) until the files exist; the brand guide reads 'PDF · [size] · To come'. The row's action is the SM Quiet button (36 px): on touch screens make the whole row the link, or give the action a 44 px target, since the component has no Mobile variant."
   },
   {
    "id": "logo",
@@ -122,8 +122,8 @@
    "layout": "gallery-strip",
    "ground": "daylight",
    "job": "Show the logo suite on Daylight and on navy, and the marks for small spaces.",
-   "desktop": "Asymmetric head; two large specimen tiles 648x360 (white with a hairline: Logo/Primary horizontal/Full colour light at 72 px; Partner Navy: Full colour dark), each with a name and the file name in Data/Mono; then a row of four small tiles 312x200 (Mark light and dark, Flat mark light and dark at 64 px), each with a caption.",
-   "mobile": "Head; the two large tiles full width (358x200); the four marks as a 2 x 2 grid of 171x128 tiles.",
+   "desktop": "Asymmetric head; two large specimen tiles 648x360 (white with a hairline: Logo/Primary horizontal/Full colour light; Partner Navy: Full colour dark), the lockup at a 72 px 3D mark (instance 342x113, artwork 300 px wide), each with a name and the file name in Data/Mono; then a row of four small tiles 312x200 (Mark light and dark, Flat mark light and dark, each mark 64 px high; instance 147x101), each with a caption.",
+   "mobile": "Head; the two large tiles full width (358x200), the lockup at a 56 px mark (instance 266x88, artwork 234 px wide); the four marks as a 2 x 2 grid of 171x128 tiles at the 48 px minimum (instance 110x76).",
    "content": {
     "heading": "One logo, two grounds.",
     "accentWord": null,
@@ -164,7 +164,8 @@
      "kind": "vector",
      "source": "Logo components 10:37, 11:37, 13:12, 13:25, 13:6, 13:11 on specimen tiles (never with a shadow)"
     }
-   ]
+   ],
+   "note": "The logo components are the SVG artboards: artwork plus 69 units of clear space on every side (1139x378 lockup, 550x378 mark), so the mark is 240/378 = 0.635 of the instance height and the lockup artwork 1001/1139 of its width. Sizes are set on the artwork: every specimen meets docs/brand-kit/README.md (3D mark 48 px, flat mark 32 px, horizontal lockup 200 px wide)."
   },
   {
    "id": "logo-use",
@@ -172,8 +173,8 @@
    "layout": "bento",
    "ground": "daylight",
    "job": "Show clear space and minimum sizes, and four common mistakes.",
-   "desktop": "Head; two columns: a clear-space diagram (the light logo inside a dashed box with x marked, x = 0.287 x the mark's height) and a minimum-size table (Artwork | Screen | Print, Data/Mono values) | a 2 x 2 grid of 'Don't' tiles with an x-circle icon and a caption: rotated, recoloured, light logo on navy, the name typed in place of the logo.",
-   "mobile": "Head; the diagram; the table as stacked rows; the four Don't tiles as a 2 x 2 grid.",
+   "desktop": "Head; two columns: a clear-space diagram (the light logo at a 72 px mark; the dashed box is the artboard edge, so the gap between it and the artwork is x = 0.287 x 72 = 20.7 px; x squares, 10% Ribbon Cyan tint with a hairline, mark the four corners) and a minimum-size table (Artwork | Screen | Print, Data/Mono values) | a 2 x 2 grid of 302x200 'Don't' tiles with an x-circle icon and a caption: rotated, recolored, light logo on navy, the name typed in place of the logo; each lockup at a 50 px mark so it shows only its one mistake.",
+   "mobile": "Head; the diagram (logo at a 56 px mark, x = 16.1 px squares in the corners); the table as stacked rows; the four Don't tiles as one column of full-width 358x160 tiles, each lockup at the 48 px minimum (228 px instance), because a 171 px tile can't hold the lockup at its minimum.",
    "content": {
     "heading": "Give it room.",
     "accentWord": "room.",
@@ -381,7 +382,7 @@
    ]
   }
  ],
- "notes": "Header marks About as current. The page's one Primary is the logo kit download in the hero (desktop y 478, mobile 354); Copy the boilerplate is Secondary. Images: all existing rasters, presented three ways: the brand board as a framed product visual in the hero split (IMG-32-1), and a mosaic of merch mockups of different sizes (IMG-32-2 tote, IMG-32-3 notebook, IMG-32-4 mug; mobile drops the mug). Logos, marks and colour swatches are real components and bound variables, not images. Specimen tiles are white with a hairline or Partner Navy; they show artwork, not section grounds. The Colours section is a navy chapter so the Ribbon Cyan swatch never sits on a light ground; the Daybreak bar's gradient stops are bound to the Partner Navy, Alliance Blue and Ribbon Cyan variables. Facts: clear space, minimum sizes, colour values (hex, RGB, CMYK) and the Print Black rule come from docs/brand-kit/README.md and palette.json; type sizes from DESIGN.md; the licence from design-system/README.md; the logo kit size from the real file (942,389 bytes). The boilerplate is built from the Brand DNA's 'Who we are' and elevator pitch, and the one-line version is its one-sentence pitch. Placeholders kept: [size] for the brand guide PDF (not made yet), 'To come' for press photos, [one working day] for the press reply time (owner check), and the sample address press@allianceaipartners.example. The four Don't tiles show a rotated logo, a recoloured (grey) logo, the light logo on navy and the name typed in Mona Sans; none adds a shadow or glow. Lint clean on both frames (three long-measure texts narrowed on desktop); no overflow on mobile.",
+ "notes": "Header marks About as current. The page's one Primary is the logo kit download in the hero (desktop y 478, mobile 354); Copy the boilerplate is Secondary. Images: all existing rasters, presented three ways: the brand board as a framed product visual in the hero split (IMG-32-1), and a mosaic of merch mockups of different sizes (IMG-32-2 tote, IMG-32-3 notebook, IMG-32-4 mug; mobile drops the mug). Logos, marks and colour swatches are real components and bound variables, not images. Specimen tiles are white with a hairline or Partner Navy; they show artwork, not section grounds. The Colours section is a navy chapter so the Ribbon Cyan swatch never sits on a light ground; the Daybreak bar's gradient stops are bound to the Partner Navy, Alliance Blue and Ribbon Cyan variables. Facts: clear space, minimum sizes, colour values (hex, RGB, CMYK) and the Print Black rule come from docs/brand-kit/README.md and palette.json; type sizes from DESIGN.md; the licence from design-system/README.md; the logo kit size from the real file (942,389 bytes). The boilerplate is built from the Brand DNA's 'Who we are' and elevator pitch, and the one-line version is its one-sentence pitch. Placeholders kept: [size] for the brand guide PDF (not made yet), 'To come' for press photos, [one working day] for the press reply time (owner check), and the sample address press@allianceaipartners.example. The four Don't tiles show a rotated logo, a recoloured (grey) logo, the light logo on navy and the name typed in Mona Sans; none adds a shadow or glow. Lint clean on both frames (three long-measure texts narrowed on desktop); no overflow on mobile. Reviewed 2026-11-03: every logo specimen was below the brand kit's minimum sizes (the 72 px instance holds a 45.7 px mark and 191 px of artwork) and the clear-space box sat 21 px outside an artboard that already carries x, showing about 2.6 x; both fixed as described per section.",
  "mobileOrder": [
   "hero",
   "press-kit",

@@ -143,7 +143,7 @@ The key is a small boxed numeral in Mona Sans Mono; the targeted source highligh
 
 ## Header and footer
 
-- `.aap-header` is sticky and translucent (86 % Daylight with a blur), fading into the page instead of drawing a hard line. It turns solid under `prefers-reduced-transparency`. Inside it: `.aap-header__bar`, `.aap-header__logo` (36 px tall) and `.aap-nav` with `.aap-nav__link`. The current page (`aria-current="page"`) carries a ribbon underline.
+- `.aap-header` is sticky and translucent (86 % Daylight with a blur), fading into the page instead of drawing a hard line. It turns solid under `prefers-reduced-transparency`. Inside it: `.aap-header__bar`, `.aap-header__logo` (76 px tall with the lockup's built-in clear space, so the 3D mark is 48 px and the artwork 200 px wide, the brand kit's screen minimums) and `.aap-nav` with `.aap-nav__link`. The current page (`aria-current="page"`) carries a ribbon underline.
 - `.aap-footer` sits in a navy chapter (`.aap-surface-inverse`): `.aap-footer__grid` (2:1:1:1, two columns on tablets, one on phones), `.aap-footer__heading`, `.aap-footer__list`, `.aap-footer__base`.
 
 ## Motion

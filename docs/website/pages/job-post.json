@@ -134,7 +134,7 @@
       "text": "A decision within [one week], either way."
      }
     ],
-    "note": "Sample process."
+    "note": "Sample process. A real job post confirms its own steps and times."
    },
    "components": [
     "Card",
@@ -252,5 +252,6 @@
   "role",
   "how-we-work",
   "apply"
- ]
+ ],
+ "review": "Reviewed 2026-11-03: lint clean on both frames. The aside note read 'Each job post confirms its own steps and times' on the job post itself; it now says a real job post confirms them."
 }

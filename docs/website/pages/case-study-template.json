@@ -248,7 +248,8 @@
    "figma": {
     "desktop": "97:210",
     "mobile": "97:1087"
-   }
+   },
+   "note": "Keep the approved quote to one or two sentences, about 25 words. It is set in Display/LG (Expanded), which fits about 26 characters a line at 1000 px and about 11 on a phone, so a 25-word quote already runs to about six lines on desktop and over a dozen on mobile. If a partner’s approved quote is longer, set it in Heading/1 and keep Display/LG for short quotes (a design-system decision still to make)."
   },
   {
    "id": "related-services",

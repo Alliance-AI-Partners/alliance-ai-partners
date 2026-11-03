@@ -249,7 +249,7 @@
    "ground": "daylight",
    "job": "List the roles as Job rows, marked as samples until real roles exist.",
    "desktop": "Section head, then four Job rows (1320) with hairlines, then a line pointing to the talent list.",
-   "mobile": "Moves up to follow the hero. Head, then the Job rows at full width (the title wraps beside the link), then the talent-list line.",
+   "mobile": "Moves up to follow the hero. Head, then the Job rows at full width: the title and meta wrap in the left column with a 24 px gap before the 'View the role' link (the Job row has no Mobile variant and an instance can't change its direction; in code the link stacks under the text below md), then the talent-list line.",
    "content": {
     "heading": "Open roles.",
     "accentWord": null,
@@ -330,7 +330,7 @@
    "ground": "daylight",
    "job": "Close by taking the reader onto the talent list, with consent.",
    "desktop": "Split: text column 560 (Display/LG closing title, Body/LG lead, privacy link) | white form card (name and email side by side, select, links, consent, Primary LG).",
-   "mobile": "Title, lead, then the form card at full width with every field stacked and the Primary full width LG; the privacy line under the card.",
+   "mobile": "Title, lead, then the form card at full width with every field stacked and the Primary full width LG; the privacy line under the card. The email field carries no help text, because the lead already says we email you when a role opens.",
    "content": {
     "heading": "Hear first when a role opens.",
     "accentWord": "first",
@@ -347,7 +347,6 @@
        "label": "Email",
        "type": "email",
        "placeholder": "name@example.com",
-       "help": "We email you when a role that fits opens.",
        "required": true
       },
       {
@@ -387,7 +386,7 @@
    "images": []
   }
  ],
- "notes": "Header marks About as current (Careers sits with the company pages). Every promise comes from the Brand DNA: the four values and their bullets, the four steps, the review and weekly-progress commitments, the honest-pricing line about cheaper fixes, and the vision of engineers, designers and marketers. Nothing is invented: the team is four Person tiles with [Name] / [Role] and Photo to come; every role is marked 'Sample role'; the hiring process is marked as a sample with [30-minute] and [one week] placeholders (owner check). One Primary in the hero and one in the closing form (y 659 and 6368 on desktop; 457 and 8216 on mobile). The ribbon signature appears once (the Ribbon rule under the hiring steps; vertical on mobile). Images: two new slots, a hero split (IMG-30-1) and an image inside the large bento card (IMG-30-2). Grounds: Daylight hero, Daylight values, navy how-we-work, Daylight learning, team and roles, navy hiring, Daylight talent list, navy footer. Lint clean on both frames; no horizontal overflow on mobile. The Job row has no Mobile variant: on mobile its title and meta are set to fill and wrap beside the link.",
+ "notes": "Header marks About as current (Careers sits with the company pages). Every promise comes from the Brand DNA: the four values and their bullets, the four steps, the review and weekly-progress commitments, the honest-pricing line about cheaper fixes, and the vision of engineers, designers and marketers. Nothing is invented: the team is four Person tiles with [Name] / [Role] and Photo to come; every role is marked 'Sample role'; the hiring process is marked as a sample with [30-minute] and [one week] placeholders (owner check). One Primary in the hero and one in the closing form (y 659 and 6368 on desktop; 457 and 8190 on mobile). The ribbon signature appears once (the Ribbon rule under the hiring steps; vertical on mobile). Images: two new slots, a hero split (IMG-30-1) and an image inside the large bento card (IMG-30-2). Grounds: Daylight hero, Daylight values, navy how-we-work, Daylight learning, team and roles, navy hiring, Daylight talent list, navy footer. Lint clean on both frames; no horizontal overflow on mobile. The Job row has no Mobile variant: on mobile its title and meta are set to fill and wrap beside the link.",
  "mobileOrder": [
   "hero",
   "roles",
@@ -397,5 +396,6 @@
   "hiring",
   "team",
   "talent-list"
- ]
+ ],
+ "review": "Reviewed 2026-11-03: lint clean on both frames. Mobile Job rows had a 12 px gap between the wrapped title and the link, now 24 px. The mobile email help repeated the lead and was not on desktop; removed."
 }

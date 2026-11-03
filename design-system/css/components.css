@@ -943,9 +943,14 @@ a.aap-card:hover {
   min-height: 72px;
 }
 
+/* The lockup SVG keeps its clear space (0.287 x the mark) inside its viewBox. At 76 px tall the 3D mark is 48 px high and the
+   artwork 200 px wide, the brand kit's screen minimums; the negative margins let that clear space overlap the bar's padding,
+   so the artwork lines up with the content edge and the bar stays 72 px tall. */
 .aap-header__logo {
   display: block;
-  height: 36px;
+  height: 76px;
+  margin-block: -14px;
+  margin-inline-start: -14px;
 }
 
 .aap-nav {

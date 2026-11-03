@@ -6,7 +6,7 @@ The Alliance AI Partners website is designed in Figma, page by page, at desktop 
 |---|---|
 | [pages/](pages/) | One record per page: its route, purpose, single primary action, SEO title and description, each section's job, layout, draft copy and images, and the IDs of its Figma frames |
 | [toolkit/](toolkit/) | The code that built the pages (`pagekit.js`) and checks them (`lint.js`), a file of patterns (`example.js`), and the briefs the build and review agents followed |
-| `design-system/imagery/website/manifest.json` | Every image slot: its prompt or repository file, sizes, alt text and Figma node IDs (see `design-system/imagery/IMAGERY.md`) |
+| `design-system/imagery/website/manifest.json` | Every image slot: its prompt or repository file, sizes, alt text and Figma node IDs (see `design-system/imagery/IMAGERY.md`). The Figma file's Image slots page shows the same list, with every prompt in full |
 
 Figma holds the final copy. Where a page record's draft copy differs from Figma, Figma wins.
 
@@ -85,7 +85,7 @@ Follow [toolkit/build-brief.md](toolkit/build-brief.md) for the rules and [toolk
 The pages use only facts from the Brand DNA. Where a fact is missing, they show a placeholder in square brackets, such as `[PRICE]`. These need an answer from Alliance AI Partners before the site goes live:
 
 1. Every `[PRICE]`, in each currency, and the notice period for monthly plans (`[30]` days). Brand DNA section 6 holds the price rules.
-2. How hiring an embedded developer works. The Embedded developers page says we recruit and test candidates, the partner interviews the ones we put forward and chooses, and gets "a shortlist to interview". The Brand DNA doesn't describe this process yet.
+2. How hiring an embedded developer works: whether we test candidates, and whether the partner interviews a shortlist and chooses. The Brand DNA doesn't describe the process, so the Embedded developers page now says only what it supports; confirm the steps before adding them back.
 3. How long the AI check-up takes (`[two weeks]`), and that its call lasts one hour. The hour comes from the brand-kit booking email.
 4. How soon an embedded developer can start (`[two weeks]` after the partner says yes).
 5. How fast we reply to messages (`[one working day]`, Contact page).
@@ -114,6 +114,7 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 28. For the digital business card: the LinkedIn profile (`[profile]`), the contact-card and booking links, and a real QR code once the domain exists.
 29. The four case-study rules on the Case studies page (real partners only, their own numbers, a source and a date for every result, and nothing published before the partner approves every word, figure and quote), as policy.
 30. The claim that Alliance AI Partners costs less than other AI firms, as the sample article ("Two things let Alliance AI Partners charge less than most AI firms."), the Pricing page ("Two reasons we cost less.") and Why the Philippines put it. It is Brand DNA wording, but the Brand DNA's own rules say a price comparison must be backed in all three markets before it is published.
+31. The seven honest-pricing promises, which the Brand DNA (section 6) says to confirm before they go on the website. Pricing shows them word for word, and the case study template repeats two of them.
 
 Every figure on the site carries a source key and a dated source line, from the sources the Brand DNA lists. Recheck them before launch, because prices and statistics change.
 
@@ -125,6 +126,9 @@ Every figure on the site carries a source key and a dated source line, from the 
 - Headings are balanced in code (`text-wrap: balance`, in the design system's base layer). In Figma the line breaks were set by hand, so they may differ slightly in the browser.
 - Text over an image sits on a Partner Navy scrim that holds at least 82 % under every line (`design-system/imagery/image-overlays.css`), so it passes AA whatever the image.
 - Keep `/case-studies` out of the main navigation and footer until the first approved case study exists.
-- Job rows and Download rows have no mobile variant in Figma; on mobile their text wraps under the title. In code, stack the link under the text below the `md` breakpoint.
+- Job rows and Download rows have no mobile variant in Figma, so on mobile the wrapped title sits beside its link. In code, stack the link under the text below the `md` breakpoint.
 - The footer is the site map: Services, Company (including Why the Philippines and Insights), Who we work with (the three country pages and For agencies) and Trust (including Subprocessors and Security).
 - Site copy uses American spelling, as the Brand DNA does (color, canceling, harbor). Design notes in the page records follow DESIGN.md's British spelling.
+- The header and footer show the lockup at the brand kit's screen minimum: a 48 px 3D mark and 200 px of artwork. The SVG carries its clear space inside its viewBox, so `.aap-header__logo` is 76 px tall with negative margins that let the clear space overlap the bar's padding.
+- A Download row's action is a 36 px button in Figma. In code, make the whole row the link, or give the action a 44 px touch target.
+- Partner quotes on case studies are set in Display/LG, which fits about 26 characters a line on desktop. Keep approved quotes to one or two sentences, or set a longer quote in Heading/1.
