@@ -4,42 +4,79 @@
   "phase": "Launch",
   "route": "404: any unknown path (app/not-found.tsx) · Error: any route that fails (app/error.tsx) · Newsletter confirmed: /insights/subscribed (the link in the double opt-in email)",
   "purpose": "Three short pages that catch a visitor when something is missing, broken or just finished, say plainly what happened, and give a kind way back to the home page or the AI check-up.",
-  "primaryAction": { "label": "Go to the home page", "target": "/ (404 and error); the newsletter page's Primary is 'See where AI can help' to /ai-check-up" },
+  "primaryAction": {
+    "label": "Go to the home page",
+    "target": "/ (404 and error); the newsletter page's Primary is 'See where AI can help' to /ai-check-up"
+  },
   "seo": {
     "title": "Page not found | Alliance AI Partners · Something went wrong | Alliance AI Partners · You’re subscribed to Insights | Alliance AI Partners",
     "description": "System pages are noindex. 404 and error return their status codes (404, 500); the newsletter page is reached only from the confirmation email."
   },
-  "states": ["404", "error", "newsletter confirmed"],
+  "states": [
+    "404",
+    "error",
+    "newsletter confirmed"
+  ],
   "pages": [
     {
       "id": "not-found",
       "name": "404",
       "route": "any unknown path (app/not-found.tsx, HTTP 404)",
-      "seo": { "title": "Page not found | Alliance AI Partners", "robots": "noindex" },
-      "primaryAction": { "label": "Go to the home page", "target": "/" }
+      "seo": {
+        "title": "Page not found | Alliance AI Partners",
+        "robots": "noindex"
+      },
+      "primaryAction": {
+        "label": "Go to the home page",
+        "target": "/"
+      },
+      "frames": {
+        "desktop": "64:1428",
+        "mobile": "64:1596"
+      }
     },
     {
       "id": "error",
       "name": "Error",
       "route": "any route that fails (app/error.tsx inside the root layout, HTTP 500)",
-      "seo": { "title": "Something went wrong | Alliance AI Partners", "robots": "noindex" },
-      "primaryAction": { "label": "Go to the home page", "target": "/" }
+      "seo": {
+        "title": "Something went wrong | Alliance AI Partners",
+        "robots": "noindex"
+      },
+      "primaryAction": {
+        "label": "Go to the home page",
+        "target": "/"
+      },
+      "frames": {
+        "desktop": "64:4882",
+        "mobile": "64:5056"
+      }
     },
     {
       "id": "newsletter-confirmed",
       "name": "Newsletter confirmed",
       "route": "/insights/subscribed",
-      "seo": { "title": "You’re subscribed to Insights | Alliance AI Partners", "robots": "noindex" },
-      "primaryAction": { "label": "See where AI can help", "target": "/ai-check-up" }
+      "seo": {
+        "title": "You’re subscribed to Insights | Alliance AI Partners",
+        "robots": "noindex"
+      },
+      "primaryAction": {
+        "label": "See where AI can help",
+        "target": "/ai-check-up"
+      },
+      "frames": {
+        "desktop": "65:732",
+        "mobile": "65:898"
+      }
     }
   ],
   "frames": {
-    "404Desktop": "TBD",
-    "404Mobile": "TBD",
-    "errorDesktop": "TBD",
-    "errorMobile": "TBD",
-    "newsletterDesktop": "TBD",
-    "newsletterMobile": "TBD"
+    "404Desktop": "64:1428",
+    "404Mobile": "64:1596",
+    "errorDesktop": "64:4882",
+    "errorMobile": "64:5056",
+    "newsletterDesktop": "65:732",
+    "newsletterMobile": "65:898"
   },
   "canvas": "One Figma page, one row per system page: desktop at x 0, mobile at x 1600. Rows at y 0 (404), y 2800 (error) and y 5600 (newsletter confirmed). The brief suggested rows 1600 apart, but a mobile system page with the full mobile footer (1231 px) is about 2300 px tall, so rows 1600 apart would overlap.",
   "sections": [
@@ -58,18 +95,48 @@
         "meta": "Error 404 · Page not found",
         "lead": "The link may be out of date, or the page may have moved. Start again from the home page, or tell us what you were looking for and we’ll send you the right link.",
         "ctas": [
-          { "label": "Go to the home page", "variant": "primary", "target": "/" },
-          { "label": "Contact us", "variant": "secondary", "target": "/contact" }
+          {
+            "label": "Go to the home page",
+            "variant": "primary",
+            "target": "/"
+          },
+          {
+            "label": "Contact us",
+            "variant": "secondary",
+            "target": "/contact"
+          }
         ],
         "items": [
-          { "title": "Or go straight to", "text": "label above the links (not a heading)" },
-          { "title": "Services", "link": "/services" },
-          { "title": "Pricing", "link": "/pricing" },
-          { "title": "AI check-up", "link": "/ai-check-up" },
-          { "title": "Questions buyers ask", "link": "/faq" }
+          {
+            "title": "Or go straight to",
+            "text": "label above the links (not a heading)"
+          },
+          {
+            "title": "Services",
+            "link": "/services"
+          },
+          {
+            "title": "Pricing",
+            "link": "/pricing"
+          },
+          {
+            "title": "AI check-up",
+            "link": "/ai-check-up"
+          },
+          {
+            "title": "Questions buyers ask",
+            "link": "/faq"
+          }
         ]
       },
-      "components": ["Header", "Button (Primary LG)", "Button (Secondary LG)", "Link", "Graphic/Swallow", "Footer"],
+      "components": [
+        "Header",
+        "Button (Primary LG)",
+        "Button (Secondary LG)",
+        "Link",
+        "Graphic/Swallow",
+        "Footer"
+      ],
       "images": [
         {
           "kind": "vector",
@@ -91,25 +158,59 @@
       "ground": "daylight",
       "job": "Own the problem in plain words, give the reader a retry and a way home, and put a person within reach even if other pages fail to load.",
       "desktop": "Split, top half text-led (padding 96 top, 128 bottom): text column 652 (Display/LG title that breaks after 'wrong', mono meta with the error code and a request reference, a 240 px ribbon rule, Body/LG lead at 560, Primary LG 'Go to the home page' + Secondary LG 'Try again'); a white card on the right (fill, 32 padding) with 'If it keeps happening' (Heading/4), a Body/SM line asking for the reference, three hairline rows (icon, label, value: email, phone, hours) and the sample caption. The contact details sit on the page itself because /contact may be failing too.",
-      "mobile": "Title, meta, a 160 px ribbon rule, lead, full-width LG Primary and full-width LG Secondary, then the card full width (24 padding) with the rows stacked label over value.",
+      "mobile": "Title (Display/LG) set in three phrase-true lines 'Something / went wrong / on our side.' (balanced wrapping), meta, a 160 px ribbon rule, lead, full-width LG Primary and full-width LG Secondary, then the card full width (24 padding) with the rows stacked label over value.",
       "content": {
         "heading": "Something went wrong on our side.",
         "accentWord": null,
         "meta": "Error 500 · Reference [request ID]",
         "lead": "It’s not something you did. Wait a minute, then try again. If it keeps happening, tell us what you were doing and we’ll fix it.",
         "ctas": [
-          { "label": "Go to the home page", "variant": "primary", "target": "/" },
-          { "label": "Try again", "variant": "secondary", "target": "reload the same URL (reset() in error.tsx)" }
+          {
+            "label": "Go to the home page",
+            "variant": "primary",
+            "target": "/"
+          },
+          {
+            "label": "Try again",
+            "variant": "secondary",
+            "target": "reload the same URL (reset() in error.tsx)"
+          }
         ],
         "items": [
-          { "title": "If it keeps happening", "text": "Send us the reference above and we’ll find the problem faster." },
-          { "title": "Email", "text": "hello@allianceaipartners.example", "link": "mailto:hello@allianceaipartners.example" },
-          { "title": "Phone", "text": "+1 202 555 0147", "link": "tel:+12025550147" },
-          { "title": "Hours", "text": "[9 am to 6 pm] Manila time, Monday to Friday" }
+          {
+            "title": "If it keeps happening",
+            "text": "Send us the reference above and we’ll find the problem faster."
+          },
+          {
+            "title": "Email",
+            "text": "hello@allianceaipartners.example",
+            "link": "mailto:hello@allianceaipartners.example"
+          },
+          {
+            "title": "Phone",
+            "text": "+1 202 555 0147",
+            "link": "tel:+12025550147"
+          },
+          {
+            "title": "Hours",
+            "text": "[9 am to 6 pm] Manila time, Monday to Friday"
+          }
         ],
-        "body": ["Sample email and phone until launch."]
+        "body": [
+          "Sample email and phone until launch."
+        ]
       },
-      "components": ["Header", "Button (Primary LG)", "Button (Secondary LG)", "Ribbon rule", "Card", "Icon/mail", "Icon/phone", "Icon/clock", "Footer"],
+      "components": [
+        "Header",
+        "Button (Primary LG)",
+        "Button (Secondary LG)",
+        "Ribbon rule",
+        "Card",
+        "Icon/mail",
+        "Icon/phone",
+        "Icon/clock",
+        "Footer"
+      ],
       "images": [
         {
           "kind": "vector",
@@ -130,26 +231,57 @@
       "layout": "split-sticky",
       "ground": "daylight",
       "job": "Confirm the subscription, say what Insights is and what will arrive, and offer the AI check-up as the next step.",
-      "desktop": "Split (padding 96 top, 128 bottom): text column 652 (Display/LG title with one accent word, Body/LG lead at 560, a Body/SM line naming the address, Primary LG + Secondary LG); a white 'What to expect' card on the right (fill) with the ribbon rule along its top edge, echoing the ribbon rule under the header of the Insights email, then Heading/3 and four hairline rows (UI/Label 152 | Body/Default) and the sample caption.",
-      "mobile": "Title (breaks after 'subscribed'), lead, address line, full-width LG Primary and full-width LG Secondary, then the card full width with the rule on top and each row stacked label over text.",
+      "desktop": "Split (padding 96 top, 128 bottom): text column 652 (Display/LG title over two lines, ‘You’re subscribed / to Insights.’, with one accent word, Body/LG lead at 560, a Body/SM line naming the address, Primary LG + Secondary LG); a white 'What to expect' card on the right (fill) with the ribbon rule along its top edge, echoing the ribbon rule under the header of the Insights email, then Heading/3 and four hairline rows (UI/Label 152 | Body/Default) and the sample caption.",
+      "mobile": "Title in three phrase-true lines 'You’re / subscribed / to Insights.' (balanced wrapping, the accent kept on 'Insights.'), lead, address line, full-width LG Primary and full-width LG Secondary, then the card full width with the rule on top and each row stacked label over text.",
       "content": {
         "heading": "You’re subscribed to Insights.",
         "accentWord": "Insights.",
         "lead": "Thanks for confirming. Insights is one short email [once a month] on putting AI to work: where to start, when AI isn’t the answer, and what things really cost.",
         "meta": "We’ll send it to [email address].",
         "ctas": [
-          { "label": "See where AI can help", "variant": "primary", "target": "/ai-check-up" },
-          { "label": "Read the latest insights", "variant": "secondary", "target": "/insights" }
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "Read the latest insights",
+            "variant": "secondary",
+            "target": "/insights"
+          }
         ],
         "items": [
-          { "title": "In each issue", "text": "One main story, two short ones and one figure with its source and date." },
-          { "title": "How often", "text": "[Once a month], from hello@allianceaipartners.example. Add it to your contacts so Insights doesn’t land in spam." },
-          { "title": "Your email", "text": "We use it to send Insights. Our privacy notice explains the rest.", "link": "/privacy" },
-          { "title": "Changing your mind", "text": "Use the unsubscribe link at the bottom of any issue." }
+          {
+            "title": "In each issue",
+            "text": "One main story, two short ones and one figure with its source and date."
+          },
+          {
+            "title": "How often",
+            "text": "[Once a month], from hello@allianceaipartners.example. Add it to your contacts so Insights doesn’t land in spam."
+          },
+          {
+            "title": "Your email",
+            "text": "We use it to send Insights. Our privacy notice explains the rest.",
+            "link": "/privacy"
+          },
+          {
+            "title": "Changing your mind",
+            "text": "Use the unsubscribe link at the bottom of any issue."
+          }
         ],
-        "body": ["Sample address until launch."]
+        "body": [
+          "Sample address until launch."
+        ]
       },
-      "components": ["Header", "Button (Primary LG)", "Button (Secondary LG)", "Card", "Ribbon rule", "Link", "Footer"],
+      "components": [
+        "Header",
+        "Button (Primary LG)",
+        "Button (Secondary LG)",
+        "Card",
+        "Ribbon rule",
+        "Link",
+        "Footer"
+      ],
       "images": [
         {
           "kind": "vector",

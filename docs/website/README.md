@@ -95,5 +95,11 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 9. The legal text of the Privacy page, and of the Terms, Cookies and Accessibility pages that share its template. A lawyer should write or review it.
 10. The registered address and company number (`[Registered address]`, `[Company number]`), in the footer and on the legal pages.
 11. The date of the Clutch SEO retainer figure (an average of US$3,199 a month), used on the Grow and Pricing pages. The Brand DNA gives it without a date, so Grow shows `[date to confirm]`.
+12. That an agency keeps its own client relationship (For agencies page: "The client relationship stays yours"). It follows from the Brand DNA's white-label line but isn't written there.
 
 Every figure on the site carries a source key and a dated source line, from the sources the Brand DNA lists. Recheck them before launch, because prices and statistics change.
+
+## Notes for building the site in code
+
+- The Contact form reads a `service` query parameter to preselect the topic, for example `/contact?service=embedded-developers` or `/contact?service=white-label`.
+- The time-zone clocks are live on the site. The mock-ups show one sample moment in November (Manila 9:41 am, Sydney 12:41 pm, New York 8:41 pm the day before, London 1:41 am); the United Kingdom page shows Manila 4:41 pm and London 8:41 am to match its headline.

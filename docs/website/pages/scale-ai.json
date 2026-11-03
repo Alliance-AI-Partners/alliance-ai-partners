@@ -1,406 +1,406 @@
 {
- "slug": "scale-ai",
- "figmaPage": "04 · Scale AI",
- "phase": "Launch",
- "route": "/services/scale-ai",
- "purpose": "Show a founder everything it takes to use AI across the company (strategy, training, software, operations, robotics, people) and that one team does all of it, starting small.",
- "primaryAction": {
-  "label": "See where AI can help",
-  "target": "/ai-check-up"
- },
- "seo": {
-  "title": "Scale AI | Alliance AI Partners",
-  "description": "Strategy, training, software, AI operations, robotics and embedded teams from Alliance AI Partners. Start small with the AI check-up and scale what works."
- },
- "states": [
-  "default"
- ],
- "frames": {
-  "desktop": "43:3189",
-  "mobile": "43:5227"
- },
- "sections": [
-  {
-   "id": "hero",
-   "name": "Hero",
-   "layout": "hero-split-image",
-   "ground": "daylight",
-   "job": "Promise the whole AI team without the hiring, and offer the one committing action.",
-   "desktop": "Split 1.08fr | 1fr: text left (Display/XL, Body/LG lead 560, Primary LG + link, caption with the check-up price); image right 604x560.",
-   "mobile": "Title, lead, full-width Primary, link, then the image re-cropped to 4:5 (358x448), then the caption.",
-   "content": {
-    "heading": "Scale AI without hiring a department.",
-    "accentWord": "department.",
-    "lead": "We plan where AI pays off first, build the software, train your people and keep it all running. You add the parts you need, when you need them.",
-    "body": [
-     "Our usual first project is the AI check-up, from [PRICE]."
-    ],
-    "ctas": [
-     {
-      "label": "See where AI can help",
-      "variant": "primary",
-      "target": "/ai-check-up"
-     },
-     {
-      "label": "See the six areas",
-      "variant": "link",
-      "target": "#areas"
-     }
-    ]
-   },
-   "components": [
-    "Header",
-    "Button",
-    "Link",
-    "Image slot"
-   ],
-   "images": [
+  "slug": "scale-ai",
+  "figmaPage": "04 · Scale AI",
+  "phase": "Launch",
+  "route": "/services/scale-ai",
+  "purpose": "Show a founder everything it takes to use AI across the company (strategy, training, software, operations, robotics, people) and that one team does all of it, starting small.",
+  "primaryAction": {
+    "label": "See where AI can help",
+    "target": "/ai-check-up"
+  },
+  "seo": {
+    "title": "Scale AI | Alliance AI Partners",
+    "description": "Strategy, training, software, AI operations, robotics and embedded teams from Alliance AI Partners. Start small with the AI check-up and scale what works."
+  },
+  "states": [
+    "default"
+  ],
+  "frames": {
+    "desktop": "43:3189",
+    "mobile": "43:5227"
+  },
+  "sections": [
     {
-     "imageId": "IMG-04-1",
-     "slotName": "IMG-04-1 · Growing flock",
-     "kind": "new",
-     "aspectDesktop": "604x560 (about 1:1)",
-     "aspectMobile": "358x448 (4:5)",
-     "placement": "right half of the hero split; under the actions on mobile",
-     "textArea": "none (text sits beside the image)",
-     "alt": "Faceted swallows flying in a widening formation along a satin ribbon current.",
-     "source": "Editorial illustration on a soft Daylight sky, nearly square, safe to crop to 4:5. A flock of swallows built from flat paper facets in Partner Navy and slate blue flies in a widening V formation along a satin ribbon current that sweeps from the lower left to the upper right in a gradient from Alliance Blue to Ribbon Cyan. Three birds lead at the lower left and the formation grows to many birds toward the upper right, every bird holding its place: AI growing across a whole company, with one team flying together. Below, low faceted hills at daybreak in pale blues. Calm open sky in the upper left quarter. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
-    }
-   ]
-  },
-  {
-   "id": "areas",
-   "name": "Six areas",
-   "layout": "list-rows",
-   "ground": "daylight",
-   "job": "List the six categories with every service and what it means, from the Brand DNA.",
-   "desktop": "Asymmetric head, then six category rows separated by hairlines: left column 520 (service icon, Heading/3, one-line summary), right column hairline list of services (Body/Strong name, Body/SM meaning, mono starting price or a Not available yet tag).",
-   "mobile": "Head stacked, then six accordion items; the first (Strategy and leadership) open with its summary and its four services listed.",
-   "content": {
-    "heading": "Everything it takes to scale AI.",
-    "lead": "Strategy, training, software, operations, robotics and people. Start with the part you need most and add the rest over time.",
-    "items": [
-     {
-      "title": "AI strategy and roadmap",
-      "text": "We find where AI can save or make the most money, then plan what to do first.",
-      "meta": "Strategy and leadership"
-     },
-     {
-      "title": "AI check-up",
-      "text": "Our usual first project: a short review of where AI could save you time or money.",
-      "meta": "Strategy and leadership",
-      "price": "From [PRICE]"
-     },
-     {
-      "title": "Fractional Chief AI Officer",
-      "text": "An experienced AI leader who works with your leadership team part time.",
-      "meta": "Strategy and leadership"
-     },
-     {
-      "title": "AI governance and compliance",
-      "text": "Clear AI policies, and help following AI laws such as the EU AI Act.",
-      "meta": "Strategy and leadership"
-     },
-     {
-      "title": "AI training and workshops",
-      "text": "Hands-on sessions that teach your team to use AI in their daily work.",
-      "meta": "Training and adoption"
-     },
-     {
-      "title": "AI assistant rollout",
-      "text": "We set up ChatGPT, Claude, Microsoft Copilot, or Gemini across your company, with the right security settings.",
-      "meta": "Training and adoption"
-     },
-     {
-      "title": "AI in tools you already pay for",
-      "text": "Many tools, like Salesforce and HubSpot, include AI features. We turn them on and set them up properly.",
-      "meta": "Training and adoption"
-     },
-     {
-      "title": "AI software engineering and web development",
-      "text": "Custom software and websites with AI built in.",
-      "meta": "Software and product engineering",
-      "price": "Websites from [PRICE]"
-     },
-     {
-      "title": "MVPs and prototypes",
-      "text": "A working first version of a new product, ready to test with real users.",
-      "meta": "Software and product engineering"
-     },
-     {
-      "title": "Mobile apps",
-      "text": "iPhone and Android apps with AI features.",
-      "meta": "Software and product engineering"
-     },
-     {
-      "title": "AI features for your product",
-      "text": "We add AI to software you already have, such as smart search or an in-app assistant.",
-      "meta": "Software and product engineering"
-     },
-     {
-      "title": "SaaS products",
-      "text": "We build and launch subscription software with AI at its core.",
-      "meta": "Software and product engineering"
-     },
-     {
-      "title": "Fixing AI-built apps",
-      "text": "Apps built quickly with AI coding tools, made secure and stable enough for real customers.",
-      "meta": "Software and product engineering"
-     },
-     {
-      "title": "Legacy system updates",
-      "text": "We use AI to speed up rewriting and updating old systems.",
-      "meta": "Software and product engineering"
-     },
-     {
-      "title": "AI connectors (MCP)",
-      "text": "Your company’s tools, connected to AI assistants like ChatGPT and Claude so they can look things up and take actions safely.",
-      "meta": "Software and product engineering"
-     },
-     {
-      "title": "AI-as-a-Service",
-      "text": "We build AI tools and run them for you on a subscription.",
-      "meta": "Running AI for you"
-     },
-     {
-      "title": "Managed AI operations",
-      "text": "We monitor your AI systems and agents and keep their costs in check.",
-      "meta": "Running AI for you"
-     },
-     {
-      "title": "Private AI",
-      "text": "AI models that run on your own servers or private cloud, so sensitive data stays in-house.",
-      "meta": "Running AI for you",
-      "tag": "Not available yet"
-     },
-     {
-      "title": "Custom model training",
-      "text": "AI models trained on your own data, so they understand your business.",
-      "meta": "Running AI for you"
-     },
-     {
-      "title": "AI testing and quality checks",
-      "text": "Accuracy testing before and after launch, so you can rely on the answers.",
-      "meta": "Running AI for you"
-     },
-     {
-      "title": "AI robotics",
-      "text": "We bring AI into robots and machines so they can handle more tasks on their own.",
-      "meta": "Robotics and physical AI"
-     },
-     {
-      "title": "Computer vision",
-      "text": "Cameras and AI that check product quality or spot safety risks.",
-      "meta": "Robotics and physical AI"
-     },
-     {
-      "title": "Predictive maintenance",
-      "text": "Sensors and AI that warn you before a machine breaks down.",
-      "meta": "Robotics and physical AI"
-     },
-     {
-      "title": "Warehouse and logistics automation",
-      "text": "AI and robots that speed up picking and packing.",
-      "meta": "Robotics and physical AI"
-     },
-     {
-      "title": "Digital twins",
-      "text": "A live virtual model of a factory or process, for testing changes before making them for real.",
-      "meta": "Robotics and physical AI"
-     },
-     {
-      "title": "Agency services",
-      "text": "We take on whole projects as your agency, from planning to launch.",
-      "meta": "Talent and teams"
-     },
-     {
-      "title": "Embedded developers (developer staffing)",
-      "text": "Our developers join your team and work inside it, with all of Alliance AI Partners behind them.",
-      "meta": "Talent and teams",
-      "price": "From [PRICE] a month"
-     },
-     {
-      "title": "Dedicated AI teams",
-      "text": "A full team of engineers, designers, and a project lead, working only on your product.",
-      "meta": "Talent and teams"
-     },
-     {
-      "title": "AI-powered virtual assistants",
-      "text": "A trained assistant who uses AI tools to manage your inbox, calendar, and research.",
-      "meta": "Talent and teams"
-     },
-     {
-      "title": "White-label services for agencies",
-      "text": "We deliver AI projects under your agency’s brand, so you can offer AI without hiring.",
-      "meta": "Talent and teams"
-     }
-    ]
-   },
-   "components": [
-    "Service icon/Mono",
-    "Tag",
-    "Accordion item (mobile)"
-   ],
-   "images": []
-  },
-  {
-   "id": "engagement",
-   "name": "How it runs",
-   "layout": "steps",
-   "ground": "navy",
-   "job": "Show how a Scale AI engagement runs in four steps, and what the partner sees every month.",
-   "desktop": "Navy chapter. Asymmetric head (Heading/1), the Steps component with Scale AI wording, then a split: text and check list left 560, the framed monthly report preview right (640x480, top of the email).",
-   "mobile": "Head stacked, Steps (mobile variant), text and list, then the report preview re-cropped to 4:5 with its caption.",
-   "content": {
-    "heading": "Start small. Scale what works.",
-    "accentWord": "works.",
-    "lead": "Every engagement follows the same four steps. The first project is small, so you can judge the work before you commit to more. A person reviews every piece of work.",
-    "items": [
-     {
-      "title": "Understand",
-      "text": "We learn how each team works and where AI could save the most time or money."
-     },
-     {
-      "title": "Plan",
-      "text": "We agree what success looks like, using your own numbers, and pick what to do first."
-     },
-     {
-      "title": "Build",
-      "text": "We build the tools, set up the AI you already pay for and train your people to use it."
-     },
-     {
-      "title": "Run and grow",
-      "text": "We keep it running, keep costs in check and add the next project when you’re ready."
-     }
-    ],
-    "body": [
-     "You see progress every week, and every month a written report: what shipped, what changed, what AI usage cost and the plan for next month.",
-     "AI usage passed on at cost, with each provider’s usage report attached.",
-     "Monthly plans you can cancel with [30] days’ notice.",
-     "You own what we build."
-    ]
-   },
-   "components": [
-    "Steps",
-    "Image slot"
-   ],
-   "images": [
+      "id": "hero",
+      "name": "Hero",
+      "layout": "hero-split-image",
+      "ground": "daylight",
+      "job": "Promise the whole AI team without the hiring, and offer the one committing action.",
+      "desktop": "Split 1.08fr | 1fr: text left (Display/XL, Body/LG lead 560, Primary LG + link, caption with the check-up price); image right 604x560.",
+      "mobile": "Title, lead, full-width Primary, link, then the image re-cropped to 4:5 (358x448), then the caption.",
+      "content": {
+        "heading": "Scale AI without hiring a department.",
+        "accentWord": "department.",
+        "lead": "We plan where AI pays off first, build the software, train your people and keep it all running. You add the parts you need, when you need them.",
+        "body": [
+          "Our usual first project is the AI check-up, from [PRICE]."
+        ],
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "See the six areas",
+            "variant": "link",
+            "target": "#areas"
+          }
+        ]
+      },
+      "components": [
+        "Header",
+        "Button",
+        "Link",
+        "Image slot"
+      ],
+      "images": [
+        {
+          "imageId": "IMG-04-1",
+          "slotName": "IMG-04-1 · Growing flock",
+          "kind": "new",
+          "aspectDesktop": "604x560 (about 1:1)",
+          "aspectMobile": "358x448 (4:5)",
+          "placement": "right half of the hero split; under the actions on mobile",
+          "textArea": "none (text sits beside the image)",
+          "alt": "Faceted swallows flying in a widening formation along a satin ribbon current.",
+          "source": "Editorial illustration on a soft Daylight sky, nearly square, safe to crop to 4:5. A flock of swallows built from flat paper facets in Partner Navy and slate blue flies in a widening V formation along a satin ribbon current that sweeps from the lower left to the upper right in a gradient from Alliance Blue to Ribbon Cyan. Three birds lead at the lower left and the formation grows to many birds toward the upper right, every bird holding its place: AI growing across a whole company, with one team flying together. Below, low faceted hills at daybreak in pale blues. Calm open sky in the upper left quarter. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+        }
+      ]
+    },
     {
-     "imageId": "IMG-04-2",
-     "slotName": "IMG-04-2 · Monthly report",
-     "kind": "existing",
-     "source": "brand-kit/emails/previews/monthly-report-desktop.png (mobile: monthly-report-mobile.png)",
-     "aspectDesktop": "640x480 framed, top of the email (headline, the three placeholder figures and What we shipped)",
-     "aspectMobile": "358x448, top of the email",
-     "placement": "inset media, right of the text in the navy chapter",
-     "textArea": "none",
-     "alt": "Sample monthly report email: what shipped, what AI usage cost and next month’s plan, with placeholder figures."
+      "id": "areas",
+      "name": "Six areas",
+      "layout": "list-rows",
+      "ground": "daylight",
+      "job": "List the six categories with every service and what it means, from the Brand DNA.",
+      "desktop": "Asymmetric head, then six category rows separated by hairlines: left column 520 (service icon, Heading/3, one-line summary), right column hairline list of services (Body/Strong name, Body/SM meaning, mono starting price or a Not available yet tag). Service descriptions capped at 600 px (about 75 characters a line).",
+      "mobile": "Head stacked, then six accordion items; the first (Strategy and leadership) open with its summary and its four services listed.",
+      "content": {
+        "heading": "Everything it takes to scale AI.",
+        "lead": "Strategy, training, software, operations, robotics and people. Start with the part you need most and add the rest over time.",
+        "items": [
+          {
+            "title": "AI strategy and roadmap",
+            "text": "We find where AI can save or make the most money, then plan what to do first.",
+            "meta": "Strategy and leadership"
+          },
+          {
+            "title": "AI check-up",
+            "text": "Our usual first project: a short review of where AI could save you time or money.",
+            "meta": "Strategy and leadership",
+            "price": "From [PRICE]"
+          },
+          {
+            "title": "Fractional Chief AI Officer",
+            "text": "An experienced AI leader who works with your leadership team part time.",
+            "meta": "Strategy and leadership"
+          },
+          {
+            "title": "AI governance and compliance",
+            "text": "Clear AI policies, and help following AI laws such as the EU AI Act.",
+            "meta": "Strategy and leadership"
+          },
+          {
+            "title": "AI training and workshops",
+            "text": "Hands-on sessions that teach your team to use AI in their daily work.",
+            "meta": "Training and adoption"
+          },
+          {
+            "title": "AI assistant rollout",
+            "text": "We set up ChatGPT, Claude, Microsoft Copilot, or Gemini across your company, with the right security settings.",
+            "meta": "Training and adoption"
+          },
+          {
+            "title": "AI in tools you already pay for",
+            "text": "Many tools, like Salesforce and HubSpot, include AI features. We turn them on and set them up properly.",
+            "meta": "Training and adoption"
+          },
+          {
+            "title": "AI software engineering and web development",
+            "text": "Custom software and websites with AI built in.",
+            "meta": "Software and product engineering",
+            "price": "Websites from [PRICE]"
+          },
+          {
+            "title": "MVPs and prototypes",
+            "text": "A working first version of a new product, ready to test with real users.",
+            "meta": "Software and product engineering"
+          },
+          {
+            "title": "Mobile apps",
+            "text": "iPhone and Android apps with AI features.",
+            "meta": "Software and product engineering"
+          },
+          {
+            "title": "AI features for your product",
+            "text": "We add AI to software you already have, such as smart search or an in-app assistant.",
+            "meta": "Software and product engineering"
+          },
+          {
+            "title": "SaaS products",
+            "text": "We build and launch subscription software with AI at its core.",
+            "meta": "Software and product engineering"
+          },
+          {
+            "title": "Fixing AI-built apps",
+            "text": "Apps built quickly with AI coding tools, made secure and stable enough for real customers.",
+            "meta": "Software and product engineering"
+          },
+          {
+            "title": "Legacy system updates",
+            "text": "We use AI to speed up rewriting and updating old systems.",
+            "meta": "Software and product engineering"
+          },
+          {
+            "title": "AI connectors (MCP)",
+            "text": "Your company’s tools, connected to AI assistants like ChatGPT and Claude so they can look things up and take actions safely.",
+            "meta": "Software and product engineering"
+          },
+          {
+            "title": "AI-as-a-Service",
+            "text": "We build AI tools and run them for you on a subscription.",
+            "meta": "Running AI for you"
+          },
+          {
+            "title": "Managed AI operations",
+            "text": "We monitor your AI systems and agents and keep their costs in check.",
+            "meta": "Running AI for you"
+          },
+          {
+            "title": "Private AI",
+            "text": "AI models that run on your own servers or private cloud, so sensitive data stays in-house.",
+            "meta": "Running AI for you",
+            "tag": "Not available yet"
+          },
+          {
+            "title": "Custom model training",
+            "text": "AI models trained on your own data, so they understand your business.",
+            "meta": "Running AI for you"
+          },
+          {
+            "title": "AI testing and quality checks",
+            "text": "Accuracy testing before and after launch, so you can rely on the answers.",
+            "meta": "Running AI for you"
+          },
+          {
+            "title": "AI robotics",
+            "text": "We bring AI into robots and machines so they can handle more tasks on their own.",
+            "meta": "Robotics and physical AI"
+          },
+          {
+            "title": "Computer vision",
+            "text": "Cameras and AI that check product quality or spot safety risks.",
+            "meta": "Robotics and physical AI"
+          },
+          {
+            "title": "Predictive maintenance",
+            "text": "Sensors and AI that warn you before a machine breaks down.",
+            "meta": "Robotics and physical AI"
+          },
+          {
+            "title": "Warehouse and logistics automation",
+            "text": "AI and robots that speed up picking and packing.",
+            "meta": "Robotics and physical AI"
+          },
+          {
+            "title": "Digital twins",
+            "text": "A live virtual model of a factory or process, for testing changes before making them for real.",
+            "meta": "Robotics and physical AI"
+          },
+          {
+            "title": "Agency services",
+            "text": "We take on whole projects as your agency, from planning to launch.",
+            "meta": "Talent and teams"
+          },
+          {
+            "title": "Embedded developers (developer staffing)",
+            "text": "Our developers join your team and work inside it, with all of Alliance AI Partners behind them.",
+            "meta": "Talent and teams",
+            "price": "From [PRICE] a month"
+          },
+          {
+            "title": "Dedicated AI teams",
+            "text": "A full team of engineers, designers, and a project lead, working only on your product.",
+            "meta": "Talent and teams"
+          },
+          {
+            "title": "AI-powered virtual assistants",
+            "text": "A trained assistant who uses AI tools to manage your inbox, calendar, and research.",
+            "meta": "Talent and teams"
+          },
+          {
+            "title": "White-label services for agencies",
+            "text": "We deliver AI projects under your agency’s brand, so you can offer AI without hiring.",
+            "meta": "Talent and teams"
+          }
+        ]
+      },
+      "components": [
+        "Service icon/Mono",
+        "Tag",
+        "Accordion item (mobile)"
+      ],
+      "images": []
+    },
+    {
+      "id": "engagement",
+      "name": "How it runs",
+      "layout": "steps",
+      "ground": "navy",
+      "job": "Show how a Scale AI engagement runs in four steps, and what the partner sees every month.",
+      "desktop": "Navy chapter. Asymmetric head (Heading/1), the Steps component with Scale AI wording, then a split: text and check list left 560, the framed monthly report preview right (640x480, top of the email).",
+      "mobile": "Head stacked, Steps (mobile variant), text and list, then the report preview re-cropped to 4:5 with its caption.",
+      "content": {
+        "heading": "Start small. Scale what works.",
+        "accentWord": "works.",
+        "lead": "Every engagement follows the same four steps. The first project is small, so you can judge the work before you commit to more. A person reviews every piece of work.",
+        "items": [
+          {
+            "title": "Understand",
+            "text": "We learn how each team works and where AI could save the most time or money."
+          },
+          {
+            "title": "Plan",
+            "text": "We agree what success looks like, using your own numbers, and pick what to do first."
+          },
+          {
+            "title": "Build",
+            "text": "We build the tools, set up the AI you already pay for and train your people to use it."
+          },
+          {
+            "title": "Run and grow",
+            "text": "We keep it running, keep costs in check and add the next project when you’re ready."
+          }
+        ],
+        "body": [
+          "You see progress every week, and every month a written report: what shipped, what changed, what AI usage cost and the plan for next month.",
+          "AI usage passed on at cost, with each provider’s usage report attached.",
+          "Monthly plans you can cancel with [30] days’ notice.",
+          "You own what we build."
+        ]
+      },
+      "components": [
+        "Steps",
+        "Image slot"
+      ],
+      "images": [
+        {
+          "imageId": "IMG-04-2",
+          "slotName": "IMG-04-2 · Monthly report",
+          "kind": "existing",
+          "source": "brand-kit/emails/previews/monthly-report-desktop.png (mobile: monthly-report-mobile.png)",
+          "aspectDesktop": "640x480 framed, top of the email (headline, the three placeholder figures and What we shipped)",
+          "aspectMobile": "358x448, top of the email",
+          "placement": "inset media, right of the text in the navy chapter",
+          "textArea": "none",
+          "alt": "Sample monthly report email: what shipped, what AI usage cost and next month’s plan, with placeholder figures."
+        }
+      ]
+    },
+    {
+      "id": "related",
+      "name": "Related services",
+      "layout": "list-rows",
+      "ground": "daylight",
+      "job": "Send ready buyers to the three Scale AI services that have their own pages and starting prices.",
+      "desktop": "Asymmetric head, three Service rows (desktop variant), a link to the price list.",
+      "mobile": "Head stacked, three Service rows (mobile variant), link.",
+      "content": {
+        "heading": "Start with a published price.",
+        "lead": "These Scale AI services have their own pages and starting prices. Everything else gets a fixed quote before work starts.",
+        "items": [
+          {
+            "title": "AI check-up",
+            "text": "A short first project that finds where AI could save you time or money.",
+            "price": "From [PRICE]",
+            "link": "/ai-check-up"
+          },
+          {
+            "title": "Websites and web apps",
+            "text": "A fast, accessible site or web app, built and kept running.",
+            "price": "From [PRICE]",
+            "link": "/services/websites-and-web-apps"
+          },
+          {
+            "title": "Embedded developers",
+            "text": "A developer from our team works inside yours, full time.",
+            "price": "From [PRICE] a month",
+            "link": "/services/embedded-developers"
+          }
+        ],
+        "ctas": [
+          {
+            "label": "Compare all prices",
+            "variant": "link",
+            "target": "/pricing"
+          }
+        ]
+      },
+      "components": [
+        "Service row",
+        "Link"
+      ],
+      "images": []
+    },
+    {
+      "id": "cta",
+      "name": "Closing CTA",
+      "layout": "cta-band",
+      "ground": "navy",
+      "job": "Close with the AI check-up and what it gives the partner.",
+      "desktop": "Navy chapter without an image: text left (Display/LG, lead), a Partner 30 card right with three check items, the Primary and the email link.",
+      "mobile": "Title and lead, then the card with a full-width Primary.",
+      "content": {
+        "heading": "Find where AI pays off first.",
+        "accentWord": "first.",
+        "lead": "The AI check-up is our usual first project. It’s short, it has a published starting price, and you decide what happens next.",
+        "items": [
+          {
+            "title": "Where AI could save you time or money, team by team"
+          },
+          {
+            "title": "A plan for what to do first, with a fixed quote"
+          },
+          {
+            "title": "An honest answer if AI isn’t the fix"
+          }
+        ],
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "hello@allianceaipartners.example",
+            "variant": "link",
+            "target": "mailto:hello@allianceaipartners.example"
+          }
+        ]
+      },
+      "components": [
+        "Card",
+        "Button"
+      ],
+      "images": []
     }
-   ]
-  },
-  {
-   "id": "related",
-   "name": "Related services",
-   "layout": "list-rows",
-   "ground": "daylight",
-   "job": "Send ready buyers to the three Scale AI services that have their own pages and starting prices.",
-   "desktop": "Asymmetric head, three Service rows (desktop variant), a link to the price list.",
-   "mobile": "Head stacked, three Service rows (mobile variant), link.",
-   "content": {
-    "heading": "Start with a published price.",
-    "lead": "These Scale AI services have their own pages and starting prices. Everything else gets a fixed quote before work starts.",
-    "items": [
-     {
-      "title": "AI check-up",
-      "text": "A short first project that finds where AI could save you time or money.",
-      "price": "From [PRICE]",
-      "link": "/ai-check-up"
-     },
-     {
-      "title": "Websites and web apps",
-      "text": "A fast, accessible site or web app, built and kept running.",
-      "price": "From [PRICE]",
-      "link": "/services/websites-and-web-apps"
-     },
-     {
-      "title": "Embedded developers",
-      "text": "A developer from our team works inside yours, full time.",
-      "price": "From [PRICE] a month",
-      "link": "/services/embedded-developers"
-     }
-    ],
-    "ctas": [
-     {
-      "label": "Compare all prices",
-      "variant": "link",
-      "target": "/pricing"
-     }
-    ]
-   },
-   "components": [
-    "Service row",
-    "Link"
-   ],
-   "images": []
-  },
-  {
-   "id": "cta",
-   "name": "Closing CTA",
-   "layout": "cta-band",
-   "ground": "navy",
-   "job": "Close with the AI check-up and what it gives the partner.",
-   "desktop": "Navy chapter without an image: text left (Display/LG, lead), a Partner 30 card right with three check items, the Primary and the email link.",
-   "mobile": "Title and lead, then the card with a full-width Primary.",
-   "content": {
-    "heading": "Find where AI pays off first.",
-    "accentWord": "first.",
-    "lead": "The AI check-up is our usual first project. It’s short, it has a published starting price, and you decide what happens next.",
-    "items": [
-     {
-      "title": "Where AI could save you time or money, team by team"
-     },
-     {
-      "title": "A plan for what to do first, with a fixed quote"
-     },
-     {
-      "title": "An honest answer if AI isn’t the fix"
-     }
-    ],
-    "ctas": [
-     {
-      "label": "See where AI can help",
-      "variant": "primary",
-      "target": "/ai-check-up"
-     },
-     {
-      "label": "hello@allianceaipartners.example",
-      "variant": "link",
-      "target": "mailto:hello@allianceaipartners.example"
-     }
-    ]
-   },
-   "components": [
-    "Card",
-    "Button"
-   ],
-   "images": []
+  ],
+  "notes": "Goal page. Service names and meanings are the Brand DNA list, addressed to the reader (you, your). Private AI is tagged Not available yet. Prices only as [PRICE]. The Steps component is the page’s one ribbon signature. Hero Primary and closing Primary are never in one screenful. Review 2026-11-03: service descriptions in the six areas capped at 600 px for a readable measure; the section head’s rag balanced.",
+  "sectionIds": {
+    "desktop": {
+      "hero": "43:3240",
+      "areas": "43:3260",
+      "engagement": "43:4056",
+      "related": "43:4106",
+      "cta": "43:4140"
+    },
+    "mobile": {
+      "hero": "43:5266",
+      "areas": "43:5284",
+      "engagement": "43:5346",
+      "related": "43:5395",
+      "cta": "43:5426"
+    }
   }
- ],
- "notes": "Goal page. Service names and meanings are the Brand DNA list, addressed to the reader (you, your). Private AI is tagged Not available yet. Prices only as [PRICE]. The Steps component is the page’s one ribbon signature. Hero Primary and closing Primary are never in one screenful.",
- "sectionIds": {
-  "desktop": {
-   "hero": "43:3240",
-   "areas": "43:3260",
-   "engagement": "43:4056",
-   "related": "43:4106",
-   "cta": "43:4140"
-  },
-  "mobile": {
-   "hero": "43:5266",
-   "areas": "43:5284",
-   "engagement": "43:5346",
-   "related": "43:5395",
-   "cta": "43:5426"
-  }
- }
 }

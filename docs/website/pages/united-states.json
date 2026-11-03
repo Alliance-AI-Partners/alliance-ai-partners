@@ -28,7 +28,7 @@
    "ground": "daylight",
    "job": "Lead with the country tagline, prove the time difference with a two-city clock strip, and offer the one committing action.",
    "desktop": "Display/XL title on four lines, two per sentence, in the left 760; Body/LG lead 620; Primary LG + link. Below, a clock strip between hairlines: Manila (300) | New York (330) | the difference in words with its Source key. Caption and source list.",
-   "mobile": "Title (one sentence per line), lead, Primary full width, link; clock strip as two clocks side by side with the difference below; caption; source.",
+   "mobile": "Title with a forced break before ‘log on.’ so no word sits alone on the last line, lead, Primary full width, link; clock strip as two clocks side by side with the difference below; caption; source.",
    "content": {
     "heading": "Brief us before you log off. See progress when you log on.",
     "accentWord": "progress",

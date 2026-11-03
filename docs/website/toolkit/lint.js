@@ -39,6 +39,7 @@ L.run = async (rootId, opts) => {
     (str.match(/\[[^\]]{1,40}\]/g) || []).forEach(p => placeholders.add(p));
     if (/["]/.test(str) || /(^|\s)'|'(\s|$)|\w'\w/.test(str)) add('polish', 'straight-quote', t, str.slice(0, 80));
     if (str.includes('...')) add('polish', 'three-dots', t, str.slice(0, 80));
+    if (!inst && /\bAlliance\b(?! AI Partners| Blue)/.test(str)) add('high', 'short-name', t, 'write the full name Alliance AI Partners: ' + str.slice(0, 80));
     const stripped = str.replace(/\[[^\]]*\]/g, '');
     if (L.FIGURE.test(stripped)) { const s = sectionOf(t); if (s && !sectionsWithSources.has(s.id)) add('high', 'unsourced-figure', t, str.slice(0, 100)); }
     if (typeof t.fontSize === 'number' && t.fontSize < 12) add('medium', 'tiny-text', t, t.fontSize + 'px: ' + str.slice(0, 40));

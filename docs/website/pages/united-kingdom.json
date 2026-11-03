@@ -27,7 +27,7 @@
    "layout": "hero-text-led",
    "ground": "daylight",
    "job": "Lead with the country tagline, prove the time difference with a two-city clock strip, and offer the one committing action.",
-   "desktop": "Display/XL title across the full 1320 container, one sentence per line; Body/LG lead 620; Primary LG + link. Below, a clock strip between hairlines: Manila (300) | the partner city (330) | the difference in words with its Source key. Caption and source list.",
+   "desktop": "Display/XL title on two lines (‘Our afternoon / is your morning.’); Body/LG lead 620; Primary LG + link. Below, a clock strip between hairlines: Manila (300) | London (330) | the difference in words with its Source key. Caption and source list.",
    "mobile": "Title (one sentence per line), lead, Primary full width, link; clock strip as two clocks side by side with the difference below; caption; source.",
    "content": {
     "heading": "Our afternoon is your morning.",

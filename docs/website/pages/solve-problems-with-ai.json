@@ -1,386 +1,386 @@
 {
- "slug": "solve-problems-with-ai",
- "figmaPage": "05 · Solve problems with AI",
- "phase": "Launch",
- "route": "/services/solve-problems-with-ai",
- "purpose": "Show a founder which slow jobs AI can take off the team, what changes in one real-looking process, and that a person still checks the work.",
- "primaryAction": {
-  "label": "See where AI can help",
-  "target": "/ai-check-up"
- },
- "seo": {
-  "title": "Solve problems with AI | Alliance AI Partners",
-  "description": "Automation and AI agents, customer support, knowledge and data, design, and security from Alliance AI Partners. AI does the repetitive steps; a person checks the result."
- },
- "states": [
-  "default"
- ],
- "frames": {
-  "desktop": "45:948",
-  "mobile": "46:2233"
- },
- "sections": [
-  {
-   "id": "hero",
-   "name": "Hero",
-   "layout": "hero-fullbleed-image",
-   "ground": "navy",
-   "job": "Promise that the slow, repetitive parts of the week get handled, with a person still checking, and offer the one committing action.",
-   "desktop": "Full-bleed band 1440x760: image with a navy scrim from the reading edge; text block at the left (Display/XL, Body/LG lead 560, Primary LG + Ribbon Cyan link, caption). Different from the split hero on Scale AI.",
-   "mobile": "Band 390x760, scrim from the top, text at the top: title, lead, full-width Primary, link; the gathered leaves show in the lower third.",
-   "content": {
-    "heading": "The slow parts of your week, handled.",
-    "accentWord": "handled.",
-    "lead": "Orders, tickets, invoices and reports, handled by AI and checked by a person. Your team keeps the work that needs judgment.",
-    "body": [
-     "AI automation projects from [PRICE], with a fixed quote before work starts."
-    ],
-    "ctas": [
-     {
-      "label": "See where AI can help",
-      "variant": "primary",
-      "target": "/ai-check-up"
-     },
-     {
-      "label": "See AI automation",
-      "variant": "link",
-      "target": "/services/ai-automation"
-     }
-    ]
-   },
-   "components": [
-    "Header",
-    "Image slot",
-    "Button",
-    "Link"
-   ],
-   "images": [
+  "slug": "solve-problems-with-ai",
+  "figmaPage": "05 · Solve problems with AI",
+  "phase": "Launch",
+  "route": "/services/solve-problems-with-ai",
+  "purpose": "Show a founder which slow jobs AI can take off the team, what changes in one real-looking process, and that a person still checks the work.",
+  "primaryAction": {
+    "label": "See where AI can help",
+    "target": "/ai-check-up"
+  },
+  "seo": {
+    "title": "Solve problems with AI | Alliance AI Partners",
+    "description": "Automation and AI agents, customer support, knowledge and data, design, and security from Alliance AI Partners. AI does the repetitive steps; a person checks the result."
+  },
+  "states": [
+    "default"
+  ],
+  "frames": {
+    "desktop": "45:948",
+    "mobile": "46:2233"
+  },
+  "sections": [
     {
-     "imageId": "IMG-05-1",
-     "slotName": "IMG-05-1 · Leaves gathered",
-     "kind": "new",
-     "aspectDesktop": "1440x760 full bleed (about 1.9:1)",
-     "aspectMobile": "390x780, crop to the right third (the current and the leaves in the lower third)",
-     "placement": "hero background with a navy scrim from the left (desktop) and from the top (mobile)",
-     "textArea": "left 55% (desktop) and top half (mobile): calm deep navy sky for white text",
-     "alt": "",
-     "source": "Wide landscape at first light, about 1.9:1. The left 55% is a calm, deep Partner Navy sky fading softly toward Alliance Blue, empty, for white text. On the right, a calm lake built from flat paper facets. Dozens of folded paper leaves lie scattered and tangled on the water at the far right; a satin ribbon current in a gradient from Alliance Blue to Ribbon Cyan gathers them and carries them in one tidy, evenly spaced line toward the lower right corner: scattered chores turned into one orderly flow that runs on its own. Low faceted hills on the horizon catching the first light. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
-    }
-   ]
-  },
-  {
-   "id": "services",
-   "name": "Five groups",
-   "layout": "bento",
-   "ground": "daylight",
-   "job": "List the five categories with every service and what it means, from the Brand DNA.",
-   "desktop": "Asymmetric head, then white cards in three rows of different shapes: two equal cards (Automation and AI agents | Customer support), one wide card (Knowledge and data: head left, list right), two equal cards (Design | Security and risk). Each card: service icon, Heading/3, summary, hairline list (Body/Strong name, Body/SM meaning). Different from the Scale AI list rows.",
-   "mobile": "Head stacked, five accordion items; the first (Automation and AI agents) open with its seven services listed.",
-   "content": {
-    "heading": "Hand over the repetitive part.",
-    "lead": "Five groups of services. Each one takes a job off your team, from typing up orders to answering the phone, and a person reviews the result before it reaches you or your customers.",
-    "items": [
-     {
-      "title": "AI integration and automation",
-      "text": "We connect your software with tools like Make, n8n, and Zapier, and hand repetitive tasks to AI.",
-      "meta": "Automation and AI agents",
-      "price": "Projects from [PRICE]"
-     },
-     {
-      "title": "AI agents",
-      "text": "Software that finishes multi-step jobs on its own, like processing an order or researching a lead, and checks with a person when it’s unsure.",
-      "meta": "Automation and AI agents"
-     },
-     {
-      "title": "Teams of AI agents",
-      "text": "Several agents split up a big job and check each other’s work.",
-      "meta": "Automation and AI agents"
-     },
-     {
-      "title": "Document processing",
-      "text": "We pull the data out of invoices, contracts, forms, and receipts and put it where it belongs.",
-      "meta": "Automation and AI agents"
-     },
-     {
-      "title": "AI for older software",
-      "text": "For systems with no easy way to connect, AI can operate the program the way a person would.",
-      "meta": "Automation and AI agents"
-     },
-     {
-      "title": "Back-office automation",
-      "text": "Data entry, inbox sorting, invoice matching, and HR paperwork, handled by AI.",
-      "meta": "Automation and AI agents"
-     },
-     {
-      "title": "Meeting assistants",
-      "text": "Automatic meeting notes, with action items sent straight to your CRM.",
-      "meta": "Automation and AI agents"
-     },
-     {
-      "title": "AI-assisted support",
-      "text": "Tools that help your support team answer customers faster.",
-      "meta": "Customer support"
-     },
-     {
-      "title": "Website and app chat assistants",
-      "text": "A chat assistant that answers questions at any hour and passes harder cases to your team.",
-      "meta": "Customer support"
-     },
-     {
-      "title": "AI voice agents and receptionists",
-      "text": "AI answers phone calls in a natural voice, books appointments, and takes messages.",
-      "meta": "Customer support"
-     },
-     {
-      "title": "Messaging assistants",
-      "text": "Replies to customers on WhatsApp, SMS, Instagram, and Facebook Messenger.",
-      "meta": "Customer support"
-     },
-     {
-      "title": "Help desk automation",
-      "text": "Support tickets get sorted and routed automatically, with draft replies for your team to approve.",
-      "meta": "Customer support"
-     },
-     {
-      "title": "Call insights",
-      "text": "We record and summarize support and sales calls and flag the ones a manager should hear.",
-      "meta": "Customer support"
-     },
-     {
-      "title": "Multilingual support",
-      "text": "Serve customers in their own language, with AI handling the translation.",
-      "meta": "Customer support"
-     },
-     {
-      "title": "Knowledge assistants",
-      "text": "An assistant that answers staff questions using your company’s own documents.",
-      "meta": "Knowledge and data"
-     },
-     {
-      "title": "Data cleanup and pipelines",
-      "text": "We organize and connect your data so AI has something reliable to work with.",
-      "meta": "Knowledge and data"
-     },
-     {
-      "title": "Talk to your data",
-      "text": "Ask questions in plain English and get charts and answers back.",
-      "meta": "Knowledge and data"
-     },
-     {
-      "title": "Forecasting",
-      "text": "Predictions for demand and stock levels, so you can plan ahead.",
-      "meta": "Knowledge and data"
-     },
-     {
-      "title": "Recommendations and personalization",
-      "text": "Each customer sees the products or content they’re most likely to want.",
-      "meta": "Knowledge and data"
-     },
-     {
-      "title": "UI/UX design powered by AI",
-      "text": "We design apps and websites that are easy to use, with AI speeding up the design work.",
-      "meta": "Design"
-     },
-     {
-      "title": "Prototypes and user testing",
-      "text": "Clickable prototypes tested with real users, with AI helping sort through the feedback.",
-      "meta": "Design"
-     },
-     {
-      "title": "Chat and voice design",
-      "text": "We plan how your AI assistants talk, so conversations feel natural and match your brand.",
-      "meta": "Design"
-     },
-     {
-      "title": "AI security testing",
-      "text": "We test AI apps and agents for weak spots, like attempts to trick them into leaking data, and fix what we find.",
-      "meta": "Security and risk"
-     },
-     {
-      "title": "Fraud and anomaly detection",
-      "text": "Unusual payments or logins get flagged as they happen.",
-      "meta": "Security and risk"
-     },
-     {
-      "title": "Security monitoring with AI",
-      "text": "AI watches your systems for threats and alerts your team fast.",
-      "meta": "Security and risk"
-     }
-    ]
-   },
-   "components": [
-    "Card",
-    "Service icon/Mono",
-    "Accordion item (mobile)"
-   ],
-   "images": []
-  },
-  {
-   "id": "before-after",
-   "name": "Before and after",
-   "layout": "product-visual",
-   "ground": "navy",
-   "job": "Show one slow process before and after, as a product visual, with the two commitments that make it safe.",
-   "desktop": "Navy chapter. Asymmetric head (Heading/1). A framed product window (Partner 30 card): a mono title bar, then Before | After columns of four numbered steps with tags (By hand, AI, Person) and icons, and a footer line with a link. Below, two commitments side by side.",
-   "mobile": "Head stacked; the window stacks Before above After (step numbers dropped, Body/SM step text, tags kept); the footer line and link stack; commitments stack.",
-   "content": {
-    "heading": "One slow process, before and after.",
-    "lead": "A sample: orders that arrive by email. Today someone retypes each one. After, AI enters it and a person checks anything unusual.",
-    "items": [
-     {
-      "title": "Before · Every order, by hand",
-      "text": "An order arrives by email (Inbox) · Someone retypes it into your order system (By hand) · Someone checks stock in another tab (By hand) · Someone writes the confirmation (By hand)"
-     },
-     {
-      "title": "After · AI does the typing. A person checks.",
-      "text": "An order arrives by email (Inbox) · AI reads it and enters it in your order system (AI) · AI checks stock and flags anything unusual (AI) · A person approves anything flagged (Person)"
-     },
-     {
-      "title": "An owner and a backup plan",
-      "text": "Every automation has both, and we write down how it works clearly enough for a new hire to follow."
-     },
-     {
-      "title": "Your data stays yours",
-      "text": "Partner data stays where you decide, and we never use it to train anything you don’t own."
-     }
-    ],
-    "body": [
-     "Nobody types an order twice."
-    ],
-    "ctas": [
-     {
-      "label": "See AI automation",
-      "variant": "link",
-      "target": "/services/ai-automation"
-     }
-    ]
-   },
-   "components": [
-    "Card",
-    "Tag",
-    "Icon",
-    "Link"
-   ],
-   "images": [
+      "id": "hero",
+      "name": "Hero",
+      "layout": "hero-fullbleed-image",
+      "ground": "navy",
+      "job": "Promise that the slow, repetitive parts of the week get handled, with a person still checking, and offer the one committing action.",
+      "desktop": "Full-bleed band 1440x760: image with a navy scrim from the reading edge; text block at the left (Display/XL, Body/LG lead 560, Primary LG + Ribbon Cyan link, caption). Different from the split hero on Scale AI.",
+      "mobile": "Band 390x760, scrim from the top, text at the top: title, lead, full-width Primary, link; the gathered leaves show in the lower third.",
+      "content": {
+        "heading": "The slow parts of your week, handled.",
+        "accentWord": "handled.",
+        "lead": "Solve problems with AI: orders, tickets, invoices and reports, done by AI and checked by a person. Your team keeps the work that needs judgment.",
+        "body": [
+          "AI automation projects from [PRICE], with a fixed quote before work starts."
+        ],
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "See AI automation",
+            "variant": "link",
+            "target": "/services/ai-automation"
+          }
+        ]
+      },
+      "components": [
+        "Header",
+        "Image slot",
+        "Button",
+        "Link"
+      ],
+      "images": [
+        {
+          "imageId": "IMG-05-1",
+          "slotName": "IMG-05-1 · Leaves gathered",
+          "kind": "new",
+          "aspectDesktop": "1440x760 full bleed (about 1.9:1)",
+          "aspectMobile": "390x780, crop to the right third (the current and the leaves in the lower third)",
+          "placement": "hero background with a navy scrim from the left (desktop) and from the top (mobile)",
+          "textArea": "left 55% (desktop) and top half (mobile): calm deep navy sky for white text",
+          "alt": "",
+          "source": "Wide landscape at first light, about 1.9:1. The left 55% is a calm, deep Partner Navy sky fading softly toward Alliance Blue, empty, for white text. On the right, a calm lake built from flat paper facets. Dozens of folded paper leaves lie scattered and tangled on the water at the far right; a satin ribbon current in a gradient from Alliance Blue to Ribbon Cyan gathers them and carries them in one tidy, evenly spaced line toward the lower right corner: scattered chores turned into one orderly flow that runs on its own. Low faceted hills on the horizon catching the first light. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+        }
+      ]
+    },
     {
-     "slotName": "Before and after window",
-     "kind": "vector",
-     "source": "UI composition drawn in Figma: Partner 30 window, mono title bar 'Sample · Order intake', two step columns with Tag components and Icon/clock (before) and Icon/check-circle in Ribbon Cyan (after).",
-     "alt": "Sample order process: four manual steps before, and after, AI enters and checks orders while a person approves anything flagged."
-    }
-   ]
-  },
-  {
-   "id": "questions",
-   "name": "Questions",
-   "layout": "accordion",
-   "ground": "daylight",
-   "job": "Answer the four worries about handing work to AI, and show the fixed-price proposal a partner would get.",
-   "desktop": "Split: questions left 720 (Heading/2, Body/LG lead, accordion with the first item open, link); the framed proposal email preview right (536x440) with its mono caption.",
-   "mobile": "Head, accordion, then the proposal preview (4:5) with its caption and the link.",
-   "content": {
-    "heading": "Before you hand anything over.",
-    "lead": "Straight answers about mistakes, your software, your data and the price.",
-    "faq": [
-     {
-      "q": "What if the AI gets something wrong?",
-      "a": "AI agents check with a person when they’re unsure, and a person reviews the work before it reaches you or your customers. Every automation has an owner and a backup plan."
-     },
-     {
-      "q": "Do we have to change our software?",
-      "a": "We start with the tools you already use and connect them, with tools like Make, n8n and Zapier. For older systems with no easy way to connect, AI can operate the program the way a person would."
-     },
-     {
-      "q": "What happens to our data?",
-      "a": "Your data stays where you decide, and we never use it to train anything you don’t own."
-     },
-     {
-      "q": "How is it priced?",
-      "a": "AI automation projects start from [PRICE], with a fixed quote before work starts. AI usage, like model fees, is passed on at cost and shown on your invoice."
-     }
-    ],
-    "ctas": [
-     {
-      "label": "Read all the questions",
-      "variant": "link",
-      "target": "/questions"
-     }
-    ]
-   },
-   "components": [
-    "Accordion item",
-    "Image slot",
-    "Link"
-   ],
-   "images": [
+      "id": "services",
+      "name": "Five groups",
+      "layout": "bento",
+      "ground": "daylight",
+      "job": "List the five categories with every service and what it means, from the Brand DNA.",
+      "desktop": "Asymmetric head, then white cards in three rows of different shapes: two equal cards (Automation and AI agents | Customer support), one wide card (Knowledge and data: head left, list right), two equal cards (Design | Security and risk). Each card: service icon, Heading/3, summary, hairline list (Body/Strong name, Body/SM meaning). Different from the Scale AI list rows.",
+      "mobile": "Head stacked, five accordion items; the first (Automation and AI agents) open with its seven services listed.",
+      "content": {
+        "heading": "Hand over the repetitive part.",
+        "lead": "Five groups of services. Each one takes a job off your team, from typing up orders to answering the phone, and a person reviews the result before it reaches you or your customers.",
+        "items": [
+          {
+            "title": "AI integration and automation",
+            "text": "We connect your software with tools like Make, n8n, and Zapier, and hand repetitive tasks to AI.",
+            "meta": "Automation and AI agents",
+            "price": "Projects from [PRICE]"
+          },
+          {
+            "title": "AI agents",
+            "text": "Software that finishes multi-step jobs on its own, like processing an order or researching a lead, and checks with a person when it’s unsure.",
+            "meta": "Automation and AI agents"
+          },
+          {
+            "title": "Teams of AI agents",
+            "text": "Several agents split up a big job and check each other’s work.",
+            "meta": "Automation and AI agents"
+          },
+          {
+            "title": "Document processing",
+            "text": "We pull the data out of invoices, contracts, forms, and receipts and put it where it belongs.",
+            "meta": "Automation and AI agents"
+          },
+          {
+            "title": "AI for older software",
+            "text": "For systems with no easy way to connect, AI can operate the program the way a person would.",
+            "meta": "Automation and AI agents"
+          },
+          {
+            "title": "Back-office automation",
+            "text": "Data entry, inbox sorting, invoice matching, and HR paperwork, handled by AI.",
+            "meta": "Automation and AI agents"
+          },
+          {
+            "title": "Meeting assistants",
+            "text": "Automatic meeting notes, with action items sent straight to your CRM.",
+            "meta": "Automation and AI agents"
+          },
+          {
+            "title": "AI-assisted support",
+            "text": "Tools that help your support team answer customers faster.",
+            "meta": "Customer support"
+          },
+          {
+            "title": "Website and app chat assistants",
+            "text": "A chat assistant that answers questions at any hour and passes harder cases to your team.",
+            "meta": "Customer support"
+          },
+          {
+            "title": "AI voice agents and receptionists",
+            "text": "AI answers phone calls in a natural voice, books appointments, and takes messages.",
+            "meta": "Customer support"
+          },
+          {
+            "title": "Messaging assistants",
+            "text": "Replies to customers on WhatsApp, SMS, Instagram, and Facebook Messenger.",
+            "meta": "Customer support"
+          },
+          {
+            "title": "Help desk automation",
+            "text": "Support tickets get sorted and routed automatically, with draft replies for your team to approve.",
+            "meta": "Customer support"
+          },
+          {
+            "title": "Call insights",
+            "text": "We record and summarize support and sales calls and flag the ones a manager should hear.",
+            "meta": "Customer support"
+          },
+          {
+            "title": "Multilingual support",
+            "text": "Serve customers in their own language, with AI handling the translation.",
+            "meta": "Customer support"
+          },
+          {
+            "title": "Knowledge assistants",
+            "text": "An assistant that answers staff questions using your company’s own documents.",
+            "meta": "Knowledge and data"
+          },
+          {
+            "title": "Data cleanup and pipelines",
+            "text": "We organize and connect your data so AI has something reliable to work with.",
+            "meta": "Knowledge and data"
+          },
+          {
+            "title": "Talk to your data",
+            "text": "Ask questions in plain English and get charts and answers back.",
+            "meta": "Knowledge and data"
+          },
+          {
+            "title": "Forecasting",
+            "text": "Predictions for demand and stock levels, so you can plan ahead.",
+            "meta": "Knowledge and data"
+          },
+          {
+            "title": "Recommendations and personalization",
+            "text": "Each customer sees the products or content they’re most likely to want.",
+            "meta": "Knowledge and data"
+          },
+          {
+            "title": "UI/UX design powered by AI",
+            "text": "We design apps and websites that are easy to use, with AI speeding up the design work.",
+            "meta": "Design"
+          },
+          {
+            "title": "Prototypes and user testing",
+            "text": "Clickable prototypes tested with real users, with AI helping sort through the feedback.",
+            "meta": "Design"
+          },
+          {
+            "title": "Chat and voice design",
+            "text": "We plan how your AI assistants talk, so conversations feel natural and match your brand.",
+            "meta": "Design"
+          },
+          {
+            "title": "AI security testing",
+            "text": "We test AI apps and agents for weak spots, like attempts to trick them into leaking data, and fix what we find.",
+            "meta": "Security and risk"
+          },
+          {
+            "title": "Fraud and anomaly detection",
+            "text": "Unusual payments or logins get flagged as they happen.",
+            "meta": "Security and risk"
+          },
+          {
+            "title": "Security monitoring with AI",
+            "text": "AI watches your systems for threats and alerts your team fast.",
+            "meta": "Security and risk"
+          }
+        ]
+      },
+      "components": [
+        "Card",
+        "Service icon/Mono",
+        "Accordion item (mobile)"
+      ],
+      "images": []
+    },
     {
-     "imageId": "IMG-05-2",
-     "slotName": "IMG-05-2 · Proposal email",
-     "kind": "existing",
-     "source": "brand-kit/emails/previews/proposal-ready-desktop.png (mobile: proposal-ready-mobile.png)",
-     "aspectDesktop": "520x380 framed, top of the email (headline and the fixed total box)",
-     "aspectMobile": "358x448, top of the email",
-     "placement": "inset media in the left column, under the lead",
-     "textArea": "none",
-     "alt": "Sample proposal email: new orders go straight into your system, one fixed total, with everything it covers listed."
+      "id": "before-after",
+      "name": "Before and after",
+      "layout": "product-visual",
+      "ground": "navy",
+      "job": "Show one slow process before and after, as a product visual, with the two commitments that make it safe.",
+      "desktop": "Navy chapter. Asymmetric head (Heading/1). A framed product window (Partner 30 card): a mono title bar, then Before | After columns of four numbered steps with tags (By hand, AI, Person) and icons, and a footer line with a link. Below, two commitments side by side.",
+      "mobile": "Head stacked; the window stacks Before above After (step numbers dropped, Body/SM step text, tags kept); the footer line and link stack; commitments stack.",
+      "content": {
+        "heading": "One slow process, before and after.",
+        "lead": "A sample: orders that arrive by email. Today someone retypes each one. After, AI enters it and a person checks anything unusual.",
+        "items": [
+          {
+            "title": "Before · Every order, by hand",
+            "text": "An order arrives by email (Inbox) · Someone retypes it into your order system (By hand) · Someone checks stock in another tab (By hand) · Someone writes the confirmation (By hand)"
+          },
+          {
+            "title": "After · AI does the typing. A person checks.",
+            "text": "An order arrives by email (Inbox) · AI reads it and enters it in your order system (AI) · AI checks stock and flags anything unusual (AI) · A person approves anything flagged (Person)"
+          },
+          {
+            "title": "An owner and a backup plan",
+            "text": "Every automation has both, and we write down how it works clearly enough for a new hire to follow."
+          },
+          {
+            "title": "Your data stays yours",
+            "text": "It stays where you decide, and we never use it to train anything you don’t own."
+          }
+        ],
+        "body": [
+          "Nobody types an order twice."
+        ],
+        "ctas": [
+          {
+            "label": "See AI automation",
+            "variant": "link",
+            "target": "/services/ai-automation"
+          }
+        ]
+      },
+      "components": [
+        "Card",
+        "Tag",
+        "Icon",
+        "Link"
+      ],
+      "images": [
+        {
+          "slotName": "Before and after window",
+          "kind": "vector",
+          "source": "UI composition drawn in Figma: Partner 30 window, mono title bar 'Sample · Order intake', two step columns with Tag components and Icon/clock (before) and Icon/check-circle in Ribbon Cyan (after).",
+          "alt": "Sample order process: four manual steps before, and after, AI enters and checks orders while a person approves anything flagged."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "Questions",
+      "layout": "accordion",
+      "ground": "daylight",
+      "job": "Answer the four worries about handing work to AI, and show the fixed-price proposal a partner would get.",
+      "desktop": "Split: questions left 720 (Heading/2, Body/LG lead, accordion with the first item open, link); the framed proposal email preview right (536x440) with its mono caption.",
+      "mobile": "Head, accordion, then the proposal preview (4:5) with its caption and the link.",
+      "content": {
+        "heading": "Before you hand anything over.",
+        "lead": "Straight answers about mistakes, your software, your data and the price.",
+        "faq": [
+          {
+            "q": "What if the AI gets something wrong?",
+            "a": "AI agents check with a person when they’re unsure, and a person reviews the work before it reaches you or your customers. Every automation has an owner and a backup plan."
+          },
+          {
+            "q": "Do we have to change our software?",
+            "a": "We start with the tools you already use and connect them, with tools like Make, n8n and Zapier. For older systems with no easy way to connect, AI can operate the program the way a person would."
+          },
+          {
+            "q": "What happens to our data?",
+            "a": "Your data stays where you decide, and we never use it to train anything you don’t own."
+          },
+          {
+            "q": "How is it priced?",
+            "a": "AI automation projects start from [PRICE], with a fixed quote before work starts. AI usage, like model fees, is passed on at cost and shown on your invoice."
+          }
+        ],
+        "ctas": [
+          {
+            "label": "Read all the questions",
+            "variant": "link",
+            "target": "/questions"
+          }
+        ]
+      },
+      "components": [
+        "Accordion item",
+        "Image slot",
+        "Link"
+      ],
+      "images": [
+        {
+          "imageId": "IMG-05-2",
+          "slotName": "IMG-05-2 · Proposal email",
+          "kind": "existing",
+          "source": "brand-kit/emails/previews/proposal-ready-desktop.png (mobile: proposal-ready-mobile.png)",
+          "aspectDesktop": "520x380 framed, top of the email (headline and the fixed total box)",
+          "aspectMobile": "358x448, top of the email",
+          "placement": "inset media in the left column, under the lead",
+          "textArea": "none",
+          "alt": "Sample proposal email: new orders go straight into your system, one fixed total, with everything it covers listed."
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "name": "Closing CTA",
+      "layout": "cta-band",
+      "ground": "navy",
+      "job": "Close with the AI check-up, and offer AI automation to buyers who already know the job.",
+      "desktop": "Navy chapter without an image: text left (Display/LG, lead, Primary, email link); a Partner 30 card right with a heading, one line and the AI automation Service row.",
+      "mobile": "Title, lead, full-width Primary, email, then the card with the mobile Service row.",
+      "content": {
+        "heading": "Name the slowest job in your week.",
+        "lead": "Tell us about it in the AI check-up. We learn how the work moves today, find where AI could save you time or money, and hand you a plan with a fixed quote. If the fix doesn’t need AI, we’ll say so.",
+        "items": [
+          {
+            "title": "AI automation",
+            "text": "One slow process handled by AI and checked by a person.",
+            "price": "From [PRICE] a project",
+            "link": "/services/ai-automation"
+          }
+        ],
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "hello@allianceaipartners.example",
+            "variant": "link",
+            "target": "mailto:hello@allianceaipartners.example"
+          }
+        ]
+      },
+      "components": [
+        "Card",
+        "Service row",
+        "Button"
+      ],
+      "images": []
     }
-   ]
-  },
-  {
-   "id": "cta",
-   "name": "Closing CTA",
-   "layout": "cta-band",
-   "ground": "navy",
-   "job": "Close with the AI check-up, and offer AI automation to buyers who already know the job.",
-   "desktop": "Navy chapter without an image: text left (Display/LG, lead, Primary, email link); a Partner 30 card right with a heading, one line and the AI automation Service row.",
-   "mobile": "Title, lead, full-width Primary, email, then the card with the mobile Service row.",
-   "content": {
-    "heading": "Name the slowest job in your week.",
-    "lead": "Tell us about it in the AI check-up. We learn how the work moves today, find where AI could save you time or money, and hand you a plan with a fixed quote. If the fix doesn’t need AI, we’ll say so.",
-    "items": [
-     {
-      "title": "AI automation",
-      "text": "One slow process handled by AI and checked by a person.",
-      "price": "From [PRICE] a project",
-      "link": "/services/ai-automation"
-     }
-    ],
-    "ctas": [
-     {
-      "label": "See where AI can help",
-      "variant": "primary",
-      "target": "/ai-check-up"
-     },
-     {
-      "label": "hello@allianceaipartners.example",
-      "variant": "link",
-      "target": "mailto:hello@allianceaipartners.example"
-     }
-    ]
-   },
-   "components": [
-    "Card",
-    "Service row",
-    "Button"
-   ],
-   "images": []
+  ],
+  "notes": "Goal page. Service names and meanings are the Brand DNA list, addressed to the reader. The before/after is a sample process, labelled as a sample, with no invented times or results. No sourced figures on this page. Hero Primary and closing Primary are never in one screenful. Review 2026-11-03: the hero lead now opens with the page name (it appeared nowhere on the page); the data commitment no longer mixes “partner” and “you”; two mobile heads balanced.",
+  "sectionIds": {
+    "desktop": {
+      "hero": "45:999",
+      "services": "45:1019",
+      "before-after": "46:922",
+      "questions": "46:1030",
+      "cta": "46:1075"
+    },
+    "mobile": {
+      "hero": "46:2272",
+      "services": "46:2292",
+      "before-after": "46:2356",
+      "questions": "46:2455",
+      "cta": "46:2498"
+    }
   }
- ],
- "notes": "Goal page. Service names and meanings are the Brand DNA list, addressed to the reader. The before/after is a sample process, labelled as a sample, with no invented times or results. No sourced figures on this page. Hero Primary and closing Primary are never in one screenful.",
- "sectionIds": {
-  "desktop": {
-   "hero": "45:999",
-   "services": "45:1019",
-   "before-after": "46:922",
-   "questions": "46:1030",
-   "cta": "46:1075"
-  },
-  "mobile": {
-   "hero": "46:2272",
-   "services": "46:2292",
-   "before-after": "46:2356",
-   "questions": "46:2455",
-   "cta": "46:2498"
-  }
- }
 }

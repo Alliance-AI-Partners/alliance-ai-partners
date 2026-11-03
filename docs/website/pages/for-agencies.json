@@ -16,8 +16,8 @@
   "default"
  ],
  "frames": {
-  "desktop": "",
-  "mobile": ""
+  "desktop": "64:1755",
+  "mobile": "64:2154"
  },
  "sections": [
   {
@@ -107,7 +107,7 @@
      "imageId": "IMG-29-2",
      "slotName": "IMG-29-2 · Blank paper tag",
      "kind": "new",
-     "aspectDesktop": "760x360 (about 2:1), top of the large bento card",
+     "aspectDesktop": "760x400 (about 2:1), top of the large bento card",
      "aspectMobile": "3:2 (358x240)",
      "placement": "inset at the top of the large white-label card, full bleed inside the card",
      "textArea": "none",
@@ -280,7 +280,7 @@
    "content": {
     "heading": "We protect your clients’ data.",
     "accentWord": "",
-    "lead": "We treat that access as if it were our own. Your clients’ data stays where you decide, and we never use it to train anything you don’t own.",
+    "lead": "We protect access to your clients’ data and systems as if it were our own. Their data stays where you decide, and we never use it to train anything you don’t own.",
     "items": [
      {
       "title": "Non-disclosure agreement",

@@ -225,7 +225,7 @@
     "sources": [
      {
       "key": "1",
-      "text": "NSW Government, Daylight saving. Retrieved 2026-11-02.",
+      "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
       "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
      },
      {
@@ -309,7 +309,7 @@
    "layout": "table",
    "ground": "navy",
    "job": "Then price: the two reasons we cost less, the Clutch agency ranges with the AI development caveat, and our starting prices.",
-   "desktop": "Navy chapter. Section head (Heading/1 with one cyan accent | lead). Two reasons side by side under a hairline, each with a dark service icon. The Clutch table (Work | US | Australia | UK | Philippines | Source) with a caption. Then a split: 'Our starting prices' text (520) | four Service rows and a Secondary button. Sources.",
+   "desktop": "Navy chapter. Section head (Heading/1 with one cyan accent | lead). Two reasons side by side under a hairline, each with a dark service icon. 'What agencies charge by the hour' (Heading/3), the Clutch table (Work | US | Australia | UK | Philippines | Source) and its caption. Then a split: 'Our starting prices' text (520) | four Service rows and a Secondary button. Sources.",
    "mobile": "Head; reasons stacked; the table becomes one stacked block per kind of work (label and value rows); caption; Service rows (mobile variant); Secondary button full width; sources.",
    "content": {
     "heading": "Your AI team in the Philippines. Your savings back home.",
@@ -380,7 +380,8 @@
        "3"
       ]
      ],
-     "oursRow": null
+     "oursRow": null,
+     "title": "What agencies charge by the hour"
     },
     "body": [
      "Ranges most agencies charge on Clutch, a marketplace of reviewed agencies, in US dollars an hour. They are marketplace ranges, not official statistics, and they describe typical Philippine agencies, not our own prices. For AI development, Philippine and Australian agencies sit in the same band, so we don’t claim a gap there. A dash means our sources give no figure.",

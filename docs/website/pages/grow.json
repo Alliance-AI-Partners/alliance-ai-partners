@@ -1,325 +1,325 @@
 {
- "slug": "grow",
- "figmaPage": "06 · Grow",
- "phase": "Launch",
- "route": "/services/grow",
- "purpose": "Show a founder how AI takes the repetitive part of marketing and sales so the team spends its time on customers, list every Grow service, and make retainers checkable.",
- "primaryAction": {
-  "label": "See where AI can help",
-  "target": "/ai-check-up"
- },
- "seo": {
-  "title": "Grow | Alliance AI Partners",
-  "description": "Marketing, sales and go-to-market, and online store services from Alliance AI Partners. AI does the repetitive part; your team spends its time on customers. Less busywork. More growth."
- },
- "states": [
-  "default"
- ],
- "frames": {
-  "desktop": "46:6030",
-  "mobile": "46:8113"
- },
- "sections": [
-  {
-   "id": "hero",
-   "name": "Hero",
-   "layout": "hero-text-led",
-   "ground": "daylight",
-   "job": "Promise growth without wearing out the team, and offer the one committing action.",
-   "desktop": "Stacked hero, different from Scale AI (split) and Solve (full bleed): a bottom-aligned row of Display/XL title (760) | lead, actions and caption; below it a wide inset image 1320x520 with 18 px corners.",
-   "mobile": "Title, lead, full-width Primary, link, caption, then the image re-cropped to 4:5 (358x448).",
-   "content": {
-    "heading": "Grow without wearing out your team.",
-    "accentWord": "team.",
-    "lead": "AI does the repetitive part of your marketing and sales: the first drafts, the follow-ups, the CRM updates. Your people spend their time on customers.",
-    "body": [
-     "A person checks every post, email and ad before it goes out."
-    ],
-    "ctas": [
-     {
-      "label": "See where AI can help",
-      "variant": "primary",
-      "target": "/ai-check-up"
-     },
-     {
-      "label": "See the Grow services",
-      "variant": "link",
-      "target": "#services"
-     }
-    ]
-   },
-   "components": [
-    "Header",
-    "Button",
-    "Link",
-    "Image slot"
-   ],
-   "images": [
+  "slug": "grow",
+  "figmaPage": "06 · Grow",
+  "phase": "Launch",
+  "route": "/services/grow",
+  "purpose": "Show a founder how AI takes the repetitive part of marketing and sales so the team spends its time on customers, list every Grow service, and make retainers checkable.",
+  "primaryAction": {
+    "label": "See where AI can help",
+    "target": "/ai-check-up"
+  },
+  "seo": {
+    "title": "Grow | Alliance AI Partners",
+    "description": "Marketing, sales and go-to-market, and online store services from Alliance AI Partners. AI does the repetitive part; your team spends its time on customers. Less busywork. More growth."
+  },
+  "states": [
+    "default"
+  ],
+  "frames": {
+    "desktop": "46:6030",
+    "mobile": "46:8113"
+  },
+  "sections": [
     {
-     "imageId": "IMG-06-1",
-     "slotName": "IMG-06-1 · Orchard at first light",
-     "kind": "new",
-     "aspectDesktop": "1320x520 inset (about 2.5:1)",
-     "aspectMobile": "358x448 (4:5), crop to the nearest laden trees",
-     "placement": "inset media under the hero text, full container width",
-     "textArea": "none (text sits above the image)",
-     "alt": "An orchard of faceted paper trees along a ribbon path, the nearest trees heavy with fruit.",
-     "source": "Wide panoramic illustration, about 2.5:1, safe to crop to 4:5 at the left third. An orchard at first light built from flat paper facets: rows of faceted trees run along a satin ribbon path in a gradient from Alliance Blue to Ribbon Cyan that winds from the lower left toward the horizon. The trees nearest the viewer are heavy with round folded-paper fruit in Ribbon Cyan and Alliance Blue; trees further along are younger and lighter: steady growth that the team gets to harvest. Soft Daylight sky with pale cyan near the horizon across the top third, calm and empty. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
-    }
-   ]
-  },
-  {
-   "id": "idea",
-   "name": "Less busywork",
-   "layout": "full-bleed-band",
-   "ground": "navy",
-   "job": "Make the 'Less busywork. More growth.' idea concrete: what AI takes over and what the team keeps.",
-   "desktop": "Navy chapter. A full-bleed band 1440x560 (ribbon-blossoms, navy scrim from the reading edge, Display/LG title and lead on the left), then two Partner 30 cards side by side: AI takes the repetitive part | Your team keeps the part that wins customers.",
-   "mobile": "Band 390x560 with the scrim from the top and the text at the top; the two cards stack.",
-   "content": {
-    "heading": "Less busywork. More growth.",
-    "accentWord": "growth.",
-    "lead": "AI does the repetitive part of marketing and sales. Your team keeps the part that wins customers, and a person checks every piece before it goes out.",
-    "items": [
-     {
-      "title": "AI takes the repetitive part",
-      "text": "First drafts of posts, articles and emails · Many versions of each ad, tested against each other · Research on every prospect before a call · Follow-up emails and meeting booking · CRM updates and lead scoring · Product descriptions for your whole catalog"
-     },
-     {
-      "title": "Your team keeps the part that wins customers",
-      "text": "Choosing who to sell to and what to say · Calls and meetings with the best leads · Approving every piece before it goes out · Setting the goals and the budget"
-     }
-    ]
-   },
-   "components": [
-    "Image slot",
-    "Card",
-    "Icon"
-   ],
-   "images": [
+      "id": "hero",
+      "name": "Hero",
+      "layout": "hero-text-led",
+      "ground": "daylight",
+      "job": "Promise growth without wearing out the team, and offer the one committing action.",
+      "desktop": "Stacked hero, different from Scale AI (split) and Solve (full bleed): a bottom-aligned row of Display/XL title (760) | lead, actions and caption; below it a wide inset image 1320x520 with 18 px corners.",
+      "mobile": "Title, lead, full-width Primary, link, caption, then the image re-cropped to 4:5 (358x448).",
+      "content": {
+        "heading": "Grow without wearing out your team.",
+        "accentWord": "team.",
+        "lead": "AI does the repetitive part of your marketing and sales: the first drafts, the follow-ups, the CRM updates. Your people spend their time on customers.",
+        "body": [
+          "A person checks every post, email and ad before it goes out."
+        ],
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "See the Grow services",
+            "variant": "link",
+            "target": "#services"
+          }
+        ]
+      },
+      "components": [
+        "Header",
+        "Button",
+        "Link",
+        "Image slot"
+      ],
+      "images": [
+        {
+          "imageId": "IMG-06-1",
+          "slotName": "IMG-06-1 · Orchard at first light",
+          "kind": "new",
+          "aspectDesktop": "1320x520 inset (about 2.5:1)",
+          "aspectMobile": "358x448 (4:5), crop to the nearest laden trees",
+          "placement": "inset media under the hero text, full container width",
+          "textArea": "none (text sits above the image)",
+          "alt": "An orchard of faceted paper trees along a ribbon path, the nearest trees heavy with fruit.",
+          "source": "Wide panoramic illustration, about 2.5:1, safe to crop to 4:5 at the left third. An orchard at first light built from flat paper facets: rows of faceted trees run along a satin ribbon path in a gradient from Alliance Blue to Ribbon Cyan that winds from the lower left toward the horizon. The trees nearest the viewer are heavy with round folded-paper fruit in Ribbon Cyan and Alliance Blue; trees further along are younger and lighter: steady growth that the team gets to harvest. Soft Daylight sky with pale cyan near the horizon across the top third, calm and empty. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+        }
+      ]
+    },
     {
-     "imageId": "IMG-06-2",
-     "slotName": "IMG-06-2 · Ribbon blossoms",
-     "kind": "existing",
-     "source": "design-system/imagery/backgrounds/ribbon-blossoms.webp",
-     "aspectDesktop": "1440x560 full bleed",
-     "aspectMobile": "390x560, crop to the blossoms on the right",
-     "placement": "band background with a navy scrim from the left (desktop) and from the top (mobile)",
-     "textArea": "left half (desktop), top half (mobile), white text on the scrim",
-     "alt": ""
+      "id": "idea",
+      "name": "Less busywork",
+      "layout": "full-bleed-band",
+      "ground": "navy",
+      "job": "Make the 'Less busywork. More growth.' idea concrete: what AI takes over and what the team keeps.",
+      "desktop": "Navy chapter. A full-bleed band 1440x560 (ribbon-blossoms, navy scrim from the reading edge, Display/LG title and lead on the left), then two Partner 30 cards side by side: AI takes the repetitive part | Your team keeps the part that wins customers.",
+      "mobile": "Band 390x560 with the scrim from the top and the text at the top; the two cards stack.",
+      "content": {
+        "heading": "Less busywork. More growth.",
+        "accentWord": "growth.",
+        "lead": "The work splits in two. AI drafts the posts, tests the ads and keeps the CRM up to date. Your people choose who to sell to, talk to the best leads and have the final say.",
+        "items": [
+          {
+            "title": "AI takes the repetitive part",
+            "text": "First drafts of posts, articles and emails · Many versions of each ad, tested against each other · Research on every prospect before a call · Follow-up emails and meeting booking · CRM updates and lead scoring · Product descriptions for your whole catalog"
+          },
+          {
+            "title": "Your team keeps the part that wins customers",
+            "text": "Choosing who to sell to and what to say · Calls and meetings with the best leads · Approving every piece before it goes out · Setting the goals and the budget"
+          }
+        ]
+      },
+      "components": [
+        "Image slot",
+        "Card",
+        "Icon"
+      ],
+      "images": [
+        {
+          "imageId": "IMG-06-2",
+          "slotName": "IMG-06-2 · Ribbon blossoms",
+          "kind": "existing",
+          "source": "design-system/imagery/backgrounds/ribbon-blossoms.webp",
+          "aspectDesktop": "1440x560 full bleed",
+          "aspectMobile": "390x560, crop to the blossoms on the right",
+          "placement": "band background with a navy scrim from the left (desktop) and from the top (mobile)",
+          "textArea": "left half (desktop), top half (mobile), white text on the scrim",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "name": "Services",
+      "layout": "table",
+      "ground": "daylight",
+      "job": "List the three categories with every service and what it means, from the Brand DNA.",
+      "desktop": "Asymmetric head, then one grouped table: Group 280 (service icon, Heading/4, spans its rows) | Service 380 (Body/Strong) | What it means (Body/SM). Strong hairline between groups, subtle hairlines between rows. Different from the Scale AI rows and the Solve cards.",
+      "mobile": "Head stacked, three accordion items; the first (Marketing) open with its nine services listed.",
+      "content": {
+        "heading": "Where AI helps you grow.",
+        "lead": "Marketing that finds people likely to buy, sales help that follows up on time, and online stores that sell through AI assistants. Start with one and add more over time.",
+        "items": [
+          {
+            "title": "Lead generation",
+            "text": "We find people and companies likely to buy from you and add them to your pipeline.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "Marketing campaigns",
+            "text": "Campaigns planned and run on the channels that suit your business.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "AI search visibility (GEO)",
+            "text": "We help your business show up in answers from ChatGPT, Google’s AI results, Perplexity, and other AI search tools.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "SEO and content",
+            "text": "Articles and landing pages, written faster with AI and checked by people.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "Paid ads",
+            "text": "We use AI to create and test many ad versions, then move budget to the ones that work.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "Social media",
+            "text": "Posts and short videos, planned and produced with help from AI.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "Email marketing",
+            "text": "Emails that adapt to each reader’s interests and actions.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "AI images and video",
+            "text": "Product photos, ads, explainer videos, and AI presenter videos.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "Video translation and voiceovers",
+            "text": "Your videos in other languages, with natural-sounding voices.",
+            "meta": "Marketing"
+          },
+          {
+            "title": "Go-to-market (GTM) strategy",
+            "text": "A plan for launching and selling a product: who to target and what to say to them.",
+            "meta": "Sales and go-to-market"
+          },
+          {
+            "title": "Sales support",
+            "text": "Help with research and follow-ups for your sales team.",
+            "meta": "Sales and go-to-market"
+          },
+          {
+            "title": "AI sales agents",
+            "text": "AI that researches prospects, writes personal outreach, and books meetings for your team.",
+            "meta": "Sales and go-to-market"
+          },
+          {
+            "title": "CRM automation and lead scoring",
+            "text": "Your CRM stays up to date on its own, and leads are ranked so your team calls the best ones first.",
+            "meta": "Sales and go-to-market"
+          },
+          {
+            "title": "Proposal and RFP automation",
+            "text": "Drafts of proposals and answers to requests for proposals (RFPs), built from your past work.",
+            "meta": "Sales and go-to-market"
+          },
+          {
+            "title": "Customer retention",
+            "text": "Early warnings about customers who might leave, so your team can act in time.",
+            "meta": "Sales and go-to-market"
+          },
+          {
+            "title": "Product content",
+            "text": "Product descriptions and images for your whole catalog, written and made with AI.",
+            "meta": "Online stores"
+          },
+          {
+            "title": "Shopping assistants",
+            "text": "An AI assistant on your store that helps shoppers find the right product.",
+            "meta": "Online stores"
+          },
+          {
+            "title": "Selling through AI assistants",
+            "text": "We set up your store so AI assistants like ChatGPT can find and recommend your products, and in some cases buy them for shoppers.",
+            "meta": "Online stores"
+          }
+        ],
+        "ctas": [
+          {
+            "label": "See the online store package",
+            "variant": "link",
+            "target": "/industries/online-stores-and-retail"
+          }
+        ],
+        "mobileSummaries": {
+          "Marketing": "Find people likely to buy, and reach them with campaigns, content and ads.",
+          "Sales and go-to-market": "Research, follow-ups and a CRM that stays up to date, so your team calls the best leads first.",
+          "Online stores": "Product content, shopping assistants and a store that AI assistants can recommend."
+        }
+      },
+      "components": [
+        "Service icon/Mono",
+        "Link",
+        "Accordion item (mobile)"
+      ],
+      "images": []
+    },
+    {
+      "id": "retainers",
+      "name": "Retainers",
+      "layout": "sourced-stats",
+      "ground": "daylight",
+      "job": "Make retainers checkable: one sourced market figure, then what Alliance AI Partners does instead.",
+      "desktop": "Asymmetric head; a hairline-ruled row: Stat (US$3,199 with Source key 1) | What we do instead (check list); the numbered source list below a hairline; a caption that this is an example, not a comment on any firm.",
+      "mobile": "Head, the stat, the list, sources, caption, stacked.",
+      "content": {
+        "heading": "Know what your retainer buys.",
+        "lead": "It isn’t always clear what a marketing retainer pays for. Ours lists the work it covers.",
+        "items": [
+          {
+            "title": "US$3,199",
+            "text": "The average monthly SEO retainer on Clutch, in a range of US$2,000 to US$20,000.",
+            "meta": "Source 1"
+          },
+          {
+            "title": "What we do instead",
+            "text": "A retainer that lists the work it covers · A fixed quote before work starts · AI usage passed on at cost and shown on your invoice · Monthly plans you can cancel with [30] days’ notice"
+          }
+        ],
+        "body": [
+          "An example of how marketing is priced, not a comment on any firm."
+        ],
+        "sources": [
+          {
+            "key": "1",
+            "text": "Clutch, SEO company pricing, clutch.co/seo-firms/pricing, [date to confirm]. Marketplace figures, not official statistics. Retrieved 2026-11-02.",
+            "url": "https://clutch.co/seo-firms/pricing"
+          }
+        ]
+      },
+      "components": [
+        "Stat",
+        "Source key",
+        "Source list"
+      ],
+      "images": []
+    },
+    {
+      "id": "cta",
+      "name": "Closing CTA",
+      "layout": "cta-band",
+      "ground": "navy",
+      "job": "Close with the AI check-up, framed around marketing and sales.",
+      "desktop": "Navy chapter without an image: a bottom-aligned row of the Ribbon rule and Display/LG title (700) | lead, Primary and email link.",
+      "mobile": "Rule, title, lead, full-width Primary, email.",
+      "content": {
+        "heading": "Find the busywork in your marketing.",
+        "accentWord": "busywork",
+        "lead": "The AI check-up is our usual first project. We look at how you win customers today, find what AI could take over, and hand you a plan with a fixed quote.",
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "hello@allianceaipartners.example",
+            "variant": "link",
+            "target": "mailto:hello@allianceaipartners.example"
+          }
+        ]
+      },
+      "components": [
+        "Ribbon rule",
+        "Button"
+      ],
+      "images": []
     }
-   ]
-  },
-  {
-   "id": "services",
-   "name": "Services",
-   "layout": "table",
-   "ground": "daylight",
-   "job": "List the three categories with every service and what it means, from the Brand DNA.",
-   "desktop": "Asymmetric head, then one grouped table: Group 280 (service icon, Heading/4, spans its rows) | Service 380 (Body/Strong) | What it means (Body/SM). Strong hairline between groups, subtle hairlines between rows. Different from the Scale AI rows and the Solve cards.",
-   "mobile": "Head stacked, three accordion items; the first (Marketing) open with its nine services listed.",
-   "content": {
-    "heading": "Where AI helps you grow.",
-    "lead": "Marketing that finds people likely to buy, sales help that follows up on time, and online stores that sell through AI assistants. Start with one and add more over time.",
-    "items": [
-     {
-      "title": "Lead generation",
-      "text": "We find people and companies likely to buy from you and add them to your pipeline.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "Marketing campaigns",
-      "text": "Campaigns planned and run on the channels that suit your business.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "AI search visibility (GEO)",
-      "text": "We help your business show up in answers from ChatGPT, Google’s AI results, Perplexity, and other AI search tools.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "SEO and content",
-      "text": "Articles and landing pages, written faster with AI and checked by people.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "Paid ads",
-      "text": "We use AI to create and test many ad versions, then move budget to the ones that work.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "Social media",
-      "text": "Posts and short videos, planned and produced with help from AI.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "Email marketing",
-      "text": "Emails that adapt to each reader’s interests and actions.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "AI images and video",
-      "text": "Product photos, ads, explainer videos, and AI presenter videos.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "Video translation and voiceovers",
-      "text": "Your videos in other languages, with natural-sounding voices.",
-      "meta": "Marketing"
-     },
-     {
-      "title": "Go-to-market (GTM) strategy",
-      "text": "A plan for launching and selling a product: who to target and what to say to them.",
-      "meta": "Sales and go-to-market"
-     },
-     {
-      "title": "Sales support",
-      "text": "Help with research and follow-ups for your sales team.",
-      "meta": "Sales and go-to-market"
-     },
-     {
-      "title": "AI sales agents",
-      "text": "AI that researches prospects, writes personal outreach, and books meetings for your team.",
-      "meta": "Sales and go-to-market"
-     },
-     {
-      "title": "CRM automation and lead scoring",
-      "text": "Your CRM stays up to date on its own, and leads are ranked so your team calls the best ones first.",
-      "meta": "Sales and go-to-market"
-     },
-     {
-      "title": "Proposal and RFP automation",
-      "text": "Drafts of proposals and answers to requests for proposals (RFPs), built from your past work.",
-      "meta": "Sales and go-to-market"
-     },
-     {
-      "title": "Customer retention",
-      "text": "Early warnings about customers who might leave, so your team can act in time.",
-      "meta": "Sales and go-to-market"
-     },
-     {
-      "title": "Product content",
-      "text": "Product descriptions and images for your whole catalog, written and made with AI.",
-      "meta": "Online stores"
-     },
-     {
-      "title": "Shopping assistants",
-      "text": "An AI assistant on your store that helps shoppers find the right product.",
-      "meta": "Online stores"
-     },
-     {
-      "title": "Selling through AI assistants",
-      "text": "We set up your store so AI assistants like ChatGPT can find and recommend your products, and in some cases buy them for shoppers.",
-      "meta": "Online stores"
-     }
-    ],
-    "ctas": [
-     {
-      "label": "See the online store package",
-      "variant": "link",
-      "target": "/industries/online-stores-and-retail"
-     }
-    ],
-    "mobileSummaries": {
-     "Marketing": "Find people likely to buy, and reach them with campaigns, content and ads.",
-     "Sales and go-to-market": "Research, follow-ups and a CRM that stays up to date, so your team calls the best leads first.",
-     "Online stores": "Product content, shopping assistants and a store that AI assistants can recommend."
+  ],
+  "notes": "Goal page. Service names and meanings are the Brand DNA list, addressed to the reader. The one figure (Clutch SEO retainers) carries Source key 1 and a dated source line in the same section; it is not compared with an Alliance price. The Ribbon rule in the closing band is the page’s one ribbon signature. Review 2026-11-03: the band lead was rewritten because it repeated the hero lead; the retainers lead no longer repeats the [30] days item; “Less busywork. / More growth.” and the retainers head set on balanced lines; the Clutch SEO figure carries [date to confirm] because the Brand DNA gives it no date; mobile CTA section ID corrected to 46:8333.",
+  "sectionIds": {
+    "desktop": {
+      "hero": "46:6081",
+      "idea": "46:6101",
+      "services": "46:6169",
+      "retainers": "46:6305",
+      "cta": "46:6343"
+    },
+    "mobile": {
+      "hero": "46:8152",
+      "idea": "46:8170",
+      "services": "46:8237",
+      "retainers": "46:8296",
+      "cta": "46:8333"
     }
-   },
-   "components": [
-    "Service icon/Mono",
-    "Link",
-    "Accordion item (mobile)"
-   ],
-   "images": []
-  },
-  {
-   "id": "retainers",
-   "name": "Retainers",
-   "layout": "sourced-stats",
-   "ground": "daylight",
-   "job": "Make retainers checkable: one sourced market figure, then what Alliance AI Partners does instead.",
-   "desktop": "Asymmetric head; a hairline-ruled row: Stat (US$3,199 with Source key 1) | What we do instead (check list); the numbered source list below a hairline; a caption that this is an example, not a comment on any firm.",
-   "mobile": "Head, the stat, the list, sources, caption, stacked.",
-   "content": {
-    "heading": "Know what your retainer buys.",
-    "lead": "It isn’t always clear what a marketing retainer pays for. Ours lists the work it covers, and you can cancel a monthly plan with [30] days’ notice.",
-    "items": [
-     {
-      "title": "US$3,199",
-      "text": "The average monthly SEO retainer on Clutch, in a range of US$2,000 to US$20,000.",
-      "meta": "Source 1"
-     },
-     {
-      "title": "What we do instead",
-      "text": "A retainer that lists the work it covers · A fixed quote before work starts · AI usage passed on at cost and shown on your invoice · Monthly plans you can cancel with [30] days’ notice"
-     }
-    ],
-    "body": [
-     "An example of how marketing is priced, not a comment on any firm."
-    ],
-    "sources": [
-     {
-      "key": "1",
-      "text": "Clutch, SEO company pricing, clutch.co/seo-firms/pricing, [date to confirm]. Marketplace figures, not official statistics. Retrieved 2026-11-02.",
-      "url": "https://clutch.co/seo-firms/pricing"
-     }
-    ]
-   },
-   "components": [
-    "Stat",
-    "Source key",
-    "Source list"
-   ],
-   "images": []
-  },
-  {
-   "id": "cta",
-   "name": "Closing CTA",
-   "layout": "cta-band",
-   "ground": "navy",
-   "job": "Close with the AI check-up, framed around marketing and sales.",
-   "desktop": "Navy chapter without an image: a bottom-aligned row of the Ribbon rule and Display/LG title (700) | lead, Primary and email link.",
-   "mobile": "Rule, title, lead, full-width Primary, email.",
-   "content": {
-    "heading": "Find the busywork in your marketing.",
-    "accentWord": "busywork",
-    "lead": "The AI check-up is our usual first project. We look at how you win customers today, find what AI could take over, and hand you a plan with a fixed quote.",
-    "ctas": [
-     {
-      "label": "See where AI can help",
-      "variant": "primary",
-      "target": "/ai-check-up"
-     },
-     {
-      "label": "hello@allianceaipartners.example",
-      "variant": "link",
-      "target": "mailto:hello@allianceaipartners.example"
-     }
-    ]
-   },
-   "components": [
-    "Ribbon rule",
-    "Button"
-   ],
-   "images": []
   }
- ],
- "notes": "Goal page. Service names and meanings are the Brand DNA list, addressed to the reader. The one figure (Clutch SEO retainers) carries Source key 1 and a dated source line in the same section; it is not compared with an Alliance price. The Ribbon rule in the closing band is the page’s one ribbon signature.",
- "sectionIds": {
-  "desktop": {
-   "hero": "46:6081",
-   "idea": "46:6101",
-   "services": "46:6169",
-   "retainers": "46:6305",
-   "cta": "46:6343"
-  },
-  "mobile": {
-   "hero": "46:8152",
-   "idea": "46:8170",
-   "services": "46:8237",
-   "retainers": "46:8296",
-   "cta": "46:8343"
-  }
- }
 }
