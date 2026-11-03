@@ -31,7 +31,7 @@
       "content": {
         "heading": "Straight answers before you start.",
         "accentWord": "start.",
-        "lead": "What founders ask us before they start: about quality, price, time zones, data and how we work together. Every answer here is a promise we keep.",
+        "lead": "What founders ask us about quality, price, time zones, data and working together, and what we tell them. Every answer is a promise we keep.",
         "body": [
           "22 answers in 5 topics · Updated [date]"
         ],
@@ -62,8 +62,8 @@
       "layout": "split-sticky",
       "ground": "daylight",
       "job": "Answer every buyer question, grouped by topic, with a topic list that stays in view on desktop.",
-      "desktop": "Hairline on top. Left 296: sticky topic list (five rows, 44px tall, a 2px Partner Navy bar marks the current topic, count in mono), then 'Can’t find your question?' and a small link. Right 928: five topic groups 80px apart, each a Heading/2 title, one-line intro (640) and accordion items (answers held to 640 for reading). The first item of each group is open to show the voice. Time zones group adds the Time zones clocks, a sample-time caption and sources; Quality and Data groups carry their own numbered sources; Data adds a link to the Data and security page.",
-      "mobile": "Topic list becomes one 'Jump to a topic' select at the top (sticky on the live site). Groups stack full width; answers fill the width; Time zones uses the mobile clock variant (two rows of two). Sources sit under their group.",
+      "desktop": "Hairline on top. Left 296: sticky topic list (five rows, 44px tall, a 2px Partner Navy bar marks the current topic, count in mono), then 'Can’t find your question?' and a small link. Right 928: five topic groups 80px apart, each a Heading/2 title, one-line intro (560) and accordion items (answers held to 560, about 70 characters a line). The first item of each group is open to show the voice. Time zones group adds the Time zones clocks, a sample-time caption and sources; Quality and Data groups carry their own numbered sources; Price ends with a link to the Pricing page and Data with a link to the Data and security page.",
+      "mobile": "Topic list becomes one 'Jump to a topic' select at the top (sticky on the live site). Groups stack full width; answers fill the width; Time zones uses the mobile clock variant (two rows of two). Sources sit under their group. Price ends with the See starting prices link.",
       "content": {
         "topics": [
           "Quality (5)",
@@ -88,7 +88,7 @@
               },
               {
                 "q": "Why is your team in the Philippines?",
-                "a": "Because the skills are there. The Philippines’ IT and business services industry earned US$40.3 billion in 2025 and employs 1.89 million people¹, and its English proficiency is rated “High”, second in Asia². Our costs are lower there, and we pass the difference on to you."
+                "a": "Because the skills are there. The Philippines’ IT and business services industry earned US$40.3 billion in 2025 and employs 1.89 million people¹, and its English proficiency is rated “High,” second in Asia². Our costs are lower there, and we pass the difference on to you."
               },
               {
                 "q": "How do we know it’s working?",
@@ -96,7 +96,7 @@
               },
               {
                 "q": "What if something goes wrong?",
-                "a": "You hear it from us early, with a plan to fix it. When something goes wrong, we say “we”, and we fix it."
+                "a": "You hear it from us early, with a plan to fix it. When something goes wrong, we say “we,” and we fix it."
               }
             ],
             "sources": [
@@ -136,6 +136,13 @@
               {
                 "q": "What if a cheaper tool would do the job?",
                 "a": "We’ll tell you. If an off-the-shelf tool or a simpler fix costs you less, we say so, even when it means less work for us."
+              }
+            ],
+            "ctas": [
+              {
+                "label": "See starting prices",
+                "variant": "link",
+                "target": "/pricing"
               }
             ]
           },
@@ -180,7 +187,7 @@
             "faq": [
               {
                 "q": "What happens to our data?",
-                "a": "It stays where you decide. We work inside your systems wherever we can, take only the access a job needs, and never use your data to train anything you don’t own.",
+                "a": "We work inside your systems wherever we can, take only the access a job needs, and never use your data to train anything you don’t own.",
                 "open": true
               },
               {
@@ -297,5 +304,5 @@
       "images": []
     }
   ],
-  "notes": "A simple page: no image slots; the Ribbon rule under the hero title is the one signature. All 22 answers use Brand DNA wording where it exists (the four buyer questions verbatim) and match the AI check-up, How we work and Data and security specs. Placeholders kept: [PRICE], [30] days, [two weeks], [one working day], [9 am to 6 pm], [date]. Superscript numbers in two answers key to the numbered source lists under their group. The header marks no nav item (the FAQ sits under Trust in the footer)."
+  "notes": "A simple page: no image slots; the Ribbon rule under the hero title is the one signature. All 22 answers use Brand DNA wording where it exists (the four buyer questions verbatim) and match the AI check-up, How we work and Data and security specs. Placeholders kept: [PRICE], [30] days, [two weeks], [one working day], [9 am to 6 pm], [date]. Superscript numbers in two answers key to the numbered source lists under their group. The header marks no nav item (the FAQ sits under Trust in the footer). Review 2026-11-03 (outside reviewer): hero lead rewritten so it no longer repeats 'before … start' from the title; the first data answer no longer echoes the group intro word for word; the Price group ends with a See starting prices link; desktop answers and intros held to 560 px (about 70 characters, inside the 68ch to 75ch reading measure); American quote punctuation in two closed answers. Both frames lint clean."
 }

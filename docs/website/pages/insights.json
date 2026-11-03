@@ -26,12 +26,12 @@
    "layout": "hero-text-led",
    "ground": "daylight",
    "job": "Name the page, say what Insights covers and that every article is a sample for now, and offer the newsletter.",
-   "desktop": "Split 1.08fr | 1fr, bottom-aligned: Display/XL title in the left column (652, three lines); the right column (604) holds the Body/LG lead, one Secondary LG button that jumps to the sign-up, and a Body/SM sample note with an info icon. Padding 96 top, 64 bottom, so the featured article below shares the first viewport as one composition. No image: the featured article’s cover is the first visual.",
+   "desktop": "Split 1.08fr | 1fr, bottom-aligned: Display/XL title in the left column (652, three lines); the right column (604) holds the Body/LG lead (one sentence, to keep the hero budget), one Secondary LG button that jumps to the sign-up, and a Body/SM sample note with an info icon. Padding 96 top, 64 bottom, so the featured article below shares the first viewport as one composition. No image: the featured article’s cover is the first visual.",
    "mobile": "Title (Display/XL, four lines), lead, full-width Secondary LG, sample note. Padding 48 top, 40 bottom.",
    "content": {
     "heading": "Insights for putting AI to work.",
     "accentWord": "work.",
-    "lead": "Where to start, when AI isn’t the answer, and what things really cost. Short reads for founders, written by the team that does the work.",
+    "lead": "Short, plain reads for founders: where to start, when AI isn’t the answer, and what things really cost.",
     "ctas": [
      {
       "label": "Get Insights by email",

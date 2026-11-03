@@ -160,9 +160,9 @@
       "mobile": "The table becomes stacked rows: one block per kind of data with four label and value lines.",
       "content": {
         "heading": "What we touch, and where it lives.",
-        "lead": "Our data policy will list every kind of data we handle. Until it is published, this table shows what each row will tell you.",
+        "lead": "Every kind of data we handle: why we use it, where it lives, who can see it and how long we keep it.",
         "body": [
-          "Alert (Info): Placeholder until the data policy is published. Each row below is filled in from the policy before launch."
+          "Alert (Info): Placeholder until the data policy is published. Each row below will be filled in from the policy before launch. (Mobile: Each entry will be filled in from the policy before launch.)"
         ],
         "table": {
           "columns": [
@@ -277,7 +277,7 @@
         "lead": "Some work runs through AI models and tools from other companies. We publish each one that may touch partner data: what it does, what it sees and where it runs.",
         "body": [
           "Before a new provider touches your data, we tell you [notice period] ahead.",
-          "Preview. The full list is published before launch."
+          "Preview. We will publish the full list before launch."
         ],
         "table": {
           "columns": [
@@ -406,5 +406,5 @@
       "images": []
     }
   ],
-  "notes": "Frames 38:45 and 39:1228 were built by a stopped duplicate builder and kept after review: lint clean on 2026-11-03 after two fixes (the law band Source key text raised from 10 to 12 px, and the fourth rule retitled 'Your data trains only what you own.' to match Brand DNA, since custom model training on a partner's own data is a listed service). Footer-linked trust page, so no nav item is current. The security-governance and lock visuals are used small and in context (lock icons on the access record and in the security strip, the shield service icon in the rules), never as padlock clip art. Everything that depends on the unpublished data policy is a bracketed placeholder and labelled as one (Brand DNA, Notes before launch 6). The only number shown (the Act and its year) carries Source key 1 and a dated source line. Review 2026-11-03: law band scrims strengthened on both frames (the text column started over a 15% scrim on desktop and the source list over a 10 to 25% scrim on mobile, where the crop puts leaves under all the text); the closing lead changed from 'the easiest way to start' (a superlative Brand DNA doesn't make) to Brand DNA's 'short, low-risk first project'."
+  "notes": "Frames 38:45 and 39:1228 were built by a stopped duplicate builder and kept after review: lint clean on 2026-11-03 after two fixes (the law band Source key text raised from 10 to 12 px, and the fourth rule retitled 'Your data trains only what you own.' to match Brand DNA, since custom model training on a partner's own data is a listed service). Footer-linked trust page, so no nav item is current. The security-governance and lock visuals are used small and in context (lock icons on the access record and in the security strip, the shield service icon in the rules), never as padlock clip art. Everything that depends on the unpublished data policy is a bracketed placeholder and labelled as one (Brand DNA, Notes before launch 6). The only number shown (the Act and its year) carries Source key 1 and a dated source line. Review 2026-11-03: law band scrims strengthened on both frames (the text column started over a 15% scrim on desktop and the source list over a 10 to 25% scrim on mobile, where the crop puts leaves under all the text); the closing lead changed from 'the easiest way to start' (a superlative Brand DNA doesn't make) to Brand DNA's 'short, low-risk first project'. Also in review: the 'What we touch' lead is now publishable copy (it explained the placeholder, which the Info alert already says), and the alert and preview note say 'will be filled in' and 'We will publish' for things that happen before launch."
 }

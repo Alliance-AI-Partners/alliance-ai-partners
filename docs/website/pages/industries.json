@@ -1,0 +1,301 @@
+{
+ "slug": "industries",
+ "figmaPage": "20 · Industries",
+ "phase": "Next",
+ "route": "/industries",
+ "purpose": "Let a founder find their industry, see the AI services we package for it, open the four industry pages, and start an AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "AI packages by industry | Alliance AI Partners",
+  "description": "Ready-made AI packages for finance and accounting, healthcare and clinics, online stores and retail, home services and seven more industries, built and run by an embedded team in the Philippines."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {},
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Section · Hero",
+   "ground": "daylight",
+   "layout": "split-image-right",
+   "job": "Say what the industry packages give a founder (a head start) and offer the one committing action.",
+   "desktop": "Header (Services marked current). Hero grid 1.08fr | 1fr: text column 652 (Display/XL title with one accent word in regular weight, Body/LG lead 560, the page’s one Primary LG + an underlined link, a meta line in UI/Caption with a small UI icon) | image slot 604x560 on the right. 96 top, 128 bottom.",
+   "mobile": "Title, lead, full-width LG Primary, centred link, then the image re-cropped to 4:5 (358x448), then the meta line. 48 top, 72 bottom.",
+   "content": {
+    "heading": "A head start for your industry.",
+    "lead": "We package popular AI services for common industries. Find yours, start with one service and add more over time.",
+    "accentWord": "industry.",
+    "body": [
+     "Built and run by our team in the Philippines, as part of yours."
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "See every service",
+      "variant": "link",
+      "target": "/services"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Icon/globe",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-20-1",
+     "slotName": "IMG-20-1 · Four bundles, one ribbon",
+     "kind": "new",
+     "source": "Editorial illustration on a Daylight background, nearly square (about 1:1), safe to crop to 4:5 around the centre. On a low, calm faceted paper hill, four small bundles of flat faceted paper plants stand in a loose row, each a different kind: a sheaf of slender leaves, a branch of soft blossoms, a cluster of broad leaves and a tuft of tall grasses, in Partner Navy, slate blue and pale blue facets. One continuous satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the lower left, loops once around the stem of each bundle and runs out at the right edge: ready-made packages for different industries, tied together by one team. Keep the bundles in the middle and lower two thirds and the top third a calm, open Daylight sky. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "604x560 (about 1:1)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line",
+     "textArea": "none (text sits beside the image); keep the top third calm",
+     "alt": "Four different bundles of faceted paper plants, each tied by the same satin ribbon."
+    }
+   ]
+  },
+  {
+   "id": "featured",
+   "name": "Section · Featured industries",
+   "ground": "daylight",
+   "layout": "bento",
+   "job": "Put the four industries that have their own page first, each with its Brand DNA package and a link to its page.",
+   "desktop": "Section head, then a staggered bento of four white cards in two rows (wide 760 | narrow; narrow | wide 760), each row one height: service icon 40, Heading/3 industry, Body/Default one-liner, the package items as Tags, a link at the foot.",
+   "mobile": "Head; the four cards in one column, in the same order.",
+   "content": {
+    "heading": "Find your industry.",
+    "lead": "Each of these has its own page: the slow work the package takes off your team, what’s in it, and how your data stays safe.",
+    "items": [
+     {
+      "title": "Finance and accounting",
+      "text": "Less typing at month end: invoices read, expenses checked and the monthly report drafted for your team to approve.",
+      "meta": "Invoice processing · Bookkeeping help · Expense checks · Monthly reports",
+      "icon": "Service icon/Mono/data-analytics",
+      "link": "/industries/finance-and-accounting"
+     },
+     {
+      "title": "Healthcare and clinics",
+      "text": "Calls answered, reminders sent, intake forms filled in before the visit and notes drafted for the doctor to check.",
+      "meta": "AI receptionists · Appointment reminders · Patient intake · Note-taking during visits",
+      "icon": "Service icon/Mono/security-governance",
+      "link": "/industries/healthcare-and-clinics"
+     },
+     {
+      "title": "Online stores and retail",
+      "text": "Content for your whole catalog, a shopping assistant, recommendations and support that answers at any hour.",
+      "meta": "Product content · Shopping assistants · Recommendations · Customer support",
+      "icon": "Service icon/Mono/growth",
+      "link": "/industries/online-stores-and-retail"
+     },
+     {
+      "title": "Home services and local businesses",
+      "text": "Calls answered and jobs booked while you’re out on a job, with a message for you when a caller needs a person.",
+      "meta": "Call answering · Job booking",
+      "icon": "Service icon/Mono/automation",
+      "link": "/industries/home-services-and-local-businesses"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Card",
+    "Tag",
+    "Link",
+    "Service icon/Mono/data-analytics",
+    "Service icon/Mono/security-governance",
+    "Service icon/Mono/growth",
+    "Service icon/Mono/automation"
+   ],
+   "images": []
+  },
+  {
+   "id": "more",
+   "name": "Section · More industries",
+   "ground": "daylight",
+   "layout": "table",
+   "job": "List the other seven Brand DNA industry packages, which have no page yet, and route anyone else to the AI check-up or Contact.",
+   "desktop": "Section head, then a two-column table (Industry 400 in Body/Strong | Popular AI solutions), then a link to Contact.",
+   "mobile": "Head; one hairline row per industry (Heading/4 industry above Body/SM solutions); link.",
+   "content": {
+    "heading": "More industries we package.",
+    "lead": "Each of these is available now. If yours isn’t listed, the AI check-up starts from how your business works.",
+    "table": {
+     "columns": [
+      "Industry",
+      "Popular AI solutions"
+     ],
+     "rows": [
+      [
+       "Legal",
+       "Contract review, legal research, document drafting, client intake"
+      ],
+      [
+       "Insurance",
+       "Claims intake, document checks"
+      ],
+      [
+       "Real estate",
+       "Lead follow-up, listing descriptions, virtual staging"
+      ],
+      [
+       "Restaurants and hospitality",
+       "Phone orders, reservations"
+      ],
+      [
+       "HR and recruiting",
+       "Resume screening, interview scheduling"
+      ],
+      [
+       "Manufacturing and logistics",
+       "Quality checks, predictive maintenance, demand forecasting, route planning"
+      ],
+      [
+       "Education and training",
+       "AI tutors, course creation"
+      ]
+     ]
+    },
+    "ctas": [
+     {
+      "label": "Ask about your industry",
+      "variant": "link",
+      "target": "/contact"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Table row",
+    "Link"
+   ],
+   "images": [],
+   "note": "Rows are the Brand DNA list in its order, minus the four featured industries. \"Available now\" follows the Brand DNA: as of October 2026 every service and industry package is available except Private AI."
+  },
+  {
+   "id": "data",
+   "name": "Section · Data",
+   "ground": "navy",
+   "layout": "promise-grid",
+   "job": "Say that regulated industries start with a privacy and compliance review, and list the data promises that apply to every package.",
+   "desktop": "Whole Partner Navy chapter. Section head (Heading/1 title with the cyan accent 0.9fr | Body/LG lead 1.1fr). A 2x2 grid of promises between hairlines: cyan UI icon (24) | Heading/4 title (the law item carries Source key 1) and Body/Default text. Cyan underlined link, then the numbered source list.",
+   "mobile": "Head stacked; the four promises as one column of hairline rows (icon | title and text); link; source list.",
+   "content": {
+    "heading": "Your data rules come first.",
+    "lead": "Projects in healthcare, finance, insurance and legal start with a privacy and compliance review, because those industries have stricter rules about data.",
+    "accentWord": "first.",
+    "items": [
+     {
+      "title": "Your data stays where you decide",
+      "text": "In your own systems wherever possible. We never use it to train anything you don’t own.",
+      "icon": "lock"
+     },
+     {
+      "title": "A person checks the work",
+      "text": "A person reviews every piece of work before it reaches you.",
+      "icon": "check-circle"
+     },
+     {
+      "title": "An owner and a backup plan",
+      "text": "Every automation has both, written down clearly enough for a new hire to follow.",
+      "icon": "file"
+     },
+     {
+      "title": "Protected by law",
+      "text": "Personal data in the Philippines is protected by the Data Privacy Act of 2012, enforced by an independent National Privacy Commission.",
+      "icon": "globe",
+      "sourceKey": "1"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Read how we handle data",
+      "variant": "link",
+      "target": "/trust"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "Republic Act No. 10173, Data Privacy Act of 2012. Supreme Court E-Library. Retrieved 2026-11-02.",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Icon/lock",
+    "Icon/check-circle",
+    "Icon/file",
+    "Icon/globe",
+    "Source key",
+    "Source list",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Section · Closing CTA",
+   "ground": "daylight",
+   "layout": "cta-band",
+   "job": "Close with the AI check-up for founders who are not sure which package fits.",
+   "desktop": "Daylight section holding one large white card (28px radius, 64 padding, raised shadow with the lit edge): text column | the swallow (Graphic/Swallow, 360x288). Display/LG title with one accent, Body/LG lead (620), two check-up facts in mono between hairlines (From [PRICE] · [two weeks]), then the closing Primary (LG) and a link. This Primary is far below the hero Primary, never in the same screenful.",
+   "mobile": "Card with 24 padding: title, lead, full-width Primary, link, the two facts as hairline rows, the swallow small (144x115) at the lower right.",
+   "content": {
+    "heading": "Not sure which package fits?",
+    "lead": "Start with the AI check-up, our usual first project. We learn how your business works, find where AI could save you time or money, and hand you a written plan with a fixed quote for the first fix.",
+    "accentWord": "fits?",
+    "items": [
+     {
+      "title": "From [PRICE]",
+      "text": "The whole check-up, at a fixed price"
+     },
+     {
+      "title": "[two weeks]",
+      "text": "From the first call to your written plan"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "Ask us a question first",
+      "variant": "link",
+      "target": "/contact"
+     }
+    ]
+   },
+   "components": [
+    "Card",
+    "Button",
+    "Link",
+    "Graphic/Swallow",
+    "Footer"
+   ],
+   "images": [
+    {
+     "slotName": "Graphic/Swallow",
+     "kind": "vector",
+     "source": "Graphic/Swallow component (full colour), the brand mascot, placed for real; no raster.",
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "notes": "Index of the Brand DNA \"Ready-made solutions by industry\": the four industries with their own page first (staggered bento), the other seven in a table. Shares its hero, data and closing sections with the industry template (21 to 24), so the five pages read as one set. One new image (the hero); the swallow is the real vector graphic. Header marks Services as current. One Primary in the hero and one in the closing card. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section."
+}

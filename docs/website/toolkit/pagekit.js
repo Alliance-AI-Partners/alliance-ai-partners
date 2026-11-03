@@ -32,7 +32,9 @@ K.page = async (name) => {
   K.P = p; return p;
 };
 // paints, spacing, radius
+// a paint bound to a colour variable. For a tint use K.tint: Figma keeps a bound paint's opacity only when the node's fill is already bound to that variable, so it assigns twice
 K.p = (name, op) => figma.variables.setBoundVariableForPaint({ type: 'SOLID', color: { r: 0, g: 0, b: 0 }, opacity: op === undefined ? 1 : op }, 'color', K.v[name]);
+K.tint = (node, name, op, prop = 'fills') => { node[prop] = [K.p(name)]; node[prop] = [K.p(name, op)]; return node; };
 K.gap = (f, px) => { if (K.SP[px]) f.setBoundVariable('itemSpacing', K.v['sp' + px]); else f.itemSpacing = px; };
 K.pad = (f, p) => {
   const a = Array.isArray(p) ? (p.length === 2 ? [p[0], p[1], p[0], p[1]] : p) : [p, p, p, p];
@@ -45,7 +47,7 @@ K.f = (dir = 'V', o = {}) => {
   const f = figma.createAutoLayout(dir === 'H' ? 'HORIZONTAL' : 'VERTICAL'); f.name = o.name || 'Frame'; f.fills = []; f.clipsContent = !!o.clip;
   if (o.gap !== undefined) K.gap(f, o.gap);
   if (o.pad !== undefined) K.pad(f, o.pad);
-  if (o.fill) f.fills = [K.p(o.fill, o.fillOpacity)];
+  if (o.fill) { if (o.fillOpacity === undefined) f.fills = [K.p(o.fill)]; else K.tint(f, o.fill, o.fillOpacity); }
   if (o.radius !== undefined) K.rad(f, o.radius);
   if (o.align) f.counterAxisAlignItems = o.align; // MIN | CENTER | MAX | BASELINE
   if (o.justify) f.primaryAxisAlignItems = o.justify; // MIN | CENTER | MAX | SPACE_BETWEEN
@@ -202,7 +204,7 @@ K.table = async (parent, cols, rows, o = {}) => {
       const t = await K.t(String(cells[i]), style, kind === 'head' ? 'tS' : 'tP', { align: cols[i].num ? 'RIGHT' : 'LEFT' });
       K.add(c, t, { w: 'fill' });
     }
-    if (kind === 'ours') r.fills = [K.p('cyan', 0.10)]; // set after the cells exist, or the tint can come back solid
+    if (kind === 'ours') K.tint(r, 'cyan', 0.10);   // a 10% Ribbon Cyan tint on our own row
   };
   await row(cols.map(c => c.label), 'head');
   for (let i = 0; i < rows.length; i++) await row(rows[i], o.ours === i ? 'ours' : 'body');

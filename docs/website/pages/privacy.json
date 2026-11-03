@@ -50,37 +50,37 @@
       "layout": "accordion",
       "ground": "daylight",
       "job": "Let a reader jump to any section of a long document.",
-      "desktop": "Left column 296, sticky while the document scrolls: Heading/4 'On this page', eleven numbered items on a 1px hairline rail, the current item marked with a 2px Partner Navy bar and navy text (nav-link styling, not underlined), then 'Other policies' links to Terms, Cookies and Accessibility.",
+      "desktop": "Left column 296, sticky while the document scrolls: Heading/4 'On this page', eleven numbered items on a 1px hairline rail, the current item marked with a 2px Partner Navy bar and navy text (nav-link styling, not underlined), then 'Other policies' links to Terms, Cookies and Accessibility. Items are numbered 01 to 11, the same as the section markers.",
       "mobile": "Collapses to one disclosure row under the title ('On this page · 11 sections', plus icon, 72 tall). The 'Contents open' state shows the eleven items as 48px rows with the current one marked.",
       "content": {
         "heading": "On this page",
         "items": [
           {
-            "title": "1 Who we are"
+            "title": "01 Who we are"
           },
           {
-            "title": "2 What this policy covers"
+            "title": "02 What this policy covers"
           },
           {
-            "title": "3 Personal data we collect"
+            "title": "03 Personal data we collect"
           },
           {
-            "title": "4 How we use it"
+            "title": "04 How we use it"
           },
           {
-            "title": "5 Who we share it with"
+            "title": "05 Who we share it with"
           },
           {
-            "title": "6 Where it’s stored and sent"
+            "title": "06 Where it’s stored and sent"
           },
           {
-            "title": "7 How long we keep it"
+            "title": "07 How long we keep it"
           },
           {
-            "title": "8 Your rights"
+            "title": "08 Your rights"
           },
           {
-            "title": "9 Cookies"
+            "title": "09 Cookies"
           },
           {
             "title": "10 Changes to this policy"
@@ -120,7 +120,7 @@
       "layout": "split-sticky",
       "ground": "daylight",
       "job": "Hold the numbered legal sections, with bracketed placeholder text until legal review, and show how tables, lists and links sit inside the text.",
-      "desktop": "Right column 760 (about 68ch): each section has a mono number, a Heading/3 working title and Body text, separated by hairlines. Section 3 includes a three-column table, section 5 a link to the subprocessor list, section 8 a lettered list, section 9 a link to the cookie policy. Section 11 ends with the contact block card.",
+      "desktop": "Right column 760 (about 68ch): each section has a mono number, a Heading/3 working title and Body text, separated by hairlines. Section 3 includes a three-column table, section 5 a link to the subprocessor list, section 8 a lettered list, section 9 a link to the cookie policy. Section 11 ends with the contact block card. Body paragraphs cap at 576 px (about 75 characters at 17 px; lettered items at 532 so their right edges align); headings, hairlines, the table and the contact card keep the full 704 px column.",
       "mobile": "Sections stacked at 358; the table becomes stacked label and value rows.",
       "content": {
         "items": [
@@ -208,5 +208,5 @@
       "images": []
     }
   ],
-  "notes": "Legal template, no image slots. Section headings are plain working titles for legal to confirm, and every body is a bracketed '[Legal text to come: ...]' placeholder, never lorem ipsum. The contents list uses nav-link styling (Partner 46, current in Partner Navy with a 2px bar), the one place links are not underlined, as in the header nav; every inline link is underlined. A canvas note frame beside the mobile frame records that Terms (/terms), Cookies (/cookies) and Accessibility (/accessibility) reuse this design."
+  "notes": "Legal template, no image slots. Section headings are plain working titles for legal to confirm, and every body is a bracketed '[Legal text to come: ...]' placeholder, never lorem ipsum. The contents list uses nav-link styling (Partner 46, current in Partner Navy with a 2px bar), the one place links are not underlined, as in the header nav; every inline link is underlined. A canvas note frame beside the mobile frame records that Terms (/terms), Cookies (/cookies) and Accessibility (/accessibility) reuse this design. Review 2026-11-03: the desktop body measure was about 90 characters (704 px at 17 px), so paragraphs now cap at 576 px with maxWidth; the contents list now numbers 01 to 11 like the section markers (desktop and the Contents open state). Lint clean on all three frames."
 }

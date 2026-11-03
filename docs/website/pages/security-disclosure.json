@@ -73,7 +73,7 @@
       "desktop": "Asymmetric section head, then two equal hairline lists side by side: In scope (check-circle icons) and Out of scope (x-circle icons).",
       "mobile": "Head, then the two lists stacked, In scope first.",
       "content": {
-        "heading": "What's in scope.",
+        "heading": "What you may test.",
         "lead": "Test only what's listed here. If you're not sure whether something counts, ask us first.",
         "items": [
           {
@@ -103,7 +103,7 @@
       "content": {
         "heading": "Tell us what you found, and how.",
         "accentWord": "how.",
-        "lead": "Email security@allianceaipartners.example, one problem per email. The more we can reproduce, the faster we can fix it.",
+        "lead": "Email security@allianceaipartners.example, one problem per email. The easier it is to reproduce, the sooner we fix it.",
         "items": [
           {
             "title": "What you found, and where",
@@ -188,7 +188,7 @@
       "mobile": "Title, lead, alert, well, contact line.",
       "content": {
         "heading": "Safe harbour",
-        "lead": "This is where we'll set out how we protect people who research and report in good faith. A lawyer is writing the wording.",
+        "lead": "Here is how we treat people who research and report in good faith.",
         "body": [
           "Alert (Warning): Placeholder for legal review. The safe harbour wording below must be written and approved by a lawyer before this page goes live.",
           "[Legal text to come: our safe harbour promise for people who research and report in good faith and follow this policy.]",
@@ -203,5 +203,5 @@
       "images": []
     }
   ],
-  "notes": "Simple page: Heading/1 instead of Display/XL, no image slots, the Ribbon rule used once as the timeline axis. Linked from the footer and from Data and security, so no nav item is current. security@allianceaipartners.example is a sample address on the .example domain, like every contact on the site. [two working days], [time to assess], the PGP fingerprint and the safe harbour wording are placeholders to fill before launch; the safe harbour needs legal review."
+  "notes": "Simple page: Heading/1 instead of Display/XL, no image slots, the Ribbon rule used once as the timeline axis. Linked from Data and security (the hero link and the security strip), so no nav item is current. The footer's Trust column doesn't list it yet (checked 2026-11-03): adding a Security link there is a Footer component change. security@allianceaipartners.example is a sample address on the .example domain, like every contact on the site. [two working days], [time to assess], the PGP fingerprint and the safe harbour wording are placeholders to fill before launch; the safe harbour needs legal review. Review 2026-11-03: the scope heading is now 'What you may test.' (it sat right above an 'In scope' column heading and didn't cover the out-of-scope list); the report lead drops its double 'can'; the safe harbour lead is now publishable copy, and the lawyer note lives only in the Warning alert (it was said twice). Lint clean on both frames."
 }

@@ -26,15 +26,13 @@
    "layout": "hero-fullbleed-image",
    "ground": "navy",
    "job": "Say who we are with the About-page tagline, and offer the one committing action.",
-   "desktop": "Full-bleed band 1440x760 (grows with the text). Image with a navy scrim from the left (92% to 78% over the first 58%, clear by 86%). Text block at x 60, centred vertically: Display/XL title on two set lines, Body/LG lead at 580, Primary LG + Link, Body/SM meta.",
-   "mobile": "Band 390x820 or taller: text at the top over a scrim from the top (title on three balanced lines), full-width Primary LG, link, meta; the ribbon bridge shows in the lower part of the image.",
+   "desktop": "Full-bleed band 1440x760 (grows with the text). Image with a navy scrim from the left (92% to 78% over the first 58%, clear by 86%). Text block at x 60, centred vertically: Display/XL title on two set lines, Body/LG lead at 580, Primary LG + Link. No extra meta line: the hero keeps to one headline, one lead, one action group (the partners line lives in the Who we work with card).",
+   "mobile": "Band 390x820 or taller: text at the top over a scrim from the top (title on three balanced lines), full-width Primary LG, link; the ribbon bridge shows in the lower part of the image. Scrim holds 82% navy or more under every line of text.",
    "content": {
     "heading": "We build it, run it, and help you grow.",
     "accentWord": "grow.",
     "lead": "Alliance AI Partners is an AI company based in the Philippines. We team up with companies in the US, Australia, the UK and beyond to scale AI, solve business problems with AI, and grow.",
-    "body": [
-     "We call them partners, because we work as part of their team."
-    ],
+    "body": [],
     "ctas": [
      {
       "label": "See where AI can help",
@@ -74,7 +72,7 @@
    "layout": "bento",
    "ground": "daylight",
    "job": "State the purpose, the 2035 vision and the daily mission, and say who we work with.",
-   "desktop": "Asymmetric head (title 0.45 | the purpose as the lead), 48 px, then a bento: two stacked cards on the left (mission with a link; who we work with) and the large vision card (648) on the right with IMG-12-2 across its top and a five-point hairline list.",
+   "desktop": "Asymmetric head (title 0.45 | the purpose as the lead), 48 px, then a bento: two stacked cards on the left (mission with a link; who we work with) and the large vision card (648) on the right with IMG-12-2 across its top and a five-point hairline list. The left column fills the height of the vision card: the two cards share it equally, with the icon at the top and the copy at the foot of each card, so the bento ends on one line.",
    "mobile": "Head stacked; the vision card first (image 358x224, 16:10), then the mission card, then the who-we-work-with card.",
    "content": {
     "heading": "Why we exist.",
@@ -166,12 +164,12 @@
    "layout": "split-image-left",
    "ground": "daylight",
    "job": "Explain the Ribbon: one ribbon binds the A and the P, and “alliance” comes from a Latin word meaning “to bind.”",
-   "desktop": "White feature panel (600, 28 radius, card shadow and lit edge) holding Logo/Mark/Full colour light at 200 px with a mono legend (A Alliance, P Partners, Ribbon binds the two); text right: Heading/2 title, lead, body, then the Ribbon rule (the page's one ribbon signature).",
+   "desktop": "White feature panel (600, 28 radius, card shadow and lit edge) holding Logo/Mark/Full colour light at 200 px with a mono legend (A for alliance, P for partners, Ribbon binds the two); text right: Heading/2 title, lead, body, then the Ribbon rule (the page's one ribbon signature).",
    "mobile": "Title and lead first, then the panel (mark 140 px, legend wraps), body, Ribbon rule 200.",
    "content": {
     "heading": "A ribbon that binds.",
     "accentWord": "binds.",
-    "lead": "In our logo, one ribbon binds the A of Alliance to the P of Partners. The same ribbon ties our website and everything we make together.",
+    "lead": "In our logo, one ribbon binds the A and the P of Alliance AI Partners. The same ribbon ties our website and everything we make together.",
     "body": [
      "It fits our name: “alliance” comes from a Latin word meaning “to bind.” And it’s how we work: one team, tied to one goal."
     ]
@@ -234,7 +232,7 @@
      {
       "label": "Data and security",
       "variant": "link",
-      "target": "/data-and-security"
+      "target": "/trust"
      }
     ],
     "sources": [
@@ -245,7 +243,7 @@
      },
      {
       "key": "2",
-      "text": "EF English Proficiency Index 2025, Philippines (rated “High”, second in Asia). Retrieved 2026-11-02.",
+      "text": "EF English Proficiency Index 2025, Philippines (rated “High,” second in Asia). Retrieved 2026-11-02.",
       "url": "https://www.ef.com/wwen/epi/regions/asia/philippines/"
      },
      {
@@ -300,7 +298,7 @@
     "Button"
    ],
    "images": [],
-   "notes": "The Person tile component fixes its photo frame at 375 px tall, and instances cannot override that height (resize is ignored; a rescaled instance shrinks its text below the lint minimum). The mobile tiles therefore show 171x375 portrait placeholders. A Viewport=Mobile variant, or an aspect-ratio-locked photo, in the component library would give 4:5 photos on phones."
+   "notes": "Person tiles keep a 4:5 photo frame at both widths: 300x375 on desktop, 171x214 on mobile (2x2 grid). [Name] and [Role] stay placeholders; no names, photos, headcounts, years or certifications are added."
   },
   {
    "id": "cta",
@@ -343,5 +341,5 @@
    ]
   }
  ],
- "notes": "Grounds alternate: navy hero, Daylight, navy values, Daylight, navy where we are, Daylight team, navy CTA, then the footer. Image presentation is varied and differs from Home and How we work: a full-bleed hero with a navy scrim (IMG-12-1), an image inside the large bento card (IMG-12-2), and real vector brand assets (the mark in a feature panel, the swallow). The ribbon signature appears once (the Ribbon rule in the big idea). The Philippines base is stated in copy only. The team uses Person tiles with [Name] / [Role] placeholders; no people, names, photos, headcounts or results are invented, and the 2035 points are framed as the vision. Only Brand DNA sources are used (IBPAP 2025, EF EPI 2025, Republic Act 10173), each dated Retrieved 2026-11-02. One Primary in the hero and one in the closing navy band. Titles that would leave a single word on the last line are set on balanced lines. Both frames pass the lint with no findings."
+ "notes": "Grounds alternate: navy hero, Daylight, navy values, Daylight, navy where we are, Daylight team, navy CTA, then the footer. Image presentation is varied and differs from Home and How we work: a full-bleed hero with a navy scrim (IMG-12-1), an image inside the large bento card (IMG-12-2), and real vector brand assets (the mark in a feature panel, the swallow). The ribbon signature appears once (the Ribbon rule in the big idea). The Philippines base is stated in copy only. The team uses Person tiles with [Name] / [Role] placeholders; no people, names, photos, headcounts or results are invented, and the 2035 points are framed as the vision. Only Brand DNA sources are used (IBPAP 2025, EF EPI 2025, Republic Act 10173), each dated Retrieved 2026-11-02. One Primary in the hero and one in the closing navy band. Titles that would leave a single word on the last line are set on balanced lines. Both frames pass the lint with no findings. Review 2026-11-03 (outside reviewer): the hero's extra partners line removed (hero budget, and it repeated the Who we work with card); the Why we exist bento now ends level (left cards fill the vision card's height); The big idea writes the full name Alliance AI Partners and the legend reads A for alliance, P for partners; American quote punctuation in the EF source line; the mobile hero scrim's middle stop raised to 82%; the Data and security link points to /trust. Both frames lint clean."
 }

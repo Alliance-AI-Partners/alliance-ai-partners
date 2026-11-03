@@ -48,6 +48,7 @@ Look for: clipped or overflowing text, collapsed frames (a frame given a fixed w
 
 - One Primary (Alliance Blue) button per screenful: usually in the hero; a closing Navy CTA band may also use Primary. The header CTA is always the Secondary outline (already in the Header component). Elsewhere use Secondary buttons or Links.
 - Links are underlined (Link component, or `links: [...]` in K.t for inline links). Partner Navy on Daylight, Ribbon Cyan inside a Navy chapter (automatic).
+- Tints (for example a 10% Ribbon Cyan row): use `K.tint(node, 'cyan', 0.1)` or `K.f(..., { fill, fillOpacity })`. A bound paint assigned once in one step loses its opacity and comes back solid.
 - Section grounds are Daylight or a whole Partner Navy chapter only (`K.section(R, name, {ground: 'navy'})`). Never Neutral 50 or any third tone as a ground. Cards are white on Daylight and Partner 30 on navy (automatic).
 - No label or kicker above any heading. Meta (dates, read time) goes below.
 - At most one accent word per headline, a single word (`accent: 'word.'`): regular weight on light, Ribbon Cyan on navy (automatic). Many headlines need none.

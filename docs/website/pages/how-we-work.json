@@ -26,8 +26,8 @@
    "layout": "hero-split-image",
    "ground": "daylight",
    "job": "Say how we work in one line and offer the one committing action.",
-   "desktop": "Text 652 | image 604x560 (1.08fr:1fr), vertically centred. Display/XL title, Body/LG lead at 560, Primary LG + link, small base line.",
-   "mobile": "Title, lead, full-width Primary LG, link, the small 'step one' line, then the image re-cropped to 4:5 (358x448) under the actions.",
+   "desktop": "Text 652 | image 604x560 (1.08fr:1fr), vertically centred. Display/XL title, Body/LG lead at 560, Primary LG + link, small base line. Title set on three balanced lines ('We work / as part of / your team.') so the accent word never sits alone.",
+   "mobile": "Title, lead, full-width Primary LG, link, the small 'step one' line, then the image re-cropped to 4:5 (358x448) under the actions. Title on the same three balanced lines.",
    "content": {
     "heading": "We work as part of your team.",
     "accentWord": "team.",
@@ -223,7 +223,7 @@
       [
        "Day to day",
        "Our project lead runs the work and reports to you",
-       "You manage the work, with all of Alliance AI Partners behind them"
+       "You manage our people, backed by all of Alliance AI Partners"
       ],
       [
        "Where it happens",
@@ -425,7 +425,7 @@
    "layout": "timezones",
    "ground": "daylight",
    "job": "Show working hours against the partner's day, with sources.",
-   "desktop": "Asymmetric head; Time zones component (Desktop); three hairline rows (market | what it means | source key); sample note; numbered sources.",
+   "desktop": "Asymmetric head; Time zones component (Desktop) with the sample-times note directly under it (a 'Clocks' group, 16 px); three hairline rows (market | what it means | source key); numbered sources.",
    "mobile": "Head stacked; Time zones (Mobile, 2x2) with the sample-times note directly under the clocks; three market rows (name + source key, then text); numbered sources.",
    "content": {
     "heading": "Working hours that fit yours.",
@@ -506,7 +506,7 @@
      {
       "label": "Read how we handle data",
       "variant": "link",
-      "target": "/data-and-security"
+      "target": "/trust"
      }
     ],
     "sources": [
@@ -572,5 +572,5 @@
    "images": []
   }
  ],
- "notes": "Long scrolling story: the Steps component appears once (the page's one ribbon signature), then each step gets its own layout (split image, navy list with sample quote, table, full-bleed band). Every step section carries a mono meta line below its title (Step n of 4) and the same You get / From you pair, which ties the story together. One Primary in the hero and one in the closing navy band. Only Brand DNA facts; placeholders kept ([PRICE], [30]). Frames: desktop 39:1005 (built by an earlier builder, checked and kept: lint clean, screenshots reviewed), mobile 42:663 (built 2026-11-03 to this spec). Both pass the lint with no findings. Titles that left a single word on the last line are set on balanced lines: desktop 'Four steps from / first call to growth.', 'You see progress / every week.', 'Your data stays / in your systems.', 'Then we pick / the right fix.'; mobile also 'Start with / step one.' and 'Working hours / that fit yours.'."
+ "notes": "Long scrolling story: the Steps component appears once (the page's one ribbon signature), then each step gets its own layout (split image, navy list with sample quote, table, full-bleed band). Every step section carries a mono meta line below its title (Step n of 4) and the same You get / From you pair, which ties the story together. One Primary in the hero and one in the closing navy band. Only Brand DNA facts; placeholders kept ([PRICE], [30]). Frames: desktop 39:1005 (built by an earlier builder, checked and kept: lint clean, screenshots reviewed), mobile 42:663 (built 2026-11-03 to this spec). Both pass the lint with no findings. Titles that left a single word on the last line are set on balanced lines: desktop 'Four steps from / first call to growth.', 'You see progress / every week.', 'Your data stays / in your systems.', 'Then we pick / the right fix.'; mobile also 'Start with / step one.' and 'Working hours / that fit yours.'. Review 2026-11-03 (outside reviewer): hero title rebalanced so 'team.' no longer sits alone on its line; the desktop sample-times note moved under the clocks it explains; the 'We join your team' day-to-day cell now says who 'them' is ('You manage our people, backed by all of Alliance AI Partners'); the data link points to the Data and security route /trust. Both frames lint clean."
 }

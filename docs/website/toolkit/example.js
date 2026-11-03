@@ -108,5 +108,6 @@ K.header(R, 'Services');
 // K.logo('logoL'|'logoD'|'markL'|'markD', heightPx) (never add shadows to a logo), K.sets.swallow.createInstance(), K.rule(width).
 // Icons: await K.icon('arrow-right', 20, 'tS') — names in K.I. Service icons: await K.svc('automation', 40) — names in K.SI.
 // Colour names for K.t / K.p: tP tS tT link accent onA pageS raised sunken bSub bD bS cyan (cyan only on navy or as 10% tint).
+// Tints: K.tint(node, 'cyan', 0.1) or K.f('V', { fill: 'cyan', fillOpacity: 0.1 }). Assigning K.p(name, 0.1) directly comes back solid: Figma keeps a bound paint's opacity only on the second assignment.
 K.footer(R);
 return K.report();

@@ -35,11 +35,11 @@ Figma holds the final copy. Where a page record's draft copy differs from Figma,
 | 17 | System pages | `404: any unknown path (app/not-found.tsx) · Error: any route that fails (app/error.tsx) · Newsletter confirmed: /insights/subscribed (the link in the double opt-in email)` | Launch | Three short pages that catch a visitor when something is missing, broken or just finished, say plainly what happened, and give a kind way back to the home page or the AI check-up. | [system-pages.json](pages/system-pages.json) |
 | 18 | Insights | `/insights` | Next | Give founders short, plain reads on putting AI to work, show what Insights will cover with clearly marked sample articles, and turn readers into Insights subscribers. | [insights.json](pages/insights.json) |
 | 19 | Article | `/insights/<article> (sample: /insights/what-honest-ai-pricing-looks-like)` | Next | Show how an Insights article reads, with one sample built from the Brand DNA price rules: how AI work is charged, with a sourced table, what to check before signing, and the pricing promise Alliance AI Partners keeps; then offer related reads and the newsletter. | [article.json](pages/article.json) |
-| 20 | Industries | | Next | Being built | |
-| 21 | Finance and accounting | | Next | Being built | |
-| 22 | Healthcare and clinics | | Next | Being built | |
-| 23 | Online stores and retail | | Next | Being built | |
-| 24 | Home services and local businesses | | Next | Being built | |
+| 20 | Industries | `/industries` | Next | Let a founder find their industry, see the AI services we package for it, open the four industry pages, and start an AI check-up. | [industries.json](pages/industries.json) |
+| 21 | Finance and accounting | `/industries/finance-and-accounting` | Next | Show a finance or accounting lead what the package takes off their team, what’s in it, how their data stays safe, and get them to start an AI check-up. | [finance-and-accounting.json](pages/finance-and-accounting.json) |
+| 22 | Healthcare and clinics | `/industries/healthcare-and-clinics` | Next | Show a clinic owner or practice manager what the package takes off the front desk, what’s in it, how patient data stays safe, and get them to start an AI check-up. | [healthcare-and-clinics.json](pages/healthcare-and-clinics.json) |
+| 23 | Online stores and retail | `/industries/online-stores-and-retail` | Next | Show an online store owner what the package takes off their team, what’s in it, how customer data stays safe, and get them to start an AI check-up. | [online-stores-and-retail.json](pages/online-stores-and-retail.json) |
+| 24 | Home services and local businesses | `/industries/home-services-and-local-businesses` | Next | Show a home services or local business owner how calls get answered and jobs booked while they work, how customer details stay safe, and get them to start an AI check-up. | [home-services-and-local-businesses.json](pages/home-services-and-local-businesses.json) |
 | 25 | Why the Philippines | `/why-the-philippines` | Next | Answer the question every buyer asks, why the Philippines, with sourced facts in the right order: skill first, then hours, the privacy law and price, and move the reader to an AI check-up. | [why-the-philippines.json](pages/why-the-philippines.json) |
 | 26 | Australia | `/au` | Next | Give a founder in Australia the local case: how our hours line up, what a developer costs them locally, what agencies charge, our starting prices in their currency, and the AI check-up. | [australia.json](pages/australia.json) |
 | 27 | United States | `/us` | Next | Give a founder in the United States the local case: how our hours line up, what a developer costs them locally, what agencies charge, our starting prices in their currency, and the AI check-up. | [united-states.json](pages/united-states.json) |
@@ -102,6 +102,8 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 16. Which social profiles exist. The footer shows LinkedIn, X and YouTube icons; remove any that has no real profile.
 17. What "you see progress every week" looks like in practice. The Embedded developers page shows a short written update every Friday; the Brand DNA promises weekly progress but not its form or day.
 18. The sample report's pair of placeholders, `[four weeks]` for the first fix's timeline and `[two weeks]` of work for a low-effort fix, so they agree once filled in.
+19. How often the Insights newsletter goes out (`[once a month]` on the newsletter confirmation page).
+20. A link for the Clutch AI development price range (Compare page, source 7). The Brand DNA gives the figure and its date but no URL.
 
 Every figure on the site carries a source key and a dated source line, from the sources the Brand DNA lists. Recheck them before launch, because prices and statistics change.
 
