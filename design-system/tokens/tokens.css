@@ -1,0 +1,269 @@
+/*
+ * Alliance AI Partners design tokens. Generated from tokens.json (W3C DTCG) by build-tokens.py; edit tokens.json, not this file.
+ * Palette: the finalized logo kit (docs/brand-kit/_build/palette.json). Fonts: Mona Sans and Mona Sans Mono, SIL OFL 1.1
+ * (../fonts/mona-sans/OFL.txt). Custom properties only, no utility classes; components live in ../css/components.css.
+ * Typography roles are fluid: each -size is a clamp() from its 390 px value to its 1440 px value.
+ */
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("../fonts/mona-sans/MonaSansVF-wdth-opsz-wght.ttf") format("truetype-variations"),
+       url("../fonts/mona-sans/MonaSansVF-wdth-opsz-wght.ttf") format("truetype");
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("../fonts/mona-sans/MonaSansVF-Italic-wdth-opsz-wght.ttf") format("truetype-variations"),
+       url("../fonts/mona-sans/MonaSansVF-Italic-wdth-opsz-wght.ttf") format("truetype");
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mona Sans Mono";
+  src: url("../fonts/mona-sans/MonaSansMonoVF-wght.ttf") format("truetype-variations"),
+       url("../fonts/mona-sans/MonaSansMonoVF-wght.ttf") format("truetype");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+
+  --aap-color-brand-alliance-blue: #1B56FF; /* The AI in light lockups, the Flat-Light mark, the Mono-White ground, and the lit faces of the 3D A */
+  --aap-color-brand-ribbon-cyan: #00D5FF; /* The ribbon's light in both 3D colourways; the AI and one-colour mark on dark grounds; the descriptor rule */
+  --aap-color-brand-partner-navy: #121B2A; /* All type on light grounds, the dark ground, and the deepest shadow of the light mark */
+  --aap-color-brand-daylight: #F4F7FB; /* Page and panel ground; the paper in print; not a logo ink */
+  --aap-color-brand-pure-white: #FFFFFF; /* Paper and knockout: type and the Mono-White mark on navy or blue grounds */
+  --aap-color-shading-partner-30: #1A2D4E; /* the P's underside and the shadow band of the A's left bevel (light mark) */
+  --aap-color-shading-partner-38: #2E4265; /* slate shadow faces of the A's right leg; deepest faces of the dark mark */
+  --aap-color-shading-partner-46: #42587C; /* slate mid faces (P bowl, A's right leg); also secondary text on white */
+  --aap-color-shading-partner-50: #4D6388; /* lifted slate highlights of the dark mark on navy */
+  --aap-color-shading-alliance-38: #243F7B; /* deep-blue shadow bands on the A under the ribbon (light mark) */
+  --aap-color-shading-alliance-46: #244EB6; /* blue faces turning into shadow, the ribbon's shaded end; hover/pressed Alliance Blue */
+  --aap-color-shading-alliance-50: #2153D8; /* the top of the A's left bevel in both colourways */
+  --aap-color-shading-ribbon-57: #006DF5; /* the ribbon's turn from blue into cyan, in both colourways; lies on Daybreak */
+  --aap-color-neutral-0: #FFFFFF; /* Cool neutral 0, derived from Partner Navy toward Daylight. WCAG on Daylight 1.07, on white 1.0, on Partner Navy 17.27. */
+  --aap-color-neutral-25: #F4F7FB; /* Cool neutral 25, derived from Partner Navy toward Daylight. WCAG on Daylight 1.0, on white 1.07, on Partner Navy 16.07. */
+  --aap-color-neutral-50: #ECEFF4; /* Cool neutral 50, derived from Partner Navy toward Daylight. WCAG on Daylight 1.07, on white 1.15, on Partner Navy 14.98. */
+  --aap-color-neutral-100: #E3E6EC; /* Cool neutral 100, derived from Partner Navy toward Daylight. WCAG on Daylight 1.16, on white 1.25, on Partner Navy 13.81. */
+  --aap-color-neutral-150: #D8DDE4; /* Cool neutral 150, derived from Partner Navy toward Daylight. WCAG on Daylight 1.27, on white 1.37, on Partner Navy 12.65. */
+  --aap-color-neutral-200: #CCD1D9; /* Cool neutral 200, derived from Partner Navy toward Daylight. WCAG on Daylight 1.43, on white 1.53, on Partner Navy 11.26. */
+  --aap-color-neutral-300: #B5BBC5; /* Cool neutral 300, derived from Partner Navy toward Daylight. WCAG on Daylight 1.8, on white 1.93, on Partner Navy 8.95. */
+  --aap-color-neutral-400: #979FAB; /* Cool neutral 400, derived from Partner Navy toward Daylight. WCAG on Daylight 2.49, on white 2.67, on Partner Navy 6.47. */
+  --aap-color-neutral-500: #78818F; /* Cool neutral 500, derived from Partner Navy toward Daylight. WCAG on Daylight 3.66, on white 3.94, on Partner Navy 4.39. */
+  --aap-color-neutral-600: #60697A; /* Cool neutral 600, derived from Partner Navy toward Daylight. WCAG on Daylight 5.14, on white 5.53, on Partner Navy 3.12. */
+  --aap-color-neutral-700: #495364; /* Cool neutral 700, derived from Partner Navy toward Daylight. WCAG on Daylight 7.23, on white 7.76, on Partner Navy 2.22. */
+  --aap-color-neutral-800: #323E50; /* Cool neutral 800, derived from Partner Navy toward Daylight. WCAG on Daylight 10.07, on white 10.82, on Partner Navy 1.6. */
+  --aap-color-neutral-900: #202C3E; /* Cool neutral 900, derived from Partner Navy toward Daylight. WCAG on Daylight 13.11, on white 14.08, on Partner Navy 1.23. */
+  --aap-color-neutral-950: #121B2A; /* Cool neutral 950, derived from Partner Navy toward Daylight. WCAG on Daylight 16.07, on white 17.27, on Partner Navy 1.0. */
+  --aap-color-print-black: #000000; /* Mono-Black one-ink print work only (K100). Never a screen colour. */
+  --aap-color-surface-page: var(--aap-color-brand-daylight); /* Page ground. */
+  --aap-color-surface-raised: var(--aap-color-brand-pure-white); /* Cards, inputs, menus: one step lighter than the page. */
+  --aap-color-surface-sunken: var(--aap-color-neutral-50); /* Wells, code blocks, table stripes. */
+  --aap-color-surface-inverse: var(--aap-color-brand-partner-navy); /* Partner Navy chapters, footer, the dark side of the kit. */
+  --aap-color-surface-inverse-raised: var(--aap-color-shading-partner-30); /* Panels inside a navy chapter. */
+  --aap-color-surface-scrim: rgba(18, 27, 42, 0.62); /* Partner Navy scrim behind modal surfaces. */
+  --aap-color-text-primary: var(--aap-color-brand-partner-navy); /* Body and headings on light grounds. 16.07:1 on Daylight. */
+  --aap-color-text-secondary: var(--aap-color-shading-partner-46); /* Supporting copy. 6.7:1 on Daylight. */
+  --aap-color-text-tertiary: var(--aap-color-neutral-600); /* Captions, meta, placeholders. 5.14:1 on Daylight. */
+  --aap-color-text-disabled: var(--aap-color-neutral-500); /* Disabled text (exempt from contrast minimums). */
+  --aap-color-text-link: var(--aap-color-brand-partner-navy);
+  --aap-color-text-on-action: var(--aap-color-brand-pure-white); /* Text on Alliance Blue. 5.49:1. */
+  --aap-color-text-inverse: var(--aap-color-brand-daylight); /* Text on Partner Navy. 16.07:1. */
+  --aap-color-text-inverse-secondary: #BFCBE0; /* Supporting copy on Partner Navy, tinted from the navy hue rather than grey. 10.55:1 on Partner Navy, 8.39:1 on Partner 30. */
+  --aap-color-text-inverse-tertiary: #95A6C1; /* Captions and meta on Partner Navy, navy-tinted. 6.99:1 on Partner Navy, 5.56:1 on Partner 30. */
+  --aap-color-text-inverse-accent: var(--aap-color-brand-ribbon-cyan); /* Accent words on Partner Navy. 9.84:1. Ribbon Cyan is never text on light grounds. */
+  --aap-color-border-subtle: var(--aap-color-neutral-150); /* Hairlines inside a surface. */
+  --aap-color-border-default: var(--aap-color-neutral-200); /* Dividers and card edges (decorative). */
+  --aap-color-border-strong: var(--aap-color-neutral-500); /* Inputs and controls: 3.66:1 on Daylight, 3.94:1 on white (3:1 for UI components). */
+  --aap-color-border-inverse: var(--aap-color-neutral-800); /* Dividers on Partner Navy (decorative). */
+  --aap-color-border-inverse-strong: var(--aap-color-neutral-600); /* Controls on Partner Navy: 3.12:1. */
+  --aap-color-action-primary: var(--aap-color-brand-alliance-blue); /* The one committing action in a view. */
+  --aap-color-action-primary-hover: var(--aap-color-shading-alliance-50); /* Hover: one step down the Alliance ramp. */
+  --aap-color-action-primary-pressed: var(--aap-color-shading-alliance-46); /* Pressed. */
+  --aap-color-action-secondary: var(--aap-color-brand-partner-navy); /* Outline and text of secondary actions. */
+  --aap-color-action-secondary-hover-surface: var(--aap-color-neutral-100); /* Hover fill of secondary actions on light grounds. */
+  --aap-color-focus-ring: var(--aap-color-brand-alliance-blue); /* Focus ring on light grounds (2px, 2px offset). */
+  --aap-color-focus-ring-inverse: var(--aap-color-brand-ribbon-cyan); /* Focus ring on Partner Navy. */
+  --aap-color-status-error: #C42B42; /* Error text and icons on light grounds (5.18:1 on Daylight). */
+  --aap-color-status-error-surface: #FCEBEE; /* Error message background on light grounds. */
+  --aap-color-status-error-inverse: #FF8B9A; /* Error text on Partner Navy (7.74:1). */
+  --aap-color-status-success: #0B7A55; /* Success text and icons on light grounds (4.97:1 on Daylight). */
+  --aap-color-status-success-surface: #E5F5EE; /* Success message background on light grounds. */
+  --aap-color-status-success-inverse: #5FD8A8; /* Success text on Partner Navy (9.77:1). */
+  --aap-color-status-warning: #8A5800; /* Warning text and icons on light grounds (5.62:1 on Daylight). */
+  --aap-color-status-warning-surface: #FFF4DD; /* Warning message background on light grounds. */
+  --aap-color-status-warning-inverse: #FFC46B; /* Warning text on Partner Navy (10.99:1). */
+  --aap-color-status-info: #1B56FF; /* Info text and icons on light grounds (5.11:1 on Daylight). */
+  --aap-color-status-info-surface: #E8EEFF; /* Info message background on light grounds. */
+  --aap-color-status-info-inverse: #00D5FF; /* Info text on Partner Navy (9.84:1). */
+  --aap-color-chart-series-1: var(--aap-color-brand-alliance-blue); /* First series. */
+  --aap-color-chart-series-2: var(--aap-color-shading-partner-46); /* Second series. */
+  --aap-color-chart-series-3: var(--aap-color-brand-ribbon-cyan); /* Third series, on Partner Navy or as a fill with a navy edge. */
+  --aap-color-chart-series-4: var(--aap-color-shading-alliance-38); /* Fourth series. */
+  --aap-color-chart-series-5: var(--aap-color-neutral-400); /* Comparison or baseline series. */
+
+  --aap-gradient-daybreak: linear-gradient(115deg, #121B2A 0%, #1B56FF 54%, #00D5FF 100%); /* The signature gradient (palette.json signature): hero bands, the ribbon, brand graphics. Never behind small text. */
+  --aap-gradient-ribbon: linear-gradient(90deg, #006DF5 0%, #00D5FF 100%); /* The ribbon's turn, Ribbon 57 into Ribbon Cyan. */
+  --aap-gradient-facet: linear-gradient(135deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 60%); /* Top-left light on a raised plane, as on the mark's bevels. */
+  --aap-font-family-sans: "Mona Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Every heading, body and UI text. Variable: width 75-125, weight 200-900, optical size. */
+  --aap-font-family-mono: "Mona Sans Mono", ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace; /* Sourced notes, times, prices in tables, code. */
+  --aap-font-weight-regular: 400; /* Body. */
+  --aap-font-weight-medium: 500; /* Labels, buttons. */
+  --aap-font-weight-semibold: 600; /* Headings. */
+  --aap-font-weight-bold: 680; /* Display emphasis. */
+  --aap-font-stretch-normal: 100%; /* Text. */
+  --aap-font-stretch-semi-expanded: 112.5%; /* Section headings. */
+  --aap-font-stretch-expanded: 125%; /* Display, echoing the wide Montserrat wordmark. */
+  --aap-typography-display-xl-family: var(--aap-font-family-sans);
+  --aap-typography-display-xl-size: clamp(3rem, 1.979rem + 4.19vw, 5.75rem); /* The one statement per page. Expanded, tight. 48px at 390 wide to 92px at 1440. */
+  --aap-typography-display-xl-weight: 640;
+  --aap-typography-display-xl-line-height: 0.98;
+  --aap-typography-display-xl-tracking: -0.035em;
+  --aap-typography-display-xl-stretch: 125%;
+  --aap-typography-display-lg-family: var(--aap-font-family-sans);
+  --aap-typography-display-lg-size: clamp(2.5rem, 1.85rem + 2.667vw, 4.25rem); /* Chapter openers. 40px at 390 wide to 68px at 1440. */
+  --aap-typography-display-lg-weight: 620;
+  --aap-typography-display-lg-line-height: 1.02;
+  --aap-typography-display-lg-tracking: -0.03em;
+  --aap-typography-display-lg-stretch: 125%;
+  --aap-typography-heading-1-family: var(--aap-font-family-sans);
+  --aap-typography-heading-1-size: clamp(2.125rem, 1.707rem + 1.714vw, 3.25rem); /* Page titles. 34px at 390 wide to 52px at 1440. */
+  --aap-typography-heading-1-weight: 600;
+  --aap-typography-heading-1-line-height: 1.06;
+  --aap-typography-heading-1-tracking: -0.025em;
+  --aap-typography-heading-1-stretch: 112.5%;
+  --aap-typography-heading-2-family: var(--aap-font-family-sans);
+  --aap-typography-heading-2-size: clamp(1.75rem, 1.471rem + 1.143vw, 2.5rem); /* Section titles. 28px at 390 wide to 40px at 1440. */
+  --aap-typography-heading-2-weight: 600;
+  --aap-typography-heading-2-line-height: 1.1;
+  --aap-typography-heading-2-tracking: -0.02em;
+  --aap-typography-heading-2-stretch: 112.5%;
+  --aap-typography-heading-3-family: var(--aap-font-family-sans);
+  --aap-typography-heading-3-size: clamp(1.375rem, 1.236rem + 0.5714vw, 1.75rem); /* Sub-sections, card titles. 22px at 390 wide to 28px at 1440. */
+  --aap-typography-heading-3-weight: 600;
+  --aap-typography-heading-3-line-height: 1.2;
+  --aap-typography-heading-3-tracking: -0.012em;
+  --aap-typography-heading-3-stretch: 100%;
+  --aap-typography-heading-4-family: var(--aap-font-family-sans);
+  --aap-typography-heading-4-size: clamp(1.125rem, 1.079rem + 0.1905vw, 1.25rem); /* Small headings. 18px at 390 wide to 20px at 1440. */
+  --aap-typography-heading-4-weight: 600;
+  --aap-typography-heading-4-line-height: 1.3;
+  --aap-typography-heading-4-tracking: -0.006em;
+  --aap-typography-heading-4-stretch: 100%;
+  --aap-typography-body-lg-family: var(--aap-font-family-sans);
+  --aap-typography-body-lg-size: clamp(1.125rem, 1.055rem + 0.2857vw, 1.3125rem); /* Lead paragraphs. 18px at 390 wide to 21px at 1440. */
+  --aap-typography-body-lg-weight: 400;
+  --aap-typography-body-lg-line-height: 1.55;
+  --aap-typography-body-lg-tracking: -0.004em;
+  --aap-typography-body-lg-stretch: 100%;
+  --aap-typography-body-family: var(--aap-font-family-sans);
+  --aap-typography-body-size: clamp(1rem, 0.9768rem + 0.09524vw, 1.0625rem); /* Running text. 16px at 390 wide to 17px at 1440. */
+  --aap-typography-body-weight: 400;
+  --aap-typography-body-line-height: 1.6;
+  --aap-typography-body-tracking: 0em;
+  --aap-typography-body-stretch: 100%;
+  --aap-typography-body-sm-family: var(--aap-font-family-sans);
+  --aap-typography-body-sm-size: clamp(0.875rem, 0.8518rem + 0.09524vw, 0.9375rem); /* Secondary text. 14px at 390 wide to 15px at 1440. */
+  --aap-typography-body-sm-weight: 400;
+  --aap-typography-body-sm-line-height: 1.55;
+  --aap-typography-body-sm-tracking: 0.003em;
+  --aap-typography-body-sm-stretch: 100%;
+  --aap-typography-label-family: var(--aap-font-family-sans);
+  --aap-typography-label-size: 14px; /* Buttons, form labels, nav. 14px at 390 wide to 14px at 1440. */
+  --aap-typography-label-weight: 540;
+  --aap-typography-label-line-height: 1.3;
+  --aap-typography-label-tracking: 0.01em;
+  --aap-typography-label-stretch: 100%;
+  --aap-typography-caption-family: var(--aap-font-family-sans);
+  --aap-typography-caption-size: 13px; /* Captions and meta. 13px at 390 wide to 13px at 1440. */
+  --aap-typography-caption-weight: 450;
+  --aap-typography-caption-line-height: 1.4;
+  --aap-typography-caption-tracking: 0.012em;
+  --aap-typography-caption-stretch: 100%;
+  --aap-typography-numeral-family: var(--aap-font-family-sans);
+  --aap-typography-numeral-size: clamp(2.5rem, 1.943rem + 2.286vw, 4rem); /* Prices and figures; tabular lining numerals. 40px at 390 wide to 64px at 1440. */
+  --aap-typography-numeral-weight: 600;
+  --aap-typography-numeral-line-height: 1;
+  --aap-typography-numeral-tracking: -0.03em;
+  --aap-typography-numeral-stretch: 125%;
+  --aap-typography-mono-family: var(--aap-font-family-mono);
+  --aap-typography-mono-size: clamp(0.8125rem, 0.7893rem + 0.09524vw, 0.875rem); /* Sources, times, codes; tabular. 13px at 390 wide to 14px at 1440. */
+  --aap-typography-mono-weight: 420;
+  --aap-typography-mono-line-height: 1.5;
+  --aap-typography-mono-tracking: 0em;
+  --aap-typography-mono-stretch: 100%;
+  --aap-space-0: 0px; /* None. */
+  --aap-space-1: 4px; /* Hairline gaps. */
+  --aap-space-2: 8px; /* Icon to label. */
+  --aap-space-3: 12px; /* Tight stacks. */
+  --aap-space-4: 16px; /* Default stack. */
+  --aap-space-5: 20px; /* Form field gap. */
+  --aap-space-6: 24px; /* Card padding (compact). */
+  --aap-space-8: 32px; /* Card padding. */
+  --aap-space-10: 40px; /* Group gap. */
+  --aap-space-12: 48px; /* Block gap. */
+  --aap-space-16: 64px; /* Sub-section gap. */
+  --aap-space-20: 80px; /* Section gap (mobile). */
+  --aap-space-24: 96px; /* Section gap. */
+  --aap-space-32: 128px; /* Chapter gap. */
+  --aap-space-section: clamp(4.5rem, 3rem + 5vw, 8rem); /* Vertical padding of a page section, fluid. */
+  --aap-space-gutter: clamp(1rem, 0.6rem + 1.6vw, 2rem); /* Page side gutter, fluid. */
+  --aap-size-container: 1320px; /* Maximum content width. */
+  --aap-size-measure: 68ch; /* Maximum line length for reading. */
+  --aap-size-control-sm: 36px; /* Small control height. */
+  --aap-size-control-md: 44px; /* Default control height (touch target). */
+  --aap-size-control-lg: 52px; /* Large control height. */
+  --aap-radius-none: 0px; /* Rules, ribbons, full-bleed media. */
+  --aap-radius-sm: 4px; /* Tags, checkboxes. */
+  --aap-radius-md: 10px; /* Buttons, inputs. */
+  --aap-radius-lg: 18px; /* Cards and media. */
+  --aap-radius-xl: 28px; /* Feature panels. */
+  --aap-radius-pill: 999px; /* Status chips and the sticker. */
+  --aap-border-hairline: 1px; /* Dividers and card edges. */
+  --aap-border-strong: 2px; /* Focus rings, selected states. */
+  --aap-border-ribbon: 3px; /* The drawn ribbon line. */
+  --aap-shadow-xs: 0 1px 2px rgba(18, 27, 42, 0.06); /* Resting controls. */
+  --aap-shadow-sm: 1px 2px 6px -1px rgba(18, 27, 42, 0.10), 0 1px 2px rgba(18, 27, 42, 0.05); /* Cards at rest. */
+  --aap-shadow-md: 2px 10px 24px -8px rgba(18, 27, 42, 0.18); /* Raised cards, menus. Light from the top left, as on the mark. */
+  --aap-shadow-lg: 4px 24px 48px -16px rgba(18, 27, 42, 0.24); /* Dialogs and the hero object. */
+  --aap-shadow-facet-edge: inset 0 1px 0 rgba(255, 255, 255, 0.65); /* The lit top edge of a raised plane. */
+  --aap-opacity-disabled: 0.45; /* Disabled controls. */
+  --aap-opacity-muted: 0.72; /* De-emphasised media. */
+  --aap-opacity-scrim: 0.62; /* Modal scrim. */
+  --aap-zIndex-base: 0; /* Page. */
+  --aap-zIndex-raised: 10; /* Hovered cards. */
+  --aap-zIndex-sticky: 100; /* Sticky section headers. */
+  --aap-zIndex-header: 200; /* Site header. */
+  --aap-zIndex-overlay: 300; /* Menus, popovers. */
+  --aap-zIndex-modal: 400; /* Dialogs. */
+  --aap-zIndex-toast: 500; /* Toasts. */
+  --aap-duration-instant: 80ms; /* Press feedback. */
+  --aap-duration-fast: 150ms; /* Hover, colour. */
+  --aap-duration-base: 240ms; /* Most transitions. */
+  --aap-duration-slow: 400ms; /* Panels, reveals. */
+  --aap-duration-ribbon: 1400ms; /* The ribbon drawing itself. */
+  --aap-easing-standard: cubic-bezier(0.2, 0, 0, 1); /* Default for UI transitions. */
+  --aap-easing-out: cubic-bezier(0.16, 1, 0.3, 1); /* Entrances and reveals. */
+  --aap-easing-in-out: cubic-bezier(0.65, 0, 0.35, 1); /* Symmetric moves; mirror it for the return path. */
+  --aap-easing-spring: linear(0, 0.142 6%, 0.452 16%, 0.716 27%, 0.873 38%, 0.951 50%, 0.985 63%, 0.997 78%, 1); /* Critically damped spring (damping 1.0, response 0.35 s) for CSS. In JS use Motion: { type: 'spring', bounce: 0, duration: 0.35 }. */
+  --aap-breakpoint-sm: 640px; /* min-width 640px. */
+  --aap-breakpoint-md: 768px; /* min-width 768px. */
+  --aap-breakpoint-lg: 1024px; /* min-width 1024px. */
+  --aap-breakpoint-xl: 1280px; /* min-width 1280px. */
+  --aap-breakpoint-2xl: 1536px; /* min-width 1536px. */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --aap-duration-slow: 1ms;
+    --aap-duration-ribbon: 1ms;
+  }
+}

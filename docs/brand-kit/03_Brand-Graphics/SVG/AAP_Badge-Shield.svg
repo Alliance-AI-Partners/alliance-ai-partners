@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="867" height="771" id="badge-shield-Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 867 771">
+  <defs>
+    <linearGradient id="badge-shield-linear-gradient" x1="2164.969" y1="1937.027" x2="2050.695" y2="1869.041" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".065" stop-color="#2153d8"/>
+      <stop offset=".978" stop-color="#243f7b"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-2" x1="2598.036" y1="1973.138" x2="2738.896" y2="1827.273" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".318" stop-color="#00d5ff"/>
+      <stop offset=".955" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-3" x1="2389.697" y1="2150.305" x2="2083.429" y2="2059.584" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".115" stop-color="#006df5"/>
+      <stop offset=".958" stop-color="#243f7b"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-4" x1="2408.316" y1="2190.968" x2="2665.78" y2="2023.769" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".048" stop-color="#006df5"/>
+      <stop offset=".97" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-5" x1="2294.217" y1="2185.262" x2="2093.982" y2="1808.675" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".087" stop-color="#00d5ff"/>
+      <stop offset=".39" stop-color="#00d5ff"/>
+      <stop offset=".922" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-6" x1="2425.61" y1="2166.485" x2="2714.621" y2="1815.887" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".052" stop-color="#00d5ff"/>
+      <stop offset=".316" stop-color="#00d5ff"/>
+      <stop offset=".662" stop-color="#00d5ff"/>
+      <stop offset=".927" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-7" x1="2046.126" y1="1984.524" x2="2182.699" y2="1840.607" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".08" stop-color="#243f7b"/>
+      <stop offset=".868" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-8" x1="2618.691" y1="2036.987" x2="2650.828" y2="1743.547" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".01" stop-color="#1a2d4e"/>
+      <stop offset=".45" stop-color="#2e4265"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-9" x1="2338.992" y1="2174.117" x2="2165.696" y2="1991.501" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".05" stop-color="#00d5ff"/>
+      <stop offset=".917" stop-color="#243f7b"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-10" x1="2478.336" y1="2174.837" x2="2580.996" y2="1975.51" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".156" stop-color="#2e4265"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-11" x1="2016.095" y1="1754.74" x2="2754.343" y2="1712.819" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a2d4e"/>
+      <stop offset=".282" stop-color="#4d6388"/>
+      <stop offset=".526" stop-color="#00d5ff"/>
+      <stop offset=".828" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-12" x1="2288.933" y1="1641.415" x2="2328.093" y2="1509.213" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".043" stop-color="#1a2d4e"/>
+      <stop offset=".367" stop-color="#42587c"/>
+      <stop offset=".91" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-13" x1="2490.309" y1="1643.237" x2="2442.943" y2="1507.602" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".077" stop-color="#1a2d4e"/>
+      <stop offset=".5" stop-color="#2e4265"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-14" x1="2421.5" y1="1713.908" x2="2349.09" y2="1565.445" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".535" stop-color="#006df5"/>
+      <stop offset=".907" stop-color="#243f7b"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-15" x1="2616.05" y1="1689.949" x2="2506.415" y2="1440.786" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#244eb6"/>
+      <stop offset=".858" stop-color="#243f7b"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-16" x1="2200.072" y1="1645.094" x2="2382.085" y2="1512.854" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".022" stop-color="#006df5"/>
+      <stop offset=".723" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-17" x1="2541.203" y1="1666.851" x2="2423.968" y2="1494.669" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".27" stop-color="#00d5ff"/>
+      <stop offset=".945" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-18" x1="2331.415" y1="1633.959" x2="2342.924" y2="1556.946" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a2d4e"/>
+      <stop offset=".757" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-19" x1="2460.707" y1="1624.272" x2="2397.761" y2="1554.362" gradientTransform="translate(-1954.5 2212.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".173" stop-color="#00d5ff"/>
+      <stop offset=".443" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#244eb6"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-20" x1="3048.548" y1="2289.123" x2="3016.237" y2="2189.68" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#121b2a"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-21" x1="2878.219" y1="2105.843" x2="3052.255" y2="2090.617" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#121b2a"/>
+      <stop offset=".154" stop-color="#1a2d4e"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-22" x1="2794.396" y1="2368.24" x2="2873.531" y2="1969.21" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42587c"/>
+      <stop offset=".385" stop-color="#2e4265"/>
+      <stop offset=".692" stop-color="#243f7b"/>
+      <stop offset=".769" stop-color="#2153d8"/>
+      <stop offset="1" stop-color="#1b56ff"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-23" x1="2718.36" y1="2308.993" x2="2875.681" y2="1974.93" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#121b2a"/>
+      <stop offset=".308" stop-color="#2e4265"/>
+      <stop offset=".692" stop-color="#121b2a"/>
+      <stop offset=".769" stop-color="#2e4265"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-24" x1="2656.009" y1="2379.771" x2="2605.132" y2="1972.232" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2153d8"/>
+      <stop offset=".461" stop-color="#243f7b"/>
+      <stop offset=".539" stop-color="#1a2d4e"/>
+      <stop offset=".846" stop-color="#1a2d4e"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-25" x1="2692.824" y1="2366.782" x2="2479.347" y2="1983.489" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b56ff"/>
+      <stop offset=".539" stop-color="#244eb6"/>
+      <stop offset=".615" stop-color="#243f7b"/>
+      <stop offset=".846" stop-color="#243f7b"/>
+      <stop offset="1" stop-color="#244eb6"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-26" x1="3076.551" y1="2305.525" x2="2912.705" y2="2242.63" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#244eb6"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-27" x1="3028.551" y1="2308.047" x2="2931.028" y2="2287.318" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#244eb6"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-28" x1="2867.529" y1="2316.939" x2="2842.271" y2="2207.538" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#244eb6"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-29" x1="2776.778" y1="2236.929" x2="2663.754" y2="2097.356" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="badge-shield-linear-gradient-30" x1="2587.618" y1="2194.302" x2="2826.849" y2="2130.2" gradientTransform="translate(-1645.462 1943.1888) scale(.7396 -.7531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#244eb6"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+  </defs>
+  <g id="badge-shield-shield_badge" data-name="shield badge">
+    <g id="badge-shield-frame">
+      <g id="badge-shield-frame-shield-frame">
+        <path id="badge-shield-frame-field-upper" d="M171.644,183.44l261.57-80.514,261.57,80.514c3.703,95.268-10.605,190.536-48.91,285.804H220.554c-38.305-95.268-52.613-190.536-48.91-285.804Z" fill="#fff"/>
+        <path id="badge-shield-frame-field-banner" d="M48,487.904h770.428l-24.953,80.559H72.953l-24.953-80.559Z" fill="#fff"/>
+        <path id="badge-shield-frame-field-lower" d="M300.761,586.876h264.906c-44.151,36.06-88.302,59.928-132.453,79.039-44.151-19.111-88.302-42.979-132.453-79.039Z" fill="#fff"/>
+        <path id="badge-shield-frame-outer-side-L" d="M123.139,143.084c-9.176,106.715,2.662,213.429,40.574,320.143l-3.197.716v6.701h31.757c-39.428-102.91-52.956-205.819-46.164-308.729l-22.97-18.831Z" fill="url(#badge-shield-linear-gradient)"/>
+        <path id="badge-shield-frame-outer-side-R" d="M743.289,143.084c9.176,106.715-2.662,213.429-40.574,320.143l3.197.716v6.701h-31.757c39.428-102.91,52.956-205.819,46.164-308.729l22.97-18.831Z" fill="url(#badge-shield-linear-gradient-2)"/>
+        <path id="badge-shield-frame-outer-top-L" d="M123.091,143.645L433.814,48v25.871l-287.78,88.583-22.943-18.809Z" fill="url(#badge-shield-linear-gradient-3)"/>
+        <path id="badge-shield-frame-outer-top-R" d="M743.337,143.645L433.214,48.185v25.871l287.18,88.398,22.943-18.809Z" fill="url(#badge-shield-linear-gradient-4)"/>
+        <path id="badge-shield-frame-rim-upper-L" d="M145.502,162.017l288.312-88.746v7.483l-281.844,86.756c-4.904,101.044,7.5,202.089,47.501,303.134h-7.798c-39.415-102.876-52.947-205.751-46.171-308.627Z" fill="url(#badge-shield-linear-gradient-5)"/>
+        <path id="badge-shield-frame-rim-upper-R" d="M720.926,162.017l-287.712-88.561v7.483l281.244,86.571c4.904,101.044-7.5,202.089-47.501,303.134h7.798c39.415-102.876,52.947-205.751,46.171-308.627Z" fill="url(#badge-shield-linear-gradient-6)"/>
+        <path id="badge-shield-frame-inner-side-L" d="M151.419,166.511c-5.034,101.378,7.32,202.755,47.452,304.133h22.848c-38.751-95.788-53.213-191.577-49.469-287.365l-20.831-16.768Z" fill="url(#badge-shield-linear-gradient-7)"/>
+        <path id="badge-shield-frame-inner-side-R" d="M715.009,166.511c5.034,101.378-7.32,202.755-47.452,304.133h-22.848c38.751-95.788,53.213-191.577,49.469-287.365l20.831-16.768Z" fill="url(#badge-shield-linear-gradient-8)"/>
+        <path id="badge-shield-frame-inner-top-L" d="M151.391,167.088l282.423-86.934v23.187l-261.586,80.52-20.837-16.773Z" fill="url(#badge-shield-linear-gradient-9)"/>
+        <path id="badge-shield-frame-inner-top-R" d="M715.037,167.088l-281.823-86.749v23.187l260.986,80.335,20.837-16.773Z" fill="url(#badge-shield-linear-gradient-10)"/>
+        <path id="badge-shield-frame-bar-upper" d="M48.185,488.504l115.331-25.833c.705,1.991,1.42,3.982,2.144,5.973h535.108c.724-1.991,1.439-3.982,2.144-5.973l115.331,25.833H48.185Z" fill="url(#badge-shield-linear-gradient-11)"/>
+        <path id="badge-shield-frame-inner-lower-L" d="M267.718,586.876h33.779c44.105,35.888,88.211,59.65,132.317,78.699v24.489c-55.365-24.301-110.73-53.235-166.096-103.188Z" fill="url(#badge-shield-linear-gradient-12)"/>
+        <path id="badge-shield-frame-inner-lower-R" d="M598.71,586.876h-33.779c-43.905,35.725-87.811,59.434-131.717,78.439v24.486c55.165-24.247,110.33-53.152,165.496-102.925Z" fill="url(#badge-shield-linear-gradient-13)"/>
+        <path id="badge-shield-frame-bar-lower" d="M239.104,567.863h388.22c-6.695,6.88-13.389,13.407-20.084,19.613h-348.052c-6.695-6.206-13.389-12.733-20.084-19.613Z" fill="url(#badge-shield-linear-gradient-14)"/>
+        <path id="badge-shield-frame-rimwing-lower-L" d="M72.767,567.863h166.922c64.708,66.303,129.417,99.729,194.125,128.33v26.549c-68.555-28.823-137.11-64.288-205.665-131.654l-155.382-23.225Z" fill="#1a2d4e"/>
+        <path id="badge-shield-frame-rimwing-lower-R" d="M793.661,567.863h-166.922c-64.508,66.098-129.017,99.522-193.525,128.064v26.562c68.355-28.777,136.71-64.232,205.065-131.401l155.382-23.225Z" fill="url(#badge-shield-linear-gradient-15)"/>
+        <path id="badge-shield-frame-rim-lower-L" d="M239.104,567.863h9.191c61.84,61.536,123.679,94.458,185.519,121.601v7.329c-64.903-28.687-129.807-62.228-194.71-128.93Z" fill="url(#badge-shield-linear-gradient-16)"/>
+        <path id="badge-shield-frame-rim-lower-R" d="M627.324,567.863h-9.191c-61.64,61.337-123.279,94.245-184.919,121.338v7.326c64.703-28.628,129.407-62.168,194.11-128.664Z" fill="url(#badge-shield-linear-gradient-17)"/>
+        <path id="badge-shield-frame-chevron-L" d="M330.041,593.572c34.591,15.665,69.182,28.028,103.773,37.019v21.538c-34.591-15.025-69.182-33.695-103.773-58.557Z" fill="url(#badge-shield-linear-gradient-18)"/>
+        <path id="badge-shield-frame-chevron-R" d="M536.387,593.572c-34.391,15.574-68.782,27.885-103.173,36.862v21.434c34.391-14.98,68.782-33.577,103.173-58.296Z" fill="url(#badge-shield-linear-gradient-19)"/>
+      </g>
+    </g>
+    <g id="badge-shield-keyline">
+      <path id="badge-shield-keyline-keyline" d="M180.796,453.832h69.919l26.905-59.132h99.612c.362,0,1.892-.748,2.576-.825.979-.111,1.959-.233,2.935-.371,11.219-1.571,22.34-4.343,32.841-8.679,4.706-1.944,9.313-4.265,14.065-5.989l37.776,74.997h70.25l-23.328-46.259v-54.27h82.436c.516,0,3.542-.688,4.404-.816,11.074-1.629,21.597-4.967,31.536-10.215,10.985-5.8,21.258-13.58,29.266-23.241,1.194-1.44,2.125-3.053,3.265-4.528,1.372-1.777,2.937-3.278,4.174-5.18,3.91-6.007,6.811-12.469,9.337-19.179,15.616-41.492,3.356-88.119-31.639-115.091-5.425-4.181-11.063-7.962-17.248-10.88-8.799-4.153-18.256-7.187-27.867-8.543-1.115-.157-3.587-.969-4.407-.969h-143.019v94.786c0,.7-.743,3.461-.89,4.484-1.066,7.434-2.474,15.089-5.857,21.757l-61.032-121.026h-66.73l-139.28,299.171ZM514.347,213.613h75.842c3.131,0,8.743,2.104,11.724,3.338,6.056,2.507,11.539,7.216,15.373,12.568,14.334,20.004,8.422,47.996-13.082,59.854-3.294,1.816-11.168,4.738-14.744,4.738h-75.113v-80.497ZM402.962,325.853c-10.313,4.665-20.863,7.865-32.069,9.33-1.348.176-3.154.837-4.407.837h-62.168l49.246-108.235,49.397,98.069Z" fill="#fff" stroke="#fff" stroke-width="26.797"/>
+    </g>
+    <g id="badge-shield-mark">
+      <path id="badge-shield-mark-face-p-bowl-lower" d="M602.931,216.618c1.181-.94.657-1.924,3.535-1.817,3.306.122,6.836,1.715,9.867,2.954,10.56,4.317,20.758,10.381,28.808,18.675,15.266,15.729,24.894,36.745,24.631,59.006-.037,3.113-.769,10.663-1.829,15.874-.886,1.068-1.825,2.076-2.689,3.194-1.14,1.475-2.071,3.088-3.265,4.528-8.007,9.661-18.281,17.441-29.266,23.241-5.625,2.97-11.437,5.328-17.43,7.111-.431-1.264-.754-2.115-.828-3.705-.294-6.372.371-12.833-.373-19.137-1.432-.262-2.748-.524-4.293-.532-8.998-.046-17.996-.001-26.993-.001h-80.243c-3.303,0-6.683.228-9.977-.043-2.83-.233-2.064-.474-4.03-1.398.078-1.704-.815-1.185.747-4.174,2.547-4.874,5.362-9.579,7.782-14.532,4.808-9.836,8.702-20.781,10.904-31.539.782-3.817,1.812-12.476,2.905-15.492,1.025-2.828,1.6-2.03,2.855-2.954.206.164.407.27.598.354v37.883h75.113c3.576,0,11.45-2.922,14.744-4.738,21.504-11.858,27.416-39.85,13.082-59.854-3.581-4.997-8.599-9.435-14.179-12.042-.024-.236-.069-.511-.176-.859Z" fill="url(#badge-shield-linear-gradient-20)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-p-bowl-under" d="M488.934,322.558c.331.357-.145,1.495.334,1.435h126.999v25.096c-4.905,1.515-9.933,2.642-15.08,3.399-.862.127-3.888.816-4.404.816h-82.436v51.078c-.467.21-1.016.312-1.749.685-1.693-1.231-1.81-.786-3.171-2.886-3.893-6.004-6.842-12.857-9.825-19.36-2.551-5.559-5.483-10.934-8.179-16.42-3.613-7.351-6.814-15.084-10.887-22.182-1.036-1.806-2.376-3.515-3.478-5.226.565-1.451.942-2.623,1.906-3.948,2.34-3.216,4.701-6.449,7.114-9.609.45-.589.913-1.175,1.431-1.705.103-.105.664-.777.811-.755.243.037.444-.596.612-.415Z" fill="url(#badge-shield-linear-gradient-21)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-a-right-outer" d="M368.418,191.076l16.568-36.415h1.82l150.869,299.171h-36.535l-132.723-262.757Z" fill="url(#badge-shield-linear-gradient-22)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-a-right-inner" d="M352.593,225.856l16.701-36.706,133.696,264.683h-35.565l-64.463-127.98h0l-50.369-99.997Z" fill="url(#badge-shield-linear-gradient-23)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-a-left-bevel" d="M213.581,453.832l137.736-299.171h35.489l.016.03-33.257,73.093h0l-49.246,108.235h0l-53.604,117.813h-37.134Z" fill="url(#badge-shield-linear-gradient-24)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-a-left-outer" d="M180.796,453.832l139.28-299.171h33.09l-137.736,299.171h-34.634Z" fill="url(#badge-shield-linear-gradient-25)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-p-bowl-top" d="M454.585,185.372v-30.711h143.019c.819,0,3.292.812,4.407.969,9.611,1.356,19.068,4.39,27.867,8.543,6.185,2.918,11.823,6.699,17.248,10.88,34.995,26.972,47.255,73.599,31.639,115.091-2.526,6.71-5.427,13.171-9.337,19.179-1.065,1.637-2.373,2.978-3.592,4.452h0c-.123-1.116-.206-2.132.019-3.413.414-2.344.973-4.662,1.315-7.02,1.141-7.843.741-15.819-.688-23.59-.747-4.061-2.097-8.012-3.549-11.86-7.733-20.481-23.109-37.123-42.683-46.242-5.043-2.35-10.415-4.434-15.772-5.22.076.59.416,1.347.359,1.922-.956-.522-1.933-.992-2.925-1.402-1.869-.774-4.772-1.889-7.449-2.615-.004-.523.171-1.046.102-1.822,1.739-.873.894-1.287,3.975-1.408,3.68-.144,7.395.465,11.031.952,10.941,1.466,21.716,5.453,30.947,11.632,3.287,2.201,6.319,4.815,9.628,6.908-1.57-6.693-5.515-12.965-9.68-18.387-11.802-15.366-29.612-24.406-48.63-25.869-6.846-.526-13.84-.119-20.703-.112-13.793.014-27.627.295-41.415-.034-12.931-.308-25.88-.294-38.818-.199-10.949.081-21.957.578-32.904.172-1.351-.05-2.304-.387-3.412-.798Z" fill="url(#badge-shield-linear-gradient-26)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-p-bowl-fold" d="M486.015,188.685c-1.574-2.204-.93-2.333-1.281-4.563h108.112c.047,0,5.163.924,5.862,1.026,19.262,2.81,36.725,14.554,47.16,31.197,3.186,5.082,5.762,10.524,7.521,16.286.97,3.18.413,2.082.446,4.232-1.867-1.274-1.226-.566-3.305-2.563-2.791-2.68-5.754-5.089-8.892-7.335-12.227-8.752-30.894-15.201-45.856-13.611.064.535.305,1.042.391,1.484-2.189-.69-4.402-1.227-5.984-1.227h-75.842v1.672c-.368-.094-.709-.204-1.019-.332-3.02-1.245-13.534-12.369-16.59-15.392-3.234-3.198-8.165-7.293-10.723-10.875Z" fill="url(#badge-shield-linear-gradient-27)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-ribbon-front-stem" d="M454.585,249.447v-65.325h31.255c.405,1.56.78,2.497.638,4.196-.66,7.87-.217,16.453-.234,24.402-.038,19.24,1.851,51.3-6.863,68.268-1.473.474-2.597.92-4.22.987-6.611.272-22.85.588-28.713-.575.385-1.425.793-3.064,1.288-4.541-.225-.952-.486-1.698-.572-2.509l.675,1.337c3.383-6.668,4.791-14.322,5.857-21.757.146-1.023.89-3.784.89-4.484Z" fill="url(#badge-shield-linear-gradient-28)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-ribbon-front" d="M416.51,317.574c15.62-11.123,21.474-20.832,30.183-37.434h32.633c-.083,2.189.294,1.589-.514,4.188-4.369,14.053-13.185,28.329-22.64,39.404-6.829,7.999-14.746,14.748-23.209,20.873-3.218,2.329-6.303,4.808-9.637,6.974-10.796,7.017-23.203,11.354-35.757,13.672-7.542,1.392-14.469,1.498-22.059,1.798-19.553.775-39.199.212-58.768.266-8.458.023-17.066-.296-25.494.529-5.618.551-11.245,1.632-16.705,3.076-17.039,4.504-33.677,13.809-46.342,26.296-1.856,1.829-3.694,3.7-5.416,5.659-2.033,2.313-8.376,10.774-10.052,11.939-2.292,1.593-2.437.515-3.924.328l20.851-44.786c5.084-4.872,9.082-7.544,15.096-12.616,13.224-11.152,29.885-18.298,46.849-20.741,1.575-.227,5.696-.981,6.977-.981h77.906c1.252,0,3.059-.66,4.407-.837,11.205-1.465,21.756-4.665,32.069-9.33l-.683-1.357c.683.508,1.061.787,2.575.234,4.145-1.514,8.077-4.607,11.656-7.156Z" fill="url(#badge-shield-linear-gradient-29)" fill-rule="evenodd"/>
+      <path id="badge-shield-mark-face-ribbon-back" d="M484.317,203.501c.026-6.05-.378-12.39.288-18.296,5.978,4.677,15.838,15.006,21.728,20.821,2.018,1.993,3.893,4.232,6.073,6.043.966.802,1.927,1.164,2.992,1.544h-1.05v44.533c-.271-.231-.602-.325-1.022.034-.936.801-2.811,14.068-3.288,16.346-2.305,11.012-6.163,22.177-11.07,32.274-15.54,31.978-38.551,55.432-69.135,72.401-4.752,1.725-9.543,3.681-14.249,5.625-10.501,4.336-21.621,7.108-32.841,8.679-.976.137-1.956.26-2.935.371-.684.078-2.214.825-2.576.825h-99.612l-.053.114c-.018-.069-.04-.142-.066-.215-21.136,1.867-38.845,5.04-57.428,16.435-6.983,4.282-13.568,9.124-19.906,14.335-3.384,2.782-6.422,6.056-10.044,8.429l9.109-19.566h-.039c.619-.151,1.28-.137,2.091-.259,3.68-4.528,7.065-9.296,11.033-13.62,14.022-15.279,32.576-26.351,52.429-31.636,13.639-3.631,27.524-3.425,41.503-3.442,13.312-.017,26.623-.036,39.935-.011,11.253.021,23.567.444,34.682-.97,14.739-1.874,29.36-6.517,41.923-14.71,3.325-2.169,6.378-4.697,9.568-7.054,8.606-6.358,16.727-13.251,23.506-21.647,8.362-10.357,15.003-21.72,19.939-34.149,10.902-27.455,8.396-54.398,8.517-83.233Z" fill="url(#badge-shield-linear-gradient-30)" fill-rule="evenodd"/>
+    </g>
+    <g id="badge-shield-banner">
+      <path id="badge-shield-banner-A-00" d="M102.08,533.093l-6.362-15.303-6.42,15.303h12.782ZM91.19,508.62h9.17l17.939,40.12h-9.743l-3.553-8.597h-18.627l-3.554,8.597h-9.514l17.882-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-L-01" d="M122.48,508.62h9.285v32.554h20.118v7.566h-29.403v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-L-02" d="M157.095,508.62h9.285v32.554h20.117v7.566h-29.402v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-I-03" d="M191.71,508.62h9.285v40.12h-9.285v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-A-04" d="M234.006,533.093l-6.362-15.303-6.419,15.303h12.781ZM223.117,508.62h9.17l17.939,40.12h-9.743l-3.554-8.597h-18.627l-3.553,8.597h-9.514l17.882-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-N-05" d="M254.406,508.62h7.681l19.945,24.416v-24.416h9.17v40.12h-7.622l-20.003-24.416v24.416h-9.171v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-C-06" d="M298.192,528.68c0-12.094,9.284-20.748,21.779-20.748,6.935,0,12.724,2.522,16.506,7.107l-5.96,5.502c-2.694-3.095-6.076-4.699-10.087-4.699-7.509,0-12.839,5.272-12.839,12.838s5.33,12.838,12.839,12.838c4.011,0,7.393-1.605,10.087-4.757l5.96,5.502c-3.782,4.643-9.571,7.165-16.563,7.165-12.438,0-21.722-8.654-21.722-20.748Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-E-07" d="M342.206,508.62h30.319v7.451h-21.091v8.711h18.627v7.222h-18.627v9.285h21.837v7.451h-31.065v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-A-09" d="M420.378,533.093l-6.362-15.303-6.419,15.303h12.781ZM409.488,508.62h9.171l17.938,40.12h-9.742l-3.554-8.597h-18.627l-3.553,8.597h-9.515l17.882-40.12Z" fill="#1b56ff"/>
+      <path id="badge-shield-banner-I-10" d="M440.778,508.62h9.285v40.12h-9.285v-40.12Z" fill="#1b56ff"/>
+      <path id="badge-shield-banner-P-12" d="M492.644,530.113c5.674,0,8.539-2.579,8.539-6.935,0-4.413-2.865-6.993-8.539-6.993h-7.566v13.928h7.566ZM475.793,508.62h17.367c10.718,0,17.423,5.559,17.423,14.558,0,8.941-6.705,14.5-17.423,14.5h-8.082v11.062h-9.285v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-A-13" d="M538.664,533.093l-6.362-15.303-6.419,15.303h12.781ZM527.775,508.62h9.17l17.939,40.12h-9.743l-3.554-8.597h-18.627l-3.553,8.597h-9.514l17.882-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-R-14" d="M575.915,530.17c5.674,0,8.54-2.636,8.54-6.992,0-4.413-2.866-6.993-8.54-6.993h-7.565v13.985h7.565ZM559.065,508.62h17.137c11.176,0,17.652,5.559,17.652,14.558,0,6.017-2.98,10.431-8.196,12.666l8.941,12.896h-9.972l-7.738-11.176h-8.539v11.176h-9.285v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-T-15" d="M608.925,516.185h-12.838v-7.565h34.961v7.565h-12.838v32.555h-9.285v-32.555Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-N-16" d="M636.032,508.62h7.68l19.945,24.416v-24.416h9.171v40.12h-7.623l-20.003-24.416v24.416h-9.17v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-E-17" d="M682.339,508.62h30.319v7.451h-21.092v8.711h18.628v7.222h-18.628v9.285h21.837v7.451h-31.064v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-R-18" d="M737.644,530.17c5.674,0,8.54-2.636,8.54-6.992,0-4.413-2.866-6.993-8.54-6.993h-7.565v13.985h7.565ZM720.794,508.62h17.137c11.176,0,17.652,5.559,17.652,14.558,0,6.017-2.98,10.431-8.196,12.666l8.941,12.896h-9.972l-7.738-11.176h-8.539v11.176h-9.285v-40.12Z" fill="#121b2a"/>
+      <path id="badge-shield-banner-S-19" d="M759.763,544.785l3.152-6.993c3.382,2.465,8.425,4.185,13.24,4.185,5.502,0,7.737-1.834,7.737-4.299,0-7.508-23.327-2.349-23.327-17.251,0-6.821,5.503-12.495,16.908-12.495,5.043,0,10.202,1.204,13.927,3.554l-2.865,7.049c-3.726-2.12-7.566-3.152-11.119-3.152-5.503,0-7.623,2.063-7.623,4.585,0,7.393,23.327,2.293,23.327,17.023,0,6.705-5.56,12.437-17.022,12.437-6.362,0-12.782-1.892-16.335-4.643Z" fill="#121b2a"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+ "name": "daybreak-swallows",
+ "kind": "background",
+ "description": "Faceted swallows and a satin ribbon crossing a Daybreak sky; open sky on the left for a headline.",
+ "prompt": "Five swallows in flight across a daybreak sky that grades from deep navy at the lower left through electric blue to luminous cyan at the upper right. The swallows are faceted like cut glass, their flat planes catching the light in the same blues, and one glossy satin ribbon in the same gradient trails through the flock like a flight path. Wide, airy composition with open sky on the left two thirds. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "references": [],
+ "generated": "2026-11-02",
+ "tool": "brand-kit/tools/generate-imagery.py"
+}

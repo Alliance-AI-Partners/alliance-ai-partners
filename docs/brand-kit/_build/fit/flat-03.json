@@ -1,0 +1,153 @@
+{
+ "id": "03",
+ "source": "1f3b28e6-ad6c-4e5d-80d8-e2f2e1e38954.jpeg",
+ "description": "App icon: flat cyan AP in rounded-square outline, navy",
+ "size": [
+  1024,
+  1024
+ ],
+ "svg": "components/flat-03.svg",
+ "colors": {
+  "background": {
+   "measured": "#132237",
+   "snapped": "#121B2A",
+   "de2000_measured_to_snapped": 3.37,
+   "nearest_palette": "Deep Navy",
+   "exceeds_snap_threshold_4": false
+  },
+  "cyan": {
+   "measured": "#3FCCD8",
+   "snapped": "#00D5FF",
+   "de2000_measured_to_snapped": 8.81,
+   "nearest_palette": "Bright Cyan",
+   "exceeds_snap_threshold_4": true
+  }
+ },
+ "notes": [],
+ "text_bbox": null,
+ "method": "coverage map of the measured colours -> clean palette resynthesis (wordmark/ring masked) -> VectorCraft logo trace -> every edge snapped to the original 0.5 iso-line (smoothed per-point shift) -> straight runs refit as true lines meeting at sharp corners, curves as C2 cubic splines merged to few G1 cubics (tol 0.3 px); verified on a 4x VectorCraft render box-filtered to 1x",
+ "mark_bbox": [
+  121.57,
+  121.57,
+  902.43,
+  902.43
+ ],
+ "layers": [
+  {
+   "id": "ap-cyan",
+   "fill": "#00D5FF",
+   "bbox": [
+    238.74,
+    347.05,
+    785.39,
+    677.17
+   ],
+   "subpaths": 1,
+   "anchors": 36,
+   "line_segs": 19,
+   "curve_segs": 17,
+   "specks_dropped_area": [],
+   "trace_anchors": 115
+  },
+  {
+   "id": "frame-ring",
+   "fill": "#00D5FF",
+   "bbox": [
+    121.57,
+    121.57,
+    902.43,
+    902.43
+   ],
+   "subpaths": 2,
+   "anchors": 16,
+   "line_segs": 8,
+   "curve_segs": 8,
+   "construction": "true rounded rectangles (4 lines + 4 quarter-circle cubics each, kappa 0.5523), concentric corners"
+  }
+ ],
+ "ring": {
+  "outer_box": [
+   121.601,
+   121.492,
+   902.395,
+   902.416
+  ],
+  "inner_box": [
+   142.19,
+   142.282,
+   881.766,
+   881.834
+  ],
+  "edge_spread_px": 0.03,
+  "circle_fit_max_residual": {
+   "outer": [
+    0.109,
+    0.134,
+    0.114,
+    0.128
+   ],
+   "inner": [
+    0.141,
+    0.132,
+    0.178,
+    0.134
+   ]
+  },
+  "r_outer_each": [
+   51.44,
+   51.24,
+   52.89,
+   52.34
+  ],
+  "r_inner_each": [
+   30.59,
+   30.28,
+   32.28,
+   32.14
+  ],
+  "centre_offset_inner_vs_outer": [
+   0.16,
+   0.23,
+   0.2,
+   0.67
+  ],
+  "r_outer": 51.976,
+  "r_inner": 31.324,
+  "stroke_width_each": [
+   20.59,
+   20.79,
+   20.63,
+   20.58
+  ],
+  "centre_measured": [
+   511.998,
+   511.954
+  ],
+  "constructed": {
+   "centre": [
+    512.0,
+    512.0
+   ],
+   "outer_size": 780.859,
+   "stroke": 20.648,
+   "r_outer": 51.976,
+   "r_inner": 31.328,
+   "r_inner_measured": 31.324,
+   "max_edge_dev_vs_measured_px": 0.079
+  }
+ },
+ "metrics": {
+  "mark_iou": 0.9948,
+  "ap_iou": 0.9975,
+  "ring_iou": 0.9908,
+  "de_mean_canvas": 4.2,
+  "de_p95_canvas": 8.82,
+  "de_mean_mark_region": 8.58,
+  "de_p95_mark_region": 9.49,
+  "de_mean_background": 3.34,
+  "de_mean_if_measured_colours": 0.77,
+  "de_p95_if_measured_colours": 2.3,
+  "soft_iou_band": 0.9891,
+  "mean_edge_offset_px": -0.012
+ }
+}

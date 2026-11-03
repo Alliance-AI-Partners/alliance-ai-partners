@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Component specimen · Alliance AI Partners design system</title>
+<link rel="icon" href="logos/app-icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="tokens/tokens.css">
+<link rel="stylesheet" href="css/components.css">
+<style>
+  .spec-head { display: grid; gap: var(--aap-space-4); padding-block: var(--aap-space-16) var(--aap-space-10); }
+  .spec-row { display: flex; flex-wrap: wrap; gap: var(--aap-space-4); align-items: center; }
+  .spec-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: var(--aap-space-10); }
+  .spec-block { display: grid; gap: var(--aap-space-6); padding-block: var(--aap-space-12); border-top: 1px solid var(--aap-color-border-default); }
+  .spec-block > h2 { font: 600 var(--aap-typography-heading-3-size)/1.2 var(--aap-font-family-sans); margin: 0; }
+  .spec-types { display: grid; gap: var(--aap-space-5); }
+  .spec-types > div { display: grid; grid-template-columns: 9rem 1fr; gap: var(--aap-space-6); align-items: baseline; }
+  .spec-ribbon { height: 120px; }
+  .spec-form { display: grid; gap: var(--aap-space-5); max-width: 26rem; }
+  .spec-stack { display: grid; gap: var(--aap-space-4); align-content: start; }
+  svg.i { width: 20px; height: 20px; }
+  @media (max-width: 640px) {
+    .spec-types > div { grid-template-columns: minmax(0, 1fr); gap: var(--aap-space-1); }
+  }
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 7.75v.5"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="m8.5 12.2 2.4 2.4 4.6-4.8"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.5 2.8 19.5h18.4L12 4.5z"/><path d="M12 10v4M12 16.75v.5"/></symbol>
+  <symbol id="i-x-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="m9.5 9.5 5 5M14.5 9.5l-5 5"/></symbol>
+</svg>
+
+<a class="aap-skip-link" href="#main">Skip to the components</a>
+
+<header class="aap-header">
+  <div class="aap-container aap-header__bar">
+    <img class="aap-header__logo" src="logos/lockups/alliance-ai-partners-primary-horizontal-full-color-light.svg" alt="Alliance AI Partners">
+    <nav class="aap-nav" aria-label="Specimen sections">
+      <a class="aap-nav__link" href="#type" aria-current="page">Type</a>
+      <a class="aap-nav__link" href="#actions">Actions</a>
+      <a class="aap-nav__link" href="#forms">Forms</a>
+      <a class="aap-nav__link" href="#content">Content</a>
+      <a class="aap-nav__link" href="#dark">On navy</a>
+    </nav>
+    <a class="aap-button aap-button--primary aap-button--sm" href="#main">See where AI can help</a>
+  </div>
+</header>
+
+<main id="main" class="aap-container">
+  <section class="spec-head">
+    <h1 class="aap-display-lg">Component specimen</h1>
+    <p class="aap-lead">Every class in <code class="aap-mono">css/components.css</code>, on Daylight and on a Partner Navy chapter. Figures on this page are samples, not Alliance results.</p>
+  </section>
+
+  <svg class="aap-ribbon spec-ribbon" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="g-daybreak" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#121B2A"/><stop offset=".54" stop-color="#1B56FF"/><stop offset="1" stop-color="#00D5FF"/></linearGradient></defs>
+    <path d="M0 96 C 220 96, 300 20, 520 24 S 860 104, 1200 18" pathLength="1" stroke="url(#g-daybreak)"/>
+  </svg>
+
+  <section class="spec-block" id="type" aria-labelledby="type-h">
+    <h2 id="type-h">Type</h2>
+    <div class="spec-types">
+      <div><span class="aap-caption">display-xl</span><p class="aap-display-xl">Put AI to <span class="aap-accent">work.</span></p></div>
+      <div><span class="aap-caption">display-lg</span><p class="aap-display-lg">The AI team you don't have to hire.</p></div>
+      <div><span class="aap-caption">heading-1</span><p class="aap-h1">We build it, run it, and help you grow.</p></div>
+      <div><span class="aap-caption">heading-2</span><p class="aap-h2">Honest prices, published up front.</p></div>
+      <div><span class="aap-caption">heading-3</span><p class="aap-h3">Automation and AI agents</p></div>
+      <div><span class="aap-caption">body-lg</span><p class="aap-lead">Your orders now go straight into your system. Nobody types them twice.</p></div>
+      <div><span class="aap-caption">body</span><p class="aap-body">Before we suggest anything, walk us through what happens when a new customer request comes in. We repeat the problem back in your own words, and we say so plainly when the answer doesn't involve AI.</p></div>
+      <div><span class="aap-caption">numeral</span><p class="aap-numeral">US$196,500</p></div>
+      <div><span class="aap-caption">mono</span><p class="aap-mono">BLS, Software developers, May 2025 · retrieved 2026-11-02</p></div>
+    </div>
+  </section>
+
+  <section class="spec-block" id="actions" aria-labelledby="actions-h">
+    <h2 id="actions-h">Actions</h2>
+    <div class="spec-row">
+      <a class="aap-button aap-button--primary aap-button--lg" href="#actions">See where AI can help <svg data-direction="forward" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      <a class="aap-button aap-button--primary" href="#actions">Book the AI check-up</a>
+      <a class="aap-button" href="#actions"><svg aria-hidden="true"><use href="#i-download"/></svg> Download the logo kit</a>
+      <button class="aap-button aap-button--quiet" type="button">Read the price list</button>
+      <button class="aap-button aap-button--primary" type="button" aria-busy="true">Sending your brief</button>
+      <button class="aap-button" type="button" disabled>Unavailable</button>
+    </div>
+    <p><a class="aap-link" href="#actions">How the AI check-up works <svg aria-hidden="true"><use href="#i-arrow-right"/></svg></a></p>
+    <div class="spec-row">
+      <span class="aap-tag">Automation and AI agents</span>
+      <span class="aap-tag">Customer support</span>
+      <span class="aap-chip aap-chip--live">Team online</span>
+      <span class="aap-chip aap-chip--away">Back at 9:00</span>
+    </div>
+  </section>
+
+  <section class="spec-block" id="forms" aria-labelledby="forms-h">
+    <h2 id="forms-h">Forms</h2>
+    <div class="spec-grid">
+      <form class="spec-form" onsubmit="return false">
+        <div class="aap-field">
+          <label class="aap-field__label" for="f-name">Your name</label>
+          <input class="aap-input" id="f-name" autocomplete="name" placeholder="Corazon Villanueva">
+        </div>
+        <div class="aap-field">
+          <label class="aap-field__label" for="f-email">Work email</label>
+          <input class="aap-input" id="f-email" type="email" value="ops@harbourline" aria-invalid="true" aria-describedby="f-email-err">
+          <p class="aap-field__error" id="f-email-err"><svg class="i" aria-hidden="true"><use href="#i-x-circle"/></svg> Add the domain, for example ops@harbourline.com.au, so we can reply.</p>
+        </div>
+        <div class="aap-field">
+          <label class="aap-field__label" for="f-goal">What should get easier?</label>
+          <select class="aap-select" id="f-goal"><option>Customer support</option><option>Order entry</option><option>Reporting</option></select>
+          <p class="aap-field__help">One goal is enough to start; we ask about the rest on the call.</p>
+        </div>
+        <label class="aap-check"><input type="checkbox" checked> Send me the fixed quote by email</label>
+        <label class="aap-check"><input type="radio" name="r" checked> Monthly plan</label>
+        <label class="aap-check"><input type="radio" name="r"> One project</label>
+      </form>
+      <div class="spec-stack">
+        <div class="aap-alert" role="status"><svg aria-hidden="true"><use href="#i-info"/></svg><div><p class="aap-alert__title">Your quote lists every charge</p><p class="aap-small">Changes are quoted before we do them.</p></div></div>
+        <div class="aap-alert aap-alert--success" role="status"><svg aria-hidden="true"><use href="#i-check-circle"/></svg><div><p class="aap-alert__title">AI check-up booked</p><p class="aap-small">Thursday, 10:00 Sydney time. We sent the agenda to your inbox.</p></div></div>
+        <div class="aap-alert aap-alert--warning" role="status"><svg aria-hidden="true"><use href="#i-alert"/></svg><div><p class="aap-alert__title">Model fees rose this month</p><p class="aap-small">They are passed on at cost; your invoice shows the change line by line.</p></div></div>
+        <div class="aap-alert aap-alert--error" role="alert"><svg aria-hidden="true"><use href="#i-x-circle"/></svg><div><p class="aap-alert__title">We couldn't send your brief</p><p class="aap-small">Check your connection and send it again; nothing was lost.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="spec-block" id="content" aria-labelledby="content-h">
+    <h2 id="content-h">Content</h2>
+    <ol class="aap-steps">
+      <li><h3 class="aap-steps__title">Understand</h3><p class="aap-steps__text">We learn how your business works and where it gets stuck.</p></li>
+      <li><h3 class="aap-steps__title">Plan</h3><p class="aap-steps__text">We pick the right fix. Sometimes it doesn't involve AI at all.</p></li>
+      <li><h3 class="aap-steps__title">Build</h3><p class="aap-steps__text">Our engineers and designers build it, on our own or inside your team.</p></li>
+      <li><h3 class="aap-steps__title">Run and grow</h3><p class="aap-steps__text">We keep it working, improve it, and help you find new customers.</p></li>
+    </ol>
+    <p class="aap-body">A full-time software developer in the United States costs the employer about <span class="aap-claim">US$196,500 a year<a class="aap-claim__key" href="#src-1">1</a></span>, before recruiting, equipment or office space.</p>
+    <ol class="aap-sources">
+      <li id="src-1">U.S. Bureau of Labor Statistics, software developers, median pay May 2025; benefits 30.8 % of compensation (June 2026). Retrieved 2026-11-02.</li>
+    </ol>
+    <div class="aap-timezones" role="list" aria-label="Working hours across time zones (sample times)">
+      <div class="aap-timezones__city" role="listitem" aria-current="true"><span class="aap-timezones__name">Our team</span><span class="aap-timezones__time">14:20</span><span class="aap-timezones__note">Working</span></div>
+      <div class="aap-timezones__city" role="listitem"><span class="aap-timezones__name">Sydney</span><span class="aap-timezones__time">16:20</span><span class="aap-timezones__note">2 hours ahead</span></div>
+      <div class="aap-timezones__city" role="listitem"><span class="aap-timezones__name">New York</span><span class="aap-timezones__time">01:20</span><span class="aap-timezones__note">Brief us before you log off</span></div>
+      <div class="aap-timezones__city" role="listitem"><span class="aap-timezones__name">London</span><span class="aap-timezones__time">06:20</span><span class="aap-timezones__note">Our afternoon is your morning</span></div>
+    </div>
+    <div class="aap-tabs">
+      <div class="aap-tabs__list" role="tablist" aria-label="Services">
+        <button class="aap-tabs__tab" role="tab" aria-selected="true">Scale AI</button>
+        <button class="aap-tabs__tab" role="tab" aria-selected="false">Solve problems with AI</button>
+        <button class="aap-tabs__tab" role="tab" aria-selected="false">Grow</button>
+      </div>
+    </div>
+    <div>
+      <details class="aap-accordion" open><summary>Does cheaper mean lower quality?</summary><div class="aap-accordion__body">AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you.</div></details>
+      <details class="aap-accordion"><summary>What happens to our data?</summary><div class="aap-accordion__body">Partner data stays where you decide, and we never use it to train anything you don't own.</div></details>
+    </div>
+    <table class="aap-table">
+      <caption class="aap-caption" style="caption-side: bottom; text-align: start; padding-top: 12px;">Sample layout. Replace with sourced, dated figures before publishing.</caption>
+      <thead><tr><th scope="col">How it's charged</th><th scope="col">What to watch</th><th scope="col" class="is-num">Example</th></tr></thead>
+      <tbody>
+        <tr><td>By the hour</td><td>Slow work costs more</td><td class="is-num">US$100&ndash;149/h</td></tr>
+        <tr><td>Per seat</td><td>Costs rise with every person</td><td class="is-num">US$30/user/mo</td></tr>
+        <tr class="is-ours"><td>Alliance AI Partners</td><td>A fixed quote before we start</td><td class="is-num">[PRICE]</td></tr>
+      </tbody>
+    </table>
+    <div class="spec-grid">
+      <a class="aap-card" href="#content"><h3 class="aap-h3">The AI check-up</h3><p class="aap-small">A short first project that finds where AI could save you time or money.</p></a>
+      <div class="aap-card"><div class="aap-skeleton" style="height: 18px; width: 60%"></div><div class="aap-skeleton" style="height: 12px"></div><div class="aap-skeleton" style="height: 12px; width: 80%"></div></div>
+      <div class="aap-empty"><p class="aap-h4" style="margin:0">No reports yet</p><p class="aap-small" style="margin:0">Your first monthly report arrives 30 days after launch.</p></div>
+    </div>
+  </section>
+</main>
+
+<section class="aap-surface-inverse aap-section" id="dark" aria-labelledby="dark-h">
+  <div class="aap-container spec-stack" style="gap: var(--aap-space-10)">
+    <h2 class="aap-display-lg" id="dark-h">Partners in AI. <span class="aap-accent">Partners in growth.</span></h2>
+    <p class="aap-lead">The same components inside a Partner Navy chapter: the semantic tokens flip, the markup does not.</p>
+    <div class="spec-row">
+      <a class="aap-button aap-button--primary aap-button--lg" href="#dark">See where AI can help <svg data-direction="forward" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      <a class="aap-button" href="#dark">Read the design system</a>
+      <span class="aap-chip aap-chip--live">Team online</span>
+    </div>
+    <ol class="aap-steps">
+      <li><h3 class="aap-steps__title">Understand</h3><p class="aap-steps__text">Where your business gets stuck.</p></li>
+      <li><h3 class="aap-steps__title">Plan</h3><p class="aap-steps__text">The simplest fix that works.</p></li>
+      <li><h3 class="aap-steps__title">Build</h3><p class="aap-steps__text">Inside your team or alongside it.</p></li>
+      <li><h3 class="aap-steps__title">Run and grow</h3><p class="aap-steps__text">We stay to keep it working.</p></li>
+    </ol>
+    <div class="spec-grid">
+      <div class="aap-field"><label class="aap-field__label" for="d-email">Work email</label><input class="aap-input" id="d-email" placeholder="you@company.com"></div>
+      <div class="aap-alert aap-alert--success" role="status"><svg aria-hidden="true"><use href="#i-check-circle"/></svg><div><p class="aap-alert__title">Brief received</p><p class="aap-small">You'll see progress when you log on.</p></div></div>
+    </div>
+  </div>
+  <footer class="aap-footer aap-container">
+    <div class="aap-footer__grid">
+      <div><img src="logos/lockups/alliance-ai-partners-primary-horizontal-full-color-dark.svg" alt="Alliance AI Partners" style="height: 40px"></div>
+      <div><p class="aap-footer__heading">Services</p><ul class="aap-footer__list"><li><a href="#dark">Scale AI</a></li><li><a href="#dark">Solve problems with AI</a></li><li><a href="#dark">Grow</a></li></ul></div>
+      <div><p class="aap-footer__heading">Company</p><ul class="aap-footer__list"><li><a href="#dark">How we price</a></li><li><a href="#dark">Data policy</a></li></ul></div>
+      <div><p class="aap-footer__heading">Brand</p><ul class="aap-footer__list"><li><a href="../brand-kit/index.html">Brand kit</a></li><li><a href="README.md">Design system</a></li></ul></div>
+    </div>
+    <div class="aap-footer__base"><span>Alliance AI Partners</span><span>Specimen page, sample content</span></div>
+  </footer>
+</section>
+</body>
+</html>

@@ -1,0 +1,1931 @@
+{
+ "generated_by": "work/print/build.py (match.py + pantone_ref.json); Pillow 12.2.0 / littleCMS 2.18",
+ "method": {
+  "lab": "Brand sRGB -> CIELAB D50 (Bradford), the ICC convention Pantone's D50 Lab uses.",
+  "pantone_ranking": "CIEDE2000 (kit.de2000), median over the value sets available for each colour: pcm = Pantone Color Manager V4 Lab, plus = PANTONE+ Lab (or ok2pan Lab where PANTONE+ lacks the colour), web = Pantone's published sRGB (Solid Coated, only where the ink is inside sRGB).",
+  "cmyk": "Pillow ImageCms (littleCMS), sRGB -> profile, relative colorimetric + black point compensation. raw = 8-bit result in %, clean = whole %, 1-2 % traces dropped and 98-99 % made solid when that costs <= 0.5 dE. rt_de2000 = back to Lab with the same intent + BPC (gamut loss); paper_relative_de2000 = back to Lab without BPC (what the sheet measures against its white)."
+ },
+ "document_profile": {
+  "recommended": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+  "file": "CoatedGRACoL2006.icc",
+  "why": "Darker black point and higher ink limit (TAC 329 against 295 on SWOP v2): the navy prints at paper-relative dE 5.5 on GRACoL 2006 against 8.6 on SWOP v2, the blue matches as well, and GRACoL 2006 / FOGRA39 are the ISO 12647-2 coated-sheetfed conditions most brand collateral is printed to, while SWOP v2 is a web-offset publication condition. SWOP v2 is better only for Ribbon Cyan (dE 4.2 against 5.5). Coated FOGRA39 is the equivalent choice for vendors who print to ISO 12647-2 / FOGRA39 (common outside North America); builds for all three are given. Ask each vendor for its printing condition first."
+ },
+ "colors": {
+  "Alliance Blue": {
+   "hex": "#1B56FF",
+   "lab_d50": [
+    42.73,
+    34.56,
+    -90.15
+   ],
+   "pantone_c": {
+    "name": "PANTONE 2726 C",
+    "de2000": 5.47,
+    "de2000_by_set": {
+     "pcm": 5.47,
+     "plus": 5.47,
+     "web": 5.89
+    },
+    "lab_d50": [
+     41.96,
+     18,
+     -60
+    ],
+    "lab_source": "pcm",
+    "hex": "#485CC7",
+    "hex_source": "web",
+    "hex_pantone_com_slab": "#475CC7",
+    "hex_from_lab": "#435CC8",
+    "lab_in_srgb": true,
+    "guide": "Formula Guide"
+   },
+   "pantone_u": {
+    "name": "PANTONE 2387 U",
+    "de2000": 7.19,
+    "de2000_by_set": {
+     "pcm": 7.13,
+     "plus": 7.25
+    },
+    "lab_d50": [
+     44.71,
+     9,
+     -50
+    ],
+    "lab_source": "pcm",
+    "hex": "#4D68BF",
+    "hex_source": "slab",
+    "hex_pantone_com_slab": "#4D68BF",
+    "hex_from_lab": "#4668BE",
+    "lab_in_srgb": true,
+    "guide": "Formula Guide"
+   },
+   "pantone_c_candidates": [
+    {
+     "name": "PANTONE 2726 C",
+     "de2000": 5.47,
+     "de2000_by_set": {
+      "pcm": 5.47,
+      "plus": 5.47,
+      "web": 5.89
+     },
+     "lab_d50": [
+      41.96,
+      18,
+      -60
+     ],
+     "lab_source": "pcm",
+     "hex": "#485CC7",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#475CC7",
+     "hex_from_lab": "#435CC8",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 2131 C",
+     "de2000": 6.31,
+     "de2000_by_set": {
+      "pcm": 6.39,
+      "plus": 6.31,
+      "web": 6.26
+     },
+     "lab_d50": [
+      40.0,
+      12,
+      -58
+     ],
+     "lab_source": "pcm",
+     "hex": "#365ABD",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#365ABE",
+     "hex_from_lab": "#2B5BBF",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 2125 C",
+     "de2000": 6.9,
+     "de2000_by_set": {
+      "pcm": 6.3,
+      "plus": 6.9,
+      "web": 7.08
+     },
+     "lab_d50": [
+      44.31,
+      17,
+      -57
+     ],
+     "lab_source": "pcm",
+     "hex": "#5461C8",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#5461C8",
+     "hex_from_lab": "#4D62C9",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "pantone_u_candidates": [
+    {
+     "name": "PANTONE 2387 U",
+     "de2000": 7.19,
+     "de2000_by_set": {
+      "pcm": 7.13,
+      "plus": 7.25
+     },
+     "lab_d50": [
+      44.71,
+      9,
+      -50
+     ],
+     "lab_source": "pcm",
+     "hex": "#4D68BF",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#4D68BF",
+     "hex_from_lab": "#4668BE",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 2728 U",
+     "de2000": 7.51,
+     "de2000_by_set": {
+      "pcm": 7.25,
+      "plus": 7.76
+     },
+     "lab_d50": [
+      45.49,
+      11,
+      -51
+     ],
+     "lab_source": "pcm",
+     "hex": "#5368C3",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#5368C3",
+     "hex_from_lab": "#4C69C2",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 2388 U",
+     "de2000": 7.85,
+     "de2000_by_set": {
+      "pcm": 7.85,
+      "plus": 7.85
+     },
+     "lab_d50": [
+      40.39,
+      6,
+      -45
+     ],
+     "lab_source": "pcm",
+     "hex": "#3F5EAA",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#3F5EAA",
+     "hex_from_lab": "#3A5FA9",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "same_ink_uncoated": {
+    "name": "PANTONE 2726 U",
+    "de2000": 13.63,
+    "hex": "#6C7BCF",
+    "lab_d50": [
+     53.33,
+     12,
+     -46
+    ]
+   },
+   "pastels_neons_nearest": {
+    "C": {
+     "name": "PANTONE 814 C",
+     "de2000": 17.09,
+     "de2000_by_set": {
+      "plus": 17.09
+     },
+     "lab_d50": [
+      51.76,
+      31,
+      -52
+     ],
+     "lab_source": "ok2pan",
+     "hex": "#896AD6",
+     "hex_source": "computed from Lab",
+     "hex_from_lab": "#896AD6",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    },
+    "U": {
+     "name": "PANTONE 814 U",
+     "de2000": 14.73,
+     "de2000_by_set": {
+      "plus": 14.73
+     },
+     "lab_d50": [
+      47.06,
+      29,
+      -51
+     ],
+     "lab_source": "ok2pan",
+     "hex": "#7960C7",
+     "hex_source": "computed from Lab",
+     "hex_from_lab": "#7960C7",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    }
+   },
+   "cmyk": {
+    "swop": {
+     "profile": "U.S. Web Coated (SWOP) v2",
+     "raw": [
+      81.2,
+      67.5,
+      0.0,
+      0.0
+     ],
+     "clean": [
+      81,
+      67,
+      0,
+      0
+     ],
+     "tac_clean": 148,
+     "tac_profile_max": 295.3,
+     "rt_de2000_raw": 7.98,
+     "rt_de2000_clean": 7.96,
+     "paper_relative_de2000_clean": 8.86,
+     "lab_d50_clean_rt": [
+      42.0,
+      8.1,
+      -44.3
+     ]
+    },
+    "gracol": {
+     "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+     "raw": [
+      84.3,
+      64.3,
+      0.0,
+      0.0
+     ],
+     "clean": [
+      84,
+      64,
+      0,
+      0
+     ],
+     "tac_clean": 148,
+     "tac_profile_max": 329.0,
+     "rt_de2000_raw": 8.19,
+     "rt_de2000_clean": 8.15,
+     "paper_relative_de2000_clean": 8.12,
+     "lab_d50_clean_rt": [
+      39.9,
+      5.9,
+      -43.8
+     ]
+    },
+    "fogra39": {
+     "profile": "Coated FOGRA39 (ISO 12647-2:2004)",
+     "raw": [
+      86.3,
+      65.9,
+      0.0,
+      0.0
+     ],
+     "clean": [
+      86,
+      66,
+      0,
+      0
+     ],
+     "tac_clean": 152,
+     "tac_profile_max": 327.1,
+     "rt_de2000_raw": 8.4,
+     "rt_de2000_clean": 8.43,
+     "paper_relative_de2000_clean": 8.22,
+     "lab_d50_clean_rt": [
+      38.6,
+      7.5,
+      -45.5
+     ]
+    }
+   },
+   "decision": "PANTONE 2726 C is the closest coated ink on all three value sets. #1B56FF is far outside both the Pantone and the CMYK gamut (chroma 97 against 63 for 2726 C and 44 for the best CMYK build), so every print version is visibly less electric than the screen; the spot ink still gets much closer than process (dE 5.5 against 8.2). On uncoated stock the same ink (PANTONE 2726 U) is dE 13.6 away, so the uncoated spec is PANTONE 2387 U (dE 7.2).",
+   "recommended": {
+    "pantone_c": "PANTONE 2726 C",
+    "pantone_u": "PANTONE 2387 U",
+    "cmyk_profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+    "cmyk": [
+     84,
+     64,
+     0,
+     0
+    ],
+    "cmyk_swop": [
+     81,
+     67,
+     0,
+     0
+    ]
+   }
+  },
+  "Ribbon Cyan": {
+   "hex": "#00D5FF",
+   "lab_d50": [
+    78.32,
+    -33.88,
+    -33.55
+   ],
+   "pantone_c": {
+    "name": "PANTONE 305 C",
+    "de2000": 4.12,
+    "de2000_by_set": {
+     "pcm": 3.7,
+     "plus": 4.12,
+     "web": 4.21
+    },
+    "lab_d50": [
+     75.29,
+     -28,
+     -27
+    ],
+    "lab_source": "pcm",
+    "hex": "#59CBE8",
+    "hex_source": "web",
+    "hex_pantone_com_slab": "#59CBE9",
+    "hex_from_lab": "#4DC9EA",
+    "lab_in_srgb": true,
+    "guide": "Formula Guide"
+   },
+   "pantone_u": {
+    "name": "PANTONE 305 U",
+    "de2000": 3.57,
+    "de2000_by_set": {
+     "pcm": 3.53,
+     "plus": 3.61
+    },
+    "lab_d50": [
+     74.9,
+     -28,
+     -29
+    ],
+    "lab_source": "pcm",
+    "hex": "#52CAEB",
+    "hex_source": "slab",
+    "hex_pantone_com_slab": "#52CAEB",
+    "hex_from_lab": "#46C8ED",
+    "lab_in_srgb": true,
+    "guide": "Formula Guide"
+   },
+   "pantone_c_candidates": [
+    {
+     "name": "PANTONE 305 C",
+     "de2000": 4.12,
+     "de2000_by_set": {
+      "pcm": 3.7,
+      "plus": 4.12,
+      "web": 4.21
+     },
+     "lab_d50": [
+      75.29,
+      -28,
+      -27
+     ],
+     "lab_source": "pcm",
+     "hex": "#59CBE8",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#59CBE9",
+     "hex_from_lab": "#4DC9EA",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 2198 C",
+     "de2000": 4.42,
+     "de2000_by_set": {
+      "pcm": 4.28,
+      "plus": 4.42,
+      "web": 4.7
+     },
+     "lab_d50": [
+      74.12,
+      -31,
+      -26
+     ],
+     "lab_source": "pcm",
+     "hex": "#4AC9E3",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#4ACAE3",
+     "hex_from_lab": "#3BC7E5",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 637 C",
+     "de2000": 5.39,
+     "de2000_by_set": {
+      "pcm": 5.39,
+      "plus": 5.47,
+      "web": 5.35
+     },
+     "lab_d50": [
+      72.16,
+      -28,
+      -27
+     ],
+     "lab_source": "pcm",
+     "hex": "#4EC3E0",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#4DC3E0",
+     "hex_from_lab": "#42C1E1",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "pantone_u_candidates": [
+    {
+     "name": "PANTONE 305 U",
+     "de2000": 3.57,
+     "de2000_by_set": {
+      "pcm": 3.53,
+      "plus": 3.61
+     },
+     "lab_d50": [
+      74.9,
+      -28,
+      -29
+     ],
+     "lab_source": "pcm",
+     "hex": "#52CAEB",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#52CAEB",
+     "hex_from_lab": "#46C8ED",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 2198 U",
+     "de2000": 3.86,
+     "de2000_by_set": {
+      "pcm": 3.73,
+      "plus": 3.99
+     },
+     "lab_d50": [
+      74.12,
+      -32,
+      -28
+     ],
+     "lab_source": "pcm",
+     "hex": "#3EC9E6",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#3EC9E6",
+     "hex_from_lab": "#2BC8E9",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 2197 U",
+     "de2000": 4.43,
+     "de2000_by_set": {
+      "pcm": 4.42,
+      "plus": 4.44
+     },
+     "lab_d50": [
+      78.43,
+      -28,
+      -23
+     ],
+     "lab_source": "pcm",
+     "hex": "#6AD4EB",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#6AD4EB",
+     "hex_from_lab": "#61D2EC",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "same_ink_uncoated": {
+    "name": "PANTONE 305 U",
+    "de2000": 3.57,
+    "hex": "#52CAEB",
+    "lab_d50": [
+     74.9,
+     -28,
+     -29
+    ]
+   },
+   "pastels_neons_nearest": {
+    "C": {
+     "name": "PANTONE Blue 0821 C",
+     "de2000": 5.13,
+     "de2000_by_set": {
+      "plus": 5.13
+     },
+     "lab_d50": [
+      78.43,
+      -24,
+      -23
+     ],
+     "lab_source": "plus",
+     "hex": "#73D1EA",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#73D1EA",
+     "hex_from_lab": "#70D0EC",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    },
+    "U": {
+     "name": "PANTONE Blue 0821 U",
+     "de2000": 4.31,
+     "de2000_by_set": {
+      "plus": 4.31
+     },
+     "lab_d50": [
+      78.04,
+      -25,
+      -25
+     ],
+     "lab_source": "plus",
+     "hex": "#6CD2EF",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#6CD2EF",
+     "hex_from_lab": "#67D0EE",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    }
+   },
+   "cmyk": {
+    "swop": {
+     "profile": "U.S. Web Coated (SWOP) v2",
+     "raw": [
+      59.6,
+      0.0,
+      1.6,
+      0.0
+     ],
+     "clean": [
+      60,
+      0,
+      0,
+      0
+     ],
+     "tac_clean": 60,
+     "tac_profile_max": 295.3,
+     "rt_de2000_raw": 3.97,
+     "rt_de2000_clean": 4.24,
+     "paper_relative_de2000_clean": 4.22,
+     "lab_d50_clean_rt": [
+      74.7,
+      -26.0,
+      -33.2
+     ]
+    },
+    "gracol": {
+     "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+     "raw": [
+      62.0,
+      0.0,
+      3.1,
+      0.0
+     ],
+     "clean": [
+      62,
+      0,
+      3,
+      0
+     ],
+     "tac_clean": 65,
+     "tac_profile_max": 329.0,
+     "rt_de2000_raw": 5.5,
+     "rt_de2000_clean": 5.5,
+     "paper_relative_de2000_clean": 5.47,
+     "lab_d50_clean_rt": [
+      73.2,
+      -24.1,
+      -30.5
+     ]
+    },
+    "fogra39": {
+     "profile": "Coated FOGRA39 (ISO 12647-2:2004)",
+     "raw": [
+      62.4,
+      0.0,
+      3.5,
+      0.0
+     ],
+     "clean": [
+      62,
+      0,
+      4,
+      0
+     ],
+     "tac_clean": 66,
+     "tac_profile_max": 327.1,
+     "rt_de2000_raw": 5.48,
+     "rt_de2000_clean": 5.43,
+     "paper_relative_de2000_clean": 5.44,
+     "lab_d50_clean_rt": [
+      73.5,
+      -23.8,
+      -30.0
+     ]
+    }
+   },
+   "decision": "PANTONE 305 C / PANTONE 305 U: the same ink is the closest on both stocks. #00D5FF is partly outside CMYK (round trip dE 4.2 on SWOP v2, 5.5 on GRACoL 2006, 5.4 on FOGRA39): process cyan cannot reach its lightness and chroma together.",
+   "recommended": {
+    "pantone_c": "PANTONE 305 C",
+    "pantone_u": "PANTONE 305 U",
+    "cmyk_profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+    "cmyk": [
+     62,
+     0,
+     3,
+     0
+    ],
+    "cmyk_swop": [
+     60,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "Partner Navy": {
+   "hex": "#121B2A",
+   "lab_d50": [
+    9.49,
+    -0.2,
+    -11.61
+   ],
+   "pantone_c": {
+    "name": "PANTONE 7547 C",
+    "de2000": 3.17,
+    "de2000_by_set": {
+     "pcm": 4.05,
+     "plus": 3.03,
+     "web": 3.17
+    },
+    "lab_d50": [
+     10.59,
+     -3,
+     -9
+    ],
+    "lab_source": "pcm",
+    "hex": "#131E29",
+    "hex_source": "web",
+    "hex_pantone_com_slab": "#121E2A",
+    "hex_from_lab": "#111E29",
+    "lab_in_srgb": true,
+    "guide": "Formula Guide"
+   },
+   "pantone_u": {
+    "name": "PANTONE 5395 U",
+    "de2000": 15.82,
+    "de2000_by_set": {
+     "pcm": 15.62,
+     "plus": 16.02
+    },
+    "lab_d50": [
+     31.76,
+     0,
+     -9
+    ],
+    "lab_source": "pcm",
+    "hex": "#474C58",
+    "hex_source": "slab",
+    "hex_pantone_com_slab": "#474C58",
+    "hex_from_lab": "#454B59",
+    "lab_in_srgb": true,
+    "guide": "Formula Guide"
+   },
+   "pantone_c_candidates": [
+    {
+     "name": "PANTONE 7547 C",
+     "de2000": 3.17,
+     "de2000_by_set": {
+      "pcm": 4.05,
+      "plus": 3.03,
+      "web": 3.17
+     },
+     "lab_d50": [
+      10.59,
+      -3,
+      -9
+     ],
+     "lab_source": "pcm",
+     "hex": "#131E29",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#121E2A",
+     "hex_from_lab": "#111E29",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 532 C",
+     "de2000": 3.41,
+     "de2000_by_set": {
+      "pcm": 3.41,
+      "plus": 3.41,
+      "web": 3.97
+     },
+     "lab_d50": [
+      11.76,
+      1,
+      -8
+     ],
+     "lab_source": "pcm",
+     "hex": "#1D1F2A",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#1C1F2A",
+     "hex_from_lab": "#1C1F2A",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE Black 6 C",
+     "de2000": 4.09,
+     "de2000_by_set": {
+      "pcm": 3.61,
+      "plus": 4.19,
+      "web": 4.09
+     },
+     "lab_d50": [
+      7.84,
+      -2,
+      -8
+     ],
+     "lab_source": "pcm",
+     "hex": "#101820",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#10181E",
+     "hex_from_lab": "#0F1822",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "pantone_u_candidates": [
+    {
+     "name": "PANTONE 5395 U",
+     "de2000": 15.82,
+     "de2000_by_set": {
+      "pcm": 15.62,
+      "plus": 16.02
+     },
+     "lab_d50": [
+      31.76,
+      0,
+      -9
+     ],
+     "lab_source": "pcm",
+     "hex": "#474C58",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#474C58",
+     "hex_from_lab": "#454B59",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 282 U",
+     "de2000": 16.04,
+     "de2000_by_set": {
+      "pcm": 15.79,
+      "plus": 16.29
+     },
+     "lab_d50": [
+      30.98,
+      3,
+      -19
+     ],
+     "lab_source": "pcm",
+     "hex": "#434967",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#434967",
+     "hex_from_lab": "#404867",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 296 U",
+     "de2000": 16.75,
+     "de2000_by_set": {
+      "pcm": 16.59,
+      "plus": 16.9
+     },
+     "lab_d50": [
+      32.94,
+      -2,
+      -12
+     ],
+     "lab_source": "pcm",
+     "hex": "#435060",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#435060",
+     "hex_from_lab": "#424F60",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "same_ink_uncoated": {
+    "name": "PANTONE 7547 U",
+    "de2000": 18.91,
+    "hex": "#4F535D",
+    "lab_d50": [
+     35.29,
+     0,
+     -6
+    ]
+   },
+   "pastels_neons_nearest": {
+    "C": {
+     "name": "PANTONE 814 C",
+     "de2000": 35.25,
+     "de2000_by_set": {
+      "plus": 35.25
+     },
+     "lab_d50": [
+      51.76,
+      31,
+      -52
+     ],
+     "lab_source": "ok2pan",
+     "hex": "#896AD6",
+     "hex_source": "computed from Lab",
+     "hex_from_lab": "#896AD6",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    },
+    "U": {
+     "name": "PANTONE 814 U",
+     "de2000": 31.0,
+     "de2000_by_set": {
+      "plus": 31.0
+     },
+     "lab_d50": [
+      47.06,
+      29,
+      -51
+     ],
+     "lab_source": "ok2pan",
+     "hex": "#7960C7",
+     "hex_source": "computed from Lab",
+     "hex_from_lab": "#7960C7",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    }
+   },
+   "cmyk": {
+    "swop": {
+     "profile": "U.S. Web Coated (SWOP) v2",
+     "raw": [
+      85.1,
+      76.5,
+      54.5,
+      69.0
+     ],
+     "clean": [
+      85,
+      76,
+      55,
+      69
+     ],
+     "tac_clean": 285,
+     "tac_profile_max": 295.3,
+     "rt_de2000_raw": 1.75,
+     "rt_de2000_clean": 1.35,
+     "paper_relative_de2000_clean": 8.64,
+     "lab_d50_clean_rt": [
+      9.4,
+      0.7,
+      -10.9
+     ]
+    },
+    "gracol": {
+     "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+     "raw": [
+      96.1,
+      85.5,
+      55.3,
+      69.4
+     ],
+     "clean": [
+      96,
+      85,
+      55,
+      69
+     ],
+     "tac_clean": 305,
+     "tac_profile_max": 329.0,
+     "rt_de2000_raw": 1.15,
+     "rt_de2000_clean": 0.93,
+     "paper_relative_de2000_clean": 5.5,
+     "lab_d50_clean_rt": [
+      9.7,
+      0.2,
+      -10.6
+     ]
+    },
+    "fogra39": {
+     "profile": "Coated FOGRA39 (ISO 12647-2:2004)",
+     "raw": [
+      94.9,
+      81.6,
+      51.8,
+      70.6
+     ],
+     "clean": [
+      95,
+      82,
+      52,
+      71
+     ],
+     "tac_clean": 300,
+     "tac_profile_max": 327.1,
+     "rt_de2000_raw": 1.2,
+     "rt_de2000_clean": 1.4,
+     "paper_relative_de2000_clean": 5.73,
+     "lab_d50_clean_rt": [
+      9.2,
+      0.7,
+      -10.6
+     ]
+    }
+   },
+   "alt_same_ink_uncoated": {
+    "name": "PANTONE 532 U",
+    "de2000": 22.02,
+    "hex": "#5A5B64"
+   },
+   "cmyk_low_tac": {
+    "swop": {
+     "cmyk": [
+      39,
+      20,
+      0,
+      95
+     ],
+     "tac": 154,
+     "rt_de2000": 0.27,
+     "paper_relative_de2000": 8.47,
+     "lab_d50_paper_relative": [
+      21.3,
+      0.0,
+      -6.9
+     ]
+    },
+    "gracol": {
+     "cmyk": [
+      56,
+      28,
+      0,
+      93
+     ],
+     "tac": 177,
+     "rt_de2000": 0.19,
+     "paper_relative_de2000": 5.09,
+     "lab_d50_paper_relative": [
+      16.4,
+      -0.0,
+      -8.0
+     ]
+    },
+    "fogra39": {
+     "cmyk": [
+      56,
+      34,
+      0,
+      93
+     ],
+     "tac": 183,
+     "rt_de2000": 0.23,
+     "paper_relative_de2000": 5.5,
+     "lab_d50_paper_relative": [
+      16.9,
+      0.0,
+      -7.8
+     ]
+    }
+   },
+   "decision": "PANTONE 7547 C (dE 3.17) and PANTONE 532 C (dE 3.41) tie within the data's precision; 7547 C is taken because 2 of the 3 value sets rank it first, its published sRGB (#131E29) is the nearest to #121B2A, and its uncoated version is darker (PANTONE 7547 U dE 18.9 against PANTONE 532 U dE 22.0). No uncoated ink gets within dE 15 (best PANTONE 5395 U, dE 15.8): uncoated stock cannot print this dark, so the navy reads as a dark slate there.",
+   "recommended": {
+    "pantone_c": "PANTONE 7547 C",
+    "pantone_u": "PANTONE 5395 U",
+    "cmyk_profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+    "cmyk": [
+     56,
+     28,
+     0,
+     93
+    ],
+    "cmyk_swop": [
+     39,
+     20,
+     0,
+     95
+    ],
+    "cmyk_note": "K-heavy build (cmyk_low_tac): matches as well as the ICC build with far less ink; the ICC build stays valid."
+   }
+  },
+  "Pure White": {
+   "hex": "#FFFFFF",
+   "lab_d50": [
+    100.0,
+    0.0,
+    0.0
+   ],
+   "pantone_c": null,
+   "pantone_u": null,
+   "pantone_c_candidates": [
+    {
+     "name": "PANTONE 663 C",
+     "de2000": 6.9,
+     "de2000_by_set": {
+      "pcm": 7.23,
+      "plus": 6.74,
+      "web": 6.9
+     },
+     "lab_d50": [
+      89.8,
+      2,
+      -3
+     ],
+     "lab_source": "pcm",
+     "hex": "#E5E1E6",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#E5E1E7",
+     "hex_from_lab": "#E4E1E8",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 656 C",
+     "de2000": 7.49,
+     "de2000_by_set": {
+      "pcm": 8.26,
+      "plus": 7.49,
+      "web": 7.48
+     },
+     "lab_d50": [
+      90.2,
+      -2,
+      -6
+     ],
+     "lab_source": "pcm",
+     "hex": "#DDE5ED",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#DEE6EC",
+     "hex_from_lab": "#DBE4EE",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 7541 C",
+     "de2000": 7.69,
+     "de2000_by_set": {
+      "pcm": 8.37,
+      "plus": 7.61,
+      "web": 7.69
+     },
+     "lab_d50": [
+      88.63,
+      -3,
+      -3
+     ],
+     "lab_source": "pcm",
+     "hex": "#D9E1E2",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#D8E1E2",
+     "hex_from_lab": "#D6E0E4",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "pantone_u_candidates": [
+    {
+     "name": "PANTONE 649 U",
+     "de2000": 6.94,
+     "de2000_by_set": {
+      "pcm": 7.44,
+      "plus": 6.44
+     },
+     "lab_d50": [
+      90.98,
+      -2,
+      -5
+     ],
+     "lab_source": "pcm",
+     "hex": "#E2E7EF",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#E2E7EF",
+     "hex_from_lab": "#DEE7EF",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 656 U",
+     "de2000": 7.02,
+     "de2000_by_set": {
+      "pcm": 7.45,
+      "plus": 6.59
+     },
+     "lab_d50": [
+      92.16,
+      -2,
+      -6
+     ],
+     "lab_source": "pcm",
+     "hex": "#E2EAF3",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#E2EAF3",
+     "hex_from_lab": "#E0EAF4",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 7541 U",
+     "de2000": 7.26,
+     "de2000_by_set": {
+      "pcm": 7.78,
+      "plus": 6.74
+     },
+     "lab_d50": [
+      89.8,
+      -3,
+      -3
+     ],
+     "lab_source": "pcm",
+     "hex": "#DDE4E6",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#DDE4E6",
+     "hex_from_lab": "#DAE4E7",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "same_ink_uncoated": null,
+   "pastels_neons_nearest": {
+    "C": {
+     "name": "PANTONE 9285 C",
+     "de2000": 5.16,
+     "de2000_by_set": {
+      "plus": 5.16
+     },
+     "lab_d50": [
+      93.33,
+      2,
+      2
+     ],
+     "lab_source": "ok2pan",
+     "hex": "#F1EBE6",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#F1EBE6",
+     "hex_from_lab": "#F1EAE8",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    },
+    "U": {
+     "name": "PANTONE 9285 U",
+     "de2000": 5.67,
+     "de2000_by_set": {
+      "plus": 5.67
+     },
+     "lab_d50": [
+      94.9,
+      3,
+      3
+     ],
+     "lab_source": "ok2pan",
+     "hex": "#FBEEE9",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#FBEEE9",
+     "hex_from_lab": "#F8EEEB",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    }
+   },
+   "cmyk": {
+    "swop": {
+     "profile": "U.S. Web Coated (SWOP) v2",
+     "raw": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clean": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "tac_clean": 0,
+     "tac_profile_max": 295.3,
+     "rt_de2000_raw": 0.0,
+     "rt_de2000_clean": 0.0,
+     "paper_relative_de2000_clean": 0.0,
+     "lab_d50_clean_rt": [
+      100.0,
+      0.0,
+      0.0
+     ]
+    },
+    "gracol": {
+     "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+     "raw": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clean": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "tac_clean": 0,
+     "tac_profile_max": 329.0,
+     "rt_de2000_raw": 0.0,
+     "rt_de2000_clean": 0.0,
+     "paper_relative_de2000_clean": 0.0,
+     "lab_d50_clean_rt": [
+      100.0,
+      0.0,
+      0.0
+     ]
+    },
+    "fogra39": {
+     "profile": "Coated FOGRA39 (ISO 12647-2:2004)",
+     "raw": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "clean": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "tac_clean": 0,
+     "tac_profile_max": 327.1,
+     "rt_de2000_raw": 0.0,
+     "rt_de2000_clean": 0.0,
+     "paper_relative_de2000_clean": 0.0,
+     "lab_d50_clean_rt": [
+      100.0,
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "decision": "No Pantone ink: white is the unprinted substrate. On dark, clear or metallic substrates it becomes an opaque white ink spot (see the notes). The nearest Pantone inks (dE 6.9 and up) are listed for completeness only.",
+   "recommended": {
+    "pantone_c": null,
+    "pantone_u": null,
+    "cmyk_profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+    "cmyk": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "cmyk_swop": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "note": "No ink (substrate white); opaque white ink spot on dark, clear or metallic substrates."
+   }
+  },
+  "Daylight": {
+   "hex": "#F4F7FB",
+   "lab_d50": [
+    97.09,
+    -0.49,
+    -2.29
+   ],
+   "pantone_c": {
+    "name": "PANTONE 656 C",
+    "de2000": 4.81,
+    "de2000_by_set": {
+     "pcm": 5.52,
+     "plus": 4.81,
+     "web": 4.79
+    },
+    "lab_d50": [
+     90.2,
+     -2,
+     -6
+    ],
+    "lab_source": "pcm",
+    "hex": "#DDE5ED",
+    "hex_source": "web",
+    "hex_pantone_com_slab": "#DEE6EC",
+    "hex_from_lab": "#DBE4EE",
+    "lab_in_srgb": true,
+    "guide": "Formula Guide"
+   },
+   "pantone_u": {
+    "name": "PANTONE 656 U",
+    "de2000": 4.24,
+    "de2000_by_set": {
+     "pcm": 4.67,
+     "plus": 3.81
+    },
+    "lab_d50": [
+     92.16,
+     -2,
+     -6
+    ],
+    "lab_source": "pcm",
+    "hex": "#E2EAF3",
+    "hex_source": "slab",
+    "hex_pantone_com_slab": "#E2EAF3",
+    "hex_from_lab": "#E0EAF4",
+    "lab_in_srgb": true,
+    "guide": "Formula Guide"
+   },
+   "pantone_c_candidates": [
+    {
+     "name": "PANTONE 656 C",
+     "de2000": 4.81,
+     "de2000_by_set": {
+      "pcm": 5.52,
+      "plus": 4.81,
+      "web": 4.79
+     },
+     "lab_d50": [
+      90.2,
+      -2,
+      -6
+     ],
+     "lab_source": "pcm",
+     "hex": "#DDE5ED",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#DEE6EC",
+     "hex_from_lab": "#DBE4EE",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 649 C",
+     "de2000": 5.25,
+     "de2000_by_set": {
+      "pcm": 5.54,
+      "plus": 5.25,
+      "web": 5.08
+     },
+     "lab_d50": [
+      89.41,
+      -2,
+      -5
+     ],
+     "lab_source": "pcm",
+     "hex": "#DBE2E9",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#DAE2E9",
+     "hex_from_lab": "#D9E2EA",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 663 C",
+     "de2000": 5.72,
+     "de2000_by_set": {
+      "pcm": 5.72,
+      "plus": 5.54,
+      "web": 5.73
+     },
+     "lab_d50": [
+      89.8,
+      2,
+      -3
+     ],
+     "lab_source": "pcm",
+     "hex": "#E5E1E6",
+     "hex_source": "web",
+     "hex_pantone_com_slab": "#E5E1E7",
+     "hex_from_lab": "#E4E1E8",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "pantone_u_candidates": [
+    {
+     "name": "PANTONE 656 U",
+     "de2000": 4.24,
+     "de2000_by_set": {
+      "pcm": 4.67,
+      "plus": 3.81
+     },
+     "lab_d50": [
+      92.16,
+      -2,
+      -6
+     ],
+     "lab_source": "pcm",
+     "hex": "#E2EAF3",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#E2EAF3",
+     "hex_from_lab": "#E0EAF4",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 649 U",
+     "de2000": 4.28,
+     "de2000_by_set": {
+      "pcm": 4.75,
+      "plus": 3.81
+     },
+     "lab_d50": [
+      90.98,
+      -2,
+      -5
+     ],
+     "lab_source": "pcm",
+     "hex": "#E2E7EF",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#E2E7EF",
+     "hex_from_lab": "#DEE7EF",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    },
+    {
+     "name": "PANTONE 7541 U",
+     "de2000": 5.11,
+     "de2000_by_set": {
+      "pcm": 5.55,
+      "plus": 4.67
+     },
+     "lab_d50": [
+      89.8,
+      -3,
+      -3
+     ],
+     "lab_source": "pcm",
+     "hex": "#DDE4E6",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#DDE4E6",
+     "hex_from_lab": "#DAE4E7",
+     "lab_in_srgb": true,
+     "guide": "Formula Guide"
+    }
+   ],
+   "same_ink_uncoated": {
+    "name": "PANTONE 656 U",
+    "de2000": 4.24,
+    "hex": "#E2EAF3",
+    "lab_d50": [
+     92.16,
+     -2,
+     -6
+    ]
+   },
+   "pastels_neons_nearest": {
+    "C": {
+     "name": "PANTONE 9345 C",
+     "de2000": 4.74,
+     "de2000_by_set": {
+      "plus": 4.74
+     },
+     "lab_d50": [
+      92.55,
+      2,
+      -1
+     ],
+     "lab_source": "ok2pan",
+     "hex": "#EEEAEB",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#EEEAEB",
+     "hex_from_lab": "#EDE8EC",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    },
+    "U": {
+     "name": "PANTONE 9042 U",
+     "de2000": 5.01,
+     "de2000_by_set": {
+      "plus": 5.01
+     },
+     "lab_d50": [
+      92.16,
+      -3,
+      0
+     ],
+     "lab_source": "ok2pan",
+     "hex": "#E5EAE6",
+     "hex_source": "slab",
+     "hex_pantone_com_slab": "#E5EAE6",
+     "hex_from_lab": "#E2EAE8",
+     "lab_in_srgb": true,
+     "guide": "Pastels & Neons"
+    }
+   },
+   "cmyk": {
+    "swop": {
+     "profile": "U.S. Web Coated (SWOP) v2",
+     "raw": [
+      2.7,
+      1.2,
+      0.8,
+      0.0
+     ],
+     "clean": [
+      3,
+      1,
+      0,
+      0
+     ],
+     "tac_clean": 4,
+     "tac_profile_max": 295.3,
+     "rt_de2000_raw": 0.98,
+     "rt_de2000_clean": 0.55,
+     "paper_relative_de2000_clean": 0.51,
+     "lab_d50_clean_rt": [
+      97.8,
+      -0.8,
+      -2.3
+     ]
+    },
+    "gracol": {
+     "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+     "raw": [
+      3.9,
+      2.0,
+      1.6,
+      0.0
+     ],
+     "clean": [
+      4,
+      2,
+      0,
+      0
+     ],
+     "tac_clean": 6,
+     "tac_profile_max": 329.0,
+     "rt_de2000_raw": 1.11,
+     "rt_de2000_clean": 0.76,
+     "paper_relative_de2000_clean": 0.69,
+     "lab_d50_clean_rt": [
+      97.2,
+      -0.0,
+      -2.6
+     ]
+    },
+    "fogra39": {
+     "profile": "Coated FOGRA39 (ISO 12647-2:2004)",
+     "raw": [
+      4.7,
+      2.4,
+      2.0,
+      0.0
+     ],
+     "clean": [
+      5,
+      2,
+      0,
+      0
+     ],
+     "tac_clean": 7,
+     "tac_profile_max": 327.1,
+     "rt_de2000_raw": 0.95,
+     "rt_de2000_clean": 0.59,
+     "paper_relative_de2000_clean": 0.59,
+     "lab_d50_clean_rt": [
+      97.3,
+      -0.4,
+      -2.9
+     ]
+    }
+   },
+   "tint_of_pantone_c": {
+    "screen_pct": 32,
+    "lab_d50": [
+     97.1,
+     -0.6,
+     -1.7
+    ],
+    "de2000": 0.54
+   },
+   "decision": "PANTONE 656 C / PANTONE 656 U are the nearest inks (dE 4.8 / 4.2), but a full-strength flood is too dark (L* 90 against 97). In print, Daylight is the paper itself (coated stock measures about L* 95). Where a visible panel is needed on white stock, use the CMYK tint or a light screen of PANTONE 656 C, confirmed by a drawdown.",
+   "recommended": {
+    "pantone_c": "PANTONE 656 C",
+    "pantone_u": "PANTONE 656 U",
+    "cmyk_profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+    "cmyk": [
+     4,
+     2,
+     0,
+     0
+    ],
+    "cmyk_swop": [
+     3,
+     1,
+     0,
+     0
+    ],
+    "note": "Unprinted paper in print; for a visible panel the CMYK tint or a ~32 % screen of PANTONE 656 C."
+   }
+  }
+ },
+ "illustrator_swatches": [
+  {
+   "name": "PANTONE 2726 C",
+   "type": "spot",
+   "mode": "Lab",
+   "lab_d50": [
+    41.96,
+    18,
+    -60
+   ],
+   "hex_preview": "#485CC7",
+   "brand_color": "Alliance Blue"
+  },
+  {
+   "name": "PANTONE 2387 U",
+   "type": "spot",
+   "mode": "Lab",
+   "lab_d50": [
+    44.71,
+    9,
+    -50
+   ],
+   "hex_preview": "#4D68BF",
+   "brand_color": "Alliance Blue"
+  },
+  {
+   "name": "AAP Alliance Blue",
+   "type": "global process",
+   "mode": "CMYK",
+   "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+   "cmyk": [
+    84,
+    64,
+    0,
+    0
+   ],
+   "cmyk_swop": [
+    81,
+    67,
+    0,
+    0
+   ],
+   "brand_color": "Alliance Blue"
+  },
+  {
+   "name": "PANTONE 305 C",
+   "type": "spot",
+   "mode": "Lab",
+   "lab_d50": [
+    75.29,
+    -28,
+    -27
+   ],
+   "hex_preview": "#59CBE8",
+   "brand_color": "Ribbon Cyan"
+  },
+  {
+   "name": "PANTONE 305 U",
+   "type": "spot",
+   "mode": "Lab",
+   "lab_d50": [
+    74.9,
+    -28,
+    -29
+   ],
+   "hex_preview": "#52CAEB",
+   "brand_color": "Ribbon Cyan"
+  },
+  {
+   "name": "AAP Ribbon Cyan",
+   "type": "global process",
+   "mode": "CMYK",
+   "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+   "cmyk": [
+    62,
+    0,
+    3,
+    0
+   ],
+   "cmyk_swop": [
+    60,
+    0,
+    0,
+    0
+   ],
+   "brand_color": "Ribbon Cyan"
+  },
+  {
+   "name": "PANTONE 7547 C",
+   "type": "spot",
+   "mode": "Lab",
+   "lab_d50": [
+    10.59,
+    -3,
+    -9
+   ],
+   "hex_preview": "#131E29",
+   "brand_color": "Partner Navy"
+  },
+  {
+   "name": "PANTONE 5395 U",
+   "type": "spot",
+   "mode": "Lab",
+   "lab_d50": [
+    31.76,
+    0,
+    -9
+   ],
+   "hex_preview": "#474C58",
+   "brand_color": "Partner Navy"
+  },
+  {
+   "name": "AAP Partner Navy",
+   "type": "global process",
+   "mode": "CMYK",
+   "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+   "cmyk": [
+    56,
+    28,
+    0,
+    93
+   ],
+   "cmyk_swop": [
+    39,
+    20,
+    0,
+    95
+   ],
+   "brand_color": "Partner Navy"
+  },
+  {
+   "name": "AAP Pure White",
+   "type": "global process",
+   "mode": "CMYK",
+   "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+   "cmyk": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "cmyk_swop": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "brand_color": "Pure White"
+  },
+  {
+   "name": "PANTONE 656 C",
+   "type": "spot",
+   "mode": "Lab",
+   "lab_d50": [
+    90.2,
+    -2,
+    -6
+   ],
+   "hex_preview": "#DDE5ED",
+   "brand_color": "Daylight"
+  },
+  {
+   "name": "PANTONE 656 U",
+   "type": "spot",
+   "mode": "Lab",
+   "lab_d50": [
+    92.16,
+    -2,
+    -6
+   ],
+   "hex_preview": "#E2EAF3",
+   "brand_color": "Daylight"
+  },
+  {
+   "name": "AAP Daylight",
+   "type": "global process",
+   "mode": "CMYK",
+   "profile": "Coated GRACoL 2006 (ISO 12647-2:2004)",
+   "cmyk": [
+    4,
+    2,
+    0,
+    0
+   ],
+   "cmyk_swop": [
+    3,
+    1,
+    0,
+    0
+   ],
+   "brand_color": "Daylight"
+  },
+  {
+   "name": "AAP Mono Black",
+   "type": "global process",
+   "mode": "CMYK",
+   "cmyk": [
+    0,
+    0,
+    0,
+    100
+   ],
+   "note": "Monochrome Black artboards: single K plate, overprint"
+  }
+ ],
+ "sources": {
+  "lab": "CIELAB D50, 2 deg observer (ICC PCS), as stored in Adobe .acb books: 8-bit, L step 0.39, a/b step 1.",
+  "hex": "sRGB as published by Pantone for on-screen use; 'web' = pantonecolors.net mirror of Pantone's Solid Coated sRGB, 'slab' = dominant pixel of the pantone.com colour-finder slab (lossy WebP, +-1-2 levels).",
+  "sets": {
+   "pcm": {
+    "desc": "Pantone Color Manager export, Nov 2021: 'PANTONE Solid Coated-V4' / 'Solid Uncoated-V4' (.acb, Lab D50; identical to the V3 export of Aug 2019 for all 1,846 shared colours)",
+    "url": "https://github.com/AZ-597/PANTONE-ColorLibraries",
+    "files": {
+     "C": "https://raw.githubusercontent.com/AZ-597/PANTONE-ColorLibraries/main/PANTONE%20Solid%20Coated-V4.acb",
+     "U": "https://raw.githubusercontent.com/AZ-597/PANTONE-ColorLibraries/main/PANTONE%20Solid%20Uncoated-V4.acb"
+    }
+   },
+   "plus": {
+    "desc": "PANTONE+ Solid Coated / Uncoated colour books as shipped in Adobe CC until 2023 (.acb, Lab D50, header 'Copyright Pantone LLC, 2010')",
+    "url": "https://github.com/Aurorion/Pantone-ACB",
+    "files": {
+     "C": "https://raw.githubusercontent.com/Aurorion/Pantone-ACB/main/PANTONE%2B%20Solid%20Coated.acb",
+     "U": "https://raw.githubusercontent.com/Aurorion/Pantone-ACB/main/PANTONE%2B%20Solid%20Uncoated.acb"
+    }
+   },
+   "ok2pan": {
+    "desc": "ok2pan compilation, Oct 2026: PANTONE Solid Coated / Uncoated (2,593 colours, Lab D50; per its README 2,140 from Pantone Lab data, the newer colours derived from Pantone Connect sRGB)",
+    "url": "https://github.com/blas0/PANTONE-C-U-ACB-Books",
+    "files": {
+     "C": "https://raw.githubusercontent.com/blas0/PANTONE-C-U-ACB-Books/main/PANTONE%20Solid%20Coated.acb",
+     "U": "https://raw.githubusercontent.com/blas0/PANTONE-C-U-ACB-Books/main/PANTONE%20Solid%20Uncoated.acb"
+    }
+   },
+   "ok2pan_pn": {
+    "desc": "ok2pan compilation: PANTONE Pastels & Neons Coated / Uncoated (210 colours, Lab D50)",
+    "url": "https://github.com/blas0/PANTONE-C-U-ACB-Books",
+    "files": {
+     "C": "https://raw.githubusercontent.com/blas0/PANTONE-C-U-ACB-Books/main/PANTONE%20Pastels%20%26%20Neons%20Coated.acb",
+     "U": "https://raw.githubusercontent.com/blas0/PANTONE-C-U-ACB-Books/main/PANTONE%20Pastels%20%26%20Neons%20Uncoated.acb"
+    }
+   }
+  },
+  "web": {
+   "desc": "Pantone's published sRGB hex for 2,369 Solid Coated colours as mirrored by pantonecolors.net (embedded in its home page; the site calls them screen approximations, and they match the pantone.com slabs within 2 levels per channel for all 22 colours sampled)",
+   "url": "https://pantonecolors.net/"
+  },
+  "slab": {
+   "desc": "pantone.com colour finder slab image, e.g. https://www.pantone.com/color-finder/2726-c",
+   "url": "https://pantone-web-assets-dev.s3.us-east-2.amazonaws.com/magento/media/color-finder/img/slabs/pantone-color-slab-%s.webp"
+  },
+  "not_available": "Pantone Connect (current V5 Lab with decimals) needs a paid account and was not used.",
+  "agreement_de2000": {
+   "C: pcm vs plus": {
+    "n": 1314,
+    "mean": 0.57,
+    "p95": 1.2
+   },
+   "C: pcm vs web": {
+    "n": 2140,
+    "mean": 1.34,
+    "p95": 5.46
+   },
+   "C: pcm vs slab": {
+    "n": 22,
+    "mean": 1.15,
+    "p95": 1.74
+   },
+   "U: pcm vs plus": {
+    "n": 1314,
+    "mean": 0.62,
+    "p95": 1.31
+   },
+   "U: pcm vs slab": {
+    "n": 33,
+    "mean": 1.15,
+    "p95": 1.76
+   },
+   "C: pcm vs web, inks inside sRGB": {
+    "n": 1753,
+    "mean": 0.77,
+    "p95": 1.48
+   }
+  },
+  "counts": {
+   "C": {
+    "Formula Guide": 2593,
+    "Pastels & Neons": 210,
+    "PANTONE+ 2010 only": 13
+   },
+   "U": {
+    "Formula Guide": 2593,
+    "Pastels & Neons": 210,
+    "PANTONE+ 2010 only": 13
+   }
+  }
+ }
+}

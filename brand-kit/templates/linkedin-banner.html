@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1584">
+<title>LinkedIn company banner</title>
+<!--
+  Template: LinkedIn company page cover, 1584 x 396 px. Screen only.
+  The page logo overlaps the bottom-left of the cover, and on mobile it covers about the left 400 px, so that strip
+  carries only the ribbon. Key content starts at x 480 and stays clear of the outer 64 px; the page also crops the
+  cover toward its centre on small screens, so nothing important sits near the top or bottom edge.
+  Copy: "Put AI to work." (Brand DNA section 7) and "We build it, run it, and help you grow."
+  Partner Navy ground: Ribbon Cyan is the accent word, the ribbon rises out of the navy into its cyan light.
+-->
+<link rel="stylesheet" href="../../design-system/tokens/tokens.css">
+<style>
+  html, body { margin: 0; background: var(--aap-color-neutral-200); }
+  .banner {
+    position: relative; width: 1584px; height: 396px; overflow: hidden;
+    background: var(--aap-color-brand-partner-navy); color: var(--aap-color-text-inverse);
+    font-family: var(--aap-font-family-sans); -webkit-font-smoothing: antialiased;
+  }
+  .banner__ribbon { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .banner__copy { position: absolute; left: 480px; top: 92px; width: 720px; }
+  h1 {
+    margin: 0;
+    font-weight: var(--aap-typography-display-xl-weight); font-stretch: var(--aap-typography-display-xl-stretch);
+    font-size: 92px; line-height: 0.98; letter-spacing: var(--aap-typography-display-xl-tracking);
+    text-wrap: balance;
+  }
+  .accent { color: var(--aap-color-text-inverse-accent); }
+  .banner__line {
+    margin: 22px 0 0;
+    font-size: 30px; line-height: 1.3; font-weight: 450; letter-spacing: -0.006em;
+    color: var(--aap-color-text-inverse-secondary);
+  }
+  .banner__url {
+    margin: 26px 0 0;
+    font-family: var(--aap-font-family-mono); font-size: 22px; line-height: 1; font-weight: 450;
+    color: var(--aap-color-text-inverse-tertiary);
+  }
+</style>
+</head>
+<body>
+  <div class="banner" id="artefact">
+    <svg class="banner__ribbon" viewBox="0 0 1584 396" aria-hidden="true">
+      <defs>
+        <linearGradient id="li-daybreak" gradientUnits="userSpaceOnUse" x1="0" y1="380" x2="1584" y2="130">
+          <stop offset="0" style="stop-color: var(--aap-color-brand-partner-navy)"/>
+          <stop offset="0.54" style="stop-color: var(--aap-color-brand-alliance-blue)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <linearGradient id="li-light" gradientUnits="userSpaceOnUse" x1="0" y1="380" x2="1584" y2="130">
+          <stop offset="0" style="stop-color: var(--aap-color-shading-alliance-38)"/>
+          <stop offset="0.5" style="stop-color: var(--aap-color-shading-ribbon-57)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <path id="li-path" d="M-60 372 C300 380 680 372 1000 332 S1390 176 1660 112"/>
+      </defs>
+      <use href="#li-path" fill="none" stroke="url(#li-daybreak)" stroke-width="46"/>
+      <use href="#li-path" fill="none" stroke="url(#li-light)" stroke-width="14" transform="translate(0 -16)"/>
+    </svg>
+    <div class="banner__copy">
+      <h1>Put AI to <span class="accent">work.</span></h1>
+      <p class="banner__line">We build it, run it, and help you grow.</p>
+      <p class="banner__url">allianceaipartners.example</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+{
+ "component": "ap-mono",
+ "viewBox": [
+  0,
+  0,
+  1024,
+  1024
+ ],
+ "fill": "#000000",
+ "fill_rule": "evenodd",
+ "construction": "hero silhouette (one shared outline of all faces) minus two tapered interlace cuts (VectorCraft Pathfinder Minus Front)",
+ "bbox": [
+  171.23,
+  313.38,
+  853.53,
+  710.64
+ ],
+ "baseline_y": 710.64,
+ "apex_top_y": 313.38,
+ "mark_height": 397.26,
+ "subpaths": 3,
+ "anchors": 74,
+ "gap": {
+  "width_px": 6.102,
+  "width_rel_mark_height": 0.01536,
+  "measured_in_12": {
+   "width_px": 5.7,
+   "mark_height_px": 371.11,
+   "profile": "constant from the open end for 40 % (left-leg cut) / 60 % (right-leg cut) of its length, then a straight taper to a point"
+  },
+  "cuts": {
+   "a_left_leg": {
+    "width_px": 6.102,
+    "length_px": 94.1,
+    "edge_available_px": 123.0,
+    "start": [
+     227.33,
+     596.58
+    ],
+    "end": [
+     309.92,
+     555.13
+    ],
+    "along": "ribbon top edge over the A left leg, open at the leg outer edge"
+   },
+   "b_right_leg_p_stem": {
+    "width_px": 6.102,
+    "length_px": 204.4,
+    "edge_available_px": 204.4,
+    "start": [
+     507.88,
+     611.56
+    ],
+    "end": [
+     621.11,
+     450.64
+    ],
+    "along": "ribbon outer edge over the A right leg and the P stem/bowl, open into the lower counter, closing at the P counter"
+   }
+  }
+ },
+ "cut_area_px2": 1378.0,
+ "vs_12": {
+  "similarity": {
+   "scale": 0.9105,
+   "tx": 50.33,
+   "ty": 24.291,
+   "note": "p12 = scale * p_master + (tx, ty)"
+  },
+  "iou": 0.9277,
+  "note": "12 is a separate flat drawing of the design (different proportions and P), so this is reported, not forced"
+ }
+}

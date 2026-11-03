@@ -1,0 +1,35 @@
+/* Partner Navy scrims for text over imagery. Load after ../tokens/tokens.css. Text on a scrim is checked against navy,
+   never against the photograph, so use the inverse text tokens (Daylight 16:1, #BFCBE0 10.6:1). */
+
+.aap-scrim-start,
+.aap-scrim-bottom {
+  position: relative;
+  isolation: isolate;
+}
+
+.aap-scrim-start::after,
+.aap-scrim-bottom::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.aap-scrim-start::after {
+  background: linear-gradient(to right, rgba(18, 27, 42, 0.86) 0%, rgba(18, 27, 42, 0.55) 32%, rgba(18, 27, 42, 0) 60%);
+}
+
+.aap-scrim-start:dir(rtl)::after {
+  background: linear-gradient(to left, rgba(18, 27, 42, 0.86) 0%, rgba(18, 27, 42, 0.55) 32%, rgba(18, 27, 42, 0) 60%);
+}
+
+.aap-scrim-bottom::after {
+  background: linear-gradient(to top, rgba(18, 27, 42, 0.88) 0%, rgba(18, 27, 42, 0.5) 30%, rgba(18, 27, 42, 0) 55%);
+}
+
+.aap-scrim-start > :not(img, video),
+.aap-scrim-bottom > :not(img, video) {
+  position: relative;
+  z-index: 1;
+}

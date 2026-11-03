@@ -1,0 +1,212 @@
+{
+ "ap_mark": {
+  "bbox_tight": [
+   436,
+   144,
+   943,
+   457
+  ],
+  "bbox_note": "[x0, y0, x1, y1] pixel edges of the AP mark pixels (dE>12 from white), including the parts of the A that cross the frame bands",
+  "width": 507,
+  "height": 313,
+  "center": [
+   689.5,
+   300.5
+  ],
+  "keyline_px": 10.0,
+  "keyline_samples": [
+   8.5,
+   8.5,
+   9.3,
+   9.3,
+   9.3,
+   9.3,
+   11.0,
+   11.0,
+   11.0,
+   11.0,
+   11.0,
+   11.0,
+   8,
+   10,
+   10,
+   9,
+   9,
+   9,
+   10,
+   11,
+   11,
+   11,
+   11,
+   11,
+   11
+  ],
+  "keyline_note": "the original cuts a white keyline of about this width around the AP where it overlaps the frame (left foot of the A over the left side bands, top of the P bowl under the top-right inner band); the frame SVG runs its bands continuously underneath, so the AP should carry a white outline stroke (or offset path) of this width to reproduce it"
+ },
+ "banner_text": {
+  "string": "ALLIANCE AI PARTNERS",
+  "bbox_tight": [
+   301,
+   508,
+   1075,
+   554
+  ],
+  "width": 774,
+  "height": 46,
+  "center_x": 688.0,
+  "n_letters_found": 18,
+  "word_colors": {
+   "ALLIANCE ": {
+    "hex": "#192744",
+    "nearest_palette": "Deep Navy",
+    "nearest_hex": "#121B2A",
+    "dE": 6.83,
+    "left_hex": "#192643",
+    "right_hex": "#182642",
+    "top_hex": "#182743",
+    "bottom_hex": "#182743",
+    "x_range": [
+     301,
+     624
+    ],
+    "dE_left_right": 0.59
+   },
+   "AI": {
+    "hex": "#2D5EC8",
+    "nearest_palette": "Vibrant Blue",
+    "nearest_hex": "#1B56FF",
+    "dE": 7.23,
+    "left_hex": "#285AC5",
+    "right_hex": "#3061CC",
+    "top_hex": "#2C5EC6",
+    "bottom_hex": "#2F60C0",
+    "x_range": [
+     644,
+     708
+    ],
+    "dE_left_right": 2.49
+   },
+   " PARTNERS": {
+    "hex": "#192743",
+    "nearest_palette": "Deep Navy",
+    "nearest_hex": "#121B2A",
+    "dE": 6.51,
+    "left_hex": "#192643",
+    "right_hex": "#192642",
+    "top_hex": "#182541",
+    "bottom_hex": "#1A2844",
+    "x_range": [
+     734,
+     1075
+    ],
+    "dE_left_right": 0.38
+   }
+  },
+  "cap_top_y": 509.52,
+  "baseline_y": 552.64,
+  "cap_height": 43.12,
+  "stem_tops": [
+   509.48,
+   509.53,
+   509.43,
+   509.59,
+   509.52
+  ],
+  "stem_bottoms": [
+   552.63,
+   552.59,
+   552.66,
+   552.74
+  ],
+  "montserrat_fit": {
+   "style": "Montserrat ExtraBold",
+   "size_px": 61.6,
+   "tracking": -9.6,
+   "x_origin": 301.86,
+   "baseline_y": 552.34,
+   "iou": 0.9047,
+   "by_weight": {
+    "SemiBold": {
+     "size_px": 61.72,
+     "tracking": 7.4,
+     "x_origin": 301.71,
+     "baseline_y": 552.64,
+     "iou": 0.7534
+    },
+    "Bold": {
+     "size_px": 61.6,
+     "tracking": 0.2,
+     "x_origin": 301.55,
+     "baseline_y": 552.79,
+     "iou": 0.894
+    },
+    "ExtraBold": {
+     "size_px": 61.6,
+     "tracking": -9.6,
+     "x_origin": 301.86,
+     "baseline_y": 552.34,
+     "iou": 0.9047
+    }
+   },
+   "stem_to_cap_ratio": {
+    "montserrat": {
+     "Bold": 0.231,
+     "ExtraBold": 0.283
+    },
+    "measured_I": 0.246
+   },
+   "note": "kit.text_paths(string, style, size, tracking, x_origin, baseline) reproduces the banner text in 1376x768 space (tracking in Illustrator units, 1/1000 em); the AI-drawn letters are a near but not exact Montserrat, so IoU < 1 is expected"
+  },
+  "bbox_note": "[x0, y0, x1, y1] pixel edges of the text pixels (dE>12 from white)"
+ },
+ "banner": {
+  "upper_bar_top_inside_y": 471.044,
+  "upper_bar_bottom_y": 490.904,
+  "lower_bar_top_y": 570.263,
+  "lower_bar_bottom_inside_y": 589.876,
+  "white_band_between_bars": [
+   490.904,
+   570.263
+  ]
+ },
+ "symmetry_axis_x": 688.1,
+ "coordinate_space": "original 17 pixel space, 1376x768, y down (SVG user units = pixels)",
+ "metrics": {
+  "frame": {
+   "iou": 0.9856,
+   "de_mean": 2.72,
+   "de_p95": 8.7,
+   "n_px": 116819
+  },
+  "by_region": [
+   {
+    "region": "all",
+    "iou": 0.9856,
+    "de_mean": 2.72,
+    "de_p95": 8.7,
+    "n_px": 116819
+   },
+   {
+    "region": "upper frame (y<464)",
+    "iou": 0.9868,
+    "de_mean": 2.49,
+    "de_p95": 7.85,
+    "n_px": 62568
+   },
+   {
+    "region": "banner bars (464..593)",
+    "iou": 0.9769,
+    "de_mean": 3.5,
+    "de_p95": 11.49,
+    "n_px": 29729
+   },
+   {
+    "region": "lower point (y>=593)",
+    "iou": 0.9921,
+    "de_mean": 2.36,
+    "de_p95": 7.41,
+    "n_px": 24522
+   }
+  ]
+ }
+}

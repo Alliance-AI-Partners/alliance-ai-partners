@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-ai-strategy" width="48" height="48" viewBox="0 0 48 48">
+<rect id="aap-ref" x="0" y="0" width="48" height="48" fill="none"/>
+  <path id="icon-ai-strategy-ring-outer" d="M34.425 21.521 C37.033 27.913 34.774 35.257 29.024 39.077 C23.274 42.898 15.628 42.134 10.747 37.253 C5.866 32.372 5.102 24.726 8.923 18.976 C12.743 13.226 20.087 10.967 26.479 13.575" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-ai-strategy-ring-inner" d="M28 27.073 C27.959 30.92 24.822 34.013 20.976 34 C17.129 33.987 14.013 30.871 14 27.024 C13.987 23.178 17.08 20.041 20.927 20" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-ai-strategy-arrow" d="M21 27 L31.5 16.5 M31.5 11 L31.5 16.5 L37 16.5 L42.5 11 L37 11 L37 5.5 Z" stroke="#00D5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

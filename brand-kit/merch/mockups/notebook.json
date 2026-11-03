@@ -1,0 +1,14 @@
+{
+ "name": "notebook",
+ "kind": "mockup",
+ "description": "notebook mockup",
+ "prompt": "Product photograph of an A5 hardcover notebook bound in deep navy (#121B2A) linen, lying at a slight angle on a pale daylight-grey desk. Exactly the logo in the reference image is blind-debossed (pressed in, no ink) in the centre of the cover, and a luminous cyan (#00D5FF) satin ribbon bookmark hangs out of the bottom. Soft light from the upper left. No other text or logos.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "references": [
+  "design-system/logos/marks/alliance-ai-partners-logomark-mono-black.png"
+ ],
+ "generated": "2026-11-02",
+ "tool": "brand-kit/tools/generate-imagery.py"
+}

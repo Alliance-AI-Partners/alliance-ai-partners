@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-data-analytics-mono" width="48" height="48" viewBox="0 0 48 48">
+<rect id="aap-ref" x="0" y="0" width="48" height="48" fill="none"/>
+  <path id="icon-data-analytics-mono-pie" d="M22 26 L37 26 C37 34.284 30.284 41 22 41 C13.716 41 7 34.284 7 26 C7 17.716 13.716 11 22 11 Z" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-data-analytics-mono-slice" d="M26.5 21.5 L26.5 8 C33.956 8 40 14.044 40 21.5 Z" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

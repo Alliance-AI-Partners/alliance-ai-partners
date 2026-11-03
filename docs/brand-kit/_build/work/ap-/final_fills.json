@@ -1,0 +1,902 @@
+{
+ "fills": {
+  "hero": {
+   "p-bowl-lower": {
+    "type": "linear",
+    "x1": 772.606,
+    "y1": 406.332,
+    "x2": 740.295,
+    "y2": 505.775,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0A1E3E",
+      "swatch": null,
+      "tone": "AP Navy 4"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": null,
+      "tone": "AP Slate 2"
+     }
+    ]
+   },
+   "p-bowl-under": {
+    "type": "linear",
+    "x1": 582.505,
+    "y1": 557.055,
+    "x2": 756.541,
+    "y2": 572.281,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#081834",
+      "swatch": null,
+      "tone": "AP Navy 5"
+     },
+     {
+      "offset": 0.1538,
+      "hex": "#1C2F4F",
+      "swatch": null,
+      "tone": "AP Navy 2"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": null,
+      "tone": "AP Slate 2"
+     }
+    ]
+   },
+   "a-right-outer": {
+    "type": "linear",
+    "x1": 493.389,
+    "y1": 320.677,
+    "x2": 572.524,
+    "y2": 719.707,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#3D5579",
+      "swatch": null,
+      "tone": "AP Slate 2"
+     },
+     {
+      "offset": 0.3846,
+      "hex": "#33496C",
+      "swatch": null,
+      "tone": "AP Slate 3"
+     },
+     {
+      "offset": 0.6923,
+      "hex": "#183B7D",
+      "swatch": null,
+      "tone": "AP Blue 11"
+     },
+     {
+      "offset": 0.7692,
+      "hex": "#2660C5",
+      "swatch": null,
+      "tone": "AP Blue 5"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#296BE1",
+      "swatch": null,
+      "tone": "AP Blue 3"
+     }
+    ]
+   },
+   "a-right-inner": {
+    "type": "linear",
+    "x1": 420.108,
+    "y1": 379.464,
+    "x2": 577.429,
+    "y2": 713.527,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0A1E3E",
+      "swatch": null,
+      "tone": "AP Navy 4"
+     },
+     {
+      "offset": 0.3077,
+      "hex": "#213B66",
+      "swatch": null,
+      "tone": "AP Slate 5"
+     },
+     {
+      "offset": 0.6923,
+      "hex": "#081834",
+      "swatch": null,
+      "tone": "AP Navy 5"
+     },
+     {
+      "offset": 0.7692,
+      "hex": "#2D4366",
+      "swatch": null,
+      "tone": "AP Slate 4"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": null,
+      "tone": "AP Slate 2"
+     }
+    ]
+   },
+   "a-left-bevel": {
+    "type": "linear",
+    "x1": 367.008,
+    "y1": 309.653,
+    "x2": 316.131,
+    "y2": 717.192,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#2660C5",
+      "swatch": null,
+      "tone": "AP Blue 5"
+     },
+     {
+      "offset": 0.4615,
+      "hex": "#1D3A76",
+      "swatch": null,
+      "tone": "AP Blue 12"
+     },
+     {
+      "offset": 0.5385,
+      "hex": "#132C52",
+      "swatch": null,
+      "tone": "AP Navy 3"
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#1C2F4F",
+      "swatch": null,
+      "tone": "AP Navy 2"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#42597D",
+      "swatch": null,
+      "tone": "AP Slate 1"
+     }
+    ]
+   },
+   "a-left-outer": {
+    "type": "linear",
+    "x1": 392.346,
+    "y1": 320.111,
+    "x2": 178.869,
+    "y2": 703.404,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#296BE1",
+      "swatch": null,
+      "tone": "AP Blue 3"
+     },
+     {
+      "offset": 0.5385,
+      "hex": "#27489E",
+      "swatch": null,
+      "tone": "AP Blue 9"
+     },
+     {
+      "offset": 0.6154,
+      "hex": "#1D3A76",
+      "swatch": null,
+      "tone": "AP Blue 12"
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#1D3A76",
+      "swatch": null,
+      "tone": "AP Blue 12"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#27489E",
+      "swatch": null,
+      "tone": "AP Blue 9"
+     }
+    ]
+   },
+   "p-bowl-top": {
+    "type": "linear",
+    "x1": 765.654,
+    "y1": 349.022,
+    "x2": 601.808,
+    "y2": 411.917,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0AE4F7",
+      "swatch": null,
+      "tone": "AP Cyan"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#2654A7",
+      "swatch": null,
+      "tone": "AP Blue 8"
+     }
+    ]
+   },
+   "p-bowl-fold": {
+    "type": "linear",
+    "x1": 727.89,
+    "y1": 367.447,
+    "x2": 630.367,
+    "y2": 388.176,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1E7CC4",
+      "swatch": null,
+      "tone": "AP Azure 2"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#27489E",
+      "swatch": null,
+      "tone": "AP Blue 9"
+     }
+    ]
+   },
+   "ribbon-front-stem": {
+    "type": "linear",
+    "x1": 570.521,
+    "y1": 371.584,
+    "x2": 545.263,
+    "y2": 480.985,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#2654A7",
+      "swatch": null,
+      "tone": "AP Blue 8"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1984C5",
+      "swatch": null,
+      "tone": "AP Azure 1"
+     }
+    ]
+   },
+   "ribbon-front": {
+    "type": "linear",
+    "x1": 488.729,
+    "y1": 459.387,
+    "x2": 375.705,
+    "y2": 598.96,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1984C5",
+      "swatch": null,
+      "tone": "AP Azure 1"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#0AE4F7",
+      "swatch": null,
+      "tone": "AP Cyan"
+     }
+    ]
+   },
+   "ribbon-back": {
+    "type": "linear",
+    "x1": 285.975,
+    "y1": 507.838,
+    "x2": 525.206,
+    "y2": 571.94,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#2654A7",
+      "swatch": null,
+      "tone": "AP Blue 8"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#0AE4F7",
+      "swatch": null,
+      "tone": "AP Cyan"
+     }
+    ]
+   }
+  },
+  "dark": {
+   "p-bowl-lower": {
+    "type": "linear",
+    "x1": 773.908,
+    "y1": 439.068,
+    "x2": 740.546,
+    "y2": 509.013,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0D335A",
+      "swatch": null,
+      "tone": "AP Navy 1"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": null,
+      "tone": "AP Slate 2"
+     }
+    ]
+   },
+   "p-bowl-under": {
+    "type": "linear",
+    "x1": 581.255,
+    "y1": 565.3,
+    "x2": 755.271,
+    "y2": 557.702,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#132C52",
+      "swatch": null,
+      "tone": "AP Navy 3"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": null,
+      "tone": "AP Slate 2"
+     }
+    ]
+   },
+   "a-right-outer": {
+    "type": "linear",
+    "x1": 472.442,
+    "y1": 327.08,
+    "x2": 592.846,
+    "y2": 715.631,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#42597D",
+      "swatch": null,
+      "tone": "AP Slate 1"
+     },
+     {
+      "offset": 0.3846,
+      "hex": "#33496C",
+      "swatch": null,
+      "tone": "AP Slate 3"
+     },
+     {
+      "offset": 0.6923,
+      "hex": "#12438A",
+      "swatch": null,
+      "tone": "AP Blue 10"
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#1C65FC",
+      "swatch": null,
+      "tone": "AP Blue 2"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1C65FC",
+      "swatch": null,
+      "tone": "AP Blue 2"
+     }
+    ]
+   },
+   "a-right-inner": {
+    "type": "linear",
+    "x1": 411.864,
+    "y1": 390.193,
+    "x2": 587.824,
+    "y2": 704.815,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#132C52",
+      "swatch": null,
+      "tone": "AP Navy 3"
+     },
+     {
+      "offset": 0.3077,
+      "hex": "#213B66",
+      "swatch": null,
+      "tone": "AP Slate 5"
+     },
+     {
+      "offset": 0.6923,
+      "hex": "#132C52",
+      "swatch": null,
+      "tone": "AP Navy 3"
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#3D5579",
+      "swatch": null,
+      "tone": "AP Slate 2"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": null,
+      "tone": "AP Slate 2"
+     }
+    ]
+   },
+   "a-left-bevel": {
+    "type": "linear",
+    "x1": 373.787,
+    "y1": 312.517,
+    "x2": 309.186,
+    "y2": 715.12,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#2261DF",
+      "swatch": null,
+      "tone": "AP Blue 4"
+     },
+     {
+      "offset": 0.5385,
+      "hex": "#183B7D",
+      "swatch": null,
+      "tone": "AP Blue 11"
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#132C52",
+      "swatch": null,
+      "tone": "AP Navy 3"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#42597D",
+      "swatch": null,
+      "tone": "AP Slate 1"
+     }
+    ]
+   },
+   "a-left-outer": {
+    "type": "linear",
+    "x1": 379.231,
+    "y1": 318.673,
+    "x2": 197.594,
+    "y2": 706.147,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1C65FC",
+      "swatch": null,
+      "tone": "AP Blue 2"
+     },
+     {
+      "offset": 0.3846,
+      "hex": "#1C65FC",
+      "swatch": null,
+      "tone": "AP Blue 2"
+     },
+     {
+      "offset": 0.5385,
+      "hex": "#1D55BC",
+      "swatch": null,
+      "tone": "AP Blue 7"
+     },
+     {
+      "offset": 0.6154,
+      "hex": "#183B7D",
+      "swatch": null,
+      "tone": "AP Blue 11"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#27489E",
+      "swatch": null,
+      "tone": "AP Blue 9"
+     }
+    ]
+   },
+   "p-bowl-top": {
+    "type": "linear",
+    "x1": 775.158,
+    "y1": 333.071,
+    "x2": 615.514,
+    "y2": 419.75,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0AE4F7",
+      "swatch": null,
+      "tone": "AP Cyan"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1D5CB8",
+      "swatch": null,
+      "tone": "AP Blue 6"
+     }
+    ]
+   },
+   "p-bowl-fold": {
+    "type": "linear",
+    "x1": 655.406,
+    "y1": 340.165,
+    "x2": 697.642,
+    "y2": 376.238,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1D55BC",
+      "swatch": null,
+      "tone": "AP Blue 7"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1D76ED",
+      "swatch": null,
+      "tone": "AP Blue 1"
+     }
+    ]
+   },
+   "ribbon-front-stem": {
+    "type": "linear",
+    "x1": 566.395,
+    "y1": 357.021,
+    "x2": 554.998,
+    "y2": 475.385,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1D5CB8",
+      "swatch": null,
+      "tone": "AP Blue 6"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1E7CC4",
+      "swatch": null,
+      "tone": "AP Azure 2"
+     }
+    ]
+   },
+   "ribbon-front": {
+    "type": "linear",
+    "x1": 515.483,
+    "y1": 463.101,
+    "x2": 375.342,
+    "y2": 596.091,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1E7CC4",
+      "swatch": null,
+      "tone": "AP Azure 2"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#0AE4F7",
+      "swatch": null,
+      "tone": "AP Cyan"
+     }
+    ]
+   },
+   "ribbon-back": {
+    "type": "linear",
+    "x1": 487.432,
+    "y1": 549.813,
+    "x2": 281.616,
+    "y2": 628.819,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0AE4F7",
+      "swatch": null,
+      "tone": "AP Cyan"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1D5CB8",
+      "swatch": null,
+      "tone": "AP Blue 6"
+     }
+    ]
+   }
+  }
+ },
+ "tones": [
+  {
+   "name": "AP Azure 1",
+   "hex": "#1984C5",
+   "used_in": [
+    "hero:face-ribbon-front-stem#1",
+    "hero:face-ribbon-front#0"
+   ]
+  },
+  {
+   "name": "AP Azure 2",
+   "hex": "#1E7CC4",
+   "used_in": [
+    "hero:face-p-bowl-fold#0",
+    "dark:face-ribbon-front-stem#1",
+    "dark:face-ribbon-front#0"
+   ]
+  },
+  {
+   "name": "AP Blue 1",
+   "hex": "#1D76ED",
+   "used_in": [
+    "dark:face-p-bowl-fold#1"
+   ]
+  },
+  {
+   "name": "AP Blue 10",
+   "hex": "#12438A",
+   "used_in": [
+    "dark:face-a-right-outer#2"
+   ]
+  },
+  {
+   "name": "AP Blue 11",
+   "hex": "#183B7D",
+   "used_in": [
+    "hero:face-a-right-outer#2",
+    "dark:face-a-left-bevel#1",
+    "dark:face-a-left-outer#3"
+   ]
+  },
+  {
+   "name": "AP Blue 12",
+   "hex": "#1D3A76",
+   "used_in": [
+    "hero:face-a-left-bevel#1",
+    "hero:face-a-left-outer#2",
+    "hero:face-a-left-outer#3"
+   ]
+  },
+  {
+   "name": "AP Blue 2",
+   "hex": "#1C65FC",
+   "used_in": [
+    "dark:face-a-right-outer#3",
+    "dark:face-a-right-outer#4",
+    "dark:face-a-left-outer#0",
+    "dark:face-a-left-outer#1"
+   ]
+  },
+  {
+   "name": "AP Blue 3",
+   "hex": "#296BE1",
+   "used_in": [
+    "hero:face-a-right-outer#4",
+    "hero:face-a-left-outer#0"
+   ]
+  },
+  {
+   "name": "AP Blue 4",
+   "hex": "#2261DF",
+   "used_in": [
+    "dark:face-a-left-bevel#0"
+   ]
+  },
+  {
+   "name": "AP Blue 5",
+   "hex": "#2660C5",
+   "used_in": [
+    "hero:face-a-right-outer#3",
+    "hero:face-a-left-bevel#0"
+   ]
+  },
+  {
+   "name": "AP Blue 6",
+   "hex": "#1D5CB8",
+   "used_in": [
+    "dark:face-p-bowl-top#1",
+    "dark:face-ribbon-front-stem#0",
+    "dark:face-ribbon-back#1"
+   ]
+  },
+  {
+   "name": "AP Blue 7",
+   "hex": "#1D55BC",
+   "used_in": [
+    "dark:face-a-left-outer#2",
+    "dark:face-p-bowl-fold#0"
+   ]
+  },
+  {
+   "name": "AP Blue 8",
+   "hex": "#2654A7",
+   "used_in": [
+    "hero:face-p-bowl-top#1",
+    "hero:face-ribbon-front-stem#0",
+    "hero:face-ribbon-back#0"
+   ]
+  },
+  {
+   "name": "AP Blue 9",
+   "hex": "#27489E",
+   "used_in": [
+    "hero:face-a-left-outer#1",
+    "hero:face-a-left-outer#4",
+    "hero:face-p-bowl-fold#1",
+    "dark:face-a-left-outer#4"
+   ]
+  },
+  {
+   "name": "AP Cyan",
+   "hex": "#0AE4F7",
+   "used_in": [
+    "hero:face-p-bowl-top#0",
+    "hero:face-ribbon-front#1",
+    "hero:face-ribbon-back#1",
+    "dark:face-p-bowl-top#0",
+    "dark:face-ribbon-front#1",
+    "dark:face-ribbon-back#0"
+   ]
+  },
+  {
+   "name": "AP Navy 1",
+   "hex": "#0D335A",
+   "used_in": [
+    "dark:face-p-bowl-lower#0"
+   ]
+  },
+  {
+   "name": "AP Navy 2",
+   "hex": "#1C2F4F",
+   "used_in": [
+    "hero:face-p-bowl-under#1",
+    "hero:face-a-left-bevel#3"
+   ]
+  },
+  {
+   "name": "AP Navy 3",
+   "hex": "#132C52",
+   "used_in": [
+    "hero:face-a-left-bevel#2",
+    "dark:face-p-bowl-under#0",
+    "dark:face-a-right-inner#0",
+    "dark:face-a-right-inner#2",
+    "dark:face-a-left-bevel#2"
+   ]
+  },
+  {
+   "name": "AP Navy 4",
+   "hex": "#0A1E3E",
+   "used_in": [
+    "hero:face-p-bowl-lower#0",
+    "hero:face-a-right-inner#0"
+   ]
+  },
+  {
+   "name": "AP Navy 5",
+   "hex": "#081834",
+   "used_in": [
+    "hero:face-p-bowl-under#0",
+    "hero:face-a-right-inner#2"
+   ]
+  },
+  {
+   "name": "AP Slate 1",
+   "hex": "#42597D",
+   "used_in": [
+    "hero:face-a-left-bevel#4",
+    "dark:face-a-right-outer#0",
+    "dark:face-a-left-bevel#3"
+   ]
+  },
+  {
+   "name": "AP Slate 2",
+   "hex": "#3D5579",
+   "used_in": [
+    "hero:face-p-bowl-lower#1",
+    "hero:face-p-bowl-under#2",
+    "hero:face-a-right-outer#0",
+    "hero:face-a-right-inner#4",
+    "dark:face-p-bowl-lower#1",
+    "dark:face-p-bowl-under#1",
+    "dark:face-a-right-inner#3",
+    "dark:face-a-right-inner#4"
+   ]
+  },
+  {
+   "name": "AP Slate 3",
+   "hex": "#33496C",
+   "used_in": [
+    "hero:face-a-right-outer#1",
+    "dark:face-a-right-outer#1"
+   ]
+  },
+  {
+   "name": "AP Slate 4",
+   "hex": "#2D4366",
+   "used_in": [
+    "hero:face-a-right-inner#3"
+   ]
+  },
+  {
+   "name": "AP Slate 5",
+   "hex": "#213B66",
+   "used_in": [
+    "hero:face-a-right-inner#1",
+    "dark:face-a-right-inner#1"
+   ]
+  }
+ ],
+ "rep": {
+  "#072A52": "#132C52",
+  "#102D53": "#132C52",
+  "#132C52": "#132C52",
+  "#132E5B": "#132C52",
+  "#1A2E5A": "#132C52",
+  "#07E6F8": "#0AE4F7",
+  "#07E7F9": "#0AE4F7",
+  "#0AE4F7": "#0AE4F7",
+  "#0BDFF4": "#0AE4F7",
+  "#0DE0F4": "#0AE4F7",
+  "#2FE1F3": "#0AE4F7",
+  "#081834": "#081834",
+  "#091A34": "#081834",
+  "#0A1E3E": "#0A1E3E",
+  "#122545": "#0A1E3E",
+  "#0D335A": "#0D335A",
+  "#12438A": "#12438A",
+  "#163E7F": "#183B7D",
+  "#183B7D": "#183B7D",
+  "#193C89": "#183B7D",
+  "#1984C5": "#1984C5",
+  "#1986C6": "#1984C5",
+  "#1B3776": "#1D3A76",
+  "#1D3A76": "#1D3A76",
+  "#253E77": "#1D3A76",
+  "#1C2F4F": "#1C2F4F",
+  "#1C3152": "#1C2F4F",
+  "#1C65FC": "#1C65FC",
+  "#1F64F8": "#1C65FC",
+  "#2066F1": "#1C65FC",
+  "#2069FB": "#1C65FC",
+  "#1D55BC": "#1D55BC",
+  "#245AC7": "#1D55BC",
+  "#1D5CB8": "#1D5CB8",
+  "#1E5AAD": "#1D5CB8",
+  "#1D76ED": "#1D76ED",
+  "#1E7CC4": "#1E7CC4",
+  "#1E7DC4": "#1E7CC4",
+  "#1F76C5": "#1E7CC4",
+  "#213B66": "#213B66",
+  "#23395C": "#213B66",
+  "#2261DF": "#2261DF",
+  "#244997": "#27489E",
+  "#27489E": "#27489E",
+  "#2E4A9C": "#27489E",
+  "#264597": "#27489E",
+  "#254DA3": "#2654A7",
+  "#2554A7": "#2654A7",
+  "#2654A7": "#2654A7",
+  "#2660C5": "#2660C5",
+  "#2863C2": "#2660C5",
+  "#296BE1": "#296BE1",
+  "#2D6BDB": "#296BE1",
+  "#2D4366": "#2D4366",
+  "#33496C": "#33496C",
+  "#354D70": "#33496C",
+  "#3A5278": "#3D5579",
+  "#3B5278": "#3D5579",
+  "#3D5579": "#3D5579",
+  "#3E5679": "#3D5579",
+  "#3D577E": "#3D5579",
+  "#40577D": "#3D5579",
+  "#40577E": "#3D5579",
+  "#42597D": "#42597D",
+  "#435A7B": "#42597D",
+  "#425A82": "#42597D"
+ }
+}

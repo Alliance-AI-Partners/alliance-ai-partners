@@ -1,0 +1,91 @@
+01 ALLIANCE AI PARTNERS uniform IoU 0.9421  faithful IoU 0.9529
+01 Partners in AI. Partners in growth. uniform IoU 0.8502  faithful IoU 0.9057
+04 ALLIANCE uniform IoU 0.9507  faithful IoU 0.9582
+04 AI PARTNERS uniform IoU 0.9472  faithful IoU 0.9676
+05 ALLIANCE uniform IoU 0.9449  faithful IoU 0.9495
+05 AI PARTNERS uniform IoU 0.9244  faithful IoU 0.9394
+07 ALLIANCE AI uniform IoU 0.9253  faithful IoU 0.9500
+07 PARTNERS uniform IoU 0.9219  faithful IoU 0.9566
+08 ALLIANCE uniform IoU 0.9419  faithful IoU 0.9536
+08 AI PARTNERS uniform IoU 0.9307  faithful IoU 0.9391
+09 ALLIANCE AI uniform IoU 0.9608  faithful IoU 0.9623
+09 PARTNERS uniform IoU 0.9513  faithful IoU 0.9719
+10 ALLIANCE uniform IoU 0.9133  faithful IoU 0.9155
+10 AI PARTNERS uniform IoU 0.8447  faithful IoU 0.8891
+13 ALLIANCE AI PARTNERS uniform IoU 0.9173  faithful IoU 0.9314
+13 ENTERPRISE AI CONSULTING uniform IoU 0.8098  faithful IoU 0.8598
+14 ALLIANCE AI PARTNERS uniform IoU 0.9381  faithful IoU 0.9552
+16 ALLIANCE AI uniform IoU 0.9311  faithful IoU 0.9353
+16 PARTNERS uniform IoU 0.8683  faithful IoU 0.9248
+17 ALLIANCE AI PARTNERS uniform IoU 0.9421  faithful IoU 0.9529
+[
+ {
+  "name": "Ink Navy A",
+  "hex": "#172842",
+  "nearest_core": "Deep Navy",
+  "dE_to_core": 5.91,
+  "where": [
+   "01 wordmark ' PARTNERS'",
+   "01 wordmark 'ALLIANCE '",
+   "05 line1 'ALLIANCE'",
+   "05 line2 'AI PARTNERS'",
+   "08 line1 'ALLIANCE'",
+   "08 line2 ' PARTNERS'",
+   "17 wordmark ' PARTNERS'",
+   "17 wordmark 'ALLIANCE '"
+  ]
+ },
+ {
+  "name": "Ink Navy B",
+  "hex": "#081638",
+  "nearest_core": "Deep Navy",
+  "dE_to_core": 8.6,
+  "where": [
+   "13 descriptor 'ENTERPRISE AI CONSULTING'",
+   "13 wordmark ' PARTNERS'",
+   "13 wordmark 'ALLIANCE '",
+   "14 wordmark ' PARTNERS'",
+   "14 wordmark 'ALLIANCE '"
+  ]
+ },
+ {
+  "name": "Accent Cyan A",
+  "hex": "#08DBE8",
+  "nearest_core": "Bright Cyan",
+  "dE_to_core": 9.02,
+  "where": [
+   "13 rule"
+  ]
+ },
+ {
+  "name": "Accent Blue A",
+  "hex": "#2463CF",
+  "nearest_core": "Vibrant Blue",
+  "dE_to_core": 7.48,
+  "where": [
+   "01 wordmark 'AI'",
+   "14 wordmark 'AI'",
+   "17 wordmark 'AI'"
+  ]
+ },
+ {
+  "name": "Accent Blue B",
+  "hex": "#1451CC",
+  "nearest_core": "Vibrant Blue",
+  "dE_to_core": 6.95,
+  "where": [
+   "13 wordmark 'AI'"
+  ]
+ }
+]
+01 written
+04 written
+05 written
+07 written
+08 written
+09 written
+10 written
+13 written
+14 written
+16 written
+17 written

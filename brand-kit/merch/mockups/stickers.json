@@ -1,0 +1,14 @@
+{
+ "name": "stickers",
+ "kind": "mockup",
+ "description": "stickers mockup",
+ "prompt": "Product photograph of the die-cut vinyl stickers shown in the reference image, peeled off the sheet and stuck on the lid of a silver laptop that rests on a pale daylight-grey desk: the pill-shaped navy logo sticker, the round navy logo sticker and the blue sticker reading 'Put AI to work.'. Reproduce the stickers' artwork exactly. Soft light from the upper left.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "references": [
+  "brand-kit/merch/previews/sticker-sheet-a5-artwork.png"
+ ],
+ "generated": "2026-11-02",
+ "tool": "brand-kit/tools/generate-imagery.py"
+}

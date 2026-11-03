@@ -1,0 +1,14 @@
+{
+ "name": "tumbler",
+ "kind": "mockup",
+ "description": "tumbler mockup",
+ "prompt": "Product photograph of a 20 oz insulated stainless tumbler with a clear slide lid, powder-coated in deep navy (#121B2A), standing on a pale daylight-grey surface. The front shows exactly the logo in the reference image, printed in full colour about 5 cm wide, and a thin flowing ribbon line in a blue-to-cyan gradient wraps around the tumbler behind it. Soft studio light from the upper left. No other text or logos.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "references": [
+  "design-system/logos/marks/alliance-ai-partners-logomark-full-color-dark.png"
+ ],
+ "generated": "2026-11-02",
+ "tool": "brand-kit/tools/generate-imagery.py"
+}

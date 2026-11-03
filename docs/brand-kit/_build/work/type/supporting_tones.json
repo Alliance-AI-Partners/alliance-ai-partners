@@ -1,0 +1,60 @@
+[
+ {
+  "name": "Ink Navy A",
+  "hex": "#172842",
+  "nearest_core": "Deep Navy",
+  "dE_to_core": 5.91,
+  "where": [
+   "01 wordmark ' PARTNERS'",
+   "01 wordmark 'ALLIANCE '",
+   "05 line1 'ALLIANCE'",
+   "05 line2 'AI PARTNERS'",
+   "08 line1 'ALLIANCE'",
+   "08 line2 ' PARTNERS'",
+   "17 wordmark ' PARTNERS'",
+   "17 wordmark 'ALLIANCE '"
+  ]
+ },
+ {
+  "name": "Ink Navy B",
+  "hex": "#081638",
+  "nearest_core": "Deep Navy",
+  "dE_to_core": 8.6,
+  "where": [
+   "13 descriptor 'ENTERPRISE AI CONSULTING'",
+   "13 wordmark ' PARTNERS'",
+   "13 wordmark 'ALLIANCE '",
+   "14 wordmark ' PARTNERS'",
+   "14 wordmark 'ALLIANCE '"
+  ]
+ },
+ {
+  "name": "Accent Cyan A",
+  "hex": "#08DBE8",
+  "nearest_core": "Bright Cyan",
+  "dE_to_core": 9.02,
+  "where": [
+   "13 rule"
+  ]
+ },
+ {
+  "name": "Accent Blue A",
+  "hex": "#2463CF",
+  "nearest_core": "Vibrant Blue",
+  "dE_to_core": 7.48,
+  "where": [
+   "01 wordmark 'AI'",
+   "14 wordmark 'AI'",
+   "17 wordmark 'AI'"
+  ]
+ },
+ {
+  "name": "Accent Blue B",
+  "hex": "#1451CC",
+  "nearest_core": "Vibrant Blue",
+  "dE_to_core": 6.95,
+  "where": [
+   "13 wordmark 'AI'"
+  ]
+ }
+]

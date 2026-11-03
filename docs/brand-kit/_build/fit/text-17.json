@@ -1,0 +1,175 @@
+{
+ "id": "17",
+ "source": "e7dbe480-3073-48eb-9568-d84c3239a496.jpeg",
+ "description": "Shield badge: gradient AP in beveled shield + banner",
+ "space": "source image pixels, y down; size in pt = px; x = first glyph origin (pen position) on the baseline; tracking in Illustrator units (1/1000 em after every character); colors ranges are [start, end) char indices",
+ "image_size": [
+  1376,
+  768
+ ],
+ "svg": "fit/text-17.svg",
+ "svg_render_check": {
+  "de_mean": 2.94,
+  "de_p95": 11.45,
+  "region": "union of the text boxes"
+ },
+ "runs": [
+  {
+   "id": "text-17-wordmark",
+   "string": "ALLIANCE AI PARTNERS",
+   "font": "Montserrat-Bold",
+   "style": "Bold",
+   "size": 61.636,
+   "tracking": -0.13,
+   "x": 301.697,
+   "baseline": 552.771,
+   "align": "center",
+   "kerning": "Auto (metrics)",
+   "cap_height": 43.147,
+   "ink_bbox": [
+    301.14,
+    508.88,
+    1075.13,
+    553.51
+   ],
+   "ink_center_x": 688.13,
+   "colors": [
+    {
+     "start": 0,
+     "end": 9,
+     "text": "ALLIANCE ",
+     "hex": "#172842",
+     "swatch": "Ink Navy A",
+     "measured_hex": "#1A2946",
+     "dE": 7.07,
+     "nearest_core": "Deep Navy"
+    },
+    {
+     "start": 9,
+     "end": 11,
+     "text": "AI",
+     "hex": "#2463CF",
+     "swatch": "Accent Blue A",
+     "measured_hex": "#2C60CD",
+     "dE": 6.93,
+     "nearest_core": "Vibrant Blue"
+    },
+    {
+     "start": 11,
+     "end": 20,
+     "text": " PARTNERS",
+     "hex": "#172842",
+     "swatch": "Ink Navy A",
+     "measured_hex": "#1A2845",
+     "dE": 6.98,
+     "nearest_core": "Deep Navy"
+    }
+   ],
+   "iou": 0.9421,
+   "edge_err_px": 0.234,
+   "style_check": {
+    "chosen_by": "IoU",
+    "candidates": [
+     {
+      "style": "Bold",
+      "iou": 0.9421,
+      "soft": 0.9302,
+      "stem_render": 10.25,
+      "p": [
+       61.636,
+       -0.129,
+       301.697,
+       552.771
+      ]
+     },
+     {
+      "style": "ExtraBold",
+      "iou": 0.8886,
+      "soft": 0.8693,
+      "stem_render": 12.2,
+      "p": [
+       60.523,
+       2.069,
+       301.496,
+       552.504
+      ]
+     },
+     {
+      "style": "SemiBold",
+      "iou": 0.7957,
+      "soft": 0.8066,
+      "stem_render": 8.35,
+      "p": [
+       61.786,
+       5.766,
+       302.306,
+       552.769
+      ]
+     }
+    ],
+    "stem_px_original": 10.31,
+    "stem_px_fit": 10.25
+   },
+   "faithful_spacing": {
+    "note": "optional: reproduces the original's own (irregular, AI-made) letter spacing. Set x to this x and give each character its own tracking (1/1000 em after that character); Auto kerning unchanged.",
+    "x": 301.447,
+    "tracking_per_char": [
+     6.0,
+     -2.2,
+     -6.2,
+     6.0,
+     6.0,
+     -4.2,
+     -4.2,
+     6.0,
+     -0.1,
+     3.9,
+     -6.2,
+     -0.1,
+     -2.2,
+     -0.1,
+     -0.1,
+     -0.1,
+     -0.1,
+     -4.2,
+     -0.1,
+     -0.1
+    ],
+    "glyph_shift_px": {
+     "0": -0.25,
+     "1": 0.125,
+     "2": 0.0,
+     "3": -0.375,
+     "4": 0.0,
+     "5": 0.375,
+     "6": 0.125,
+     "7": -0.125,
+     "9": 0.25,
+     "10": 0.5,
+     "12": 0.125,
+     "13": 0.0,
+     "14": 0.0,
+     "15": 0.0,
+     "16": 0.0,
+     "17": 0.0,
+     "18": -0.25,
+     "19": -0.25
+    },
+    "iou": 0.9529
+   },
+   "measured": {
+    "bg": "#FDFEFE",
+    "fg_kmeans": [
+     "#192743",
+     "#2C5FCA"
+    ]
+   },
+   "iou_svg_render": 0.9413,
+   "svg_render_dE": {
+    "de_mean": 2.94,
+    "de_p95": 11.45
+   }
+  }
+ ],
+ "rules": []
+}

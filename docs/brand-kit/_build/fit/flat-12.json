@@ -1,0 +1,221 @@
+{
+ "id": "12",
+ "source": "90cf7a67-67f3-4bfe-8aea-0e10c2dab1a2.jpeg",
+ "description": "Flat cyan AP mark, navy",
+ "size": [
+  1024,
+  1024
+ ],
+ "svg": "components/flat-12.svg",
+ "colors": {
+  "background": {
+   "measured": "#121F32",
+   "snapped": "#121B2A",
+   "de2000_measured_to_snapped": 2.18,
+   "nearest_palette": "Deep Navy",
+   "exceeds_snap_threshold_4": false
+  },
+  "cyan": {
+   "measured": "#1CC5EB",
+   "snapped": "#00D5FF",
+   "de2000_measured_to_snapped": 3.98,
+   "nearest_palette": "Bright Cyan",
+   "exceeds_snap_threshold_4": false
+  }
+ },
+ "notes": [
+  "thin tapered ends run on to their measured tips (tips.py); before/after per tip in \"tips\", zoomed crops in verify/flat-12_tips.png"
+ ],
+ "text_bbox": null,
+ "method": "coverage map of the measured colours -> clean palette resynthesis (wordmark/ring masked) -> VectorCraft logo trace -> every edge snapped to the original 0.5 iso-line (smoothed per-point shift) -> straight runs refit as true lines meeting at sharp corners, curves as C2 cubic splines merged to few G1 cubics (tol 0.3 px); verified on a 4x VectorCraft render box-filtered to 1x",
+ "mark_bbox": [
+  207.32,
+  307.09,
+  824.32,
+  678.24
+ ],
+ "layers": [
+  {
+   "id": "ap-cyan",
+   "fill": "#00D5FF",
+   "bbox": [
+    207.32,
+    307.09,
+    824.32,
+    678.24
+   ],
+   "subpaths": 3,
+   "anchors": 45,
+   "line_segs": 20,
+   "curve_segs": 25,
+   "specks_dropped_area": [],
+   "trace_anchors": 135
+  }
+ ],
+ "tips": {
+  "before": 0.9982,
+  "after": 0.9982,
+  "tips": [
+   {
+    "name": "crescent",
+    "kind": "gap",
+    "scan": "columns",
+    "vector_tip_before": [
+     331.294,
+     532.644
+    ],
+    "measured_tip": [
+     340.35,
+     530.803
+    ],
+    "extension_px": 9.24,
+    "taper": {
+     "a": 0.105,
+     "b": 0.00023,
+     "blur_sigma": 1.2,
+     "floor": -0.02,
+     "rms_px": 0.0361,
+     "lines": 30
+    },
+    "junction_line": 315.5,
+    "junction_A": [
+     315.5,
+     538.242
+    ],
+    "junction_B": [
+     315.5,
+     535.785
+    ],
+    "new_tip": [
+     340.35,
+     530.803
+    ],
+    "straight_edge_extended": null,
+    "refit_from_nodes": [
+     [
+      235.46,
+      618.471
+     ],
+     [
+      274.764,
+      556.733
+     ]
+    ],
+    "new_cubics": [
+     6,
+     2
+    ],
+    "fit_err_px": [
+     0.065,
+     0.073
+    ],
+    "crop": [
+     309,
+     524,
+     348,
+     546
+    ],
+    "crop_metrics": {
+     "before": {
+      "de_mean": 4.918,
+      "de_mean_measured_colours": 1.69,
+      "coverage_abs_err_mean": 0.0242,
+      "iou": 0.9878
+     },
+     "after": {
+      "de_mean": 4.601,
+      "de_mean_measured_colours": 1.502,
+      "coverage_abs_err_mean": 0.0203,
+      "iou": 0.9902
+     }
+    }
+   },
+   {
+    "name": "P-stem sliver",
+    "kind": "gap",
+    "scan": "rows",
+    "vector_tip_before": [
+     616.787,
+     442.675
+    ],
+    "measured_tip": [
+     617.87,
+     435.8
+    ],
+    "extension_px": 6.96,
+    "taper": {
+     "a": 0.1181,
+     "b": 0.0,
+     "blur_sigma": 1.2,
+     "floor": 0.003,
+     "rms_px": 0.027,
+     "lines": 30
+    },
+    "junction_line": 456.5,
+    "junction_A": [
+     614.761,
+     456.5
+    ],
+    "junction_B": [
+     612.462,
+     456.5
+    ],
+    "new_tip": [
+     617.87,
+     435.8
+    ],
+    "straight_edge_extended": null,
+    "refit_from_nodes": [
+     [
+      570.965,
+      542.27
+     ],
+     [
+      610.697,
+      461.781
+     ]
+    ],
+    "new_cubics": [
+     2,
+     1
+    ],
+    "fit_err_px": [
+     0.049,
+     0.026
+    ],
+    "crop": [
+     606,
+     429,
+     625,
+     464
+    ],
+    "crop_metrics": {
+     "before": {
+      "de_mean": 5.781,
+      "de_mean_measured_colours": 2.652,
+      "coverage_abs_err_mean": 0.0419,
+      "iou": 0.9866
+     },
+     "after": {
+      "de_mean": 5.438,
+      "de_mean_measured_colours": 2.424,
+      "coverage_abs_err_mean": 0.0377,
+      "iou": 0.9942
+     }
+    }
+   }
+  ]
+ },
+ "metrics": {
+  "mark_iou": 0.9982,
+  "de_mean_canvas": 2.36,
+  "de_p95_canvas": 3.95,
+  "de_mean_mark_region": 4.27,
+  "de_p95_mark_region": 6.74,
+  "de_mean_background": 2.09,
+  "de_mean_if_measured_colours": 0.59,
+  "de_p95_if_measured_colours": 1.78,
+  "soft_iou_band": 0.9899,
+  "mean_edge_offset_px": 0.021
+ }
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200">
+<title>Open Graph image</title>
+<!--
+  Template: Open Graph / link-share card, 1200 x 630 px. Screen only.
+  Copy: "Put AI to work." (homepage tagline, Brand DNA section 7) and "The AI team you don't have to hire." (alternate).
+  Layout: Daylight region with the full-colour light lockup and the headline; a Partner Navy region with the
+  full-colour dark mark. The Daybreak ribbon runs from Partner Navy on the Daylight side to Ribbon Cyan on the navy
+  side, so it reads on both grounds. Alliance Blue appears once, on the accent word.
+  The domain allianceaipartners.example is a placeholder until the real domain is chosen.
+-->
+<link rel="stylesheet" href="../../design-system/tokens/tokens.css">
+<style>
+  html, body { margin: 0; background: var(--aap-color-neutral-200); }
+  .og {
+    position: relative; width: 1200px; height: 630px; overflow: hidden;
+    background: var(--aap-color-brand-daylight); color: var(--aap-color-text-primary);
+    font-family: var(--aap-font-family-sans); -webkit-font-smoothing: antialiased;
+  }
+  .og__navy {
+    position: absolute; top: 0; right: 0; bottom: 0; width: 424px;
+    background: var(--aap-color-brand-partner-navy); color: var(--aap-color-text-inverse);
+  }
+  .og__ribbon { position: absolute; inset: 0; width: 100%; height: 100%; }
+  /* Lockup artboards carry their clear space (69 of 1139 units), so the image sits 15 px outside the text edge. */
+  .og__logo { position: absolute; left: 49px; top: 41px; width: 252px; height: auto; display: block; }
+  .og__mark { position: absolute; left: 11px; top: 66px; width: 426px; height: auto; display: block; }
+  h1 {
+    position: absolute; left: 64px; top: 178px; width: 700px; margin: 0;
+    font-weight: var(--aap-typography-display-xl-weight); font-stretch: var(--aap-typography-display-xl-stretch);
+    font-size: 116px; line-height: 0.98; letter-spacing: var(--aap-typography-display-xl-tracking);
+    text-wrap: balance;
+  }
+  .accent { font-weight: var(--aap-font-weight-regular); } /* marked by weight: Alliance Blue is kept for the one action */
+  .og__line {
+    position: absolute; left: 66px; top: 440px; width: 640px; margin: 0;
+    font-size: 30px; line-height: 1.3; font-weight: 450; letter-spacing: -0.006em;
+    color: var(--aap-color-text-secondary);
+  }
+  .og__url {
+    position: absolute; z-index: 1; right: 60px; bottom: 56px; margin: 0;
+    font-family: var(--aap-font-family-mono); font-size: 20px; line-height: 1; font-weight: 450;
+    color: var(--aap-color-text-inverse-secondary);
+  }
+</style>
+</head>
+<body>
+  <div class="og" id="artefact">
+    <div class="og__navy">
+      <img class="og__mark" src="../../design-system/logos/marks/alliance-ai-partners-logomark-full-color-dark.svg" alt="">
+      <p class="og__url">allianceaipartners.example</p>
+    </div>
+    <svg class="og__ribbon" viewBox="0 0 1200 630" aria-hidden="true">
+      <defs>
+        <linearGradient id="og-daybreak" gradientUnits="userSpaceOnUse" x1="0" y1="600" x2="1200" y2="440">
+          <stop offset="0" style="stop-color: var(--aap-color-brand-partner-navy)"/>
+          <stop offset="0.54" style="stop-color: var(--aap-color-brand-alliance-blue)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <linearGradient id="og-light" gradientUnits="userSpaceOnUse" x1="0" y1="600" x2="1200" y2="440">
+          <stop offset="0" style="stop-color: var(--aap-color-shading-ribbon-57)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <path id="og-path" d="M-60 604 C300 612 520 560 776 520 S1080 500 1260 430"/>
+      </defs>
+      <!-- The ribbon: a Daybreak band with its lit top edge, as on the mark. -->
+      <use href="#og-path" fill="none" stroke="url(#og-daybreak)" stroke-width="44"/>
+      <use href="#og-path" fill="none" stroke="url(#og-light)" stroke-width="13" transform="translate(0 -15.5)"/>
+    </svg>
+    <img class="og__logo" src="../../design-system/logos/lockups/alliance-ai-partners-primary-horizontal-full-color-light.svg" alt="Alliance AI Partners">
+    <h1>Put AI to <span class="accent">work.</span></h1>
+    <p class="og__line">The AI team you don’t have to hire.</p>
+  </div>
+</body>
+</html>

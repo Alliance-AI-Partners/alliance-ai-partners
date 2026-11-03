@@ -1,0 +1,2143 @@
+{
+ "out": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\02_Original-Recreations\\AAP_Original-Recreations.ai",
+ "components": {
+  "rec-01": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-01.svg",
+  "rec-02": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-02.svg",
+  "rec-03": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-03.svg",
+  "rec-04": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-04.svg",
+  "rec-05": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-05.svg",
+  "rec-06": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-06.svg",
+  "rec-07": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-07.svg",
+  "rec-08": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-08.svg",
+  "rec-09": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-09.svg",
+  "rec-10": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-10.svg",
+  "rec-11": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-11.svg",
+  "rec-12": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-12.svg",
+  "rec-13": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-13.svg",
+  "rec-14": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-14.svg",
+  "rec-15": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-15.svg",
+  "rec-16": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-16.svg",
+  "rec-17": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\rec-17.svg"
+ },
+ "artboards": [
+  {
+   "name": "Recreation-01",
+   "rect": [
+    -2756,
+    -2672,
+    1376,
+    768
+   ],
+   "bg": "AAP Pure White",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-01",
+     "x": -2756,
+     "y": -2672,
+     "scale": 1.0,
+     "name": "recreation 01"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-02",
+   "rect": [
+    -1260,
+    -2672,
+    1376,
+    768
+   ],
+   "bg": "AAP Daylight",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-02",
+     "x": -1260,
+     "y": -2672,
+     "scale": 1.0,
+     "name": "recreation 02"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-03",
+   "rect": [
+    236,
+    -2672,
+    1024,
+    1024
+   ],
+   "bg": "AAP Tone Partner Navy 132237",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-03",
+     "x": 236,
+     "y": -2672,
+     "scale": 1.0,
+     "name": "recreation 03"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-04",
+   "rect": [
+    1380,
+    -2672,
+    1376,
+    768
+   ],
+   "bg": "AAP Tone Partner Navy 132032",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-04",
+     "x": 1380,
+     "y": -2672,
+     "scale": 1.0,
+     "name": "recreation 04"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-05",
+   "rect": [
+    -2756,
+    -1528,
+    1376,
+    768
+   ],
+   "bg": "AAP Pure White",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-05",
+     "x": -2756,
+     "y": -1528,
+     "scale": 1.0,
+     "name": "recreation 05"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-06",
+   "rect": [
+    -1260,
+    -1528,
+    1024,
+    1024
+   ],
+   "bg": "AAP Pure White",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-06",
+     "x": -1260,
+     "y": -1528,
+     "scale": 1.0,
+     "name": "recreation 06"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-07",
+   "rect": [
+    -116,
+    -1528,
+    1376,
+    768
+   ],
+   "bg": "AAP Tone Partner Navy 142336",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-07",
+     "x": -116,
+     "y": -1528,
+     "scale": 1.0,
+     "name": "recreation 07"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-08",
+   "rect": [
+    1380,
+    -1528,
+    1376,
+    768
+   ],
+   "bg": "AAP Daylight",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-08",
+     "x": 1380,
+     "y": -1528,
+     "scale": 1.0,
+     "name": "recreation 08"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-09",
+   "rect": [
+    -2756,
+    -384,
+    1024,
+    1024
+   ],
+   "bg": "AAP Tone Partner Navy 112034",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-09",
+     "x": -2756,
+     "y": -384,
+     "scale": 1.0,
+     "name": "recreation 09"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-10",
+   "rect": [
+    -1612,
+    -384,
+    1376,
+    768
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-10",
+     "x": -1612,
+     "y": -384,
+     "scale": 1.0,
+     "name": "recreation 10"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-11",
+   "rect": [
+    -116,
+    -384,
+    1024,
+    1024
+   ],
+   "bg": "AAP Tone Partner Navy 112131",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-11",
+     "x": -116,
+     "y": -384,
+     "scale": 1.0,
+     "name": "recreation 11"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-12",
+   "rect": [
+    1028,
+    -384,
+    1024,
+    1024
+   ],
+   "bg": "AAP Tone Partner Navy 121F32",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-12",
+     "x": 1028,
+     "y": -384,
+     "scale": 1.0,
+     "name": "recreation 12"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-13",
+   "rect": [
+    -2756,
+    760,
+    1376,
+    768
+   ],
+   "bg": "AAP Pure White",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-13",
+     "x": -2756,
+     "y": 760,
+     "scale": 1.0,
+     "name": "recreation 13"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-14",
+   "rect": [
+    -1260,
+    760,
+    1024,
+    1024
+   ],
+   "bg": "AAP Pure White",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-14",
+     "x": -1260,
+     "y": 760,
+     "scale": 1.0,
+     "name": "recreation 14"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-15",
+   "rect": [
+    -116,
+    760,
+    1024,
+    1024
+   ],
+   "bg": "AAP Pure White",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-15",
+     "x": -116,
+     "y": 760,
+     "scale": 1.0,
+     "name": "recreation 15"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-16",
+   "rect": [
+    1028,
+    760,
+    1024,
+    1024
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-16",
+     "x": 1028,
+     "y": 760,
+     "scale": 1.0,
+     "name": "recreation 16"
+    }
+   ]
+  },
+  {
+   "name": "Recreation-17",
+   "rect": [
+    -2756,
+    1904,
+    1376,
+    768
+   ],
+   "bg": "AAP Pure White",
+   "items": [
+    {
+     "type": "svg",
+     "component": "rec-17",
+     "x": -2756,
+     "y": 1904,
+     "scale": 1.0,
+     "name": "recreation 17"
+    }
+   ]
+  }
+ ],
+ "swatches": [
+  {
+   "group": "AAP Core",
+   "colors": [
+    {
+     "name": "AAP Alliance Blue",
+     "hex": "#1B56FF"
+    },
+    {
+     "name": "AAP Ribbon Cyan",
+     "hex": "#00D5FF"
+    },
+    {
+     "name": "AAP Partner Navy",
+     "hex": "#121B2A"
+    },
+    {
+     "name": "AAP Pure White",
+     "hex": "#FFFFFF"
+    },
+    {
+     "name": "AAP Daylight",
+     "hex": "#F4F7FB"
+    },
+    {
+     "name": "AAP Black",
+     "hex": "#000000"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 01",
+   "colors": [
+    {
+     "name": "AAP AP01 Azure",
+     "hex": "#1D82C2"
+    },
+    {
+     "name": "AAP AP01 Blue 1",
+     "hex": "#1B77C7"
+    },
+    {
+     "name": "AAP AP01 Blue 2",
+     "hex": "#256BEB"
+    },
+    {
+     "name": "AAP AP01 Blue 3",
+     "hex": "#2371C5"
+    },
+    {
+     "name": "AAP AP01 Blue 4",
+     "hex": "#2763CA"
+    },
+    {
+     "name": "AAP AP01 Blue 5",
+     "hex": "#2756AA"
+    },
+    {
+     "name": "AAP AP01 Blue 6",
+     "hex": "#294C9A"
+    },
+    {
+     "name": "AAP AP01 Blue 7",
+     "hex": "#1B4386"
+    },
+    {
+     "name": "AAP AP01 Blue 8",
+     "hex": "#213F7C"
+    },
+    {
+     "name": "AAP AP01 Cyan 1",
+     "hex": "#04E7F6"
+    },
+    {
+     "name": "AAP AP01 Cyan 2",
+     "hex": "#0DD3EB"
+    },
+    {
+     "name": "AAP AP01 Navy 1",
+     "hex": "#1F3250"
+    },
+    {
+     "name": "AAP AP01 Navy 2",
+     "hex": "#1D3157"
+    },
+    {
+     "name": "AAP AP01 Navy 3",
+     "hex": "#0F2241"
+    },
+    {
+     "name": "AAP AP01 Slate 1",
+     "hex": "#465B7E"
+    },
+    {
+     "name": "AAP AP01 Slate 2",
+     "hex": "#405578"
+    },
+    {
+     "name": "AAP AP01 Slate 3",
+     "hex": "#33486A"
+    },
+    {
+     "name": "AAP AP01 Slate 4",
+     "hex": "#2A3E5F"
+    },
+    {
+     "name": "AAP Accent Blue A",
+     "hex": "#2463CF"
+    },
+    {
+     "name": "AAP Ink Navy A",
+     "hex": "#172842"
+    },
+    {
+     "name": "AAP Tone Partner Navy 121E35",
+     "hex": "#121E35"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 02",
+   "colors": [
+    {
+     "name": "AAP Aqua 85",
+     "hex": "#0BECF5"
+    },
+    {
+     "name": "AAP Blue 21",
+     "hex": "#063360"
+    },
+    {
+     "name": "AAP Blue 26",
+     "hex": "#203D71"
+    },
+    {
+     "name": "AAP Blue 34",
+     "hex": "#245089"
+    },
+    {
+     "name": "AAP Blue 42",
+     "hex": "#2A65A4"
+    },
+    {
+     "name": "AAP Board Cyan",
+     "hex": "#04D0F2"
+    },
+    {
+     "name": "AAP Clear-space Red",
+     "hex": "#8E5450"
+    },
+    {
+     "name": "AAP Divider Ink",
+     "hex": "#121823"
+    },
+    {
+     "name": "AAP Divider Slate",
+     "hex": "#303940"
+    },
+    {
+     "name": "AAP Glow Cyan (wave halo)",
+     "hex": "#17BEF2"
+    },
+    {
+     "name": "AAP Guide Grey",
+     "hex": "#CECFD3"
+    },
+    {
+     "name": "AAP Hex Black",
+     "hex": "#050912"
+    },
+    {
+     "name": "AAP Ink Navy",
+     "hex": "#151A37"
+    },
+    {
+     "name": "AAP Ink Navy Deep",
+     "hex": "#14152C"
+    },
+    {
+     "name": "AAP Ink Royal Blue 15",
+     "hex": "#0F244D"
+    },
+    {
+     "name": "AAP Ink Slate 6",
+     "hex": "#09122F"
+    },
+    {
+     "name": "AAP Label Black",
+     "hex": "#0C0F1F"
+    },
+    {
+     "name": "AAP Lockup Ink",
+     "hex": "#0D1124"
+    },
+    {
+     "name": "AAP Muted Ocean 42",
+     "hex": "#196C85"
+    },
+    {
+     "name": "AAP Ocean 59",
+     "hex": "#4098B6"
+    },
+    {
+     "name": "AAP Ocean 59+",
+     "hex": "#129BB7"
+    },
+    {
+     "name": "AAP Ocean 64",
+     "hex": "#0FA9D0"
+    },
+    {
+     "name": "AAP Royal Blue",
+     "hex": "#2459B4"
+    },
+    {
+     "name": "AAP Royal Blue 21",
+     "hex": "#182E6F"
+    },
+    {
+     "name": "AAP Royal Blue 35",
+     "hex": "#204DB0"
+    },
+    {
+     "name": "AAP Royal Blue 42",
+     "hex": "#1C5CCB"
+    },
+    {
+     "name": "AAP Royal Blue 50",
+     "hex": "#1B71F8"
+    },
+    {
+     "name": "AAP Slate 41",
+     "hex": "#25668B"
+    },
+    {
+     "name": "AAP Steel Blue 46",
+     "hex": "#1974AA"
+    },
+    {
+     "name": "AAP Steel Blue 49",
+     "hex": "#327DA1"
+    },
+    {
+     "name": "AAP Swatch Outline Grey",
+     "hex": "#97989F"
+    },
+    {
+     "name": "AAP Swatch Outline Navy",
+     "hex": "#282F3C"
+    },
+    {
+     "name": "AAP Tagline Ink",
+     "hex": "#10151E"
+    },
+    {
+     "name": "AAP Teal 68",
+     "hex": "#3CB4CD"
+    },
+    {
+     "name": "AAP Teal 73",
+     "hex": "#12C6D6"
+    },
+    {
+     "name": "AAP Teal 80",
+     "hex": "#0DDCEC"
+    },
+    {
+     "name": "AAP Text Black",
+     "hex": "#020413"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 0A3D89",
+     "hex": "#0A3D89"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 0A4C6F",
+     "hex": "#0A4C6F"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 125B82",
+     "hex": "#125B82"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1382B6",
+     "hex": "#1382B6"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 14519B",
+     "hex": "#14519B"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 154E94",
+     "hex": "#154E94"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 188AC6",
+     "hex": "#188AC6"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 19579A",
+     "hex": "#19579A"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1A427F",
+     "hex": "#1A427F"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1B4291",
+     "hex": "#1B4291"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1D5879",
+     "hex": "#1D5879"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1D7FBC",
+     "hex": "#1D7FBC"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1E5CA8",
+     "hex": "#1E5CA8"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1E7EBF",
+     "hex": "#1E7EBF"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1F398A",
+     "hex": "#1F398A"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1F60DB",
+     "hex": "#1F60DB"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 205FAF",
+     "hex": "#205FAF"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2078B7",
+     "hex": "#2078B7"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 207AC8",
+     "hex": "#207AC8"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 213D86",
+     "hex": "#213D86"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 224C97",
+     "hex": "#224C97"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2275C0",
+     "hex": "#2275C0"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 235BA7",
+     "hex": "#235BA7"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 24468E",
+     "hex": "#24468E"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 254F9E",
+     "hex": "#254F9E"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 254FA2",
+     "hex": "#254FA2"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 264CA1",
+     "hex": "#264CA1"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2668F0",
+     "hex": "#2668F0"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 274A90",
+     "hex": "#274A90"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 27519F",
+     "hex": "#27519F"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2755A6",
+     "hex": "#2755A6"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2850A1",
+     "hex": "#2850A1"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2868DA",
+     "hex": "#2868DA"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2868E6",
+     "hex": "#2868E6"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2A5898",
+     "hex": "#2A5898"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2A63CA",
+     "hex": "#2A63CA"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2A66CE",
+     "hex": "#2A66CE"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2B5DBE",
+     "hex": "#2B5DBE"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2B64C3",
+     "hex": "#2B64C3"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2C3F96",
+     "hex": "#2C3F96"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2C448B",
+     "hex": "#2C448B"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2C64C6",
+     "hex": "#2C64C6"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2C65CA",
+     "hex": "#2C65CA"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 3165B8",
+     "hex": "#3165B8"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 385576",
+     "hex": "#385576"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 3C5271",
+     "hex": "#3C5271"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 3D5175",
+     "hex": "#3D5175"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 3D5273",
+     "hex": "#3D5273"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 3D5375",
+     "hex": "#3D5375"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 42577A",
+     "hex": "#42577A"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 445778",
+     "hex": "#445778"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 445A7E",
+     "hex": "#445A7E"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 4471B2",
+     "hex": "#4471B2"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 455D83",
+     "hex": "#455D83"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 465778",
+     "hex": "#465778"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 48597E",
+     "hex": "#48597E"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 485E82",
+     "hex": "#485E82"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 505E76",
+     "hex": "#505E76"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 526688",
+     "hex": "#526688"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 556088",
+     "hex": "#556088"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 58647E",
+     "hex": "#58647E"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 586F91",
+     "hex": "#586F91"
+    },
+    {
+     "name": "AAP Tone Daylight",
+     "hex": "#C1F2F5"
+    },
+    {
+     "name": "AAP Tone Daylight C2F2F6",
+     "hex": "#C2F2F6"
+    },
+    {
+     "name": "AAP Tone Daylight C9F1F5",
+     "hex": "#C9F1F5"
+    },
+    {
+     "name": "AAP Tone Daylight CAF3F8",
+     "hex": "#CAF3F8"
+    },
+    {
+     "name": "AAP Tone Daylight CBFBFB",
+     "hex": "#CBFBFB"
+    },
+    {
+     "name": "AAP Tone Daylight D6FBFC",
+     "hex": "#D6FBFC"
+    },
+    {
+     "name": "AAP Tone Daylight D7F8FA",
+     "hex": "#D7F8FA"
+    },
+    {
+     "name": "AAP Tone Daylight DDFEFE",
+     "hex": "#DDFEFE"
+    },
+    {
+     "name": "AAP Tone Daylight E0FDFE",
+     "hex": "#E0FDFE"
+    },
+    {
+     "name": "AAP Tone Daylight E1F7F9",
+     "hex": "#E1F7F9"
+    },
+    {
+     "name": "AAP Tone Daylight E2FDFD",
+     "hex": "#E2FDFD"
+    },
+    {
+     "name": "AAP Tone Daylight E5F7F8",
+     "hex": "#E5F7F8"
+    },
+    {
+     "name": "AAP Tone Daylight E5FBFC",
+     "hex": "#E5FBFC"
+    },
+    {
+     "name": "AAP Tone Daylight E6F6F8",
+     "hex": "#E6F6F8"
+    },
+    {
+     "name": "AAP Tone Daylight E6FCFE",
+     "hex": "#E6FCFE"
+    },
+    {
+     "name": "AAP Tone Daylight E7FAFE",
+     "hex": "#E7FAFE"
+    },
+    {
+     "name": "AAP Tone Daylight EAFAFB",
+     "hex": "#EAFAFB"
+    },
+    {
+     "name": "AAP Tone Daylight EBF8FA",
+     "hex": "#EBF8FA"
+    },
+    {
+     "name": "AAP Tone Daylight EDF5F9",
+     "hex": "#EDF5F9"
+    },
+    {
+     "name": "AAP Tone Daylight EDFFFF",
+     "hex": "#EDFFFF"
+    },
+    {
+     "name": "AAP Tone Daylight F4FCFC",
+     "hex": "#F4FCFC"
+    },
+    {
+     "name": "AAP Tone Daylight F5FAFB",
+     "hex": "#F5FAFB"
+    },
+    {
+     "name": "AAP Tone Partner Navy 04264C",
+     "hex": "#04264C"
+    },
+    {
+     "name": "AAP Tone Partner Navy 052749",
+     "hex": "#052749"
+    },
+    {
+     "name": "AAP Tone Partner Navy 063E6D",
+     "hex": "#063E6D"
+    },
+    {
+     "name": "AAP Tone Partner Navy 091E3A",
+     "hex": "#091E3A"
+    },
+    {
+     "name": "AAP Tone Partner Navy 0B294D",
+     "hex": "#0B294D"
+    },
+    {
+     "name": "AAP Tone Partner Navy 0B2C4C",
+     "hex": "#0B2C4C"
+    },
+    {
+     "name": "AAP Tone Partner Navy 114068",
+     "hex": "#114068"
+    },
+    {
+     "name": "AAP Tone Partner Navy 122547",
+     "hex": "#122547"
+    },
+    {
+     "name": "AAP Tone Partner Navy 123472",
+     "hex": "#123472"
+    },
+    {
+     "name": "AAP Tone Partner Navy 132746",
+     "hex": "#132746"
+    },
+    {
+     "name": "AAP Tone Partner Navy 152B53",
+     "hex": "#152B53"
+    },
+    {
+     "name": "AAP Tone Partner Navy 163562",
+     "hex": "#163562"
+    },
+    {
+     "name": "AAP Tone Partner Navy 173362",
+     "hex": "#173362"
+    },
+    {
+     "name": "AAP Tone Partner Navy 183F7E",
+     "hex": "#183F7E"
+    },
+    {
+     "name": "AAP Tone Partner Navy 193256",
+     "hex": "#193256"
+    },
+    {
+     "name": "AAP Tone Partner Navy 19325D",
+     "hex": "#19325D"
+    },
+    {
+     "name": "AAP Tone Partner Navy 1D3663",
+     "hex": "#1D3663"
+    },
+    {
+     "name": "AAP Tone Partner Navy 203657",
+     "hex": "#203657"
+    },
+    {
+     "name": "AAP Tone Partner Navy 203659",
+     "hex": "#203659"
+    },
+    {
+     "name": "AAP Tone Partner Navy 213757",
+     "hex": "#213757"
+    },
+    {
+     "name": "AAP Tone Partner Navy 223A5D",
+     "hex": "#223A5D"
+    },
+    {
+     "name": "AAP Tone Partner Navy 234179",
+     "hex": "#234179"
+    },
+    {
+     "name": "AAP Tone Partner Navy 243B5C",
+     "hex": "#243B5C"
+    },
+    {
+     "name": "AAP Tone Partner Navy 25427D",
+     "hex": "#25427D"
+    },
+    {
+     "name": "AAP Tone Partner Navy 263C5E",
+     "hex": "#263C5E"
+    },
+    {
+     "name": "AAP Tone Partner Navy 26437A",
+     "hex": "#26437A"
+    },
+    {
+     "name": "AAP Tone Partner Navy 283D62",
+     "hex": "#283D62"
+    },
+    {
+     "name": "AAP Tone Partner Navy 2A3B6B",
+     "hex": "#2A3B6B"
+    },
+    {
+     "name": "AAP Tone Partner Navy 2E4468",
+     "hex": "#2E4468"
+    },
+    {
+     "name": "AAP Tone Partner Navy 32486F",
+     "hex": "#32486F"
+    },
+    {
+     "name": "AAP Tone Partner Navy 364B6A",
+     "hex": "#364B6A"
+    },
+    {
+     "name": "AAP Tone Partner Navy 394C6B",
+     "hex": "#394C6B"
+    },
+    {
+     "name": "AAP Tone Pure White",
+     "hex": "#F9FEFF"
+    },
+    {
+     "name": "AAP Tone Pure White F9FFFF",
+     "hex": "#F9FFFF"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 0EDAEF",
+     "hex": "#0EDAEF"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 0FDAF0",
+     "hex": "#0FDAF0"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 11DEEE",
+     "hex": "#11DEEE"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 12D8ED",
+     "hex": "#12D8ED"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 1496C8",
+     "hex": "#1496C8"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 14DCEF",
+     "hex": "#14DCEF"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 15D9EB",
+     "hex": "#15D9EB"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 1891C4",
+     "hex": "#1891C4"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 1EC0E4",
+     "hex": "#1EC0E4"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 20D4EC",
+     "hex": "#20D4EC"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 39D1DB",
+     "hex": "#39D1DB"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 3ECADD",
+     "hex": "#3ECADD"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 66DFE5",
+     "hex": "#66DFE5"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 6ADDE6",
+     "hex": "#6ADDE6"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 7EEAEE",
+     "hex": "#7EEAEE"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 8DE7EC",
+     "hex": "#8DE7EC"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 91E1E4",
+     "hex": "#91E1E4"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 9DEEEF",
+     "hex": "#9DEEEF"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan A3EEF2",
+     "hex": "#A3EEF2"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan B0EAEB",
+     "hex": "#B0EAEB"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 03",
+   "colors": [
+    {
+     "name": "AAP Tone Partner Navy 132237",
+     "hex": "#132237"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 3FCCD8",
+     "hex": "#3FCCD8"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 04",
+   "colors": [
+    {
+     "name": "AAP Mark Slate 2",
+     "hex": "#3D5579"
+    },
+    {
+     "name": "AAP Tone Alliance Blue",
+     "hex": "#004A74"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1091E1",
+     "hex": "#1091E1"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 194A96",
+     "hex": "#194A96"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1980C6",
+     "hex": "#1980C6"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1C75EC",
+     "hex": "#1C75EC"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1F65F4",
+     "hex": "#1F65F4"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1F71B9",
+     "hex": "#1F71B9"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 225BC5",
+     "hex": "#225BC5"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2261DD",
+     "hex": "#2261DD"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2351B0",
+     "hex": "#2351B0"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2354A5",
+     "hex": "#2354A5"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2363B3",
+     "hex": "#2363B3"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 274798",
+     "hex": "#274798"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 315377",
+     "hex": "#315377"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 4B749C",
+     "hex": "#4B749C"
+    },
+    {
+     "name": "AAP Tone Partner Navy",
+     "hex": "#001A47"
+    },
+    {
+     "name": "AAP Tone Partner Navy 00255A",
+     "hex": "#00255A"
+    },
+    {
+     "name": "AAP Tone Partner Navy 093B75",
+     "hex": "#093B75"
+    },
+    {
+     "name": "AAP Tone Partner Navy 0F2E56",
+     "hex": "#0F2E56"
+    },
+    {
+     "name": "AAP Tone Partner Navy 132032",
+     "hex": "#132032"
+    },
+    {
+     "name": "AAP Tone Partner Navy 173578",
+     "hex": "#173578"
+    },
+    {
+     "name": "AAP Tone Partner Navy 193E82",
+     "hex": "#193E82"
+    },
+    {
+     "name": "AAP Tone Partner Navy 1D385C",
+     "hex": "#1D385C"
+    },
+    {
+     "name": "AAP Tone Partner Navy 283E65",
+     "hex": "#283E65"
+    },
+    {
+     "name": "AAP Tone Partner Navy 2C466A",
+     "hex": "#2C466A"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan",
+     "hex": "#05E9F8"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 0BD9F1",
+     "hex": "#0BD9F1"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 11A3EC",
+     "hex": "#11A3EC"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 17DCF2",
+     "hex": "#17DCF2"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 2AF5FA",
+     "hex": "#2AF5FA"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 33ADDF",
+     "hex": "#33ADDF"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 3BCCF3",
+     "hex": "#3BCCF3"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 4CB7F3",
+     "hex": "#4CB7F3"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 5FE8F6",
+     "hex": "#5FE8F6"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 86EDFA",
+     "hex": "#86EDFA"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan A2F8FF",
+     "hex": "#A2F8FF"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan B8F0FF",
+     "hex": "#B8F0FF"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 05",
+   "colors": [
+    {
+     "name": "AAP Bird 05 Blue 1",
+     "hex": "#2257B7"
+    },
+    {
+     "name": "AAP Bird 05 Blue 2",
+     "hex": "#2D60C7"
+    },
+    {
+     "name": "AAP Bird 05 Cyan 1",
+     "hex": "#31BFD8"
+    },
+    {
+     "name": "AAP Bird 05 Deep Blue 1",
+     "hex": "#122A65"
+    },
+    {
+     "name": "AAP Bird 05 Deep Blue 2",
+     "hex": "#102E70"
+    },
+    {
+     "name": "AAP Bird 05 Sky 1",
+     "hex": "#12C5EC"
+    },
+    {
+     "name": "AAP Bird 05 Sky 2",
+     "hex": "#0CCCF0"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 06",
+   "colors": [
+    {
+     "name": "AAP Mark Azure 1",
+     "hex": "#1984C5"
+    },
+    {
+     "name": "AAP Mark Azure 2",
+     "hex": "#1E7CC4"
+    },
+    {
+     "name": "AAP Mark Blue 11",
+     "hex": "#183B7D"
+    },
+    {
+     "name": "AAP Mark Blue 12",
+     "hex": "#1D3A76"
+    },
+    {
+     "name": "AAP Mark Blue 3",
+     "hex": "#296BE1"
+    },
+    {
+     "name": "AAP Mark Blue 5",
+     "hex": "#2660C5"
+    },
+    {
+     "name": "AAP Mark Blue 8",
+     "hex": "#2654A7"
+    },
+    {
+     "name": "AAP Mark Blue 9",
+     "hex": "#27489E"
+    },
+    {
+     "name": "AAP Mark Cyan",
+     "hex": "#0AE4F7"
+    },
+    {
+     "name": "AAP Mark Navy 2",
+     "hex": "#1C2F4F"
+    },
+    {
+     "name": "AAP Mark Navy 3",
+     "hex": "#132C52"
+    },
+    {
+     "name": "AAP Mark Navy 4",
+     "hex": "#0A1E3E"
+    },
+    {
+     "name": "AAP Mark Navy 5",
+     "hex": "#081834"
+    },
+    {
+     "name": "AAP Mark Slate 1",
+     "hex": "#42597D"
+    },
+    {
+     "name": "AAP Mark Slate 3",
+     "hex": "#33496C"
+    },
+    {
+     "name": "AAP Mark Slate 4",
+     "hex": "#2D4366"
+    },
+    {
+     "name": "AAP Mark Slate 5",
+     "hex": "#213B66"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 07",
+   "colors": [
+    {
+     "name": "AAP Tone Partner Navy 142336",
+     "hex": "#142336"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 3FCCD9",
+     "hex": "#3FCCD9"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 08",
+   "colors": [
+    {
+     "name": "AAP Bird 08 Azure 1",
+     "hex": "#204684"
+    },
+    {
+     "name": "AAP Bird 08 Azure 2",
+     "hex": "#0E66A9"
+    },
+    {
+     "name": "AAP Bird 08 Azure 3",
+     "hex": "#056BBA"
+    },
+    {
+     "name": "AAP Bird 08 Azure 4",
+     "hex": "#0476B9"
+    },
+    {
+     "name": "AAP Bird 08 Azure 5",
+     "hex": "#0682C2"
+    },
+    {
+     "name": "AAP Bird 08 Azure 6",
+     "hex": "#1A89CF"
+    },
+    {
+     "name": "AAP Bird 08 Blue 1",
+     "hex": "#1747A3"
+    },
+    {
+     "name": "AAP Bird 08 Blue 2",
+     "hex": "#1541BE"
+    },
+    {
+     "name": "AAP Bird 08 Blue 3",
+     "hex": "#204DBC"
+    },
+    {
+     "name": "AAP Bird 08 Blue 4",
+     "hex": "#1E54B4"
+    },
+    {
+     "name": "AAP Bird 08 Blue 5",
+     "hex": "#144ED0"
+    },
+    {
+     "name": "AAP Bird 08 Blue 6",
+     "hex": "#1862C8"
+    },
+    {
+     "name": "AAP Bird 08 Blue 7",
+     "hex": "#236EE7"
+    },
+    {
+     "name": "AAP Bird 08 Blue 8",
+     "hex": "#2A76F6"
+    },
+    {
+     "name": "AAP Bird 08 Cyan 1",
+     "hex": "#2CAEC1"
+    },
+    {
+     "name": "AAP Bird 08 Cyan 2",
+     "hex": "#07D3F2"
+    },
+    {
+     "name": "AAP Bird 08 Cyan 3",
+     "hex": "#2DD7DF"
+    },
+    {
+     "name": "AAP Bird 08 Cyan 4",
+     "hex": "#0EF0FF"
+    },
+    {
+     "name": "AAP Bird 08 Cyan 5",
+     "hex": "#04FFFF"
+    },
+    {
+     "name": "AAP Bird 08 Deep Blue 1",
+     "hex": "#021956"
+    },
+    {
+     "name": "AAP Bird 08 Deep Blue 2",
+     "hex": "#082966"
+    },
+    {
+     "name": "AAP Bird 08 Deep Blue 3",
+     "hex": "#0A2F79"
+    },
+    {
+     "name": "AAP Bird 08 Navy 1",
+     "hex": "#243447"
+    },
+    {
+     "name": "AAP Bird 08 Sky 1",
+     "hex": "#098DC6"
+    },
+    {
+     "name": "AAP Bird 08 Sky 2",
+     "hex": "#0998D1"
+    },
+    {
+     "name": "AAP Bird 08 Sky 3",
+     "hex": "#159BC2"
+    },
+    {
+     "name": "AAP Bird 08 Sky 4",
+     "hex": "#06ACD8"
+    },
+    {
+     "name": "AAP Bird 08 Sky 5",
+     "hex": "#09B3EB"
+    },
+    {
+     "name": "AAP Bird 08 Sky 6",
+     "hex": "#06B8E4"
+    },
+    {
+     "name": "AAP Bird 08 Sky 7",
+     "hex": "#03C3E9"
+    },
+    {
+     "name": "AAP Bird 08 Slate 1",
+     "hex": "#313C50"
+    },
+    {
+     "name": "AAP Bird 08 Slate 2",
+     "hex": "#2E3D4F"
+    },
+    {
+     "name": "AAP Bird 08 Slate 3",
+     "hex": "#2B3F58"
+    },
+    {
+     "name": "AAP Bird 08 Slate 4",
+     "hex": "#2A4163"
+    },
+    {
+     "name": "AAP Bird 08 Slate 5",
+     "hex": "#1E4464"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 0ED0F2",
+     "hex": "#0ED0F2"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 09",
+   "colors": [
+    {
+     "name": "AAP Tone Partner Navy 112034",
+     "hex": "#112034"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 3BD0DC",
+     "hex": "#3BD0DC"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 10",
+   "colors": [
+    {
+     "name": "AAP Tone Ribbon Cyan 0CC6EB",
+     "hex": "#0CC6EB"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 11",
+   "colors": [
+    {
+     "name": "AAP Tone Partner Navy 112131",
+     "hex": "#112131"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 3ECDDB",
+     "hex": "#3ECDDB"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 12",
+   "colors": [
+    {
+     "name": "AAP Tone Partner Navy 121F32",
+     "hex": "#121F32"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 1CC5EB",
+     "hex": "#1CC5EB"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 13",
+   "colors": [
+    {
+     "name": "AAP Accent Blue B",
+     "hex": "#1451CC"
+    },
+    {
+     "name": "AAP Accent Cyan A",
+     "hex": "#08DBE8"
+    },
+    {
+     "name": "AAP Ink Navy B",
+     "hex": "#081638"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 137FB9",
+     "hex": "#137FB9"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1781BD",
+     "hex": "#1781BD"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1C76BB",
+     "hex": "#1C76BB"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 1F5EA1",
+     "hex": "#1F5EA1"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 21468B",
+     "hex": "#21468B"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 235399",
+     "hex": "#235399"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 25438C",
+     "hex": "#25438C"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 25509E",
+     "hex": "#25509E"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2568E5",
+     "hex": "#2568E5"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2651A0",
+     "hex": "#2651A0"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 275DB7",
+     "hex": "#275DB7"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2764BF",
+     "hex": "#2764BF"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 2867D8",
+     "hex": "#2867D8"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 3A5378",
+     "hex": "#3A5378"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 3D557D",
+     "hex": "#3D557D"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 3F5B81",
+     "hex": "#3F5B81"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 41597E",
+     "hex": "#41597E"
+    },
+    {
+     "name": "AAP Tone Alliance Blue 455E84",
+     "hex": "#455E84"
+    },
+    {
+     "name": "AAP Tone Partner Navy 05203E",
+     "hex": "#05203E"
+    },
+    {
+     "name": "AAP Tone Partner Navy 0A2342",
+     "hex": "#0A2342"
+    },
+    {
+     "name": "AAP Tone Partner Navy 0C2847",
+     "hex": "#0C2847"
+    },
+    {
+     "name": "AAP Tone Partner Navy 103972",
+     "hex": "#103972"
+    },
+    {
+     "name": "AAP Tone Partner Navy 122B51",
+     "hex": "#122B51"
+    },
+    {
+     "name": "AAP Tone Partner Navy 173560",
+     "hex": "#173560"
+    },
+    {
+     "name": "AAP Tone Partner Navy 193253",
+     "hex": "#193253"
+    },
+    {
+     "name": "AAP Tone Partner Navy 1A3B7C",
+     "hex": "#1A3B7C"
+    },
+    {
+     "name": "AAP Tone Partner Navy 1D385B",
+     "hex": "#1D385B"
+    },
+    {
+     "name": "AAP Tone Partner Navy 1F3A7D",
+     "hex": "#1F3A7D"
+    },
+    {
+     "name": "AAP Tone Partner Navy 203A5E",
+     "hex": "#203A5E"
+    },
+    {
+     "name": "AAP Tone Partner Navy 204177",
+     "hex": "#204177"
+    },
+    {
+     "name": "AAP Tone Partner Navy 2C4568",
+     "hex": "#2C4568"
+    },
+    {
+     "name": "AAP Tone Partner Navy 31486B",
+     "hex": "#31486B"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 0AD5E5",
+     "hex": "#0AD5E5"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 0CD2E2",
+     "hex": "#0CD2E2"
+    },
+    {
+     "name": "AAP Tone Ribbon Cyan 0ED2E1",
+     "hex": "#0ED2E1"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 14",
+   "colors": [
+    {
+     "name": "AAP AP14 Azure 1",
+     "hex": "#017FB8"
+    },
+    {
+     "name": "AAP AP14 Azure 2",
+     "hex": "#0177BD"
+    },
+    {
+     "name": "AAP AP14 Blue 1",
+     "hex": "#1860E0"
+    },
+    {
+     "name": "AAP AP14 Blue 2",
+     "hex": "#1759CA"
+    },
+    {
+     "name": "AAP AP14 Blue 3",
+     "hex": "#17568D"
+    },
+    {
+     "name": "AAP AP14 Blue 4",
+     "hex": "#0D4A98"
+    },
+    {
+     "name": "AAP AP14 Blue 5",
+     "hex": "#1B4599"
+    },
+    {
+     "name": "AAP AP14 Blue 6",
+     "hex": "#123690"
+    },
+    {
+     "name": "AAP AP14 Cyan 1",
+     "hex": "#04E3E0"
+    },
+    {
+     "name": "AAP AP14 Cyan 2",
+     "hex": "#03E0E7"
+    },
+    {
+     "name": "AAP AP14 Cyan 3",
+     "hex": "#03D0E9"
+    },
+    {
+     "name": "AAP AP14 Cyan 4",
+     "hex": "#09BDC4"
+    },
+    {
+     "name": "AAP AP14 Cyan 5",
+     "hex": "#04B1CC"
+    },
+    {
+     "name": "AAP AP14 Cyan 6",
+     "hex": "#0DA6C3"
+    },
+    {
+     "name": "AAP AP14 Navy 1",
+     "hex": "#0F2886"
+    },
+    {
+     "name": "AAP AP14 Navy 2",
+     "hex": "#0B315F"
+    },
+    {
+     "name": "AAP AP14 Navy 3",
+     "hex": "#0E286C"
+    },
+    {
+     "name": "AAP AP14 Navy 4",
+     "hex": "#0A295F"
+    },
+    {
+     "name": "AAP AP14 Navy 5",
+     "hex": "#082350"
+    },
+    {
+     "name": "AAP AP14 Navy 6",
+     "hex": "#031F47"
+    },
+    {
+     "name": "AAP AP14 Slate 1",
+     "hex": "#0A83A1"
+    },
+    {
+     "name": "AAP AP14 Slate 2",
+     "hex": "#18608E"
+    },
+    {
+     "name": "AAP AP14 Slate 3",
+     "hex": "#175C8B"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 15",
+   "colors": [
+    {
+     "name": "AAP Bird Azure 1",
+     "hex": "#1B78CF"
+    },
+    {
+     "name": "AAP Bird Azure 2",
+     "hex": "#1884D4"
+    },
+    {
+     "name": "AAP Bird Azure 3",
+     "hex": "#1190DC"
+    },
+    {
+     "name": "AAP Bird Blue 1",
+     "hex": "#2659D8"
+    },
+    {
+     "name": "AAP Bird Blue 2",
+     "hex": "#1F69E2"
+    },
+    {
+     "name": "AAP Bird Blue 3",
+     "hex": "#2566F7"
+    },
+    {
+     "name": "AAP Bird Blue 4",
+     "hex": "#1C72E2"
+    },
+    {
+     "name": "AAP Bird Cyan 1",
+     "hex": "#0DD8E3"
+    },
+    {
+     "name": "AAP Bird Cyan 2",
+     "hex": "#0FE4E8"
+    },
+    {
+     "name": "AAP Bird Cyan 3",
+     "hex": "#04E6DF"
+    },
+    {
+     "name": "AAP Bird Cyan 4",
+     "hex": "#07F4F0"
+    },
+    {
+     "name": "AAP Bird Deep Blue 1",
+     "hex": "#132D60"
+    },
+    {
+     "name": "AAP Bird Navy 1",
+     "hex": "#0F233D"
+    },
+    {
+     "name": "AAP Bird Navy 2",
+     "hex": "#1C304D"
+    },
+    {
+     "name": "AAP Bird Sky 1",
+     "hex": "#129DDD"
+    },
+    {
+     "name": "AAP Bird Sky 2",
+     "hex": "#10ABDC"
+    },
+    {
+     "name": "AAP Bird Sky 3",
+     "hex": "#0EB7DA"
+    },
+    {
+     "name": "AAP Bird Slate 1",
+     "hex": "#2C4260"
+    },
+    {
+     "name": "AAP Bird Slate 2",
+     "hex": "#3A4F6F"
+    },
+    {
+     "name": "AAP Bird Slate 3",
+     "hex": "#41577A"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 16",
+   "colors": [
+    {
+     "name": "AAP Tone Ribbon Cyan 1AC7EA",
+     "hex": "#1AC7EA"
+    }
+   ]
+  },
+  {
+   "group": "AAP Rec 17",
+   "colors": [
+    {
+     "name": "AAP Shield Dark Blue",
+     "hex": "#275CC6"
+    },
+    {
+     "name": "AAP Shield Dark Blue 2",
+     "hex": "#29609A"
+    },
+    {
+     "name": "AAP Shield Dark Blue 3",
+     "hex": "#2857B0"
+    },
+    {
+     "name": "AAP Shield Dark Blue 4",
+     "hex": "#1F5087"
+    },
+    {
+     "name": "AAP Shield Dark Blue 5",
+     "hex": "#224185"
+    },
+    {
+     "name": "AAP Shield Dark Blue 6",
+     "hex": "#25426B"
+    },
+    {
+     "name": "AAP Shield Deep Blue",
+     "hex": "#1E3871"
+    },
+    {
+     "name": "AAP Shield Deep Blue 2",
+     "hex": "#1A305B"
+    },
+    {
+     "name": "AAP Shield Deep Blue 3",
+     "hex": "#14284C"
+    },
+    {
+     "name": "AAP Shield Deep Blue 4",
+     "hex": "#1B2250"
+    },
+    {
+     "name": "AAP Shield Light Azure",
+     "hex": "#30A1DB"
+    },
+    {
+     "name": "AAP Shield Light Cerulean",
+     "hex": "#1AA2C8"
+    },
+    {
+     "name": "AAP Shield Light Cyan",
+     "hex": "#1DACD0"
+    },
+    {
+     "name": "AAP Shield Mid Azure",
+     "hex": "#3190D7"
+    },
+    {
+     "name": "AAP Shield Mid Azure 2",
+     "hex": "#1F7CBA"
+    },
+    {
+     "name": "AAP Shield Mid Blue",
+     "hex": "#2975D5"
+    },
+    {
+     "name": "AAP Shield Mid Blue 2",
+     "hex": "#396FC4"
+    },
+    {
+     "name": "AAP Shield Mid Blue 3",
+     "hex": "#2868B5"
+    },
+    {
+     "name": "AAP Shield Mid Cerulean",
+     "hex": "#1995BD"
+    },
+    {
+     "name": "AAP Shield Mid Cyan",
+     "hex": "#2D97B1"
+    },
+    {
+     "name": "AAP Shield Pale Cyan",
+     "hex": "#7DF9F9"
+    },
+    {
+     "name": "AAP Shield Pale Cyan 2",
+     "hex": "#15F3F5"
+    },
+    {
+     "name": "AAP Shield Pale Cyan 3",
+     "hex": "#1ADBE1"
+    },
+    {
+     "name": "AAP Shield Pale Cyan 4",
+     "hex": "#43D2E5"
+    }
+   ]
+  }
+ ],
+ "keepBackground": true,
+ "exports": [
+  {
+   "type": "png",
+   "folder": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\02_Original-Recreations\\PNG",
+   "scale": 1,
+   "transparent": false,
+   "prefix": "AAP_",
+   "artboards": "1-17"
+  },
+  {
+   "type": "svg",
+   "folder": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\02_Original-Recreations\\SVG",
+   "transparent": false,
+   "prefix": "AAP_",
+   "artboards": "1-17"
+  }
+ ],
+ "inventory": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\verify\\recreations.inventory.json"
+}

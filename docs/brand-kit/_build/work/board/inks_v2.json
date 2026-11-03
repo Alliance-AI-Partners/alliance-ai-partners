@@ -1,0 +1,2519 @@
+{
+ "background": {
+  "kind": "background",
+  "paint": "fill",
+  "color": "#F4F7FB",
+  "weight": 667544.0,
+  "ink": [
+   245.0,
+   250.0,
+   253.0
+  ],
+  "method": "median of the flat background"
+ },
+ "divider-header": {
+  "kind": "rule",
+  "group": "dividers",
+  "paint": "stroke",
+  "color": "#050912",
+  "ink": [
+   4.39923243800921,
+   9.339205183575924,
+   19.0446711961484
+  ],
+  "width_fit": 1.7500000000000009,
+  "rms": 2.658420767952391,
+  "bg": [
+   245.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.75,
+  "weight": 2295.5275000000006,
+  "method": "width + ink through the JPEG model (centre fixed)"
+ },
+ "divider-row-left": {
+  "kind": "rule",
+  "group": "dividers",
+  "paint": "stroke",
+  "color": "#121823",
+  "ink": [
+   18.239341250738597,
+   23.701569777024673,
+   34.814798300683954
+  ],
+  "width_fit": 1.6100000000000008,
+  "rms": 2.124794472515057,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.61,
+  "weight": 1037.8382000000006,
+  "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 3 segments of divider-row"
+ },
+ "divider-row-mid": {
+  "kind": "rule",
+  "group": "dividers",
+  "paint": "stroke",
+  "color": "#121823",
+  "ink": [
+   18.239341250738597,
+   23.701569777024673,
+   34.814798300683954
+  ],
+  "width_fit": 1.6100000000000008,
+  "rms": 2.124794472515057,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.61,
+  "weight": 482.0340000000004,
+  "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 3 segments of divider-row"
+ },
+ "divider-row-right": {
+  "kind": "rule",
+  "group": "dividers",
+  "paint": "stroke",
+  "color": "#121823",
+  "ink": [
+   18.239341250738597,
+   23.701569777024673,
+   34.814798300683954
+  ],
+  "width_fit": 1.6100000000000008,
+  "rms": 2.124794472515057,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.61,
+  "weight": 516.7295000000001,
+  "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 3 segments of divider-row"
+ },
+ "divider-col1-top": {
+  "kind": "rule",
+  "group": "dividers",
+  "paint": "stroke",
+  "color": "#303940",
+  "ink": [
+   48.3127521871146,
+   56.76171337176977,
+   64.06249182846125
+  ],
+  "width_fit": 2.060000000000001,
+  "rms": 3.4309883990477146,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 2.06,
+  "weight": 533.8490000000002,
+  "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 2 segments of divider-col1"
+ },
+ "divider-col1-bottom": {
+  "kind": "rule",
+  "group": "dividers",
+  "paint": "stroke",
+  "color": "#303940",
+  "ink": [
+   48.3127521871146,
+   56.76171337176977,
+   64.06249182846125
+  ],
+  "width_fit": 2.060000000000001,
+  "rms": 3.4309883990477146,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 2.06,
+  "weight": 594.5160000000003,
+  "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 2 segments of divider-col1"
+ },
+ "divider-col2": {
+  "kind": "rule",
+  "group": "dividers",
+  "paint": "stroke",
+  "color": "#10151E",
+  "ink": [
+   17.04620299522004,
+   22.70564952333191,
+   30.55086540811684
+  ],
+  "width_fit": 1.5900000000000007,
+  "rms": 3.167766967817286,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.58,
+  "weight": 458.4129000000002,
+  "method": "width + ink through the JPEG model (centre fixed)"
+ },
+ "swatch-vibrant-blue": {
+  "kind": "swatch",
+  "group": "color-palette-swatches",
+  "paint": "fill",
+  "color": "#1B56FF",
+  "ink": [
+   27.0,
+   90.0,
+   255.0
+  ],
+  "method": "disc interior (eroded 4 px)",
+  "weight": 6461.0701372074745
+ },
+ "swatch-bright-cyan": {
+  "kind": "swatch",
+  "group": "color-palette-swatches",
+  "paint": "fill",
+  "color": "#04D0F2",
+  "ink": [
+   0.0,
+   209.0,
+   242.0
+  ],
+  "method": "disc interior (eroded 4 px)",
+  "weight": 6461.0701372074745
+ },
+ "swatch-deep-navy": {
+  "kind": "swatch",
+  "group": "color-palette-swatches",
+  "paint": "fill",
+  "color": "#121B2A",
+  "ink": [
+   17.0,
+   29.0,
+   47.0
+  ],
+  "method": "disc interior (eroded 4 px)",
+  "weight": 6461.0701372074745
+ },
+ "swatch-pure-white": {
+  "kind": "swatch",
+  "group": "color-palette-swatches",
+  "paint": "fill",
+  "color": "#FFFFFF",
+  "ink": [
+   255.0,
+   255.0,
+   255.0
+  ],
+  "method": "disc interior (eroded 4 px)",
+  "weight": 6246.328456326937
+ },
+ "swatch-pure-white:ring": {
+  "kind": "ring",
+  "group": "color-palette-swatches",
+  "paint": "stroke",
+  "color": "#282F3C",
+  "ink": [
+   37.461966828414376,
+   44.33849295042961,
+   56.657835206264586
+  ],
+  "width_fit": 1.5000000000000007,
+  "rms": 5.0123045267912385,
+  "drawn_width": 1.53,
+  "weight": 420.25084927070685,
+  "method": "ring width + ink through the JPEG model over the swatch fill"
+ },
+ "swatch-off-white": {
+  "kind": "swatch",
+  "group": "color-palette-swatches",
+  "paint": "fill",
+  "color": "#F4F7FB",
+  "ink": [
+   243.0,
+   246.0,
+   251.0
+  ],
+  "method": "disc interior (eroded 4 px)",
+  "weight": 6265.955556430237
+ },
+ "swatch-off-white:ring": {
+  "kind": "ring",
+  "group": "color-palette-swatches",
+  "paint": "stroke",
+  "color": "#97989F",
+  "ink": [
+   151.48401304994212,
+   152.26977481447008,
+   159.6120201129582
+  ],
+  "width_fit": 1.1700000000000004,
+  "rms": 2.7235979893082995,
+  "drawn_width": 1.16,
+  "weight": 328.3102553078092,
+  "method": "ring width + ink through the JPEG model over the swatch fill"
+ },
+ "tile-two-tone": {
+  "kind": "tile",
+  "group": "logo-variation-tiles",
+  "paint": "fill",
+  "color": "#121B2A",
+  "ink": [
+   17.0,
+   29.0,
+   47.0
+  ],
+  "method": "tile interior away from the mark",
+  "weight": 5077.0
+ },
+ "tile-flat": {
+  "kind": "tile",
+  "group": "logo-variation-tiles",
+  "paint": "fill",
+  "color": "#121B2A",
+  "ink": [
+   18.0,
+   29.0,
+   47.0
+  ],
+  "method": "tile interior away from the mark",
+  "weight": 5077.0
+ },
+ "cs-grid-h-top-corner": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 7.765499999999772,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-h-top": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 290.9306999999977,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-h-mark-top-corner": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 10.33730000000035,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-h-mark-top": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 305.326100000014,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-h-mark-bottom-corner": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 10.370700000000323,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-h-mark-bottom": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 305.7770000000136,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-h-bottom-corner": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 6.613200000000159,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-h-bottom": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 297.4270000000132,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-v-left-corner": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 8.23310000000037,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-v-left": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 216.58230000000896,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-v-mark-left-corner": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 6.646600000000319,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-v-mark-left": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 233.13200000001257,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-v-mark-right-corner": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 6.696700000000277,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-v-mark-right": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 217.7346000000129,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-v-right-corner": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 8.38340000000043,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-grid-v-right": {
+  "kind": "cs",
+  "group": "clear-space-grid",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 233.69980000001064,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-arrow-top": {
+  "kind": "cs",
+  "group": "clear-space-arrows",
+  "paint": "fill",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 83.5625,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-arrow-bottom": {
+  "kind": "cs",
+  "group": "clear-space-arrows",
+  "paint": "fill",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 87.765625,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-arrow-left": {
+  "kind": "cs",
+  "group": "clear-space-arrows",
+  "paint": "fill",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 85.90625,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-arrow-right": {
+  "kind": "cs",
+  "group": "clear-space-arrows",
+  "paint": "fill",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 82.34375,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-cross-tl": {
+  "kind": "cs",
+  "group": "clear-space-crosses",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 97.21875,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-cross-tr": {
+  "kind": "cs",
+  "group": "clear-space-crosses",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 97.390625,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-cross-bl": {
+  "kind": "cs",
+  "group": "clear-space-crosses",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 97.578125,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "cs-cross-br": {
+  "kind": "cs",
+  "group": "clear-space-crosses",
+  "paint": "stroke",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 97.390625,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "txt-title": {
+  "kind": "text",
+  "group": "text-header",
+  "paint": "fill",
+  "color": "#151A37",
+  "stroke_w": 6.97,
+  "interior": [
+   21.0,
+   26.0,
+   54.0
+  ],
+  "interior_n": 4704,
+  "weight": 9276.484375,
+  "ink": [
+   21.0,
+   26.0,
+   54.0
+  ],
+  "method": "eroded interior median (w 6.97 px)",
+  "setting": "title"
+ },
+ "txt-title-ai": {
+  "kind": "text",
+  "group": "text-header",
+  "paint": "fill",
+  "color": "#04D0F2",
+  "stroke_w": 6.85,
+  "interior": [
+   10.0,
+   208.0,
+   242.0
+  ],
+  "interior_n": 439,
+  "weight": 892.71875,
+  "ink": [
+   10.0,
+   208.0,
+   242.0
+  ],
+  "method": "eroded interior median (w 6.85 px)",
+  "setting": "title-ai"
+ },
+ "txt-subtitle": {
+  "kind": "text",
+  "group": "text-header",
+  "paint": "fill",
+  "color": "#0C0F1F",
+  "stroke_w": 2.36,
+  "interior": [
+   6.0,
+   9.0,
+   24.0
+  ],
+  "interior_n": 752,
+  "weight": 2893.28125,
+  "unmix_420_this_run": [
+   15.12078386435185,
+   20.39990235065223,
+   31.187586864261007
+  ],
+  "ink": [
+   15.617796965835002,
+   17.59764860775512,
+   32.33764230766493
+  ],
+  "method": "plain unmix (4:2:0 chroma solve undetermined: dE 3.2 from plain) (w 2.36 px)",
+  "setting": "subtitle",
+  "unmix_420": [
+   15.12078386435185,
+   20.39990235065223,
+   31.187586864261007
+  ],
+  "unmix_plain": [
+   15.617796965835002,
+   17.59764860775512,
+   32.33764230766493
+  ]
+ },
+ "txt-label-01": {
+  "kind": "text",
+  "group": "text-section-labels",
+  "paint": "fill",
+  "color": "#0C0F1F",
+  "stroke_w": 2.73,
+  "interior": [
+   6.0,
+   10.0,
+   25.5
+  ],
+  "interior_n": 560,
+  "weight": 1375.875,
+  "unmix_420_this_run": [
+   9.639591644040264,
+   14.21672061471353,
+   28.511302230049914
+  ],
+  "ink": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)",
+  "setting": "labels",
+  "unmix_420": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "unmix_plain": [
+   11.888380559950392,
+   13.453826192022396,
+   29.585096777031207
+  ]
+ },
+ "txt-label-02": {
+  "kind": "text",
+  "group": "text-section-labels",
+  "paint": "fill",
+  "color": "#0C0F1F",
+  "stroke_w": 2.67,
+  "interior": [
+   4.0,
+   7.0,
+   23.0
+  ],
+  "interior_n": 511,
+  "weight": 1234.859375,
+  "unmix_420_this_run": [
+   8.945585693253214,
+   14.015077209757944,
+   27.76290367090349
+  ],
+  "ink": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)",
+  "setting": "labels",
+  "unmix_420": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "unmix_plain": [
+   11.888380559950392,
+   13.453826192022396,
+   29.585096777031207
+  ]
+ },
+ "txt-label-03": {
+  "kind": "text",
+  "group": "text-section-labels",
+  "paint": "fill",
+  "color": "#0C0F1F",
+  "stroke_w": 2.7,
+  "interior": [
+   11.0,
+   11.0,
+   28.0
+  ],
+  "interior_n": 449,
+  "weight": 1101.171875,
+  "unmix_420_this_run": [
+   13.697874139489208,
+   14.880971491645514,
+   31.67307319701126
+  ],
+  "ink": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)",
+  "setting": "labels",
+  "unmix_420": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "unmix_plain": [
+   11.888380559950392,
+   13.453826192022396,
+   29.585096777031207
+  ]
+ },
+ "txt-label-04": {
+  "kind": "text",
+  "group": "text-section-labels",
+  "paint": "fill",
+  "color": "#0C0F1F",
+  "stroke_w": 2.64,
+  "interior": [
+   6.0,
+   8.0,
+   23.0
+  ],
+  "interior_n": 433,
+  "weight": 1092.25,
+  "unmix_420_this_run": [
+   12.831390688459324,
+   13.445367542631264,
+   29.53585730368804
+  ],
+  "ink": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)",
+  "setting": "labels",
+  "unmix_420": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "unmix_plain": [
+   11.888380559950392,
+   13.453826192022396,
+   29.585096777031207
+  ]
+ },
+ "txt-label-05": {
+  "kind": "text",
+  "group": "text-section-labels",
+  "paint": "fill",
+  "color": "#0C0F1F",
+  "stroke_w": 2.66,
+  "interior": [
+   8.0,
+   10.0,
+   27.0
+  ],
+  "interior_n": 617,
+  "weight": 1562.953125,
+  "unmix_420_this_run": [
+   14.579511351787374,
+   15.56061049238189,
+   33.43132878169923
+  ],
+  "ink": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)",
+  "setting": "labels",
+  "unmix_420": [
+   11.989726524312955,
+   14.495880165729794,
+   30.314751936319716
+  ],
+  "unmix_plain": [
+   11.888380559950392,
+   13.453826192022396,
+   29.585096777031207
+  ]
+ },
+ "txt-hero-wordmark": {
+  "kind": "text",
+  "group": "text-logo-variations",
+  "paint": "fill",
+  "color": "#14152C",
+  "stroke_w": 3.49,
+  "interior": [
+   20.0,
+   24.0,
+   47.0
+  ],
+  "interior_n": 1156,
+  "weight": 2324.265625,
+  "ink": [
+   20.0,
+   24.0,
+   47.0
+  ],
+  "method": "eroded interior median (w 3.49 px)",
+  "setting": "hero-wordmark"
+ },
+ "txt-hero-wordmark-ai": {
+  "kind": "text",
+  "group": "text-logo-variations",
+  "paint": "fill",
+  "color": "#2459B4",
+  "stroke_w": 3.41,
+  "interior": [
+   38.0,
+   86.0,
+   177.0
+  ],
+  "interior_n": 113,
+  "weight": 222.6875,
+  "ink": [
+   38.0,
+   86.0,
+   177.0
+  ],
+  "method": "eroded interior median (w 3.41 px)",
+  "setting": "hero-wordmark-ai"
+ },
+ "txt-hero-tagline": {
+  "kind": "text",
+  "group": "text-logo-variations",
+  "paint": "fill",
+  "color": "#10151E",
+  "stroke_w": 1.26,
+  "interior": [
+   8.0,
+   12.0,
+   22.0
+  ],
+  "interior_n": 16,
+  "weight": 709.625,
+  "unmix_420_this_run": [
+   15.518598205044327,
+   19.987597163647386,
+   29.112675064153414
+  ],
+  "ink": [
+   15.518598205044327,
+   19.987597163647386,
+   29.112675064153414
+  ],
+  "method": "unmix through the JPEG 4:2:0 model (w 1.26 px)",
+  "setting": "hero-tagline",
+  "unmix_420": [
+   15.518598205044327,
+   19.987597163647386,
+   29.112675064153414
+  ],
+  "unmix_plain": [
+   15.770417866602322,
+   19.612764899462288,
+   27.6497625205392
+  ]
+ },
+ "txt-horiz-line1": {
+  "kind": "text",
+  "group": "text-logo-variations",
+  "paint": "fill",
+  "color": "#14152C",
+  "stroke_w": 3.85,
+  "interior": [
+   18.0,
+   22.0,
+   45.0
+  ],
+  "interior_n": 758,
+  "weight": 1327.796875,
+  "ink": [
+   18.0,
+   22.0,
+   45.0
+  ],
+  "method": "eroded interior median (w 3.85 px)",
+  "setting": "horiz-line1"
+ },
+ "txt-horiz-line2": {
+  "kind": "text",
+  "group": "text-logo-variations",
+  "paint": "fill",
+  "color": "#0D1124",
+  "stroke_w": 2.95,
+  "interior": [
+   16.0,
+   19.0,
+   41.0
+  ],
+  "interior_n": 372,
+  "weight": 882.046875,
+  "unmix_420_this_run": [
+   12.18268860538774,
+   17.856666238927243,
+   36.94656629211344
+  ],
+  "ink": [
+   12.18268860538774,
+   17.856666238927243,
+   36.94656629211344
+  ],
+  "method": "unmix through the JPEG 4:2:0 model (w 2.95 px)",
+  "setting": "horiz-line2",
+  "unmix_420": [
+   12.18268860538774,
+   17.856666238927243,
+   36.94656629211344
+  ],
+  "unmix_plain": [
+   13.036841016424694,
+   15.565728602270092,
+   36.270521983147596
+  ]
+ },
+ "txt-horiz-line2-ai": {
+  "kind": "text",
+  "group": "text-logo-variations",
+  "paint": "fill",
+  "color": "#2459B4",
+  "stroke_w": 2.86,
+  "interior": [
+   57.0,
+   92.0,
+   169.0
+  ],
+  "interior_n": 73,
+  "weight": 155.984375,
+  "unmix_420_this_run": [
+   42.17016627165631,
+   90.12323880621273,
+   173.0786524366012
+  ],
+  "ink": [
+   42.17016627165631,
+   90.12323880621273,
+   173.0786524366012
+  ],
+  "method": "unmix through the JPEG 4:2:0 model (w 2.86 px)",
+  "setting": "horiz-line2-ai",
+  "unmix_420": [
+   42.17016627165631,
+   90.12323880621273,
+   173.0786524366012
+  ],
+  "unmix_plain": [
+   50.93246752788801,
+   86.16081695549377,
+   158.4829498271269
+  ]
+ },
+ "txt-name-vibrant": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#121B2A",
+  "stroke_w": 2.21,
+  "interior": [
+   7.0,
+   13.0,
+   25.0
+  ],
+  "interior_n": 93,
+  "weight": 348.515625,
+  "unmix_420_this_run": [
+   14.820051124542054,
+   24.275181370582423,
+   35.60011169515091
+  ],
+  "ink": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)",
+  "setting": "names",
+  "unmix_420": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "unmix_plain": [
+   17.46269215811718,
+   22.351405050046317,
+   34.81778827120809
+  ]
+ },
+ "txt-name-blue": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#121B2A",
+  "stroke_w": 2.29,
+  "interior": [
+   5.0,
+   11.0,
+   24.0
+  ],
+  "interior_n": 73,
+  "weight": 234.546875,
+  "unmix_420_this_run": [
+   16.04934645214893,
+   22.44299748390464,
+   36.90010056893368
+  ],
+  "ink": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)",
+  "setting": "names",
+  "unmix_420": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "unmix_plain": [
+   17.46269215811718,
+   22.351405050046317,
+   34.81778827120809
+  ]
+ },
+ "txt-name-cyan": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#121B2A",
+  "stroke_w": 2.23,
+  "interior": [
+   6.0,
+   12.0,
+   24.0
+  ],
+  "interior_n": 146,
+  "weight": 567.921875,
+  "unmix_420_this_run": [
+   16.435888383614564,
+   24.51681280078688,
+   35.197074092864604
+  ],
+  "ink": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)",
+  "setting": "names",
+  "unmix_420": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "unmix_plain": [
+   17.46269215811718,
+   22.351405050046317,
+   34.81778827120809
+  ]
+ },
+ "txt-name-navy": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#121B2A",
+  "stroke_w": 2.29,
+  "interior": [
+   6.0,
+   12.0,
+   24.0
+  ],
+  "interior_n": 142,
+  "weight": 509.953125,
+  "unmix_420_this_run": [
+   15.664389185715281,
+   23.095843817775865,
+   36.02471275215987
+  ],
+  "ink": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)",
+  "setting": "names",
+  "unmix_420": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "unmix_plain": [
+   17.46269215811718,
+   22.351405050046317,
+   34.81778827120809
+  ]
+ },
+ "txt-name-white": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#121B2A",
+  "stroke_w": 2.26,
+  "interior": [
+   7.0,
+   11.0,
+   24.0
+  ],
+  "interior_n": 150,
+  "weight": 520.40625,
+  "unmix_420_this_run": [
+   17.772299549128963,
+   23.105877122695524,
+   34.69015840975271
+  ],
+  "ink": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)",
+  "setting": "names",
+  "unmix_420": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "unmix_plain": [
+   17.46269215811718,
+   22.351405050046317,
+   34.81778827120809
+  ]
+ },
+ "txt-name-offwhite": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#121B2A",
+  "stroke_w": 2.24,
+  "interior": [
+   8.0,
+   12.0,
+   25.0
+  ],
+  "interior_n": 143,
+  "weight": 483.265625,
+  "unmix_420_this_run": [
+   18.495783387933997,
+   24.136229511412317,
+   36.18088614697437
+  ],
+  "ink": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)",
+  "setting": "names",
+  "unmix_420": [
+   16.677544395227876,
+   23.686173902281972,
+   35.64311462640451
+  ],
+  "unmix_plain": [
+   17.46269215811718,
+   22.351405050046317,
+   34.81778827120809
+  ]
+ },
+ "txt-hex-blue": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#050912",
+  "stroke_w": 1.11,
+  "interior": [
+   20.5,
+   24.0,
+   36.0
+  ],
+  "interior_n": 6,
+  "weight": 244.65625,
+  "unmix_420_this_run": [
+   -8.981648404170121,
+   12.09280177936055,
+   -7.651785572860665
+  ],
+  "ink": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ],
+  "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)",
+  "setting": "hex",
+  "unmix_420": [
+   1.2268475810245836,
+   21.308794032858522,
+   -1.610409904535377
+  ],
+  "unmix_plain": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ]
+ },
+ "txt-hex-cyan": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#050912",
+  "stroke_w": 1.14,
+  "interior": [
+   35.5,
+   40.0,
+   48.5
+  ],
+  "interior_n": 4,
+  "weight": 260.65625,
+  "unmix_420_this_run": [
+   4.179692192145224,
+   23.265652386192308,
+   0.5785986676063191
+  ],
+  "ink": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ],
+  "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)",
+  "setting": "hex",
+  "unmix_420": [
+   1.2268475810245836,
+   21.308794032858522,
+   -1.610409904535377
+  ],
+  "unmix_plain": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ]
+ },
+ "txt-hex-navy": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#050912",
+  "stroke_w": 1.12,
+  "interior": [
+   40.0,
+   43.0,
+   51.0
+  ],
+  "interior_n": 4,
+  "weight": 232.890625,
+  "unmix_420_this_run": [
+   1.743776052970242,
+   21.565471425358094,
+   2.890458819002286
+  ],
+  "ink": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ],
+  "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)",
+  "setting": "hex",
+  "unmix_420": [
+   1.2268475810245836,
+   21.308794032858522,
+   -1.610409904535377
+  ],
+  "unmix_plain": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ]
+ },
+ "txt-hex-white": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#050912",
+  "stroke_w": 1.1,
+  "interior": [
+   38.0,
+   41.0,
+   48.0
+  ],
+  "interior_n": 3,
+  "weight": 223.625,
+  "unmix_420_this_run": [
+   4.718516534687286,
+   25.322997875511504,
+   -5.7285562314249105
+  ],
+  "ink": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ],
+  "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)",
+  "setting": "hex",
+  "unmix_420": [
+   1.2268475810245836,
+   21.308794032858522,
+   -1.610409904535377
+  ],
+  "unmix_plain": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ]
+ },
+ "txt-hex-offwhite": {
+  "kind": "text",
+  "group": "text-color-palette",
+  "paint": "fill",
+  "color": "#050912",
+  "stroke_w": 1.11,
+  "interior": [
+   23.0,
+   26.0,
+   35.0
+  ],
+  "interior_n": 7,
+  "weight": 242.140625,
+  "unmix_420_this_run": [
+   4.101838567229179,
+   23.807086330234334,
+   0.9866457572779961
+  ],
+  "ink": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ],
+  "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)",
+  "setting": "hex",
+  "unmix_420": [
+   1.2268475810245836,
+   21.308794032858522,
+   -1.610409904535377
+  ],
+  "unmix_plain": [
+   5.740045860745733,
+   8.3802534673867,
+   15.364397567481433
+  ]
+ },
+ "txt-spec-1": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#14152C",
+  "stroke_w": 4.01,
+  "interior": [
+   21.0,
+   22.0,
+   45.0
+  ],
+  "interior_n": 1689,
+  "weight": 2942.296875,
+  "ink": [
+   20.0,
+   21.0,
+   44.0
+  ],
+  "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)",
+  "setting": "spec"
+ },
+ "txt-spec-2": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#14152C",
+  "stroke_w": 3.98,
+  "interior": [
+   21.0,
+   21.0,
+   45.0
+  ],
+  "interior_n": 1830,
+  "weight": 3137.671875,
+  "ink": [
+   20.0,
+   21.0,
+   44.0
+  ],
+  "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)",
+  "setting": "spec"
+ },
+ "txt-spec-3": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#14152C",
+  "stroke_w": 4.17,
+  "interior": [
+   21.0,
+   21.0,
+   45.0
+  ],
+  "interior_n": 1738,
+  "weight": 3051.09375,
+  "ink": [
+   20.0,
+   21.0,
+   44.0
+  ],
+  "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)",
+  "setting": "spec"
+ },
+ "txt-spec-4": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#14152C",
+  "stroke_w": 3.84,
+  "interior": [
+   19.0,
+   20.0,
+   44.0
+  ],
+  "interior_n": 1522,
+  "weight": 2719.390625,
+  "ink": [
+   20.0,
+   21.0,
+   44.0
+  ],
+  "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)",
+  "setting": "spec"
+ },
+ "txt-spec-5": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#14152C",
+  "stroke_w": 4.03,
+  "interior": [
+   17.0,
+   18.0,
+   41.0
+  ],
+  "interior_n": 1364,
+  "weight": 2366.625,
+  "ink": [
+   20.0,
+   21.0,
+   44.0
+  ],
+  "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)",
+  "setting": "spec"
+ },
+ "txt-headline": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#151A37",
+  "stroke_w": 5.17,
+  "interior": [
+   25.0,
+   25.0,
+   55.0
+  ],
+  "interior_n": 815,
+  "weight": 2589.75,
+  "ink": [
+   25.0,
+   25.0,
+   55.0
+  ],
+  "method": "eroded interior median (w 5.17 px)",
+  "setting": "headline"
+ },
+ "txt-headline-note": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#0D1124",
+  "stroke_w": 2.96,
+  "interior": [
+   8.0,
+   9.0,
+   29.0
+  ],
+  "interior_n": 223,
+  "weight": 534.265625,
+  "unmix_420_this_run": [
+   14.423801124112982,
+   15.433009877094015,
+   35.50210740741648
+  ],
+  "ink": [
+   14.423801124112982,
+   15.433009877094015,
+   35.50210740741648
+  ],
+  "method": "unmix through the JPEG 4:2:0 model (w 2.96 px)",
+  "setting": "headline-note",
+  "unmix_420": [
+   14.423801124112982,
+   15.433009877094015,
+   35.50210740741648
+  ],
+  "unmix_plain": [
+   14.142116401844287,
+   15.054234115157236,
+   34.00126518153555
+  ]
+ },
+ "txt-subheader": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#0C0F1F",
+  "stroke_w": 3.08,
+  "interior": [
+   7.5,
+   9.0,
+   29.0
+  ],
+  "interior_n": 622,
+  "weight": 1440.9375,
+  "ink": [
+   7.5,
+   9.0,
+   29.0
+  ],
+  "method": "eroded interior median (w 3.08 px)",
+  "setting": "subheader"
+ },
+ "txt-subheader-note": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#020413",
+  "stroke_w": 1.82,
+  "interior": [
+   2.0,
+   3.0,
+   21.0
+  ],
+  "interior_n": 41,
+  "weight": 486.578125,
+  "unmix_420_this_run": [
+   -12.490242356675308,
+   -0.27602169228271445,
+   -1.8436884542529262
+  ],
+  "ink": [
+   2.0,
+   3.0,
+   21.0
+  ],
+  "method": "eroded-core median (unmix leaves the gamut: outlines lighter than the original strokes) (w 1.82 px)",
+  "setting": "subheader-note",
+  "unmix_420": [
+   -12.490242356675308,
+   -0.27602169228271445,
+   -1.8436884542529262
+  ],
+  "unmix_plain": [
+   -10.071433394016843,
+   -9.53784102541956,
+   6.1678435375101355
+  ]
+ },
+ "txt-body": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#020413",
+  "stroke_w": 2.21,
+  "interior": [
+   2.0,
+   4.0,
+   18.0
+  ],
+  "interior_n": 217,
+  "weight": 778.640625,
+  "unmix_420_this_run": [
+   -12.78786521344573,
+   -3.3503577005155973,
+   -3.0491552886255273
+  ],
+  "ink": [
+   2.0,
+   4.0,
+   18.0
+  ],
+  "method": "eroded-core median (unmix leaves the gamut: outlines lighter than the original strokes) (w 2.21 px)",
+  "setting": "body",
+  "unmix_420": [
+   -12.78786521344573,
+   -3.3503577005155973,
+   -3.0491552886255273
+  ],
+  "unmix_plain": [
+   -11.269047322157986,
+   -10.725240311138233,
+   3.4475457237620106
+  ]
+ },
+ "txt-body-note": {
+  "kind": "text",
+  "group": "text-typography",
+  "paint": "fill",
+  "color": "#020413",
+  "stroke_w": 1.81,
+  "interior": [
+   3.0,
+   3.5,
+   17.5
+  ],
+  "interior_n": 44,
+  "weight": 487.453125,
+  "unmix_420_this_run": [
+   -2.5760855716367987,
+   3.901684722499896,
+   5.166496739284519
+  ],
+  "ink": [
+   3.0,
+   3.5,
+   17.5
+  ],
+  "method": "eroded-core median (unmix leaves the gamut: outlines lighter than the original strokes) (w 1.81 px)",
+  "setting": "body-note",
+  "unmix_420": [
+   -2.5760855716367987,
+   3.901684722499896,
+   5.166496739284519
+  ],
+  "unmix_plain": [
+   -1.8220358842602653,
+   -1.704202282193667,
+   10.484856287049737
+  ]
+ },
+ "txt-cs-x-top": {
+  "kind": "cs",
+  "group": "text-clear-space",
+  "paint": "fill",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 34.609375,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "txt-cs-x-bottom": {
+  "kind": "cs",
+  "group": "text-clear-space",
+  "paint": "fill",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 34.640625,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "txt-cs-x-left": {
+  "kind": "cs",
+  "group": "text-clear-space",
+  "paint": "fill",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 35.078125,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "txt-cs-x-right": {
+  "kind": "cs",
+  "group": "text-clear-space",
+  "paint": "fill",
+  "color": "#8E5450",
+  "ink": [
+   142.71350279632878,
+   83.16062155821345,
+   81.79599599049232
+  ],
+  "rms": 8.52422338413569,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "weight": 34.625,
+  "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+ },
+ "guide-h-205": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   203.21315302085253,
+   205.43132501223232,
+   209.99646053982372
+  ],
+  "weight": 418.22499999999997,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-h-265": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   209.22403993500018,
+   213.87436888268786,
+   216.14832062003325
+  ],
+  "weight": 256.2,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-h-294": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   203.12192433806305,
+   209.75867205717498,
+   209.09782053948587
+  ],
+  "weight": 88.69999999999997,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-h-410": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   200.86650768858874,
+   204.3669645837078,
+   207.91391253617485
+  ],
+  "weight": 513.225,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-v-62": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   207.13346755342417,
+   209.00835489627542,
+   209.799697438896
+  ],
+  "weight": 313.16555,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-v-371": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   208.1485813897522,
+   211.31013162950865,
+   215.15233559706266
+  ],
+  "weight": 325.4225000000001,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-v-401": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   217.10617625527433,
+   222.33193612606584,
+   224.9660940056495
+  ],
+  "weight": 106.92249999999999,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-v-517": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   204.65694965622043,
+   208.45529041290246,
+   212.37484867447523
+  ],
+  "weight": 62.92499999999997,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-v-538": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   204.58802621537342,
+   208.20877263845415,
+   207.63291123542936
+  ],
+  "weight": 63.97499999999992,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "guide-v-654": {
+  "kind": "guide",
+  "group": "layout-guides",
+  "paint": "stroke",
+  "color": "#CECFD3",
+  "ink": [
+   206.76880698269903,
+   210.0974188082626,
+   213.31281665325798
+  ],
+  "rms": 3.0175390115096317,
+  "bg": [
+   246.0,
+   250.0,
+   253.0
+  ],
+  "drawn_width": 1.25,
+  "ink_this_guide_alone": [
+   214.35909252144762,
+   221.06993752276952,
+   220.7950526867648
+  ],
+  "weight": 143.98750000000004,
+  "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+ },
+ "mark-flat": {
+  "kind": "mark",
+  "paint": "fill",
+  "color": "#04D0F2",
+  "ink": [
+   12.0,
+   205.0,
+   242.0
+  ],
+  "n": 1274,
+  "stroke_w": 9.0,
+  "weight": 2080.28125,
+  "method": "eroded interior median of the flat mark",
+  "file": "rec/slot-tile-flat.svg",
+  "id": "ap-cyan"
+ },
+ "_twotone": {
+  "face-p-bowl-lower": {
+   "gradient": "grad-dark-p-bowl-lower",
+   "n": 101,
+   "stops_before": [
+    "#D0FEFE",
+    "#CBE3E7"
+   ],
+   "stops_after": [
+    "#DDFEFE",
+    "#E1F7F9"
+   ],
+   "offsets_before": [
+    0.0,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    1.0
+   ],
+   "orig_median": "#E2F8FA",
+   "model_median_before": "#CBE5E9",
+   "model_median_after": "#E1F8F9",
+   "dE_before": 4.315491369082392,
+   "dE_after": 0.38679238204081223
+  },
+  "face-p-bowl-under": {
+   "gradient": "grad-dark-p-bowl-under",
+   "n": 42,
+   "stops_before": [
+    "#DDFCFD",
+    "#E5ECF0"
+   ],
+   "stops_after": [
+    "#EDFFFF",
+    "#EDF5F9"
+   ],
+   "offsets_before": [
+    0.0,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    1.0
+   ],
+   "orig_median": "#EEFBFC",
+   "model_median_before": "#E1F5F7",
+   "model_median_after": "#EDFBFC",
+   "dE_before": 3.1648113920828473,
+   "dE_after": 0.40253870694137633
+  },
+  "face-a-right-outer": {
+   "gradient": "grad-dark-a-right-outer",
+   "n": 77,
+   "stops_before": [
+    "#75C1C9",
+    "#AFD5D9",
+    "#9BEAEC",
+    "#B6E9EA",
+    "#C3E8EF"
+   ],
+   "stops_after": [
+    "#8DE7EC",
+    "#C9F1F5",
+    "#9DEEEF",
+    "#B0EAEB",
+    "#C2F2F6"
+   ],
+   "offsets_before": [
+    0.0,
+    0.3846,
+    0.6923,
+    0.8462,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    0.3846,
+    0.6923,
+    0.8462,
+    1.0
+   ],
+   "orig_median": "#AFECEF",
+   "model_median_before": "#A3D5D9",
+   "model_median_after": "#AEEDEF",
+   "dE_before": 5.482155097434155,
+   "dE_after": 0.3579840900482472
+  },
+  "face-a-right-inner": {
+   "gradient": "grad-dark-a-right-inner",
+   "n": 55,
+   "stops_before": [
+    "#BCF4F5",
+    "#F3FCFC",
+    "#BFF3F5",
+    "#F3FAFB",
+    "#E2F8FD"
+   ],
+   "stops_after": [
+    "#CBFBFB",
+    "#F9FFFF",
+    "#D6FBFC",
+    "#F5FAFB",
+    "#E7FAFE"
+   ],
+   "offsets_before": [
+    0.0,
+    0.3077,
+    0.6923,
+    0.8462,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    0.3077,
+    0.6923,
+    0.8462,
+    1.0
+   ],
+   "orig_median": "#EDFEFE",
+   "model_median_before": "#E7F9FA",
+   "model_median_after": "#EDFCFC",
+   "dE_before": 1.2388233203598171,
+   "dE_after": 0.9066945995970391
+  },
+  "face-a-left-bevel": {
+   "gradient": "grad-dark-a-left-bevel",
+   "n": 75,
+   "stops_before": [
+    "#99D4D8",
+    "#EBFAFC",
+    "#EAFBFC",
+    "#FFFFFF"
+   ],
+   "stops_after": [
+    "#91E1E4",
+    "#EBF8FA",
+    "#E5FBFC",
+    "#F9FEFF"
+   ],
+   "offsets_before": [
+    0.0,
+    0.5385,
+    0.8462,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    0.4039,
+    0.6346,
+    0.75
+   ],
+   "orig_median": "#DFF4F7",
+   "model_median_before": "#D2EFF1",
+   "model_median_after": "#E5F6F9",
+   "dE_before": 2.7582676596719367,
+   "dE_after": 1.369286586100993
+  },
+  "face-a-left-outer": {
+   "gradient": "grad-dark-a-left-outer",
+   "n": 67,
+   "stops_before": [
+    "#CADBDF",
+    "#ECF5F6",
+    "#DFF1F4",
+    "#AADFE4",
+    "#E2EFF2"
+   ],
+   "stops_after": [
+    "#E6F6F8",
+    "#F4FCFC",
+    "#E5F7F8",
+    "#C1F2F5",
+    "#EAFAFB"
+   ],
+   "offsets_before": [
+    0.0,
+    0.3846,
+    0.5385,
+    0.6154,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    0.3846,
+    0.5385,
+    0.6154,
+    1.0
+   ],
+   "orig_median": "#ECF9FB",
+   "model_median_before": "#DDEDF0",
+   "model_median_after": "#ECF9FA",
+   "dE_before": 2.8447554565188207,
+   "dE_after": 0.5060176192043724
+  },
+  "face-p-bowl-top": {
+   "gradient": "grad-dark-p-bowl-top",
+   "n": 88,
+   "stops_before": [
+    "#8CD0D6",
+    "#D2E3E5"
+   ],
+   "stops_after": [
+    "#A3EEF2",
+    "#E0FDFE"
+   ],
+   "offsets_before": [
+    0.0,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    0.25
+   ],
+   "orig_median": "#D4FCFE",
+   "model_median_before": "#9AD4D9",
+   "model_median_after": "#D3FAFC",
+   "dE_before": 10.361585551405636,
+   "dE_after": 0.4870211940241959
+  },
+  "face-p-bowl-fold": {
+   "gradient": "grad-dark-p-bowl-fold",
+   "n": 33,
+   "stops_before": [
+    "#86E9ED",
+    "#6CDFE4"
+   ],
+   "stops_after": [
+    "#7EEAEE",
+    "#66DFE5"
+   ],
+   "offsets_before": [
+    0.0,
+    1.0
+   ],
+   "offsets": [
+    0.75,
+    1.0
+   ],
+   "orig_median": "#76E5EC",
+   "model_median_before": "#6FE0E5",
+   "model_median_after": "#70E3E9",
+   "dE_before": 1.4968032429865432,
+   "dE_after": 0.9844288415147515
+  },
+  "face-ribbon-front-stem": {
+   "gradient": "grad-dark-ribbon-front-stem",
+   "n": 26,
+   "stops_before": [
+    "#D8FBFE",
+    "#C9F0F3"
+   ],
+   "stops_after": [
+    "#E6FCFE",
+    "#D7F8FA"
+   ],
+   "offsets_before": [
+    0.0,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    1.0
+   ],
+   "orig_median": "#DEFAFC",
+   "model_median_before": "#D0F5F8",
+   "model_median_after": "#DEFAFC",
+   "dE_before": 2.6327138336398024,
+   "dE_after": 0.2333269769806702
+  },
+  "face-ribbon-front": {
+   "gradient": "grad-dark-ribbon-front",
+   "n": 76,
+   "stops_before": [
+    "#F3FFFF",
+    "#7DDCE4"
+   ],
+   "stops_after": [
+    "#E2FDFD",
+    "#6ADDE6"
+   ],
+   "offsets_before": [
+    0.0,
+    1.0
+   ],
+   "offsets": [
+    0.5,
+    1.0
+   ],
+   "orig_median": "#A5F0F6",
+   "model_median_before": "#9AE5EB",
+   "model_median_after": "#A5EDF1",
+   "dE_before": 2.5158033387903918,
+   "dE_after": 0.8872655899513258
+  },
+  "face-ribbon-back": {
+   "gradient": "grad-dark-ribbon-back",
+   "n": 114,
+   "stops_before": [
+    "#48CFD9",
+    "#C7F4F9"
+   ],
+   "stops_after": [
+    "#39D1DB",
+    "#CAF3F8"
+   ],
+   "offsets_before": [
+    0.0,
+    1.0
+   ],
+   "offsets": [
+    0.0,
+    1.0
+   ],
+   "orig_median": "#47D6E0",
+   "model_median_before": "#48CFD9",
+   "model_median_after": "#39D1DB",
+   "dE_before": 1.6753026226021401,
+   "dE_after": 1.401146953037386
+  }
+ }
+}

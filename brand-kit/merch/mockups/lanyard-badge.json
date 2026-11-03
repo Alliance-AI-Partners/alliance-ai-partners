@@ -1,0 +1,15 @@
+{
+ "name": "lanyard-badge",
+ "kind": "mockup",
+ "description": "lanyard-badge mockup",
+ "prompt": "Product photograph of a white PVC ID badge exactly like the first reference image, hanging from a flat 20 mm lanyard printed with the gradient strap in the second reference image (deep navy through electric blue to cyan), lying on a pale daylight-grey surface. Keep the badge's placeholder text as shown. Soft light from the upper left.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "references": [
+  "brand-kit/merch/previews/id-badge-cr80-artwork.png",
+  "brand-kit/merch/previews/lanyard-20mm-artwork.png"
+ ],
+ "generated": "2026-11-02",
+ "tool": "brand-kit/tools/generate-imagery.py"
+}

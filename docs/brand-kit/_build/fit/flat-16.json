@@ -1,0 +1,250 @@
+{
+ "id": "16",
+ "source": "da60ac39-875a-4f6e-805f-a710b7e2ae17.jpeg",
+ "description": "Stacked dark: flat cyan AP above 'ALLIANCE AI / PARTNERS' white",
+ "size": [
+  1024,
+  1024
+ ],
+ "svg": "components/flat-16.svg",
+ "colors": {
+  "background": {
+   "measured": "#141F31",
+   "snapped": "#121B2A",
+   "de2000_measured_to_snapped": 1.81,
+   "nearest_palette": "Deep Navy",
+   "exceeds_snap_threshold_4": false
+  },
+  "text_white": {
+   "measured": "#FEFEFF",
+   "snapped": "#FFFFFF",
+   "de2000_measured_to_snapped": 0.57,
+   "nearest_palette": "Pure White",
+   "exceeds_snap_threshold_4": false
+  },
+  "cyan": {
+   "measured": "#1AC7EA",
+   "snapped": "#00D5FF",
+   "de2000_measured_to_snapped": 3.75,
+   "nearest_palette": "Bright Cyan",
+   "exceeds_snap_threshold_4": false
+  }
+ },
+ "notes": [
+  "thin tapered ends run on to their measured tips (tips.py); before/after per tip in \"tips\", zoomed crops in verify/flat-16_tips.png"
+ ],
+ "text_bbox": [
+  139,
+  601,
+  884,
+  796
+ ],
+ "text_lines_bbox": [
+  [
+   139,
+   601,
+   884,
+   682
+  ],
+  [
+   207,
+   717,
+   819,
+   796
+  ]
+ ],
+ "method": "coverage map of the measured colours -> clean palette resynthesis (wordmark/ring masked) -> VectorCraft logo trace -> every edge snapped to the original 0.5 iso-line (smoothed per-point shift) -> straight runs refit as true lines meeting at sharp corners, curves as C2 cubic splines merged to few G1 cubics (tol 0.3 px); verified on a 4x VectorCraft render box-filtered to 1x",
+ "mark_bbox": [
+  248.47,
+  233.79,
+  773.95,
+  535.87
+ ],
+ "layers": [
+  {
+   "id": "ap-cyan",
+   "fill": "#00D5FF",
+   "bbox": [
+    248.47,
+    233.79,
+    773.95,
+    535.87
+   ],
+   "subpaths": 2,
+   "anchors": 46,
+   "line_segs": 19,
+   "curve_segs": 27,
+   "specks_dropped_area": [],
+   "trace_anchors": 124
+  }
+ ],
+ "tips": {
+  "before": 0.9978,
+  "after": 0.9978,
+  "tips": [
+   {
+    "name": "crescent",
+    "kind": "gap",
+    "scan": "columns",
+    "vector_tip_before": [
+     353.417,
+     418.187
+    ],
+    "measured_tip": [
+     358.75,
+     417.627
+    ],
+    "extension_px": 5.36,
+    "taper": {
+     "a": 0.1699,
+     "b": 0.0003,
+     "blur_sigma": 0.7,
+     "floor": 0.006,
+     "rms_px": 0.0258,
+     "lines": 29
+    },
+    "junction_line": 344.5,
+    "junction_A": [
+     344.5,
+     421.978
+    ],
+    "junction_B": [
+     344.5,
+     419.582
+    ],
+    "new_tip": [
+     358.75,
+     417.627
+    ],
+    "straight_edge_extended": null,
+    "refit_from_nodes": [
+     [
+      326.528,
+      430.102
+     ],
+     [
+      292.809,
+      445.03
+     ]
+    ],
+    "new_cubics": [
+     2,
+     4
+    ],
+    "fit_err_px": [
+     0.077,
+     0.052
+    ],
+    "crop": [
+     338,
+     411,
+     366,
+     429
+    ],
+    "crop_metrics": {
+     "before": {
+      "de_mean": 4.628,
+      "de_mean_measured_colours": 1.843,
+      "coverage_abs_err_mean": 0.0239,
+      "iou": 0.9832
+     },
+     "after": {
+      "de_mean": 4.347,
+      "de_mean_measured_colours": 1.669,
+      "coverage_abs_err_mean": 0.0204,
+      "iou": 0.9873
+     }
+    }
+   },
+   {
+    "name": "P-stem spike",
+    "kind": "spike",
+    "scan": "rows",
+    "vector_tip_before": [
+     599.71,
+     351.933
+    ],
+    "measured_tip": [
+     600.316,
+     347.6
+    ],
+    "extension_px": 4.38,
+    "taper": {
+     "a": 0.208,
+     "b": 0.00226,
+     "blur_sigma": 0.3,
+     "floor": -0.049,
+     "rms_px": 0.0265,
+     "lines": 25
+    },
+    "junction_line": 365.5,
+    "junction_A": [
+     596.231,
+     365.5
+    ],
+    "junction_B": [
+     600.611,
+     365.5
+    ],
+    "new_tip": [
+     600.316,
+     347.6
+    ],
+    "straight_edge_extended": null,
+    "refit_from_nodes": [
+     [
+      543.46,
+      447.348
+     ],
+     [
+      600.688,
+      376.493
+     ]
+    ],
+    "new_cubics": [
+     4,
+     1
+    ],
+    "fit_err_px": [
+     0.081,
+     0.051
+    ],
+    "crop": [
+     590,
+     341,
+     608,
+     373
+    ],
+    "crop_metrics": {
+     "before": {
+      "de_mean": 4.764,
+      "de_mean_measured_colours": 3.631,
+      "coverage_abs_err_mean": 0.0334,
+      "iou": 0.9665
+     },
+     "after": {
+      "de_mean": 4.496,
+      "de_mean_measured_colours": 3.329,
+      "coverage_abs_err_mean": 0.0285,
+      "iou": 0.9778
+     }
+    }
+   }
+  ]
+ },
+ "metrics": {
+  "mark_iou": 0.9978,
+  "de_mean_canvas": 5.35,
+  "de_p95_canvas": 5.41,
+  "de_mean_mark_region": 4.08,
+  "de_p95_mark_region": 6.52,
+  "de_mean_background": 1.87,
+  "note": "canvas dE includes the excluded wordmark (drawn by another agent) where present",
+  "de_mean_canvas_excl_text": 2.09,
+  "de_p95_canvas_excl_text": 3.76,
+  "de_mean_if_measured_colours": 0.32,
+  "de_p95_if_measured_colours": 1.48,
+  "soft_iou_band": 0.9889,
+  "mean_edge_offset_px": 0.039
+ }
+}

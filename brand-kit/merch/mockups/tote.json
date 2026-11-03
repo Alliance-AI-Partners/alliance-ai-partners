@@ -1,0 +1,14 @@
+{
+ "name": "tote",
+ "kind": "mockup",
+ "description": "tote mockup",
+ "prompt": "Product photograph of a natural off-white canvas tote bag hanging from a hook against a pale daylight wall. The front is screen printed with exactly the artwork in the reference image (the logo lockup and the flowing ribbon line beneath it) in deep navy and electric blue inks. Soft light from the upper left. No other text or logos.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "references": [
+  "brand-kit/merch/previews/tote-front-artwork.png"
+ ],
+ "generated": "2026-11-02",
+ "tool": "brand-kit/tools/generate-imagery.py"
+}

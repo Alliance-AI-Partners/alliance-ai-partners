@@ -1,0 +1,3214 @@
+{
+ "05": {
+  "source_file": "449dea5f-2cbe-468a-a59e-a382b46ec7ba.jpeg",
+  "background": "#FFFFFF",
+  "matrix": [
+   0.894796,
+   1.7e-05,
+   -1.7e-05,
+   0.894796,
+   230.181527,
+   -76.247465
+  ],
+  "scale": 0.894796,
+  "rotation_deg": 0.0011,
+  "translate": [
+   230.182,
+   -76.247
+  ],
+  "note": "SVG matrix(a b c d e f) maps the 1024 master space (components/bird.svg) onto this original's pixels",
+  "iou_fit_coverage": 0.9831,
+  "master_colors": {
+   "iou": 0.9828,
+   "de_mean": 12.31,
+   "de_p95": 32.34,
+   "de_mean_eroded1": 12.16,
+   "de_p95_eroded1": 32.0
+  },
+  "recolored": {
+   "file": "components/bird-05.svg",
+   "metrics": {
+    "iou": 0.9832,
+    "de_mean": 2.55,
+    "de_p95": 8.12,
+    "de_mean_eroded1": 2.08,
+    "de_p95_eroded1": 5.88
+   },
+   "fills": {
+    "facet-01": {
+     "type": "solid",
+     "color": "#0E2E75",
+     "measured": "#102F71",
+     "palette": null
+    },
+    "facet-02": {
+     "type": "solid",
+     "color": "#0E2E75",
+     "measured": "#102F71",
+     "palette": null
+    },
+    "facet-03": {
+     "type": "solid",
+     "color": "#2C60C6",
+     "measured": "#2D60C9",
+     "palette": null
+    },
+    "facet-04": {
+     "type": "linearGradient",
+     "id": "grad-04",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 447.78,
+     "y1": 398.594,
+     "x2": 521.519,
+     "y2": 414.013,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#0E2E75",
+       "measured": "#112B6F",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0E2E75",
+       "measured": "#0B3174",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#0E2E75"
+      ],
+      [
+       1.0,
+       "#0E2E75"
+      ]
+     ]
+    },
+    "facet-05": {
+     "type": "linearGradient",
+     "id": "grad-05",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 329.281,
+     "y1": 307.424,
+     "x2": 314.222,
+     "y2": 323.931,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2C60C6",
+       "measured": "#2F62C5",
+       "palette": null
+      },
+      {
+       "offset": 0.8781,
+       "color": "#2C60C6",
+       "measured": "#2D61C7",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#385DA4",
+       "measured": "#385DA4",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.8781,
+       "#2C60C6"
+      ],
+      [
+       1.0,
+       "#385DA4"
+      ]
+     ]
+    },
+    "facet-06": {
+     "type": "solid",
+     "color": "#2C60C6",
+     "measured": "#2E61C5",
+     "palette": null
+    },
+    "facet-07": {
+     "type": "solid",
+     "color": "#00D5FF",
+     "measured": "#0ECCEF",
+     "palette": "Bright Cyan"
+    },
+    "facet-08": {
+     "type": "solid",
+     "color": "#00D5FF",
+     "measured": "#0CCCF0",
+     "palette": "Bright Cyan"
+    },
+    "facet-09": {
+     "type": "linearGradient",
+     "id": "grad-09",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 568.901,
+     "y1": 366.612,
+     "x2": 543.308,
+     "y2": 383.86,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2C60C6",
+       "measured": "#245FC1",
+       "palette": null
+      },
+      {
+       "offset": 0.5344,
+       "color": "#2153B3",
+       "measured": "#2153B3",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#00D5FF",
+       "measured": "#0ECBF3",
+       "palette": "Bright Cyan"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#2C60C6"
+      ],
+      [
+       0.5344,
+       "#2153B3"
+      ],
+      [
+       1.0,
+       "#00D5FF"
+      ]
+     ]
+    },
+    "facet-10": {
+     "type": "linearGradient",
+     "id": "grad-10",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 518.943,
+     "y1": 388.765,
+     "x2": 533.44,
+     "y2": 397.904,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#1EC2EF",
+       "measured": "#27BFEA",
+       "palette": null
+      },
+      {
+       "offset": 0.1781,
+       "color": "#00D5FF",
+       "measured": "#0ACDF1",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#00D5FF",
+       "measured": "#0ACDF1",
+       "palette": "Bright Cyan"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#1EC2EF"
+      ],
+      [
+       0.1781,
+       "#00D5FF"
+      ]
+     ]
+    },
+    "facet-11": {
+     "type": "linearGradient",
+     "id": "grad-11",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 531.736,
+     "y1": 405.324,
+     "x2": 543.902,
+     "y2": 412.554,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#00D5FF",
+       "measured": "#09CEF1",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 0.7797,
+       "color": "#00D5FF",
+       "measured": "#0DCDF0",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#36B9D0",
+       "measured": "#3DB9CF",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.7797,
+       "#00D5FF"
+      ],
+      [
+       1.0,
+       "#36B9D0"
+      ]
+     ]
+    },
+    "facet-12": {
+     "type": "linearGradient",
+     "id": "grad-12",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 485.826,
+     "y1": 442.568,
+     "x2": 499.88,
+     "y2": 451.338,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#1EC2EF",
+       "measured": "#2BBEE8",
+       "palette": null
+      },
+      {
+       "offset": 0.1641,
+       "color": "#00D5FF",
+       "measured": "#09CCF0",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#00D5FF",
+       "measured": "#09CEF2",
+       "palette": "Bright Cyan"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#1EC2EF"
+      ],
+      [
+       0.1641,
+       "#00D5FF"
+      ]
+     ]
+    },
+    "facet-13": {
+     "type": "linearGradient",
+     "id": "grad-13",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 510.184,
+     "y1": 438.209,
+     "x2": 523.632,
+     "y2": 445.953,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#00D5FF",
+       "measured": "#09CDF2",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 0.7984,
+       "color": "#00D5FF",
+       "measured": "#0BCEF2",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#36B9D0",
+       "measured": "#3ABED4",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.7984,
+       "#00D5FF"
+      ],
+      [
+       1.0,
+       "#36B9D0"
+      ]
+     ]
+    },
+    "facet-14": {
+     "type": "linearGradient",
+     "id": "grad-14",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 473.612,
+     "y1": 463.159,
+     "x2": 502.078,
+     "y2": 480.969,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#1EC2EF",
+       "measured": "#11C4F0",
+       "palette": null
+      },
+      {
+       "offset": 0.8969,
+       "color": "#00D5FF",
+       "measured": "#0CCEF1",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#36B9D0",
+       "measured": "#31BED6",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#1EC2EF"
+      ],
+      [
+       0.8969,
+       "#00D5FF"
+      ],
+      [
+       1.0,
+       "#36B9D0"
+      ]
+     ]
+    },
+    "facet-15": {
+     "type": "linearGradient",
+     "id": "grad-15",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 451.878,
+     "y1": 481.491,
+     "x2": 461.877,
+     "y2": 490.584,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#38BADA",
+       "measured": "#3CBBDC",
+       "palette": null
+      },
+      {
+       "offset": 0.2313,
+       "color": "#00D5FF",
+       "measured": "#0ACAEC",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#00D5FF",
+       "measured": "#06CBF1",
+       "palette": "Bright Cyan"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#38BADA"
+      ],
+      [
+       0.2313,
+       "#00D5FF"
+      ]
+     ]
+    },
+    "facet-16": {
+     "type": "linearGradient",
+     "id": "grad-16",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 560.777,
+     "y1": 425.612,
+     "x2": 545.674,
+     "y2": 456.538,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#152B5F",
+       "measured": "#11255A",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0E2E75",
+       "measured": "#113075",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#152B5F"
+      ],
+      [
+       1.0,
+       "#0E2E75"
+      ]
+     ]
+    },
+    "facet-17": {
+     "type": "linearGradient",
+     "id": "grad-17",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 534.194,
+     "y1": 460.583,
+     "x2": 571.816,
+     "y2": 443.739,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#152B5F",
+       "measured": "#122C61",
+       "palette": null
+      },
+      {
+       "offset": 0.75,
+       "color": "#0E2E75",
+       "measured": "#112F72",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#152B5F",
+       "measured": "#132552",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#152B5F"
+      ],
+      [
+       0.75,
+       "#0E2E75"
+      ],
+      [
+       1.0,
+       "#152B5F"
+      ]
+     ]
+    },
+    "facet-18": {
+     "type": "linearGradient",
+     "id": "grad-18",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 572.404,
+     "y1": 462.76,
+     "x2": 581.641,
+     "y2": 479.578,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#38BADA",
+       "measured": "#34B9D7",
+       "palette": null
+      },
+      {
+       "offset": 0.175,
+       "color": "#00D5FF",
+       "measured": "#0EC9EF",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#00D5FF",
+       "measured": "#0ECAEF",
+       "palette": "Bright Cyan"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#38BADA"
+      ],
+      [
+       0.175,
+       "#00D5FF"
+      ]
+     ]
+    },
+    "facet-19": {
+     "type": "linearGradient",
+     "id": "grad-19",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 549.656,
+     "y1": 483.75,
+     "x2": 541.21,
+     "y2": 539.702,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2C60C6",
+       "measured": "#2763CC",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2C60C6",
+       "measured": "#325EC0",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#2C60C6"
+      ],
+      [
+       1.0,
+       "#2C60C6"
+      ]
+     ]
+    },
+    "facet-20": {
+     "type": "linearGradient",
+     "id": "grad-20",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 602.503,
+     "y1": 494.406,
+     "x2": 587.318,
+     "y2": 503.287,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#36B9D0",
+       "measured": "#37BAD2",
+       "palette": null
+      },
+      {
+       "offset": 0.2016,
+       "color": "#00D5FF",
+       "measured": "#08CEEF",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#1EC2EF",
+       "measured": "#17C5F1",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#36B9D0"
+      ],
+      [
+       0.2016,
+       "#00D5FF"
+      ],
+      [
+       1.0,
+       "#1EC2EF"
+      ]
+     ]
+    },
+    "facet-21": {
+     "type": "linearGradient",
+     "id": "grad-21",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 604.704,
+     "y1": 457.333,
+     "x2": 642.281,
+     "y2": 463.887,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2C60C6",
+       "measured": "#2D62C9",
+       "palette": null
+      },
+      {
+       "offset": 0.9031,
+       "color": "#2C60C6",
+       "measured": "#2B5FC6",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0986C8",
+       "measured": "#0986C8",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.9031,
+       "#2C60C6"
+      ],
+      [
+       1.0,
+       "#0986C8"
+      ]
+     ]
+    },
+    "facet-22": {
+     "type": "solid",
+     "color": "#00D5FF",
+     "measured": "#0CCCF1",
+     "palette": "Bright Cyan"
+    },
+    "facet-23": {
+     "type": "linearGradient",
+     "id": "grad-23",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 668.537,
+     "y1": 432.593,
+     "x2": 687.022,
+     "y2": 448.071,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#00D5FF",
+       "measured": "#0ACDF3",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 0.8609,
+       "color": "#00D5FF",
+       "measured": "#0CCBEF",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#5CC0CE",
+       "measured": "#5CC0CE",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.8609,
+       "#00D5FF"
+      ],
+      [
+       1.0,
+       "#5CC0CE"
+      ]
+     ]
+    },
+    "facet-24": {
+     "type": "solid",
+     "color": "#2C60C6",
+     "measured": "#2E60C6",
+     "palette": null
+    },
+    "facet-25": {
+     "type": "linearGradient",
+     "id": "grad-25",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 645.907,
+     "y1": 369.772,
+     "x2": 672.354,
+     "y2": 413.203,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2C60C6",
+       "measured": "#315DC7",
+       "palette": null
+      },
+      {
+       "offset": 0.8438,
+       "color": "#2C60C6",
+       "measured": "#2862C8",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#1EC2EF",
+       "measured": "#1BC6FB",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.8438,
+       "#2C60C6"
+      ],
+      [
+       1.0,
+       "#1EC2EF"
+      ]
+     ]
+    },
+    "facet-26": {
+     "type": "linearGradient",
+     "id": "grad-26",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 718.636,
+     "y1": 359.816,
+     "x2": 708.278,
+     "y2": 377.429,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#152B5F",
+       "measured": "#1D3265",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0E2E75",
+       "measured": "#0D2C77",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#152B5F"
+      ],
+      [
+       1.0,
+       "#0E2E75"
+      ]
+     ]
+    },
+    "facet-27": {
+     "type": "linearGradient",
+     "id": "grad-27",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 709.49,
+     "y1": 379.333,
+     "x2": 741.098,
+     "y2": 402.236,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#0E2E75",
+       "measured": "#0A327E",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#152B5F",
+       "measured": "#192F62",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#0E2E75"
+      ],
+      [
+       1.0,
+       "#152B5F"
+      ]
+     ]
+    },
+    "facet-28": {
+     "type": "linearGradient",
+     "id": "grad-28",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 445.388,
+     "y1": 504.145,
+     "x2": 460.86,
+     "y2": 538.491,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2C60C6",
+       "measured": "#2962C6",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2C60C6",
+       "measured": "#325EC6",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#2C60C6"
+      ],
+      [
+       1.0,
+       "#2C60C6"
+      ]
+     ]
+    },
+    "facet-29": {
+     "type": "linearGradient",
+     "id": "grad-29",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 379.616,
+     "y1": 516.021,
+     "x2": 384.862,
+     "y2": 528.441,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#152B5F",
+       "measured": "#142C65",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0E2E75",
+       "measured": "#0D2E76",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#152B5F"
+      ],
+      [
+       1.0,
+       "#0E2E75"
+      ]
+     ]
+    },
+    "facet-30": {
+     "type": "linearGradient",
+     "id": "grad-30",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 368.831,
+     "y1": 503.75,
+     "x2": 338.353,
+     "y2": 581.389,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#0E2E75",
+       "measured": "#0E3078",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#152B5F",
+       "measured": "#15295D",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#0E2E75"
+      ],
+      [
+       1.0,
+       "#152B5F"
+      ]
+     ]
+    },
+    "facet-31": {
+     "type": "linearGradient",
+     "id": "grad-31",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 416.249,
+     "y1": 547.815,
+     "x2": 422.521,
+     "y2": 559.642,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#0E2E75",
+       "measured": "#0E2D76",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#152B5F",
+       "measured": "#132C67",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#0E2E75"
+      ],
+      [
+       1.0,
+       "#152B5F"
+      ]
+     ]
+    },
+    "facet-32": {
+     "type": "linearGradient",
+     "id": "grad-32",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 364.34,
+     "y1": 558.268,
+     "x2": 402.72,
+     "y2": 576.176,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#152B5F",
+       "measured": "#152B5B",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0E2E75",
+       "measured": "#0C2B75",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#152B5F"
+      ],
+      [
+       1.0,
+       "#0E2E75"
+      ]
+     ]
+    },
+    "facet-33": {
+     "type": "linearGradient",
+     "id": "grad-33",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 720.215,
+     "y1": 406.006,
+     "x2": 721.626,
+     "y2": 407.211,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#36B9D0",
+       "measured": "#29B4CE",
+       "palette": null
+      },
+      {
+       "offset": 0.4281,
+       "color": "#36B9D0",
+       "measured": "#3DB2C8",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#93E2EB",
+       "measured": "#93E2EB",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.4281,
+       "#36B9D0"
+      ],
+      [
+       1.0,
+       "#93E2EB"
+      ]
+     ]
+    }
+   },
+   "supporting_tones": [
+    {
+     "name": "Bird Azure 1",
+     "hex": "#385DA4",
+     "used_in": [
+      "facet-05"
+     ],
+     "stops": [
+      "facet-05/2"
+     ]
+    },
+    {
+     "name": "Bird Azure 2",
+     "hex": "#0986C8",
+     "used_in": [
+      "facet-21"
+     ],
+     "stops": [
+      "facet-21/2"
+     ]
+    },
+    {
+     "name": "Bird Blue 1",
+     "hex": "#2153B3",
+     "used_in": [
+      "facet-09"
+     ],
+     "stops": [
+      "facet-09/1"
+     ]
+    },
+    {
+     "name": "Bird Blue 2",
+     "hex": "#2C60C6",
+     "used_in": [
+      "facet-03",
+      "facet-05",
+      "facet-06",
+      "facet-09",
+      "facet-19",
+      "facet-21",
+      "facet-24",
+      "facet-25",
+      "facet-28"
+     ],
+     "stops": [
+      "facet-03/0",
+      "facet-05/0",
+      "facet-05/1",
+      "facet-06/0",
+      "facet-09/0",
+      "facet-19/0",
+      "facet-19/1",
+      "facet-21/0",
+      "facet-21/1",
+      "facet-24/0",
+      "facet-25/0",
+      "facet-25/1",
+      "facet-28/0",
+      "facet-28/1"
+     ]
+    },
+    {
+     "name": "Bird Cyan 1",
+     "hex": "#36B9D0",
+     "used_in": [
+      "facet-11",
+      "facet-13",
+      "facet-14",
+      "facet-20",
+      "facet-33"
+     ],
+     "stops": [
+      "facet-11/2",
+      "facet-13/2",
+      "facet-14/2",
+      "facet-20/0",
+      "facet-33/0",
+      "facet-33/1"
+     ]
+    },
+    {
+     "name": "Bird Deep Blue 1",
+     "hex": "#152B5F",
+     "used_in": [
+      "facet-16",
+      "facet-17",
+      "facet-26",
+      "facet-27",
+      "facet-29",
+      "facet-30",
+      "facet-31",
+      "facet-32"
+     ],
+     "stops": [
+      "facet-16/0",
+      "facet-17/0",
+      "facet-17/2",
+      "facet-26/0",
+      "facet-27/1",
+      "facet-29/0",
+      "facet-30/1",
+      "facet-31/1",
+      "facet-32/0"
+     ]
+    },
+    {
+     "name": "Bird Deep Blue 2",
+     "hex": "#0E2E75",
+     "used_in": [
+      "facet-01",
+      "facet-02",
+      "facet-04",
+      "facet-16",
+      "facet-17",
+      "facet-26",
+      "facet-27",
+      "facet-29",
+      "facet-30",
+      "facet-31",
+      "facet-32"
+     ],
+     "stops": [
+      "facet-01/0",
+      "facet-02/0",
+      "facet-04/0",
+      "facet-04/1",
+      "facet-16/1",
+      "facet-17/1",
+      "facet-26/1",
+      "facet-27/0",
+      "facet-29/1",
+      "facet-30/0",
+      "facet-31/0",
+      "facet-32/1"
+     ]
+    },
+    {
+     "name": "Bird Sky 1",
+     "hex": "#38BADA",
+     "used_in": [
+      "facet-15",
+      "facet-18"
+     ],
+     "stops": [
+      "facet-15/0",
+      "facet-18/0"
+     ]
+    },
+    {
+     "name": "Bird Sky 2",
+     "hex": "#1EC2EF",
+     "used_in": [
+      "facet-10",
+      "facet-12",
+      "facet-14",
+      "facet-20",
+      "facet-25"
+     ],
+     "stops": [
+      "facet-10/0",
+      "facet-12/0",
+      "facet-14/0",
+      "facet-20/2",
+      "facet-25/2"
+     ]
+    },
+    {
+     "name": "Bird Slate 1",
+     "hex": "#5CC0CE",
+     "used_in": [
+      "facet-23"
+     ],
+     "stops": [
+      "facet-23/2"
+     ]
+    },
+    {
+     "name": "Bird Slate 2",
+     "hex": "#93E2EB",
+     "used_in": [
+      "facet-33"
+     ],
+     "stops": [
+      "facet-33/2"
+     ]
+    }
+   ],
+   "palette_snaps": [
+    {
+     "facet": "facet-07",
+     "stop": 0,
+     "measured": "#0ECCEF",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.88
+    },
+    {
+     "facet": "facet-08",
+     "stop": 0,
+     "measured": "#0CCCF0",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.59
+    },
+    {
+     "facet": "facet-09",
+     "stop": 2,
+     "measured": "#0ECBF3",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.44
+    },
+    {
+     "facet": "facet-10",
+     "stop": 1,
+     "measured": "#0ACDF1",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.4
+    },
+    {
+     "facet": "facet-10",
+     "stop": 2,
+     "measured": "#0ACDF1",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.45
+    },
+    {
+     "facet": "facet-11",
+     "stop": 0,
+     "measured": "#09CEF1",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.41
+    },
+    {
+     "facet": "facet-11",
+     "stop": 1,
+     "measured": "#0DCDF0",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.54
+    },
+    {
+     "facet": "facet-12",
+     "stop": 1,
+     "measured": "#09CCF0",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.63
+    },
+    {
+     "facet": "facet-12",
+     "stop": 2,
+     "measured": "#09CEF2",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.33
+    },
+    {
+     "facet": "facet-13",
+     "stop": 0,
+     "measured": "#09CDF2",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.32
+    },
+    {
+     "facet": "facet-13",
+     "stop": 1,
+     "measured": "#0BCEF2",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.29
+    },
+    {
+     "facet": "facet-14",
+     "stop": 1,
+     "measured": "#0CCEF1",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.39
+    },
+    {
+     "facet": "facet-15",
+     "stop": 1,
+     "measured": "#0ACAEC",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 3.29
+    },
+    {
+     "facet": "facet-15",
+     "stop": 2,
+     "measured": "#06CBF1",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.51
+    },
+    {
+     "facet": "facet-18",
+     "stop": 1,
+     "measured": "#0EC9EF",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 3.1
+    },
+    {
+     "facet": "facet-18",
+     "stop": 2,
+     "measured": "#0ECAEF",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.9
+    },
+    {
+     "facet": "facet-20",
+     "stop": 1,
+     "measured": "#08CEEF",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.89
+    },
+    {
+     "facet": "facet-22",
+     "stop": 0,
+     "measured": "#0CCCF1",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.52
+    },
+    {
+     "facet": "facet-23",
+     "stop": 0,
+     "measured": "#0ACDF3",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.14
+    },
+    {
+     "facet": "facet-23",
+     "stop": 1,
+     "measured": "#0CCBEF",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.8
+    }
+   ]
+  }
+ },
+ "08": {
+  "source_file": "7580025b-e049-4a17-b0ab-97d45dcb6acc.jpeg",
+  "background": "#F5F8FD",
+  "matrix": [
+   0.867265,
+   -0.007649,
+   0.007649,
+   0.867265,
+   -100.153508,
+   -16.931979
+  ],
+  "scale": 0.867298,
+  "rotation_deg": -0.5053,
+  "translate": [
+   -100.154,
+   -16.932
+  ],
+  "note": "SVG matrix(a b c d e f) maps the 1024 master space (components/bird.svg) onto this original's pixels",
+  "iou_fit_coverage": 0.9163,
+  "master_colors": {
+   "iou": 0.9173,
+   "de_mean": 12.39,
+   "de_p95": 37.84,
+   "de_mean_eroded1": 11.87,
+   "de_p95_eroded1": 36.05
+  },
+  "recolored": {
+   "file": "components/bird-08.svg",
+   "metrics": {
+    "iou": 0.9325,
+    "de_mean": 5.22,
+    "de_p95": 24.65,
+    "de_mean_eroded1": 4.5,
+    "de_p95_eroded1": 17.45
+   },
+   "fills": {
+    "facet-01": {
+     "type": "linearGradient",
+     "id": "grad-01",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 457.717,
+     "y1": 281.388,
+     "x2": 444.294,
+     "y2": 323.15,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#545D67",
+       "measured": "#545D67",
+       "palette": null
+      },
+      {
+       "offset": 0.05,
+       "color": "#2B3E58",
+       "measured": "#2A3D56",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2B3E58",
+       "measured": "#2E415B",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#545D67"
+      ],
+      [
+       0.05,
+       "#2B3E58"
+      ]
+     ]
+    },
+    "facet-02": {
+     "type": "linearGradient",
+     "id": "grad-02",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 392.636,
+     "y1": 233.462,
+     "x2": 387.119,
+     "y2": 343.674,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2B3E58",
+       "measured": "#2C4057",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2B3E58",
+       "measured": "#2B3E5A",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#2B3E58"
+      ],
+      [
+       1.0,
+       "#2B3E58"
+      ]
+     ]
+    },
+    "facet-03": {
+     "type": "linearGradient",
+     "id": "grad-03",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 527.655,
+     "y1": 378.926,
+     "x2": 353.008,
+     "y2": 333.409,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#031B59",
+       "measured": "#031A5A",
+       "palette": null
+      },
+      {
+       "offset": 0.525,
+       "color": "#2A77F3",
+       "measured": "#2974EF",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#031B59",
+       "measured": "#031C56",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#031B59"
+      ],
+      [
+       0.525,
+       "#2A77F3"
+      ],
+      [
+       1.0,
+       "#031B59"
+      ]
+     ]
+    },
+    "facet-04": {
+     "type": "linearGradient",
+     "id": "grad-04",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 512.626,
+     "y1": 351.679,
+     "x2": 467.275,
+     "y2": 443.447,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2B3E58",
+       "measured": "#293D5E",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2B3E58",
+       "measured": "#2C4157",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#2B3E58"
+      ],
+      [
+       1.0,
+       "#2B3E58"
+      ]
+     ]
+    },
+    "facet-05": {
+     "type": "linearGradient",
+     "id": "grad-05",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 271.559,
+     "y1": 286.939,
+     "x2": 376.789,
+     "y2": 355.77,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#031B59",
+       "measured": "#031A5B",
+       "palette": null
+      },
+      {
+       "offset": 0.8141,
+       "color": "#2A77F3",
+       "measured": "#2A79F2",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2159B4",
+       "measured": "#235CB3",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#031B59"
+      ],
+      [
+       0.8141,
+       "#2A77F3"
+      ],
+      [
+       1.0,
+       "#2159B4"
+      ]
+     ]
+    },
+    "facet-06": {
+     "type": "linearGradient",
+     "id": "grad-06",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 428.249,
+     "y1": 400.185,
+     "x2": 313.774,
+     "y2": 313.697,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#0B2B6F",
+       "measured": "#0E2E77",
+       "palette": null
+      },
+      {
+       "offset": 0.6219,
+       "color": "#2A77F3",
+       "measured": "#297AF2",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#224F9D",
+       "measured": "#224F9D",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#0B2B6F"
+      ],
+      [
+       0.6219,
+       "#2A77F3"
+      ],
+      [
+       1.0,
+       "#224F9D"
+      ]
+     ]
+    },
+    "facet-07": {
+     "type": "linearGradient",
+     "id": "grad-07",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 507.314,
+     "y1": 304.679,
+     "x2": 650.989,
+     "y2": 414.236,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#1088C2",
+       "measured": "#1088C2",
+       "palette": null
+      },
+      {
+       "offset": 0.5,
+       "color": "#02FDFE",
+       "measured": "#02FFFF",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0678C5",
+       "measured": "#0277BE",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#1088C2"
+      ],
+      [
+       0.5,
+       "#02FDFE"
+      ],
+      [
+       1.0,
+       "#0678C5"
+      ]
+     ]
+    },
+    "facet-08": {
+     "type": "linearGradient",
+     "id": "grad-08",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 580.968,
+     "y1": 357.792,
+     "x2": 551.44,
+     "y2": 377.263,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#02FDFE",
+       "measured": "#00FFFF",
+       "palette": null
+      },
+      {
+       "offset": 0.9156,
+       "color": "#0CB2DA",
+       "measured": "#0EB3D9",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#C8F1E6",
+       "measured": "#C8F1E6",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#02FDFE"
+      ],
+      [
+       0.9156,
+       "#0CB2DA"
+      ],
+      [
+       1.0,
+       "#C8F1E6"
+      ]
+     ]
+    },
+    "facet-09": {
+     "type": "linearGradient",
+     "id": "grad-09",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 569.755,
+     "y1": 367.977,
+     "x2": 544.059,
+     "y2": 381.74,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#227FFD",
+       "measured": "#2080FB",
+       "palette": null
+      },
+      {
+       "offset": 0.4688,
+       "color": "#2A6CE5",
+       "measured": "#286BDE",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#008EB7",
+       "measured": "#008EB7",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#227FFD"
+      ],
+      [
+       0.4688,
+       "#2A6CE5"
+      ],
+      [
+       1.0,
+       "#008EB7"
+      ]
+     ]
+    },
+    "facet-10": {
+     "type": "linearGradient",
+     "id": "grad-10",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 520.255,
+     "y1": 362.641,
+     "x2": 530.063,
+     "y2": 416.483,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#0B6BA8",
+       "measured": "#0B6BA8",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#00D5FF",
+       "measured": "#05CFF1",
+       "palette": "Bright Cyan"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#0B6BA8"
+      ],
+      [
+       1.0,
+       "#00D5FF"
+      ]
+     ]
+    },
+    "facet-11": {
+     "type": "linearGradient",
+     "id": "grad-11",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 553.365,
+     "y1": 396.51,
+     "x2": 523.732,
+     "y2": 419.795,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#1294CA",
+       "measured": "#0292CD",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0AC5E3",
+       "measured": "#02C4E7",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#1294CA"
+      ],
+      [
+       1.0,
+       "#0AC5E3"
+      ]
+     ]
+    },
+    "facet-12": {
+     "type": "linearGradient",
+     "id": "grad-12",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 500.562,
+     "y1": 417.049,
+     "x2": 483.813,
+     "y2": 484.555,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#00D5FF",
+       "measured": "#05CBEE",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 0.5703,
+       "color": "#02FDFE",
+       "measured": "#06FFFD",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#02E1F8",
+       "measured": "#00E2F8",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#00D5FF"
+      ],
+      [
+       0.5703,
+       "#02FDFE"
+      ],
+      [
+       1.0,
+       "#02E1F8"
+      ]
+     ]
+    },
+    "facet-13": {
+     "type": "linearGradient",
+     "id": "grad-13",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 531.11,
+     "y1": 433.548,
+     "x2": 495.906,
+     "y2": 454.045,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#00D5FF",
+       "measured": "#06C9EC",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#02FDFE",
+       "measured": "#01FAFF",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#00D5FF"
+      ],
+      [
+       1.0,
+       "#02FDFE"
+      ]
+     ]
+    },
+    "facet-14": {
+     "type": "linearGradient",
+     "id": "grad-14",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 488.024,
+     "y1": 465.677,
+     "x2": 494.297,
+     "y2": 480.437,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#02FDFE",
+       "measured": "#00FFFD",
+       "palette": null
+      },
+      {
+       "offset": 0.8188,
+       "color": "#09EDFB",
+       "measured": "#0DEBF9",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#32B3EA",
+       "measured": "#32B3EA",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#02FDFE"
+      ],
+      [
+       0.8188,
+       "#09EDFB"
+      ],
+      [
+       1.0,
+       "#32B3EA"
+      ]
+     ]
+    },
+    "facet-15": {
+     "type": "linearGradient",
+     "id": "grad-15",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 476.124,
+     "y1": 483.551,
+     "x2": 423.972,
+     "y2": 486.933,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#09EDFB",
+       "measured": "#04F0F9",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0BA7E4",
+       "measured": "#0BA7E4",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#09EDFB"
+      ],
+      [
+       1.0,
+       "#0BA7E4"
+      ]
+     ]
+    },
+    "facet-16": {
+     "type": "linearGradient",
+     "id": "grad-16",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 551.201,
+     "y1": 436.038,
+     "x2": 560.56,
+     "y2": 441.847,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#CFD8DE",
+       "measured": "#CFD8DE",
+       "palette": null
+      },
+      {
+       "offset": 0.125,
+       "color": "#2B3E58",
+       "measured": "#2B3A4C",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2B3E58",
+       "measured": "#273C5B",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#CFD8DE"
+      ],
+      [
+       0.125,
+       "#2B3E58"
+      ]
+     ]
+    },
+    "facet-17": {
+     "type": "linearGradient",
+     "id": "grad-17",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 562.692,
+     "y1": 436.19,
+     "x2": 551.417,
+     "y2": 468.974,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2B3E58",
+       "measured": "#273A55",
+       "palette": null
+      },
+      {
+       "offset": 0.6391,
+       "color": "#2B3E58",
+       "measured": "#2F405C",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#262E3B",
+       "measured": "#262E3B",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.6391,
+       "#2B3E58"
+      ],
+      [
+       1.0,
+       "#262E3B"
+      ]
+     ]
+    },
+    "facet-18": {
+     "type": "linearGradient",
+     "id": "grad-18",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 572.15,
+     "y1": 462.13,
+     "x2": 581.565,
+     "y2": 479.718,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#C9F0F0",
+       "measured": "#C9F0F0",
+       "palette": null
+      },
+      {
+       "offset": 0.1297,
+       "color": "#0AC5E3",
+       "measured": "#13C5DF",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#02FDFE",
+       "measured": "#00F8FF",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#C9F0F0"
+      ],
+      [
+       0.1297,
+       "#0AC5E3"
+      ],
+      [
+       1.0,
+       "#02FDFE"
+      ]
+     ]
+    },
+    "facet-19": {
+     "type": "linearGradient",
+     "id": "grad-19",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 592.335,
+     "y1": 502.683,
+     "x2": 491.389,
+     "y2": 520.613,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#1E50D4",
+       "measured": "#1E50D4",
+       "palette": null
+      },
+      {
+       "offset": 0.2812,
+       "color": "#2A77F3",
+       "measured": "#2975F9",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0A2255",
+       "measured": "#0A2255",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#1E50D4"
+      ],
+      [
+       0.2812,
+       "#2A77F3"
+      ],
+      [
+       1.0,
+       "#0A2255"
+      ]
+     ]
+    },
+    "facet-20": {
+     "type": "linearGradient",
+     "id": "grad-20",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 605.26,
+     "y1": 485.481,
+     "x2": 585.798,
+     "y2": 511.084,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#02FDFE",
+       "measured": "#02FEFF",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0678C5",
+       "measured": "#0F78D1",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#02FDFE"
+      ],
+      [
+       1.0,
+       "#0678C5"
+      ]
+     ]
+    },
+    "facet-21": {
+     "type": "linearGradient",
+     "id": "grad-21",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 637.2,
+     "y1": 418.25,
+     "x2": 621.463,
+     "y2": 504.299,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#236FFF",
+       "measured": "#1D6CFF",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#34578E",
+       "measured": "#34578E",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#236FFF"
+      ],
+      [
+       1.0,
+       "#34578E"
+      ]
+     ]
+    },
+    "facet-22": {
+     "type": "linearGradient",
+     "id": "grad-22",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 656.376,
+     "y1": 416.882,
+     "x2": 689.705,
+     "y2": 476.135,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#144593",
+       "measured": "#144593",
+       "palette": null
+      },
+      {
+       "offset": 0.0609,
+       "color": "#09EDFB",
+       "measured": "#0CEBFE",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0842A9",
+       "measured": "#0842A9",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#144593"
+      ],
+      [
+       0.0609,
+       "#09EDFB"
+      ],
+      [
+       1.0,
+       "#0842A9"
+      ]
+     ]
+    },
+    "facet-23": {
+     "type": "linearGradient",
+     "id": "grad-23",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 711.949,
+     "y1": 401.952,
+     "x2": 641.098,
+     "y2": 492.848,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#00D5FF",
+       "measured": "#02D7F4",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 0.325,
+       "color": "#02FDFE",
+       "measured": "#02FDFF",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0678C5",
+       "measured": "#0179C1",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#00D5FF"
+      ],
+      [
+       0.325,
+       "#02FDFE"
+      ],
+      [
+       1.0,
+       "#0678C5"
+      ]
+     ]
+    },
+    "facet-24": {
+     "type": "linearGradient",
+     "id": "grad-24",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 674.617,
+     "y1": 360.465,
+     "x2": 685.235,
+     "y2": 396.354,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#F3FDFF",
+       "measured": "#F3FDFF",
+       "palette": null
+      },
+      {
+       "offset": 0.0859,
+       "color": "#2159B4",
+       "measured": "#1F56B5",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#236FFF",
+       "measured": "#2971FF",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#F3FDFF"
+      ],
+      [
+       0.0859,
+       "#2159B4"
+      ],
+      [
+       1.0,
+       "#236FFF"
+      ]
+     ]
+    },
+    "facet-25": {
+     "type": "linearGradient",
+     "id": "grad-25",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 690.79,
+     "y1": 383.31,
+     "x2": 645.794,
+     "y2": 400.225,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#227FFD",
+       "measured": "#247EFF",
+       "palette": null
+      },
+      {
+       "offset": 0.925,
+       "color": "#0B2B6F",
+       "measured": "#0B2B73",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#FFFFFF",
+       "measured": "#FBFFFF",
+       "palette": "Pure White"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#227FFD"
+      ],
+      [
+       0.925,
+       "#0B2B6F"
+      ],
+      [
+       1.0,
+       "#FFFFFF"
+      ]
+     ]
+    },
+    "facet-26": {
+     "type": "linearGradient",
+     "id": "grad-26",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 708.791,
+     "y1": 351.944,
+     "x2": 717.996,
+     "y2": 391.525,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#F4F7FB",
+       "measured": "#F1FCFF",
+       "palette": "Off-White"
+      },
+      {
+       "offset": 0.0844,
+       "color": "#2B3E58",
+       "measured": "#2F4562",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2B3E58",
+       "measured": "#2B3E5B",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#F4F7FB"
+      ],
+      [
+       0.0844,
+       "#2B3E58"
+      ]
+     ]
+    },
+    "facet-27": {
+     "type": "linearGradient",
+     "id": "grad-27",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 718.398,
+     "y1": 381.259,
+     "x2": 731.281,
+     "y2": 400.62,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2A6CE5",
+       "measured": "#2C6CEC",
+       "palette": null
+      },
+      {
+       "offset": 0.3391,
+       "color": "#2B3E58",
+       "measured": "#29405E",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#2B3E58",
+       "measured": "#2B3E54",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#2A6CE5"
+      ],
+      [
+       0.3391,
+       "#2B3E58"
+      ]
+     ]
+    },
+    "facet-28": {
+     "type": "linearGradient",
+     "id": "grad-28",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 397.505,
+     "y1": 547.164,
+     "x2": 506.377,
+     "y2": 487.585,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#0B2B6F",
+       "measured": "#0A296A",
+       "palette": null
+      },
+      {
+       "offset": 0.55,
+       "color": "#2A77F3",
+       "measured": "#2D76F3",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#0B2B6F",
+       "measured": "#0B2966",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#0B2B6F"
+      ],
+      [
+       0.55,
+       "#2A77F3"
+      ],
+      [
+       1.0,
+       "#0B2B6F"
+      ]
+     ]
+    },
+    "facet-29": {
+     "type": "linearGradient",
+     "id": "grad-29",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 362.225,
+     "y1": 503.014,
+     "x2": 397.421,
+     "y2": 536.413,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2B3E58",
+       "measured": "#314258",
+       "palette": null
+      },
+      {
+       "offset": 0.95,
+       "color": "#2B3E58",
+       "measured": "#273E59",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#1294CA",
+       "measured": "#2296C7",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.95,
+       "#2B3E58"
+      ],
+      [
+       1.0,
+       "#1294CA"
+      ]
+     ]
+    },
+    "facet-30": {
+     "type": "linearGradient",
+     "id": "grad-30",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 352.152,
+     "y1": 526.375,
+     "x2": 354.515,
+     "y2": 549.846,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#284371",
+       "measured": "#284371",
+       "palette": null
+      },
+      {
+       "offset": 0.8063,
+       "color": "#2B3E58",
+       "measured": "#2C3C51",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#FFFFFF",
+       "measured": "#FCFFFF",
+       "palette": "Pure White"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#284371"
+      ],
+      [
+       0.8063,
+       "#2B3E58"
+      ],
+      [
+       1.0,
+       "#FFFFFF"
+      ]
+     ]
+    },
+    "facet-31": {
+     "type": "linearGradient",
+     "id": "grad-31",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 416.397,
+     "y1": 547.373,
+     "x2": 422.118,
+     "y2": 559.344,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2B3E58",
+       "measured": "#2A415F",
+       "palette": null
+      },
+      {
+       "offset": 0.7453,
+       "color": "#2B3E58",
+       "measured": "#2D3D50",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#FFFFFF",
+       "measured": "#FAFFFF",
+       "palette": "Pure White"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.7453,
+       "#2B3E58"
+      ],
+      [
+       1.0,
+       "#FFFFFF"
+      ]
+     ]
+    },
+    "facet-32": {
+     "type": "linearGradient",
+     "id": "grad-32",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 376.532,
+     "y1": 554.672,
+     "x2": 387.224,
+     "y2": 576.986,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#2B3E58",
+       "measured": "#2C405C",
+       "palette": null
+      },
+      {
+       "offset": 0.7969,
+       "color": "#2B3E58",
+       "measured": "#2B3D52",
+       "palette": null
+      },
+      {
+       "offset": 1.0,
+       "color": "#FFFFFF",
+       "measured": "#F9FEFF",
+       "palette": "Pure White"
+      }
+     ],
+     "svg_stops": [
+      [
+       0.7969,
+       "#2B3E58"
+      ],
+      [
+       1.0,
+       "#FFFFFF"
+      ]
+     ]
+    },
+    "facet-33": {
+     "type": "linearGradient",
+     "id": "grad-33",
+     "gradientUnits": "userSpaceOnUse",
+     "x1": 725.286,
+     "y1": 399.765,
+     "x2": 714.71,
+     "y2": 417.233,
+     "stops": [
+      {
+       "offset": 0.0,
+       "color": "#0CB2DA",
+       "measured": "#09B2DA",
+       "palette": null
+      },
+      {
+       "offset": 0.3438,
+       "color": "#00D5FF",
+       "measured": "#02CAEF",
+       "palette": "Bright Cyan"
+      },
+      {
+       "offset": 1.0,
+       "color": "#02E1F8",
+       "measured": "#03DFF8",
+       "palette": null
+      }
+     ],
+     "svg_stops": [
+      [
+       0.0,
+       "#0CB2DA"
+      ],
+      [
+       0.3438,
+       "#00D5FF"
+      ],
+      [
+       1.0,
+       "#02E1F8"
+      ]
+     ]
+    }
+   },
+   "supporting_tones": [
+    {
+     "name": "Bird Azure 1",
+     "hex": "#34578E",
+     "used_in": [
+      "facet-21"
+     ],
+     "stops": [
+      "facet-21/1"
+     ]
+    },
+    {
+     "name": "Bird Azure 2",
+     "hex": "#0B6BA8",
+     "used_in": [
+      "facet-10"
+     ],
+     "stops": [
+      "facet-10/0"
+     ]
+    },
+    {
+     "name": "Bird Azure 3",
+     "hex": "#0678C5",
+     "used_in": [
+      "facet-07",
+      "facet-20",
+      "facet-23"
+     ],
+     "stops": [
+      "facet-07/2",
+      "facet-20/1",
+      "facet-23/2"
+     ]
+    },
+    {
+     "name": "Bird Blue 1",
+     "hex": "#144593",
+     "used_in": [
+      "facet-22"
+     ],
+     "stops": [
+      "facet-22/0"
+     ]
+    },
+    {
+     "name": "Bird Blue 2",
+     "hex": "#0842A9",
+     "used_in": [
+      "facet-22"
+     ],
+     "stops": [
+      "facet-22/2"
+     ]
+    },
+    {
+     "name": "Bird Blue 3",
+     "hex": "#224F9D",
+     "used_in": [
+      "facet-06"
+     ],
+     "stops": [
+      "facet-06/2"
+     ]
+    },
+    {
+     "name": "Bird Blue 4",
+     "hex": "#1E50D4",
+     "used_in": [
+      "facet-19"
+     ],
+     "stops": [
+      "facet-19/0"
+     ]
+    },
+    {
+     "name": "Bird Blue 5",
+     "hex": "#2159B4",
+     "used_in": [
+      "facet-05",
+      "facet-24"
+     ],
+     "stops": [
+      "facet-05/2",
+      "facet-24/1"
+     ]
+    },
+    {
+     "name": "Bird Blue 6",
+     "hex": "#2A6CE5",
+     "used_in": [
+      "facet-09",
+      "facet-27"
+     ],
+     "stops": [
+      "facet-09/1",
+      "facet-27/0"
+     ]
+    },
+    {
+     "name": "Bird Blue 7",
+     "hex": "#236FFF",
+     "used_in": [
+      "facet-21",
+      "facet-24"
+     ],
+     "stops": [
+      "facet-21/0",
+      "facet-24/2"
+     ]
+    },
+    {
+     "name": "Bird Blue 8",
+     "hex": "#2A77F3",
+     "used_in": [
+      "facet-03",
+      "facet-05",
+      "facet-06",
+      "facet-19",
+      "facet-28"
+     ],
+     "stops": [
+      "facet-03/1",
+      "facet-05/1",
+      "facet-06/1",
+      "facet-19/1",
+      "facet-28/1"
+     ]
+    },
+    {
+     "name": "Bird Blue 9",
+     "hex": "#227FFD",
+     "used_in": [
+      "facet-09",
+      "facet-25"
+     ],
+     "stops": [
+      "facet-09/0",
+      "facet-25/0"
+     ]
+    },
+    {
+     "name": "Bird Cyan 1",
+     "hex": "#0AC5E3",
+     "used_in": [
+      "facet-11",
+      "facet-18"
+     ],
+     "stops": [
+      "facet-11/1",
+      "facet-18/1"
+     ]
+    },
+    {
+     "name": "Bird Cyan 2",
+     "hex": "#02E1F8",
+     "used_in": [
+      "facet-12",
+      "facet-33"
+     ],
+     "stops": [
+      "facet-12/2",
+      "facet-33/2"
+     ]
+    },
+    {
+     "name": "Bird Cyan 3",
+     "hex": "#09EDFB",
+     "used_in": [
+      "facet-14",
+      "facet-15",
+      "facet-22"
+     ],
+     "stops": [
+      "facet-14/1",
+      "facet-15/0",
+      "facet-22/1"
+     ]
+    },
+    {
+     "name": "Bird Cyan 4",
+     "hex": "#02FDFE",
+     "used_in": [
+      "facet-07",
+      "facet-08",
+      "facet-12",
+      "facet-13",
+      "facet-14",
+      "facet-18",
+      "facet-20",
+      "facet-23"
+     ],
+     "stops": [
+      "facet-07/1",
+      "facet-08/0",
+      "facet-12/1",
+      "facet-13/1",
+      "facet-14/0",
+      "facet-18/2",
+      "facet-20/0",
+      "facet-23/1"
+     ]
+    },
+    {
+     "name": "Bird Deep Blue 1",
+     "hex": "#031B59",
+     "used_in": [
+      "facet-03",
+      "facet-05"
+     ],
+     "stops": [
+      "facet-03/0",
+      "facet-03/2",
+      "facet-05/0"
+     ]
+    },
+    {
+     "name": "Bird Deep Blue 2",
+     "hex": "#0A2255",
+     "used_in": [
+      "facet-19"
+     ],
+     "stops": [
+      "facet-19/2"
+     ]
+    },
+    {
+     "name": "Bird Deep Blue 3",
+     "hex": "#0B2B6F",
+     "used_in": [
+      "facet-06",
+      "facet-25",
+      "facet-28"
+     ],
+     "stops": [
+      "facet-06/0",
+      "facet-25/1",
+      "facet-28/0",
+      "facet-28/2"
+     ]
+    },
+    {
+     "name": "Bird Navy 1",
+     "hex": "#262E3B",
+     "used_in": [
+      "facet-17"
+     ],
+     "stops": [
+      "facet-17/2"
+     ]
+    },
+    {
+     "name": "Bird Sky 1",
+     "hex": "#1088C2",
+     "used_in": [
+      "facet-07"
+     ],
+     "stops": [
+      "facet-07/0"
+     ]
+    },
+    {
+     "name": "Bird Sky 2",
+     "hex": "#008EB7",
+     "used_in": [
+      "facet-09"
+     ],
+     "stops": [
+      "facet-09/2"
+     ]
+    },
+    {
+     "name": "Bird Sky 3",
+     "hex": "#1294CA",
+     "used_in": [
+      "facet-11",
+      "facet-29"
+     ],
+     "stops": [
+      "facet-11/0",
+      "facet-29/2"
+     ]
+    },
+    {
+     "name": "Bird Sky 4",
+     "hex": "#0BA7E4",
+     "used_in": [
+      "facet-15"
+     ],
+     "stops": [
+      "facet-15/1"
+     ]
+    },
+    {
+     "name": "Bird Sky 5",
+     "hex": "#0CB2DA",
+     "used_in": [
+      "facet-08",
+      "facet-33"
+     ],
+     "stops": [
+      "facet-08/1",
+      "facet-33/0"
+     ]
+    },
+    {
+     "name": "Bird Sky 6",
+     "hex": "#32B3EA",
+     "used_in": [
+      "facet-14"
+     ],
+     "stops": [
+      "facet-14/2"
+     ]
+    },
+    {
+     "name": "Bird Slate 1",
+     "hex": "#2B3E58",
+     "used_in": [
+      "facet-01",
+      "facet-02",
+      "facet-04",
+      "facet-16",
+      "facet-17",
+      "facet-26",
+      "facet-27",
+      "facet-29",
+      "facet-30",
+      "facet-31",
+      "facet-32"
+     ],
+     "stops": [
+      "facet-01/1",
+      "facet-01/2",
+      "facet-02/0",
+      "facet-02/1",
+      "facet-04/0",
+      "facet-04/1",
+      "facet-16/1",
+      "facet-16/2",
+      "facet-17/0",
+      "facet-17/1",
+      "facet-26/1",
+      "facet-26/2",
+      "facet-27/1",
+      "facet-27/2",
+      "facet-29/0",
+      "facet-29/1",
+      "facet-30/1",
+      "facet-31/0",
+      "facet-31/1",
+      "facet-32/0",
+      "facet-32/1"
+     ]
+    },
+    {
+     "name": "Bird Slate 2",
+     "hex": "#284371",
+     "used_in": [
+      "facet-30"
+     ],
+     "stops": [
+      "facet-30/0"
+     ]
+    },
+    {
+     "name": "Bird Slate 3",
+     "hex": "#545D67",
+     "used_in": [
+      "facet-01"
+     ],
+     "stops": [
+      "facet-01/0"
+     ]
+    },
+    {
+     "name": "Bird Slate 4",
+     "hex": "#CFD8DE",
+     "used_in": [
+      "facet-16"
+     ],
+     "stops": [
+      "facet-16/0"
+     ]
+    },
+    {
+     "name": "Bird Slate 5",
+     "hex": "#C9F0F0",
+     "used_in": [
+      "facet-18"
+     ],
+     "stops": [
+      "facet-18/0"
+     ]
+    },
+    {
+     "name": "Bird Slate 6",
+     "hex": "#C8F1E6",
+     "used_in": [
+      "facet-08"
+     ],
+     "stops": [
+      "facet-08/2"
+     ]
+    },
+    {
+     "name": "Bird Slate 7",
+     "hex": "#F3FDFF",
+     "used_in": [
+      "facet-24"
+     ],
+     "stops": [
+      "facet-24/0"
+     ]
+    }
+   ],
+   "palette_snaps": [
+    {
+     "facet": "facet-10",
+     "stop": 1,
+     "measured": "#05CFF1",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 2.51
+    },
+    {
+     "facet": "facet-12",
+     "stop": 0,
+     "measured": "#05CBEE",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 3.04
+    },
+    {
+     "facet": "facet-13",
+     "stop": 0,
+     "measured": "#06C9EC",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 3.39
+    },
+    {
+     "facet": "facet-23",
+     "stop": 0,
+     "measured": "#02D7F4",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 3.79
+    },
+    {
+     "facet": "facet-25",
+     "stop": 2,
+     "measured": "#FBFFFF",
+     "palette": "Pure White",
+     "hex": "#FFFFFF",
+     "de": 1.47
+    },
+    {
+     "facet": "facet-26",
+     "stop": 0,
+     "measured": "#F1FCFF",
+     "palette": "Off-White",
+     "hex": "#F4F7FB",
+     "de": 3.58
+    },
+    {
+     "facet": "facet-30",
+     "stop": 2,
+     "measured": "#FCFFFF",
+     "palette": "Pure White",
+     "hex": "#FFFFFF",
+     "de": 1.66
+    },
+    {
+     "facet": "facet-31",
+     "stop": 2,
+     "measured": "#FAFFFF",
+     "palette": "Pure White",
+     "hex": "#FFFFFF",
+     "de": 2.46
+    },
+    {
+     "facet": "facet-32",
+     "stop": 2,
+     "measured": "#F9FEFF",
+     "palette": "Pure White",
+     "hex": "#FFFFFF",
+     "de": 2.29
+    },
+    {
+     "facet": "facet-33",
+     "stop": 1,
+     "measured": "#02CAEF",
+     "palette": "Bright Cyan",
+     "hex": "#00D5FF",
+     "de": 3.03
+    }
+   ]
+  }
+ }
+}

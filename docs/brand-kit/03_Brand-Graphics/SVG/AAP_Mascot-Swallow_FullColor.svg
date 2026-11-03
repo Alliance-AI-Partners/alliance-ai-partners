@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="592" height="473" id="mascot-swallow-fullcolor-Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 592 473">
+  <defs>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient" x1="2299.867" y1="2237.082" x2="2260.045" y2="2185.026" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e4265"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-2" x1="2226.656" y1="2162.742" x2="2403.272" y2="2128.063" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset=".341" stop-color="#1b56ff"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-3" x1="2414.249" y1="2141.184" x2="2336.158" y2="2080.57" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a2d4e"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-4" x1="2155.356" y1="2234.268" x2="2248.709" y2="2147.57" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a2d4e"/>
+      <stop offset=".764" stop-color="#1b56ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-5" x1="2290.932" y1="2167.177" x2="2210.304" y2="2152.53" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a2d4e"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-6" x1="2444.116" y1="2217.146" x2="2459.473" y2="2074.466" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".286" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#1b56ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-7" x1="2381.584" y1="2212.507" x2="2486.655" y2="2083.058" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset=".463" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#1b56ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-8" x1="2445.268" y1="2141.957" x2="2420.151" y2="2132.112" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".616" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-9" x1="2421.001" y1="2146.801" x2="2380.065" y2="2086.106" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".683" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-10" x1="2427.577" y1="2118.145" x2="2399.866" y2="2089.169" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-11" x1="2393.062" y1="2090.314" x2="2339.221" y2="2037.256" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-12" x1="2403.901" y1="2083.284" x2="2375.703" y2="2050.945" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-13" x1="2392.088" y1="2049.378" x2="2323.896" y2="2018.693" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset=".381" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-14" x1="2354.262" y1="2048.108" x2="2303.764" y2="1997.606" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-15" x1="2422.879" y1="2064.266" x2="2428.401" y2="2053.508" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a2d4e"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-16" x1="2404.604" y1="2010.751" x2="2507.441" y2="2079.475" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset=".586" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-17" x1="2465.794" y1="2010.494" x2="2366.658" y2="1986.609" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".333" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-18" x1="2457.924" y1="2034.175" x2="2482.052" y2="1990.691" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset=".816" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-19" x1="2518.428" y1="2093.138" x2="2488.088" y2="2012.535" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset=".361" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-20" x1="2567.01" y1="2118.152" x2="2551.911" y2="2000.774" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset=".312" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#2153d8"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-21" x1="2580.055" y1="2111.544" x2="2529.92" y2="2010.676" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset=".564" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#1b56ff"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-22" x1="2567.805" y1="2149.093" x2="2534.072" y2="2117.784" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".372" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-23" x1="2566.579" y1="2130.184" x2="2517.171" y2="2116.08" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-24" x1="2620.763" y1="2148.538" x2="2561.9" y2="2129.295" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".491" stop-color="#42587c"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-25" x1="2603.246" y1="2130.394" x2="2598.822" y2="2111.054" xlink:href="#mascot-swallow-fullcolor-linear-gradient-15"/>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-26" x1="2384.631" y1="2015.054" x2="2272.069" y2="1964.42" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".347" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-27" x1="2241.683" y1="2012.465" x2="2276.177" y2="1979.285" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e4265"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-28" x1="2283.141" y1="1964.212" x2="2156.124" y2="1981.01" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a2d4e"/>
+      <stop offset=".55" stop-color="#2e4265"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-29" x1="2302.917" y1="1978.468" x2="2293.384" y2="1931.568" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42587c"/>
+      <stop offset="1" stop-color="#2e4265"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-30" x1="2242.676" y1="1905.717" x2="2272.73" y2="1975.382" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a2d4e"/>
+      <stop offset=".45" stop-color="#2e4265"/>
+      <stop offset="1" stop-color="#1a2d4e"/>
+    </linearGradient>
+    <linearGradient id="mascot-swallow-fullcolor-linear-gradient-31" x1="2588.639" y1="2097.623" x2="2590.043" y2="2096.421" gradientTransform="translate(-2092 2334.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+  </defs>
+  <g id="mascot-swallow-fullcolor-swallow">
+    <g id="mascot-swallow-fullcolor-bird">
+      <path id="mascot-swallow-fullcolor-facet-01" d="M95.48,55.98l186.76,61.89,41.54,64.02L95.48,55.98Z" fill="#42587c"/>
+      <path id="mascot-swallow-fullcolor-facet-02" d="M95.48,55.98l-25.36-7.98,67.79,80.79,182.97,50.38L95.48,55.98Z" fill="url(#mascot-swallow-fullcolor-linear-gradient)"/>
+      <path id="mascot-swallow-fullcolor-facet-03" d="M137.91,128.79l184.34,50.75-96.05,53.8-88.29-104.55Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-2)"/>
+      <path id="mascot-swallow-fullcolor-facet-04" d="M322.68,178.16l-97.14,54.4,36.4,43.39,17.44-27.76,43.3-70.03Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-3)"/>
+      <path id="mascot-swallow-fullcolor-facet-05" d="M103.88,119.9l55.61,85.55L48.81,104.69l55.07,15.21Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-4)"/>
+      <path id="mascot-swallow-fullcolor-facet-06" d="M112.69,122.57l-8.81-2.67,52.8,82.98,14.38,13.31,43.91,12.91-102.28-106.53Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-5)"/>
+      <path id="mascot-swallow-fullcolor-facet-07" d="M369.23,146.73l66.2,94.96-6.57,2.02-41.85,16.79-27.63-88.51-77.14-54.12,86.99,28.86Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-6)"/>
+      <path id="mascot-swallow-fullcolor-facet-08" d="M282.24,117.87l77.99,53.49,27.71,88.77-12.5,5.31-33.33-53.95,12.04-21.26-32.46-9.77-39.45-62.59Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-7)"/>
+      <path id="mascot-swallow-fullcolor-facet-09" d="M320.88,179.17l34.76,10.46-12.93,22.83-8.37,13.57-7.08-21.96,4.26-6.82-10.64-18.08Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-8)"/>
+      <path id="mascot-swallow-fullcolor-facet-10" d="M320.88,179.17l11.83,18.07-4.35,6.97-23.06,39.2-27.48,5.42,43.06-69.66Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-9)"/>
+      <path id="mascot-swallow-fullcolor-facet-11" d="M328.36,204.21l6.67,20.7-19.55,32.15-11.36-13.65,24.24-39.2Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-10)"/>
+      <path id="mascot-swallow-fullcolor-facet-12" d="M260.27,276.73l-10.74,35.95,29.63-28.18,25.52-41.99-26.15,5.15-18.26,29.07Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-11)"/>
+      <path id="mascot-swallow-fullcolor-facet-13" d="M304.68,242.51l-27.04,42.52,23.74-4.76,14.65-24.11-11.35-13.65Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-12)"/>
+      <path id="mascot-swallow-fullcolor-facet-14" d="M278.38,283.86l23.71-4.76-13.51,22.23-72.92,30.13,35.17-21.4,27.55-26.2Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-13)"/>
+      <path id="mascot-swallow-fullcolor-facet-15" d="M261.27,275.15l-37.39,40.66-22.72,23.47,14.56-7.85,35.11-21.37,10.44-34.91Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-14)"/>
+      <path id="mascot-swallow-fullcolor-facet-16" d="M350.92,258.97l-34.78,28.75,25.6-43.64,9.18,14.89Z" fill="#42587c"/>
+      <path id="mascot-swallow-fullcolor-facet-17" d="M350.39,258.11l-32.77,27.09-3.57,5.31,44.86-18.73-8.52-13.67Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-15)"/>
+      <path id="mascot-swallow-fullcolor-facet-18" d="M428.86,243.71l-131.14,74.01,60.53-8.5,14.62-15.37,11.91-12.33,44.08-37.81Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-16)"/>
+      <path id="mascot-swallow-fullcolor-facet-19" d="M358.87,308.11l-61.15,9.61-24.66,39.91,109-11-23.19-38.52Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-17)"/>
+      <path id="mascot-swallow-fullcolor-facet-20" d="M357.79,308.28l24.27,38.35,18.62-6.28-27.81-46.5-15.08,14.43Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-18)"/>
+      <path id="mascot-swallow-fullcolor-facet-21" d="M435.97,240.33l-7.11,3.38-44.08,37.81,33.08,53.09,18.11-94.28Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-19)"/>
+      <path id="mascot-swallow-fullcolor-facet-22" d="M516.69,218.35l-11.96,6.23-42.81,17.47-36.13,78.51,7.27-3.43-15.2,17.48,17.22-95,22.58-12,37.62-9.09,21.41-.17Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-20)"/>
+      <path id="mascot-swallow-fullcolor-facet-23" d="M483.03,257.9l22.09-33.51-43.94,16.87-37.71,81.96,9.59-6.09,49.97-59.23Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-21)"/>
+      <path id="mascot-swallow-fullcolor-facet-24" d="M416.68,195.64l37.77,11.35,19.64,14.08,26.7-14.21-42.46-25.15-41.65,13.93Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-22)"/>
+      <path id="mascot-swallow-fullcolor-facet-25" d="M416.68,195.64l18.17,45.22,23.16-12.31,39.65-9.58-23.5.93-19.27-13.83-38.21-10.43Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-23)"/>
+      <path id="mascot-swallow-fullcolor-facet-26" d="M477.51,176.81l28.17,6.5,11.19,13.32,26.88,11.71-44.11-1.01-41.31-25.62,19.18-4.9Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-24)"/>
+      <path id="mascot-swallow-fullcolor-facet-27" d="M543.75,208.34l-27.24,10.09-21.08,1.08-21.27.39,24.63-13.1,44.96,1.54Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-25)"/>
+      <path id="mascot-swallow-fullcolor-facet-28" d="M289.48,299.86l-73.76,31.57-17.21,9.28-24.45,28.42,33.54-3.78,45.46-5.49,36.42-60Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-26)"/>
+      <path id="mascot-swallow-fullcolor-facet-29" d="M223.88,315.81l-115.23,44.35,12.1,8.89,78.84-28.14,24.29-25.1Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-27)"/>
+      <path id="mascot-swallow-fullcolor-facet-30" d="M201.16,339.28l-80.29,28.66-12.22-7.78-60.65,23.53,126.06-14.56,27.1-29.85Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-28)"/>
+      <path id="mascot-swallow-fullcolor-facet-31" d="M253.06,359.86l-45.56,4.74-47.96,33.03,16.22.8,77.3-38.57Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-29)"/>
+      <path id="mascot-swallow-fullcolor-facet-32" d="M161.44,397.5l14.32.93-52.32,25.95,50.62-55.25,33.44-4.53-46.06,32.9Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-30)"/>
+      <path id="mascot-swallow-fullcolor-facet-33" d="M516.51,218.43l-34.84,41.09,23.05-34.97,11.79-6.12Z" fill="url(#mascot-swallow-fullcolor-linear-gradient-31)"/>
+    </g>
+  </g>
+</svg>

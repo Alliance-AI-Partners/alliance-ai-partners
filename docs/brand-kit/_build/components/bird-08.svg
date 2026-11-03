@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768">
+<defs>
+<linearGradient id="grad-03" x1="208.667" y1="263.829" x2="359.303" y2="311.324" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#021956"/><stop offset="0.4781" stop-color="#2A76F6"/><stop offset="1.0000" stop-color="#021956"/></linearGradient>
+<linearGradient id="grad-04" x1="317.222" y1="317.165" x2="338.418" y2="356.865" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#204684"/><stop offset="0.0531" stop-color="#2B3F58"/></linearGradient>
+<linearGradient id="grad-05" x1="133.546" y1="235.556" x2="216.042" y2="270.099" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#021956"/><stop offset="1.0000" stop-color="#2A76F6"/></linearGradient>
+<linearGradient id="grad-06" x1="186.730" y1="252.197" x2="266.115" y2="332.803" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#1E54B4"/><stop offset="0.3203" stop-color="#2A76F6"/><stop offset="1.0000" stop-color="#0A2F79"/></linearGradient>
+<linearGradient id="grad-07" x1="395.899" y1="297.924" x2="467.476" y2="341.193" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#04FFFF"/><stop offset="1.0000" stop-color="#056BBA"/></linearGradient>
+<linearGradient id="grad-08" x1="338.917" y1="242.748" x2="442.466" y2="325.114" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#0682C2"/><stop offset="0.5969" stop-color="#04FFFF"/><stop offset="1.0000" stop-color="#06ACD8"/></linearGradient>
+<linearGradient id="grad-09" x1="379.036" y1="287.533" x2="394.366" y2="310.972" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#056BBA"/><stop offset="0.5281" stop-color="#2A76F6"/><stop offset="1.0000" stop-color="#1862C8"/></linearGradient>
+<linearGradient id="grad-10" x1="379.976" y1="298.901" x2="350.334" y2="332.848" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#0476B9"/><stop offset="1.0000" stop-color="#06B8E4"/></linearGradient>
+<linearGradient id="grad-11" x1="386.777" y1="320.918" x2="354.141" y2="342.529" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#098DC6"/><stop offset="1.0000" stop-color="#03C3E9"/></linearGradient>
+<linearGradient id="grad-12" x1="359.504" y1="345.287" x2="323.750" y2="379.795" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#03C3E9"/><stop offset="1.0000" stop-color="#04FFFF"/></linearGradient>
+<linearGradient id="grad-13" x1="359.504" y1="345.287" x2="323.750" y2="379.795" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#03C3E9"/><stop offset="1.0000" stop-color="#04FFFF"/></linearGradient>
+<linearGradient id="grad-14" x1="320.065" y1="373.259" x2="310.715" y2="425.770" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#04FFFF"/><stop offset="1.0000" stop-color="#09B3EB"/></linearGradient>
+<linearGradient id="grad-15" x1="306.094" y1="383.827" x2="308.848" y2="386.328" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#2CAEC1"/><stop offset="0.2937" stop-color="#2DD7DF"/><stop offset="1.0000" stop-color="#04FFFF"/></linearGradient>
+<linearGradient id="grad-16" x1="383.115" y1="352.026" x2="388.675" y2="359.870" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#243447"/><stop offset="1.0000" stop-color="#2B3F58"/></linearGradient>
+<linearGradient id="grad-18" x1="456.374" y1="370.568" x2="359.034" y2="398.365" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#1A89CF"/><stop offset="0.5000" stop-color="#04FFFF"/><stop offset="1.0000" stop-color="#1A89CF"/></linearGradient>
+<linearGradient id="grad-19" x1="417.926" y1="411.357" x2="330.979" y2="432.132" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#144ED0"/><stop offset="0.2938" stop-color="#2A76F6"/><stop offset="1.0000" stop-color="#021956"/></linearGradient>
+<linearGradient id="grad-20" x1="408.883" y1="398.085" x2="438.542" y2="425.455" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#04FFFF"/><stop offset="1.0000" stop-color="#0998D1"/></linearGradient>
+<linearGradient id="grad-21" x1="472.552" y1="347.184" x2="435.288" y2="403.452" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#1541BE"/><stop offset="0.4406" stop-color="#2A76F6"/><stop offset="1.0000" stop-color="#082966"/></linearGradient>
+<linearGradient id="grad-22" x1="491.834" y1="332.406" x2="519.980" y2="366.741" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#0EF0FF"/><stop offset="1.0000" stop-color="#0E66A9"/></linearGradient>
+<linearGradient id="grad-23" x1="498.906" y1="345.647" x2="458.231" y2="402.594" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#04FFFF"/><stop offset="1.0000" stop-color="#0476B9"/></linearGradient>
+<linearGradient id="grad-24" x1="522.789" y1="302.979" x2="498.588" y2="313.519" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#204DBC"/><stop offset="1.0000" stop-color="#2A76F6"/></linearGradient>
+<linearGradient id="grad-25" x1="495.533" y1="310.098" x2="463.758" y2="320.139" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#236EE7"/><stop offset="1.0000" stop-color="#0A2F79"/></linearGradient>
+<linearGradient id="grad-26" x1="533.672" y1="290.727" x2="518.991" y2="308.981" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#2E3D4F"/><stop offset="1.0000" stop-color="#2A4163"/></linearGradient>
+<linearGradient id="grad-27" x1="540.097" y1="308.586" x2="534.768" y2="326.068" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#313C50"/><stop offset="1.0000" stop-color="#1E4464"/></linearGradient>
+<linearGradient id="grad-28" x1="344.118" y1="404.994" x2="251.591" y2="445.707" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#082966"/><stop offset="0.4906" stop-color="#2A76F6"/><stop offset="1.0000" stop-color="#0A2F79"/></linearGradient>
+<linearGradient id="grad-29" x1="224.820" y1="414.877" x2="252.207" y2="440.752" gradientUnits="userSpaceOnUse"><stop offset="0.9000" stop-color="#2B3F58"/><stop offset="1.0000" stop-color="#204684"/></linearGradient>
+<linearGradient id="grad-31" x1="259.526" y1="446.267" x2="263.370" y2="479.683" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#1747A3"/><stop offset="0.1687" stop-color="#2B3F58"/></linearGradient>
+<linearGradient id="grad-32" x1="223.448" y1="467.839" x2="231.424" y2="474.039" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#2E3D4F"/><stop offset="1.0000" stop-color="#2A4163"/></linearGradient>
+<linearGradient id="grad-33" x1="541.105" y1="325.737" x2="496.029" y2="347.797" gradientUnits="userSpaceOnUse"><stop offset="0.0000" stop-color="#159BC2"/><stop offset="0.3141" stop-color="#07D3F2"/><stop offset="1.0000" stop-color="#04FFFF"/></linearGradient>
+</defs>
+<title>Alliance AI Partners faceted swallow, as drawn in original 08</title>
+<g id="bird">
+<path id="facet-01" d="M168.73 182.6 L338.72 236.73 L373.97 290.49 Z" fill="#2B3F58"/>
+<path id="facet-02" d="M168.73 182.6 L149.08 176.4 L209.07 245.65 L371.03 287.83 Z" fill="#2B3F58"/>
+<path id="facet-03" d="M209.07 245.65 L372.47 288.21 L286.2 333.15 Z" fill="url(#grad-03)"/>
+<path id="facet-04" d="M372.79 286.91 L285.51 332.38 L319.42 370.98 L335.17 346.47 Z" fill="url(#grad-04)"/>
+<path id="facet-05" d="M186.32 239.66 L213.98 298.48 L129.89 224.84 Z" fill="url(#grad-05)"/>
+<path id="facet-06" d="M186.38 239.68 L186.32 239.66 L212.16 296.89 L238.62 320.08 L277.96 331.47 Z" fill="url(#grad-06)"/>
+<path id="facet-07" d="M413.64 260.39 L471.87 340.96 L465.08 344.44 L419.24 361.83 L411.93 260.9 L337.21 236.25 Z" fill="url(#grad-07)"/>
+<path id="facet-08" d="M337.21 236.25 L412.88 260.15 L419.24 361.83 L420.1 363.2 L389.95 315.89 L400.7 298.1 L371.89 289.15 Z" fill="url(#grad-08)"/>
+<path id="facet-09" d="M371.03 287.83 L402.22 297.53 L390.55 316.83 L380.41 332.51 L389.34 316.82 L376.59 299.64 Z" fill="url(#grad-09)"/>
+<path id="facet-10" d="M371.03 287.83 L377.43 299.1 L390.56 316.78 L344.73 332.84 L334.33 345.93 Z" fill="url(#grad-10)"/>
+<path id="facet-11" d="M390.56 316.78 L380.41 332.51 L367.88 352.36 L344.1 331.99 Z" fill="url(#grad-11)"/>
+<path id="facet-12" d="M318.19 371.04 L322.02 373.33 L319.71 380.75 L344.1 331.99 L334.33 345.93 Z" fill="url(#grad-12)"/>
+<path id="facet-13" d="M344.1 331.99 L319.17 381.83 L352.62 376.81 L368.42 351.51 Z" fill="url(#grad-13)"/>
+<path id="facet-14" d="M319.72 380.73 L353.32 375.7 L344.13 390.45 L267.34 425.25 L323.3 372.93 Z" fill="url(#grad-14)"/>
+<path id="facet-15" d="M318.73 370.2 L284.53 405.63 L246.65 449.01 L267.48 425.16 L323.3 372.93 Z" fill="url(#grad-15)"/>
+<path id="facet-16" d="M396.21 354.24 L367.33 380.55 L389.73 344.1 Z" fill="url(#grad-16)"/>
+<path id="facet-17" d="M395.66 353.38 L369.22 377.48 L365.2 383.71 L404.93 367.28 Z" fill="#2B3F58"/>
+<path id="facet-18" d="M465.08 344.44 L351.29 406.63 L406.91 399.28 L417.79 387.46 L427.35 375.32 Z" fill="url(#grad-18)"/>
+<path id="facet-19" d="M407.5 398.18 L351.29 406.63 L328.85 441.17 L424.95 431.77 Z" fill="url(#grad-19)"/>
+<path id="facet-20" d="M406.44 398.34 L424.95 431.77 L441.59 426.38 L417.79 387.46 Z" fill="url(#grad-20)"/>
+<path id="facet-21" d="M472.44 339.36 L465.08 344.44 L427.35 375.32 L457.24 421.69 Z" fill="url(#grad-21)"/>
+<path id="facet-22" d="M545 321.41 L487.77 336.71 L471.87 342.71 L463.06 393.87 L464.9 412.97 L457.24 421.69 L471.47 339.09 L476.13 338.15 L507.18 322.14 Z" fill="url(#grad-22)"/>
+<path id="facet-23" d="M513.68 357.23 L487.47 335.75 L470.98 341.97 L462.05 393.86 L464.9 412.97 Z" fill="url(#grad-23)"/>
+<path id="facet-24" d="M456.06 302.08 L491.28 291.38 L501.35 325.99 L531.44 311.85 L492.75 290.9 Z" fill="url(#grad-24)"/>
+<path id="facet-25" d="M456.06 302.08 L471.28 340.15 L476.47 339.11 L507.45 323.13 L501.8 325.75 L491.28 291.38 Z" fill="url(#grad-25)"/>
+<path id="facet-26" d="M509.47 286.67 L535.11 291.92 L545.22 303.68 L568.37 313.24 L531.8 312.62 L492.75 290.9 Z" fill="url(#grad-26)"/>
+<path id="facet-27" d="M568.37 313.24 L545 321.41 L507.45 323.13 L501.8 325.75 L530.85 312.09 Z" fill="url(#grad-27)"/>
+<path id="facet-28" d="M344.13 390.45 L267.48 425.16 L246.65 449.01 L241.29 451.19 L257.31 444.71 L310.86 443.17 Z" fill="url(#grad-28)"/>
+<path id="facet-29" d="M284.53 405.63 L186.11 442.3 L195.74 438.73 L245.89 449.88 Z" fill="url(#grad-29)"/>
+<path id="facet-30" d="M246.65 449.01 L195.74 438.73 L186.11 442.3 L129.45 463.52 L241.29 451.19 Z" fill="#2B3F58"/>
+<path id="facet-31" d="M310.86 443.17 L257.31 444.71 L212.34 490.71 L237.55 478.62 Z" fill="url(#grad-31)"/>
+<path id="facet-32" d="M214.86 489.5 L237.55 478.62 L196.32 498.7 L241.29 451.19 L257.31 444.71 Z" fill="url(#grad-32)"/>
+<path id="facet-33" d="M545 321.41 L513.68 357.23 L487.47 335.75 Z" fill="url(#grad-33)"/>
+</g>
+</svg>

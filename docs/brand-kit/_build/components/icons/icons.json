@@ -1,0 +1,333 @@
+{
+  "set": "Alliance AI Partners signature icons",
+  "version": "1.0.0",
+  "generator": "docs/brand-kit/_build/work/icons/build_icons.py (geometry source of truth; re-run to regenerate)",
+  "files": {
+    "duotone": "icon-<slug>.svg",
+    "mono": "icon-<slug>-mono.svg",
+    "dark": "not shipped as files: use the duotone file with #1B56FF swapped to #FFFFFF"
+  },
+  "grid": {
+    "viewBox": "0 0 48 48",
+    "size": 48,
+    "padding": 4,
+    "live_area": [
+      4,
+      4,
+      44,
+      44
+    ],
+    "keylines_outer_edge": {
+      "circle_diameter": 40,
+      "square": 36,
+      "portrait": [
+        32,
+        40
+      ],
+      "landscape": [
+        40,
+        32
+      ]
+    },
+    "render_sizes": [
+      24,
+      48,
+      96
+    ]
+  },
+  "stroke": {
+    "width": 3.0,
+    "linecap": "round",
+    "linejoin": "round",
+    "fill": "none"
+  },
+  "corner_radius": 4,
+  "colors": {
+    "primary": "#1B56FF",
+    "accent": "#00D5FF",
+    "mono": "#121B2A",
+    "dark_mode": {
+      "primary": "#FFFFFF",
+      "accent": "#00D5FF",
+      "background": "#121B2A"
+    }
+  },
+  "contrast_wcag": {
+    "vibrant_blue_on_white": 5.49,
+    "bright_cyan_on_white": 1.76,
+    "white_on_deep_navy": 17.27,
+    "bright_cyan_on_deep_navy": 9.84,
+    "deep_navy_on_white": 17.27,
+    "note": "Bright Cyan on white is below the 3:1 non-text guideline, so on light backgrounds the accent is emphasis only: every icon is identifiable from its Vibrant Blue strokes alone. On Deep Navy both colours pass."
+  },
+  "rules": [
+    "48 x 48 grid, 4-unit safe padding: no ink outside 4..44 (checked on every render).",
+    "One stroke weight: 3 units, round caps, round joins, no fill.",
+    "Exactly one Bright Cyan accent element per icon; everything else Vibrant Blue.",
+    "Fills only for small accent solids (machine-learning output dot, automation run button).",
+    "Straight strokes and circular arcs only (the monogram's straight legs and round P bowl); the ribbon is the only free curve.",
+    "Rounded rectangles use a 4-unit corner radius.",
+    "A stroke that passes behind another stops 2 units short of it (round cap included).",
+    "A stroke that ends on another stroke is drawn beneath it, so the joint never shows a cap.",
+    "Path data is M/L/C/Z only (arcs converted to cubics) so Illustrator and kit.parse_d read it exactly."
+  ],
+  "motifs": {
+    "ribbon": "The AP monogram's swoosh, rebuilt as two tangent-continuous cubics with a level middle (swoosh() in the generator). Fitted to the swoosh centreline measured on original 11 the construction lands within 2.2 px mean (0.38% of the 583 px chord) with a 58 deg entry and a 90 deg exit into the P stem (verify/icon-ribbon-check.png). The icons keep the level middle but exit at 45-75 deg so the ribbon reads as forward motion at 24 px: growth (trend, 40/55), research-insights (signal, 50/75), launch (trail, 60/45).",
+    "bowl": "Circular arcs from the P bowl: target rings, pie, woven rings, cloud lobes, lens, shoulders.",
+    "legs": "Straight, uniform-weight strokes like the A legs: bars, check, gear flanks, network edges. The monogram's leg angle (65 deg, measured 64.7 deg on original 12) is not imposed; icon diagonals run at 45 deg, which renders cleaner on the pixel grid."
+  },
+  "optical_balance": {
+    "metric": "rendered ink coverage at 48 px (sum of alpha, px^2)",
+    "min": 356.5,
+    "max": 505.6,
+    "mean": 420.0,
+    "max_over_min": 1.42,
+    "note": "dense glyphs (target, network, gear, pie) carry up to 42% more ink than open ones (growth, research); outer size is held by the keylines instead."
+  },
+  "verification": {
+    "opaque_pixels_96px": {
+      "exactly_on_palette_dE_le_1": "99.85%",
+      "off_palette_count": {
+        "machine-learning": 14,
+        "training-enablement": 12
+      },
+      "off_palette_away_from_blue_cyan_contact": 0,
+      "max_de2000": 20.92,
+      "note": "the only off-palette opaque pixels are anti-aliased blends where a blue stroke meets the cyan accent (machine-learning edges into the output dot, the cap band under the mortarboard); everywhere else rendered colour is the exact hex (dE2000 0.0)."
+    },
+    "mono_vs_duotone_geometry_iou_min": 1.0,
+    "ink_outside_live_area": 0.0,
+    "svg_structure": "all 24 files parsed: only path/circle/line elements, unique ids on every element, palette hex only, stroke 3/round/round, M/L/C/Z path data, one cyan element per duotone file, none in mono",
+    "ribbon_vs_monogram": "mean centreline error 2.22 px = 0.38% of chord (work/icons/ribbon_check.py)"
+  },
+  "icons": [
+    {
+      "slug": "ai-strategy",
+      "name": "AI Strategy",
+      "description": "Target with an arrow home in the bullseye: a clear objective and the plan that reaches it.",
+      "construction": "Concentric rings r 14.5 and r 7 on centre (21, 27), both opened where the arrow enters (2-unit gap rule). The arrow runs at 45 deg from the centre to a two-feather fletching built on a 5.5-unit module in the top-right corner of the live area.",
+      "accent": "arrow",
+      "files": {
+        "duotone": "icon-ai-strategy.svg",
+        "mono": "icon-ai-strategy-mono.svg"
+      },
+      "ink_48px": 499.9,
+      "ink_bbox_48px": [
+        5,
+        4,
+        44,
+        43
+      ],
+      "elements": 3
+    },
+    {
+      "slug": "machine-learning",
+      "name": "Machine Learning",
+      "description": "A 1-3-1 neural network: one input fans out to a hidden layer that converges on a single prediction.",
+      "construction": "Node rings r 3.5 at x 9 / 24 / 39 (hidden layer at y 9.5 / 24 / 38.5). Edges are trimmed to the ring centrelines so their caps tuck under the rings. The prediction is the set's only solid dot (r 5, the same outer size as a ring).",
+      "accent": "output node",
+      "files": {
+        "duotone": "icon-machine-learning.svg",
+        "mono": "icon-machine-learning-mono.svg"
+      },
+      "ink_48px": 505.6,
+      "ink_bbox_48px": [
+        4,
+        4,
+        44,
+        44
+      ],
+      "elements": 11
+    },
+    {
+      "slug": "automation",
+      "name": "Automation",
+      "description": "A gear with a run button at its heart: processes that run themselves.",
+      "construction": "8-tooth gear on (24, 24): tip radius 16.5, root radius 12.5, teeth 16 deg wide at the tip and 23 deg at the root, rotated 22.5 deg so a gap sits at 12 o'clock. Run button = small solid triangle with 1.5-unit corner radius (matching the round joins), centroid on the gear centre.",
+      "accent": "run button",
+      "files": {
+        "duotone": "icon-automation.svg",
+        "mono": "icon-automation-mono.svg"
+      },
+      "ink_48px": 488.4,
+      "ink_bbox_48px": [
+        7,
+        7,
+        41,
+        41
+      ],
+      "elements": 2
+    },
+    {
+      "slug": "data-analytics",
+      "name": "Data & Analytics",
+      "description": "A pie chart with its key slice pulled out: the number that matters, separated from the rest.",
+      "construction": "Three-quarter pie r 15 on (22, 26), closed through its centre; the remaining quarter is offset 3 units up and right. Both are circular arcs (the P bowl construction).",
+      "accent": "slice",
+      "files": {
+        "duotone": "icon-data-analytics.svg",
+        "mono": "icon-data-analytics-mono.svg"
+      },
+      "ink_48px": 442.5,
+      "ink_bbox_48px": [
+        5,
+        6,
+        42,
+        43
+      ],
+      "elements": 2
+    },
+    {
+      "slug": "partnership",
+      "name": "Partnership",
+      "description": "Two rings woven through each other: an alliance in which each partner sits at the centre of the other.",
+      "construction": "Rings r 12 with centres 12 apart, so each centre lies on the other ring (vesica piscis). Over-under weave: each ring breaks once, 2 units clear of the ring that crosses over it.",
+      "accent": "right ring",
+      "files": {
+        "duotone": "icon-partnership.svg",
+        "mono": "icon-partnership-mono.svg"
+      },
+      "ink_48px": 394.2,
+      "ink_bbox_48px": [
+        4,
+        10,
+        44,
+        38
+      ],
+      "elements": 2
+    },
+    {
+      "slug": "security-governance",
+      "name": "Security & Governance",
+      "description": "A shield with a check: protected, compliant, approved.",
+      "construction": "Shield 30 x 37 (x 9-39, y 5.5-42.5): peaked top at 20 deg, vertical sides, mirrored curves to the point. The check is raised 1 unit to the shield's optical centre.",
+      "accent": "check",
+      "files": {
+        "duotone": "icon-security-governance.svg",
+        "mono": "icon-security-governance-mono.svg"
+      },
+      "ink_48px": 394.4,
+      "ink_bbox_48px": [
+        7,
+        4,
+        41,
+        44
+      ],
+      "elements": 2
+    },
+    {
+      "slug": "growth",
+      "name": "Growth",
+      "description": "Rising bars under the brand ribbon, which lifts into an arrow.",
+      "construction": "Four bars on a 9.5-unit pitch, bottoms on y 41.5, each 4.5 units taller than the last. The trend is the ribbon (40 deg entry, level middle, 55 deg exit) ending in a 6-unit chevron.",
+      "accent": "trend",
+      "files": {
+        "duotone": "icon-growth.svg",
+        "mono": "icon-growth-mono.svg"
+      },
+      "ink_48px": 356.5,
+      "ink_bbox_48px": [
+        5,
+        5,
+        43,
+        43
+      ],
+      "elements": 5
+    },
+    {
+      "slug": "cloud-integration",
+      "name": "Cloud Integration",
+      "description": "A cloud with two systems plugged in beneath it, one connection highlighted.",
+      "construction": "Two-lobe cloud from circles r 10 and r 7 tangent to a flat base at y 27.5. Two drop links end in r 3.5 nodes; the links are drawn beneath the cloud so its base covers their caps.",
+      "accent": "right link",
+      "files": {
+        "duotone": "icon-cloud-integration.svg",
+        "mono": "icon-cloud-integration-mono.svg"
+      },
+      "ink_48px": 407.7,
+      "ink_bbox_48px": [
+        7,
+        6,
+        41,
+        43
+      ],
+      "elements": 3
+    },
+    {
+      "slug": "advisory",
+      "name": "Advisory",
+      "description": "An advisor and a speech bubble: guidance, conversation, counsel.",
+      "construction": "Head r 6 over semicircular shoulders r 10 (the P bowl). The bubble is a 4-radius rounded rectangle whose lower-left corner becomes the tail, pointing back at the advisor.",
+      "accent": "speech bubble",
+      "files": {
+        "duotone": "icon-advisory.svg",
+        "mono": "icon-advisory-mono.svg"
+      },
+      "ink_48px": 385.6,
+      "ink_bbox_48px": [
+        4,
+        4,
+        44,
+        43
+      ],
+      "elements": 3
+    },
+    {
+      "slug": "training-enablement",
+      "name": "Training & Enablement",
+      "description": "A mortarboard: training, certification, capability building.",
+      "construction": "Board rhombus 36 x 15, cap band 23 wide with a rounded base, tassel on the right. Cap and tassel are drawn beneath the board so its edges cover their caps; the whole cap is centred on the grid.",
+      "accent": "cap band",
+      "files": {
+        "duotone": "icon-training-enablement.svg",
+        "mono": "icon-training-enablement-mono.svg"
+      },
+      "ink_48px": 397.6,
+      "ink_bbox_48px": [
+        4,
+        10,
+        44,
+        38
+      ],
+      "elements": 3
+    },
+    {
+      "slug": "research-insights",
+      "name": "Research & Insights",
+      "description": "A magnifier that has found the signal: the brand ribbon, seen through the lens.",
+      "construction": "Lens r 13.5 on (20.5, 20.5), 45 deg handle to (41, 41). The ribbon inside (50 deg entry, level middle, 75 deg exit) is held 2 units clear of the lens.",
+      "accent": "signal",
+      "files": {
+        "duotone": "icon-research-insights.svg",
+        "mono": "icon-research-insights-mono.svg"
+      },
+      "ink_48px": 360.9,
+      "ink_bbox_48px": [
+        5,
+        5,
+        42,
+        42
+      ],
+      "elements": 3
+    },
+    {
+      "slug": "launch",
+      "name": "Launch",
+      "description": "A rocket on its way, riding the ribbon as its exhaust trail.",
+      "construction": "Rocket built upright (12-unit body, ogive nose, swept fins, r 3 window), then turned 45 deg. The ribbon trail rises from the bottom-left corner and stops short of the tail.",
+      "accent": "trail",
+      "files": {
+        "duotone": "icon-launch.svg",
+        "mono": "icon-launch-mono.svg"
+      },
+      "ink_48px": 406.2,
+      "ink_bbox_48px": [
+        5,
+        6,
+        42,
+        43
+      ],
+      "elements": 5
+    }
+  ]
+}

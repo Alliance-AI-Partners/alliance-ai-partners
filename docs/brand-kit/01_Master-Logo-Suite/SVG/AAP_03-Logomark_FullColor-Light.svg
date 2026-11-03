@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="550" height="378" id="03-logomark-fullcolor-light-Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 550 378">
+  <defs>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient" x1="4799.425" y1="-3650.838" x2="4779.904" y2="-3710.916" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#121b2a"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-2" x1="4696.522" y1="-3761.565" x2="4801.664" y2="-3770.764" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#121b2a"/>
+      <stop offset=".154" stop-color="#1a2d4e"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-3" x1="4645.881" y1="-3603.041" x2="4693.69" y2="-3844.11" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42587c"/>
+      <stop offset=".385" stop-color="#2e4265"/>
+      <stop offset=".692" stop-color="#243f7b"/>
+      <stop offset=".769" stop-color="#2153d8"/>
+      <stop offset="1" stop-color="#1b56ff"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-4" x1="4599.945" y1="-3638.834" x2="4694.989" y2="-3840.654" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#121b2a"/>
+      <stop offset=".308" stop-color="#2e4265"/>
+      <stop offset=".692" stop-color="#121b2a"/>
+      <stop offset=".769" stop-color="#2e4265"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-5" x1="4562.276" y1="-3596.074" x2="4531.54" y2="-3842.284" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2153d8"/>
+      <stop offset=".461" stop-color="#243f7b"/>
+      <stop offset=".539" stop-color="#1a2d4e"/>
+      <stop offset=".846" stop-color="#1a2d4e"/>
+      <stop offset="1" stop-color="#42587c"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-6" x1="4584.518" y1="-3603.922" x2="4455.549" y2="-3835.484" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b56ff"/>
+      <stop offset=".539" stop-color="#244eb6"/>
+      <stop offset=".615" stop-color="#243f7b"/>
+      <stop offset=".846" stop-color="#243f7b"/>
+      <stop offset="1" stop-color="#244eb6"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-7" x1="4816.342" y1="-3640.929" x2="4717.356" y2="-3678.926" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d5ff"/>
+      <stop offset="1" stop-color="#244eb6"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-8" x1="4787.343" y1="-3639.405" x2="4728.426" y2="-3651.929" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#244eb6"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-9" x1="4690.064" y1="-3634.034" x2="4674.805" y2="-3700.127" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#244eb6"/>
+      <stop offset="1" stop-color="#006df5"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-10" x1="4635.238" y1="-3682.371" x2="4566.956" y2="-3766.692" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006df5"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+    <linearGradient id="03-logomark-fullcolor-light-linear-gradient-11" x1="4520.959" y1="-3708.124" x2="4665.488" y2="-3746.85" gradientTransform="translate(-4380.5 -3530) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#244eb6"/>
+      <stop offset="1" stop-color="#00d5ff"/>
+    </linearGradient>
+  </defs>
+  <g id="03-logomark-fullcolor-light-_03-Logomark_FullColor-Light" data-name="03-Logomark_FullColor-Light">
+    <g id="03-logomark-fullcolor-light-AAP_mark" data-name="AAP mark">
+      <path id="03-logomark-fullcolor-light-face-p-bowl-lower" d="M413.703,118.703c.965-.754.536-1.544,2.888-1.458,2.701.098,5.584,1.376,8.059,2.369,8.625,3.464,16.956,8.328,23.531,14.981,12.469,12.618,20.333,29.477,20.119,47.335-.03,2.497-.628,8.554-1.494,12.734-.724.857-1.491,1.666-2.196,2.562-.931,1.183-1.692,2.478-2.667,3.633-6.54,7.75-14.932,13.992-23.905,18.644-4.594,2.383-9.342,4.274-14.237,5.705-.352-1.014-.616-1.696-.677-2.972-.24-5.112.303-10.295-.304-15.352-1.17-.21-2.244-.42-3.506-.427-7.349-.037-14.699-.001-22.049-.001h-65.544c-2.698,0-5.459.183-8.149-.034-2.311-.187-1.686-.381-3.292-1.122.063-1.367-.666-.95.61-3.349,2.08-3.91,4.379-7.685,6.357-11.657,3.927-7.891,7.108-16.671,8.907-25.301.639-3.062,1.48-10.009,2.372-12.428.837-2.269,1.307-1.628,2.332-2.37.169.132.332.217.489.284v30.39h61.354c2.921,0,9.353-2.344,12.043-3.801,17.565-9.513,22.394-31.968,10.685-48.016-2.925-4.009-7.024-7.569-11.582-9.66-.019-.19-.056-.41-.144-.689Z" fill="url(#03-logomark-fullcolor-light-linear-gradient)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-p-bowl-under" d="M320.589,203.69c.271.286-.118,1.199.273,1.151h103.735v20.132c-4.007,1.216-8.114,2.119-12.318,2.726-.704.102-3.176.654-3.597.654h-67.335v40.976c-.382.169-.83.25-1.429.55-1.383-.988-1.478-.631-2.59-2.315-3.18-4.817-5.588-10.314-8.025-15.531-2.084-4.459-4.478-8.771-6.681-13.173-2.951-5.897-5.566-12.1-8.892-17.795-.846-1.449-1.94-2.82-2.841-4.193.462-1.164.77-2.104,1.557-3.167,1.911-2.58,3.84-5.174,5.811-7.709.367-.472.746-.942,1.169-1.368.084-.085.543-.623.663-.606.198.03.362-.478.5-.333Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-2)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-a-right-outer" d="M222.149,98.213l13.533-29.213h1.487l123.232,240h-29.842l-108.41-210.787Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-3)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-a-right-inner" d="M209.223,126.113l13.641-29.446,109.205,212.333h-29.05l-52.654-102.667h0l-41.142-80.219Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-4)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-a-left-bevel" d="M95.676,309l112.505-240h28.988l.013.024-27.165,58.636h0l-40.225,86.828h0l-43.784,94.511h-30.331Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-5)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-a-left-outer" d="M68.896,309l113.766-240h27.029l-112.505,240h-28.29Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-6)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-p-bowl-top" d="M292.532,93.637v-24.637h116.82c.669,0,2.689.651,3.599.778,7.85,1.088,15.575,3.522,22.762,6.853,5.052,2.341,9.657,5.374,14.089,8.728,28.585,21.637,38.599,59.042,25.843,92.328-2.063,5.383-4.433,10.566-7.627,15.386-.87,1.313-1.939,2.389-2.934,3.572h0c-.1-.895-.169-1.71.016-2.738.338-1.88.794-3.74,1.074-5.631.932-6.291.605-12.691-.562-18.925-.61-3.258-1.713-6.427-2.899-9.514-6.316-16.43-18.876-29.78-34.864-37.096-4.119-1.885-8.507-3.557-12.883-4.187.062.473.34,1.08.293,1.542-.781-.419-1.579-.796-2.389-1.125-1.527-.621-3.898-1.516-6.085-2.098-.004-.419.14-.839.083-1.461,1.42-.7.73-1.032,3.247-1.129,3.006-.115,6.041.373,9.01.764,8.937,1.176,17.738,4.375,25.278,9.332,2.685,1.765,5.162,3.863,7.864,5.542-1.283-5.37-4.505-10.401-7.907-14.751-9.64-12.327-24.187-19.579-39.722-20.753-5.592-.422-11.305-.095-16.91-.09-11.266.011-22.566.237-33.828-.027-10.562-.247-21.139-.236-31.707-.159-8.943.065-17.935.464-26.877.138-1.104-.04-1.882-.311-2.787-.64Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-7)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-p-bowl-fold" d="M318.204,96.294c-1.286-1.768-.76-1.872-1.046-3.66h88.308c.039,0,4.218.741,4.788.823,15.734,2.254,29.998,11.676,38.521,25.026,2.602,4.077,4.707,8.442,6.143,13.065.793,2.551.338,1.67.364,3.395-1.525-1.022-1.001-.454-2.7-2.056-2.28-2.15-4.7-4.083-7.263-5.884-9.987-7.021-25.235-12.195-37.456-10.919.053.429.249.836.32,1.191-1.788-.553-3.596-.984-4.887-.984h-61.949v1.341c-.3-.076-.579-.164-.832-.266-2.467-.999-11.055-9.923-13.551-12.348-2.641-2.565-6.67-5.85-8.759-8.724Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-8)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-ribbon-front-stem" d="M292.532,145.039v-52.405h25.53c.331,1.251.637,2.003.521,3.366-.539,6.313-.178,13.199-.191,19.575-.031,15.435,1.512,41.153-5.606,54.766-1.203.38-2.121.738-3.447.792-5.4.218-18.664.472-23.453-.461.314-1.143.648-2.458,1.052-3.643-.184-.764-.397-1.362-.468-2.013l.551,1.073c2.763-5.349,3.914-11.49,4.784-17.454.12-.82.727-3.036.727-3.597Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-9)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-ribbon-front" d="M261.432,199.691c12.759-8.923,17.541-16.712,24.654-30.03h26.655c-.068,1.756.24,1.275-.42,3.36-3.569,11.274-10.77,22.726-18.493,31.61-5.578,6.417-12.045,11.831-18.958,16.745-2.629,1.869-5.148,3.857-7.871,5.595-8.818,5.629-18.952,9.108-29.207,10.968-6.16,1.117-11.818,1.202-18.018,1.443-15.971.622-32.019.17-48.002.213-6.908.019-13.94-.237-20.824.425-4.589.442-9.185,1.309-13.645,2.467-13.918,3.613-27.508,11.078-37.853,21.095-1.516,1.467-3.017,2.968-4.424,4.54-1.661,1.855-6.842,8.643-8.211,9.577-1.872,1.278-1.991.413-3.206.263l17.031-35.928c4.153-3.909,7.418-6.052,12.33-10.12,10.801-8.946,24.41-14.679,38.267-16.639,1.287-.182,4.652-.787,5.699-.787h63.635c1.023,0,2.499-.53,3.599-.671,9.153-1.175,17.771-3.742,26.194-7.485l-.558-1.089c.558.408.866.631,2.104.188,3.386-1.214,6.598-3.696,9.521-5.741Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-10)" fill-rule="evenodd"/>
+      <path id="03-logomark-fullcolor-light-face-ribbon-back" d="M316.817,108.18c.021-4.854-.309-9.939.235-14.678,4.883,3.752,12.936,12.038,17.748,16.703,1.649,1.599,3.18,3.395,4.961,4.848.789.643,1.574.934,2.444,1.238h-.858v35.725c-.222-.185-.492-.261-.835.027-.764.643-2.296,11.286-2.685,13.113-1.882,8.834-5.034,17.791-9.042,25.89-12.694,25.654-31.489,44.469-56.471,58.081-3.882,1.383-7.795,2.953-11.639,4.512-8.578,3.479-17.661,5.702-26.825,6.963-.797.11-1.597.208-2.397.297-.559.062-1.808.662-2.104.662h-81.365l-.043.092c-.015-.056-.033-.114-.054-.172-17.264,1.498-31.729,4.043-46.908,13.185-5.704,3.435-11.082,7.32-16.26,11.5-2.764,2.232-5.246,4.858-8.204,6.762l7.441-15.696h-.032c.506-.121,1.045-.11,1.708-.208,3.006-3.633,5.771-7.457,9.012-10.926,11.453-12.257,26.609-21.139,42.825-25.379,11.141-2.913,22.482-2.748,33.9-2.762,10.873-.014,21.746-.029,32.619-.009,9.191.017,19.25.356,28.329-.778,12.039-1.504,23.982-5.228,34.243-11.801,2.716-1.74,5.209-3.768,7.815-5.659,7.029-5.101,13.663-10.63,19.2-17.365,6.83-8.309,12.254-17.424,16.286-27.395,8.905-22.025,6.858-43.639,6.957-66.771Z" fill="url(#03-logomark-fullcolor-light-linear-gradient-11)" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

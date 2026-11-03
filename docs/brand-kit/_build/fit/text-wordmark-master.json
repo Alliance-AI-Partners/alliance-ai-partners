@@ -1,0 +1,553 @@
+{
+ "about": "Master wordmark spec for the Alliance AI Partners logo suite, derived from Montserrat fits of the originals (fit/text-<id>.json). H = ink-bbox height of the mark in the source lockup; cap = Montserrat cap height = 0.70004 x font size (all weights). Font size in pt: size = size_over_H x H. Tracking in Illustrator units (1/1000 em), Auto (metrics) kerning. Consensus = median over the listed originals.",
+ "font": {
+  "family": "Montserrat",
+  "cap_height_em": 0.70004,
+  "kerning": "Auto (metrics)",
+  "case": "all caps (wordmark, descriptor); sentence case (tagline)"
+ },
+ "one_line_wordmark": {
+  "string": "ALLIANCE AI PARTNERS",
+  "style": "Bold",
+  "font": "Montserrat-Bold",
+  "tracking": -11,
+  "tracking_note": "median of [-4.1, -17.85, -17.95, -0.13] (01, 13, 14, 17); the originals split into ~0 (01, 17) and ~-18 (13, 14)",
+  "accent": {
+   "chars": [
+    9,
+    11
+   ],
+   "text": "AI"
+  },
+  "horizontal_lockup": {
+   "size_over_H": 0.2832,
+   "cap_over_H": 0.1982,
+   "gap_mark_to_text_over_cap": 0.7425,
+   "text_align": "left; wordmark, tagline / descriptor share the same x origin",
+   "vertical": "text block (wordmark cap top .. last baseline) centered on the mark: offsets 0.0265 H (01), 0.0539 H (13)",
+   "sources": [
+    "01",
+    "13"
+   ]
+  },
+  "stacked_lockup": {
+   "size_over_H": 0.2136,
+   "cap_over_H": 0.1495,
+   "gap_mark_bottom_to_cap_top_over_cap": 1.0704,
+   "wordmark_width_over_mark_width": 1.6034,
+   "align": "centered on the mark's vertical axis (ink centers within 1.8 px in 14)",
+   "sources": [
+    "14"
+   ]
+  },
+  "sources": {
+   "01": {
+    "style": "Bold",
+    "size_px": 59.851,
+    "tracking": -4.1,
+    "iou": 0.9421,
+    "cap_px": 41.898,
+    "mark_bbox": [
+     117,
+     270,
+     486,
+     490
+    ],
+    "mark_height_px": 220,
+    "size_over_H": 0.2721,
+    "cap_over_H": 0.1904,
+    "ink_width_over_cap": 17.8304,
+    "gap_mark_to_text_over_cap": 0.8206,
+    "gap_mark_to_text_over_H": 0.1563,
+    "baseline_from_mark_top_over_H": 0.5087,
+    "text_block_center_minus_mark_center_over_H": 0.0265
+   },
+   "13": {
+    "style": "Bold",
+    "size_px": 64.736,
+    "tracking": -17.85,
+    "iou": 0.9173,
+    "cap_px": 45.318,
+    "mark_bbox": [
+     91,
+     274,
+     466,
+     494
+    ],
+    "mark_height_px": 220,
+    "size_over_H": 0.2943,
+    "cap_over_H": 0.206,
+    "ink_width_over_cap": 17.4571,
+    "gap_mark_to_text_over_cap": 0.6644,
+    "gap_mark_to_text_over_H": 0.1369,
+    "baseline_from_mark_top_over_H": 0.4432,
+    "text_block_center_minus_mark_center_over_H": 0.0539
+   },
+   "14": {
+    "style": "Bold",
+    "size_px": 66.005,
+    "tracking": -17.95,
+    "iou": 0.9381,
+    "cap_px": 46.206,
+    "mark_bbox": [
+     259,
+     303,
+     762,
+     612
+    ],
+    "mark_height_px": 309,
+    "size_over_H": 0.2136,
+    "cap_over_H": 0.1495,
+    "ink_width_over_cap": 17.4544,
+    "gap_mark_bottom_to_cap_top_over_cap": 1.0704,
+    "gap_mark_bottom_to_cap_top_over_H": 0.1601,
+    "wordmark_width_over_mark_width": 1.6034,
+    "center_offset_px": 1.75
+   },
+   "17": {
+    "style": "Bold",
+    "size_px": 61.636,
+    "tracking": -0.13,
+    "iou": 0.9421,
+    "cap_px": 43.147,
+    "mark_bbox": [
+     314,
+     51,
+     1063,
+     724
+    ],
+    "mark_height_px": 673,
+    "size_over_H": 0.0916,
+    "cap_over_H": 0.0641,
+    "ink_width_over_cap": 17.9384,
+    "note": "mark = the whole shield badge here; the wordmark sits on the banner, centered",
+    "center_offset_px": -0.37
+   }
+  }
+ },
+ "two_line_wordmark": {
+  "line1": {
+   "string": "ALLIANCE",
+   "style": "Bold",
+   "tracking": 6
+  },
+  "line2": {
+   "string": "AI PARTNERS",
+   "style": "Bold",
+   "tracking": 8,
+   "weight_note": "Bold in 08 and 05; 04 uses SemiBold and 10 Regular for line 2 (lighter variants)"
+  },
+  "line2_size_over_line1_size": 0.7446,
+  "line2_size_ratio_note": "exact width match for Bold/Bold at these trackings (both lines flush left and right, as in all four originals); measured ratios median 0.7571",
+  "baseline_to_baseline_over_cap1": 1.1004,
+  "line1_baseline_to_line2_cap_top_over_cap1": 0.3383,
+  "alignment": "justified block: both lines share ink left and right edges (within 2 px in 04, 10, 08, 05); with left-aligned point text put line 2's x origin 0.009 x (size1 - size2) px left of line 1's (Bold 'A' starts at -0.009 em), i.e. practically the same origin",
+  "horizontal_lockup": {
+   "line1_size_over_H": 0.4353,
+   "cap1_over_H": 0.3047,
+   "gap_mark_to_text_over_cap1": 0.5074,
+   "vertical": "text block (line 1 cap top .. line 2 baseline) centered on the mark (offsets -0.0262 H (04), -0.0155 H (10), 0.0209 H (08))",
+   "sources": [
+    "04",
+    "10",
+    "08"
+   ]
+  },
+  "stacked_lockup": {
+   "line1_size_over_H": 0.3114,
+   "gap_mark_bottom_to_cap_top_over_cap1": 0.3853,
+   "align": "centered",
+   "sources": [
+    "05"
+   ]
+  },
+  "sources": {
+   "04": {
+    "line1": {
+     "style": "Bold",
+     "size_px": 107.943,
+     "tracking": 2.09,
+     "iou": 0.9507
+    },
+    "line2": {
+     "style": "SemiBold",
+     "size_px": 81.784,
+     "tracking": 2.02,
+     "iou": 0.9472
+    },
+    "mark_bbox": [
+     188,
+     260,
+     587,
+     508
+    ],
+    "mark_height_px": 248,
+    "line2_size_over_line1_size": 0.7577,
+    "baseline_to_baseline_over_cap1": 1.1509,
+    "line1_baseline_to_line2_cap_top_over_cap1": 0.3932,
+    "ink_left_px": [
+     625.34,
+     625.72
+    ],
+    "ink_right_px": [
+     1191.89,
+     1192.25
+    ],
+    "line1_size_over_H": 0.4353,
+    "cap1_over_H": 0.3047,
+    "text_block_height_over_H": 0.6554,
+    "gap_mark_to_text_over_cap1": 0.5074,
+    "text_block_center_minus_mark_center_over_H": -0.0262,
+    "mark": "gradient AP"
+   },
+   "10": {
+    "line1": {
+     "style": "Bold",
+     "size_px": 133.81,
+     "tracking": 21.77,
+     "iou": 0.9133
+    },
+    "line2": {
+     "style": "Regular",
+     "size_px": 104.312,
+     "tracking": 17.02,
+     "iou": 0.8447
+    },
+    "mark_bbox": [
+     117,
+     284,
+     468,
+     488
+    ],
+    "mark_height_px": 204,
+    "line2_size_over_line1_size": 0.7796,
+    "baseline_to_baseline_over_cap1": 1.05,
+    "line1_baseline_to_line2_cap_top_over_cap1": 0.2704,
+    "ink_left_px": [
+     538.73,
+     539.83
+    ],
+    "ink_right_px": [
+     1259.48,
+     1259.49
+    ],
+    "line1_size_over_H": 0.6559,
+    "cap1_over_H": 0.4592,
+    "text_block_height_over_H": 0.9413,
+    "gap_mark_to_text_over_cap1": 0.7551,
+    "text_block_center_minus_mark_center_over_H": -0.0155,
+    "mark": "flat cyan AP"
+   },
+   "08": {
+    "line1": {
+     "style": "Bold",
+     "size_px": 133.32,
+     "tracking": -8.38,
+     "iou": 0.9419
+    },
+    "line2": {
+     "style": "Bold",
+     "size_px": 100.848,
+     "tracking": -17.7,
+     "iou": 0.9307
+    },
+    "mark_bbox": [
+     133,
+     178,
+     565,
+     497
+    ],
+    "mark_height_px": 319,
+    "line2_size_over_line1_size": 0.7564,
+    "baseline_to_baseline_over_cap1": 1.1566,
+    "line1_baseline_to_line2_cap_top_over_cap1": 0.4002,
+    "ink_left_px": [
+     588.24,
+     588.75
+    ],
+    "ink_right_px": [
+     1278.21,
+     1277.43
+    ],
+    "line1_size_over_H": 0.4179,
+    "cap1_over_H": 0.2926,
+    "text_block_height_over_H": 0.631,
+    "gap_mark_to_text_over_cap1": 0.249,
+    "text_block_center_minus_mark_center_over_H": 0.0209,
+    "mark": "faceted bird"
+   },
+   "05": {
+    "line1": {
+     "style": "Bold",
+     "size_px": 104.022,
+     "tracking": 8.96,
+     "iou": 0.9449
+    },
+    "line2": {
+     "style": "Bold",
+     "size_px": 77.57,
+     "tracking": 13.62,
+     "iou": 0.9244
+    },
+    "mark_bbox": [
+     471,
+     126,
+     905,
+     460
+    ],
+    "mark_height_px": 334,
+    "line2_size_over_line1_size": 0.7457,
+    "baseline_to_baseline_over_cap1": 1.0292,
+    "line1_baseline_to_line2_cap_top_over_cap1": 0.2835,
+    "ink_left_px": [
+     412.5,
+     411.0
+    ],
+    "ink_right_px": [
+     963.47,
+     965.02
+    ],
+    "line1_size_over_H": 0.3114,
+    "cap1_over_H": 0.218,
+    "text_block_height_over_H": 0.4424,
+    "gap_mark_bottom_to_cap_top_over_cap1": 0.3853,
+    "block_center_offset_px": 0.01,
+    "mark": "faceted bird"
+   }
+  }
+ },
+ "tagline": {
+  "string": "Partners in AI. Partners in growth.",
+  "style": "Regular",
+  "tracking": 23.9,
+  "size_over_wordmark_size": 0.6066,
+  "baseline_gap_over_wordmark_cap": 1.1864,
+  "align": "left, same x origin as the wordmark (01: 519.74 vs 520.92 px)",
+  "ink_width_over_wordmark_ink_width": 0.8512,
+  "weight_note": "original strokes sit between Regular and Medium (stem 2.95 px vs Regular 3.0 / Medium 3.8 at 36.3 px); Regular fits best",
+  "source": "01"
+ },
+ "descriptor": {
+  "string": "ENTERPRISE AI CONSULTING",
+  "style": "Medium",
+  "tracking": 73.2,
+  "size_over_wordmark_size": 0.7473,
+  "baseline_gap_over_wordmark_cap": 2.0752,
+  "align": "justified to the wordmark: ink 495.8..1285.5 vs wordmark 496.1..1287.2 px",
+  "tracking_rule": "tracking chosen so the descriptor's ink width equals the wordmark's (73.2 against the 13 wordmark at -17.9); against the master wordmark (Bold, tracking -11) at this size ratio it is 82.0",
+  "tracking_for_master_wordmark": 82.0,
+  "source": "13"
+ },
+ "rule": {
+  "x_extent": "the wordmark's ink extents (13: rule 496.72..1285.84, wordmark ink 496.1..1287.2)",
+  "thickness_over_wordmark_cap": 0.145,
+  "center_from_wordmark_baseline_over_cap": 0.6798,
+  "position_note": "centered between the wordmark baseline and the descriptor cap top (midpoint 401.59, rule center 402.31 px)",
+  "caps": "butt (square ends)",
+  "color_light": "Bright Cyan #00D5FF",
+  "measured_hex": "#08DBE8",
+  "dE": 9.02,
+  "source": "13"
+ },
+ "color_rule": {
+  "light": {
+   "text": "Deep Navy #121B2A",
+   "accent_AI": "Vibrant Blue #1B56FF",
+   "tagline": "Deep Navy #121B2A",
+   "descriptor": "Deep Navy #121B2A",
+   "rule": "Bright Cyan #00D5FF",
+   "alt_accent": "08 sets 'AI' in Bright Cyan on Off-White (measured within dE 4 of #00D5FF)"
+  },
+  "dark": {
+   "text": "Pure White #FFFFFF",
+   "accent_AI": "Bright Cyan #00D5FF",
+   "note": "the dark originals (04, 07, 09, 10, 16) set 'AI' in white; Bright Cyan accent on dark is the brief's rule"
+  },
+  "mono_black": "all text #000000, no accent",
+  "mono_white": "all text #FFFFFF, no accent",
+  "measured_vs_core": "the originals' own text inks are off-palette supporting tones (listed below); the master uses the core palette, the per-original recreations use the measured tones",
+  "supporting_tones": [
+   {
+    "name": "Ink Navy A",
+    "hex": "#172842",
+    "nearest_core": "Deep Navy",
+    "dE_to_core": 5.91,
+    "where": [
+     "01 wordmark ' PARTNERS'",
+     "01 wordmark 'ALLIANCE '",
+     "05 line1 'ALLIANCE'",
+     "05 line2 'AI PARTNERS'",
+     "08 line1 'ALLIANCE'",
+     "08 line2 ' PARTNERS'",
+     "17 wordmark ' PARTNERS'",
+     "17 wordmark 'ALLIANCE '"
+    ]
+   },
+   {
+    "name": "Ink Navy B",
+    "hex": "#081638",
+    "nearest_core": "Deep Navy",
+    "dE_to_core": 8.6,
+    "where": [
+     "13 descriptor 'ENTERPRISE AI CONSULTING'",
+     "13 wordmark ' PARTNERS'",
+     "13 wordmark 'ALLIANCE '",
+     "14 wordmark ' PARTNERS'",
+     "14 wordmark 'ALLIANCE '"
+    ]
+   },
+   {
+    "name": "Accent Cyan A",
+    "hex": "#08DBE8",
+    "nearest_core": "Bright Cyan",
+    "dE_to_core": 9.02,
+    "where": [
+     "13 rule"
+    ]
+   },
+   {
+    "name": "Accent Blue A",
+    "hex": "#2463CF",
+    "nearest_core": "Vibrant Blue",
+    "dE_to_core": 7.48,
+    "where": [
+     "01 wordmark 'AI'",
+     "14 wordmark 'AI'",
+     "17 wordmark 'AI'"
+    ]
+   },
+   {
+    "name": "Accent Blue B",
+    "hex": "#1451CC",
+    "nearest_core": "Vibrant Blue",
+    "dE_to_core": 6.95,
+    "where": [
+     "13 wordmark 'AI'"
+    ]
+   }
+  ]
+ },
+ "other_arrangements": {
+  "ALLIANCE AI / PARTNERS": {
+   "07": {
+    "line1": {
+     "string": "ALLIANCE AI",
+     "style": "SemiBold",
+     "size": 101.333,
+     "tracking": 1.65
+    },
+    "line2": {
+     "string": "PARTNERS",
+     "style": "SemiBold",
+     "size": 103.667,
+     "tracking": 6.5
+    },
+    "mark_height_px": 222,
+    "line1_size_over_H": 0.4565,
+    "align": "left"
+   },
+   "09": {
+    "line1": {
+     "string": "ALLIANCE AI",
+     "style": "Bold",
+     "size": 114.535,
+     "tracking": 16.51
+    },
+    "line2": {
+     "string": "PARTNERS",
+     "style": "Bold",
+     "size": 116.692,
+     "tracking": 4.48
+    },
+    "mark_height_px": 282,
+    "line1_size_over_H": 0.4062,
+    "align": "center"
+   },
+   "16": {
+    "line1": {
+     "string": "ALLIANCE AI",
+     "style": "SemiBold",
+     "size": 113.179,
+     "tracking": 9.83
+    },
+    "line2": {
+     "string": "PARTNERS",
+     "style": "Medium",
+     "size": 112.301,
+     "tracking": 6.75
+    },
+    "mark_height_px": 302,
+    "line1_size_over_H": 0.3748,
+    "align": "center"
+   }
+  }
+ },
+ "mark_boxes_px": {
+  "01": [
+   117,
+   270,
+   486,
+   490
+  ],
+  "04": [
+   188,
+   260,
+   587,
+   508
+  ],
+  "05": [
+   471,
+   126,
+   905,
+   460
+  ],
+  "07": [
+   147,
+   273,
+   515,
+   495
+  ],
+  "08": [
+   133,
+   178,
+   565,
+   497
+  ],
+  "09": [
+   270,
+   230,
+   756,
+   512
+  ],
+  "10": [
+   117,
+   284,
+   468,
+   488
+  ],
+  "13": [
+   91,
+   274,
+   466,
+   494
+  ],
+  "14": [
+   259,
+   303,
+   762,
+   612
+  ],
+  "16": [
+   250,
+   234,
+   774,
+   536
+  ],
+  "17": [
+   314,
+   51,
+   1063,
+   724
+  ]
+ }
+}

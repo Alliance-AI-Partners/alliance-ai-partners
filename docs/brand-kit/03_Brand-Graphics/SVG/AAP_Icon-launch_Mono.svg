@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" id="icon-launch-mono-Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="icon-launch-mono-launch">
+    <path id="icon-launch-mono-icon-launch-mono-trail" d="M6.5,41.5c1.769-3.064,1.577-6.5,6-6.5,4.287,0,3.883-3.383,6.308-5.808" fill="none" stroke="#121b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-launch-mono-icon-launch-mono-body" d="M17.393,22.121l8.486-8.485c4.596-4.596,9.899-5.657,14.142-5.657,0,4.243-1.061,9.546-5.657,14.142l-8.485,8.486-8.486-8.486Z" fill="none" stroke="#121b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-launch-mono-icon-launch-mono-fin-left" d="M23.05,16.464l-8.485.708-2.828,2.828,5.656,2.121" fill="none" stroke="#121b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-launch-mono-icon-launch-mono-fin-right" d="M31.536,24.95l-.708,8.485-2.828,2.828-2.121-5.656" fill="none" stroke="#121b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <circle id="icon-launch-mono-icon-launch-mono-window" cx="30.828" cy="17.172" r="3" fill="none" stroke="#121b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

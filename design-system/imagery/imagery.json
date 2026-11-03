@@ -1,0 +1,445 @@
+{
+ "area": "imagery",
+ "retrieved": "2026-11-02",
+ "rights": "Alliance AI Partners. Brand graphics from the logo kit; generated backgrounds carry their prompt in imagery/backgrounds/*.json.",
+ "files": [
+  {
+   "path": "imagery/graphics/badge-seal.png",
+   "category": "badge",
+   "name": "badge-seal",
+   "format": "png",
+   "description": "Circular seal: navy disc, cyan rings, the tagline set around the mark. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Badge-Seal.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/badge-seal.svg",
+   "category": "badge",
+   "name": "badge-seal",
+   "format": "svg",
+   "description": "Circular seal: navy disc, cyan rings, the tagline set around the mark.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Badge-Seal.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/badge-shield.png",
+   "category": "badge",
+   "name": "badge-shield",
+   "format": "png",
+   "description": "Shield badge: the 3D mark in a bevelled frame with the wordmark banner. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Badge-Shield.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/badge-shield.svg",
+   "category": "badge",
+   "name": "badge-shield",
+   "format": "svg",
+   "description": "Shield badge: the 3D mark in a bevelled frame with the wordmark banner.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Badge-Shield.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/badge-starburst.png",
+   "category": "badge",
+   "name": "badge-starburst",
+   "format": "png",
+   "description": "Starburst badge: 'Certified AI Partner'. PNG at 2x. Use it only once Alliance holds the certification it names; nothing in PRODUCT.md backs one yet.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Badge-Starburst.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/badge-starburst.svg",
+   "category": "badge",
+   "name": "badge-starburst",
+   "format": "svg",
+   "description": "Starburst badge: 'Certified AI Partner'. Use it only once Alliance holds the certification it names; nothing in PRODUCT.md backs one yet.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Badge-Starburst.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/graphic-datamesh.png",
+   "category": "graphic",
+   "name": "graphic-datamesh",
+   "format": "png",
+   "description": "Data mesh panel: blocks of light on Partner Navy, for dark bands. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Graphic-DataMesh.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/graphic-datamesh.svg",
+   "category": "graphic",
+   "name": "graphic-datamesh",
+   "format": "svg",
+   "description": "Data mesh panel: blocks of light on Partner Navy, for dark bands.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Graphic-DataMesh.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/graphic-wave.png",
+   "category": "graphic",
+   "name": "graphic-wave",
+   "format": "png",
+   "description": "The ribbon wave: the mark's ribbon as a flowing band with its glow, on transparent ground. PNG at 2x. Its soft glow is part of the logo-kit artwork: use it as a hero or print graphic, never behind UI text or controls.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Graphic-Wave.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/graphic-wave.svg",
+   "category": "graphic",
+   "name": "graphic-wave",
+   "format": "svg",
+   "description": "The ribbon wave: the mark's ribbon as a flowing band with its glow, on transparent ground. Its soft glow is part of the logo-kit artwork: use it as a hero or print graphic, never behind UI text or controls.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Graphic-Wave.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/mascot-swallow-fullcolor.png",
+   "category": "mascot",
+   "name": "mascot-swallow-fullcolor",
+   "format": "png",
+   "description": "The faceted swallow mascot, full colour. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Mascot-Swallow_FullColor.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/mascot-swallow-fullcolor.svg",
+   "category": "mascot",
+   "name": "mascot-swallow-fullcolor",
+   "format": "svg",
+   "description": "The faceted swallow mascot, full colour.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Mascot-Swallow_FullColor.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/mascot-swallow-mono-black.png",
+   "category": "mascot",
+   "name": "mascot-swallow-mono-black",
+   "format": "png",
+   "description": "The swallow, one colour black. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Mascot-Swallow_Mono-Black.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/mascot-swallow-mono-black.svg",
+   "category": "mascot",
+   "name": "mascot-swallow-mono-black",
+   "format": "svg",
+   "description": "The swallow, one colour black.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Mascot-Swallow_Mono-Black.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/mascot-swallow-mono-white.png",
+   "category": "mascot",
+   "name": "mascot-swallow-mono-white",
+   "format": "png",
+   "description": "The swallow, one colour white. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Mascot-Swallow_Mono-White.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/mascot-swallow-mono-white.svg",
+   "category": "mascot",
+   "name": "mascot-swallow-mono-white",
+   "format": "svg",
+   "description": "The swallow, one colour white.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Mascot-Swallow_Mono-White.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-ap-monogram-swatch.png",
+   "category": "pattern",
+   "name": "pattern-ap-monogram-swatch",
+   "format": "png",
+   "description": "Pattern swatch preview, AP Monogram. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-AP-Monogram_Swatch.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-ap-monogram-swatch.svg",
+   "category": "pattern",
+   "name": "pattern-ap-monogram-swatch",
+   "format": "svg",
+   "description": "Pattern swatch preview, AP Monogram.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-AP-Monogram_Swatch.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-ap-monogram-tile.png",
+   "category": "pattern",
+   "name": "pattern-ap-monogram-tile",
+   "format": "png",
+   "description": "Seamless pattern tile, AP Monogram (240 pt repeat). PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-AP-Monogram_Tile.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-ap-monogram-tile.svg",
+   "category": "pattern",
+   "name": "pattern-ap-monogram-tile",
+   "format": "svg",
+   "description": "Seamless pattern tile, AP Monogram (240 pt repeat).",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-AP-Monogram_Tile.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-data-mesh-swatch.png",
+   "category": "pattern",
+   "name": "pattern-data-mesh-swatch",
+   "format": "png",
+   "description": "Pattern swatch preview, Data Mesh. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-Data-Mesh_Swatch.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-data-mesh-swatch.svg",
+   "category": "pattern",
+   "name": "pattern-data-mesh-swatch",
+   "format": "svg",
+   "description": "Pattern swatch preview, Data Mesh.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-Data-Mesh_Swatch.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-data-mesh-tile.png",
+   "category": "pattern",
+   "name": "pattern-data-mesh-tile",
+   "format": "png",
+   "description": "Seamless pattern tile, Data Mesh (240 pt repeat). PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-Data-Mesh_Tile.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-data-mesh-tile.svg",
+   "category": "pattern",
+   "name": "pattern-data-mesh-tile",
+   "format": "svg",
+   "description": "Seamless pattern tile, Data Mesh (240 pt repeat).",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-Data-Mesh_Tile.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-facets-swatch.png",
+   "category": "pattern",
+   "name": "pattern-facets-swatch",
+   "format": "png",
+   "description": "Pattern swatch preview, Facets. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-Facets_Swatch.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-facets-swatch.svg",
+   "category": "pattern",
+   "name": "pattern-facets-swatch",
+   "format": "svg",
+   "description": "Pattern swatch preview, Facets.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-Facets_Swatch.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-facets-tile.png",
+   "category": "pattern",
+   "name": "pattern-facets-tile",
+   "format": "png",
+   "description": "Seamless pattern tile, Facets (240 pt repeat). PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-Facets_Tile.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-facets-tile.svg",
+   "category": "pattern",
+   "name": "pattern-facets-tile",
+   "format": "svg",
+   "description": "Seamless pattern tile, Facets (240 pt repeat).",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-Facets_Tile.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-halftone-swatch.png",
+   "category": "pattern",
+   "name": "pattern-halftone-swatch",
+   "format": "png",
+   "description": "Pattern swatch preview, Halftone. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-Halftone_Swatch.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-halftone-swatch.svg",
+   "category": "pattern",
+   "name": "pattern-halftone-swatch",
+   "format": "svg",
+   "description": "Pattern swatch preview, Halftone.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-Halftone_Swatch.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-halftone-tile.png",
+   "category": "pattern",
+   "name": "pattern-halftone-tile",
+   "format": "png",
+   "description": "Seamless pattern tile, Halftone (240 pt repeat). PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-Halftone_Tile.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-halftone-tile.svg",
+   "category": "pattern",
+   "name": "pattern-halftone-tile",
+   "format": "svg",
+   "description": "Seamless pattern tile, Halftone (240 pt repeat).",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-Halftone_Tile.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-ribbon-lines-swatch.png",
+   "category": "pattern",
+   "name": "pattern-ribbon-lines-swatch",
+   "format": "png",
+   "description": "Pattern swatch preview, Ribbon Lines. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-Ribbon-Lines_Swatch.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-ribbon-lines-swatch.svg",
+   "category": "pattern",
+   "name": "pattern-ribbon-lines-swatch",
+   "format": "svg",
+   "description": "Pattern swatch preview, Ribbon Lines.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-Ribbon-Lines_Swatch.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-ribbon-lines-tile.png",
+   "category": "pattern",
+   "name": "pattern-ribbon-lines-tile",
+   "format": "png",
+   "description": "Seamless pattern tile, Ribbon Lines (240 pt repeat). PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Pattern-Ribbon-Lines_Tile.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/pattern-ribbon-lines-tile.svg",
+   "category": "pattern",
+   "name": "pattern-ribbon-lines-tile",
+   "format": "svg",
+   "description": "Seamless pattern tile, Ribbon Lines (240 pt repeat).",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Pattern-Ribbon-Lines_Tile.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/sticker-diecut.png",
+   "category": "badge",
+   "name": "sticker-diecut",
+   "format": "png",
+   "description": "Die-cut sticker artwork (navy pill, dark lockup); the cut line lives in the print master. PNG at 2x.",
+   "source": "docs/brand-kit/03_Brand-Graphics/PNG/AAP_Sticker-DieCut.png",
+   "derived": false
+  },
+  {
+   "path": "imagery/graphics/sticker-diecut.svg",
+   "category": "badge",
+   "name": "sticker-diecut",
+   "format": "svg",
+   "description": "Die-cut sticker artwork (navy pill, dark lockup); the cut line lives in the print master.",
+   "source": "docs/brand-kit/03_Brand-Graphics/SVG/AAP_Sticker-DieCut.svg",
+   "derived": false
+  },
+  {
+   "path": "imagery/backgrounds/dawn-wave.webp",
+   "master": "imagery/backgrounds/dawn-wave.jpg",
+   "category": "background",
+   "name": "dawn-wave",
+   "description": "One wave curling like a satin ribbon at dawn, navy to cyan; dark sky above.",
+   "aspect_ratio": "16:9",
+   "prompt": "A single ocean wave curling like a glossy satin ribbon at dawn: deep navy water rising through electric blue to a luminous cyan crest of light, under a dark navy sky, with a low horizon. Minimal, still and calm. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+   "provenance": "imagery/backgrounds/dawn-wave.json",
+   "source": "Generated with gemini-3-pro-image-preview on 2026-11-02",
+   "derived": true
+  },
+  {
+   "path": "imagery/backgrounds/daybreak-swallows.webp",
+   "master": "imagery/backgrounds/daybreak-swallows.jpg",
+   "category": "background",
+   "name": "daybreak-swallows",
+   "description": "Faceted swallows and a satin ribbon crossing a Daybreak sky; open sky on the left for a headline.",
+   "aspect_ratio": "16:9",
+   "prompt": "Five swallows in flight across a daybreak sky that grades from deep navy at the lower left through electric blue to luminous cyan at the upper right. The swallows are faceted like cut glass, their flat planes catching the light in the same blues, and one glossy satin ribbon in the same gradient trails through the flock like a flight path. Wide, airy composition with open sky on the left two thirds. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+   "provenance": "imagery/backgrounds/daybreak-swallows.json",
+   "source": "Generated with gemini-3-pro-image-preview on 2026-11-02",
+   "derived": true
+  },
+  {
+   "path": "imagery/backgrounds/faceted-leaves.webp",
+   "master": "imagery/backgrounds/faceted-leaves.jpg",
+   "category": "background",
+   "name": "faceted-leaves",
+   "description": "Faceted leaves in navy and blue on deep navy; a dark ground for white text.",
+   "aspect_ratio": "16:9",
+   "prompt": "A close crop of large, simple oval leaves built from flat faceted planes in navy and blue shades, lit from the upper left so the facet edges glow cyan, against a deep navy ground that falls into darkness on the right. Quiet, rich and dark, made to sit behind white text. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+   "provenance": "imagery/backgrounds/faceted-leaves.json",
+   "source": "Generated with gemini-3-pro-image-preview on 2026-11-02",
+   "derived": true
+  },
+  {
+   "path": "imagery/backgrounds/faceted-swallow.webp",
+   "master": "imagery/backgrounds/faceted-swallow.jpg",
+   "category": "background",
+   "name": "faceted-swallow",
+   "description": "The swallow as a faceted sculpture on Daylight, centred.",
+   "aspect_ratio": "1:1",
+   "prompt": "A single swallow in flight with its wings fully spread, rendered as a faceted low-poly sculpture in deep navy, electric blue and luminous cyan, centred on a pale daylight background with a soft contact shadow below it. Elegant, minimal, museum-object lighting. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+   "provenance": "imagery/backgrounds/faceted-swallow.json",
+   "source": "Generated with gemini-3-pro-image-preview on 2026-11-02",
+   "derived": true
+  },
+  {
+   "path": "imagery/backgrounds/meadow-first-light.webp",
+   "master": "imagery/backgrounds/meadow-first-light.jpg",
+   "category": "background",
+   "name": "meadow-first-light",
+   "description": "Faceted glass wildflowers at first light with distant swallows; vertical, for stories.",
+   "aspect_ratio": "9:16",
+   "prompt": "A meadow of wildflowers at first light seen from low down: the flower heads are faceted glass in electric blue and luminous cyan on deep navy stems, the sky grades from pale daylight to soft blue, and two swallows fly far off. Vertical composition with open sky in the upper half. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+   "provenance": "imagery/backgrounds/meadow-first-light.json",
+   "source": "Generated with gemini-3-pro-image-preview on 2026-11-02",
+   "derived": true
+  },
+  {
+   "path": "imagery/backgrounds/paper-garden.webp",
+   "master": "imagery/backgrounds/paper-garden.jpg",
+   "category": "background",
+   "name": "paper-garden",
+   "description": "Folded-paper flowers in Daylight and pale blue with blue and cyan accents; light enough for dark text.",
+   "aspect_ratio": "16:9",
+   "prompt": "A garden of folded-paper flowers and leaves in daylight white and pale blue-grey, with a few accents in electric blue and luminous cyan, softly lit with a shallow depth of field, a light and airy ground that dark text can sit on. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+   "provenance": "imagery/backgrounds/paper-garden.json",
+   "source": "Generated with gemini-3-pro-image-preview on 2026-11-02",
+   "derived": true
+  },
+  {
+   "path": "imagery/backgrounds/ribbon-blossoms.webp",
+   "master": "imagery/backgrounds/ribbon-blossoms.jpg",
+   "category": "background",
+   "name": "ribbon-blossoms",
+   "description": "Blossoms folded from blue and cyan satin ribbon on Daylight; the left half stays clear for text.",
+   "aspect_ratio": "16:9",
+   "prompt": "Five flowers made from folded glossy satin ribbon: each blossom's petals are loops of ribbon in electric blue and luminous cyan, with deep navy stems, arranged in a loose diagonal from the lower right on a pale daylight ground. Studio product photography, crisp soft shadows falling to the lower right, the left half left almost empty. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+   "provenance": "imagery/backgrounds/ribbon-blossoms.json",
+   "source": "Generated with gemini-3-pro-image-preview on 2026-11-02",
+   "derived": true
+  },
+  {
+   "path": "imagery/backgrounds/ribbon-river.webp",
+   "master": "imagery/backgrounds/ribbon-river.jpg",
+   "category": "background",
+   "name": "ribbon-river",
+   "description": "A river winding like the ribbon through faceted hills at daybreak; open sky at the top.",
+   "aspect_ratio": "16:9",
+   "prompt": "An aerial view at daybreak of a river winding like a ribbon through gentle faceted hills. The river reflects a gradient from electric blue to luminous cyan, the hills are layered deep navy and slate-blue planes, and soft mist lies in the valleys. Calm and vast, with the top third open sky. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+   "provenance": "imagery/backgrounds/ribbon-river.json",
+   "source": "Generated with gemini-3-pro-image-preview on 2026-11-02",
+   "derived": true
+  }
+ ]
+}

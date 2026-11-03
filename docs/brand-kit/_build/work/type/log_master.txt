@@ -1,0 +1,239 @@
+{
+ "one_line_wordmark": {
+  "string": "ALLIANCE AI PARTNERS",
+  "style": "Bold",
+  "font": "Montserrat-Bold",
+  "tracking": -11,
+  "tracking_note": "median of [-4.1, -17.85, -17.95, -0.13] (01, 13, 14, 17); the originals split into ~0 (01, 17) and ~-18 (13, 14)",
+  "accent": {
+   "chars": [
+    9,
+    11
+   ],
+   "text": "AI"
+  },
+  "horizontal_lockup": {
+   "size_over_H": 0.2832,
+   "cap_over_H": 0.1982,
+   "gap_mark_to_text_over_cap": 0.7425,
+   "text_align": "left; wordmark, tagline / descriptor share the same x origin",
+   "vertical": "text block (wordmark cap top .. last baseline) centered on the mark: offsets 0.0265 H (01), 0.0539 H (13)",
+   "sources": [
+    "01",
+    "13"
+   ]
+  },
+  "stacked_lockup": {
+   "size_over_H": 0.2136,
+   "cap_over_H": 0.1495,
+   "gap_mark_bottom_to_cap_top_over_cap": 1.0704,
+   "wordmark_width_over_mark_width": 1.6034,
+   "align": "centered on the mark's vertical axis (ink centers within 1.8 px in 14)",
+   "sources": [
+    "14"
+   ]
+  },
+  "sources": {
+   "01": {
+    "style": "Bold",
+    "size_px": 59.851,
+    "tracking": -4.1,
+    "iou": 0.9421,
+    "cap_px": 41.898,
+    "mark_bbox": [
+     117,
+     270,
+     486,
+     490
+    ],
+    "mark_height_px": 220,
+    "size_over_H": 0.2721,
+    "cap_over_H": 0.1904,
+    "ink_width_over_cap": 17.8304,
+    "gap_mark_to_text_over_cap": 0.8206,
+    "gap_mark_to_text_over_H": 0.1563,
+    "baseline_from_mark_top_over_H": 0.5087,
+    "text_block_center_minus_mark_center_over_H": 0.0265
+   },
+   "13": {
+    "style": "Bold",
+    "size_px": 64.736,
+    "tracking": -17.85,
+    "iou": 0.9173,
+    "cap_px": 45.318,
+    "mark_bbox": [
+     91,
+     274,
+     466,
+     494
+    ],
+    "mark_height_px": 220,
+    "size_over_H": 0.2943,
+    "cap_over_H": 0.206,
+    "ink_width_over_cap": 17.4571,
+    "gap_mark_to_text_over_cap": 0.6644,
+    "gap_mark_to_text_over_H": 0.1369,
+    "baseline_from_mark_top_over_H": 0.4432,
+    "text_block_center_minus_mark_center_over_H": 0.0539
+   },
+   "14": {
+    "style": "Bold",
+    "size_px": 66.005,
+    "tracking": -17.95,
+    "iou": 0.9381,
+    "cap_px": 46.206,
+    "mark_bbox": [
+     259,
+     303,
+     762,
+     612
+    ],
+    "mark_height_px": 309,
+    "size_over_H": 0.2136,
+    "cap_over_H": 0.1495,
+    "ink_width_over_cap": 17.4544,
+    "gap_mark_bottom_to_cap_top_over_cap": 1.0704,
+    "gap_mark_bottom_to_cap_top_over_H": 0.1601,
+    "wordmark_width_over_mark_width": 1.6034,
+    "center_offset_px": 1.75
+   },
+   "17": {
+    "style": "Bold",
+    "size_px": 61.636,
+    "tracking": -0.13,
+    "iou": 0.9421,
+    "cap_px": 43.147,
+    "mark_bbox": [
+     314,
+     51,
+     1063,
+     724
+    ],
+    "mark_height_px": 673,
+    "size_over_H": 0.0916,
+    "cap_over_H": 0.0641,
+    "ink_width_over_cap": 17.9384,
+    "note": "mark = the whole shield badge here; the wordmark sits on the banner, centered",
+    "center_offset_px": -0.37
+   }
+  }
+ },
+ "two_line_wordmark": {
+  "line1": {
+   "string": "ALLIANCE",
+   "style": "Bold",
+   "tracking": 6
+  },
+  "line2": {
+   "string": "AI PARTNERS",
+   "style": "Bold",
+   "tracking": 8,
+   "weight_note": "Bold in 08 and 05; 04 uses SemiBold and 10 Regular for line 2 (lighter variants)"
+  },
+  "line2_size_over_line1_size": 0.7446,
+  "line2_size_ratio_note": "exact width match for Bold/Bold at these trackings (both lines flush left and right, as in all four originals); measured ratios median 0.7571",
+  "baseline_to_baseline_over_cap1": 1.1004,
+  "line1_baseline_to_line2_cap_top_over_cap1": 0.3383,
+  "alignment": "justified block: both lines share ink left and right edges (within 2 px in 04, 10, 08, 05); with left-aligned point text put line 2's x origin 0.009 x (size1 - size2) px left of line 1's (Bold 'A' starts at -0.009 em), i.e. practically the same origin",
+  "horizontal_lockup": {
+   "line1_size_over_H": 0.4353,
+   "cap1_over_H": 0.3047,
+   "gap_mark_to_text_over_cap1": 0.5074,
+   "vertical": "text block (line 1 cap top .. line 2 baseline) centered on the mark (offsets -0.0262 H (04), -0.0155 H (10), 0.0209 H (08))",
+   "sources": [
+    "04",
+    "10",
+    "08"
+   ]
+  },
+  "stacked_lockup": {
+   "line1_size_over_H": 0.3114,
+   "gap_mark_bottom_to_cap_top_over_cap1": 0.3853,
+   "align": "centered",
+   "sources": [
+    "05"
+   ]
+  },
+  "sources": {
+   "04": {
+    "line1": {
+     "style": "Bold",
+     "size_px": 107.943,
+     "tracking": 2.09,
+     "iou": 0.9507
+    },
+    "line2": {
+     "style": "SemiBold",
+     "size_px": 81.784,
+     "tracking": 2.02,
+     "iou": 0.9472
+    },
+    "mark_bbox": [
+     188,
+     260,
+     587,
+     508
+    ],
+    "mark_height_px": 248,
+    "line2_size_over_line1_size": 0.7577,
+    "baseline_to_baseline_over_cap1": 1.1509,
+    "line1_baseline_to_line2_cap_top_over_cap1": 0.3932,
+    "ink_left_px": [
+     625.34,
+     625.72
+    ],
+    "ink_right_px": [
+     1191.89,
+     1192.25
+    ],
+    "line1_size_over_H": 0.4353,
+    "cap1_over_H": 0.3047,
+    "text_block_height_over_H": 0.6554,
+    "gap_mark_to_text_over_cap1": 0.5074,
+    "text_block_center_minus_mark_center_over_H": -0.0262,
+    "mark": "gradient AP"
+   },
+   "10": {
+    "line1": {
+     "style": "Bold",
+     "size_px": 133.81,
+     "tracking": 21.77,
+     "iou": 0.9133
+    },
+    "line2": {
+     "style": "Regular",
+     "size_px": 104.312,
+     "tracking": 17.02,
+     "iou": 0.8447
+    },
+    "mark_bbox": [
+     117,
+     284,
+     468,
+     488
+    ],
+    "mark_height_px": 204,
+    "line2_size_over_line1_size": 0.7796,
+    "baseline_to_baseline_over_cap1": 1.05,
+    "line1_baseline_to_line2_cap_top_over_cap1": 0.2704,
+    "ink_left_px": [
+     538.73,
+     539.83
+    ],
+    "ink_right_px": [
+     1259.48,
+     1259.49
+    ],
+    "line1_size_over_H": 0.6559,
+    "cap1_over_H": 0.4592,
+    "text_block_height_over_H": 0.9413,
+    "gap_mark_to_text_over_cap1": 0.7551,
+    "text_block_center_minus_mark_center_over_H": -0.0155,
+    "mark": "flat cyan AP"
+   },
+   "08": {
+    "line1": {
+     "style": "Bold",
+     "size_px": 133.32,
+     "tracking": -8.38,
+     "iou": 0

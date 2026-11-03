@@ -1,0 +1,1001 @@
+{
+ "source": "original 17 (e7dbe480-3073-48eb-9568-d84c3239a496.jpeg)",
+ "svg": "components/shield-frame.svg",
+ "viewBox": [
+  0,
+  0,
+  1376,
+  768
+ ],
+ "symmetry_axis_x": 688.1,
+ "excluded": [
+  "AP mark (incl. its white keyline)",
+  "banner text 'ALLIANCE AI PARTNERS'"
+ ],
+ "construction": {
+  "geometry": "every boundary measured on both halves with sub-pixel edge refinement, right half mirrored onto the left, fitted (lines / cubic polynomials = exact single cubic Beziers), right half generated as the exact mirror; only the hidden 0.6 px under-laps break mirror identity",
+  "edge_fit_rms_px": {
+   "T_o": 0.076,
+   "T_b1": 0.138,
+   "T_b2": 0.11,
+   "T_b3": 0.096,
+   "S_o": 0.125,
+   "S_b1": 0.132,
+   "S_b2": 0.153,
+   "S_b3": 0.126,
+   "D_o": 0.114,
+   "D_b1": 0.106,
+   "D_b2": 0.087,
+   "D_b3": 0.074,
+   "C_t": 0.124,
+   "C_b": 0.078,
+   "UW": 0.096,
+   "LW": 0.107
+  },
+  "overlap_px": 0.6,
+  "stacking": "z order bottom->top as listed; each lower face runs 0.6 px (2 px under the upper bar) under the face stacked above it, so there are no hairline seams"
+ },
+ "faces": [
+  {
+   "id": "field-upper",
+   "z": 0,
+   "anchors": 5,
+   "visible_px": 161085,
+   "render_de_mean_interior": 0.33,
+   "segments": [
+    "line",
+    "line",
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "solid",
+    "hex": "#FFFFFF"
+   }
+  },
+  {
+   "id": "field-banner",
+   "z": 1,
+   "anchors": 4,
+   "visible_px": 58842,
+   "render_de_mean_interior": 0.8,
+   "segments": [
+    "line",
+    "line",
+    "line",
+    "line"
+   ],
+   "fill": {
+    "type": "solid",
+    "hex": "#FFFFFF"
+   }
+  },
+  {
+   "id": "field-lower",
+   "z": 2,
+   "anchors": 3,
+   "visible_px": 8446,
+   "render_de_mean_interior": 1.04,
+   "segments": [
+    "line",
+    "cubic",
+    "cubic"
+   ],
+   "fill": {
+    "type": "solid",
+    "hex": "#FFFFFF"
+   }
+  },
+  {
+   "id": "outer-side-L",
+   "z": 3,
+   "anchors": 6,
+   "visible_px": 7280,
+   "render_de_mean_interior": 1.08,
+   "segments": [
+    "cubic",
+    "line",
+    "line",
+    "line",
+    "cubic",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 457.996,
+    "y1": 265.504,
+    "x2": 343.722,
+    "y2": 333.49,
+    "stops": [
+     {
+      "offset": 0.065,
+      "hex": "#275CC6"
+     },
+     {
+      "offset": 0.9775,
+      "hex": "#1E3871"
+     }
+    ]
+   }
+  },
+  {
+   "id": "outer-side-R",
+   "z": 4,
+   "anchors": 6,
+   "visible_px": 7281,
+   "render_de_mean_interior": 1.65,
+   "segments": [
+    "cubic",
+    "line",
+    "line",
+    "line",
+    "cubic",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 902.599,
+    "y1": 237.728,
+    "x2": 1043.459,
+    "y2": 383.593,
+    "stops": [
+     {
+      "offset": 0.3175,
+      "hex": "#1DACD0"
+     },
+     {
+      "offset": 0.955,
+      "hex": "#2868B5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "outer-top-L",
+   "z": 5,
+   "anchors": 4,
+   "visible_px": 7230,
+   "render_de_mean_interior": 1.1,
+   "segments": [
+    "line",
+    "line",
+    "line",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 689.967,
+    "y1": 64.204,
+    "x2": 383.699,
+    "y2": 154.925,
+    "stops": [
+     {
+      "offset": 0.115,
+      "hex": "#2975D5"
+     },
+     {
+      "offset": 0.9575,
+      "hex": "#224185"
+     }
+    ]
+   }
+  },
+  {
+   "id": "outer-top-R",
+   "z": 6,
+   "anchors": 4,
+   "visible_px": 7227,
+   "render_de_mean_interior": 1.2,
+   "segments": [
+    "line",
+    "line",
+    "line",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 707.978,
+    "y1": 25.047,
+    "x2": 965.442,
+    "y2": 192.246,
+    "stops": [
+     {
+      "offset": 0.0475,
+      "hex": "#1F7CBA"
+     },
+     {
+      "offset": 0.97,
+      "hex": "#15F3F5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rim-upper-L",
+   "z": 7,
+   "anchors": 6,
+   "visible_px": 3452,
+   "render_de_mean_interior": 2.35,
+   "segments": [
+    "line",
+    "line",
+    "line",
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 579.282,
+    "y1": 21.491,
+    "x2": 379.047,
+    "y2": 398.078,
+    "stops": [
+     {
+      "offset": 0.0875,
+      "hex": "#7DF9F9"
+     },
+     {
+      "offset": 0.39,
+      "hex": "#00D5FF"
+     },
+     {
+      "offset": 0.9225,
+      "hex": "#30A1DB"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rim-upper-R",
+   "z": 8,
+   "anchors": 6,
+   "visible_px": 3426,
+   "render_de_mean_interior": 1.97,
+   "segments": [
+    "line",
+    "line",
+    "line",
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 742.418,
+    "y1": 34.878,
+    "x2": 1031.429,
+    "y2": 385.476,
+    "stops": [
+     {
+      "offset": 0.0525,
+      "hex": "#43D2E5"
+     },
+     {
+      "offset": 0.3158,
+      "hex": "#7DF9F9"
+     },
+     {
+      "offset": 0.6617,
+      "hex": "#7DF9F9"
+     },
+     {
+      "offset": 0.9275,
+      "hex": "#00D5FF"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inner-side-L",
+   "z": 9,
+   "anchors": 4,
+   "visible_px": 6152,
+   "render_de_mean_interior": 1.27,
+   "segments": [
+    "cubic",
+    "line",
+    "cubic",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 354.949,
+    "y1": 222.369,
+    "x2": 491.522,
+    "y2": 366.286,
+    "stops": [
+     {
+      "offset": 0.08,
+      "hex": "#224185"
+     },
+     {
+      "offset": 0.8675,
+      "hex": "#1AA2C8"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inner-side-R",
+   "z": 10,
+   "anchors": 4,
+   "visible_px": 6161,
+   "render_de_mean_interior": 1.66,
+   "segments": [
+    "cubic",
+    "line",
+    "cubic",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 929.147,
+    "y1": 176.81,
+    "x2": 961.284,
+    "y2": 470.25,
+    "stops": [
+     {
+      "offset": 0.0098,
+      "hex": "#14284C"
+     },
+     {
+      "offset": 0.4496,
+      "hex": "#25426B"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1F7CBA"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inner-top-L",
+   "z": 11,
+   "anchors": 4,
+   "visible_px": 6038,
+   "render_de_mean_interior": 2.09,
+   "segments": [
+    "line",
+    "line",
+    "line",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 641.046,
+    "y1": 42.366,
+    "x2": 467.75,
+    "y2": 224.982,
+    "stops": [
+     {
+      "offset": 0.05,
+      "hex": "#1995BD"
+     },
+     {
+      "offset": 0.9175,
+      "hex": "#1E3871"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inner-top-R",
+   "z": 12,
+   "anchors": 4,
+   "visible_px": 6072,
+   "render_de_mean_interior": 1.92,
+   "segments": [
+    "line",
+    "line",
+    "line",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 767.666,
+    "y1": 45.757,
+    "x2": 870.326,
+    "y2": 245.084,
+    "stops": [
+     {
+      "offset": 0.1563,
+      "hex": "#25426B"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#14284C"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bar-upper",
+   "z": 13,
+   "anchors": 6,
+   "visible_px": 13697,
+   "render_de_mean_interior": 1.94,
+   "segments": [
+    "line",
+    "cubic",
+    "line",
+    "cubic",
+    "line",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 316.48,
+    "y1": 460.186,
+    "x2": 1054.727,
+    "y2": 502.107,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1B2250"
+     },
+     {
+      "offset": 0.2819,
+      "hex": "#29609A"
+     },
+     {
+      "offset": 0.5265,
+      "hex": "#1ADBE1"
+     },
+     {
+      "offset": 0.8284,
+      "hex": "#2868B5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inner-lower-L",
+   "z": 14,
+   "anchors": 4,
+   "visible_px": 3555,
+   "render_de_mean_interior": 1.5,
+   "segments": [
+    "line",
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 592.18,
+    "y1": 572.637,
+    "x2": 631.34,
+    "y2": 704.839,
+    "stops": [
+     {
+      "offset": 0.0425,
+      "hex": "#14284C"
+     },
+     {
+      "offset": 0.3675,
+      "hex": "#1F5087"
+     },
+     {
+      "offset": 0.91,
+      "hex": "#1AA2C8"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inner-lower-R",
+   "z": 15,
+   "anchors": 4,
+   "visible_px": 3558,
+   "render_de_mean_interior": 1.84,
+   "segments": [
+    "line",
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 788.066,
+    "y1": 570.745,
+    "x2": 740.7,
+    "y2": 706.38,
+    "stops": [
+     {
+      "offset": 0.0775,
+      "hex": "#14284C"
+     },
+     {
+      "offset": 0.5,
+      "hex": "#25426B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bar-lower",
+   "z": 16,
+   "anchors": 4,
+   "visible_px": 6594,
+   "render_de_mean_interior": 2.08,
+   "segments": [
+    "line",
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 725.29,
+    "y1": 502.652,
+    "x2": 652.88,
+    "y2": 651.115,
+    "stops": [
+     {
+      "offset": 0.535,
+      "hex": "#2868B5"
+     },
+     {
+      "offset": 0.9075,
+      "hex": "#1E3871"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rimwing-lower-L",
+   "z": 17,
+   "anchors": 5,
+   "visible_px": 7242,
+   "render_de_mean_interior": 1.37,
+   "segments": [
+    "line",
+    "cubic",
+    "line",
+    "cubic",
+    "line"
+   ],
+   "fill": {
+    "type": "solid",
+    "hex": "#14284C"
+   }
+  },
+  {
+   "id": "rimwing-lower-R",
+   "z": 18,
+   "anchors": 5,
+   "visible_px": 7249,
+   "render_de_mean_interior": 1.39,
+   "segments": [
+    "line",
+    "cubic",
+    "line",
+    "cubic",
+    "line"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 880.537,
+    "y1": 509.155,
+    "x2": 770.902,
+    "y2": 758.318,
+    "stops": [
+     {
+      "offset": 0.2,
+      "hex": "#2857B0"
+     },
+     {
+      "offset": 0.8575,
+      "hex": "#1E3871"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rim-lower-L",
+   "z": 19,
+   "anchors": 4,
+   "visible_px": 1305,
+   "render_de_mean_interior": 1.48,
+   "segments": [
+    "line",
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 498.082,
+    "y1": 573.076,
+    "x2": 680.095,
+    "y2": 705.316,
+    "stops": [
+     {
+      "offset": 0.0225,
+      "hex": "#396FC4"
+     },
+     {
+      "offset": 0.7225,
+      "hex": "#3190D7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rim-lower-R",
+   "z": 20,
+   "anchors": 4,
+   "visible_px": 1311,
+   "render_de_mean_interior": 2.4,
+   "segments": [
+    "line",
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 847.016,
+    "y1": 551.744,
+    "x2": 729.781,
+    "y2": 723.926,
+    "stops": [
+     {
+      "offset": 0.27,
+      "hex": "#00D5FF"
+     },
+     {
+      "offset": 0.945,
+      "hex": "#3190D7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chevron-L",
+   "z": 21,
+   "anchors": 3,
+   "visible_px": 1085,
+   "render_de_mean_interior": 1.46,
+   "segments": [
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 648.085,
+    "y1": 578.508,
+    "x2": 659.594,
+    "y2": 655.521,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#14284C"
+     },
+     {
+      "offset": 0.7573,
+      "hex": "#1A305B"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chevron-R",
+   "z": 22,
+   "anchors": 3,
+   "visible_px": 1088,
+   "render_de_mean_interior": 1.85,
+   "segments": [
+    "cubic",
+    "line",
+    "cubic"
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 758.428,
+    "y1": 588.228,
+    "x2": 695.481,
+    "y2": 658.138,
+    "stops": [
+     {
+      "offset": 0.1733,
+      "hex": "#2D97B1"
+     },
+     {
+      "offset": 0.4431,
+      "hex": "#1F7CBA"
+     },
+     {
+      "offset": 1.0,
+      "hex": "#2857B0"
+     }
+    ]
+   }
+  }
+ ],
+ "palette_used": [
+  {
+   "name": "Pure White",
+   "hex": "#FFFFFF",
+   "used_in": [
+    "field-banner",
+    "field-lower",
+    "field-upper"
+   ]
+  },
+  {
+   "name": "Bright Cyan",
+   "hex": "#00D5FF",
+   "used_in": [
+    "rim-lower-R",
+    "rim-upper-L",
+    "rim-upper-R"
+   ]
+  }
+ ],
+ "supporting_tones": [
+  {
+   "name": "Shield Pale Cyan",
+   "hex": "#7DF9F9",
+   "used_in": [
+    "rim-upper-L",
+    "rim-upper-R"
+   ]
+  },
+  {
+   "name": "Shield Pale Cyan 2",
+   "hex": "#15F3F5",
+   "used_in": [
+    "outer-top-R"
+   ]
+  },
+  {
+   "name": "Shield Pale Cyan 3",
+   "hex": "#1ADBE1",
+   "used_in": [
+    "bar-upper"
+   ]
+  },
+  {
+   "name": "Shield Pale Cyan 4",
+   "hex": "#43D2E5",
+   "used_in": [
+    "rim-upper-R"
+   ]
+  },
+  {
+   "name": "Shield Light Cyan",
+   "hex": "#1DACD0",
+   "used_in": [
+    "outer-side-R"
+   ]
+  },
+  {
+   "name": "Shield Light Azure",
+   "hex": "#30A1DB",
+   "used_in": [
+    "rim-upper-L"
+   ]
+  },
+  {
+   "name": "Shield Light Cerulean",
+   "hex": "#1AA2C8",
+   "used_in": [
+    "inner-lower-L",
+    "inner-side-L"
+   ]
+  },
+  {
+   "name": "Shield Mid Cyan",
+   "hex": "#2D97B1",
+   "used_in": [
+    "chevron-R"
+   ]
+  },
+  {
+   "name": "Shield Mid Azure",
+   "hex": "#3190D7",
+   "used_in": [
+    "rim-lower-L",
+    "rim-lower-R"
+   ]
+  },
+  {
+   "name": "Shield Mid Cerulean",
+   "hex": "#1995BD",
+   "used_in": [
+    "inner-top-L"
+   ]
+  },
+  {
+   "name": "Shield Mid Azure 2",
+   "hex": "#1F7CBA",
+   "used_in": [
+    "chevron-R",
+    "inner-side-R",
+    "outer-top-R"
+   ]
+  },
+  {
+   "name": "Shield Mid Blue",
+   "hex": "#2975D5",
+   "used_in": [
+    "outer-top-L"
+   ]
+  },
+  {
+   "name": "Shield Mid Blue 2",
+   "hex": "#396FC4",
+   "used_in": [
+    "rim-lower-L"
+   ]
+  },
+  {
+   "name": "Shield Mid Blue 3",
+   "hex": "#2868B5",
+   "used_in": [
+    "bar-lower",
+    "bar-upper",
+    "outer-side-R"
+   ]
+  },
+  {
+   "name": "Shield Dark Blue",
+   "hex": "#275CC6",
+   "used_in": [
+    "outer-side-L"
+   ]
+  },
+  {
+   "name": "Shield Dark Blue 2",
+   "hex": "#29609A",
+   "used_in": [
+    "bar-upper"
+   ]
+  },
+  {
+   "name": "Shield Dark Blue 3",
+   "hex": "#2857B0",
+   "used_in": [
+    "chevron-R",
+    "rimwing-lower-R"
+   ]
+  },
+  {
+   "name": "Shield Dark Blue 4",
+   "hex": "#1F5087",
+   "used_in": [
+    "inner-lower-L"
+   ]
+  },
+  {
+   "name": "Shield Dark Blue 5",
+   "hex": "#224185",
+   "used_in": [
+    "inner-side-L",
+    "outer-top-L"
+   ]
+  },
+  {
+   "name": "Shield Dark Blue 6",
+   "hex": "#25426B",
+   "used_in": [
+    "inner-lower-R",
+    "inner-side-R",
+    "inner-top-R"
+   ]
+  },
+  {
+   "name": "Shield Deep Blue",
+   "hex": "#1E3871",
+   "used_in": [
+    "bar-lower",
+    "inner-top-L",
+    "outer-side-L",
+    "rimwing-lower-R"
+   ]
+  },
+  {
+   "name": "Shield Deep Blue 2",
+   "hex": "#1A305B",
+   "used_in": [
+    "chevron-L"
+   ]
+  },
+  {
+   "name": "Shield Deep Blue 3",
+   "hex": "#14284C",
+   "used_in": [
+    "chevron-L",
+    "inner-lower-L",
+    "inner-lower-R",
+    "inner-side-R",
+    "inner-top-R",
+    "rimwing-lower-L"
+   ]
+  },
+  {
+   "name": "Shield Deep Blue 4",
+   "hex": "#1B2250",
+   "used_in": [
+    "bar-upper"
+   ]
+  }
+ ],
+ "tone_rules": "stops within dE2000 4 of a core palette colour snapped to it; remaining tones merged (centroid linkage) until all are > dE2000 3 apart",
+ "metrics": {
+  "vectorcraft_render": {
+   "iou": 0.9856,
+   "de_mean": 2.72,
+   "de_p95": 8.7,
+   "n_px": 116819
+  },
+  "by_region": [
+   {
+    "region": "all",
+    "iou": 0.9856,
+    "de_mean": 2.72,
+    "de_p95": 8.7,
+    "n_px": 116819
+   },
+   {
+    "region": "upper frame (y<464)",
+    "iou": 0.9868,
+    "de_mean": 2.49,
+    "de_p95": 7.85,
+    "n_px": 62568
+   },
+   {
+    "region": "banner bars (464..593)",
+    "iou": 0.9769,
+    "de_mean": 3.5,
+    "de_p95": 11.49,
+    "n_px": 29729
+   },
+   {
+    "region": "lower point (y>=593)",
+    "iou": 0.9921,
+    "de_mean": 2.36,
+    "de_p95": 7.41,
+    "n_px": 24522
+   }
+  ],
+  "own_raster_pre_merge": {
+   "iou": 0.9858,
+   "de_mean": 2.6,
+   "de_p95": 8.93,
+   "n_px": 116933
+  },
+  "own_raster_post_merge": {
+   "iou": 0.9858,
+   "de_mean": 2.78,
+   "de_p95": 9.02,
+   "n_px": 116938
+  },
+  "outside_alpha_max": 0.0,
+  "note": "frame area = original or render foreground (dE>12 from white) dilated 1 px, minus the AP mark (incl. keyline) and banner text masks; IoU on dE>12 foreground masks"
+ }
+}

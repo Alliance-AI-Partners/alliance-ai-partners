@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Email signature</title>
+<!--
+  Template: HTML email signature, 600 px maximum. Copy only the <table> between the signature markers into the mail
+  client's signature editor.
+  Email-safe: presentation tables, inline styles only, no scripts, no web fonts (Helvetica, then Arial), a PNG logo
+  with fixed width, height and alt text. Before use, host the PNG on https and replace the relative src.
+  Dark mode: the logo is a self-contained Partner Navy tile (assets/email-signature-logo-tile.png, derived from the
+  full-colour dark primary lockup), so it reads the same whether a client keeps, darkens or inverts the colours.
+  The table has an explicit white background and Partner Navy text: clients that invert colours flip both together,
+  and clients that keep authored colours keep a readable white block.
+  Alliance Blue appears once, on the call to action (#1B56FF, 5.49:1 on white).
+  SAMPLE: Isabel Navarro is fictional; +1 202 555 0147 is in the 555-0100 to 555-0199 range reserved for fictional
+  use; allianceaipartners.example is a placeholder domain.
+  The tokens.css link below only styles this preview page, never the signature itself.
+-->
+<link rel="stylesheet" href="../../design-system/tokens/tokens.css">
+<style>
+  html, body { margin: 0; background: var(--aap-color-neutral-200); }
+  .frame { width: 600px; padding: 28px 32px; background: #FFFFFF; }
+</style>
+</head>
+<body>
+<div class="frame" id="artefact">
+<!-- signature start -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; max-width: 600px; border-collapse: collapse; background-color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; color: #121B2A;">
+  <tr>
+    <td style="padding: 0; font-size: 17px; line-height: 22px; font-weight: bold; color: #121B2A;">Isabel Navarro</td>
+  </tr>
+  <tr>
+    <td style="padding: 2px 0 0; font-size: 14px; line-height: 20px; color: #42587C;">Partner success lead, Alliance AI Partners</td>
+  </tr>
+  <tr>
+    <td style="padding: 12px 0 0;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; font-family: Helvetica, Arial, sans-serif; font-size: 13px; line-height: 21px; color: #121B2A;">
+        <tr>
+          <td width="20" valign="top" style="width: 20px; padding: 0; color: #60697A;">M</td>
+          <td valign="top" style="padding: 0;"><a href="tel:+12025550147" style="color: #121B2A; text-decoration: none;">+1 202 555 0147</a></td>
+        </tr>
+        <tr>
+          <td width="20" valign="top" style="width: 20px; padding: 0; color: #60697A;">E</td>
+          <td valign="top" style="padding: 0;"><a href="mailto:isabel.navarro@allianceaipartners.example" style="color: #121B2A; text-decoration: none;">isabel.navarro@allianceaipartners.example</a></td>
+        </tr>
+        <tr>
+          <td width="20" valign="top" style="width: 20px; padding: 0; color: #60697A;">W</td>
+          <td valign="top" style="padding: 0;"><a href="https://allianceaipartners.example" style="color: #121B2A; text-decoration: none;">allianceaipartners.example</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 16px 0 0;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+        <tr>
+          <td width="256" height="3" style="width: 256px; height: 3px; padding: 0; font-size: 0; line-height: 3px; mso-line-height-rule: exactly; background-color: #1B56FF; background-image: linear-gradient(90deg, #121B2A 0%, #1B56FF 54%, #00D5FF 100%);">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px 0 0;">
+      <a href="https://allianceaipartners.example" style="text-decoration: none;"><img src="assets/email-signature-logo-tile.png" width="256" height="88" alt="Alliance AI Partners" style="display: block; width: 256px; height: 88px; border: 0; outline: none;"></a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 12px 0 0; font-size: 14px; line-height: 20px; font-weight: bold; color: #121B2A;">Partners in AI. Partners in growth.</td>
+  </tr>
+  <tr>
+    <td style="padding: 4px 0 0; font-size: 13px; line-height: 20px;">
+      <a href="https://allianceaipartners.example" style="color: #1B56FF; text-decoration: underline; font-weight: bold;">See where AI can help</a>
+    </td>
+  </tr>
+</table>
+<!-- signature end -->
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+{
+  "buildPath": "comp",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "mona sans",
+        "createdAt": "2026-11-02T03:29:42.514Z",
+        "reason": "User confirmed: asked us to choose the fonts and approved downloading Mona Sans; its width axis echoes the wide wordmark (design-system/fonts/FONTS.md)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          "brand-kit/templates/email-signature.html"
+        ],
+        "createdAt": "2026-11-02T03:29:42.911Z",
+        "reason": "Agent: email signatures need the email-safe Helvetica and Arial stack because email clients do not load web fonts (brand-kit/templates/README.md)"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          "brand-kit/templates/email-signature.html"
+        ],
+        "createdAt": "2026-11-02T03:29:43.331Z",
+        "reason": "Agent: email-safe Helvetica and Arial stack by necessity; DESIGN.md's type describes the web"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "*",
+        "files": [
+          "brand-kit/templates/linkedin-banner.html",
+          "brand-kit/templates/og-image.html",
+          "brand-kit/templates/presentation-cover.html",
+          "brand-kit/templates/social-square.html",
+          "brand-kit/templates/social-story.html"
+        ],
+        "createdAt": "2026-11-02T03:29:43.750Z",
+        "reason": "Agent: fixed-size artboards (1200x630 to 1080x1920) set type at canvas scale, not on the web type ramp"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "*",
+        "files": [
+          "brand-kit/templates/social-story.html"
+        ],
+        "createdAt": "2026-11-02T03:29:44.144Z",
+        "reason": "Agent: 1080x1920 artboard drawn at 2.2x the web scale; its 22px button radius is md (10px) at that scale"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "brand-kit/index.html",
+          "brand-kit/templates/linkedin-banner.html",
+          "brand-kit/templates/og-image.html",
+          "brand-kit/templates/presentation-cover.html",
+          "brand-kit/templates/social-square.html",
+          "brand-kit/templates/social-story.html",
+          "design-system/specimen.html"
+        ],
+        "createdAt": "2026-11-02T03:29:44.516Z",
+        "reason": "Agent: full-bleed artboards and sections whose content is inset by the container (32px minimum) or the artboards' 56px margins; the specimen headings sit 48px below their rule; the clear-space diagram's boundary is its subject"
+      },
+      {
+        "rule": "marketing-buzzword",
+        "value": "*",
+        "files": [
+          "brand-kit/index.html"
+        ],
+        "createdAt": "2026-11-02T03:29:44.866Z",
+        "reason": "Agent: documentation of bad copy; the voice section's 'Words we never use' list and 'Instead of' table quote banned phrases on purpose"
+      },
+      {
+        "rule": "oversized-h1",
+        "value": "*",
+        "files": [
+          "brand-kit/templates/presentation-cover.html"
+        ],
+        "createdAt": "2026-11-02T03:29:45.192Z",
+        "reason": "Agent: the title of a 1920x1080 slide cover, meant to be read across a room"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          "brand-kit/emails/*.html"
+        ],
+        "createdAt": "2026-11-02T03:31:48.556Z",
+        "reason": "Agent: email clients do not reliably load web fonts, so each email falls back to Helvetica and Arial, with an Arial rule for Outlook (brand-kit/emails/README.md)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "*",
+        "files": [
+          "brand-kit/emails/*.html"
+        ],
+        "createdAt": "2026-11-02T03:31:48.970Z",
+        "reason": "Agent: emails need fixed pixel sizes (no clamp in email clients); the email scale is H1 30/36 (26/32 on phones), and 1px is the hidden preheader (brand-kit/emails/README.md)"
+      }
+    ]
+  }
+}

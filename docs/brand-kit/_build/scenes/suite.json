@@ -1,0 +1,2764 @@
+{
+ "out": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\01_Master-Logo-Suite\\AAP_Master-Logo-Suite.ai",
+ "components": {
+  "ap-hero": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-hero.svg",
+  "ap-hero-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-hero-dark.svg",
+  "ap-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-mono.svg",
+  "ap-micro": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-micro.svg",
+  "ap-micro16": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-micro16.svg"
+ },
+ "artboards": [
+  {
+   "name": "01-Primary-Horizontal_FullColor-Light",
+   "rect": [
+    -4554,
+    -2123,
+    1139,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero",
+     "x": -4588.210649246964,
+     "y": -2243.324875396466,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 104.47200000000001,
+     "tracking": 6,
+     "x": -4034.51196002656,
+     "baseline": -1937.671355859776,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 77.78985120000002,
+     "tracking": 8,
+     "x": -4034.7519600265596,
+     "baseline": -1857.1940652602239,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "01-Primary-Horizontal_FullColor-Dark",
+   "rect": [
+    -3319,
+    -2123,
+    1139,
+    378
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -3353.210649246964,
+     "y": -2243.324875396466,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 104.47200000000001,
+     "tracking": 6,
+     "x": -2799.51196002656,
+     "baseline": -1937.671355859776,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 77.78985120000002,
+     "tracking": 8,
+     "x": -2799.7519600265596,
+     "baseline": -1857.1940652602239,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "01-Primary-Horizontal_Mono-Black",
+   "rect": [
+    -2084,
+    -2123,
+    1139,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -2118.210649246964,
+     "y": -2243.324875396466,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Black"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 104.47200000000001,
+     "tracking": 6,
+     "x": -1564.5119600265598,
+     "baseline": -1937.671355859776,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 77.78985120000002,
+     "tracking": 8,
+     "x": -1564.7519600265596,
+     "baseline": -1857.1940652602239,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "01-Primary-Horizontal_Mono-White",
+   "rect": [
+    -849,
+    -2123,
+    1139,
+    378
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -883.2106492469638,
+     "y": -2243.324875396466,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Pure White"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 104.47200000000001,
+     "tracking": 6,
+     "x": -329.5119600265598,
+     "baseline": -1937.671355859776,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 77.78985120000002,
+     "tracking": 8,
+     "x": -329.7519600265596,
+     "baseline": -1857.1940652602239,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "01-Primary-Horizontal_Flat-Light",
+   "rect": [
+    386,
+    -2123,
+    1139,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": 351.78935075303616,
+     "y": -2243.324875396466,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Alliance Blue"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 104.47200000000001,
+     "tracking": 6,
+     "x": 905.4880399734402,
+     "baseline": -1937.671355859776,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 77.78985120000002,
+     "tracking": 8,
+     "x": 905.2480399734404,
+     "baseline": -1857.1940652602239,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "01-Primary-Horizontal_Flat-Dark",
+   "rect": [
+    1621,
+    -2123,
+    1139,
+    378
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": 1586.7893507530362,
+     "y": -2243.324875396466,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Ribbon Cyan"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 104.47200000000001,
+     "tracking": 6,
+     "x": 2140.48803997344,
+     "baseline": -1937.671355859776,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 77.78985120000002,
+     "tracking": 8,
+     "x": 2140.2480399734404,
+     "baseline": -1857.1940652602239,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "02-Secondary-Stacked_FullColor-Light",
+   "rect": [
+    -4554,
+    -1649,
+    771,
+    453
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero",
+     "x": -4478.048406585108,
+     "y": -1768.9749430961779,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -4484.6165,
+     "baseline": -1265.349932300288,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "02-Secondary-Stacked_FullColor-Dark",
+   "rect": [
+    -3687,
+    -1649,
+    771,
+    453
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -3611.048406585108,
+     "y": -1768.9749430961779,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -3617.6165,
+     "baseline": -1265.349932300288,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "02-Secondary-Stacked_Mono-Black",
+   "rect": [
+    -2820,
+    -1649,
+    771,
+    453
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -2744.048406585108,
+     "y": -1768.9749430961779,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Black"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -2750.6165,
+     "baseline": -1265.349932300288,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "02-Secondary-Stacked_Mono-White",
+   "rect": [
+    -1953,
+    -1649,
+    771,
+    453
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -1877.0484065851078,
+     "y": -1768.9749430961779,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Pure White"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -1883.6165,
+     "baseline": -1265.349932300288,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "02-Secondary-Stacked_Flat-Light",
+   "rect": [
+    -1086,
+    -1649,
+    771,
+    453
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -1010.0484065851078,
+     "y": -1768.9749430961779,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Alliance Blue"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -1016.6165000000001,
+     "baseline": -1265.349932300288,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "02-Secondary-Stacked_Flat-Dark",
+   "rect": [
+    -219,
+    -1649,
+    771,
+    453
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -143.04840658510784,
+     "y": -1768.9749430961779,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Ribbon Cyan"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -149.6165000000001,
+     "baseline": -1265.349932300288,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "03-Logomark_FullColor-Light",
+   "rect": [
+    -4554,
+    -1100,
+    550,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero",
+     "x": -4588.548406585108,
+     "y": -1220.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "03-Logomark_FullColor-Dark",
+   "rect": [
+    -3908,
+    -1100,
+    550,
+    378
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -3942.548406585108,
+     "y": -1220.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "03-Logomark_Mono-Black",
+   "rect": [
+    -3262,
+    -1100,
+    550,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -3296.548406585108,
+     "y": -1220.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Black"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "03-Logomark_Mono-White",
+   "rect": [
+    -2616,
+    -1100,
+    550,
+    378
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -2650.548406585108,
+     "y": -1220.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Pure White"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "03-Logomark_Flat-Light",
+   "rect": [
+    -1970,
+    -1100,
+    550,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -2004.5484065851078,
+     "y": -1220.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Alliance Blue"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "03-Logomark_Flat-Dark",
+   "rect": [
+    -1324,
+    -1100,
+    550,
+    378
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -1358.5484065851078,
+     "y": -1220.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Ribbon Cyan"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "04-Wordmark_FullColor-Light",
+   "rect": [
+    -4554,
+    -626,
+    1438,
+    276
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 100,
+     "tracking": -11,
+     "x": -4451.6435,
+     "baseline": -452.99800000000005,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "04-Wordmark_FullColor-Dark",
+   "rect": [
+    -3020,
+    -626,
+    1438,
+    276
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 100,
+     "tracking": -11,
+     "x": -2917.6435,
+     "baseline": -452.99800000000005,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "04-Wordmark_Mono-Black",
+   "rect": [
+    -1486,
+    -626,
+    1438,
+    276
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 100,
+     "tracking": -11,
+     "x": -1383.6435000000001,
+     "baseline": -452.99800000000005,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "04-Wordmark_Mono-White",
+   "rect": [
+    48,
+    -626,
+    1438,
+    276
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 100,
+     "tracking": -11,
+     "x": 150.35649999999987,
+     "baseline": -452.99800000000005,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "04-Wordmark_Flat-Light",
+   "rect": [
+    1582,
+    -626,
+    1438,
+    276
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 100,
+     "tracking": -11,
+     "x": 1684.3564999999999,
+     "baseline": -452.99800000000005,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "04-Wordmark_Flat-Dark",
+   "rect": [
+    3116,
+    -626,
+    1438,
+    276
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 100,
+     "tracking": -11,
+     "x": 3218.3565,
+     "baseline": -452.99800000000005,
+     "align": "left",
+     "name": "wordmark"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "05-Favicon-32_FullColor-Light",
+   "rect": [
+    -4554,
+    -254,
+    32,
+    32
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-micro",
+     "x": -4560.168202184967,
+     "y": -260.41051200724974,
+     "scale": 0.042793132960781355,
+     "name": "AAP micro-mark",
+     "recolor": "AAP Alliance Blue"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "05-Favicon-32_FullColor-Dark",
+   "rect": [
+    -4426,
+    -254,
+    32,
+    32
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-micro",
+     "x": -4432.168202184967,
+     "y": -260.41051200724974,
+     "scale": 0.042793132960781355,
+     "name": "AAP micro-mark",
+     "recolor": "AAP Ribbon Cyan"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "05-Favicon-32_Mono-Black",
+   "rect": [
+    -4298,
+    -254,
+    32,
+    32
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-micro",
+     "x": -4304.168202184967,
+     "y": -260.41051200724974,
+     "scale": 0.042793132960781355,
+     "name": "AAP micro-mark",
+     "recolor": "AAP Black"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "05-Favicon-32_Mono-White",
+   "rect": [
+    -4170,
+    -254,
+    32,
+    32
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-micro",
+     "x": -4176.168202184967,
+     "y": -260.41051200724974,
+     "scale": 0.042793132960781355,
+     "name": "AAP micro-mark",
+     "recolor": "AAP Pure White"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "06-Favicon-16_FullColor-Light",
+   "rect": [
+    -4554,
+    -126,
+    16,
+    16
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-micro16",
+     "x": -4554.0,
+     "y": -126.0,
+     "scale": 1.0,
+     "name": "AAP micro-mark 16 px",
+     "recolor": "AAP Alliance Blue"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "06-Favicon-16_FullColor-Dark",
+   "rect": [
+    -4442,
+    -126,
+    16,
+    16
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-micro16",
+     "x": -4442.0,
+     "y": -126.0,
+     "scale": 1.0,
+     "name": "AAP micro-mark 16 px",
+     "recolor": "AAP Ribbon Cyan"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "06-Favicon-16_Mono-Black",
+   "rect": [
+    -4330,
+    -126,
+    16,
+    16
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-micro16",
+     "x": -4330.0,
+     "y": -126.0,
+     "scale": 1.0,
+     "name": "AAP micro-mark 16 px",
+     "recolor": "AAP Black"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "06-Favicon-16_Mono-White",
+   "rect": [
+    -4218,
+    -126,
+    16,
+    16
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-micro16",
+     "x": -4218.0,
+     "y": -126.0,
+     "scale": 1.0,
+     "name": "AAP micro-mark 16 px",
+     "recolor": "AAP Pure White"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "07-Horizontal-Tagline_FullColor-Light",
+   "rect": [
+    -4554,
+    -14,
+    1425,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero",
+     "x": -4588.444599909908,
+     "y": -134.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": -4036.8540093636157,
+     "baseline": 170.565514295296,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 41.2293888,
+     "tracking": 24,
+     "x": -4042.1670093636158,
+     "baseline": 227.01480442470393,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "07-Horizontal-Tagline_FullColor-Dark",
+   "rect": [
+    -3033,
+    -14,
+    1425,
+    378
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -3067.444599909908,
+     "y": -134.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": -2515.8540093636157,
+     "baseline": 170.565514295296,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 41.2293888,
+     "tracking": 24,
+     "x": -2521.1670093636158,
+     "baseline": 227.01480442470393,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "07-Horizontal-Tagline_Mono-Black",
+   "rect": [
+    -1512,
+    -14,
+    1425,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -1546.444599909908,
+     "y": -134.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Black"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": -994.8540093636157,
+     "baseline": 170.565514295296,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 41.2293888,
+     "tracking": 24,
+     "x": -1000.1670093636158,
+     "baseline": 227.01480442470393,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "07-Horizontal-Tagline_Mono-White",
+   "rect": [
+    9,
+    -14,
+    1425,
+    378
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -25.444599909907993,
+     "y": -134.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Pure White"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": 526.1459906363843,
+     "baseline": 170.565514295296,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 41.2293888,
+     "tracking": 24,
+     "x": 520.8329906363842,
+     "baseline": 227.01480442470393,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "07-Horizontal-Tagline_Flat-Light",
+   "rect": [
+    1530,
+    -14,
+    1425,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": 1495.555400090092,
+     "y": -134.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Alliance Blue"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": 2047.1459906363843,
+     "baseline": 170.565514295296,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 41.2293888,
+     "tracking": 24,
+     "x": 2041.8329906363842,
+     "baseline": 227.01480442470393,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "07-Horizontal-Tagline_Flat-Dark",
+   "rect": [
+    3051,
+    -14,
+    1425,
+    378
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": 3016.555400090092,
+     "y": -134.3248753964658,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Ribbon Cyan"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": 3568.1459906363843,
+     "baseline": 170.565514295296,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 41.2293888,
+     "tracking": 24,
+     "x": 3562.8329906363842,
+     "baseline": 227.01480442470393,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "08-Horizontal-Descriptor_FullColor-Light",
+   "rect": [
+    -4554,
+    460,
+    1425,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero",
+     "x": -4588.460099909908,
+     "y": 339.6751246035342,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": -4036.8695093636156,
+     "baseline": 623.420820656128,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "rect",
+     "x": -4037.4815093636157,
+     "y": 652.3163482147838,
+     "w": 839.4639999999999,
+     "h": 6.8991462144,
+     "fill": "AAP Ribbon Cyan",
+     "name": "rule"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ENTERPRISE AI CONSULTING",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 50.7924864,
+     "tracking": 82,
+     "x": -4042.814509363616,
+     "baseline": 722.159498063872,
+     "align": "left",
+     "name": "descriptor"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "08-Horizontal-Descriptor_FullColor-Dark",
+   "rect": [
+    -3033,
+    460,
+    1425,
+    378
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -3067.460099909908,
+     "y": 339.6751246035342,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": -2515.8695093636156,
+     "baseline": 623.420820656128,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "rect",
+     "x": -2516.4815093636157,
+     "y": 652.3163482147838,
+     "w": 839.4639999999999,
+     "h": 6.8991462144,
+     "fill": "AAP Ribbon Cyan",
+     "name": "rule"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ENTERPRISE AI CONSULTING",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 50.7924864,
+     "tracking": 82,
+     "x": -2521.814509363616,
+     "baseline": 722.159498063872,
+     "align": "left",
+     "name": "descriptor"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "08-Horizontal-Descriptor_Mono-Black",
+   "rect": [
+    -1512,
+    460,
+    1425,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -1546.460099909908,
+     "y": 339.6751246035342,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Black"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": -994.8695093636156,
+     "baseline": 623.420820656128,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "rect",
+     "x": -995.4815093636157,
+     "y": 652.3163482147838,
+     "w": 839.4639999999999,
+     "h": 6.8991462144,
+     "fill": "AAP Black",
+     "name": "rule"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ENTERPRISE AI CONSULTING",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 50.7924864,
+     "tracking": 82,
+     "x": -1000.8145093636158,
+     "baseline": 722.159498063872,
+     "align": "left",
+     "name": "descriptor"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "08-Horizontal-Descriptor_Mono-White",
+   "rect": [
+    9,
+    460,
+    1425,
+    378
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -25.460099909908422,
+     "y": 339.6751246035342,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Pure White"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": 526.1304906363839,
+     "baseline": 623.420820656128,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "rect",
+     "x": 525.5184906363847,
+     "y": 652.3163482147838,
+     "w": 839.4639999999999,
+     "h": 6.8991462144,
+     "fill": "AAP Pure White",
+     "name": "rule"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ENTERPRISE AI CONSULTING",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 50.7924864,
+     "tracking": 82,
+     "x": 520.1854906363842,
+     "baseline": 722.159498063872,
+     "align": "left",
+     "name": "descriptor"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "08-Horizontal-Descriptor_Flat-Light",
+   "rect": [
+    1530,
+    460,
+    1425,
+    378
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": 1495.5399000900916,
+     "y": 339.6751246035342,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Alliance Blue"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": 2047.130490636384,
+     "baseline": 623.420820656128,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "rect",
+     "x": 2046.5184906363847,
+     "y": 652.3163482147838,
+     "w": 839.4639999999999,
+     "h": 6.8991462144,
+     "fill": "AAP Ribbon Cyan",
+     "name": "rule"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ENTERPRISE AI CONSULTING",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 50.7924864,
+     "tracking": 82,
+     "x": 2041.1854906363842,
+     "baseline": 722.159498063872,
+     "align": "left",
+     "name": "descriptor"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "08-Horizontal-Descriptor_Flat-Dark",
+   "rect": [
+    3051,
+    460,
+    1425,
+    378
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": 3016.5399000900916,
+     "y": 339.6751246035342,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Ribbon Cyan"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 67.968,
+     "tracking": -11,
+     "x": 3568.130490636384,
+     "baseline": 623.420820656128,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "rect",
+     "x": 3567.5184906363847,
+     "y": 652.3163482147838,
+     "w": 839.4639999999999,
+     "h": 6.8991462144,
+     "fill": "AAP Ribbon Cyan",
+     "name": "rule"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ENTERPRISE AI CONSULTING",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 50.7924864,
+     "tracking": 82,
+     "x": 3562.185490636384,
+     "baseline": 722.159498063872,
+     "align": "left",
+     "name": "descriptor"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "09-Stacked-Tagline_FullColor-Light",
+   "rect": [
+    -4554,
+    934,
+    771,
+    498
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero",
+     "x": -4478.048406585108,
+     "y": 813.5934114177421,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -4484.6165,
+     "baseline": 1317.218422213632,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 30.112473600000005,
+     "tracking": 24,
+     "x": -4435.684,
+     "baseline": 1357.0887131857921,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "09-Stacked-Tagline_FullColor-Dark",
+   "rect": [
+    -3687,
+    934,
+    771,
+    498
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -3611.048406585108,
+     "y": 813.5934114177421,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -3617.6165,
+     "baseline": 1317.218422213632,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 30.112473600000005,
+     "tracking": 24,
+     "x": -3568.684,
+     "baseline": 1357.0887131857921,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "09-Stacked-Tagline_Mono-Black",
+   "rect": [
+    -2820,
+    934,
+    771,
+    498
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -2744.048406585108,
+     "y": 813.5934114177421,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Black"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -2750.6165,
+     "baseline": 1317.218422213632,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 30.112473600000005,
+     "tracking": 24,
+     "x": -2701.684,
+     "baseline": 1357.0887131857921,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "09-Stacked-Tagline_Mono-White",
+   "rect": [
+    -1953,
+    934,
+    771,
+    498
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -1877.0484065851078,
+     "y": 813.5934114177421,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Pure White"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -1883.6165,
+     "baseline": 1317.218422213632,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 30.112473600000005,
+     "tracking": 24,
+     "x": -1834.6840000000002,
+     "baseline": 1357.0887131857921,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "09-Stacked-Tagline_Flat-Light",
+   "rect": [
+    -1086,
+    934,
+    771,
+    498
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -1010.0484065851078,
+     "y": 813.5934114177421,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Alliance Blue"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -1016.6165000000001,
+     "baseline": 1317.218422213632,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 30.112473600000005,
+     "tracking": 24,
+     "x": -967.6840000000002,
+     "baseline": 1357.0887131857921,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "09-Stacked-Tagline_Flat-Dark",
+   "rect": [
+    -219,
+    934,
+    771,
+    498
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -143.04840658510784,
+     "y": 813.5934114177421,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Ribbon Cyan"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      },
+      {
+       "text": " PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 51.264,
+     "tracking": -11,
+     "x": -149.6165000000001,
+     "baseline": 1317.218422213632,
+     "align": "left",
+     "name": "wordmark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partners in AI. Partners in growth.",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Regular",
+     "size": 30.112473600000005,
+     "tracking": 24,
+     "x": -100.6840000000002,
+     "baseline": 1357.0887131857921,
+     "align": "left",
+     "name": "tagline"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "10-Stacked-TwoLine_FullColor-Light",
+   "rect": [
+    -4554,
+    1528,
+    795,
+    595
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero",
+     "x": -4466.048406585108,
+     "y": 1407.9857024475268,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -4484.058,
+     "baseline": 1955.5593806533998,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -4440.6055,
+     "baseline": 2053.689422156007,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "10-Stacked-TwoLine_FullColor-Dark",
+   "rect": [
+    -3663,
+    1528,
+    795,
+    595
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -3575.048406585108,
+     "y": 1407.9857024475268,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -3593.058,
+     "baseline": 1955.5593806533998,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -3549.6055,
+     "baseline": 2053.689422156007,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "10-Stacked-TwoLine_Mono-Black",
+   "rect": [
+    -2772,
+    1528,
+    795,
+    595
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -2684.048406585108,
+     "y": 1407.9857024475268,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Black"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Black"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -2702.058,
+     "baseline": 1955.5593806533998,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "PARTNERS",
+       "swatch": "AAP Black"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -2658.6054999999997,
+     "baseline": 2053.689422156007,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "10-Stacked-TwoLine_Mono-White",
+   "rect": [
+    -1881,
+    1528,
+    795,
+    595
+   ],
+   "bg": "AAP Alliance Blue",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -1793.0484065851078,
+     "y": 1407.9857024475268,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Pure White"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -1811.058,
+     "baseline": 1955.5593806533998,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -1767.6055000000001,
+     "baseline": 2053.689422156007,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "10-Stacked-TwoLine_Flat-Light",
+   "rect": [
+    -990,
+    1528,
+    795,
+    595
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -902.0484065851078,
+     "y": 1407.9857024475268,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Alliance Blue"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Partner Navy"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Alliance Blue"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -920.058,
+     "baseline": 1955.5593806533998,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "PARTNERS",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -876.6055000000001,
+     "baseline": 2053.689422156007,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  },
+  {
+   "name": "10-Stacked-TwoLine_Flat-Dark",
+   "rect": [
+    -99,
+    1528,
+    795,
+    595
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "ap-mono",
+     "x": -11.048406585107841,
+     "y": 1407.9857024475268,
+     "scale": 0.6041383476816191,
+     "name": "AAP mark",
+     "recolor": "AAP Ribbon Cyan"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "ALLIANCE ",
+       "swatch": "AAP Pure White"
+      },
+      {
+       "text": "AI",
+       "swatch": "AAP Ribbon Cyan"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": -29.057999999999993,
+     "baseline": 1955.5593806533998,
+     "align": "left",
+     "name": "wordmark line 1"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "PARTNERS",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 98.42588060019156,
+     "tracking": 10,
+     "x": 14.394500000000335,
+     "baseline": 2053.689422156007,
+     "align": "left",
+     "name": "wordmark line 2"
+    }
+   ],
+   "group": true
+  }
+ ],
+ "swatches": [
+  {
+   "group": "AAP Core",
+   "colors": [
+    {
+     "name": "AAP Alliance Blue",
+     "hex": "#1B56FF"
+    },
+    {
+     "name": "AAP Ribbon Cyan",
+     "hex": "#00D5FF"
+    },
+    {
+     "name": "AAP Partner Navy",
+     "hex": "#121B2A"
+    },
+    {
+     "name": "AAP Pure White",
+     "hex": "#FFFFFF"
+    },
+    {
+     "name": "AAP Daylight",
+     "hex": "#F4F7FB"
+    },
+    {
+     "name": "AAP Black",
+     "hex": "#000000"
+    }
+   ]
+  },
+  {
+   "group": "AAP Mark Shading",
+   "colors": [
+    {
+     "name": "AAP Partner 30",
+     "hex": "#1A2D4E"
+    },
+    {
+     "name": "AAP Partner 38",
+     "hex": "#2E4265"
+    },
+    {
+     "name": "AAP Partner 46",
+     "hex": "#42587C"
+    },
+    {
+     "name": "AAP Partner 50",
+     "hex": "#4D6388"
+    },
+    {
+     "name": "AAP Alliance 38",
+     "hex": "#243F7B"
+    },
+    {
+     "name": "AAP Alliance 46",
+     "hex": "#244EB6"
+    },
+    {
+     "name": "AAP Alliance 50",
+     "hex": "#2153D8"
+    },
+    {
+     "name": "AAP Ribbon 57",
+     "hex": "#006DF5"
+    }
+   ]
+  }
+ ],
+ "exports": [
+  {
+   "type": "png",
+   "folder": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\01_Master-Logo-Suite\\PNG",
+   "scale": 2,
+   "transparent": true,
+   "prefix": "AAP_",
+   "artboards": "1-24,33-56"
+  },
+  {
+   "type": "png",
+   "folder": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\01_Master-Logo-Suite\\PNG-Favicon",
+   "scale": 1,
+   "transparent": true,
+   "prefix": "AAP_",
+   "artboards": "25-32"
+  },
+  {
+   "type": "svg",
+   "folder": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\01_Master-Logo-Suite\\SVG",
+   "transparent": true,
+   "prefix": "AAP_",
+   "artboards": "1-56"
+  }
+ ],
+ "inventory": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\verify\\suite.inventory.json"
+}

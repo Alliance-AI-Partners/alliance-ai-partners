@@ -42,6 +42,20 @@ Each track folder also has:
 - **Recraft (track 3):** Backstage and Joinery are the strongest. Recraft treats the palette as a hint (Counterpart came out pure red, not seal red), and its SVGs are kept exactly as made.
 - **Wordmarks on the boards:** Joinery's ALLIANCE is Archivo Bold widened to 120%, standing in for the extra-wide cut.
 
+## Concept 1: Nano Banana Pro vs Nano Banana 2.1
+
+`concept-01-the-structural-keystone/` has all 12 logo types from [Concept 1: The Structural Keystone](../logo-concepts/concept_01_the_structural_keystone.md), made twice to compare two Gemini models: Nano Banana Pro (`gemini-3-pro-image`) and Nano Banana 2.1 (`gemini-nano-banana-2.1`). Each model got every type's prompt exactly as written in the concept's table, at 2K, square except the Wordmark, Combination Mark and Animated storyboard at 16:9.
+
+- `nano-banana-pro/` and `nano-banana-2.1/`: one PNG per type, named `concept-01__<number>-<type>__<model>.png`, and each model's `prompts.md`.
+- `compare-01-04.png`, `compare-05-08.png`, `compare-09-12.png`: the two models side by side, four types per sheet.
+
+First look, close to a draw:
+
+- **Nano Banana Pro** won the architectural ones: the Line Drawing's arched portal, the Wordmark's true keystone cuts in both A's, the crisp Pictorial arch and a clean Emblem (which repeats the name in both arcs).
+- **Nano Banana 2.1** won on legibility and system rules: the AAP Monogram, the Letterform that reads as an A, the faceted eagle-owl Mascot, the Combination Mark's type hierarchy and the Dynamic grid where only the keystone changes.
+- **Even:** Abstract, Animated and 3D. Every name and label in all 24 images is spelled right, and both models took about 25 seconds per image.
+- **Fix before use:** 2.1's Emblem has four-point sparkle ornaments, which the brief bans, and its Animated sheet labels timings of 0 to 3.0 s instead of the concept's 1,100 ms.
+
 ## Rebuilding
 
 From `_source/`, with a Python that has `google-genai` and `Pillow`. Keys come from the repo's `.env`.
@@ -51,6 +65,7 @@ python generate_logos.py logocreator           # or muapi, recraft, nanobanana; 
 python generate_logos.py refine <image> <rank>
 python generate_logos.py trace <image> <rank>
 python generate_logos.py board <track>         # muapi, logocreator, recraft or nanobanana
+python generate_logos.py concept 1             # both models, then the compare sheets; a rerun only fills missing images
 ```
 
 `_source/directions.json` holds the one brief per direction that every tool received, and `_source/build_board.jsx` lays out the Illustrator boards. The script never stores the keys.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-machine-learning-mono" width="48" height="48" viewBox="0 0 48 48">
+  <line id="icon-machine-learning-mono-edge-in-1" x1="11.516" y1="21.567" x2="21.484" y2="11.933" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line id="icon-machine-learning-mono-edge-in-2" x1="12.5" y1="24" x2="20.5" y2="24" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line id="icon-machine-learning-mono-edge-in-3" x1="11.516" y1="26.433" x2="21.484" y2="36.067" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line id="icon-machine-learning-mono-edge-out-1" x1="26.516" y1="11.933" x2="36.484" y2="21.567" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line id="icon-machine-learning-mono-edge-out-2" x1="27.5" y1="24" x2="35.5" y2="24" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line id="icon-machine-learning-mono-edge-out-3" x1="26.516" y1="36.067" x2="36.484" y2="26.433" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle id="icon-machine-learning-mono-node-input" cx="9" cy="24" r="3.5" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle id="icon-machine-learning-mono-node-hidden-1" cx="24" cy="9.5" r="3.5" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle id="icon-machine-learning-mono-node-hidden-2" cx="24" cy="24" r="3.5" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle id="icon-machine-learning-mono-node-hidden-3" cx="24" cy="38.5" r="3.5" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle id="icon-machine-learning-mono-output" cx="39" cy="24" r="5" fill="#121B2A"/>
+</svg>

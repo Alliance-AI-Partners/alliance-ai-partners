@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Business card</title>
+<!--
+  Template: business card, 3.5 x 2 in (88.9 x 50.8 mm), front and back. Built in physical units.
+  Screen: both sides side by side, zoomed 1.5625x, so a capture at device scale 2 gives 1050 x 600 px per side (300 ppi).
+  Print: one side per page at 3.5 x 2 in with no zoom. Bleed, safe area and print colours are in README.md.
+  Front: primary horizontal lockup, full-colour dark, on Partner Navy, with the Daybreak ribbon rising into its cyan light.
+  Back: Daylight stands for the paper. The short Daybreak rule echoes the lockup's descriptor rule.
+  SAMPLE: Isabel Navarro is a fictional person. +1 202 555 0147 is in the 555-0100 to 555-0199 range reserved for
+  fictional use, and allianceaipartners.example is a placeholder domain. Replace all three before printing.
+-->
+<link rel="stylesheet" href="../../design-system/tokens/tokens.css">
+<style>
+  @page { size: 3.5in 2in; margin: 0; }
+  html { background: var(--aap-color-neutral-200); }
+  body { margin: 0; }
+  .sheet { display: flex; gap: 0.25in; width: max-content; }
+  @media screen { .sheet { zoom: 1.5625; } }
+  .card {
+    position: relative; width: 3.5in; height: 2in; overflow: hidden; box-sizing: border-box;
+    font-family: var(--aap-font-family-sans); font-size: 7.5pt; line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .card * { margin: 0; }
+
+  .front { background: var(--aap-color-brand-partner-navy); }
+  .front svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  /* Artboard 1139 units wide with 69-unit clear space: at 2.1 in the art starts 0.127 in inside the image.
+     Art is 1.85 in (47 mm) wide, above the 40 mm print minimum for horizontal lockups. */
+  .front img { position: absolute; left: 0.123in; top: 0.123in; width: 2.1in; height: auto; display: block; }
+
+  .back {
+    display: flex; flex-direction: column; padding: 0.25in;
+    background: var(--aap-color-brand-daylight); color: var(--aap-color-text-primary);
+  }
+  .back h1 {
+    font-weight: 620; font-stretch: var(--aap-typography-display-lg-stretch);
+    font-size: 12.5pt; line-height: 1.05; letter-spacing: -0.025em;
+  }
+  .back .role { margin-top: 0.05in; font-weight: 500; color: var(--aap-color-text-secondary); }
+  .back .org { color: var(--aap-color-text-tertiary); }
+  .back .rule { width: 0.62in; height: 0.026in; margin-top: 0.12in; border-radius: var(--aap-radius-pill); background: var(--aap-gradient-daybreak); }
+  .back dl {
+    margin-top: auto; display: grid; grid-template-columns: 0.15in 1fr; row-gap: 0.02in;
+    font-size: 7.5pt; line-height: 1.35;
+  }
+  .back dt { font-size: 7pt; font-weight: 500; color: var(--aap-color-text-tertiary); }
+  .back dd { color: var(--aap-color-text-primary); }
+  .back .mono { font-family: var(--aap-font-family-mono); font-size: 7pt; font-variant-numeric: tabular-nums; }
+
+  @media print {
+    html { background: none; }
+    .sheet { display: block; }
+    .card { break-after: page; }
+  }
+</style>
+</head>
+<body>
+  <div class="sheet" id="artefact">
+    <section class="card front" aria-label="Card front">
+      <svg viewBox="0 0 350 200" aria-hidden="true">
+        <defs>
+          <linearGradient id="bc-daybreak" gradientUnits="userSpaceOnUse" x1="0" y1="170" x2="350" y2="80">
+            <stop offset="0" style="stop-color: var(--aap-color-brand-partner-navy)"/>
+            <stop offset="0.54" style="stop-color: var(--aap-color-brand-alliance-blue)"/>
+            <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+          </linearGradient>
+          <linearGradient id="bc-light" gradientUnits="userSpaceOnUse" x1="0" y1="170" x2="350" y2="80">
+            <stop offset="0" style="stop-color: var(--aap-color-shading-alliance-38)"/>
+            <stop offset="0.5" style="stop-color: var(--aap-color-shading-ribbon-57)"/>
+            <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+          </linearGradient>
+          <path id="bc-path" d="M-20 174 C84 176 168 162 232 132 S318 88 372 78"/>
+        </defs>
+        <use href="#bc-path" fill="none" stroke="url(#bc-daybreak)" stroke-width="14"/>
+        <use href="#bc-path" fill="none" stroke="url(#bc-light)" stroke-width="4.2" transform="translate(0 -4.9)"/>
+      </svg>
+      <img src="../../design-system/logos/lockups/alliance-ai-partners-primary-horizontal-full-color-dark.svg" alt="Alliance AI Partners">
+    </section>
+    <section class="card back" aria-label="Card back">
+      <h1>Isabel Navarro</h1>
+      <p class="role">Partner success lead</p>
+      <p class="org">Alliance AI Partners</p>
+      <div class="rule" aria-hidden="true"></div>
+      <dl>
+        <dt>M</dt><dd class="mono">+1 202 555 0147</dd>
+        <dt>E</dt><dd>isabel.navarro@allianceaipartners.example</dd>
+        <dt>W</dt><dd>allianceaipartners.example</dd>
+      </dl>
+    </section>
+  </div>
+</body>
+</html>

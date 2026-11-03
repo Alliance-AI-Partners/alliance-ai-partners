@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920">
+<title>Proposal cover slide</title>
+<!--
+  Template: title slide for proposals, 1920 x 1080 px (16:9). Screen and PDF export.
+  Proposals open with what changes for the reader and carry a fixed quote (PRODUCT.md), so the title states the
+  reader's gain and the subtitle names the fixed quote. Edit the title per proposal; keep it to one sentence.
+  Partner Navy chapter with a Daylight band for the details. The Daybreak ribbon starts as Partner Navy on the
+  Daylight band and rises into its cyan light on the navy. Ribbon Cyan is the accent words; there is no button.
+  Placeholders in square brackets: never invent a partner name or a proposal number.
+  SAMPLE: Hannah Whitfield and Isabel Navarro are fictional.
+-->
+<link rel="stylesheet" href="../../design-system/tokens/tokens.css">
+<style>
+  html, body { margin: 0; background: var(--aap-color-neutral-200); }
+  .cover {
+    position: relative; width: 1920px; height: 1080px; overflow: hidden;
+    background: var(--aap-color-brand-partner-navy); color: var(--aap-color-text-inverse);
+    font-family: var(--aap-font-family-sans); -webkit-font-smoothing: antialiased;
+  }
+  .cover__band {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 200px;
+    background: var(--aap-color-brand-daylight); color: var(--aap-color-text-primary);
+  }
+  .cover__ribbon { position: absolute; inset: 0; width: 100%; height: 100%; }
+  /* Artboard 1139 units with 69-unit clear space: at 376 px the art is 330 px wide and the mark 79 px tall. */
+  .cover__logo { position: absolute; left: 89px; top: 73px; width: 376px; height: auto; display: block; }
+  h1 {
+    position: absolute; left: 112px; top: 262px; width: 1460px; margin: 0;
+    font-weight: var(--aap-typography-display-xl-weight); font-stretch: var(--aap-typography-display-xl-stretch);
+    font-size: 110px; line-height: 0.98; letter-spacing: var(--aap-typography-display-xl-tracking);
+    text-wrap: balance;
+  }
+  .accent { color: var(--aap-color-text-inverse-accent); }
+  .cover__sub {
+    position: absolute; left: 114px; top: 516px; width: 1080px; margin: 0;
+    font-size: 36px; line-height: 1.32; font-weight: 450; letter-spacing: -0.008em;
+    color: var(--aap-color-text-inverse-secondary); text-wrap: pretty;
+  }
+  .cover__meta {
+    position: absolute; z-index: 1; right: 112px; top: 50px; margin: 0;
+    display: grid; grid-template-columns: repeat(4, auto); column-gap: 64px;
+  }
+  .cover__meta dt { font-size: 18px; line-height: 1.3; font-weight: 500; letter-spacing: 0.012em; color: var(--aap-color-text-tertiary); }
+  .cover__meta dd { margin: 8px 0 0; font-size: 24px; line-height: 1.3; font-weight: 500; }
+  .cover__meta dd span { display: block; font-size: 20px; font-weight: 450; color: var(--aap-color-text-secondary); }
+  .cover__meta .mono { font-family: var(--aap-font-family-mono); font-size: 22px; font-weight: 450; }
+</style>
+</head>
+<body>
+  <div class="cover" id="artefact">
+    <div class="cover__band">
+      <dl class="cover__meta">
+        <div><dt>Prepared for</dt><dd>Hannah Whitfield<span>[Partner name]</span></dd></div>
+        <div><dt>Prepared by</dt><dd>Isabel Navarro<span>Partner success lead</span></dd></div>
+        <div><dt>Date</dt><dd class="mono">2 November 2026</dd></div>
+        <div><dt>Reference</dt><dd class="mono">[Proposal number]</dd></div>
+      </dl>
+    </div>
+    <svg class="cover__ribbon" viewBox="0 0 1920 1080" aria-hidden="true">
+      <defs>
+        <linearGradient id="pc-daybreak" gradientUnits="userSpaceOnUse" x1="0" y1="1000" x2="1920" y2="440">
+          <stop offset="0" style="stop-color: var(--aap-color-brand-partner-navy)"/>
+          <stop offset="0.54" style="stop-color: var(--aap-color-brand-alliance-blue)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <linearGradient id="pc-light" gradientUnits="userSpaceOnUse" x1="0" y1="1000" x2="1920" y2="440">
+          <stop offset="0" style="stop-color: var(--aap-color-shading-ribbon-57)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <path id="pc-path" d="M-60 1002 C300 1006 560 940 800 830 S1400 560 1980 520"/>
+      </defs>
+      <use href="#pc-path" fill="none" stroke="url(#pc-daybreak)" stroke-width="60"/>
+      <use href="#pc-path" fill="none" stroke="url(#pc-light)" stroke-width="18" transform="translate(0 -21)"/>
+    </svg>
+    <img class="cover__logo" src="../../design-system/logos/lockups/alliance-ai-partners-primary-horizontal-full-color-dark.svg" alt="Alliance AI Partners">
+    <h1>Where AI could save your team <span class="accent">time and money</span></h1>
+    <p class="cover__sub">A proposal for an AI check-up: what we will look at, what you get, and a fixed quote for the work.</p>
+  </div>
+</body>
+</html>

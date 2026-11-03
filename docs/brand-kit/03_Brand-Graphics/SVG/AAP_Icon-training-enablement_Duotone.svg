@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" id="icon-training-enablement-duotone-Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="icon-training-enablement-duotone-training-enablement">
+    <path id="icon-training-enablement-duotone-icon-training-enablement-cap" d="M12.5,21.5v9c0,3,5,6,11.5,6s11.5-3,11.5-6v-9" fill="none" stroke="#00d5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-training-enablement-duotone-icon-training-enablement-tassel" d="M39,19.8v13.7" fill="none" stroke="#1b56ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-training-enablement-duotone-icon-training-enablement-board" d="M24,11l18,7.5-18,7.5-18-7.5,18-7.5Z" fill="none" stroke="#1b56ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

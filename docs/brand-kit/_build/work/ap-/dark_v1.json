@@ -1,0 +1,334 @@
+{
+ "fills": {
+  "p-bowl-lower": {
+   "type": "linear",
+   "x1": 728.548,
+   "y1": 458.419,
+   "x2": 703.815,
+   "y2": 521.208,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#2195B8",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#405679",
+     "swatch": null
+    }
+   ]
+  },
+  "p-bowl-under": {
+   "type": "linear",
+   "x1": 721.333,
+   "y1": 500.62,
+   "x2": 745.953,
+   "y2": 572.123,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#01537A",
+     "swatch": null
+    },
+    {
+     "offset": 0.6154,
+     "hex": "#3F577A",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#405679",
+     "swatch": null
+    }
+   ]
+  },
+  "a-right-outer": {
+   "type": "linear",
+   "x1": 496.131,
+   "y1": 318.202,
+   "x2": 589.829,
+   "y2": 717.144,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#495973",
+     "swatch": null
+    },
+    {
+     "offset": 0.6923,
+     "hex": "#1A4C96",
+     "swatch": null
+    },
+    {
+     "offset": 0.8462,
+     "hex": "#1E66F5",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#2367EE",
+     "swatch": null
+    }
+   ]
+  },
+  "a-right-inner": {
+   "type": "linear",
+   "x1": 557.529,
+   "y1": 590.914,
+   "x2": 571.554,
+   "y2": 677.341,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#086092",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#3C5684",
+     "swatch": null
+    }
+   ]
+  },
+  "a-left-bevel": {
+   "type": "linear",
+   "x1": 393.538,
+   "y1": 312.626,
+   "x2": 327.984,
+   "y2": 721.166,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#2262E1",
+     "swatch": null
+    },
+    {
+     "offset": 0.3846,
+     "hex": "#194599",
+     "swatch": null
+    },
+    {
+     "offset": 0.8462,
+     "hex": "#2D549E",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#3F5678",
+     "swatch": null
+    }
+   ]
+  },
+  "a-left-outer": {
+   "type": "linear",
+   "x1": 418.318,
+   "y1": 346.751,
+   "x2": 134.581,
+   "y2": 649.791,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#1D64FA",
+     "swatch": null
+    },
+    {
+     "offset": 0.3846,
+     "hex": "#2065F7",
+     "swatch": null
+    },
+    {
+     "offset": 0.5385,
+     "hex": "#1D52B5",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#2A4A9B",
+     "swatch": null
+    }
+   ]
+  },
+  "p-bowl-top": {
+   "type": "linear",
+   "x1": 776.874,
+   "y1": 317.506,
+   "x2": 642.749,
+   "y2": 442.579,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#62EAF3",
+     "swatch": null
+    },
+    {
+     "offset": 0.2308,
+     "hex": "#16C8E6",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#225BAD",
+     "swatch": null
+    }
+   ]
+  },
+  "p-bowl-fold": {
+   "type": "linear",
+   "x1": 662.406,
+   "y1": 338.062,
+   "x2": 698.075,
+   "y2": 377.676,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#2359C6",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#1D7CED",
+     "swatch": null
+    }
+   ]
+  },
+  "ribbon-front-stem": {
+   "type": "linear",
+   "x1": 523.438,
+   "y1": 374.916,
+   "x2": 594.03,
+   "y2": 454.706,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#225CAE",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#1D7CC3",
+     "swatch": null
+    }
+   ]
+  },
+  "ribbon-front": {
+   "type": "linear",
+   "x1": 556.762,
+   "y1": 467.403,
+   "x2": 377.38,
+   "y2": 581.681,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#1E74BF",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#13D6EE",
+     "swatch": null
+    }
+   ]
+  },
+  "ribbon-back": {
+   "type": "linear",
+   "x1": 462.581,
+   "y1": 560.872,
+   "x2": 371.073,
+   "y2": 652.38,
+   "stops": [
+    {
+     "offset": 0.0,
+     "hex": "#0DE0F4",
+     "swatch": null
+    },
+    {
+     "offset": 1.0,
+     "hex": "#1A74C3",
+     "swatch": null
+    }
+   ]
+  }
+ },
+ "result": {
+  "transform": {
+   "scale": 0.6065,
+   "tx": 72.137,
+   "ty": 72.524,
+   "note": "p04 = scale * p_master + (tx, ty), pixel-centre convention"
+  },
+  "iou_04": 0.6788,
+  "de_mean_04": 4.95,
+  "de_p95_04": 21.05,
+  "de_mean_04_interior": 3.88,
+  "de_p95_04_interior": 14.22,
+  "faces": {
+   "p-bowl-lower": {
+    "K": 2,
+    "angle": 111.5,
+    "de_mean": 4.91,
+    "de_p95": 19.88
+   },
+   "p-bowl-under": {
+    "K": 3,
+    "angle": 71.0,
+    "de_mean": 0.64,
+    "de_p95": 1.02
+   },
+   "a-right-outer": {
+    "K": 4,
+    "angle": 76.78280045443906,
+    "de_mean": 1.51,
+    "de_p95": 3.57
+   },
+   "a-right-inner": {
+    "K": 2,
+    "angle": 80.78280045443906,
+    "de_mean": 3.06,
+    "de_p95": 6.58
+   },
+   "a-left-bevel": {
+    "K": 4,
+    "angle": 99.11585320141026,
+    "de_mean": 0.92,
+    "de_p95": 2.14
+   },
+   "a-left-outer": {
+    "K": 4,
+    "angle": 133.11585320141026,
+    "de_mean": 1.23,
+    "de_p95": 3.59
+   },
+   "p-bowl-top": {
+    "K": 3,
+    "angle": 137.0,
+    "de_mean": 4.59,
+    "de_p95": 10.6
+   },
+   "p-bowl-fold": {
+    "K": 2,
+    "angle": 48.0,
+    "de_mean": 3.1,
+    "de_p95": 8.65
+   },
+   "ribbon-front-stem": {
+    "K": 2,
+    "angle": 48.5,
+    "de_mean": 1.47,
+    "de_p95": 3.62
+   },
+   "ribbon-front": {
+    "K": 2,
+    "angle": 147.5,
+    "de_mean": 3.22,
+    "de_p95": 9.02
+   },
+   "ribbon-back": {
+    "K": 2,
+    "angle": 135.0,
+    "de_mean": 3.0,
+    "de_p95": 10.25
+   }
+  }
+ }
+}

@@ -1,0 +1,434 @@
+[
+ {
+  "artboard": "Icon-ai-strategy_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9949,
+  "within_1px": 1.0,
+  "de_mean": 0.14,
+  "de_p95": 1.25,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-machine-learning_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9917,
+  "within_1px": 1.0,
+  "de_mean": 0.17,
+  "de_p95": 1.13,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-automation_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9934,
+  "within_1px": 1.0,
+  "de_mean": 0.12,
+  "de_p95": 0.26,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-data-analytics_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9928,
+  "within_1px": 1.0,
+  "de_mean": 0.09,
+  "de_p95": 0.09,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-partnership_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9966,
+  "within_1px": 1.0,
+  "de_mean": 0.1,
+  "de_p95": 0.36,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-security-governance_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9928,
+  "within_1px": 1.0,
+  "de_mean": 0.1,
+  "de_p95": 0.09,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-growth_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9913,
+  "within_1px": 1.0,
+  "de_mean": 0.08,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-cloud-integration_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9951,
+  "within_1px": 1.0,
+  "de_mean": 0.1,
+  "de_p95": 0.26,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-advisory_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9957,
+  "within_1px": 1.0,
+  "de_mean": 0.09,
+  "de_p95": 0.23,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-training-enablement_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9911,
+  "within_1px": 1.0,
+  "de_mean": 0.08,
+  "de_p95": 0.23,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-research-insights_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9949,
+  "within_1px": 1.0,
+  "de_mean": 0.13,
+  "de_p95": 1.13,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-launch_Duotone",
+  "checked": true,
+  "alpha_iou": 0.9951,
+  "within_1px": 1.0,
+  "de_mean": 0.08,
+  "de_p95": 0.09,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-ai-strategy_Mono",
+  "checked": true,
+  "alpha_iou": 0.9949,
+  "within_1px": 1.0,
+  "de_mean": 0.22,
+  "de_p95": 2.11,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-machine-learning_Mono",
+  "checked": true,
+  "alpha_iou": 0.9917,
+  "within_1px": 1.0,
+  "de_mean": 0.19,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-automation_Mono",
+  "checked": true,
+  "alpha_iou": 0.9934,
+  "within_1px": 1.0,
+  "de_mean": 0.18,
+  "de_p95": 1.01,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-data-analytics_Mono",
+  "checked": true,
+  "alpha_iou": 0.9928,
+  "within_1px": 1.0,
+  "de_mean": 0.14,
+  "de_p95": 0.5,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-partnership_Mono",
+  "checked": true,
+  "alpha_iou": 0.9966,
+  "within_1px": 1.0,
+  "de_mean": 0.16,
+  "de_p95": 1.06,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-security-governance_Mono",
+  "checked": true,
+  "alpha_iou": 0.9928,
+  "within_1px": 1.0,
+  "de_mean": 0.15,
+  "de_p95": 0.5,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-growth_Mono",
+  "checked": true,
+  "alpha_iou": 0.9913,
+  "within_1px": 1.0,
+  "de_mean": 0.13,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-cloud-integration_Mono",
+  "checked": true,
+  "alpha_iou": 0.9951,
+  "within_1px": 1.0,
+  "de_mean": 0.16,
+  "de_p95": 0.73,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-advisory_Mono",
+  "checked": true,
+  "alpha_iou": 0.9957,
+  "within_1px": 1.0,
+  "de_mean": 0.15,
+  "de_p95": 0.73,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-training-enablement_Mono",
+  "checked": true,
+  "alpha_iou": 0.9911,
+  "within_1px": 1.0,
+  "de_mean": 0.11,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-research-insights_Mono",
+  "checked": true,
+  "alpha_iou": 0.9949,
+  "within_1px": 1.0,
+  "de_mean": 0.21,
+  "de_p95": 2.11,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-launch_Mono",
+  "checked": true,
+  "alpha_iou": 0.9951,
+  "within_1px": 1.0,
+  "de_mean": 0.13,
+  "de_p95": 0.5,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-ai-strategy_Dark",
+  "checked": true,
+  "alpha_iou": 0.9949,
+  "within_1px": 1.0,
+  "de_mean": 0.17,
+  "de_p95": 1.7,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-machine-learning_Dark",
+  "checked": true,
+  "alpha_iou": 0.9917,
+  "within_1px": 1.0,
+  "de_mean": 0.19,
+  "de_p95": 1.6,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-automation_Dark",
+  "checked": true,
+  "alpha_iou": 0.9934,
+  "within_1px": 1.0,
+  "de_mean": 0.14,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-data-analytics_Dark",
+  "checked": true,
+  "alpha_iou": 0.9928,
+  "within_1px": 1.0,
+  "de_mean": 0.11,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-partnership_Dark",
+  "checked": true,
+  "alpha_iou": 0.9966,
+  "within_1px": 1.0,
+  "de_mean": 0.11,
+  "de_p95": 0.37,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-security-governance_Dark",
+  "checked": true,
+  "alpha_iou": 0.9928,
+  "within_1px": 1.0,
+  "de_mean": 0.11,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-growth_Dark",
+  "checked": true,
+  "alpha_iou": 0.9913,
+  "within_1px": 1.0,
+  "de_mean": 0.09,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-cloud-integration_Dark",
+  "checked": true,
+  "alpha_iou": 0.9951,
+  "within_1px": 1.0,
+  "de_mean": 0.12,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-advisory_Dark",
+  "checked": true,
+  "alpha_iou": 0.9957,
+  "within_1px": 1.0,
+  "de_mean": 0.12,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-training-enablement_Dark",
+  "checked": true,
+  "alpha_iou": 0.9911,
+  "within_1px": 1.0,
+  "de_mean": 0.09,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-research-insights_Dark",
+  "checked": true,
+  "alpha_iou": 0.9949,
+  "within_1px": 1.0,
+  "de_mean": 0.16,
+  "de_p95": 1.6,
+  "size_px": [
+   192,
+   192
+  ]
+ },
+ {
+  "artboard": "Icon-launch_Dark",
+  "checked": true,
+  "alpha_iou": 0.9951,
+  "within_1px": 1.0,
+  "de_mean": 0.1,
+  "de_p95": 0.0,
+  "size_px": [
+   192,
+   192
+  ]
+ }
+]

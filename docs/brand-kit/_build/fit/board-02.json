@@ -1,0 +1,3977 @@
+{
+ "component": "board-02",
+ "source": "11d44af0-e70b-4d0f-ba3e-1fc0d871167b.jpeg",
+ "viewBox": [
+  0,
+  0,
+  1376,
+  768
+ ],
+ "svg": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\components\\board-02.svg",
+ "method": {
+  "text": "Montserrat outlines from kit.text_paths; style/size/tracking/x/baseline fitted per run by mask IoU (alpha = per-pixel unmix of bg->apparent ink), shared style+size inside obvious groups, then per-glyph manual kerning (Illustrator kerning, 1/1000 em, at the given character index).",
+  "iou": "binary IoU of alpha>=0.5 (original) vs coverage>=0.5 (exact raster of the fitted outlines) at 1x; iou_render uses the VectorCraft render of the SVG instead of the raster; iou_soft = sum(min)/sum(max).",
+  "colors": "large-glyph interiors / least squares through a JPEG 4:2:0 chroma model of the original (it is quality-100 4:2:0, so thin features lose chroma, not luma); snapped to the palette within dE2000 4."
+ },
+ "style_choice": {
+  "spec": {
+   "style": "SemiBold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "SemiBold": 0.9274,
+    "Bold": 0.8276,
+    "Medium": 0.8045
+   },
+   "mean_iou_soft": {
+    "SemiBold": 0.9157,
+    "Bold": 0.8215,
+    "Medium": 0.775
+   },
+   "size": 35.784301524880334
+  },
+  "labels": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9058,
+    "SemiBold": 0.88,
+    "ExtraBold": 0.819
+   },
+   "mean_iou_soft": {
+    "Bold": 0.8941,
+    "SemiBold": 0.857,
+    "ExtraBold": 0.799
+   },
+   "size": 19.29133728392137
+  },
+  "title": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9606,
+    "ExtraBold": 0.9082,
+    "SemiBold": 0.7947
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9311,
+    "ExtraBold": 0.9012,
+    "SemiBold": 0.7815
+   },
+   "size": 50.17322465432653
+  },
+  "hex": {
+   "style": "Regular",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Medium": 0.7488,
+    "Regular": 0.8176,
+    "SemiBold": 0.6405
+   },
+   "mean_iou_soft": {
+    "Medium": 0.8006,
+    "Regular": 0.8026,
+    "SemiBold": 0.6825
+   },
+   "size": 17.47553785347309
+  },
+  "names": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); binary alone prefers SemiBold, soft alone Bold",
+   "ink_area_ratio": {
+    "Bold": 1.041,
+    "SemiBold": 0.909
+   },
+   "mean_iou": {
+    "Bold": 0.8715,
+    "SemiBold": 0.883,
+    "ExtraBold": 0.7838
+   },
+   "mean_iou_soft": {
+    "Bold": 0.8744,
+    "SemiBold": 0.8598,
+    "ExtraBold": 0.7793
+   },
+   "size": 16.89732711300746
+  },
+  "hero-tagline": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); binary alone prefers Regular, soft alone Medium",
+   "ink_area_ratio": {
+    "Medium": 1.031,
+    "Regular": 0.832
+   },
+   "mean_iou": {
+    "Medium": 0.8484,
+    "SemiBold": 0.6871,
+    "Regular": 0.8553
+   },
+   "mean_iou_soft": {
+    "Medium": 0.8387,
+    "SemiBold": 0.7482,
+    "Regular": 0.7757
+   },
+   "size": 14.570879682750682
+  },
+  "subtitle": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Medium": 0.8825,
+    "SemiBold": 0.736,
+    "Bold": 0.6399
+   },
+   "mean_iou_soft": {
+    "Medium": 0.8854,
+    "SemiBold": 0.7482,
+    "Bold": 0.6336
+   },
+   "size": 26.190920378935104
+  },
+  "hero-wordmark": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.895,
+    "ExtraBold": 0.8254,
+    "SemiBold": 0.8432
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9311,
+    "ExtraBold": 0.8399,
+    "SemiBold": 0.8347
+   },
+   "size": 24.677166195411115
+  },
+  "horiz-line1": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9701,
+    "ExtraBold": 0.8493,
+    "SemiBold": 0.8626
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9384,
+    "ExtraBold": 0.8428,
+    "SemiBold": 0.8346
+   },
+   "size": 27.900475213487482
+  },
+  "horiz-line2": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9506,
+    "ExtraBold": 0.8723,
+    "SemiBold": 0.8865
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9287,
+    "ExtraBold": 0.8614,
+    "SemiBold": 0.8339
+   },
+   "size": 21.025294380765164
+  },
+  "headline": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9552,
+    "ExtraBold": 0.8832,
+    "SemiBold": 0.8284
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9363,
+    "ExtraBold": 0.8541,
+    "SemiBold": 0.8202
+   },
+   "size": 36.999047829218895
+  },
+  "headline-note": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9107,
+    "SemiBold": 0.86,
+    "ExtraBold": 0.788
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9046,
+    "SemiBold": 0.8558,
+    "ExtraBold": 0.8099
+   },
+   "size": 21.40049106162708
+  },
+  "subheader": {
+   "style": "SemiBold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "SemiBold": 0.9072,
+    "Bold": 0.7881,
+    "Medium": 0.8099
+   },
+   "mean_iou_soft": {
+    "SemiBold": 0.909,
+    "Bold": 0.7977,
+    "Medium": 0.8124
+   },
+   "size": 26.904651022016935
+  },
+  "subheader-note": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); binary alone prefers Medium, soft alone SemiBold",
+   "ink_area_ratio": {
+    "Medium": 0.901,
+    "SemiBold": 1.082
+   },
+   "mean_iou": {
+    "SemiBold": 0.8604,
+    "Medium": 0.9034,
+    "Bold": 0.7649
+   },
+   "mean_iou_soft": {
+    "SemiBold": 0.8816,
+    "Medium": 0.8632,
+    "Bold": 0.752
+   },
+   "size": 21.215549948582307
+  },
+  "body": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "SemiBold": 0.8859,
+    "Medium": 0.8989,
+    "Bold": 0.756
+   },
+   "mean_iou_soft": {
+    "SemiBold": 0.866,
+    "Medium": 0.8725,
+    "Bold": 0.7305
+   },
+   "size": 24.701735044896704
+  },
+  "body-note": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Medium": 0.8996,
+    "SemiBold": 0.8031,
+    "Bold": 0.7037
+   },
+   "mean_iou_soft": {
+    "Medium": 0.8877,
+    "SemiBold": 0.8219,
+    "Bold": 0.6987
+   },
+   "size": 20.953982632877263
+  },
+  "csx": {
+   "style": "Medium",
+   "by": "ink area (rendered coverage / original luma coverage = 0.96); 1x IoU cannot separate weights on these 10 px glyphs",
+   "size": 18.217634398651906,
+   "mean_iou": {
+    "Light": 0.542,
+    "Regular": 0.627,
+    "Medium": 0.6644,
+    "SemiBold": 0.7007
+   }
+  }
+ },
+ "text_runs": {
+  "title": {
+   "string": "ALLIANCE AI PARTNERS",
+   "group": "title",
+   "style": "Montserrat Bold",
+   "size": 50.105,
+   "tracking": -3.61,
+   "x": 374.909,
+   "baseline": 81.046,
+   "kerning": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": -2.0,
+    "4": -3.0,
+    "5": -1.0,
+    "6": -7.0,
+    "7": -1.0,
+    "9": 4.0,
+    "10": 4.0,
+    "12": 9.0,
+    "13": -4.0,
+    "14": -4.0,
+    "15": 12.0,
+    "16": 2.0,
+    "17": -9.0,
+    "18": -5.0,
+    "19": 3.0
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.0,
+    0.0,
+    -0.1,
+    -0.25,
+    -0.3,
+    -0.65,
+    -0.7,
+    -0.5,
+    -0.3,
+    0.15,
+    -0.05,
+    -0.25,
+    0.35,
+    0.45,
+    0.0,
+    -0.25,
+    -0.1
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": "#04D0F2",
+   "ai_glyph_indices": [
+    9,
+    10
+   ],
+   "iou": 0.9606,
+   "iou_soft": 0.9311,
+   "iou_render": 0.9281,
+   "iou_4x": 0.9387,
+   "iou_ceiling_raster_vs_render": 0.9596,
+   "fit_box": [
+    362,
+    36,
+    1012,
+    90
+   ],
+   "bbox": [
+    374.46,
+    45.37,
+    1000.24,
+    81.65
+   ]
+  },
+  "subtitle": {
+   "string": "BRAND GUIDELINES & STYLE BOARD",
+   "group": "subtitle",
+   "style": "Montserrat Medium",
+   "size": 26.218,
+   "tracking": -0.08,
+   "x": 438.388,
+   "baseline": 118.177,
+   "kerning": {
+    "1": -5.7,
+    "2": 1.9,
+    "3": -3.8,
+    "4": -7.6,
+    "6": 0.0,
+    "7": -3.8,
+    "8": -1.9,
+    "9": -7.6,
+    "10": -9.5,
+    "11": -15.3,
+    "12": 5.7,
+    "13": -5.7,
+    "14": -13.3,
+    "15": 11.4,
+    "17": 11.4,
+    "19": 19.1,
+    "20": 13.3,
+    "21": 5.7,
+    "22": 9.5,
+    "23": -7.6,
+    "25": -5.7,
+    "26": 0.0,
+    "27": -9.5,
+    "28": 5.7,
+    "29": 0.0
+   },
+   "glyph_offsets_px": [
+    0.35,
+    0.2,
+    0.25,
+    0.15,
+    -0.05,
+    -0.05,
+    -0.15,
+    -0.2,
+    -0.4,
+    -0.65,
+    -1.05,
+    -0.9,
+    -1.05,
+    -1.4,
+    -1.1,
+    -0.8,
+    -0.3,
+    0.05,
+    0.2,
+    0.45,
+    0.25,
+    0.1,
+    0.1,
+    -0.15,
+    0.0,
+    0.0
+   ],
+   "fill": "#0C0F1F",
+   "fill_name": "Label Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8825,
+   "iou_soft": 0.8854,
+   "iou_render": 0.8875,
+   "iou_4x": 0.8907,
+   "iou_ceiling_raster_vs_render": 0.968,
+   "fit_box": [
+    432,
+    91,
+    943,
+    124
+   ],
+   "bbox": [
+    441.49,
+    99.61,
+    933.9,
+    118.46
+   ]
+  },
+  "label-01": {
+   "string": "01 | LOGO VARIATIONS",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": -4.13,
+   "x": 58.624,
+   "baseline": 176.725,
+   "kerning": {
+    "1": -2.6,
+    "3": 7.8,
+    "5": 0.0,
+    "6": 7.8,
+    "7": -2.6,
+    "8": -5.2,
+    "10": -5.2,
+    "11": -7.8,
+    "12": -7.8,
+    "13": 10.4,
+    "14": -5.2,
+    "15": 7.8,
+    "16": 2.6,
+    "17": 5.2,
+    "18": -2.6,
+    "19": 0.0
+   },
+   "glyph_offsets_px": [
+    0.0,
+    -0.05,
+    0.1,
+    0.1,
+    0.25,
+    0.2,
+    0.1,
+    0.0,
+    -0.15,
+    -0.3,
+    -0.1,
+    -0.2,
+    -0.05,
+    0.0,
+    0.1,
+    0.05,
+    0.05
+   ],
+   "fill": "#0C0F1F",
+   "fill_name": "Label Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.915,
+   "iou_soft": 0.9015,
+   "iou_render": 0.9104,
+   "iou_4x": 0.9034,
+   "iou_ceiling_raster_vs_render": 0.963,
+   "fit_box": [
+    52,
+    156,
+    296,
+    184
+   ],
+   "bbox": [
+    59.38,
+    162.41,
+    283.87,
+    180.47
+   ]
+  },
+  "label-02": {
+   "string": "02 | COLOR PALETTE",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": 0.02,
+   "x": 728.968,
+   "baseline": 176.681,
+   "kerning": {
+    "1": 0.0,
+    "3": 0.0,
+    "5": 5.2,
+    "6": 25.9,
+    "7": -18.1,
+    "8": 10.4,
+    "9": -7.8,
+    "11": -15.6,
+    "12": -2.6,
+    "13": 0.0,
+    "14": -7.8,
+    "15": 0.0,
+    "16": 15.6,
+    "17": -2.6
+   },
+   "glyph_offsets_px": [
+    -0.1,
+    -0.1,
+    -0.1,
+    0.0,
+    0.5,
+    0.15,
+    0.35,
+    0.2,
+    -0.1,
+    -0.15,
+    -0.15,
+    -0.3,
+    -0.3,
+    0.0,
+    -0.05
+   ],
+   "fill": "#0C0F1F",
+   "fill_name": "Label Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8979,
+   "iou_soft": 0.8913,
+   "iou_render": 0.8896,
+   "iou_4x": 0.8887,
+   "iou_ceiling_raster_vs_render": 0.9732,
+   "fit_box": [
+    722,
+    156,
+    944,
+    184
+   ],
+   "bbox": [
+    729.62,
+    162.37,
+    935.92,
+    180.42
+   ]
+  },
+  "label-03": {
+   "string": "03 | TYPOGRAPHY",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": -0.97,
+   "x": 58.602,
+   "baseline": 472.519,
+   "kerning": {
+    "1": 15.6,
+    "3": -5.2,
+    "5": 5.2,
+    "6": 10.4,
+    "7": 5.2,
+    "8": -5.2,
+    "9": -7.8,
+    "10": -13.0,
+    "11": 0.0,
+    "12": 5.2,
+    "13": -18.1,
+    "14": 7.8
+   },
+   "glyph_offsets_px": [
+    -0.2,
+    0.1,
+    0.0,
+    0.1,
+    0.3,
+    0.4,
+    0.3,
+    0.15,
+    -0.1,
+    -0.1,
+    0.0,
+    -0.35,
+    -0.2
+   ],
+   "fill": "#0C0F1F",
+   "fill_name": "Label Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9128,
+   "iou_soft": 0.892,
+   "iou_render": 0.9111,
+   "iou_4x": 0.8992,
+   "iou_ceiling_raster_vs_render": 0.9803,
+   "fit_box": [
+    52,
+    451,
+    248,
+    481
+   ],
+   "bbox": [
+    59.15,
+    458.2,
+    240.71,
+    476.26
+   ]
+  },
+  "label-04": {
+   "string": "04 | CLEAR SPACE",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": -1.98,
+   "x": 715.352,
+   "baseline": 472.626,
+   "kerning": {
+    "1": -7.8,
+    "3": 5.2,
+    "5": 5.2,
+    "6": 5.2,
+    "7": 7.8,
+    "8": -13.0,
+    "9": -7.8,
+    "11": 0.0,
+    "12": 7.8,
+    "13": -2.6,
+    "14": -7.8,
+    "15": 13.0
+   },
+   "glyph_offsets_px": [
+    0.05,
+    -0.1,
+    0.0,
+    0.1,
+    0.2,
+    0.35,
+    0.1,
+    -0.05,
+    -0.05,
+    0.1,
+    0.05,
+    -0.1,
+    0.15
+   ],
+   "fill": "#0C0F1F",
+   "fill_name": "Label Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9042,
+   "iou_soft": 0.8883,
+   "iou_render": 0.9269,
+   "iou_4x": 0.8924,
+   "iou_ceiling_raster_vs_render": 0.9556,
+   "fit_box": [
+    707,
+    451,
+    904,
+    481
+   ],
+   "bbox": [
+    716.15,
+    458.31,
+    897.35,
+    476.37
+   ]
+  },
+  "label-05": {
+   "string": "05 | GRAPHIC ELEMENTS",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": -2.33,
+   "x": 1037.429,
+   "baseline": 472.568,
+   "kerning": {
+    "1": 13.0,
+    "3": 2.6,
+    "5": 15.6,
+    "6": -13.0,
+    "7": -7.8,
+    "8": 2.6,
+    "9": 5.2,
+    "10": -2.6,
+    "11": -10.4,
+    "13": 10.4,
+    "14": 0.0,
+    "15": 7.8,
+    "16": -7.8,
+    "17": 5.2,
+    "18": -18.1,
+    "19": 7.8,
+    "20": 5.2
+   },
+   "glyph_offsets_px": [
+    -0.3,
+    -0.05,
+    0.0,
+    0.3,
+    0.05,
+    -0.1,
+    -0.05,
+    0.05,
+    0.0,
+    -0.2,
+    0.0,
+    0.0,
+    0.15,
+    0.0,
+    0.1,
+    -0.25,
+    -0.1,
+    0.0
+   ],
+   "fill": "#0C0F1F",
+   "fill_name": "Label Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8989,
+   "iou_soft": 0.8975,
+   "iou_render": 0.8882,
+   "iou_4x": 0.8926,
+   "iou_ceiling_raster_vs_render": 0.9729,
+   "fit_box": [
+    1027,
+    451,
+    1298,
+    481
+   ],
+   "bbox": [
+    1037.88,
+    458.25,
+    1285.17,
+    476.31
+   ]
+  },
+  "hero-wordmark": {
+   "string": "ALLIANCE AI PARTNERS",
+   "group": "hero-wordmark",
+   "style": "Montserrat Bold",
+   "size": 25.073,
+   "tracking": -13.34,
+   "x": 62.806,
+   "baseline": 364.389,
+   "kerning": {
+    "1": 8.0,
+    "2": 6.0,
+    "3": -2.0,
+    "4": 4.0,
+    "5": -8.0,
+    "6": 4.0,
+    "7": 2.0,
+    "9": 4.0,
+    "10": 10.0,
+    "12": -4.0,
+    "13": -6.0,
+    "14": -4.0,
+    "15": 6.0,
+    "16": -4.0,
+    "17": -2.0,
+    "18": -8.0,
+    "19": 4.0
+   },
+   "glyph_offsets_px": [
+    -0.35,
+    -0.15,
+    0.0,
+    -0.05,
+    0.05,
+    -0.15,
+    -0.05,
+    0.0,
+    0.1,
+    0.35,
+    0.25,
+    0.1,
+    0.0,
+    0.15,
+    0.05,
+    0.0,
+    -0.2,
+    -0.1
+   ],
+   "fill": "#14152C",
+   "fill_name": "Ink Navy Deep",
+   "ai_fill": "#2459B4",
+   "ai_glyph_indices": [
+    9,
+    10
+   ],
+   "iou": 0.895,
+   "iou_soft": 0.9311,
+   "iou_render": 0.9144,
+   "iou_4x": 0.934,
+   "iou_ceiling_raster_vs_render": 0.897,
+   "fit_box": [
+    57,
+    339,
+    378,
+    371
+   ],
+   "bbox": [
+    62.23,
+    346.54,
+    371.04,
+    364.69
+   ]
+  },
+  "hero-tagline": {
+   "string": "Partners in AI. Partners in growth.",
+   "group": "hero-tagline",
+   "style": "Montserrat Medium",
+   "size": 14.729,
+   "tracking": -7.62,
+   "x": 92.364,
+   "baseline": 383.88,
+   "kerning": {
+    "1": -6.8,
+    "2": 3.4,
+    "3": -6.8,
+    "4": -10.2,
+    "5": 3.4,
+    "6": -6.8,
+    "7": 27.2,
+    "9": -3.4,
+    "10": 13.6,
+    "12": -10.2,
+    "13": -3.4,
+    "14": 3.4,
+    "16": 0.0,
+    "17": 10.2,
+    "18": 3.4,
+    "19": -17.0,
+    "20": -10.2,
+    "21": 3.4,
+    "22": 0.0,
+    "23": -3.4,
+    "25": 13.6,
+    "26": 13.6,
+    "28": 0.0,
+    "29": -13.6,
+    "30": 6.8,
+    "31": -3.4,
+    "32": -3.4,
+    "33": -6.8,
+    "34": -3.4
+   },
+   "glyph_offsets_px": [
+    0.0,
+    -0.1,
+    -0.05,
+    -0.15,
+    -0.3,
+    -0.25,
+    -0.35,
+    0.05,
+    0.0,
+    0.2,
+    0.05,
+    0.0,
+    0.05,
+    0.05,
+    0.2,
+    0.25,
+    0.0,
+    -0.15,
+    -0.1,
+    -0.1,
+    -0.15,
+    0.05,
+    0.25,
+    0.25,
+    0.05,
+    0.15,
+    0.1,
+    0.05,
+    -0.05,
+    -0.1
+   ],
+   "fill": "#10151E",
+   "fill_name": "Tagline Ink",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8484,
+   "iou_soft": 0.8387,
+   "iou_render": 0.8496,
+   "iou_4x": 0.8007,
+   "iou_ceiling_raster_vs_render": 0.8743,
+   "fit_box": [
+    86,
+    371,
+    351,
+    392
+   ],
+   "bbox": [
+    93.91,
+    372.73,
+    340.49,
+    386.83
+   ]
+  },
+  "horiz-line1": {
+   "string": "ALLIANCE",
+   "group": "horiz-line1",
+   "style": "Montserrat Bold",
+   "size": 28.057,
+   "tracking": -8.68,
+   "x": 510.146,
+   "baseline": 230.976,
+   "kerning": {
+    "1": 8.9,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 3.6,
+    "5": -3.6,
+    "6": -10.7,
+    "7": -1.8
+   },
+   "glyph_offsets_px": [
+    -0.25,
+    0.0,
+    0.0,
+    0.0,
+    0.1,
+    0.0,
+    -0.3,
+    -0.35
+   ],
+   "fill": "#14152C",
+   "fill_name": "Ink Navy Deep",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9701,
+   "iou_soft": 0.9384,
+   "iou_render": 0.9664,
+   "iou_4x": 0.9428,
+   "iou_ceiling_raster_vs_render": 0.9892,
+   "fit_box": [
+    506,
+    203,
+    659,
+    234
+   ],
+   "bbox": [
+    509.64,
+    211.0,
+    654.69,
+    231.31
+   ]
+  },
+  "horiz-line2": {
+   "string": "AI PARTNERS",
+   "group": "horiz-line2",
+   "style": "Montserrat Bold",
+   "size": 20.928,
+   "tracking": -8.02,
+   "x": 509.928,
+   "baseline": 253.744,
+   "kerning": {
+    "1": 0.0,
+    "3": 2.4,
+    "4": -7.2,
+    "5": 2.4,
+    "6": 2.4,
+    "7": 4.8,
+    "8": 4.8,
+    "9": -14.3,
+    "10": 9.6
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.0,
+    0.05,
+    -0.1,
+    -0.05,
+    0.0,
+    0.1,
+    0.2,
+    -0.1,
+    0.1
+   ],
+   "fill": "#0D1124",
+   "fill_name": "Lockup Ink",
+   "ai_fill": "#2459B4",
+   "ai_glyph_indices": [
+    0,
+    1
+   ],
+   "iou": 0.9506,
+   "iou_soft": 0.9287,
+   "iou_render": 0.938,
+   "iou_4x": 0.9288,
+   "iou_ceiling_raster_vs_render": 0.9505,
+   "fit_box": [
+    506,
+    234,
+    659,
+    262
+   ],
+   "bbox": [
+    509.74,
+    238.84,
+    654.78,
+    253.99
+   ]
+  },
+  "name-vibrant": {
+   "string": "Vibrant",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -6.26,
+   "x": 755.765,
+   "baseline": 342.129,
+   "kerning": {
+    "1": 0.0,
+    "2": -3.0,
+    "3": -17.8,
+    "4": 35.5,
+    "5": -8.9,
+    "6": -23.7
+   },
+   "glyph_offsets_px": [
+    0.05,
+    0.05,
+    0.0,
+    -0.3,
+    0.3,
+    0.15,
+    -0.25
+   ],
+   "fill": "#121B2A",
+   "fill_name": "Deep Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8801,
+   "iou_soft": 0.8718,
+   "iou_render": 0.8603,
+   "iou_4x": 0.8745,
+   "iou_ceiling_raster_vs_render": 0.9696,
+   "fit_box": [
+    746,
+    325,
+    829,
+    346
+   ],
+   "bbox": [
+    755.66,
+    328.83,
+    819.95,
+    342.26
+   ]
+  },
+  "name-blue": {
+   "string": "Blue",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -18.06,
+   "x": 768.48,
+   "baseline": 362.631,
+   "kerning": {
+    "1": -5.9,
+    "2": -3.0,
+    "3": 17.8
+   },
+   "glyph_offsets_px": [
+    0.0,
+    -0.1,
+    -0.15,
+    0.15
+   ],
+   "fill": "#121B2A",
+   "fill_name": "Deep Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8662,
+   "iou_soft": 0.8923,
+   "iou_render": 0.8769,
+   "iou_4x": 0.8593,
+   "iou_ceiling_raster_vs_render": 0.9462,
+   "fit_box": [
+    761,
+    346,
+    814,
+    367
+   ],
+   "bbox": [
+    769.88,
+    350.09,
+    807.46,
+    362.77
+   ]
+  },
+  "name-cyan": {
+   "string": "Bright Cyan",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -13.68,
+   "x": 856.809,
+   "baseline": 342.808,
+   "kerning": {
+    "1": -14.8,
+    "2": 29.6,
+    "3": -17.8,
+    "4": 5.9,
+    "5": -14.8,
+    "7": 5.9,
+    "8": 14.8,
+    "9": 5.9,
+    "10": 0.0
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    -0.3,
+    0.2,
+    -0.1,
+    0.0,
+    -0.25,
+    -0.15,
+    0.1,
+    0.2,
+    0.2
+   ],
+   "fill": "#121B2A",
+   "fill_name": "Deep Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.853,
+   "iou_soft": 0.8564,
+   "iou_render": 0.8746,
+   "iou_4x": 0.8656,
+   "iou_ceiling_raster_vs_render": 0.9524,
+   "fit_box": [
+    851,
+    325,
+    967,
+    350
+   ],
+   "bbox": [
+    858.16,
+    329.51,
+    958.46,
+    346.22
+   ]
+  },
+  "name-navy": {
+   "string": "Deep Navy",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -12.43,
+   "x": 980.547,
+   "baseline": 342.896,
+   "kerning": {
+    "1": -5.9,
+    "2": -8.9,
+    "3": 3.0,
+    "5": -11.8,
+    "6": 5.9,
+    "7": -5.9,
+    "8": 20.7
+   },
+   "glyph_offsets_px": [
+    0.2,
+    0.1,
+    -0.05,
+    0.0,
+    -0.2,
+    -0.1,
+    -0.2,
+    0.15
+   ],
+   "fill": "#121B2A",
+   "fill_name": "Deep Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8554,
+   "iou_soft": 0.8694,
+   "iou_render": 0.8425,
+   "iou_4x": 0.8639,
+   "iou_ceiling_raster_vs_render": 0.9383,
+   "fit_box": [
+    976,
+    325,
+    1081,
+    350
+   ],
+   "bbox": [
+    982.15,
+    331.07,
+    1074.76,
+    346.31
+   ]
+  },
+  "name-white": {
+   "string": "Pure White",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -16.96,
+   "x": 1097.853,
+   "baseline": 342.886,
+   "kerning": {
+    "1": 3.0,
+    "2": -5.9,
+    "3": 8.9,
+    "5": -11.8,
+    "6": -5.9,
+    "7": 0.0,
+    "8": 8.9,
+    "9": 11.8
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.05,
+    -0.05,
+    0.1,
+    -0.1,
+    -0.2,
+    -0.2,
+    -0.05,
+    0.15
+   ],
+   "fill": "#121B2A",
+   "fill_name": "Deep Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8965,
+   "iou_soft": 0.8811,
+   "iou_render": 0.9057,
+   "iou_4x": 0.8849,
+   "iou_ceiling_raster_vs_render": 0.97,
+   "fit_box": [
+    1093,
+    325,
+    1202,
+    347
+   ],
+   "bbox": [
+    1099.26,
+    329.59,
+    1195.49,
+    343.02
+   ]
+  },
+  "name-offwhite": {
+   "string": "Off-White",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -13.0,
+   "x": 1223.116,
+   "baseline": 342.884,
+   "kerning": {
+    "1": 5.9,
+    "2": -11.8,
+    "3": 14.8,
+    "4": -14.8,
+    "5": -3.0,
+    "6": -8.9,
+    "7": 14.8,
+    "8": 3.0
+   },
+   "glyph_offsets_px": [
+    0.1,
+    0.2,
+    0.0,
+    0.25,
+    0.0,
+    -0.05,
+    -0.2,
+    0.05,
+    0.1
+   ],
+   "fill": "#121B2A",
+   "fill_name": "Deep Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8779,
+   "iou_soft": 0.8751,
+   "iou_render": 0.8794,
+   "iou_4x": 0.8666,
+   "iou_ceiling_raster_vs_render": 0.961,
+   "fit_box": [
+    1218,
+    325,
+    1315,
+    347
+   ],
+   "bbox": [
+    1223.87,
+    329.59,
+    1308.36,
+    343.09
+   ]
+  },
+  "hex-blue": {
+   "string": "#1B56FF",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -21.74,
+   "x": 752.226,
+   "baseline": 383.853,
+   "kerning": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": -8.6,
+    "4": 17.2,
+    "5": 0.0,
+    "6": -11.4
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    -0.05,
+    -0.05,
+    -0.2,
+    0.1,
+    0.1,
+    -0.1
+   ],
+   "fill": "#050912",
+   "fill_name": "Hex Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8174,
+   "iou_soft": 0.7877,
+   "iou_render": 0.7288,
+   "iou_4x": 0.7568,
+   "iou_ceiling_raster_vs_render": 0.7368,
+   "fit_box": [
+    736,
+    367,
+    841,
+    390
+   ],
+   "bbox": [
+    752.68,
+    371.51,
+    823.47,
+    383.96
+   ]
+  },
+  "hex-cyan": {
+   "string": "#00D5FF",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -26.74,
+   "x": 868.706,
+   "baseline": 364.07,
+   "kerning": {
+    "1": 5.7,
+    "2": -5.7,
+    "3": -8.6,
+    "4": -8.6,
+    "5": 17.2,
+    "6": 2.9
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    0.05,
+    -0.05,
+    -0.2,
+    -0.35,
+    -0.05,
+    0.0
+   ],
+   "fill": "#050912",
+   "fill_name": "Hex Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8328,
+   "iou_soft": 0.8024,
+   "iou_render": 0.7986,
+   "iou_4x": 0.7878,
+   "iou_ceiling_raster_vs_render": 0.9231,
+   "fit_box": [
+    861,
+    350,
+    957,
+    369
+   ],
+   "bbox": [
+    869.16,
+    351.73,
+    946.97,
+    364.17
+   ]
+  },
+  "hex-navy": {
+   "string": "#121B2A",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -18.42,
+   "x": 993.485,
+   "baseline": 364.053,
+   "kerning": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 5.7,
+    "4": -5.7,
+    "5": 2.9,
+    "6": -2.9
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.0,
+    0.0,
+    0.1,
+    0.0,
+    0.05,
+    0.0
+   ],
+   "fill": "#050912",
+   "fill_name": "Hex Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8097,
+   "iou_soft": 0.7901,
+   "iou_render": 0.7867,
+   "iou_4x": 0.7697,
+   "iou_ceiling_raster_vs_render": 0.9502,
+   "fit_box": [
+    981,
+    350,
+    1077,
+    369
+   ],
+   "bbox": [
+    993.99,
+    351.71,
+    1061.86,
+    364.05
+   ]
+  },
+  "hex-white": {
+   "string": "#FFFFFF",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -32.16,
+   "x": 1109.516,
+   "baseline": 364.094,
+   "kerning": {
+    "1": 11.4,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "glyph_offsets_px": [
+    -0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "fill": "#050912",
+   "fill_name": "Hex Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8082,
+   "iou_soft": 0.8365,
+   "iou_render": 0.7074,
+   "iou_4x": 0.8066,
+   "iou_ceiling_raster_vs_render": 0.7396,
+   "fit_box": [
+    1101,
+    347,
+    1194,
+    369
+   ],
+   "bbox": [
+    1109.82,
+    351.86,
+    1184.0,
+    364.09
+   ]
+  },
+  "hex-offwhite": {
+   "string": "#F4F7FB",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -26.4,
+   "x": 1227.867,
+   "baseline": 364.078,
+   "kerning": {
+    "1": 5.7,
+    "2": 8.6,
+    "3": 2.9,
+    "4": -14.3,
+    "5": 20.0,
+    "6": -17.2
+   },
+   "glyph_offsets_px": [
+    -0.3,
+    -0.2,
+    -0.05,
+    0.0,
+    -0.25,
+    0.1,
+    -0.2
+   ],
+   "fill": "#050912",
+   "fill_name": "Hex Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8199,
+   "iou_soft": 0.7961,
+   "iou_render": 0.7622,
+   "iou_4x": 0.7692,
+   "iou_ceiling_raster_vs_render": 0.911,
+   "fit_box": [
+    1221,
+    347,
+    1312,
+    369
+   ],
+   "bbox": [
+    1228.07,
+    351.84,
+    1303.61,
+    364.08
+   ]
+  },
+  "spec-1": {
+   "string": "Aa Bb Cc Dd Ee Ff",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": -11.97,
+   "x": 57.167,
+   "baseline": 537.643,
+   "kerning": {
+    "1": 8.4,
+    "3": -2.8,
+    "4": -7.0,
+    "6": 7.0,
+    "7": 8.4,
+    "9": -5.6,
+    "10": -8.4,
+    "12": 1.4,
+    "13": -1.4,
+    "15": 12.6,
+    "16": -7.0
+   },
+   "glyph_offsets_px": [
+    -0.2,
+    0.1,
+    0.0,
+    -0.25,
+    0.0,
+    0.3,
+    0.1,
+    -0.2,
+    -0.15,
+    -0.2,
+    0.25,
+    0.0
+   ],
+   "fill": "#14152C",
+   "fill_name": "Ink Navy Deep",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9401,
+   "iou_soft": 0.9253,
+   "iou_render": 0.9158,
+   "iou_4x": 0.93,
+   "iou_ceiling_raster_vs_render": 0.951,
+   "fit_box": [
+    51,
+    501,
+    394,
+    548
+   ],
+   "bbox": [
+    56.79,
+    510.84,
+    383.18,
+    538.0
+   ]
+  },
+  "spec-2": {
+   "string": "Gg Hh Ii Jj Kk Ll Mm",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": -11.94,
+   "x": 56.494,
+   "baseline": 581.152,
+   "kerning": {
+    "1": -11.2,
+    "3": -4.2,
+    "4": -19.6,
+    "6": -1.4,
+    "7": 8.4,
+    "9": 14.0,
+    "10": 11.2,
+    "12": 0.0,
+    "13": -8.4,
+    "15": -4.2,
+    "16": 4.2,
+    "18": 16.8,
+    "19": -16.8
+   },
+   "glyph_offsets_px": [
+    0.4,
+    0.0,
+    -0.15,
+    -0.85,
+    -0.9,
+    -0.6,
+    -0.1,
+    0.3,
+    0.3,
+    0.0,
+    -0.15,
+    0.0,
+    0.6,
+    0.0
+   ],
+   "fill": "#14152C",
+   "fill_name": "Ink Navy Deep",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9236,
+   "iou_soft": 0.9104,
+   "iou_render": 0.9138,
+   "iou_4x": 0.9229,
+   "iou_ceiling_raster_vs_render": 0.953,
+   "fit_box": [
+    51,
+    548,
+    424,
+    594
+   ],
+   "bbox": [
+    58.47,
+    553.52,
+    414.23,
+    588.35
+   ]
+  },
+  "spec-3": {
+   "string": "Nn Oo Pp Qq Rr Ss",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": -12.16,
+   "x": 56.625,
+   "baseline": 624.401,
+   "kerning": {
+    "1": -8.4,
+    "3": 0.0,
+    "4": -2.8,
+    "6": 2.8,
+    "7": 7.0,
+    "9": -1.4,
+    "10": -7.0,
+    "12": 14.0,
+    "13": -14.0,
+    "15": 16.8,
+    "16": 7.0
+   },
+   "glyph_offsets_px": [
+    0.1,
+    -0.2,
+    -0.2,
+    -0.3,
+    -0.2,
+    0.05,
+    0.0,
+    -0.25,
+    0.25,
+    -0.25,
+    0.35,
+    0.6
+   ],
+   "fill": "#14152C",
+   "fill_name": "Ink Navy Deep",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9278,
+   "iou_soft": 0.9111,
+   "iou_render": 0.9089,
+   "iou_4x": 0.9183,
+   "iou_ceiling_raster_vs_render": 0.968,
+   "fit_box": [
+    51,
+    594,
+    399,
+    638
+   ],
+   "bbox": [
+    60.09,
+    598.99,
+    392.22,
+    631.34
+   ]
+  },
+  "spec-4": {
+   "string": "Tt Uu Ww Xx Yy Zz",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": -2.22,
+   "x": 56.244,
+   "baseline": 667.907,
+   "kerning": {
+    "1": -8.4,
+    "3": -16.8,
+    "4": -14.0,
+    "6": -27.9,
+    "7": -2.8,
+    "9": 5.6,
+    "10": 46.1,
+    "12": 4.2,
+    "13": -12.6,
+    "15": -12.6,
+    "16": 11.2
+   },
+   "glyph_offsets_px": [
+    1.2,
+    0.9,
+    0.3,
+    -0.2,
+    -1.2,
+    -1.3,
+    -1.1,
+    0.55,
+    0.7,
+    0.25,
+    -0.2,
+    0.2
+   ],
+   "fill": "#14152C",
+   "fill_name": "Ink Navy Deep",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9129,
+   "iou_soft": 0.9129,
+   "iou_render": 0.9059,
+   "iou_4x": 0.9204,
+   "iou_ceiling_raster_vs_render": 0.9789,
+   "fit_box": [
+    51,
+    638,
+    404,
+    681
+   ],
+   "bbox": [
+    57.59,
+    642.86,
+    396.94,
+    675.1
+   ]
+  },
+  "spec-5": {
+   "string": "0123456789",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": 8.6,
+   "x": 57.071,
+   "baseline": 711.175,
+   "kerning": {
+    "1": -2.8,
+    "2": 0.0,
+    "3": 8.4,
+    "4": -11.2,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 7.0,
+    "9": 2.8
+   },
+   "glyph_offsets_px": [
+    0.1,
+    0.0,
+    0.0,
+    0.3,
+    -0.1,
+    -0.1,
+    -0.1,
+    -0.1,
+    0.15,
+    0.25
+   ],
+   "fill": "#14152C",
+   "fill_name": "Ink Navy Deep",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9325,
+   "iou_soft": 0.9188,
+   "iou_render": 0.9179,
+   "iou_4x": 0.9356,
+   "iou_ceiling_raster_vs_render": 0.9575,
+   "fit_box": [
+    51,
+    681,
+    279,
+    720
+   ],
+   "bbox": [
+    58.75,
+    685.77,
+    272.18,
+    711.53
+   ]
+  },
+  "headline": {
+   "string": "HEADLINE",
+   "group": "headline",
+   "style": "Montserrat Bold",
+   "size": 37.023,
+   "tracking": -7.59,
+   "x": 448.862,
+   "baseline": 536.718,
+   "kerning": {
+    "1": 0.0,
+    "2": -5.4,
+    "3": 4.1,
+    "4": -2.7,
+    "5": 4.1,
+    "6": 0.0,
+    "7": 0.0
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.0,
+    -0.2,
+    -0.05,
+    -0.15,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9552,
+   "iou_soft": 0.9363,
+   "iou_render": 0.9471,
+   "iou_4x": 0.9418,
+   "iou_ceiling_raster_vs_render": 0.9698,
+   "fit_box": [
+    446,
+    503,
+    654,
+    543
+   ],
+   "bbox": [
+    451.94,
+    510.8,
+    648.15,
+    536.72
+   ]
+  },
+  "headline-note": {
+   "string": "(Bold)",
+   "group": "headline-note",
+   "style": "Montserrat Bold",
+   "size": 21.412,
+   "tracking": -14.27,
+   "x": 449.325,
+   "baseline": 563.527,
+   "kerning": {
+    "1": 2.3,
+    "2": -4.7,
+    "3": 4.7,
+    "4": 0.0,
+    "5": 4.7
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    0.0,
+    -0.1,
+    0.0,
+    0.0,
+    0.1
+   ],
+   "fill": "#0D1124",
+   "fill_name": "Lockup Ink",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9107,
+   "iou_soft": 0.9046,
+   "iou_render": 0.8852,
+   "iou_4x": 0.8982,
+   "iou_ceiling_raster_vs_render": 0.9568,
+   "fit_box": [
+    446,
+    543,
+    519,
+    570
+   ],
+   "bbox": [
+    450.84,
+    547.64,
+    513.31,
+    567.68
+   ]
+  },
+  "subheader": {
+   "string": "SUBHEADER",
+   "group": "subheader",
+   "style": "Montserrat SemiBold",
+   "size": 26.927,
+   "tracking": -21.49,
+   "x": 449.408,
+   "baseline": 615.678,
+   "kerning": {
+    "1": 1.9,
+    "2": -1.9,
+    "3": -7.4,
+    "4": 3.7,
+    "5": 5.6,
+    "6": 0.0,
+    "7": 3.7,
+    "8": 0.0
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    0.0,
+    -0.05,
+    -0.25,
+    -0.15,
+    0.0,
+    0.0,
+    0.1,
+    0.1
+   ],
+   "fill": "#0C0F1F",
+   "fill_name": "Label Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9072,
+   "iou_soft": 0.909,
+   "iou_render": 0.9084,
+   "iou_4x": 0.9067,
+   "iou_ceiling_raster_vs_render": 0.9545,
+   "fit_box": [
+    446,
+    590,
+    627,
+    620
+   ],
+   "bbox": [
+    450.3,
+    596.56,
+    622.49,
+    615.95
+   ]
+  },
+  "subheader-note": {
+   "string": "(Medium)",
+   "group": "subheader-note",
+   "style": "Montserrat Medium",
+   "size": 21.17,
+   "tracking": -1.41,
+   "x": 449.547,
+   "baseline": 639.81,
+   "kerning": {
+    "1": 18.9,
+    "2": -4.7,
+    "3": 4.7,
+    "4": 0.0,
+    "5": 4.7,
+    "6": -16.5,
+    "7": 7.1
+   },
+   "glyph_offsets_px": [
+    -0.4,
+    0.0,
+    -0.1,
+    0.0,
+    0.0,
+    0.1,
+    -0.25,
+    -0.1
+   ],
+   "fill": "#020413",
+   "fill_name": "Text Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9034,
+   "iou_soft": 0.8632,
+   "iou_render": 0.8383,
+   "iou_4x": 0.8619,
+   "iou_ceiling_raster_vs_render": 0.9115,
+   "fit_box": [
+    446,
+    620,
+    559,
+    647
+   ],
+   "bbox": [
+    451.16,
+    623.78,
+    551.74,
+    643.92
+   ]
+  },
+  "body": {
+   "string": "BODY TEXT",
+   "group": "body",
+   "style": "Montserrat Medium",
+   "size": 24.871,
+   "tracking": 5.05,
+   "x": 449.029,
+   "baseline": 688.521,
+   "kerning": {
+    "1": -8.0,
+    "2": -20.1,
+    "3": 0.0,
+    "5": 16.1,
+    "6": 2.0,
+    "7": 8.0,
+    "8": 30.2
+   },
+   "glyph_offsets_px": [
+    0.3,
+    0.1,
+    -0.4,
+    -0.4,
+    0.0,
+    0.05,
+    0.25,
+    1.0
+   ],
+   "fill": "#020413",
+   "fill_name": "Text Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8989,
+   "iou_soft": 0.8725,
+   "iou_render": 0.8561,
+   "iou_4x": 0.8724,
+   "iou_ceiling_raster_vs_render": 0.9379,
+   "fit_box": [
+    446,
+    664,
+    599,
+    694
+   ],
+   "bbox": [
+    451.94,
+    670.91,
+    594.91,
+    688.72
+   ]
+  },
+  "body-note": {
+   "string": "(Regular)",
+   "group": "body-note",
+   "style": "Montserrat Medium",
+   "size": 21.101,
+   "tracking": -4.98,
+   "x": 449.205,
+   "baseline": 712.888,
+   "kerning": {
+    "1": 0.0,
+    "2": -4.7,
+    "3": 0.0,
+    "4": -7.1,
+    "5": -2.4,
+    "6": 2.4,
+    "7": 0.0,
+    "8": 21.3
+   },
+   "glyph_offsets_px": [
+    0.1,
+    0.1,
+    0.0,
+    0.0,
+    -0.15,
+    -0.2,
+    -0.15,
+    -0.15,
+    0.3
+   ],
+   "fill": "#020413",
+   "fill_name": "Text Black",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8996,
+   "iou_soft": 0.8877,
+   "iou_render": 0.8516,
+   "iou_4x": 0.8871,
+   "iou_ceiling_raster_vs_render": 0.8752,
+   "fit_box": [
+    446,
+    694,
+    552,
+    721
+   ],
+   "bbox": [
+    451.31,
+    697.23,
+    544.97,
+    717.11
+   ]
+  },
+  "cs-x-top": {
+   "string": "x",
+   "group": "csx",
+   "style": "Montserrat Medium",
+   "size": 18.218,
+   "tracking": 0.3,
+   "x": 865.224,
+   "baseline": 529.805,
+   "kerning": {},
+   "glyph_offsets_px": [
+    0.0
+   ],
+   "fill": "#8E5450",
+   "fill_name": "Clear-space Red",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.6667,
+   "iou_soft": 0.6532,
+   "iou_render": 0.6667,
+   "iou_4x": 0.6416,
+   "iou_ceiling_raster_vs_render": 1.0,
+   "fit_box": [
+    861,
+    514,
+    881,
+    533
+   ],
+   "bbox": [
+    865.48,
+    520.15,
+    875.03,
+    529.81
+   ]
+  },
+  "cs-x-bottom": {
+   "string": "x",
+   "group": "csx",
+   "style": "Montserrat Medium",
+   "size": 18.218,
+   "tracking": 2.99,
+   "x": 865.32,
+   "baseline": 695.755,
+   "kerning": {},
+   "glyph_offsets_px": [
+    0.0
+   ],
+   "fill": "#8E5450",
+   "fill_name": "Clear-space Red",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.617,
+   "iou_soft": 0.6,
+   "iou_render": 0.6304,
+   "iou_4x": 0.5988,
+   "iou_ceiling_raster_vs_render": 0.9737,
+   "fit_box": [
+    861,
+    681,
+    881,
+    700
+   ],
+   "bbox": [
+    865.58,
+    686.1,
+    875.12,
+    695.75
+   ]
+  },
+  "cs-x-left": {
+   "string": "x",
+   "group": "csx",
+   "style": "Montserrat Medium",
+   "size": 18.218,
+   "tracking": -2.66,
+   "x": 729.43,
+   "baseline": 595.081,
+   "kerning": {},
+   "glyph_offsets_px": [
+    0.0
+   ],
+   "fill": "#8E5450",
+   "fill_name": "Clear-space Red",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.6667,
+   "iou_soft": 0.6008,
+   "iou_render": 0.6522,
+   "iou_4x": 0.5997,
+   "iou_ceiling_raster_vs_render": 0.9722,
+   "fit_box": [
+    725,
+    579,
+    745,
+    598
+   ],
+   "bbox": [
+    729.69,
+    585.42,
+    739.23,
+    595.08
+   ]
+  },
+  "cs-x-right": {
+   "string": "x",
+   "group": "csx",
+   "style": "Montserrat Medium",
+   "size": 18.218,
+   "tracking": 0.3,
+   "x": 963.328,
+   "baseline": 595.519,
+   "kerning": {},
+   "glyph_offsets_px": [
+    0.0
+   ],
+   "fill": "#8E5450",
+   "fill_name": "Clear-space Red",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.7073,
+   "iou_soft": 0.6029,
+   "iou_render": 0.6829,
+   "iou_4x": 0.618,
+   "iou_ceiling_raster_vs_render": 0.9706,
+   "fit_box": [
+    957,
+    579,
+    977,
+    598
+   ],
+   "bbox": [
+    963.58,
+    585.86,
+    973.13,
+    595.52
+   ]
+  }
+ },
+ "colors": {
+  "background": {
+   "hex": "#F4F7FB",
+   "palette": "Off-White",
+   "measured": "#F5F9FD",
+   "dE_to_palette": 0.91,
+   "name": "Off-White"
+  },
+  "palette_used": {
+   "Vibrant Blue": "#1B56FF",
+   "Bright Cyan": "#00D5FF",
+   "Deep Navy": "#121B2A",
+   "Pure White": "#FFFFFF",
+   "Off-White": "#F4F7FB"
+  },
+  "supporting_tones": {
+   "Board Cyan": {
+    "hex": "#04D0F2",
+    "palette": null,
+    "name": "Board Cyan",
+    "measured": "#04D0F2",
+    "nearest_palette": "Bright Cyan",
+    "dE_to_palette": 2.5,
+    "dE_to_members_max": 1.24,
+    "used_for": "swatch-bright-cyan, txt-title-ai, mark-flat"
+   },
+   "Clear-space Red": {
+    "hex": "#8E5450",
+    "palette": null,
+    "name": "Clear-space Red",
+    "measured": "#8F5352",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 34.24,
+    "dE_to_members_max": 1.11,
+    "used_for": "cs-grid-h-top-corner, cs-grid-h-top, cs-grid-h-mark-top-corner, cs-grid-h-mark-top, cs-grid-h-mark-bottom-corner, cs-grid-h-mark-bottom, cs-grid-h-bottom-corner, cs-grid-h-bottom, cs-grid-v-left-corner, cs-grid-v-left, cs-grid-v-mark-left-corner, cs-grid-v-mark-left, cs-grid-v-mark-right-corner, cs-grid-v-mark-right, cs-grid-v-right-corner, cs-grid-v-right, cs-arrow-top, cs-arrow-bottom, cs-arrow-left, cs-arrow-right, cs-cross-tl, cs-cross-tr, cs-cross-bl, cs-cross-br, txt-cs-x-top, txt-cs-x-bottom, txt-cs-x-left, txt-cs-x-right"
+   },
+   "Divider Ink": {
+    "hex": "#121823",
+    "palette": null,
+    "name": "Divider Ink",
+    "measured": "#121823",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 2.23,
+    "dE_to_members_max": 0.35,
+    "used_for": "divider-row-left, divider-row-mid, divider-row-right"
+   },
+   "Divider Slate": {
+    "hex": "#303940",
+    "palette": null,
+    "name": "Divider Slate",
+    "measured": "#303940",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 10.91,
+    "dE_to_members_max": 0.4,
+    "used_for": "divider-col1-top, divider-col1-bottom"
+   },
+   "Guide Grey": {
+    "hex": "#CECFD3",
+    "palette": null,
+    "name": "Guide Grey",
+    "measured": "#CFD2D5",
+    "nearest_palette": "Off-White",
+    "dE_to_palette": 8.79,
+    "dE_to_members_max": 1.5,
+    "used_for": "guide-h-205, guide-h-265, guide-h-294, guide-h-410, guide-v-62, guide-v-371, guide-v-401, guide-v-517, guide-v-538, guide-v-654"
+   },
+   "Hex Black": {
+    "hex": "#050912",
+    "palette": null,
+    "name": "Hex Black",
+    "measured": "#050912",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 6.72,
+    "dE_to_members_max": 1.11,
+    "used_for": "divider-header, txt-hex-blue, txt-hex-cyan, txt-hex-navy, txt-hex-white, txt-hex-offwhite"
+   },
+   "Ink Navy": {
+    "hex": "#151A37",
+    "palette": null,
+    "name": "Ink Navy",
+    "measured": "#161A36",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 7.55,
+    "dE_to_members_max": 1.79,
+    "used_for": "txt-title, txt-headline"
+   },
+   "Ink Navy Deep": {
+    "hex": "#14152C",
+    "palette": null,
+    "name": "Ink Navy Deep",
+    "measured": "#14152C",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 7.01,
+    "dE_to_members_max": 1.56,
+    "used_for": "txt-hero-wordmark, txt-horiz-line1, txt-spec-1, txt-spec-2, txt-spec-3, txt-spec-4, txt-spec-5"
+   },
+   "Label Black": {
+    "hex": "#0C0F1F",
+    "palette": null,
+    "name": "Label Black",
+    "measured": "#0C0F1F",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 4.09,
+    "dE_to_members_max": 1.48,
+    "used_for": "txt-subtitle, txt-label-01, txt-label-02, txt-label-03, txt-label-04, txt-label-05, txt-subheader"
+   },
+   "Lockup Ink": {
+    "hex": "#0D1124",
+    "palette": null,
+    "name": "Lockup Ink",
+    "measured": "#0D1124",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 4.49,
+    "dE_to_members_max": 1.34,
+    "used_for": "txt-horiz-line2, txt-headline-note"
+   },
+   "Royal Blue": {
+    "hex": "#2459B4",
+    "palette": null,
+    "name": "Royal Blue",
+    "measured": "#2858AF",
+    "nearest_palette": "Vibrant Blue",
+    "dE_to_palette": 9.75,
+    "dE_to_members_max": 1.14,
+    "used_for": "txt-hero-wordmark-ai, txt-horiz-line2-ai"
+   },
+   "Swatch Outline Grey": {
+    "hex": "#97989F",
+    "palette": null,
+    "name": "Swatch Outline Grey",
+    "measured": "#9798A0",
+    "nearest_palette": "Off-White",
+    "dE_to_palette": 23.74,
+    "dE_to_members_max": 0.26,
+    "used_for": "swatch-off-white:ring"
+   },
+   "Swatch Outline Navy": {
+    "hex": "#282F3C",
+    "palette": null,
+    "name": "Swatch Outline Navy",
+    "measured": "#252C39",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 6.5,
+    "dE_to_members_max": 0.91,
+    "used_for": "swatch-pure-white:ring"
+   },
+   "Tagline Ink": {
+    "hex": "#10151E",
+    "palette": null,
+    "name": "Tagline Ink",
+    "measured": "#10151E",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 3.68,
+    "dE_to_members_max": 1.09,
+    "used_for": "divider-col2, txt-hero-tagline"
+   },
+   "Text Black": {
+    "hex": "#020413",
+    "palette": null,
+    "name": "Text Black",
+    "measured": "#020413",
+    "nearest_palette": "Deep Navy",
+    "dE_to_palette": 6.2,
+    "dE_to_members_max": 1.47,
+    "used_for": "txt-subheader-note, txt-body, txt-body-note"
+   }
+  },
+  "supporting_tone_pairwise_dE2000": {
+   "Board Cyan / Clear-space Red": 62.04,
+   "Board Cyan / Divider Ink": 66.84,
+   "Board Cyan / Divider Slate": 56.98,
+   "Board Cyan / Guide Grey": 24.68,
+   "Board Cyan / Hex Black": 69.4,
+   "Board Cyan / Ink Navy": 68.08,
+   "Board Cyan / Ink Navy Deep": 69.69,
+   "Board Cyan / Label Black": 69.47,
+   "Board Cyan / Lockup Ink": 69.27,
+   "Board Cyan / Royal Blue": 42.3,
+   "Board Cyan / Swatch Outline Grey": 27.68,
+   "Board Cyan / Swatch Outline Navy": 61.28,
+   "Board Cyan / Tagline Ink": 67.42,
+   "Board Cyan / Text Black": 70.71,
+   "Clear-space Red / Divider Ink": 34.14,
+   "Clear-space Red / Divider Slate": 30.11,
+   "Clear-space Red / Guide Grey": 40.28,
+   "Clear-space Red / Hex Black": 35.62,
+   "Clear-space Red / Ink Navy": 33.4,
+   "Clear-space Red / Ink Navy Deep": 33.32,
+   "Clear-space Red / Label Black": 34.87,
+   "Clear-space Red / Lockup Ink": 34.81,
+   "Clear-space Red / Royal Blue": 33.69,
+   "Clear-space Red / Swatch Outline Grey": 28.91,
+   "Clear-space Red / Swatch Outline Navy": 29.84,
+   "Clear-space Red / Tagline Ink": 34.54,
+   "Clear-space Red / Text Black": 35.79,
+   "Divider Ink / Divider Slate": 11.0,
+   "Divider Ink / Guide Grey": 71.92,
+   "Divider Ink / Hex Black": 4.63,
+   "Divider Ink / Ink Navy": 9.16,
+   "Divider Ink / Ink Navy Deep": 7.94,
+   "Divider Ink / Label Black": 3.86,
+   "Divider Ink / Lockup Ink": 5.11,
+   "Divider Ink / Royal Blue": 27.91,
+   "Divider Ink / Swatch Outline Grey": 45.56,
+   "Divider Ink / Swatch Outline Navy": 7.24,
+   "Divider Ink / Tagline Ink": 1.49,
+   "Divider Ink / Text Black": 4.59,
+   "Divider Slate / Guide Grey": 58.19,
+   "Divider Slate / Hex Black": 13.92,
+   "Divider Slate / Ink Navy": 15.78,
+   "Divider Slate / Ink Navy Deep": 16.02,
+   "Divider Slate / Label Black": 14.37,
+   "Divider Slate / Lockup Ink": 14.88,
+   "Divider Slate / Royal Blue": 19.83,
+   "Divider Slate / Swatch Outline Grey": 36.68,
+   "Divider Slate / Swatch Outline Navy": 5.31,
+   "Divider Slate / Tagline Ink": 11.54,
+   "Divider Slate / Text Black": 15.13,
+   "Guide Grey / Hex Black": 73.95,
+   "Guide Grey / Ink Navy": 72.01,
+   "Guide Grey / Ink Navy Deep": 72.79,
+   "Guide Grey / Label Black": 73.46,
+   "Guide Grey / Lockup Ink": 73.34,
+   "Guide Grey / Royal Blue": 44.18,
+   "Guide Grey / Swatch Outline Grey": 15.17,
+   "Guide Grey / Swatch Outline Navy": 63.84,
+   "Guide Grey / Tagline Ink": 72.44,
+   "Guide Grey / Text Black": 74.45,
+   "Hex Black / Ink Navy": 12.55,
+   "Hex Black / Ink Navy Deep": 10.54,
+   "Hex Black / Label Black": 5.7,
+   "Hex Black / Lockup Ink": 7.56,
+   "Hex Black / Royal Blue": 32.51,
+   "Hex Black / Swatch Outline Grey": 48.37,
+   "Hex Black / Swatch Outline Navy": 11.22,
+   "Hex Black / Tagline Ink": 3.2,
+   "Hex Black / Text Black": 2.67,
+   "Ink Navy / Ink Navy Deep": 2.9,
+   "Ink Navy / Label Black": 7.14,
+   "Ink Navy / Lockup Ink": 5.33,
+   "Ink Navy / Royal Blue": 25.51,
+   "Ink Navy / Swatch Outline Grey": 45.74,
+   "Ink Navy / Swatch Outline Navy": 10.63,
+   "Ink Navy / Tagline Ink": 10.37,
+   "Ink Navy / Text Black": 10.73,
+   "Ink Navy Deep / Label Black": 5.14,
+   "Ink Navy Deep / Lockup Ink": 3.51,
+   "Ink Navy Deep / Royal Blue": 28.23,
+   "Ink Navy Deep / Swatch Outline Grey": 46.65,
+   "Ink Navy Deep / Swatch Outline Navy": 10.86,
+   "Ink Navy Deep / Tagline Ink": 8.88,
+   "Ink Navy Deep / Text Black": 8.47,
+   "Label Black / Lockup Ink": 1.9,
+   "Label Black / Royal Blue": 30.08,
+   "Label Black / Swatch Outline Grey": 47.57,
+   "Label Black / Swatch Outline Navy": 9.88,
+   "Label Black / Tagline Ink": 4.33,
+   "Label Black / Text Black": 3.67,
+   "Lockup Ink / Royal Blue": 28.98,
+   "Lockup Ink / Swatch Outline Grey": 47.38,
+   "Lockup Ink / Swatch Outline Navy": 10.02,
+   "Lockup Ink / Tagline Ink": 5.92,
+   "Lockup Ink / Text Black": 5.5,
+   "Royal Blue / Swatch Outline Grey": 32.18,
+   "Royal Blue / Swatch Outline Navy": 22.02,
+   "Royal Blue / Tagline Ink": 29.13,
+   "Royal Blue / Text Black": 33.02,
+   "Swatch Outline Grey / Swatch Outline Navy": 39.28,
+   "Swatch Outline Grey / Tagline Ink": 46.27,
+   "Swatch Outline Grey / Text Black": 48.99,
+   "Swatch Outline Navy / Tagline Ink": 8.28,
+   "Swatch Outline Navy / Text Black": 11.58,
+   "Tagline Ink / Text Black": 3.75
+  },
+  "measurements": {
+   "ink_navy_interior": "#151A37",
+   "charcoal_ls_per_run_unstable_not_used": [
+    "#021706",
+    "#071B04",
+    "#051A03",
+    "#192713",
+    "#0C1D0A",
+    "#131A1E"
+   ],
+   "royal_ls_per_run": [
+    "#1C56B7",
+    "#2C5BB2"
+   ],
+   "title_ai_interior": "#08D0F4",
+   "clear_space_red_joint": "#8E5450",
+   "pure_white_ring_fitted": "#272D3B",
+   "off_white_ring_fitted": "#97989F"
+  },
+  "inks_v2": {
+   "rule": "palette colour when the measured ink is within dE2000 2 of kit.PALETTE, else the measured ink; inks within dE2000 2 merged (complete linkage, area-weighted mean)",
+   "method": "work/board/inks_v2.py (measurements in work/board/inks_v2.json)",
+   "elements": {
+    "background": {
+     "hex": "#F4F7FB",
+     "tone": "Off-White",
+     "measured": "#F5FAFD",
+     "dE_to_measured": 1.31,
+     "method": "median of the flat background"
+    },
+    "cs-arrow-bottom": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-arrow-left": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-arrow-right": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-arrow-top": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-cross-bl": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-cross-br": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-cross-tl": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-cross-tr": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-h-bottom": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-h-bottom-corner": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-h-mark-bottom": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-h-mark-bottom-corner": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-h-mark-top": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-h-mark-top-corner": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-h-top": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-h-top-corner": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-v-left": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-v-left-corner": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-v-mark-left": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-v-mark-left-corner": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-v-mark-right": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-v-mark-right-corner": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-v-right": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "cs-grid-v-right-corner": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "divider-col1-bottom": {
+     "hex": "#303940",
+     "tone": "Divider Slate",
+     "measured": "#303940",
+     "dE_to_measured": 0.4,
+     "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 2 segments of divider-col1"
+    },
+    "divider-col1-top": {
+     "hex": "#303940",
+     "tone": "Divider Slate",
+     "measured": "#303940",
+     "dE_to_measured": 0.4,
+     "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 2 segments of divider-col1"
+    },
+    "divider-col2": {
+     "hex": "#10151E",
+     "tone": "Tagline Ink",
+     "measured": "#11171F",
+     "dE_to_measured": 1.09,
+     "method": "width + ink through the JPEG model (centre fixed)"
+    },
+    "divider-header": {
+     "hex": "#050912",
+     "tone": "Hex Black",
+     "measured": "#040913",
+     "dE_to_measured": 0.48,
+     "method": "width + ink through the JPEG model (centre fixed)"
+    },
+    "divider-row-left": {
+     "hex": "#121823",
+     "tone": "Divider Ink",
+     "measured": "#121823",
+     "dE_to_measured": 0.35,
+     "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 3 segments of divider-row"
+    },
+    "divider-row-mid": {
+     "hex": "#121823",
+     "tone": "Divider Ink",
+     "measured": "#121823",
+     "dE_to_measured": 0.35,
+     "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 3 segments of divider-row"
+    },
+    "divider-row-right": {
+     "hex": "#121823",
+     "tone": "Divider Ink",
+     "measured": "#121823",
+     "dE_to_measured": 0.35,
+     "method": "width + ink through the JPEG model (centre fixed), one width and ink for the 3 segments of divider-row"
+    },
+    "guide-h-205": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-h-265": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-h-294": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-h-410": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-v-371": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-v-401": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-v-517": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-v-538": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-v-62": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "guide-v-654": {
+     "hex": "#CECFD3",
+     "tone": "Guide Grey",
+     "measured": "#CFD2D5",
+     "dE_to_measured": 1.5,
+     "method": "one ink for all guides at the drawn width, JPEG model, visible stretches only"
+    },
+    "mark-flat": {
+     "hex": "#04D0F2",
+     "tone": "Board Cyan",
+     "measured": "#0CCDF2",
+     "dE_to_measured": 1.24,
+     "method": "eroded interior median of the flat mark"
+    },
+    "swatch-bright-cyan": {
+     "hex": "#04D0F2",
+     "tone": "Board Cyan",
+     "measured": "#00D1F2",
+     "dE_to_measured": 0.42,
+     "method": "disc interior (eroded 4 px)"
+    },
+    "swatch-deep-navy": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#111D2F",
+     "dE_to_measured": 1.53,
+     "method": "disc interior (eroded 4 px)"
+    },
+    "swatch-off-white": {
+     "hex": "#F4F7FB",
+     "tone": "Off-White",
+     "measured": "#F3F6FB",
+     "dE_to_measured": 0.54,
+     "method": "disc interior (eroded 4 px)"
+    },
+    "swatch-off-white:ring": {
+     "hex": "#97989F",
+     "tone": "Swatch Outline Grey",
+     "measured": "#9798A0",
+     "dE_to_measured": 0.26,
+     "method": "ring width + ink through the JPEG model over the swatch fill"
+    },
+    "swatch-pure-white": {
+     "hex": "#FFFFFF",
+     "tone": "Pure White",
+     "measured": "#FFFFFF",
+     "dE_to_measured": 0.0,
+     "method": "disc interior (eroded 4 px)"
+    },
+    "swatch-pure-white:ring": {
+     "hex": "#282F3C",
+     "tone": "Swatch Outline Navy",
+     "measured": "#252C39",
+     "dE_to_measured": 0.91,
+     "method": "ring width + ink through the JPEG model over the swatch fill"
+    },
+    "swatch-vibrant-blue": {
+     "hex": "#1B56FF",
+     "tone": "Vibrant Blue",
+     "measured": "#1B5AFF",
+     "dE_to_measured": 1.2,
+     "method": "disc interior (eroded 4 px)"
+    },
+    "tile-flat": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#121D2F",
+     "dE_to_measured": 1.52,
+     "method": "tile interior away from the mark"
+    },
+    "tile-two-tone": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#111D2F",
+     "dE_to_measured": 1.53,
+     "method": "tile interior away from the mark"
+    },
+    "txt-body": {
+     "hex": "#020413",
+     "tone": "Text Black",
+     "measured": "#020412",
+     "dE_to_measured": 0.5,
+     "method": "eroded-core median (unmix leaves the gamut: outlines lighter than the original strokes) (w 2.21 px)"
+    },
+    "txt-body-note": {
+     "hex": "#020413",
+     "tone": "Text Black",
+     "measured": "#030412",
+     "dE_to_measured": 0.71,
+     "method": "eroded-core median (unmix leaves the gamut: outlines lighter than the original strokes) (w 1.81 px)"
+    },
+    "txt-cs-x-bottom": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "txt-cs-x-left": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "txt-cs-x-right": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "txt-cs-x-top": {
+     "hex": "#8E5450",
+     "tone": "Clear-space Red",
+     "measured": "#8F5352",
+     "dE_to_measured": 1.11,
+     "method": "all clear-space elements jointly at the drawn geometry (JPEG model)"
+    },
+    "txt-headline": {
+     "hex": "#151A37",
+     "tone": "Ink Navy",
+     "measured": "#191937",
+     "dE_to_measured": 1.79,
+     "method": "eroded interior median (w 5.17 px)"
+    },
+    "txt-headline-note": {
+     "hex": "#0D1124",
+     "tone": "Lockup Ink",
+     "measured": "#0E0F24",
+     "dE_to_measured": 1.34,
+     "method": "unmix through the JPEG 4:2:0 model (w 2.96 px)"
+    },
+    "txt-hero-tagline": {
+     "hex": "#10151E",
+     "tone": "Tagline Ink",
+     "measured": "#10141D",
+     "dE_to_measured": 0.4,
+     "method": "unmix through the JPEG 4:2:0 model (w 1.26 px)"
+    },
+    "txt-hero-wordmark": {
+     "hex": "#14152C",
+     "tone": "Ink Navy Deep",
+     "measured": "#14182F",
+     "dE_to_measured": 1.56,
+     "method": "eroded interior median (w 3.49 px)"
+    },
+    "txt-hero-wordmark-ai": {
+     "hex": "#2459B4",
+     "tone": "Royal Blue",
+     "measured": "#2656B1",
+     "dE_to_measured": 1.14,
+     "method": "eroded interior median (w 3.41 px)"
+    },
+    "txt-hex-blue": {
+     "hex": "#050912",
+     "tone": "Hex Black",
+     "measured": "#06080F",
+     "dE_to_measured": 1.11,
+     "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)"
+    },
+    "txt-hex-cyan": {
+     "hex": "#050912",
+     "tone": "Hex Black",
+     "measured": "#06080F",
+     "dE_to_measured": 1.11,
+     "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)"
+    },
+    "txt-hex-navy": {
+     "hex": "#050912",
+     "tone": "Hex Black",
+     "measured": "#06080F",
+     "dE_to_measured": 1.11,
+     "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)"
+    },
+    "txt-hex-offwhite": {
+     "hex": "#050912",
+     "tone": "Hex Black",
+     "measured": "#06080F",
+     "dE_to_measured": 1.11,
+     "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)"
+    },
+    "txt-hex-white": {
+     "hex": "#050912",
+     "tone": "Hex Black",
+     "measured": "#06080F",
+     "dE_to_measured": 1.11,
+     "method": "plain unmix (4:2:0 chroma solve undetermined: dE 14.3 from plain) jointly over the 5 runs of the \"hex\" setting (w 1.12 px)"
+    },
+    "txt-horiz-line1": {
+     "hex": "#14152C",
+     "tone": "Ink Navy Deep",
+     "measured": "#12162D",
+     "dE_to_measured": 1.24,
+     "method": "eroded interior median (w 3.85 px)"
+    },
+    "txt-horiz-line2": {
+     "hex": "#0D1124",
+     "tone": "Lockup Ink",
+     "measured": "#0C1225",
+     "dE_to_measured": 0.61,
+     "method": "unmix through the JPEG 4:2:0 model (w 2.95 px)"
+    },
+    "txt-horiz-line2-ai": {
+     "hex": "#2459B4",
+     "tone": "Royal Blue",
+     "measured": "#2A5AAD",
+     "dE_to_measured": 0.93,
+     "method": "unmix through the JPEG 4:2:0 model (w 2.86 px)"
+    },
+    "txt-label-01": {
+     "hex": "#0C0F1F",
+     "tone": "Label Black",
+     "measured": "#0C0E1E",
+     "dE_to_measured": 0.24,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)"
+    },
+    "txt-label-02": {
+     "hex": "#0C0F1F",
+     "tone": "Label Black",
+     "measured": "#0C0E1E",
+     "dE_to_measured": 0.24,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)"
+    },
+    "txt-label-03": {
+     "hex": "#0C0F1F",
+     "tone": "Label Black",
+     "measured": "#0C0E1E",
+     "dE_to_measured": 0.24,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)"
+    },
+    "txt-label-04": {
+     "hex": "#0C0F1F",
+     "tone": "Label Black",
+     "measured": "#0C0E1E",
+     "dE_to_measured": 0.24,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)"
+    },
+    "txt-label-05": {
+     "hex": "#0C0F1F",
+     "tone": "Label Black",
+     "measured": "#0C0E1E",
+     "dE_to_measured": 0.24,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 5 runs of the \"labels\" setting (w 2.68 px)"
+    },
+    "txt-name-blue": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#111824",
+     "dE_to_measured": 1.81,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)"
+    },
+    "txt-name-cyan": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#111824",
+     "dE_to_measured": 1.81,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)"
+    },
+    "txt-name-navy": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#111824",
+     "dE_to_measured": 1.81,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)"
+    },
+    "txt-name-offwhite": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#111824",
+     "dE_to_measured": 1.81,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)"
+    },
+    "txt-name-vibrant": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#111824",
+     "dE_to_measured": 1.81,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)"
+    },
+    "txt-name-white": {
+     "hex": "#121B2A",
+     "tone": "Deep Navy",
+     "measured": "#111824",
+     "dE_to_measured": 1.81,
+     "method": "unmix through the JPEG 4:2:0 model jointly over the 6 runs of the \"names\" setting (w 2.25 px)"
+    },
+    "txt-spec-1": {
+     "hex": "#14152C",
+     "tone": "Ink Navy Deep",
+     "measured": "#14152C",
+     "dE_to_measured": 0.0,
+     "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)"
+    },
+    "txt-spec-2": {
+     "hex": "#14152C",
+     "tone": "Ink Navy Deep",
+     "measured": "#14152C",
+     "dE_to_measured": 0.0,
+     "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)"
+    },
+    "txt-spec-3": {
+     "hex": "#14152C",
+     "tone": "Ink Navy Deep",
+     "measured": "#14152C",
+     "dE_to_measured": 0.0,
+     "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)"
+    },
+    "txt-spec-4": {
+     "hex": "#14152C",
+     "tone": "Ink Navy Deep",
+     "measured": "#14152C",
+     "dE_to_measured": 0.0,
+     "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)"
+    },
+    "txt-spec-5": {
+     "hex": "#14152C",
+     "tone": "Ink Navy Deep",
+     "measured": "#14152C",
+     "dE_to_measured": 0.0,
+     "method": "eroded interior median jointly over the 5 runs of the \"spec\" setting (w 4.01 px)"
+    },
+    "txt-subheader": {
+     "hex": "#0C0F1F",
+     "tone": "Label Black",
+     "measured": "#08091D",
+     "dE_to_measured": 1.48,
+     "method": "eroded interior median (w 3.08 px)"
+    },
+    "txt-subheader-note": {
+     "hex": "#020413",
+     "tone": "Text Black",
+     "measured": "#020315",
+     "dE_to_measured": 1.47,
+     "method": "eroded-core median (unmix leaves the gamut: outlines lighter than the original strokes) (w 1.82 px)"
+    },
+    "txt-subtitle": {
+     "hex": "#0C0F1F",
+     "tone": "Label Black",
+     "measured": "#101220",
+     "dE_to_measured": 0.81,
+     "method": "plain unmix (4:2:0 chroma solve undetermined: dE 3.2 from plain) (w 2.36 px)"
+    },
+    "txt-title": {
+     "hex": "#151A37",
+     "tone": "Ink Navy",
+     "measured": "#151A36",
+     "dE_to_measured": 0.38,
+     "method": "eroded interior median (w 6.97 px)"
+    },
+    "txt-title-ai": {
+     "hex": "#04D0F2",
+     "tone": "Board Cyan",
+     "measured": "#0AD0F2",
+     "dE_to_measured": 0.06,
+     "method": "eroded interior median (w 6.85 px)"
+    }
+   },
+   "tile_marks": {
+    "rec/slot-tile-flat.svg": "#04D0F2",
+    "rec/slot-tile-twotone.svg": {
+     "faces": {
+      "face-p-bowl-lower": {
+       "gradient": "grad-dark-p-bowl-lower",
+       "n": 101,
+       "stops_before": [
+        "#D0FEFE",
+        "#CBE3E7"
+       ],
+       "stops_after": [
+        "#DDFEFE",
+        "#E1F7F9"
+       ],
+       "offsets_before": [
+        0.0,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        1.0
+       ],
+       "orig_median": "#E2F8FA",
+       "model_median_before": "#CBE5E9",
+       "model_median_after": "#E1F8F9",
+       "dE_before": 4.315491369082392,
+       "dE_after": 0.38679238204081223
+      },
+      "face-p-bowl-under": {
+       "gradient": "grad-dark-p-bowl-under",
+       "n": 42,
+       "stops_before": [
+        "#DDFCFD",
+        "#E5ECF0"
+       ],
+       "stops_after": [
+        "#EDFFFF",
+        "#EDF5F9"
+       ],
+       "offsets_before": [
+        0.0,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        1.0
+       ],
+       "orig_median": "#EEFBFC",
+       "model_median_before": "#E1F5F7",
+       "model_median_after": "#EDFBFC",
+       "dE_before": 3.1648113920828473,
+       "dE_after": 0.40253870694137633
+      },
+      "face-a-right-outer": {
+       "gradient": "grad-dark-a-right-outer",
+       "n": 77,
+       "stops_before": [
+        "#75C1C9",
+        "#AFD5D9",
+        "#9BEAEC",
+        "#B6E9EA",
+        "#C3E8EF"
+       ],
+       "stops_after": [
+        "#8DE7EC",
+        "#C9F1F5",
+        "#9DEEEF",
+        "#B0EAEB",
+        "#C2F2F6"
+       ],
+       "offsets_before": [
+        0.0,
+        0.3846,
+        0.6923,
+        0.8462,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        0.3846,
+        0.6923,
+        0.8462,
+        1.0
+       ],
+       "orig_median": "#AFECEF",
+       "model_median_before": "#A3D5D9",
+       "model_median_after": "#AEEDEF",
+       "dE_before": 5.482155097434155,
+       "dE_after": 0.3579840900482472
+      },
+      "face-a-right-inner": {
+       "gradient": "grad-dark-a-right-inner",
+       "n": 55,
+       "stops_before": [
+        "#BCF4F5",
+        "#F3FCFC",
+        "#BFF3F5",
+        "#F3FAFB",
+        "#E2F8FD"
+       ],
+       "stops_after": [
+        "#CBFBFB",
+        "#F9FFFF",
+        "#D6FBFC",
+        "#F5FAFB",
+        "#E7FAFE"
+       ],
+       "offsets_before": [
+        0.0,
+        0.3077,
+        0.6923,
+        0.8462,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        0.3077,
+        0.6923,
+        0.8462,
+        1.0
+       ],
+       "orig_median": "#EDFEFE",
+       "model_median_before": "#E7F9FA",
+       "model_median_after": "#EDFCFC",
+       "dE_before": 1.2388233203598171,
+       "dE_after": 0.9066945995970391
+      },
+      "face-a-left-bevel": {
+       "gradient": "grad-dark-a-left-bevel",
+       "n": 75,
+       "stops_before": [
+        "#99D4D8",
+        "#EBFAFC",
+        "#EAFBFC",
+        "#FFFFFF"
+       ],
+       "stops_after": [
+        "#91E1E4",
+        "#EBF8FA",
+        "#E5FBFC",
+        "#F9FEFF"
+       ],
+       "offsets_before": [
+        0.0,
+        0.5385,
+        0.8462,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        0.4039,
+        0.6346,
+        0.75
+       ],
+       "orig_median": "#DFF4F7",
+       "model_median_before": "#D2EFF1",
+       "model_median_after": "#E5F6F9",
+       "dE_before": 2.7582676596719367,
+       "dE_after": 1.369286586100993
+      },
+      "face-a-left-outer": {
+       "gradient": "grad-dark-a-left-outer",
+       "n": 67,
+       "stops_before": [
+        "#CADBDF",
+        "#ECF5F6",
+        "#DFF1F4",
+        "#AADFE4",
+        "#E2EFF2"
+       ],
+       "stops_after": [
+        "#E6F6F8",
+        "#F4FCFC",
+        "#E5F7F8",
+        "#C1F2F5",
+        "#EAFAFB"
+       ],
+       "offsets_before": [
+        0.0,
+        0.3846,
+        0.5385,
+        0.6154,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        0.3846,
+        0.5385,
+        0.6154,
+        1.0
+       ],
+       "orig_median": "#ECF9FB",
+       "model_median_before": "#DDEDF0",
+       "model_median_after": "#ECF9FA",
+       "dE_before": 2.8447554565188207,
+       "dE_after": 0.5060176192043724
+      },
+      "face-p-bowl-top": {
+       "gradient": "grad-dark-p-bowl-top",
+       "n": 88,
+       "stops_before": [
+        "#8CD0D6",
+        "#D2E3E5"
+       ],
+       "stops_after": [
+        "#A3EEF2",
+        "#E0FDFE"
+       ],
+       "offsets_before": [
+        0.0,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        0.25
+       ],
+       "orig_median": "#D4FCFE",
+       "model_median_before": "#9AD4D9",
+       "model_median_after": "#D3FAFC",
+       "dE_before": 10.361585551405636,
+       "dE_after": 0.4870211940241959
+      },
+      "face-p-bowl-fold": {
+       "gradient": "grad-dark-p-bowl-fold",
+       "n": 33,
+       "stops_before": [
+        "#86E9ED",
+        "#6CDFE4"
+       ],
+       "stops_after": [
+        "#7EEAEE",
+        "#66DFE5"
+       ],
+       "offsets_before": [
+        0.0,
+        1.0
+       ],
+       "offsets": [
+        0.75,
+        1.0
+       ],
+       "orig_median": "#76E5EC",
+       "model_median_before": "#6FE0E5",
+       "model_median_after": "#70E3E9",
+       "dE_before": 1.4968032429865432,
+       "dE_after": 0.9844288415147515
+      },
+      "face-ribbon-front-stem": {
+       "gradient": "grad-dark-ribbon-front-stem",
+       "n": 26,
+       "stops_before": [
+        "#D8FBFE",
+        "#C9F0F3"
+       ],
+       "stops_after": [
+        "#E6FCFE",
+        "#D7F8FA"
+       ],
+       "offsets_before": [
+        0.0,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        1.0
+       ],
+       "orig_median": "#DEFAFC",
+       "model_median_before": "#D0F5F8",
+       "model_median_after": "#DEFAFC",
+       "dE_before": 2.6327138336398024,
+       "dE_after": 0.2333269769806702
+      },
+      "face-ribbon-front": {
+       "gradient": "grad-dark-ribbon-front",
+       "n": 76,
+       "stops_before": [
+        "#F3FFFF",
+        "#7DDCE4"
+       ],
+       "stops_after": [
+        "#E2FDFD",
+        "#6ADDE6"
+       ],
+       "offsets_before": [
+        0.0,
+        1.0
+       ],
+       "offsets": [
+        0.5,
+        1.0
+       ],
+       "orig_median": "#A5F0F6",
+       "model_median_before": "#9AE5EB",
+       "model_median_after": "#A5EDF1",
+       "dE_before": 2.5158033387903918,
+       "dE_after": 0.8872655899513258
+      },
+      "face-ribbon-back": {
+       "gradient": "grad-dark-ribbon-back",
+       "n": 114,
+       "stops_before": [
+        "#48CFD9",
+        "#C7F4F9"
+       ],
+       "stops_after": [
+        "#39D1DB",
+        "#CAF3F8"
+       ],
+       "offsets_before": [
+        0.0,
+        1.0
+       ],
+       "offsets": [
+        0.0,
+        1.0
+       ],
+       "orig_median": "#47D6E0",
+       "model_median_before": "#48CFD9",
+       "model_median_after": "#39D1DB",
+       "dE_before": 1.6753026226021401,
+       "dE_after": 1.401146953037386
+      }
+     },
+     "under_glyph_shadow": {
+      "without": {
+       "de_mean": 2.838,
+       "de_p95": 6.89
+      },
+      "best": {
+       "fill": "#010B1A",
+       "opacity": 0.4,
+       "dx": 0,
+       "dy": 0,
+       "spread": 4.0,
+       "de_mean": 2.832,
+       "de_p95": 6.97
+      },
+      "kept": false
+     }
+    }
+   }
+  }
+ },
+ "shapes": {
+  "background": {
+   "fill": "#F4F7FB"
+  },
+  "guides": {
+   "guide-h-205": {
+    "orient": "h",
+    "center": 205.09,
+    "from": 31.42,
+    "to": 689.63,
+    "width": 1.25
+   },
+   "guide-h-265": {
+    "orient": "h",
+    "center": 264.66,
+    "from": 371.04,
+    "to": 689.63,
+    "width": 1.25
+   },
+   "guide-h-294": {
+    "orient": "h",
+    "center": 293.63,
+    "from": 371.04,
+    "to": 689.63,
+    "width": 1.25
+   },
+   "guide-h-410": {
+    "orient": "h",
+    "center": 409.96,
+    "from": 31.42,
+    "to": 689.63,
+    "width": 1.25
+   },
+   "guide-v-62": {
+    "orient": "v",
+    "center": 62.17,
+    "from": 161.79,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-371": {
+    "orient": "v",
+    "center": 371.04,
+    "from": 161.79,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-401": {
+    "orient": "v",
+    "center": 401.42,
+    "from": 161.79,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-517": {
+    "orient": "v",
+    "center": 517.2,
+    "from": 264.66,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-538": {
+    "orient": "v",
+    "center": 538.1,
+    "from": 264.66,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-654": {
+    "orient": "v",
+    "center": 654.37,
+    "from": 161.79,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "_style": {
+    "stroke": "#CECFD3",
+    "width": 1.255
+   }
+  },
+  "dividers": {
+   "divider-header": {
+    "orient": "h",
+    "center": 147.42,
+    "from": 32.14,
+    "to": 1343.87,
+    "width": 1.749,
+    "width_at_fitted_ink": 1.7500000000000004,
+    "stroke": "#050912",
+    "fitted_ink": "#040913"
+   },
+   "divider-row-left": {
+    "orient": "h",
+    "center": 440.59,
+    "from": 31.6,
+    "to": 676.22,
+    "width": 1.611,
+    "width_at_fitted_ink": 1.6100000000000008,
+    "stroke": "#121823",
+    "fitted_ink": "#121823"
+   },
+   "divider-row-mid": {
+    "orient": "h",
+    "center": 440.58,
+    "from": 700.06,
+    "to": 999.46,
+    "width": 1.611,
+    "width_at_fitted_ink": 1.6100000000000008,
+    "stroke": "#121823",
+    "fitted_ink": "#121823"
+   },
+   "divider-row-right": {
+    "orient": "h",
+    "center": 440.59,
+    "from": 1023.67,
+    "to": 1344.62,
+    "width": 1.611,
+    "width_at_fitted_ink": 1.6100000000000008,
+    "stroke": "#121823",
+    "fitted_ink": "#121823"
+   },
+   "divider-col1-top": {
+    "orient": "v",
+    "center": 687.98,
+    "from": 168.58,
+    "to": 427.73,
+    "width": 2.06,
+    "width_at_fitted_ink": 2.060000000000001,
+    "stroke": "#303940",
+    "fitted_ink": "#303940"
+   },
+   "divider-col1-bottom": {
+    "orient": "v",
+    "center": 687.92,
+    "from": 453.97,
+    "to": 742.57,
+    "width": 2.06,
+    "width_at_fitted_ink": 2.060000000000001,
+    "stroke": "#303940",
+    "fitted_ink": "#303940"
+   },
+   "divider-col2": {
+    "orient": "v",
+    "center": 1011.63,
+    "from": 454.21,
+    "to": 742.52,
+    "width": 1.58,
+    "width_at_fitted_ink": 1.5900000000000007,
+    "stroke": "#10151E",
+    "fitted_ink": "#11171F"
+   },
+   "_style": {
+    "stroke": "#121B2A"
+   }
+  },
+  "swatches": {
+   "radius": 45.35,
+   "cy": 268.75,
+   "centers_x": {
+    "swatch-vibrant-blue": 788.32,
+    "swatch-bright-cyan": 908.22,
+    "swatch-deep-navy": 1027.94
+   },
+   "pure_white": {
+    "cx": 1147.0725313632106,
+    "stroke": "#282F3C",
+    "stroke_width": 1.531,
+    "outer_radius": 45.35,
+    "fitted": {
+     "width": 1.519528764690019,
+     "ink": "#272D3B"
+    },
+    "r_stroke": 44.59
+   },
+   "off_white": {
+    "cx": 1266.2960502233836,
+    "r_stroke": 44.65693706005452,
+    "stroke": "#97989F",
+    "stroke_width": 1.1599414275695739
+   },
+   "bright_cyan_glow": "radial gradient Bright Cyan 34% -> 0 over r 45.35..49.6 (soft glow in the original)"
+  },
+  "tiles": {
+   "tile-two-tone": [
+    401.41,
+    293.49,
+    517.54,
+    410.14
+   ],
+   "tile-flat": [
+    538.04,
+    293.46,
+    654.61,
+    410.06
+   ]
+  },
+  "clear_space": {
+   "color": "#8E5450",
+   "grid_stroke_width": 1.669,
+   "grid": {
+    "cs-h1": {
+     "orient": "h",
+     "center": 505.6015361314465,
+     "from": 715.0668492791182,
+     "to": 987.8982205270415,
+     "dash_start": 722.9660103400045,
+     "corner_stub": [
+      715.0668492791182,
+      719.7235830608168
+     ],
+     "dash": 6.072069260673128,
+     "gap": 3.2424272791876945,
+     "period": 9.314496539860823
+    },
+    "cs-h2": {
+     "orient": "h",
+     "center": 543.4937514890541,
+     "from": 715.0668492791182,
+     "to": 987.8982205270415,
+     "dash_start": 724.1540096252602,
+     "corner_stub": [
+      715.0668492791182,
+      721.2607152585103
+     ],
+     "dash": 6.367249146192535,
+     "gap": 2.8932943667498545,
+     "period": 9.26054351294239
+    },
+    "cs-h3": {
+     "orient": "h",
+     "center": 671.9433248351775,
+     "from": 715.0668492791182,
+     "to": 987.8982205270415,
+     "dash_start": 724.1633442446773,
+     "corner_stub": [
+      715.0668492791182,
+      721.2803859103867
+     ],
+     "dash": 6.372632989528148,
+     "gap": 2.8829583342905654,
+     "period": 9.255591323818713
+    },
+    "cs-h4": {
+     "orient": "h",
+     "center": 709.6125683516261,
+     "from": 715.0668492791182,
+     "to": 987.8982205270415,
+     "dash_start": 722.1589754865527,
+     "corner_stub": [
+      715.0668492791182,
+      719.0289460328116
+     ],
+     "dash": 6.208010352649408,
+     "gap": 3.1300294537409723,
+     "period": 9.33803980639038
+    },
+    "cs-v1": {
+     "orient": "v",
+     "center": 715.9011977128833,
+     "from": 504.76718769768127,
+     "to": 710.4469167853913,
+     "dash_start": 512.9325995860877,
+     "corner_stub": [
+      504.76718769768127,
+      509.69960900171054
+     ],
+     "dash": 5.997477091456699,
+     "gap": 3.2329905843771423,
+     "period": 9.230467675833841
+    },
+    "cs-v2": {
+     "orient": "v",
+     "center": 752.7274429884778,
+     "from": 504.76718769768127,
+     "to": 710.4469167853913,
+     "dash_start": 511.44876466333596,
+     "corner_stub": [
+      504.76718769768127,
+      508.7496312248594
+     ],
+     "dash": 6.084544168477697,
+     "gap": 2.6991334384765704,
+     "period": 8.783677606954267
+    },
+    "cs-v3": {
+     "orient": "v",
+     "center": 950.0033264435913,
+     "from": 504.76718769768127,
+     "to": 710.4469167853913,
+     "dash_start": 511.8724505877016,
+     "corner_stub": [
+      504.76718769768127,
+      508.7769454507959
+     ],
+     "dash": 5.687698353112689,
+     "gap": 3.0955051369057287,
+     "period": 8.783203490018417
+    },
+    "cs-v4": {
+     "orient": "v",
+     "center": 987.0638720932764,
+     "from": 504.76718769768127,
+     "to": 710.4469167853913,
+     "dash_start": 512.5510911291005,
+     "corner_stub": [
+      504.76718769768127,
+      509.7909087313653
+     ],
+     "dash": 6.495321640753241,
+     "gap": 2.7601823977352478,
+     "period": 9.255504038488489
+    }
+   },
+   "arrows": {
+    "cs-arrow-top": {
+     "axis": 858.6899956226905,
+     "tip_a": 506.095824794293,
+     "tip_b": 542.5365966491236,
+     "vertical": true
+    },
+    "cs-arrow-bottom": {
+     "axis": 858.7653145040751,
+     "tip_a": 672.3819774241558,
+     "tip_b": 709.2084450751705,
+     "vertical": true
+    },
+    "cs-arrow-left": {
+     "axis": 602.260548823188,
+     "tip_a": 716.050270605167,
+     "tip_b": 751.9385885031791,
+     "vertical": false
+    },
+    "cs-arrow-right": {
+     "axis": 602.3241460104769,
+     "tip_a": 950.6441645511959,
+     "tip_b": 986.2493123494444,
+     "vertical": false
+    },
+    "_style": {
+     "shaft_width": 1.6977024078473235,
+     "head_length": 6.554454714771209,
+     "head_half_width": 3.4985136069346883
+    }
+   },
+   "crosses": {
+    "cs-cross-tl": {
+     "cx": 734.8809380044875,
+     "cy": 524.9198044803745
+    },
+    "cs-cross-tr": {
+     "cx": 968.5215706373631,
+     "cy": 525.0258998576071
+    },
+    "cs-cross-bl": {
+     "cx": 734.8297336702482,
+     "cy": 690.5527714311511
+    },
+    "cs-cross-br": {
+     "cx": 968.466077311577,
+     "cy": 690.5166301470686
+    },
+    "_style": {
+     "half_size": 8.826112495106972,
+     "stroke_width": 2.0519362668579033
+    }
+   }
+  }
+ },
+ "verify": {
+  "de_mean_excl_slots": 1.86,
+  "de_p95_excl_slots": 6.05,
+  "regions": {
+   "flat_background": {
+    "de_mean": 1.08,
+    "de_p95": 1.84,
+    "pixels": 671203
+   },
+   "swatch_interiors": {
+    "de_mean": 1.41,
+    "de_p95": 2.76,
+    "pixels": 26860
+   },
+   "edges_text_lines": {
+    "de_mean": 4.17,
+    "de_p95": 13.31,
+    "pixels": 226287
+   }
+  },
+  "render": "VectorCraft at 4x, box-downsampled to 1x; slots (+3 px) excluded from every metric",
+  "text_iou_mean": 0.8682,
+  "text_iou_4x_mean": 0.8505,
+  "text_iou_min": 0.617,
+  "text_runs_below_0.88": [
+   "hero-tagline",
+   "name-blue",
+   "name-cyan",
+   "name-navy",
+   "name-offwhite",
+   "hex-blue",
+   "hex-cyan",
+   "hex-navy",
+   "hex-white",
+   "hex-offwhite",
+   "cs-x-top",
+   "cs-x-bottom",
+   "cs-x-left",
+   "cs-x-right"
+  ]
+ }
+}

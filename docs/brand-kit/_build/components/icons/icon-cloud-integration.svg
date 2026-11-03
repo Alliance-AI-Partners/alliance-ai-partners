@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-cloud-integration" width="48" height="48" viewBox="0 0 48 48">
+  <path id="icon-cloud-integration-link-left" d="M17 27.5 L17 34 C18.933 34 20.5 35.567 20.5 37.5 C20.5 39.433 18.933 41 17 41 C15.067 41 13.5 39.433 13.5 37.5 C13.5 35.567 15.067 34 17 34" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-cloud-integration-link-right" d="M31 27.5 L31 34 C32.933 34 34.5 35.567 34.5 37.5 C34.5 39.433 32.933 41 31 41 C29.067 41 27.5 39.433 27.5 37.5 C27.5 35.567 29.067 34 31 34" stroke="#00D5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-cloud-integration-cloud" d="M32.5 27.5 L18.5 27.5 C13.304 27.5 8.974 23.521 8.536 18.344 C8.097 13.167 11.696 8.516 16.818 7.642 C21.939 6.769 26.877 9.962 28.18 14.992 C30.592 13.101 33.952 12.998 36.475 14.738 C38.997 16.478 40.095 19.656 39.183 22.581 C38.272 25.507 35.564 27.5 32.5 27.5 Z" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

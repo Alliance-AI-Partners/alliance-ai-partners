@@ -1,0 +1,165 @@
+{
+ "tile_size": [
+  240,
+  240
+ ],
+ "units": "px (1 px = 1 px of original 02)",
+ "tiles": [
+  {
+   "name": "datamesh",
+   "file": "pattern-datamesh-tile.svg",
+   "size": [
+    240,
+    240
+   ],
+   "background": "#09122F",
+   "background_gradient": {
+    "x1": 0,
+    "x2": 240,
+    "stops": [
+     [
+      0,
+      "#09122F"
+     ],
+     [
+      0.5,
+      "#063360"
+     ],
+     [
+      1,
+      "#09122F"
+     ]
+    ]
+   },
+   "colors": [
+    "#0F244D",
+    "#203D71",
+    "#245089",
+    "#25668B",
+    "#2A65A4",
+    "#327DA1",
+    "#4098B6",
+    "#3CB4CD"
+   ],
+   "repeat": "grid",
+   "seam": "bars split exactly at the top/bottom edge; columns at (k+0.5)*240/39",
+   "source": "statistics of the data mesh in original 02 (pitch, bar width, run/gap lengths, segments per run, tone shares, coverage)",
+   "stats": {
+    "columns": 39,
+    "pitch": 6.154,
+    "bar_width": 4.5,
+    "segments": 542,
+    "coverage": 0.294,
+    "original_coverage": 0.294
+   }
+  },
+  {
+   "name": "halftone",
+   "file": "pattern-halftone-tile.svg",
+   "size": [
+    240,
+    240
+   ],
+   "background": "#121B2A",
+   "colors": [
+    "#00D5FF"
+   ],
+   "repeat": "grid",
+   "seam": "dots stay inside the tile (centres >= 3 px from the edges, r <= 3); fade is periodic in x+y",
+   "stats": {
+    "dots": 560,
+    "screen_angle_deg": 45,
+    "dot_pitch": 8.485,
+    "r_max": 3.0,
+    "fade": "r = 3 * ((1 + cos(2 pi (x + y) / 240)) / 2)^1.15"
+   }
+  },
+  {
+   "name": "ap-monogram",
+   "file": "pattern-ap-monogram-tile.svg",
+   "size": [
+    240,
+    240
+   ],
+   "background": "#121B2A",
+   "colors": [
+    "#1B2C48"
+   ],
+   "repeat": "grid",
+   "seam": "staggered lattice (80 x 60 px, rows offset 40) shifted a quarter step; every monogram lies inside the tile",
+   "stats": {
+    "monograms": 12,
+    "monogram_size": [
+     36.53,
+     22.0
+    ],
+    "segments_per_monogram": 39,
+    "trace_segments": 180
+   }
+  },
+  {
+   "name": "facets",
+   "file": "pattern-facets-tile.svg",
+   "size": [
+    240,
+    240
+   ],
+   "background": "#1A449D",
+   "colors": [
+    "#121B2A",
+    "#1B2C48",
+    "#1A449D",
+    "#3A5072",
+    "#1B56FF",
+    "#1794E1",
+    "#00D5FF"
+   ],
+   "repeat": "grid",
+   "seam": "periodic jittered 8x8 vertex lattice; facets of the neighbouring periods are clipped exactly to the tile",
+   "stats": {
+    "facets": 173,
+    "lattice": [
+     8,
+     8
+    ],
+    "cell": 30.0,
+    "jitter": 0.32,
+    "shading": "flat-shaded relief (vertex heights +-14 px, light from top-left) + periodic diagonal band (0.3), quantised to the ramp"
+   },
+   "ramp": [
+    "#121B2A",
+    "#1B2C48",
+    "#1A449D",
+    "#3A5072",
+    "#1B56FF",
+    "#1794E1",
+    "#00D5FF"
+   ]
+  },
+  {
+   "name": "ribbon-lines",
+   "file": "pattern-ribbon-lines-tile.svg",
+   "size": [
+    240,
+    240
+   ],
+   "background": "#121B2A",
+   "colors": [
+    "#00D5FF"
+   ],
+   "repeat": "grid",
+   "seam": "cosine period = 240 (flush butt ends at x=0/240); lines near the top/bottom edge are repeated one tile up/down (opaque, so overlaps are invisible); clip to the 240x240 tile",
+   "stats": {
+    "lines": 30,
+    "spacing": 8.0,
+    "amplitude": 18.0,
+    "stroke_width": [
+     0.45,
+     1.6
+    ],
+    "beziers_per_line": 7
+   }
+  }
+ ],
+ "notes": "Background is the first <rect id='bg'> of each tile. Make an Illustrator pattern with tile size 240x240 (Pattern Options, Size Tile to Art off)."
+}

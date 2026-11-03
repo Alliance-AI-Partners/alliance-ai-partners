@@ -1,0 +1,29 @@
+{
+ "area": "tokens",
+ "retrieved": "2026-11-02",
+ "files": [
+  {
+   "path": "tokens/tokens.json",
+   "format": "W3C DTCG JSON",
+   "description": "Source of truth: colour, gradient, font, typography, space, size, radius, border, shadow, opacity, zIndex, duration, easing, breakpoint.",
+   "derived": false
+  },
+  {
+   "path": "tokens/tokens.css",
+   "format": "CSS custom properties",
+   "description": "222 --aap-* properties on :root plus @font-face for Mona Sans and Mona Sans Mono.",
+   "generated_from": "tokens/tokens.json"
+  },
+  {
+   "path": "tokens/tailwind-theme.css",
+   "format": "Tailwind CSS v4 @theme",
+   "description": "Brand-only colour utilities, type roles, radii, shadows, easings and breakpoints mapped onto tokens.css.",
+   "generated_from": "tokens/tokens.json"
+  },
+  {
+   "path": "tokens/build-tokens.py",
+   "format": "Python 3",
+   "description": "The compiler that writes the three generated files."
+  }
+ ]
+}

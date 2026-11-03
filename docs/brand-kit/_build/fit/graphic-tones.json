@@ -1,0 +1,365 @@
+{
+ "rule": "palette colours exact; supporting tones merged when closer than dE2000 3 (usage-weighted)",
+ "merged": {},
+ "tones": [
+  {
+   "hex": "#09122F",
+   "name": "Ink Slate 6",
+   "palette": false,
+   "nearest_palette": "Deep Navy",
+   "de_to_nearest": 7.49,
+   "uses": 3,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#121B2A",
+   "name": "Deep Navy",
+   "palette": true,
+   "nearest_palette": "Deep Navy",
+   "de_to_nearest": 0.0,
+   "uses": 13,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg",
+    "pattern-ap-monogram-tile.svg",
+    "pattern-facets-tile.svg",
+    "pattern-halftone-tile.svg",
+    "pattern-ribbon-lines-tile.svg"
+   ]
+  },
+  {
+   "hex": "#0F244D",
+   "name": "Ink Royal Blue 15",
+   "palette": false,
+   "nearest_palette": "Deep Navy",
+   "de_to_nearest": 9.48,
+   "uses": 31,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "graphic-wave-master.svg",
+    "graphic-wave.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#1B2C48",
+   "name": "Ink Slate 18",
+   "palette": false,
+   "nearest_palette": "Deep Navy",
+   "de_to_nearest": 7.27,
+   "uses": 26,
+   "used_in": [
+    "pattern-ap-monogram-tile.svg",
+    "pattern-facets-tile.svg"
+   ]
+  },
+  {
+   "hex": "#063360",
+   "name": "Blue 21",
+   "palette": false,
+   "nearest_palette": "Deep Navy",
+   "de_to_nearest": 12.26,
+   "uses": 2,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#182E6F",
+   "name": "Royal Blue 21",
+   "palette": false,
+   "nearest_palette": "Deep Navy",
+   "de_to_nearest": 13.91,
+   "uses": 2,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#203D71",
+   "name": "Blue 26",
+   "palette": false,
+   "nearest_palette": "Deep Navy",
+   "de_to_nearest": 15.23,
+   "uses": 122,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "graphic-wave-master.svg",
+    "graphic-wave.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#1A449D",
+   "name": "Royal Blue 31",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 13.75,
+   "uses": 22,
+   "used_in": [
+    "pattern-facets-tile.svg"
+   ]
+  },
+  {
+   "hex": "#3A5072",
+   "name": "Slate 34",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 16.46,
+   "uses": 32,
+   "used_in": [
+    "pattern-facets-tile.svg"
+   ]
+  },
+  {
+   "hex": "#245089",
+   "name": "Blue 34",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 14.59,
+   "uses": 173,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "graphic-wave-master.svg",
+    "graphic-wave.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#204DB0",
+   "name": "Royal Blue 35",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 10.52,
+   "uses": 4,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#25668B",
+   "name": "Slate 41",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 13.57,
+   "uses": 79,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "graphic-wave-master.svg",
+    "graphic-wave.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#1C5CCB",
+   "name": "Royal Blue 42",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 7.24,
+   "uses": 2,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#2A65A4",
+   "name": "Blue 42",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 11.97,
+   "uses": 90,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "graphic-wave-master.svg",
+    "graphic-wave.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#196C85",
+   "name": "Muted Ocean 42",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 18.33,
+   "uses": 2,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#1B56FF",
+   "name": "Vibrant Blue",
+   "palette": true,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 0.0,
+   "uses": 46,
+   "used_in": [
+    "pattern-facets-tile.svg"
+   ]
+  },
+  {
+   "hex": "#1974AA",
+   "name": "Steel Blue 46",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 14.9,
+   "uses": 2,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#327DA1",
+   "name": "Steel Blue 49",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 16.23,
+   "uses": 67,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#1B71F8",
+   "name": "Royal Blue 50",
+   "palette": false,
+   "nearest_palette": "Vibrant Blue",
+   "de_to_nearest": 9.02,
+   "uses": 6,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#1794E1",
+   "name": "Blue 59",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 21.21,
+   "uses": 41,
+   "used_in": [
+    "pattern-facets-tile.svg"
+   ]
+  },
+  {
+   "hex": "#4098B6",
+   "name": "Ocean 59",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 16.81,
+   "uses": 108,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#129BB7",
+   "name": "Ocean 59+",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 16.1,
+   "uses": 6,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#0FA9D0",
+   "name": "Ocean 64",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 11.59,
+   "uses": 2,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#3CB4CD",
+   "name": "Teal 68",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 9.21,
+   "uses": 169,
+   "used_in": [
+    "graphic-datamesh.svg",
+    "pattern-datamesh-tile.svg"
+   ]
+  },
+  {
+   "hex": "#17BEF2",
+   "name": "Glow Cyan (wave halo)",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 6.79,
+   "uses": 28,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#12C6D6",
+   "name": "Teal 73",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 8.52,
+   "uses": 4,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#00D5FF",
+   "name": "Bright Cyan",
+   "palette": true,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 0.0,
+   "uses": 605,
+   "used_in": [
+    "pattern-facets-tile.svg",
+    "pattern-halftone-tile.svg",
+    "pattern-ribbon-lines-tile.svg"
+   ]
+  },
+  {
+   "hex": "#0DDCEC",
+   "name": "Teal 80",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 8.1,
+   "uses": 6,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  },
+  {
+   "hex": "#0BECF5",
+   "name": "Aqua 85",
+   "palette": false,
+   "nearest_palette": "Bright Cyan",
+   "de_to_nearest": 11.53,
+   "uses": 2,
+   "used_in": [
+    "graphic-wave-master.svg",
+    "graphic-wave.svg"
+   ]
+  }
+ ]
+}

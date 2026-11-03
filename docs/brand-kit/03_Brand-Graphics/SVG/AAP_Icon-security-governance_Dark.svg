@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" id="icon-security-governance-dark-Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="icon-security-governance-dark-security-governance">
+    <path id="icon-security-governance-dark-icon-security-governance-shield" d="M24,42.5c7.5-3.5,15-10,15-18.5v-13l-15-5.5-15,5.5v13c0,8.5,7.5,15,15,18.5Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-security-governance-dark-icon-security-governance-check" d="M16.5,23l5,5,10-10.5" fill="none" stroke="#00d5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

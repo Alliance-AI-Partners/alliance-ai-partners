@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T12:00:00Z",
+  "title": "Design System: Alliance AI Partners",
+  "extensions": {
+    "colorMeta": {
+      "alliance-blue": {
+        "role": "primary",
+        "displayName": "Alliance Blue",
+        "canonical": "#1B56FF",
+        "tonalRamp": [
+          "#000036",
+          "#000B74",
+          "#243F7B",
+          "#244EB6",
+          "#2153D8",
+          "#4077FD",
+          "#AFC9FE",
+          "#E8EEFF"
+        ]
+      },
+      "ribbon-cyan": {
+        "role": "secondary",
+        "displayName": "Ribbon Cyan",
+        "canonical": "#00D5FF",
+        "tonalRamp": [
+          "#000E15",
+          "#002A35",
+          "#004A5B",
+          "#0B6C82",
+          "#006DF5",
+          "#20B7DA",
+          "#60DBFD",
+          "#D6F5FE"
+        ]
+      },
+      "partner-navy": {
+        "role": "neutral",
+        "displayName": "Partner Navy",
+        "canonical": "#121B2A",
+        "tonalRamp": [
+          "#121B2A",
+          "#202C3E",
+          "#323E50",
+          "#495364",
+          "#60697A",
+          "#979FAB",
+          "#CCD1D9",
+          "#ECEFF4"
+        ]
+      },
+      "daylight": {
+        "role": "neutral",
+        "displayName": "Daylight",
+        "canonical": "#F4F7FB",
+        "tonalRamp": [
+          "#121B2A",
+          "#202C3E",
+          "#323E50",
+          "#495364",
+          "#60697A",
+          "#979FAB",
+          "#E3E6EC",
+          "#F4F7FB"
+        ]
+      },
+      "pure-white": {
+        "role": "neutral",
+        "displayName": "Pure White",
+        "canonical": "#FFFFFF"
+      },
+      "shading-partner-30": {
+        "role": "tertiary",
+        "displayName": "Partner 30 (ribbon edge, navy panel)",
+        "canonical": "#1A2D4E",
+        "tonalRamp": [
+          "#121B2A",
+          "#1A2D4E",
+          "#2E4265",
+          "#42587C",
+          "#4D6388",
+          "#95A6C1",
+          "#BFCBE0",
+          "#ECEFF4"
+        ]
+      },
+      "shading-partner-38": {
+        "role": "tertiary",
+        "displayName": "Partner 38",
+        "canonical": "#2E4265"
+      },
+      "shading-partner-46": {
+        "role": "tertiary",
+        "displayName": "Partner 46 (secondary text)",
+        "canonical": "#42587C"
+      },
+      "shading-partner-50": {
+        "role": "tertiary",
+        "displayName": "Partner 50",
+        "canonical": "#4D6388"
+      },
+      "shading-alliance-38": {
+        "role": "tertiary",
+        "displayName": "Alliance 38",
+        "canonical": "#243F7B"
+      },
+      "shading-alliance-46": {
+        "role": "tertiary",
+        "displayName": "Alliance 46 (pressed, ribbon shade)",
+        "canonical": "#244EB6"
+      },
+      "shading-alliance-50": {
+        "role": "tertiary",
+        "displayName": "Alliance 50 (hover)",
+        "canonical": "#2153D8"
+      },
+      "shading-ribbon-57": {
+        "role": "tertiary",
+        "displayName": "Ribbon 57 (the ribbon's turn)",
+        "canonical": "#006DF5"
+      },
+      "status-error": {
+        "role": "status",
+        "displayName": "Error",
+        "canonical": "#C42B42",
+        "tonalRamp": [
+          "#220002",
+          "#4D000E",
+          "#7F0020",
+          "#B31435",
+          "#DC4455",
+          "#FF8B9A",
+          "#FEB2B3",
+          "#FCEBEE"
+        ]
+      },
+      "status-success": {
+        "role": "status",
+        "displayName": "Success",
+        "canonical": "#0B7A55",
+        "tonalRamp": [
+          "#001006",
+          "#002E1D",
+          "#014F35",
+          "#0D7350",
+          "#369670",
+          "#5FD8A8",
+          "#A4D7BD",
+          "#E5F5EE"
+        ]
+      },
+      "status-warning": {
+        "role": "status",
+        "displayName": "Warning",
+        "canonical": "#8A5800",
+        "tonalRamp": [
+          "#170700",
+          "#371F00",
+          "#5C3A03",
+          "#855608",
+          "#AA762F",
+          "#FFC46B",
+          "#E3C39D",
+          "#FFF4DD"
+        ]
+      },
+      "print-black": {
+        "role": "print",
+        "displayName": "Print Black (K100, never on screen)",
+        "canonical": "#000000"
+      }
+    },
+    "typographyMeta": {
+      "display-xl": {
+        "displayName": "Display XL",
+        "purpose": "The one statement per page, Expanded width."
+      },
+      "display-lg": {
+        "displayName": "Display LG",
+        "purpose": "Chapter openers and showcase section titles, Expanded width."
+      },
+      "heading-1": {
+        "displayName": "Heading 1",
+        "purpose": "Page titles, Semi-expanded."
+      },
+      "heading-2": {
+        "displayName": "Heading 2",
+        "purpose": "Section titles, Semi-expanded."
+      },
+      "heading-3": {
+        "displayName": "Heading 3",
+        "purpose": "Sub-sections, card and step titles."
+      },
+      "heading-4": {
+        "displayName": "Heading 4",
+        "purpose": "Small headings and accordion summaries."
+      },
+      "body-lg": {
+        "displayName": "Lead",
+        "purpose": "Lead paragraphs in Partner 46, max 60ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, max 68ch."
+      },
+      "body-sm": {
+        "displayName": "Body small",
+        "purpose": "Secondary text and tables."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, form labels, nav and tabs, sentence case."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Captions, meta, help text, tags and chips."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Prices and figures, Expanded, tabular lining figures."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Sources, times, hex values and codes."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-xs",
+        "value": "0 1px 2px rgba(18, 27, 42, 0.06)",
+        "purpose": "Buttons and inputs at rest."
+      },
+      {
+        "name": "shadow-sm",
+        "value": "1px 2px 6px -1px rgba(18, 27, 42, 0.10), 0 1px 2px rgba(18, 27, 42, 0.05)",
+        "purpose": "Cards at rest, with the lit edge."
+      },
+      {
+        "name": "shadow-md",
+        "value": "2px 10px 24px -8px rgba(18, 27, 42, 0.18)",
+        "purpose": "Hovered cards, menus, the swatch strip. Light from the top left."
+      },
+      {
+        "name": "shadow-lg",
+        "value": "4px 24px 48px -16px rgba(18, 27, 42, 0.24)",
+        "purpose": "Dialogs and the hero object."
+      },
+      {
+        "name": "shadow-facet-edge",
+        "value": "inset 0 1px 0 rgba(255, 255, 255, 0.65)",
+        "purpose": "The lit top edge of a raised plane."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #1B56FF; outline-offset: 2px",
+        "purpose": "Keyboard focus on light grounds; Ribbon Cyan on navy."
+      },
+      {
+        "name": "ribbon-satin",
+        "value": "light from the top left (-0.45, -0.6, 0.66); face Alliance 46 to Ribbon 57 to Ribbon Cyan, highlight toward Daylight; back Partner 38; edge Partner 30",
+        "purpose": "How the thread is shaded: a twisting satin band, never an offset copy or a glow."
+      }
+    ],
+    "gradients": [
+      {
+        "name": "daybreak",
+        "value": "linear-gradient(115deg, #121B2A 0%, #1B56FF 54%, #00D5FF 100%)",
+        "purpose": "The signature gradient: hero bands, the line-form ribbon, brand graphics. Never behind small text."
+      },
+      {
+        "name": "ribbon",
+        "value": "linear-gradient(90deg, #006DF5 0%, #00D5FF 100%)",
+        "purpose": "The ribbon's turn: ribbon rules, the steps rule, the current-nav underline."
+      },
+      {
+        "name": "ribbon-face",
+        "value": "#244EB6 -> #006DF5 -> #00D5FF (vertical, per gap)",
+        "purpose": "The lit face of the showcase thread."
+      },
+      {
+        "name": "facet",
+        "value": "linear-gradient(135deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 60%)",
+        "purpose": "Top-left light on a raised plane."
+      }
+    ],
+    "motion": [
+      {
+        "name": "duration-instant",
+        "value": "80ms",
+        "purpose": "Press feedback."
+      },
+      {
+        "name": "duration-fast",
+        "value": "150ms",
+        "purpose": "Hover and colour."
+      },
+      {
+        "name": "duration-base",
+        "value": "240ms",
+        "purpose": "Most transitions."
+      },
+      {
+        "name": "duration-slow",
+        "value": "400ms",
+        "purpose": "Panels and reveals; 1ms under reduced motion."
+      },
+      {
+        "name": "duration-ribbon",
+        "value": "1400ms",
+        "purpose": "The ribbon drawing itself; 1ms under reduced motion."
+      },
+      {
+        "name": "easing-standard",
+        "value": "cubic-bezier(0.2, 0, 0, 1)",
+        "purpose": "Colour and opacity."
+      },
+      {
+        "name": "easing-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Entrances and reveals."
+      },
+      {
+        "name": "easing-in-out",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Symmetric moves."
+      },
+      {
+        "name": "easing-spring",
+        "value": "linear(0, 0.142 6%, 0.452 16%, 0.716 27%, 0.873 38%, 0.951 50%, 0.985 63%, 0.997 78%, 1)",
+        "purpose": "Anything that moves in space; critically damped, no overshoot."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      },
+      {
+        "name": "2xl",
+        "value": "1536px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one committing action in a view. Alliance Blue, once.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Download the logo kit</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 20px; border: 1px solid #78818F; border-radius: 10px; background: transparent; color: #121B2A; font: 540 14px/1 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.01em; text-decoration: none; cursor: pointer; transition: background-color 150ms cubic-bezier(0.2, 0, 0, 1), box-shadow 240ms cubic-bezier(0.2, 0, 0, 1), transform 80ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn:focus-visible { outline: 2px solid #1B56FF; outline-offset: 2px; } .ds-btn:active { transform: translateY(1px) scale(0.985); } .ds-btn-primary { background: #1B56FF; color: #FFFFFF; border-color: transparent; box-shadow: 0 1px 2px rgba(18, 27, 42, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.2); } .ds-btn-primary:hover { background: #2153D8; box-shadow: 1px 2px 6px -1px rgba(18, 27, 42, 0.10), 0 1px 2px rgba(18, 27, 42, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.2); } .ds-btn-primary:active { background: #244EB6; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Every other action: Partner Navy label on a Neutral 500 outline.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">Read the design system</a>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border: 1px solid #78818F; border-radius: 10px; background: transparent; color: #121B2A; font: 540 14px/1 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.01em; text-decoration: none; transition: background-color 150ms cubic-bezier(0.2, 0, 0, 1); } .ds-btn-secondary:hover { background: #E3E6EC; } .ds-btn-secondary:focus-visible { outline: 2px solid #1B56FF; outline-offset: 2px; } .ds-btn-secondary:active { transform: translateY(1px) scale(0.985); }"
+    },
+    {
+      "name": "Inline Link",
+      "kind": "custom",
+      "refersTo": "link",
+      "description": "Partner Navy, always underlined; Ribbon Cyan inside a navy chapter.",
+      "html": "<p class=\"ds-copy\">Every number has a <a class=\"ds-link\" href=\"#\">source and a date</a>.</p>",
+      "css": ".ds-copy { font: 400 16px/1.6 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; color: #121B2A; } .ds-link { color: #121B2A; text-decoration: underline 1px; text-underline-offset: 0.22em; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); transition: text-decoration-color 150ms cubic-bezier(0.2, 0, 0, 1); } .ds-link:hover { text-decoration-color: currentColor; } .ds-link:focus-visible { outline: 2px solid #1B56FF; outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "White field, 3:1 Neutral 500 border, Alliance Blue focus.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Work email</span><input class=\"ds-input\" type=\"email\" placeholder=\"you@company.com\"></label>",
+      "css": ".ds-field { display: grid; gap: 8px; } .ds-field-label { font: 540 14px/1.3 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; color: #121B2A; } .ds-input { min-height: 44px; padding: 0 16px; border: 1px solid #78818F; border-radius: 10px; background: #FFFFFF; color: #121B2A; font: 400 16px/1.4 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; box-shadow: 0 1px 2px rgba(18, 27, 42, 0.06); } .ds-input::placeholder { color: #60697A; } .ds-input:hover { border-color: #42587C; } .ds-input:focus-visible { outline: none; border-color: #1B56FF; box-shadow: 0 0 0 3px color-mix(in srgb, #1B56FF 28%, transparent); }"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "White plane lit from the top left: hairline, card shadow and lit edge, raised on hover.",
+      "html": "<a class=\"ds-card\" href=\"#\"><h3 class=\"ds-card-title\">Email signature</h3><p class=\"ds-card-text\">Light and dark versions, tested in Gmail and Outlook.</p></a>",
+      "css": ".ds-card { display: grid; gap: 12px; padding: 32px; border: 1px solid #D8DDE4; border-radius: 18px; background: #FFFFFF; color: #121B2A; text-decoration: none; box-shadow: 1px 2px 6px -1px rgba(18, 27, 42, 0.10), 0 1px 2px rgba(18, 27, 42, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.65); transition: box-shadow 240ms cubic-bezier(0.2, 0, 0, 1); } .ds-card:hover { box-shadow: 2px 10px 24px -8px rgba(18, 27, 42, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.65); } .ds-card:focus-visible { outline: 2px solid #1B56FF; outline-offset: 2px; } .ds-card-title { margin: 0; font: 600 22px/1.2 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.012em; } .ds-card-text { margin: 0; font: 400 15px/1.55 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; color: #42587C; }"
+    },
+    {
+      "name": "Tag and Status Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Quiet Neutral 50 tag; pill chip with a status dot.",
+      "html": "<span class=\"ds-tag\">SVG</span> <span class=\"ds-chip\">Live</span>",
+      "css": ".ds-tag { display: inline-flex; align-items: center; min-height: 26px; padding: 0 12px; border-radius: 4px; background: #ECEFF4; color: #42587C; font: 520 13px/1 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; } .ds-chip { display: inline-flex; align-items: center; gap: 8px; min-height: 28px; padding: 0 12px; border: 1px solid #CCD1D9; border-radius: 999px; color: #42587C; font: 520 13px/1 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; } .ds-chip::before { content: \"\"; width: 7px; height: 7px; border-radius: 50%; background: #0B7A55; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Partner 46 labels; the current page turns navy with a short ribbon underline.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link\" href=\"#\" aria-current=\"page\">Brand kit</a><a class=\"ds-nav-link\" href=\"#\">Design system</a><a class=\"ds-nav-link\" href=\"#\">Templates</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 32px; padding: 20px 24px; background: #F4F7FB; } .ds-nav-link { position: relative; padding-block: 8px; color: #42587C; font: 540 14px/1.2 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.01em; text-decoration: none; transition: color 150ms cubic-bezier(0.2, 0, 0, 1); } .ds-nav-link:hover, .ds-nav-link[aria-current=\"page\"] { color: #121B2A; } .ds-nav-link[aria-current=\"page\"]::after { content: \"\"; position: absolute; left: 0; bottom: 0; width: 20px; height: 2px; border-radius: 999px; background: linear-gradient(90deg, #006DF5 0%, #00D5FF 100%); } .ds-nav-link:focus-visible { outline: 2px solid #1B56FF; outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Navy Chapter",
+      "kind": "custom",
+      "refersTo": "chapter-inverse",
+      "description": "A whole Partner Navy section: Daylight type, the accent word in Ribbon Cyan, links Ribbon Cyan.",
+      "html": "<section class=\"ds-chapter\"><h2 class=\"ds-chapter-title\">The calm expert <span class=\"ds-accent\">in the room.</span></h2><p class=\"ds-chapter-text\">Start with the result. <a class=\"ds-chapter-link\" href=\"#\">Read the voice rules</a></p></section>",
+      "css": ".ds-chapter { padding: 72px 32px; background: #121B2A; color: #F4F7FB; } .ds-chapter-title { margin: 0 0 16px; font: 620 48px/1.02 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; font-stretch: 125%; letter-spacing: -0.03em; } .ds-accent { color: #00D5FF; } .ds-chapter-text { margin: 0; font: 400 18px/1.55 \"Mona Sans\", ui-sans-serif, system-ui, sans-serif; color: #BFCBE0; } .ds-chapter-link { color: #00D5FF; text-decoration: underline 1px; text-underline-offset: 0.22em; } .ds-chapter-link:focus-visible { outline: 2px solid #00D5FF; outline-offset: 2px; }"
+    },
+    {
+      "name": "The Ribbon",
+      "kind": "custom",
+      "refersTo": "ribbon",
+      "description": "The signature: a satin band lit from the top left, face Alliance 46 to Ribbon 57 to Ribbon Cyan, back Partner 38, edge Partner 30. The preview shows the face; the full form twists and is drawn by drawThread in brand-kit/index.html. Never a glow. About 15px wide at 1440 and about 8px on phones: it scales with the gutter, and the showcase keeps its side gutters at least 32px (--aap-space-gutter: 2rem) so the ribbon always has clear space beside the content.",
+      "html": "<svg class=\"ds-ribbon\" viewBox=\"0 0 600 140\" aria-hidden=\"true\"><defs><linearGradient id=\"ds-ribbon-face\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#00D5FF\"/><stop offset=\".45\" stop-color=\"#006DF5\"/><stop offset=\"1\" stop-color=\"#244EB6\"/></linearGradient></defs><path class=\"ds-ribbon-face\" d=\"M10 110 C 160 110, 220 30, 330 30 S 500 110, 590 40\" stroke=\"url(#ds-ribbon-face)\"/></svg>",
+      "css": ".ds-ribbon { display: block; width: 100%; height: auto; background: #F4F7FB; overflow: visible; } .ds-ribbon path { fill: none; stroke-width: 16px; stroke-linecap: butt; stroke-linejoin: round; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Ribbon",
+    "overview": "One continuous ribbon, the one that binds the A and the P in the mark, leaves the logo and ties the whole surface together. Everything else is taken from the same logo kit and nothing else: its palette, its eight shading tones, its top-left light, its wide wordmark, its facets and its swallow. The world is user-pinned and international by design; the Philippines base is a fact stated in copy, never a visual theme.\n\nThe ground is Daylight, calm and open, broken by whole Partner Navy chapters (the voice section, the footer). Type is Partner Navy and does the work; colour is rationed. Alliance Blue is reserved for the single action that commits, so it reads as a decision rather than decoration. Ribbon Cyan is light: the ribbon's lit end, accents on navy, focus on navy. Depth is lit the way the 3D mark is lit, from the top left, with soft directional shadows and a lit top edge, never glow, with blur only where it does a job.\n\nThe system refuses the AI-agency default of a dark grid, glowing gradients and three identical feature cards, and the usual AI imagery (sparkles, glowing brains, circuit boards, robot faces, purple-and-pink gradients).",
+    "keyCharacteristics": [
+      "Daylight ground with whole Partner Navy chapters; no other section grounds.",
+      "One Alliance Blue committing action per view; everything else interactive is navy.",
+      "The ribbon as the single signature: a satin band, lit from the top left, that twists to show its Partner 38 back.",
+      "Mona Sans Expanded display over normal-width text, Mona Sans Mono for sources, times and codes.",
+      "Depth lit from the top left: soft navy-tinted shadows and a lit top edge, never glow."
+    ],
+    "rules": [
+      {
+        "name": "The One Commitment Rule",
+        "body": "Alliance Blue fills exactly one committing action per view, the primary button. Links, accent words, form accents, checked controls, tabs and the current-city clock are never Alliance Blue. The focus ring stays blue as an accessibility affordance; the info alert's icon and edge and the first chart series are the only other blue, and they are status and data, not actions.",
+        "section": "colors"
+      },
+      {
+        "name": "The Navy Link Rule",
+        "body": "Links are Partner Navy and always underlined (a 1px underline at 45% that goes solid on hover); inside a navy chapter they turn Ribbon Cyan. Colour alone never marks a link.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light Not Text Rule",
+        "body": "Ribbon Cyan is never text on a light ground. It is the ribbon's light, and on navy it is the accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Grounds Rule",
+        "body": "A section's ground is Daylight or a whole Partner Navy chapter. The sunken Neutral 50 is a well for code, tables and quiet panels, never a section ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Wide Voice Rule",
+        "body": "Width carries rank: Expanded for display, Semi-expanded for section headings, normal width for everything a reader reads at length.",
+        "section": "typography"
+      },
+      {
+        "name": "The Light Accent Rule",
+        "body": "The one marked word in a headline drops to regular weight (400) on light grounds and turns Ribbon Cyan on navy. Never Alliance Blue, never a gradient fill.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Label Above Rule",
+        "body": "Nothing sits above a heading. There is no eyebrow role; dates and issue numbers go in a meta line below.",
+        "section": "typography"
+      },
+      {
+        "name": "The Top-Left Light Rule",
+        "body": "Every shadow and every gradient obeys one light source at the top left. A shadow that falls up or left, or a light that comes from below, is wrong.",
+        "section": "elevation"
+      },
+      {
+        "name": "The No Glow Rule",
+        "body": "Depth never comes from glow, bloom or neon, and blur is never decoration. The one material is the sticky header: translucent Daylight with a backdrop blur, a specific effect that keeps the bar legible over content scrolling beneath it and turns solid under reduced transparency. The ribbon is lit artwork, not a light source.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do draw every visual from the logo kit: the A+P ribbon mark, its palette and shading, the wave, facets, patterns and swallow. Nature is built from ribbon and facets.",
+      "Do keep Alliance Blue to the one committing action in view; make every other interactive accent Partner Navy (Ribbon Cyan inside a navy chapter).",
+      "Do underline every inline link.",
+      "Do light depth from the top left: navy-tinted shadows falling down and right, plus a lit top edge on raised planes.",
+      "Do set display type at Expanded width with negative tracking, and running text at normal width within 68ch.",
+      "Do put sources, times, codes and hex values in Mona Sans Mono with tabular figures.",
+      "Do keep all text at WCAG AA or better on its ground.",
+      "Do keep the glow of the graphic-wave artwork to hero and print use, never behind UI text or controls."
+    ],
+    "donts": [
+      "Don't use Alliance Blue for links, accent words, checked controls, tabs or form accents.",
+      "Don't set Ribbon Cyan as text on Daylight or white.",
+      "Don't use the sunken Neutral 50 well, or any third tone, as a section ground.",
+      "Don't create depth with glow, neon or bloom, don't use blur as decoration (the sticky header's material is the one functional use), and don't draw the ribbon as a glowing line or as an offset copy of itself.",
+      "Don't put the Daybreak gradient behind small text, or fill text with a gradient.",
+      "Don't put a small label above a heading.",
+      "Don't use Philippine or other regional cultural motifs; the base is stated in copy, never shown as a theme.",
+      "Don't use sparkles, glowing brains, circuit boards, robot faces, or purple-and-pink gradients.",
+      "Don't use Print Black on screen."
+    ]
+  }
+}

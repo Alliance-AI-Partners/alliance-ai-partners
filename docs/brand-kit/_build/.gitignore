@@ -1,0 +1,6 @@
+__pycache__/
+# regenerable intermediates of the vectorising pipelines (~0.5 GB); their .py sources are kept
+work/**/*.png
+work/**/*.pkl
+work/**/*.npy
+work/**/*.npz

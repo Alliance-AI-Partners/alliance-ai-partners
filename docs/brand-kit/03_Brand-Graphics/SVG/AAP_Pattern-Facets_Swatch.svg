@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="405" id="pattern-facets-swatch-Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 405">
+  <defs>
+    <clipPath id="pattern-facets-swatch-clippath">
+      <rect width="240" height="240" fill="none"/>
+    </clipPath>
+    <pattern id="pattern-facets-swatch-AAP_Pattern_Facets" data-name="AAP Pattern Facets" x="0" y="0" width="240" height="240" patternTransform="translate(-456 515)" patternUnits="userSpaceOnUse" viewBox="0 0 240 240">
+      <g>
+        <rect width="240" height="240" fill="none"/>
+        <g clip-path="url(#pattern-facets-swatch-clippath)">
+          <g id="pattern-facets-swatch-Facets_tile" data-name="Facets tile">
+            <rect id="pattern-facets-swatch-bg" width="240" height="240" fill="#244eb6"/>
+            <g id="pattern-facets-swatch-facets">
+              <path id="pattern-facets-swatch-facet-001" d="M38.97,3.51l-1.97-3.51h-2.62l4.59,3.51Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-002" d="M18.24,0l20.73,3.51-4.59-3.51h-16.14Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-003" d="M38.97,3.51l1.94-3.51h-3.91l1.97,3.51Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-004" d="M38.97,3.51l24.48,3.2-.48-6.71h-22.06l-1.94,3.51Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-005" d="M63.45,6.71l4.34-6.71h-4.82l.48,6.71Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-006" d="M63.45,6.71l8.14-6.71h-3.8l-4.34,6.71Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-007" d="M110.78,6.39l2.33-6.39h-5.07l2.74,6.39Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-008" d="M98.86,0l11.92,6.39-2.74-6.39h-9.18Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-009" d="M110.78,6.39l6.09-6.39h-3.76l-2.33,6.39Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-010" d="M110.78,6.39l18.87-6.39h-12.78l-6.09,6.39Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-011" d="M201.85,0l7.32,3.24.71-3.24h-8.03Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-012" d="M209.17,3.24l11.96-3.24h-11.25l-.71,3.24Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-013" d="M6.03,22.16L0,7.36v11.71l6.03,3.09Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-014" d="M0,25.34l6.03-3.18-6.03-3.09v6.27Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-015" d="M6.03,22.16L38.97,3.51,18.24,0H0v7.36l6.03,14.8Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-016" d="M6.03,22.16l21.89,1.84L38.97,3.51,6.03,22.16Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-017" d="M62.77,28.21l.68-21.5-24.48-3.2,23.8,24.7Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-018" d="M27.92,24l34.85,4.21L38.97,3.51l-11.05,20.49Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-019" d="M62.77,28.21L77.66,0h-6.07l-8.14,6.71-.68,21.5Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-020" d="M62.77,28.21l31.11.95L85.02,0h-7.36l-14.89,28.21Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-021" d="M112.31,29.05l-1.53-22.66-11.92-6.39h-9.52l22.97,29.05Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-022" d="M93.88,29.16l18.43-.11L89.34,0h-4.32l8.86,29.16Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-023" d="M158.2,35.46L142.9,0h-13.25l-18.87,6.39,47.42,29.07Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-024" d="M112.31,29.05l45.89,6.41L110.78,6.39l1.53,22.66Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-025" d="M158.2,35.46L175.76,0h-32.86l15.3,35.46Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-026" d="M158.2,35.46l15.04-11.03,5.2-24.43h-2.68l-17.56,35.46Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-027" d="M173.24,24.43L209.17,3.24l-7.32-3.24h-23.41l-5.2,24.43Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-028" d="M173.24,24.43l44.5,12.62-8.57-33.81-35.93,21.19Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-029" d="M240,7.36l-3-7.36h-15.87l-11.96,3.24,30.83,15.83V7.36Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-030" d="M217.74,37.05l22.26-11.71v-6.27l-30.83-15.83,8.57,33.81Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-031" d="M237,0l3,7.36V0h-3Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-032" d="M0,27.97l6.03-5.81-6.03,3.18v2.63Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-033" d="M0,63.44l1.92.95L6.03,22.16,0,27.97v35.47Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-034" d="M27.04,60.21l.88-36.21-21.89-1.84,21.01,38.05Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-035" d="M1.92,64.39l25.12-4.18L6.03,22.16,1.92,64.39Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-036" d="M27.04,60.21L62.77,28.21l-34.85-4.21-.88,36.21Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-037" d="M27.04,60.21l33.28,1.58,2.45-33.58L27.04,60.21Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-038" d="M97.64,66.44l-3.76-37.28-31.11-.95,34.87,38.23Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-039" d="M60.32,61.79l37.32,4.65L62.77,28.21l-2.45,33.58Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-040" d="M97.64,66.44l14.67-37.39-18.43.11,3.76,37.28Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-041" d="M97.64,66.44l22.14-4.13-7.47-33.26-14.67,37.39Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-042" d="M140.65,56.1l17.55-20.64-45.89-6.41,28.34,27.05Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-043" d="M119.78,62.31l20.87-6.21-28.34-27.05,7.47,33.26Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-044" d="M178.86,56.2l-5.62-31.77-15.04,11.03,20.66,20.74Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-045" d="M140.65,56.1l38.21.1-20.66-20.74-17.55,20.64Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-046" d="M215.64,51.41l2.1-14.36-44.5-12.62,42.4,26.98Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-047" d="M178.86,56.2l36.78-4.79-42.4-26.98,5.62,31.77Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-048" d="M215.64,51.41l24.36-23.44v-2.63l-22.26,11.71-2.1,14.36Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-049" d="M215.64,51.41l24.36,12.03V27.97l-24.36,23.44Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-050" d="M0,66.74l1.92-2.35-1.92-.95v3.3Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-051" d="M0,68.53l1.92-4.14-1.92,2.35v1.79Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-052" d="M0,77.6l27.04-17.39-25.12,4.18-1.92,4.14v9.07Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-053" d="M0,83.36l37.51,11.93-10.47-35.08L0,77.6v5.76Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-054" d="M66.95,88.81l-6.63-27.02-33.28-1.58,39.91,28.6Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-055" d="M37.51,95.29l29.44-6.48-39.91-28.6,10.47,35.08Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-056" d="M87.79,99.09l9.85-32.65-37.32-4.65,27.47,37.3Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-057" d="M66.95,88.81l20.84,10.28-27.47-37.3,6.63,27.02Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-058" d="M87.79,99.09l31.99-36.78-22.14,4.13-9.85,32.65Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-059" d="M87.79,99.09l32.29-.69-.3-36.09-31.99,36.78Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-060" d="M140.59,96.29l.06-40.19-20.87,6.21,20.81,33.98Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-061" d="M120.08,98.4l20.51-2.11-20.81-33.98.3,36.09Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-062" d="M182.18,85.88l-3.32-29.68-38.21-.1,41.53,29.78Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-063" d="M140.59,96.29l41.59-10.41-41.53-29.78-.06,40.19Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-064" d="M182.18,85.88l33.46-34.47-36.78,4.79,3.32,29.68Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-065" d="M182.18,85.88l36.97,6.32-3.51-40.79-33.46,34.47Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-066" d="M219.15,92.2l20.85-25.46v-3.3l-24.36-12.03,3.51,40.79Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-067" d="M219.15,92.2l14.86-10.74,5.99-12.93v-1.79l-20.85,25.46Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-068" d="M234.01,81.46l5.99-3.86v-9.07l-5.99,12.93Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-069" d="M234.01,81.46l5.99,1.9v-5.76l-5.99,3.86Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-070" d="M0,120.16l37.51-24.87L0,83.36v36.8Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-071" d="M0,123.74l26.51,4.4,11-32.85L0,120.16v3.58Z" fill="#121b2a"/>
+              <path id="pattern-facets-swatch-facet-072" d="M67.53,122.18l-.58-33.37-29.44,6.48,30.02,26.89Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-073" d="M26.51,128.14l41.02-5.96-30.02-26.89-11,32.85Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-074" d="M67.53,122.18l20.26-23.09-20.84-10.28.58,33.37Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-075" d="M67.53,122.18l24.24,2.92-3.98-26.01-20.26,23.09Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-076" d="M91.77,125.1l28.31-26.7-32.29.69,3.98,26.01Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-077" d="M91.77,125.1l33.04-3.67-4.73-23.03-28.31,26.7Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-078" d="M124.81,121.43l15.78-25.14-20.51,2.11,4.73,23.03Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-079" d="M124.81,121.43l17.71-9.93-1.93-15.21-15.78,25.14Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-080" d="M187.86,128.87l-5.68-42.99-41.59,10.41,47.27,32.58Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-081" d="M142.52,111.5l45.34,17.37-47.27-32.58,1.93,15.21Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-082" d="M202.05,115.29l17.1-23.09-36.97-6.32,19.87,29.41Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-083" d="M187.86,128.87l14.19-13.58-19.87-29.41,5.68,42.99Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-084" d="M235.68,123.02l-1.67-41.56-14.86,10.74,16.53,30.82Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-085" d="M202.05,115.29l33.63,7.73-16.53-30.82-17.1,23.09Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-086" d="M235.68,123.02l4.32-2.86v-36.8l-5.99-1.9,1.67,41.56Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-087" d="M235.68,123.02l4.32.72v-3.58l-4.32,2.86Z" fill="#121b2a"/>
+              <path id="pattern-facets-swatch-facet-088" d="M1.2,143.28l-1.2-4.39v3.54l1.2.85Z" fill="#121b2a"/>
+              <path id="pattern-facets-swatch-facet-089" d="M0,143.47l1.2-.19-1.2-.85v1.04Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-090" d="M29.44,153.72l-2.93-25.58L0,123.74v3.21l29.44,26.77Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-091" d="M1.2,143.28l28.24,10.44L0,126.95v11.94l1.2,4.39Z" fill="#121b2a"/>
+              <path id="pattern-facets-swatch-facet-092" d="M66.32,149.96l1.21-27.78-41.02,5.96,39.81,21.82Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-093" d="M29.44,153.72l36.88-3.76-39.81-21.82,2.93,25.58Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-094" d="M88.22,144.17l3.55-19.07-24.24-2.92,20.69,21.99Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-095" d="M66.32,149.96l21.9-5.79-20.69-21.99-1.21,27.78Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-096" d="M88.22,144.17l36.59-22.74-33.04,3.67-3.55,19.07Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-097" d="M88.22,144.17l34.03,5.96,2.56-28.7-36.59,22.74Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-098" d="M122.25,150.13l20.27-38.63-17.71,9.93-2.56,28.7Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-099" d="M122.25,150.13l37-1.17-16.73-37.46-20.27,38.63Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-100" d="M171.54,144.41l16.32-15.54-45.34-17.37,29.02,32.91Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-101" d="M159.25,148.96l12.29-4.55-29.02-32.91,16.73,37.46Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-102" d="M171.54,144.41l30.51-29.12-14.19,13.58-16.32,15.54Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-103" d="M171.54,144.41l40.78,3.39-10.27-32.51-30.51,29.12Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-104" d="M240,138.89l-4.32-15.87-33.63-7.73,37.95,27.14v-3.54Z" fill="#121b2a"/>
+              <path id="pattern-facets-swatch-facet-105" d="M212.32,147.8l27.68-4.33v-1.04l-37.95-27.14,10.27,32.51Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-106" d="M240,123.74l-4.32-.72,4.32,3.93v-3.21Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-107" d="M240,126.95l-4.32-3.93,4.32,15.87v-11.94Z" fill="#121b2a"/>
+              <path id="pattern-facets-swatch-facet-108" d="M0,162.48l1.2-19.2-1.2.19v19.01Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-109" d="M0,182.01l29.44-28.29-28.24-10.44-1.2,19.2v19.53Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-110" d="M0,182.66l22.46-10.25,6.98-18.69L0,182.01v.65Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-111" d="M22.46,172.41l43.86-22.45-36.88,3.76-6.98,18.69Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-112" d="M22.46,172.41l41.24,4.5,2.62-26.95-43.86,22.45Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-113" d="M63.7,176.91l24.52-32.74-21.9,5.79-2.62,26.95Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-114" d="M63.7,176.91l20-3.03,4.52-29.71-24.52,32.74Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-115" d="M83.7,173.88l38.55-23.75-34.03-5.96-4.52,29.71Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-116" d="M83.7,173.88l45.22.87-6.67-24.62-38.55,23.75Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-117" d="M146.51,171.34l12.74-22.38-37,1.17,24.26,21.21Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-118" d="M128.92,174.75l17.59-3.41-24.26-21.21,6.67,24.62Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-119" d="M146.51,171.34l25.03-26.93-12.29,4.55-12.74,22.38Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-120" d="M146.51,171.34l34.7,13.86-9.67-40.79-25.03,26.93Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-121" d="M181.21,185.2l31.11-37.4-40.78-3.39,9.67,40.79Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-122" d="M181.21,185.2l27.76.65,3.35-38.05-31.11,37.4Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-123" d="M238.71,183.25l1.29-20.77v-19.01l-27.68,4.33,26.39,35.45Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-124" d="M208.97,185.85l29.74-2.6-26.39-35.45-3.35,38.05Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-125" d="M238.71,183.25l1.29-1.24v-19.53l-1.29,20.77Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-126" d="M238.71,183.25l1.29-.59v-.65l-1.29,1.24Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-127" d="M0,210.07l22.46-37.66L0,182.66v27.41Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-128" d="M0,212.83l24.28,4.55-1.82-44.97L0,210.07v2.76Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-129" d="M24.28,217.38l39.42-40.47-41.24-4.5,1.82,44.97Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-130" d="M24.28,217.38l36.16-12.83,3.26-27.64-39.42,40.47Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-131" d="M91.99,202.56l-8.29-28.68-20,3.03,28.29,25.65Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-132" d="M60.44,204.55l31.55-1.99-28.29-25.65-3.26,27.64Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-133" d="M123.63,211.06l5.29-36.31-45.22-.87,39.93,37.18Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-134" d="M91.99,202.56l31.64,8.5-39.93-37.18,8.29,28.68Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-135" d="M123.63,211.06l22.88-39.72-17.59,3.41-5.29,36.31Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-136" d="M123.63,211.06l24.25-3.63-1.37-36.09-22.88,39.72Z" fill="#121b2a"/>
+              <path id="pattern-facets-swatch-facet-137" d="M147.88,207.43l33.33-22.23-34.7-13.86,1.37,36.09Z" fill="#121b2a"/>
+              <path id="pattern-facets-swatch-facet-138" d="M147.88,207.43l23.75-3.48,9.58-18.75-33.33,22.23Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-139" d="M171.63,203.95l37.34-18.1-27.76-.65-9.58,18.75Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-140" d="M171.63,203.95l44.59,6.95-7.25-25.05-37.34,18.1Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-141" d="M238.52,212.56l.19-29.31-29.74,2.6,29.55,26.71Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-142" d="M216.22,210.9l22.3,1.66-29.55-26.71,7.25,25.05Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-143" d="M238.52,212.56l1.48-2.49v-27.41l-1.29.59-.19,29.31Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-144" d="M238.52,212.56l1.48.27v-2.76l-1.48,2.49Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-145" d="M37,240l-12.72-22.62-24.28-4.55v.86l34.38,26.31h2.62Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-146" d="M0,236.91l18.24,3.09h16.14L0,213.69v23.22Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-147" d="M40.91,240l19.53-35.45-36.16,12.83,12.72,22.62h3.91Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-148" d="M62.97,240l-2.53-35.45-19.53,35.45h22.06Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-149" d="M67.79,240l24.2-37.44-31.55,1.99,2.53,35.45h4.82Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-150" d="M71.59,240l10.74-8.86,9.66-28.58-24.2,37.44h3.8Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-151" d="M113.11,240l10.52-28.94-31.64-8.5,16.05,37.44h5.07Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-152" d="M82.33,231.14l16.53,8.86h9.18l-16.05-37.44-9.66,28.58Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-153" d="M116.87,240l31.01-32.57-24.25,3.63-10.52,28.94h3.76Z" fill="#1a2d4e"/>
+              <path id="pattern-facets-swatch-facet-154" d="M129.65,240l11.56-3.91,6.67-28.66-31.01,32.57h12.78Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-155" d="M141.21,236.09l30.42-32.14-23.75,3.48-6.67,28.66Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-156" d="M141.21,236.09l39.24-5.56-8.82-26.58-30.42,32.14Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-157" d="M180.45,230.53l35.77-19.63-44.59-6.95,8.82,26.58Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-158" d="M180.45,230.53l21.4,9.47h8.03l6.34-29.1-35.77,19.63Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-159" d="M235.42,236.13l3.1-23.57-22.3-1.66,19.2,25.23Z" fill="#00d5ff"/>
+              <path id="pattern-facets-swatch-facet-160" d="M221.13,240l14.29-3.87-19.2-25.23-6.34,29.1h11.25Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-161" d="M240,212.83l-1.48-.27,1.48,1.13v-.86Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-162" d="M235.42,236.13l4.58.78v-23.22l-1.48-1.13-3.1,23.57Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-163" d="M18.24,240l-18.24-3.09v3.09h18.24Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-164" d="M77.66,240l4.67-8.86-10.74,8.86h6.07Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-165" d="M85.02,240l-2.69-8.86-4.67,8.86h7.36Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-166" d="M98.86,240l-16.53-8.86,7.01,8.86h9.52Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-167" d="M89.34,240l-7.01-8.86,2.69,8.86h4.32Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-168" d="M142.9,240l-1.69-3.91-11.56,3.91h13.25Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-169" d="M175.76,240l4.69-9.47-39.24,5.56,1.69,3.91h32.86Z" fill="#244eb6"/>
+              <path id="pattern-facets-swatch-facet-170" d="M178.44,240l2.01-9.47-4.69,9.47h2.68Z" fill="#006df5"/>
+              <path id="pattern-facets-swatch-facet-171" d="M201.85,240l-21.4-9.47-2.01,9.47h23.41Z" fill="#42587c"/>
+              <path id="pattern-facets-swatch-facet-172" d="M237,240l-1.58-3.87-14.29,3.87h15.87Z" fill="#1b56ff"/>
+              <path id="pattern-facets-swatch-facet-173" d="M240,236.91l-4.58-.78,1.58,3.87h3v-3.09Z" fill="#42587c"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </pattern>
+  </defs>
+  <rect id="pattern-facets-swatch-Facets_swatch_preview" data-name="Facets swatch preview" width="720" height="405" fill="url(#pattern-facets-swatch-AAP_Pattern_Facets)"/>
+</svg>

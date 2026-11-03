@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-partnership" width="48" height="48" viewBox="0 0 48 48">
+<rect id="aap-ref" x="0" y="0" width="48" height="48" fill="none"/>
+  <path id="icon-partnership-ring-left" d="M17.958 36 C12.455 35.981 7.67 32.22 6.35 26.878 C5.03 21.535 7.514 15.979 12.376 13.4 C17.237 10.82 23.23 11.878 26.914 15.967 C30.599 20.055 31.03 26.125 27.96 30.693" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-partnership-ring-right" d="M30.042 12 C35.545 12.019 40.33 15.78 41.65 21.122 C42.97 26.465 40.486 32.021 35.624 34.6 C30.763 37.18 24.77 36.122 21.086 32.033 C17.401 27.945 16.97 21.875 20.04 17.307" stroke="#00D5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

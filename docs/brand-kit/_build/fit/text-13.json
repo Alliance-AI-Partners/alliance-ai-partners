@@ -1,0 +1,334 @@
+{
+ "id": "13",
+ "source": "a9ff3937-6b76-4717-b0fd-356a7cf4de8c.jpeg",
+ "description": "Horizontal: gradient AP + name + cyan rule + 'ENTERPRISE AI CONSULTING'",
+ "space": "source image pixels, y down; size in pt = px; x = first glyph origin (pen position) on the baseline; tracking in Illustrator units (1/1000 em after every character); colors ranges are [start, end) char indices",
+ "image_size": [
+  1376,
+  768
+ ],
+ "svg": "fit/text-13.svg",
+ "svg_render_check": {
+  "de_mean": 2.87,
+  "de_p95": 14.61,
+  "region": "union of the text boxes"
+ },
+ "runs": [
+  {
+   "id": "text-13-wordmark",
+   "string": "ALLIANCE AI PARTNERS",
+   "font": "Montserrat-Bold",
+   "style": "Bold",
+   "size": 64.736,
+   "tracking": -17.85,
+   "x": 496.697,
+   "baseline": 371.504,
+   "align": "left",
+   "kerning": "Auto (metrics)",
+   "cap_height": 45.318,
+   "ink_bbox": [
+    496.11,
+    325.41,
+    1287.23,
+    372.28
+   ],
+   "ink_center_x": 891.67,
+   "colors": [
+    {
+     "start": 0,
+     "end": 9,
+     "text": "ALLIANCE ",
+     "hex": "#081638",
+     "swatch": "Ink Navy B",
+     "measured_hex": "#081739",
+     "dE": 8.18,
+     "nearest_core": "Deep Navy"
+    },
+    {
+     "start": 9,
+     "end": 11,
+     "text": "AI",
+     "hex": "#1451CC",
+     "swatch": "Accent Blue B",
+     "measured_hex": "#1451CC",
+     "dE": 6.95,
+     "nearest_core": "Vibrant Blue"
+    },
+    {
+     "start": 11,
+     "end": 20,
+     "text": " PARTNERS",
+     "hex": "#081638",
+     "swatch": "Ink Navy B",
+     "measured_hex": "#081639",
+     "dE": 8.6,
+     "nearest_core": "Deep Navy"
+    }
+   ],
+   "iou": 0.9173,
+   "edge_err_px": 0.358,
+   "style_check": {
+    "chosen_by": "IoU",
+    "candidates": [
+     {
+      "style": "Bold",
+      "iou": 0.9173,
+      "soft": 0.904,
+      "stem_render": 10.7,
+      "p": [
+       64.736,
+       -17.853,
+       496.697,
+       371.504
+      ]
+     },
+     {
+      "style": "ExtraBold",
+      "iou": 0.8587,
+      "soft": 0.8393,
+      "stem_render": 12.6,
+      "p": [
+       62.985,
+       -9.902,
+       496.473,
+       370.527
+      ]
+     },
+     {
+      "style": "SemiBold",
+      "iou": 0.7965,
+      "soft": 0.7988,
+      "stem_render": 8.9,
+      "p": [
+       66.227,
+       -23.25,
+       496.883,
+       371.833
+      ]
+     }
+    ],
+    "stem_px_original": 10.71,
+    "stem_px_fit": 10.7
+   },
+   "faithful_spacing": {
+    "note": "optional: reproduces the original's own (irregular, AI-made) letter spacing. Set x to this x and give each character its own tracking (1/1000 em after that character); Auto kerning unchanged.",
+    "x": 496.697,
+    "tracking_per_char": [
+     -10.1,
+     -31.4,
+     -14.0,
+     -10.1,
+     -19.8,
+     -27.5,
+     -21.7,
+     -10.1,
+     -17.9,
+     -21.7,
+     1.5,
+     -17.9,
+     -27.5,
+     -14.0,
+     -21.7,
+     -17.9,
+     -25.6,
+     -23.6,
+     -17.9,
+     -17.9
+    ],
+    "glyph_shift_px": {
+     "0": 0.0,
+     "1": 0.5,
+     "2": -0.375,
+     "3": -0.125,
+     "4": 0.375,
+     "5": 0.25,
+     "6": -0.375,
+     "7": -0.625,
+     "9": -0.125,
+     "10": -0.375,
+     "12": 0.875,
+     "13": 0.25,
+     "14": 0.5,
+     "15": 0.25,
+     "16": 0.25,
+     "17": -0.25,
+     "18": -0.625,
+     "19": -0.625
+    },
+    "iou": 0.9314
+   },
+   "measured": {
+    "bg": "#FEFFFF",
+    "fg_kmeans": [
+     "#071638",
+     "#1450CB"
+    ]
+   },
+   "iou_svg_render": 0.9144,
+   "svg_render_dE": {
+    "de_mean": 2.66,
+    "de_p95": 16.32
+   }
+  },
+  {
+   "id": "text-13-descriptor",
+   "string": "ENTERPRISE AI CONSULTING",
+   "font": "Montserrat-Medium",
+   "style": "Medium",
+   "size": 48.376,
+   "tracking": 73.16,
+   "x": 490.741,
+   "baseline": 465.548,
+   "align": "left",
+   "kerning": "Auto (metrics)",
+   "cap_height": 33.865,
+   "ink_bbox": [
+    495.82,
+    431.3,
+    1285.54,
+    465.94
+   ],
+   "ink_center_x": 890.68,
+   "colors": [
+    {
+     "start": 0,
+     "end": 24,
+     "text": "ENTERPRISE AI CONSULTING",
+     "hex": "#081638",
+     "swatch": "Ink Navy B",
+     "measured_hex": "#081436",
+     "dE": 8.69,
+     "nearest_core": "Deep Navy"
+    }
+   ],
+   "iou": 0.8098,
+   "edge_err_px": 0.432,
+   "style_check": {
+    "chosen_by": "IoU",
+    "candidates": [
+     {
+      "style": "Medium",
+      "iou": 0.8098,
+      "soft": 0.8072,
+      "stem_render": 5.083333333333333,
+      "p": [
+       48.376,
+       73.158,
+       490.741,
+       465.548
+      ]
+     },
+     {
+      "style": "SemiBold",
+      "iou": 0.8045,
+      "soft": 0.7762,
+      "stem_render": 6.583333333333333,
+      "p": [
+       48.957,
+       59.866,
+       490.55,
+       465.77
+      ]
+     },
+     {
+      "style": "Bold",
+      "iou": 0.6892,
+      "soft": 0.6714,
+      "stem_render": 8.125,
+      "p": [
+       48.939,
+       51.902,
+       491.823,
+       465.753
+      ]
+     }
+    ],
+    "stem_px_original": 4.97,
+    "stem_px_fit": 5.08
+   },
+   "faithful_spacing": {
+    "note": "optional: reproduces the original's own (irregular, AI-made) letter spacing. Set x to this x and give each character its own tracking (1/1000 em after that character); Auto kerning unchanged.",
+    "x": 491.991,
+    "tracking_per_char": [
+     57.7,
+     78.3,
+     68.0,
+     75.7,
+     57.7,
+     52.5,
+     78.3,
+     78.3,
+     70.6,
+     83.5,
+     73.2,
+     70.6,
+     101.6,
+     73.2,
+     83.5,
+     49.9,
+     70.6,
+     65.4,
+     73.2,
+     86.1,
+     68.0,
+     70.6,
+     60.2,
+     73.2
+    ],
+    "glyph_shift_px": {
+     "0": 1.25,
+     "1": 0.5,
+     "2": 0.75,
+     "3": 0.5,
+     "4": 0.625,
+     "5": -0.125,
+     "6": -1.125,
+     "7": -0.875,
+     "8": -0.625,
+     "9": -0.75,
+     "11": -0.25,
+     "12": -0.375,
+     "14": 1.0,
+     "15": 1.5,
+     "16": 0.375,
+     "17": 0.25,
+     "18": -0.125,
+     "19": -0.125,
+     "20": 0.5,
+     "21": 0.25,
+     "22": 0.125,
+     "23": -0.5
+    },
+    "iou": 0.8598
+   },
+   "measured": {
+    "bg": "#FEFFFF",
+    "fg_kmeans": [
+     "#061232"
+    ]
+   },
+   "iou_svg_render": 0.8098,
+   "svg_render_dE": {
+    "de_mean": 3.08,
+    "de_p95": 20.23
+   }
+  }
+ ],
+ "rules": [
+  {
+   "id": "text-13-rule",
+   "x0": 496.72,
+   "x1": 1285.84,
+   "y": 402.31,
+   "thickness": 6.57,
+   "top": 399.02,
+   "bottom": 405.59,
+   "caps": "butt (square ends)",
+   "hex": "#08DBE8",
+   "swatch": "Accent Cyan A",
+   "measured_hex": "#08DBE8",
+   "dE": 9.02,
+   "nearest_core": "Bright Cyan"
+  }
+ ]
+}

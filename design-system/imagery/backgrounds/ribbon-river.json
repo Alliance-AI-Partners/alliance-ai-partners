@@ -1,0 +1,12 @@
+{
+ "name": "ribbon-river",
+ "kind": "background",
+ "description": "A river winding like the ribbon through faceted hills at daybreak; open sky at the top.",
+ "prompt": "An aerial view at daybreak of a river winding like a ribbon through gentle faceted hills. The river reflects a gradient from electric blue to luminous cyan, the hills are layered deep navy and slate-blue planes, and soft mist lies in the valleys. Calm and vast, with the top third open sky. Colour palette strictly limited to deep navy #121B2A, electric blue #1B56FF, luminous cyan #00D5FF and pale daylight #F4F7FB, with their in-between shades. Premium, calm editorial brand imagery with generous negative space and soft light from the upper left. No text, letters, numbers, logos, people, robots, circuit patterns, sparkles, purple or pink.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "references": [],
+ "generated": "2026-11-02",
+ "tool": "brand-kit/tools/generate-imagery.py"
+}

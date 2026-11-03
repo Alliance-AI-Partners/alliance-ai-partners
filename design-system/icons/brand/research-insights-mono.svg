@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" id="icon-research-insights-mono-Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="icon-research-insights-mono-research-insights">
+    <circle id="icon-research-insights-mono-icon-research-insights-mono-lens" cx="20.5" cy="20.5" r="13.5" fill="none" stroke="#121b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="icon-research-insights-mono-icon-research-insights-mono-handle" x1="30.046" y1="30.046" x2="41" y2="41" fill="none" stroke="#121b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-research-insights-mono-icon-research-insights-mono-signal" d="M14.5,26.3c2.316-2.76,1.997-5.3,6-5.3,4.423,0,4.97-2.655,6-6.5" fill="none" stroke="#121b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

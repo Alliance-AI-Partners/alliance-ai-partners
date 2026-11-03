@@ -1,0 +1,183 @@
+{
+ "hero@01": {
+  "oid": "01",
+  "s": 0.5476137534239645,
+  "tx": 20.449370369448076,
+  "ty": 99.8746627241303,
+  "iou": 0.9661,
+  "component": "ap-hero.svg",
+  "de_mean": 2.72,
+  "de_p95": 6.1,
+  "refit": false,
+  "bg": "#FFFFFF"
+ },
+ "hero@13": {
+  "oid": "13",
+  "s": 1.0,
+  "tx": 0.0,
+  "ty": 0.0,
+  "iou": 0.9816,
+  "iou_similarity": 0.9787,
+  "affine": [
+   0.549791901410178,
+   0.5540895028820979,
+   -3.2106021404704848,
+   100.28323424587637
+  ],
+  "de_mean": 1.71,
+  "de_p95": 4.43,
+  "refit": true,
+  "bg": "#FFFFFF",
+  "de_before_refit": 3.09,
+  "component": "rec/hero@13.svg",
+  "source": "ap-hero.svg"
+ },
+ "hero@14": {
+  "oid": "14",
+  "s": 0.7456332244446643,
+  "tx": 127.65577299258513,
+  "ty": 75.77464311937871,
+  "iou": 0.9248,
+  "component": "rec/hero@14.svg",
+  "de_mean": 3.58,
+  "de_p95": 12.06,
+  "refit": true,
+  "bg": "#FFFFFF",
+  "de_before_refit": 6.39
+ },
+ "hero@17": {
+  "oid": "17",
+  "s": 1.0,
+  "tx": 0.0,
+  "ty": 0.0,
+  "iou": 0.9867,
+  "iou_similarity": 0.9709,
+  "affine": [
+   0.73962634123126,
+   0.7530869205786492,
+   309.0379539923982,
+   -78.9413334858595
+  ],
+  "keyline_width": 20.0,
+  "de_mean": 2.28,
+  "de_p95": 5.54,
+  "refit": false,
+  "bg": "#FFFFFF",
+  "component": "rec/hero@17.svg",
+  "source": "ap-hero.svg"
+ },
+ "slot-hero-stacked": {
+  "oid": "02",
+  "s": 1.0,
+  "tx": 0.0,
+  "ty": 0.0,
+  "iou": 0.979,
+  "iou_similarity": 0.9484,
+  "affine": [
+   0.29768203020063694,
+   0.30661217045437855,
+   66.97383837214736,
+   108.91267335494587
+  ],
+  "de_mean": 2.42,
+  "de_p95": 7.11,
+  "refit": true,
+  "bg": "#F5F9FC",
+  "de_before_refit": 3.17,
+  "component": "rec/slot-hero-stacked.svg",
+  "source": "ap-hero.svg"
+ },
+ "slot-hero-horizontal": {
+  "oid": "02",
+  "s": 1.0,
+  "tx": 0.0,
+  "ty": 0.0,
+  "iou": 0.924,
+  "iou_similarity": 0.9081,
+  "affine": [
+   0.14780279996553952,
+   0.15098447466420037,
+   376.0463524591097,
+   157.92395682702724
+  ],
+  "de_mean": 4.34,
+  "de_p95": 11.73,
+  "refit": true,
+  "bg": "#F5F9FC",
+  "de_before_refit": 5.46,
+  "component": "rec/slot-hero-horizontal.svg",
+  "source": "ap-hero.svg"
+ },
+ "slot-clearspace-mark": {
+  "oid": "02",
+  "s": 1.0,
+  "tx": 0.0,
+  "ty": 0.0,
+  "iou": 0.9409,
+  "iou_similarity": 0.8461,
+  "affine": [
+   0.29140868266419395,
+   0.3235896398364742,
+   701.0614181846421,
+   442.29367289969406
+  ],
+  "de_mean": 2.35,
+  "de_p95": 6.97,
+  "refit": true,
+  "bg": "#F5F9FC",
+  "de_before_refit": 3.32,
+  "component": "rec/slot-clearspace-mark.svg",
+  "source": "ap-hero.svg"
+ },
+ "slot-tile-twotone": {
+  "oid": "02",
+  "s": 1.0,
+  "tx": 0.0,
+  "ty": 0.0,
+  "iou": 0.9528,
+  "iou_similarity": 0.9339,
+  "affine": [
+   0.12025456393109198,
+   0.12432939805092826,
+   397.73989065770394,
+   287.48143202130257
+  ],
+  "de_mean": 4.53,
+  "de_p95": 10.14,
+  "refit": true,
+  "bg": "#111D2F",
+  "de_before_refit": 40.91,
+  "component": "rec/slot-tile-twotone.svg",
+  "source": "ap-hero-dark.svg"
+ },
+ "slot-tile-flat": {
+  "oid": "02",
+  "s": 1.0,
+  "tx": 0.0,
+  "ty": 0.0,
+  "iou": 0.9252,
+  "iou_similarity": 0.9201,
+  "affine": [
+   0.133370563848758,
+   0.1336845281971088,
+   527.4885488421569,
+   285.2249374063183
+  ],
+  "de_mean": 1.57,
+  "de_p95": 4.17,
+  "refit": true,
+  "bg": "#121D2F",
+  "de_before_refit": 3.1,
+  "component": "rec/slot-tile-flat.svg",
+  "source": "flat-12.svg"
+ },
+ "hero-dark@04": {
+  "oid": "04",
+  "component": "ap-hero-dark.svg",
+  "s": 0.6045,
+  "tx": 73.51875,
+  "ty": 74.32075,
+  "iou": 0.9292,
+  "refit": false
+ }
+}

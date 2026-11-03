@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digital business card</title>
+<!--
+  Template: phone-sized e-card, 390 x 780 px, for a contact link or a page reached by scanning a QR code.
+  Uses components.css: aap-surface-inverse for the Partner Navy head (its text tokens flip) and aap-button--primary
+  for the one committing action, "Save contact".
+  QR: no QR library (segno or qrcode) was installed when this was built, so the code is a labelled PLACEHOLDER with
+  finder squares only. It is not scannable. Generate the real code from the vCard URL below and replace the <svg>.
+  SAMPLE: Isabel Navarro is a fictional person. +1 202 555 0147 is in the 555-0100 to 555-0199 range reserved for
+  fictional use. allianceaipartners.example and the vCard URL are placeholders until the domain is chosen.
+-->
+<link rel="stylesheet" href="../../design-system/tokens/tokens.css">
+<link rel="stylesheet" href="../../design-system/css/components.css">
+<style>
+  html, body { margin: 0; background: var(--aap-color-neutral-200); }
+  .ecard {
+    position: relative; width: 390px; height: 780px; overflow: hidden;
+    background: var(--aap-color-brand-daylight); color: var(--aap-color-text-primary);
+    font-family: var(--aap-font-family-sans);
+  }
+  .ecard__head { position: relative; height: 316px; padding: 0 24px; box-sizing: border-box; }
+  /* Artboard 1139 units with 69-unit clear space: at 236 px the mark is 49.7 px tall (screen minimum 48). */
+  .ecard__logo { position: absolute; left: 10px; top: 10px; width: 236px; height: auto; display: block; }
+  .ecard__name {
+    position: absolute; left: 24px; top: 128px; margin: 0;
+    font-weight: 620; font-stretch: var(--aap-typography-display-lg-stretch);
+    font-size: 34px; line-height: 1.04; letter-spacing: -0.03em;
+  }
+  .ecard__role { position: absolute; left: 24px; top: 176px; margin: 0; font-size: 17px; line-height: 1.35; color: var(--aap-color-text-secondary); }
+  .ecard__base {
+    position: absolute; left: 24px; top: 210px; margin: 0;
+    font-family: var(--aap-font-family-mono); font-size: 13px; line-height: 1.4; color: var(--aap-color-text-tertiary);
+  }
+  .ecard__ribbon { position: absolute; left: 0; top: 0; width: 390px; height: 400px; pointer-events: none; }
+
+  .ecard__body { position: absolute; left: 24px; right: 24px; top: 372px; }
+  .ecard__save { width: 100%; }
+  .ecard__list { list-style: none; margin: 14px 0 0; padding: 0; }
+  .ecard__list li + li { border-top: 1px solid var(--aap-color-border-default); }
+  .ecard__list a {
+    display: grid; grid-template-columns: 24px 1fr; column-gap: 14px; align-items: center;
+    padding: 9px 2px; color: inherit; text-decoration: none;
+  }
+  .ecard__list svg { width: 22px; height: 22px; color: var(--aap-color-text-secondary); }
+  .ecard__label { display: block; font-size: var(--aap-typography-caption-size); line-height: 1.3; letter-spacing: 0.012em; color: var(--aap-color-text-tertiary); }
+  .ecard__value { display: block; font-size: 15px; line-height: 1.35; font-weight: 500; overflow-wrap: anywhere; }
+  .ecard__value.mono { font-family: var(--aap-font-family-mono); font-weight: 450; font-size: 14.5px; }
+
+  .ecard__qr { display: grid; grid-template-columns: 112px 1fr; column-gap: 16px; align-items: center; margin-top: 14px; }
+  .ecard__qr svg { display: block; width: 112px; height: 112px; }
+  .ecard__qr-title { margin: 0; font-size: 14px; line-height: 1.35; font-weight: 600; }
+  .ecard__qr-note { margin: 4px 0 0; font-size: var(--aap-typography-caption-size); line-height: 1.35; color: var(--aap-color-status-warning); font-weight: 500; }
+  .ecard__qr-url { margin: 4px 0 0; font-family: var(--aap-font-family-mono); font-size: var(--aap-typography-caption-size); line-height: 1.4; color: var(--aap-color-text-tertiary); }
+</style>
+</head>
+<body>
+  <main class="ecard" id="artefact">
+    <header class="ecard__head aap-surface-inverse">
+      <img class="ecard__logo" src="../../design-system/logos/lockups/alliance-ai-partners-primary-horizontal-full-color-dark.svg" alt="Alliance AI Partners">
+      <h1 class="ecard__name">Isabel Navarro</h1>
+      <p class="ecard__role">Partner success lead</p>
+      <p class="ecard__base">Philippines · UTC+8</p>
+    </header>
+
+    <svg class="ecard__ribbon" viewBox="0 0 390 400" aria-hidden="true">
+      <defs>
+        <linearGradient id="ec-daybreak" gradientUnits="userSpaceOnUse" x1="0" y1="340" x2="390" y2="262">
+          <stop offset="0" style="stop-color: var(--aap-color-brand-partner-navy)"/>
+          <stop offset="0.54" style="stop-color: var(--aap-color-brand-alliance-blue)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <linearGradient id="ec-light" gradientUnits="userSpaceOnUse" x1="0" y1="340" x2="390" y2="262">
+          <stop offset="0" style="stop-color: var(--aap-color-shading-ribbon-57)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <path id="ec-path" d="M-30 344 C92 346 190 322 262 298 S362 262 420 254"/>
+      </defs>
+      <use href="#ec-path" fill="none" stroke="url(#ec-daybreak)" stroke-width="26"/>
+      <use href="#ec-path" fill="none" stroke="url(#ec-light)" stroke-width="8" transform="translate(0 -9)"/>
+    </svg>
+
+    <div class="ecard__body">
+      <a class="aap-button aap-button--primary aap-button--lg ecard__save" href="https://allianceaipartners.example/card/isabel-navarro.vcf" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+        Save contact
+      </a>
+      <ul class="ecard__list">
+        <li><a href="tel:+12025550147">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="3" width="10" height="18" rx="2.5"/><path d="M11 17.5h2"/></svg>
+          <span><span class="ecard__label">Mobile</span><span class="ecard__value mono">+1 202 555 0147</span></span>
+        </a></li>
+        <li><a href="mailto:isabel.navarro@allianceaipartners.example">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+          <span><span class="ecard__label">Email</span><span class="ecard__value">isabel.navarro@allianceaipartners.example</span></span>
+        </a></li>
+        <li><a href="https://allianceaipartners.example">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 3.7 5.4 3.7 8.5s-1.2 5.9-3.7 8.5c-2.5-2.6-3.7-5.4-3.7-8.5s1.2-5.9 3.7-8.5z"/></svg>
+          <span><span class="ecard__label">Website</span><span class="ecard__value">allianceaipartners.example</span></span>
+        </a></li>
+      </ul>
+
+      <div class="ecard__qr">
+        <!-- PLACEHOLDER, not a QR code: three finder squares and no data. Replace with a real SVG QR for the vCard URL. -->
+        <svg viewBox="0 0 112 112" role="img" aria-label="QR code placeholder, not scannable">
+          <rect x="0.5" y="0.5" width="111" height="111" rx="9.5" fill="#FFFFFF" stroke="var(--aap-color-border-strong)" stroke-dasharray="4 3"/>
+          <g fill="none" stroke="var(--aap-color-brand-partner-navy)" stroke-width="3.5">
+            <rect x="11.75" y="11.75" width="22.5" height="22.5"/>
+            <rect x="77.75" y="11.75" width="22.5" height="22.5"/>
+            <rect x="11.75" y="77.75" width="22.5" height="22.5"/>
+          </g>
+          <g fill="var(--aap-color-brand-partner-navy)">
+            <rect x="18" y="18" width="10" height="10"/>
+            <rect x="84" y="18" width="10" height="10"/>
+            <rect x="18" y="84" width="10" height="10"/>
+          </g>
+          <text x="67" y="63" text-anchor="middle" font-family="Mona Sans Mono, monospace" font-size="13" font-weight="600" fill="var(--aap-color-brand-partner-navy)">QR</text>
+          <text x="67" y="79" text-anchor="middle" font-family="Mona Sans Mono, monospace" font-size="10" fill="var(--aap-color-neutral-700)">sample</text>
+        </svg>
+        <div>
+          <p class="ecard__qr-title">Scan to save this contact</p>
+          <p class="ecard__qr-note">Placeholder, not scannable</p>
+          <p class="ecard__qr-url">allianceaipartners.example/<wbr>card/<wbr>isabel-navarro.vcf</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

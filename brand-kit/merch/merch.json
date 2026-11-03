@@ -1,0 +1,205 @@
+{
+ "area": "merch",
+ "retrieved": "2026-11-02",
+ "files": [
+  {
+   "path": "artwork/cap-front-embroidery.svg",
+   "item": "Cap",
+   "placement": "Front panel, centred, 6 mm above the seam line",
+   "size_mm": [
+    57,
+    39.2
+   ],
+   "method": "Flat embroidery in one thread, about 9,000 stitches",
+   "colours": [
+    "Ribbon Cyan thread (PMS 305 C match)"
+   ],
+   "logo": "logomark-flat-dark",
+   "garment_or_ground": "Partner Navy structured cap",
+   "notes": "The flat-dark mark is the kit's one-ink state, made for thread. Keep 3 mm clear of the panel seams; approve a sew-out before the run."
+  },
+  {
+   "path": "artwork/cap-back-embroidery.svg",
+   "item": "Cap",
+   "placement": "Back, above the strap",
+   "size_mm": [
+    60,
+    11.5
+   ],
+   "method": "Flat embroidery",
+   "colours": [
+    "Daylight white thread",
+    "Ribbon Cyan thread"
+   ],
+   "logo": "wordmark-flat-dark",
+   "garment_or_ground": "Partner Navy structured cap",
+   "notes": "Smallest legible size for the wordmark in thread; do not go smaller."
+  },
+  {
+   "path": "artwork/tumbler-wrap-20oz.svg",
+   "item": "Tumbler",
+   "placement": "Full wrap: the mark on the front (handle at the seam), the line on the back",
+   "size_mm": [
+    235,
+    102
+   ],
+   "method": "UV-LED full-colour print on Partner Navy powder coat",
+   "colours": [
+    "CMYK + white underbase",
+    "Partner Navy ground (PMS 7547 C)"
+   ],
+   "logo": "logomark-full-color-dark",
+   "garment_or_ground": "Partner Navy 20 oz tumbler",
+   "notes": "The ribbon crosses the seam; ask the printer to align it within 1 mm. For a single-colour job use laser engraving with the mono-white mark instead."
+  },
+  {
+   "path": "artwork/tee-front-chest.svg",
+   "item": "T-shirt",
+   "placement": "Left chest, 90 mm wide, 80 mm below the collar",
+   "size_mm": [
+    90,
+    61.9
+   ],
+   "method": "Screen print, 1 spot colour",
+   "colours": [
+    "PMS 305 C (Ribbon Cyan)"
+   ],
+   "logo": "logomark-flat-dark",
+   "garment_or_ground": "Partner Navy cotton tee",
+   "notes": ""
+  },
+  {
+   "path": "artwork/tee-back-tagline.svg",
+   "item": "T-shirt",
+   "placement": "Back, 280 mm wide, 60 mm below the collar",
+   "size_mm": [
+    280,
+    70
+   ],
+   "method": "Screen print, 3 spot colours (the ribbon as a 4-step halftone blend)",
+   "colours": [
+    "White",
+    "PMS 305 C",
+    "PMS 2726 C"
+   ],
+   "logo": "none (type)",
+   "garment_or_ground": "Partner Navy cotton tee",
+   "notes": "Convert the type to outlines before sending."
+  },
+  {
+   "path": "artwork/hoodie-chest-embroidery.svg",
+   "item": "Hoodie",
+   "placement": "Centre chest, 100 mm wide, 110 mm below the hood seam",
+   "size_mm": [
+    100,
+    68.7
+   ],
+   "method": "Flat embroidery in one thread",
+   "colours": [
+    "Ribbon Cyan thread (PMS 305 C match)"
+   ],
+   "logo": "logomark-flat-dark",
+   "garment_or_ground": "Partner Navy heavyweight hoodie",
+   "notes": ""
+  },
+  {
+   "path": "artwork/tote-front.svg",
+   "item": "Tote bag",
+   "placement": "Front panel, lockup centred, ribbon across the foot",
+   "size_mm": [
+    300,
+    300
+   ],
+   "method": "Screen print, 2 spot colours (the ribbon as a navy-to-blue halftone blend)",
+   "colours": [
+    "PMS 7547 C (Partner Navy)",
+    "PMS 2726 C (Alliance Blue)"
+   ],
+   "logo": "primary-horizontal-flat-light",
+   "garment_or_ground": "Natural or Daylight-white canvas tote",
+   "notes": "Print area 300 x 300 mm; keep 25 mm from the handles."
+  },
+  {
+   "path": "artwork/notebook-cover-deboss.svg",
+   "item": "Notebook",
+   "placement": "Front cover, centred, 40 mm wide",
+   "size_mm": [
+    40,
+    27.5
+   ],
+   "method": "Blind deboss (black = die area)",
+   "colours": [
+    "Blind (no ink) on Partner Navy linen",
+    "Ribbon marker: Ribbon Cyan satin"
+   ],
+   "logo": "logomark-mono-black",
+   "garment_or_ground": "A5 hardcover, Partner Navy linen",
+   "notes": "The cyan ribbon marker is the brand's ribbon made literal; specify PMS 305 C for the satin."
+  },
+  {
+   "path": "artwork/mug-wrap-11oz.svg",
+   "item": "Mug",
+   "placement": "Wrap: mark on the drinking side, line on the other",
+   "size_mm": [
+    210,
+    85
+   ],
+   "method": "Sublimation, full colour",
+   "colours": [
+    "CMYK"
+   ],
+   "logo": "logomark-full-color-light",
+   "garment_or_ground": "White 11 oz ceramic mug",
+   "notes": "Keep 15 mm clear either side of the handle."
+  },
+  {
+   "path": "artwork/sticker-sheet-a5.svg",
+   "item": "Stickers",
+   "placement": "A5 kiss-cut sheet: pill lockup, round mark, 'Put AI to work.', ribbon",
+   "size_mm": [
+    148,
+    210
+   ],
+   "method": "Digital print on white vinyl, kiss-cut with 2 mm bleed",
+   "colours": [
+    "CMYK"
+   ],
+   "logo": "primary-horizontal-full-color-dark, logomark-full-color-dark",
+   "garment_or_ground": "White gloss vinyl",
+   "notes": "The die-cut sticker master with its CutContour line is in docs/brand-kit/Print-Masters/Badges-Sticker/."
+  },
+  {
+   "path": "artwork/lanyard-20mm.svg",
+   "item": "Lanyard",
+   "placement": "Full length, 20 x 900 mm, wordmark every 150 mm",
+   "size_mm": [
+    900,
+    20
+   ],
+   "method": "Dye-sublimation on polyester",
+   "colours": [
+    "CMYK (the Daybreak gradient)",
+    "White"
+   ],
+   "logo": "wordmark-mono-white",
+   "garment_or_ground": "20 mm flat polyester lanyard",
+   "notes": "The lanyard is the ribbon worn: the gradient runs end to end, navy at the clip."
+  },
+  {
+   "path": "artwork/id-badge-cr80.svg",
+   "item": "ID badge",
+   "placement": "CR80 card, portrait",
+   "size_mm": [
+    54,
+    86
+   ],
+   "method": "Dye-sublimation or direct-to-card print",
+   "colours": [
+    "CMYK"
+   ],
+   "logo": "logomark-full-color-dark",
+   "garment_or_ground": "White PVC card, 0.76 mm",
+   "notes": "Name and role are placeholders; print per person."
+  }
+ ]
+}

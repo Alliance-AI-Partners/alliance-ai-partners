@@ -1,0 +1,2051 @@
+{
+ "component": "faceted origami swallow, recreated 1:1 from original 05",
+ "source": "05",
+ "source_file": "449dea5f-2cbe-468a-a59e-a382b46ec7ba.jpeg",
+ "viewBox": [
+  0,
+  0,
+  1376,
+  768
+ ],
+ "background": "#FFFFFF",
+ "files": {
+  "svg": "components/bird-05.svg",
+  "diff": "verify/bird_05_diff.png",
+  "mesh": "work/bird-/src05.pkl",
+  "pipeline": "work/bird-/b_source.py"
+ },
+ "space": "original 05 pixels, identity placement (no transform); bird only, no wordmark or background",
+ "topology": "master facets of components/bird.json (same ids, names and vertex sharing): 33 facets on 73 shared vertices",
+ "geometry": "start: similarity placement of the master (fit/bird-placements.json \"05\".matrix); every vertex re-placed by coordinate descent on the squared RGB error of an exact centre-sampled rasterisation against 05 (4x4 supersampling: steps 4, 2, 1, 0.5, 0.25 px, then 1, 0.5, 0.25 px again; 8x8: steps 0.25, 0.125 px), per-facet affine colour fields refitted after every step size",
+ "fill_style": "flat: one solid colour per facet (mean of the eroded facet interior of 05)",
+ "colour_rule": "fidelity first: measured colours kept; snapped to a kit.PALETTE colour only when within dE2000 2.0; near-identical tones merged when every member is within dE2000 2.0 of the merged hex",
+ "paint_order": "facet-01 first; each facet runs 1.0 px under every later facet it shares an edge with (seam cover); no paint outside the silhouette; white gaps and the white A are unpainted",
+ "fit_options": {
+  "erode": 1,
+  "robust": false,
+  "min_samples": 40
+ },
+ "metrics": {
+  "before": {
+   "iou": 0.983,
+   "de_mean": 2.86,
+   "de_p95": 9.36,
+   "de_mean_eroded1": 2.4,
+   "de_p95_eroded1": 7.54,
+   "note": "master geometry placed by the similarity fit, recoloured from 05"
+  },
+  "after": {
+   "iou": 0.9909,
+   "de_mean": 1.7,
+   "de_p95": 6.56,
+   "de_mean_eroded1": 1.46,
+   "de_p95_eroded1": 5.74
+  },
+  "verify": "VectorCraft render of components/bird-05.svg over #FFFFFF vs the original; silhouette IoU of kit.bg_mask(thresh 18) inside region [440, 100, 940, 480]; dE2000 inside the original's mask"
+ },
+ "tones": [
+  {
+   "name": "Bird 05 Blue 1",
+   "hex": "#2257B7",
+   "palette": false,
+   "facets": [
+    "facet-09"
+   ],
+   "max_de_to_measured": 0.04
+  },
+  {
+   "name": "Bird 05 Blue 2",
+   "hex": "#2D60C7",
+   "palette": false,
+   "facets": [
+    "facet-03",
+    "facet-05",
+    "facet-06",
+    "facet-19",
+    "facet-21",
+    "facet-24",
+    "facet-25",
+    "facet-28"
+   ],
+   "max_de_to_measured": 0.93
+  },
+  {
+   "name": "Bird 05 Cyan 1",
+   "hex": "#31BFD8",
+   "palette": false,
+   "facets": [
+    "facet-11",
+    "facet-13"
+   ],
+   "max_de_to_measured": 0.26
+  },
+  {
+   "name": "Bird 05 Deep Blue 1",
+   "hex": "#122A65",
+   "palette": false,
+   "facets": [
+    "facet-16"
+   ],
+   "max_de_to_measured": 0.09
+  },
+  {
+   "name": "Bird 05 Deep Blue 2",
+   "hex": "#102E70",
+   "palette": false,
+   "facets": [
+    "facet-01",
+    "facet-02",
+    "facet-04",
+    "facet-17",
+    "facet-26",
+    "facet-27",
+    "facet-29",
+    "facet-30",
+    "facet-31",
+    "facet-32"
+   ],
+   "max_de_to_measured": 1.11
+  },
+  {
+   "name": "Bird 05 Sky 1",
+   "hex": "#12C5EC",
+   "palette": false,
+   "facets": [
+    "facet-14",
+    "facet-15"
+   ],
+   "max_de_to_measured": 1.55
+  },
+  {
+   "name": "Bird 05 Sky 2",
+   "hex": "#0CCCF0",
+   "palette": false,
+   "facets": [
+    "facet-07",
+    "facet-08",
+    "facet-10",
+    "facet-12",
+    "facet-18",
+    "facet-20",
+    "facet-22",
+    "facet-23",
+    "facet-33"
+   ],
+   "max_de_to_measured": 1.07
+  }
+ ],
+ "facets": [
+  {
+   "id": "facet-01",
+   "name": "wing-top-light",
+   "vertices": [
+    [
+     509.58,
+     131.91
+    ],
+    [
+     676.54,
+     187.64
+    ],
+    [
+     711.19,
+     242.31
+    ]
+   ],
+   "path_vertices": [
+    [
+     509.58,
+     131.91
+    ],
+    [
+     678.04,
+     188.14
+    ],
+    [
+     711.37,
+     242.49
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#102F71",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 3.43,
+    "rms_rgb_solid": 3.43,
+    "samples": 2986,
+    "de2000_mean_interior": 0.84
+   }
+  },
+  {
+   "id": "facet-02",
+   "name": "wing-top-dark",
+   "vertices": [
+    [
+     509.58,
+     131.91
+    ],
+    [
+     487.56,
+     124.94
+    ],
+    [
+     548.51,
+     197.65
+    ],
+    [
+     711.19,
+     242.31
+    ]
+   ],
+   "path_vertices": [
+    [
+     509.58,
+     131.91
+    ],
+    [
+     487.56,
+     124.94
+    ],
+    [
+     548.51,
+     197.65
+    ],
+    [
+     711.19,
+     242.31
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#102F71",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 2.9,
+    "rms_rgb_solid": 2.9,
+    "samples": 4377,
+    "de2000_mean_interior": 0.73
+   }
+  },
+  {
+   "id": "facet-03",
+   "name": "wing-top-blue",
+   "vertices": [
+    [
+     548.51,
+     197.65
+    ],
+    [
+     711.19,
+     242.31
+    ],
+    [
+     626.22,
+     290.31
+    ]
+   ],
+   "path_vertices": [
+    [
+     548.51,
+     197.65
+    ],
+    [
+     712.56,
+     242.69
+    ],
+    [
+     626.87,
+     291.08
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2D60C7",
+    "measured": "#2D60C9",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 3.25,
+    "rms_rgb_solid": 3.25,
+    "samples": 5281,
+    "de2000_mean_interior": 0.72
+   }
+  },
+  {
+   "id": "facet-04",
+   "name": "body-slate",
+   "vertices": [
+    [
+     711.19,
+     242.31
+    ],
+    [
+     626.22,
+     290.31
+    ],
+    [
+     658.01,
+     328.64
+    ],
+    [
+     673.19,
+     303.96
+    ]
+   ],
+   "path_vertices": [
+    [
+     712.99,
+     241.3
+    ],
+    [
+     626.22,
+     290.31
+    ],
+    [
+     658.68,
+     329.45
+    ],
+    [
+     674.05,
+     304.48
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#0F2E71",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 3.66,
+    "rms_rgb_solid": 3.66,
+    "samples": 2064,
+    "de2000_mean_interior": 0.97
+   }
+  },
+  {
+   "id": "facet-05",
+   "name": "wing2-dark",
+   "vertices": [
+    [
+     517.52,
+     189.28
+    ],
+    [
+     561.54,
+     260.44
+    ],
+    [
+     467.97,
+     176.02
+    ]
+   ],
+   "path_vertices": [
+    [
+     517.52,
+     189.28
+    ],
+    [
+     564.21,
+     262.84
+    ],
+    [
+     467.97,
+     176.02
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2D60C7",
+    "measured": "#2F61C4",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 5.99,
+    "rms_rgb_solid": 5.99,
+    "samples": 1145,
+    "de2000_mean_interior": 1.25
+   }
+  },
+  {
+   "id": "facet-06",
+   "name": "wing2-blue",
+   "vertices": [
+    [
+     525.58,
+     191.84
+    ],
+    [
+     517.52,
+     189.28
+    ],
+    [
+     561.54,
+     260.44
+    ],
+    [
+     577.97,
+     275.53
+    ],
+    [
+     617.19,
+     287.26
+    ]
+   ],
+   "path_vertices": [
+    [
+     525.58,
+     191.84
+    ],
+    [
+     517.52,
+     189.28
+    ],
+    [
+     561.54,
+     260.44
+    ],
+    [
+     577.97,
+     275.53
+    ],
+    [
+     617.19,
+     287.26
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2D60C7",
+    "measured": "#2E61C5",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 5.79,
+    "rms_rgb_solid": 5.79,
+    "samples": 1487,
+    "de2000_mean_interior": 1.2
+   }
+  },
+  {
+   "id": "facet-07",
+   "name": "shoulder-top",
+   "vertices": [
+    [
+     754.38,
+     213.47
+    ],
+    [
+     811.83,
+     297.05
+    ],
+    [
+     806.92,
+     300.33
+    ],
+    [
+     769.79,
+     315.29
+    ],
+    [
+     758.33,
+     222.47
+    ],
+    [
+     676.54,
+     187.64
+    ]
+   ],
+   "path_vertices": [
+    [
+     754.38,
+     213.47
+    ],
+    [
+     812.4,
+     297.88
+    ],
+    [
+     806.92,
+     300.33
+    ],
+    [
+     768.83,
+     315.67
+    ],
+    [
+     757.41,
+     223.16
+    ],
+    [
+     676.54,
+     187.64
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#0DCCEF",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 6.1,
+    "rms_rgb_solid": 6.1,
+    "samples": 1956,
+    "de2000_mean_interior": 0.87
+   }
+  },
+  {
+   "id": "facet-08",
+   "name": "shoulder-mid",
+   "vertices": [
+    [
+     676.54,
+     187.64
+    ],
+    [
+     758.33,
+     222.47
+    ],
+    [
+     769.79,
+     315.29
+    ],
+    [
+     759.25,
+     319.76
+    ],
+    [
+     730.71,
+     272.87
+    ],
+    [
+     742.54,
+     251.06
+    ],
+    [
+     711.19,
+     242.31
+    ]
+   ],
+   "path_vertices": [
+    [
+     676.54,
+     187.64
+    ],
+    [
+     758.33,
+     222.47
+    ],
+    [
+     769.79,
+     315.29
+    ],
+    [
+     759.25,
+     319.76
+    ],
+    [
+     730.11,
+     271.88
+    ],
+    [
+     741.06,
+     251.68
+    ],
+    [
+     711.99,
+     243.58
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#0BCDF0",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.55,
+    "rms_rgb_solid": 4.55,
+    "samples": 3526,
+    "de2000_mean_interior": 0.9
+   }
+  },
+  {
+   "id": "facet-09",
+   "name": "cap",
+   "vertices": [
+    [
+     711.19,
+     242.31
+    ],
+    [
+     742.54,
+     251.06
+    ],
+    [
+     730.71,
+     272.87
+    ],
+    [
+     722.69,
+     284.66
+    ],
+    [
+     730.79,
+     272.63
+    ],
+    [
+     719.9,
+     256.36
+    ]
+   ],
+   "path_vertices": [
+    [
+     711.19,
+     242.31
+    ],
+    [
+     742.54,
+     251.06
+    ],
+    [
+     730.71,
+     272.87
+    ],
+    [
+     722.69,
+     284.66
+    ],
+    [
+     729.58,
+     272.63
+    ],
+    [
+     719.06,
+     256.9
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2257B7",
+    "measured": "#2257B7",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 6.42,
+    "rms_rgb_solid": 6.42,
+    "samples": 277,
+    "de2000_mean_interior": 1.99
+   }
+  },
+  {
+   "id": "facet-10",
+   "name": "leg-up-bright",
+   "vertices": [
+    [
+     711.19,
+     242.31
+    ],
+    [
+     719.9,
+     256.36
+    ],
+    [
+     730.79,
+     272.63
+    ],
+    [
+     719.66,
+     280.71
+    ],
+    [
+     673.19,
+     303.96
+    ]
+   ],
+   "path_vertices": [
+    [
+     711.19,
+     242.31
+    ],
+    [
+     719.9,
+     256.36
+    ],
+    [
+     730.79,
+     272.63
+    ],
+    [
+     719.96,
+     281.25
+    ],
+    [
+     673.19,
+     303.96
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#0CCCF0",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 5.71,
+    "rms_rgb_solid": 5.71,
+    "samples": 1005,
+    "de2000_mean_interior": 1.28
+   }
+  },
+  {
+   "id": "facet-11",
+   "name": "leg-up-medium",
+   "vertices": [
+    [
+     730.79,
+     272.63
+    ],
+    [
+     722.69,
+     284.66
+    ],
+    [
+     706.57,
+     311.86
+    ],
+    [
+     719.66,
+     280.71
+    ]
+   ],
+   "path_vertices": [
+    [
+     730.79,
+     272.63
+    ],
+    [
+     722.69,
+     284.66
+    ],
+    [
+     706.57,
+     311.86
+    ],
+    [
+     718.1,
+     281.84
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#31BFD8",
+    "measured": "#31BFD8",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 13.13,
+    "rms_rgb_solid": 13.13,
+    "samples": 0,
+    "de2000_mean_interior": 1.85,
+    "borrowed_from": "facet-13"
+   }
+  },
+  {
+   "id": "facet-12",
+   "name": "leg-twist-left",
+   "vertices": [
+    [
+     658.01,
+     328.64
+    ],
+    [
+     636.65,
+     357.11
+    ],
+    [
+     682.06,
+     350.24
+    ],
+    [
+     719.66,
+     280.71
+    ],
+    [
+     673.19,
+     303.96
+    ]
+   ],
+   "path_vertices": [
+    [
+     658.01,
+     328.64
+    ],
+    [
+     635.62,
+     358.28
+    ],
+    [
+     681.78,
+     351.29
+    ],
+    [
+     719.66,
+     280.71
+    ],
+    [
+     673.19,
+     303.96
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#0ACDF1",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 3.44,
+    "rms_rgb_solid": 3.44,
+    "samples": 1891,
+    "de2000_mean_interior": 0.81
+   }
+  },
+  {
+   "id": "facet-13",
+   "name": "leg-twist-right",
+   "vertices": [
+    [
+     719.66,
+     280.71
+    ],
+    [
+     682.06,
+     350.24
+    ],
+    [
+     694.18,
+     332.43
+    ],
+    [
+     706.57,
+     311.86
+    ]
+   ],
+   "path_vertices": [
+    [
+     719.66,
+     280.71
+    ],
+    [
+     682.06,
+     350.24
+    ],
+    [
+     694.18,
+     332.43
+    ],
+    [
+     706.57,
+     311.86
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#31BFD8",
+    "measured": "#31BFD8",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 13.13,
+    "rms_rgb_solid": 13.13,
+    "samples": 75,
+    "de2000_mean_interior": 2.13
+   }
+  },
+  {
+   "id": "facet-14",
+   "name": "leg-low-bright",
+   "vertices": [
+    [
+     682.06,
+     350.24
+    ],
+    [
+     694.18,
+     332.43
+    ],
+    [
+     683.69,
+     349.71
+    ],
+    [
+     615.26,
+     379.88
+    ],
+    [
+     636.65,
+     357.11
+    ]
+   ],
+   "path_vertices": [
+    [
+     682.06,
+     350.24
+    ],
+    [
+     694.18,
+     332.43
+    ],
+    [
+     682.79,
+     351.2
+    ],
+    [
+     615.1,
+     379.99
+    ],
+    [
+     635.05,
+     357.36
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#12C5EC",
+    "measured": "#0EC6EF",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 5.7,
+    "rms_rgb_solid": 5.7,
+    "samples": 267,
+    "de2000_mean_interior": 1.89
+   }
+  },
+  {
+   "id": "facet-15",
+   "name": "leg-low-medium",
+   "vertices": [
+    [
+     658.01,
+     328.64
+    ],
+    [
+     623.9,
+     364.58
+    ],
+    [
+     607.21,
+     383.43
+    ],
+    [
+     615.26,
+     379.88
+    ],
+    [
+     636.65,
+     357.11
+    ]
+   ],
+   "path_vertices": [
+    [
+     658.01,
+     328.64
+    ],
+    [
+     623.9,
+     364.58
+    ],
+    [
+     604.53,
+     385.71
+    ],
+    [
+     613.51,
+     381.75
+    ],
+    [
+     636.65,
+     357.11
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#12C5EC",
+    "measured": "#26C0E3",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 9.89,
+    "rms_rgb_solid": 9.89,
+    "samples": 60,
+    "de2000_mean_interior": 3.34
+   }
+  },
+  {
+   "id": "facet-16",
+   "name": "a-inner-light",
+   "vertices": [
+    [
+     736.52,
+     311.12
+    ],
+    [
+     705.43,
+     340.29
+    ],
+    [
+     729.75,
+     299.75
+    ]
+   ],
+   "path_vertices": [
+    [
+     736.52,
+     311.12
+    ],
+    [
+     704.48,
+     341.85
+    ],
+    [
+     729.75,
+     299.75
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#122A65",
+    "measured": "#122A65",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 5.43,
+    "rms_rgb_solid": 5.43,
+    "samples": 157,
+    "de2000_mean_interior": 1.56
+   }
+  },
+  {
+   "id": "facet-17",
+   "name": "a-inner-dark",
+   "vertices": [
+    [
+     736.52,
+     311.12
+    ],
+    [
+     705.43,
+     340.29
+    ],
+    [
+     703.91,
+     342.74
+    ],
+    [
+     744.94,
+     325.36
+    ]
+   ],
+   "path_vertices": [
+    [
+     736.52,
+     311.12
+    ],
+    [
+     705.43,
+     340.29
+    ],
+    [
+     703.91,
+     342.74
+    ],
+    [
+     744.94,
+     325.36
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#122D6A",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 5.18,
+    "rms_rgb_solid": 5.18,
+    "samples": 249,
+    "de2000_mean_interior": 1.41
+   }
+  },
+  {
+   "id": "facet-18",
+   "name": "crossbar-bright",
+   "vertices": [
+    [
+     806.92,
+     300.33
+    ],
+    [
+     690.38,
+     366.38
+    ],
+    [
+     745.89,
+     357.92
+    ],
+    [
+     757.6,
+     344.95
+    ],
+    [
+     767.86,
+     334.01
+    ]
+   ],
+   "path_vertices": [
+    [
+     806.92,
+     300.33
+    ],
+    [
+     690.38,
+     366.38
+    ],
+    [
+     746.4,
+     358.85
+    ],
+    [
+     757.6,
+     344.95
+    ],
+    [
+     767.86,
+     334.01
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#12C8ED",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 8.75,
+    "rms_rgb_solid": 8.75,
+    "samples": 899,
+    "de2000_mean_interior": 1.87
+   }
+  },
+  {
+   "id": "facet-19",
+   "name": "bottom-blue",
+   "vertices": [
+    [
+     745.89,
+     357.92
+    ],
+    [
+     690.38,
+     366.38
+    ],
+    [
+     668.24,
+     402.53
+    ],
+    [
+     765.59,
+     392.25
+    ]
+   ],
+   "path_vertices": [
+    [
+     746.95,
+     357.75
+    ],
+    [
+     690.38,
+     366.38
+    ],
+    [
+     668.24,
+     402.53
+    ],
+    [
+     765.59,
+     392.25
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2D60C7",
+    "measured": "#2C61C7",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.98,
+    "rms_rgb_solid": 4.98,
+    "samples": 2360,
+    "de2000_mean_interior": 0.98
+   }
+  },
+  {
+   "id": "facet-20",
+   "name": "bottom-cyan",
+   "vertices": [
+    [
+     745.89,
+     357.92
+    ],
+    [
+     765.59,
+     392.25
+    ],
+    [
+     782.43,
+     386.51
+    ],
+    [
+     757.6,
+     344.95
+    ]
+   ],
+   "path_vertices": [
+    [
+     745.89,
+     357.92
+    ],
+    [
+     765.59,
+     392.25
+    ],
+    [
+     782.43,
+     386.51
+    ],
+    [
+     757.6,
+     344.95
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#11CAEE",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 6.89,
+    "rms_rgb_solid": 6.89,
+    "samples": 587,
+    "de2000_mean_interior": 1.32
+   }
+  },
+  {
+   "id": "facet-21",
+   "name": "neck-blue",
+   "vertices": [
+    [
+     811.83,
+     297.05
+    ],
+    [
+     806.92,
+     300.33
+    ],
+    [
+     767.86,
+     334.01
+    ],
+    [
+     797.15,
+     381.22
+    ]
+   ],
+   "path_vertices": [
+    [
+     812.98,
+     296.29
+    ],
+    [
+     806.92,
+     300.33
+    ],
+    [
+     767.86,
+     334.01
+    ],
+    [
+     797.15,
+     381.22
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2D60C7",
+    "measured": "#2B61C6",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.83,
+    "rms_rgb_solid": 4.83,
+    "samples": 1340,
+    "de2000_mean_interior": 1.17
+   }
+  },
+  {
+   "id": "facet-22",
+   "name": "neck-bright",
+   "vertices": [
+    [
+     885.46,
+     277.36
+    ],
+    [
+     883.01,
+     277.53
+    ],
+    [
+     862.47,
+     299.24
+    ],
+    [
+     797.59,
+     378.73
+    ],
+    [
+     802.98,
+     374.85
+    ],
+    [
+     797.15,
+     381.22
+    ],
+    [
+     811.83,
+     297.05
+    ],
+    [
+     815.48,
+     296.05
+    ],
+    [
+     847.18,
+     278.86
+    ]
+   ],
+   "path_vertices": [
+    [
+     885.46,
+     277.36
+    ],
+    [
+     883.01,
+     277.53
+    ],
+    [
+     862.47,
+     299.24
+    ],
+    [
+     797.59,
+     378.73
+    ],
+    [
+     802.98,
+     374.85
+    ],
+    [
+     797.15,
+     381.22
+    ],
+    [
+     811.83,
+     297.05
+    ],
+    [
+     815.48,
+     296.05
+    ],
+    [
+     847.18,
+     278.86
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#0CCBF1",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 3.94,
+    "rms_rgb_solid": 3.94,
+    "samples": 2564,
+    "de2000_mean_interior": 1.0
+   }
+  },
+  {
+   "id": "facet-23",
+   "name": "neck-right",
+   "vertices": [
+    [
+     847.36,
+     322.48
+    ],
+    [
+     883.01,
+     277.53
+    ],
+    [
+     862.47,
+     299.24
+    ],
+    [
+     797.59,
+     378.73
+    ],
+    [
+     802.98,
+     374.85
+    ]
+   ],
+   "path_vertices": [
+    [
+     847.36,
+     322.48
+    ],
+    [
+     883.5,
+     277.01
+    ],
+    [
+     862.47,
+     299.24
+    ],
+    [
+     797.59,
+     378.73
+    ],
+    [
+     802.98,
+     374.85
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#0CCBF1",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 3.94,
+    "rms_rgb_solid": 3.94,
+    "samples": 0,
+    "de2000_mean_interior": 5.32,
+    "borrowed_from": "facet-22"
+   }
+  },
+  {
+   "id": "facet-24",
+   "name": "head-top",
+   "vertices": [
+    [
+     796.25,
+     257.14
+    ],
+    [
+     819.49,
+     291.75
+    ],
+    [
+     849.66,
+     277.71
+    ],
+    [
+     869.51,
+     267.04
+    ],
+    [
+     832.83,
+     244.95
+    ]
+   ],
+   "path_vertices": [
+    [
+     796.25,
+     257.14
+    ],
+    [
+     819.26,
+     291.86
+    ],
+    [
+     849.66,
+     277.71
+    ],
+    [
+     871.53,
+     267.09
+    ],
+    [
+     832.83,
+     244.95
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2D60C7",
+    "measured": "#2D60C8",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 3.48,
+    "rms_rgb_solid": 3.48,
+    "samples": 1556,
+    "de2000_mean_interior": 0.8
+   }
+  },
+  {
+   "id": "facet-25",
+   "name": "head-lower",
+   "vertices": [
+    [
+     796.25,
+     257.14
+    ],
+    [
+     811.83,
+     297.05
+    ],
+    [
+     815.48,
+     296.05
+    ],
+    [
+     847.18,
+     278.86
+    ],
+    [
+     849.66,
+     277.71
+    ],
+    [
+     819.49,
+     291.75
+    ]
+   ],
+   "path_vertices": [
+    [
+     796.25,
+     257.14
+    ],
+    [
+     811.83,
+     297.05
+    ],
+    [
+     815.48,
+     296.05
+    ],
+    [
+     847.18,
+     278.86
+    ],
+    [
+     849.66,
+     277.71
+    ],
+    [
+     819.49,
+     291.75
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2D60C7",
+    "measured": "#2D61C1",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 6.28,
+    "rms_rgb_solid": 6.28,
+    "samples": 95,
+    "de2000_mean_interior": 1.79
+   }
+  },
+  {
+   "id": "facet-26",
+   "name": "crown",
+   "vertices": [
+    [
+     850.07,
+     240.56
+    ],
+    [
+     876.03,
+     246.38
+    ],
+    [
+     885.65,
+     258.65
+    ],
+    [
+     908.76,
+     268.07
+    ],
+    [
+     869.51,
+     267.04
+    ],
+    [
+     832.83,
+     244.95
+    ]
+   ],
+   "path_vertices": [
+    [
+     850.07,
+     240.56
+    ],
+    [
+     876.03,
+     246.38
+    ],
+    [
+     885.65,
+     258.65
+    ],
+    [
+     908.76,
+     268.07
+    ],
+    [
+     870.38,
+     267.56
+    ],
+    [
+     832.83,
+     244.95
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#122E70",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.33,
+    "rms_rgb_solid": 4.33,
+    "samples": 656,
+    "de2000_mean_interior": 1.04
+   }
+  },
+  {
+   "id": "facet-27",
+   "name": "lower-beak",
+   "vertices": [
+    [
+     908.76,
+     268.07
+    ],
+    [
+     885.46,
+     277.36
+    ],
+    [
+     847.18,
+     278.86
+    ],
+    [
+     849.66,
+     277.71
+    ],
+    [
+     869.51,
+     267.04
+    ]
+   ],
+   "path_vertices": [
+    [
+     908.76,
+     268.07
+    ],
+    [
+     885.46,
+     277.36
+    ],
+    [
+     847.18,
+     278.86
+    ],
+    [
+     849.66,
+     277.71
+    ],
+    [
+     869.51,
+     267.04
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#103072",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 5.12,
+    "rms_rgb_solid": 5.12,
+    "samples": 239,
+    "de2000_mean_interior": 1.5
+   }
+  },
+  {
+   "id": "facet-28",
+   "name": "tail-base",
+   "vertices": [
+    [
+     683.69,
+     349.71
+    ],
+    [
+     615.26,
+     379.88
+    ],
+    [
+     607.21,
+     383.43
+    ],
+    [
+     580.51,
+     412.47
+    ],
+    [
+     614.11,
+     408.24
+    ],
+    [
+     650.66,
+     404.14
+    ]
+   ],
+   "path_vertices": [
+    [
+     683.69,
+     349.71
+    ],
+    [
+     615.26,
+     379.88
+    ],
+    [
+     604.93,
+     384.44
+    ],
+    [
+     580.51,
+     412.47
+    ],
+    [
+     614.2,
+     408.98
+    ],
+    [
+     650.66,
+     404.14
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#2D60C7",
+    "measured": "#2D60C6",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.2,
+    "rms_rgb_solid": 4.2,
+    "samples": 2083,
+    "de2000_mean_interior": 0.9
+   }
+  },
+  {
+   "id": "facet-29",
+   "name": "tail-upper-light",
+   "vertices": [
+    [
+     623.9,
+     364.58
+    ],
+    [
+     521.95,
+     404.35
+    ],
+    [
+     526.7,
+     413.97
+    ],
+    [
+     607.21,
+     383.43
+    ]
+   ],
+   "path_vertices": [
+    [
+     623.9,
+     364.58
+    ],
+    [
+     521.95,
+     404.35
+    ],
+    [
+     526.21,
+     415.22
+    ],
+    [
+     607.21,
+     383.43
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#112D6D",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.14,
+    "rms_rgb_solid": 4.14,
+    "samples": 775,
+    "de2000_mean_interior": 1.1
+   }
+  },
+  {
+   "id": "facet-30",
+   "name": "tail-upper-dark",
+   "vertices": [
+    [
+     607.21,
+     383.43
+    ],
+    [
+     526.7,
+     413.97
+    ],
+    [
+     521.95,
+     404.35
+    ],
+    [
+     467.91,
+     425.67
+    ],
+    [
+     580.51,
+     412.47
+    ]
+   ],
+   "path_vertices": [
+    [
+     607.21,
+     383.43
+    ],
+    [
+     526.7,
+     413.97
+    ],
+    [
+     521.95,
+     404.35
+    ],
+    [
+     467.91,
+     425.67
+    ],
+    [
+     580.51,
+     412.47
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#112D6C",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 5.4,
+    "rms_rgb_solid": 5.4,
+    "samples": 938,
+    "de2000_mean_interior": 1.44
+   }
+  },
+  {
+   "id": "facet-31",
+   "name": "tail-lower-light",
+   "vertices": [
+    [
+     650.66,
+     404.14
+    ],
+    [
+     614.11,
+     408.24
+    ],
+    [
+     566.39,
+     446.29
+    ],
+    [
+     581.06,
+     439.03
+    ]
+   ],
+   "path_vertices": [
+    [
+     650.66,
+     404.14
+    ],
+    [
+     614.11,
+     408.24
+    ],
+    [
+     566.39,
+     446.29
+    ],
+    [
+     581.06,
+     439.03
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#112C6B",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.41,
+    "rms_rgb_solid": 4.41,
+    "samples": 368,
+    "de2000_mean_interior": 1.22
+   }
+  },
+  {
+   "id": "facet-32",
+   "name": "tail-lower-dark",
+   "vertices": [
+    [
+     566.39,
+     446.29
+    ],
+    [
+     581.06,
+     439.03
+    ],
+    [
+     535.16,
+     462.08
+    ],
+    [
+     580.51,
+     412.47
+    ],
+    [
+     614.11,
+     408.24
+    ]
+   ],
+   "path_vertices": [
+    [
+     566.39,
+     446.29
+    ],
+    [
+     581.06,
+     439.03
+    ],
+    [
+     535.16,
+     462.08
+    ],
+    [
+     580.51,
+     412.47
+    ],
+    [
+     614.11,
+     408.24
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#102E70",
+    "measured": "#102B6A",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.55,
+    "rms_rgb_solid": 4.55,
+    "samples": 710,
+    "de2000_mean_interior": 1.44
+   }
+  },
+  {
+   "id": "facet-33",
+   "name": "neck-rim",
+   "vertices": [
+    [
+     885.46,
+     277.36
+    ],
+    [
+     847.36,
+     322.48
+    ],
+    [
+     883.01,
+     277.53
+    ]
+   ],
+   "path_vertices": [
+    [
+     885.46,
+     277.36
+    ],
+    [
+     847.36,
+     322.48
+    ],
+    [
+     883.01,
+     277.53
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#0CCCF0",
+    "measured": "#0CCBF1",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 3.94,
+    "rms_rgb_solid": 3.94,
+    "samples": 0,
+    "de2000_mean_interior": 7.87,
+    "borrowed_from": "facet-23"
+   }
+  }
+ ]
+}

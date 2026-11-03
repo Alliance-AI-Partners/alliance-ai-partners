@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-training-enablement" width="48" height="48" viewBox="0 0 48 48">
+<rect id="aap-ref" x="0" y="0" width="48" height="48" fill="none"/>
+  <path id="icon-training-enablement-cap" d="M12.5 21.5 L12.5 30.5 C12.5 33.5 17.5 36.5 24 36.5 C30.5 36.5 35.5 33.5 35.5 30.5 L35.5 21.5" stroke="#00D5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-training-enablement-tassel" d="M39 19.8 L39 33.5" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-training-enablement-board" d="M24 11 L42 18.5 L24 26 L6 18.5 Z" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

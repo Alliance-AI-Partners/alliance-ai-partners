@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" id="icon-advisory-dark-Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="icon-advisory-dark-advisory">
+    <circle id="icon-advisory-dark-icon-advisory-head" cx="16" cy="19.5" r="6" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-advisory-dark-icon-advisory-shoulders" d="M6,42c0-5.523,4.477-10,10-10s10,4.477,10,10" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="icon-advisory-dark-icon-advisory-bubble" d="M31,6h7c2.209,0,4,1.791,4,4v5.5c0,2.209-1.791,4-4,4h-6l-5,4.5v-14c0-2.209,1.791-4,4-4Z" fill="none" stroke="#00d5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

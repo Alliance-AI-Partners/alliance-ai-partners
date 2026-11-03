@@ -1,0 +1,14 @@
+{
+ "name": "cap",
+ "kind": "mockup",
+ "description": "cap mockup",
+ "prompt": "Product photograph of a structured six-panel baseball cap in deep navy (#121B2A), three-quarter front view, on a pale daylight-grey studio backdrop. The front panel carries exactly the logo in the reference image as flat embroidery in a single cyan thread (#00D5FF), centred and about 6 cm wide, with realistic satin-stitch texture. Soft light from the upper left, gentle shadow. No other text or logos anywhere.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "references": [
+  "design-system/logos/marks/alliance-ai-partners-logomark-flat-dark.png"
+ ],
+ "generated": "2026-11-02",
+ "tool": "brand-kit/tools/generate-imagery.py"
+}

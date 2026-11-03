@@ -10,6 +10,7 @@
     python generate_logos.py trace <png> <rank>  # VectorCraft logo-mode trace -> .svg .ai .vectorcraft .png
     python generate_logos.py svg <svg>          # re-save a Recraft SVG as .ai .vectorcraft .png via VectorCraft
     python generate_logos.py board <track>      # Illustrator board: artboard per direction + real-font wordmark
+    python generate_logos.py concept 1          # a logo-concepts file's 12 types via Nano Banana Pro and 2.1 + compare sheets
 
 Reads GEMINI_API_KEY, MUAPI_API_KEY and RECRAFT_API_KEY from the repo's .env and never prints them.
 """
@@ -20,6 +21,7 @@ import subprocess
 import sys
 import tempfile
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 LOGOS = Path(__file__).resolve().parents[1]
@@ -32,6 +34,9 @@ TRACKS = {"muapi": "1-muapi-logo-creator", "logocreator": "2-logo-creator",
           "recraft": "3-recraft", "nanobanana": "4-nanobanana"}
 SPEC = json.loads(Path(__file__).with_name("directions.json").read_text(encoding="utf-8"))
 BRAND = SPEC["brand"]
+CONCEPTS = LOGOS.parent / "logo-concepts"
+MODELS = {"nano-banana-pro": "gemini-3-pro-image", "nano-banana-2.1": "gemini-nano-banana-2.1"}
+WIDE = ("Wordmark", "Combination Mark", "Animated Logo")  # horizontal layouts get 16:9, the rest 1:1
 
 
 def keys_env():
@@ -176,6 +181,95 @@ def track_nanobanana(env, ranks):
              "-o", folder / f"{d['folder']}__nano-banana-2__lockup.png"], env)
 
 
+def slug(text):
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def concept(n):
+    """A logo-concepts file's logo types as (number, type, prompt), each prompt verbatim from its table."""
+    md = next(CONCEPTS.glob(f"concept_{n:02d}_*.md"))
+    rows = re.findall(r'^\| \*\*(\d+)\*\* \| \*\*(.+?)\*\* \|.*`"(.+)"` \|\s*$', md.read_text(encoding="utf-8"), re.M)
+    assert len(rows) == 12, f"{md.name}: expected 12 logo types in its table, found {len(rows)}"
+    return LOGOS / slug(md.stem), [(int(num), kind.replace("`", ""), prompt) for num, kind, prompt in rows]
+
+
+def concept_png(out, num, kind, label):
+    return out / label / f"{out.name[:10]}__{num:02d}-{slug(kind)}__{label}.png"
+
+
+def track_concept(env, n, label):
+    """One concept's 12 types through one model; every model gets the same prompt, ratio and 2K size.
+    Existing images are kept, so a rerun only fills gaps. Delete an image to redo it."""
+    from io import BytesIO
+    from google import genai
+    from google.genai import types
+    from PIL import Image
+    out, rows = concept(n)
+    model = MODELS[label]
+    (out / label).mkdir(parents=True, exist_ok=True)
+    log = out / label / "prompts.md"
+    if not log.exists():
+        log.write_text(f"# {out.name} / {label}: prompts sent\n\n", encoding="utf-8")
+    client = genai.Client(api_key=env["GEMINI_API_KEY"])
+    for num, kind, prompt in rows:
+        dst = concept_png(out, num, kind, label)
+        if dst.exists():
+            continue
+        ratio = "16:9" if kind.startswith(WIDE) else "1:1"
+        try:
+            r = client.models.generate_content(model=model, contents=prompt, config=types.GenerateContentConfig(
+                response_modalities=["IMAGE", "TEXT"],
+                image_config=types.ImageConfig(aspect_ratio=ratio, image_size="2K")))
+            parts = (r.candidates[0].content.parts or []) if r.candidates and r.candidates[0].content else []
+            images = [p.inline_data.data for p in parts if p.inline_data and not p.thought]  # skip Pro's drafts
+            note = ""
+            if images:
+                Image.open(BytesIO(images[-1])).save(dst)
+            else:
+                reason = r.candidates[0].finish_reason if r.candidates else r.prompt_feedback
+                note = f" (FAILED, no image: {reason}. {' '.join(p.text for p in parts if p.text)[:300]})"
+        except Exception as e:  # one failure shouldn't stop the other types
+            note = f" (FAILED: {str(e)[:300]})"
+        print(f"[{label}] {dst.name}{note or ' saved'}", flush=True)
+        log_prompt(out / label, {"rank": num, "name": kind}, f"{model}, {ratio}, 2K{note}", prompt)
+
+
+def compare(out, rows):
+    """Contact sheets with the models side by side, 4 logo types per sheet: compare-01-04.png and so on."""
+    from PIL import Image, ImageDraw, ImageFont
+    cell, pad, head, ink = 640, 24, 52, (22, 32, 42)
+    bold, regular = ImageFont.truetype("arialbd.ttf", 26), ImageFont.truetype("arial.ttf", 22)
+    for i in range(0, len(rows), 4):
+        chunk = rows[i:i + 4]
+        grid = []
+        for num, kind, _ in chunk:
+            row = []
+            for label in MODELS:
+                png = concept_png(out, num, kind, label)
+                im = Image.open(png).convert("RGB") if png.exists() else None
+                if im:
+                    im.thumbnail((cell, cell))
+                row.append(im)
+            grid.append(row)
+        heights = [max((im.height for im in row if im), default=head) for row in grid]
+        sheet = Image.new("RGB", (pad + len(MODELS) * (cell + pad), head + sum(head + h + pad for h in heights)),
+                          (226, 222, 214))
+        draw = ImageDraw.Draw(sheet)
+        for c, (label, model) in enumerate(MODELS.items()):
+            draw.text((pad + c * (cell + pad), 14), f"{label}  ·  {model}", fill=ink, font=regular)
+        y = head
+        for (num, kind, _), row, h in zip(chunk, grid, heights):
+            draw.text((pad, y + 14), f"{num:02d}  {kind}", fill=ink, font=bold)
+            for c, im in enumerate(row):
+                x = pad + c * (cell + pad)
+                if im:
+                    sheet.paste(im, (x, y + head))
+                else:
+                    draw.text((x, y + head), "no image, see prompts.md", fill=(168, 36, 36), font=regular)
+            y += head + h + pad
+        sheet.save(out / f"compare-{chunk[0][0]:02d}-{chunk[-1][0]:02d}.png")
+
+
 def trace(src, d):
     """Trace a flat raster logo in VectorCraft's logo mode, snapped to the direction's exact palette.
     A non-white background (Ideogram often picks near-black) is keyed to white first, so it drops out too.
@@ -255,5 +349,11 @@ if __name__ == "__main__":
         sys.exit(0 if vectorize_svg(Path(sys.argv[2])) else 1)
     if cmd == "board":
         sys.exit(0 if board(sys.argv[2]) else 1)
+    if cmd == "concept":  # concept <n> [model label ...]: the models run side by side, then the compare sheets
+        n, labels = int(sys.argv[2]), sys.argv[3:] or list(MODELS)
+        with ThreadPoolExecutor(len(labels)) as pool:
+            list(pool.map(lambda label: track_concept(env, n, label), labels))
+        compare(*concept(n))
+        sys.exit(0)
     {"muapi": track_muapi, "logocreator": track_logocreator,
      "recraft": track_recraft, "nanobanana": track_nanobanana}[cmd](env, [int(r) for r in sys.argv[2:]])

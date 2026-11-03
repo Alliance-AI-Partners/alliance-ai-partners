@@ -1,0 +1,91 @@
+{
+ "id": "11",
+ "source": "8e16c218-08cf-46d6-bd9e-8d7ae6ad929b.jpeg",
+ "description": "Two-tone mark: white A + cyan ribbon/P, navy",
+ "size": [
+  1024,
+  1024
+ ],
+ "svg": "components/flat-11.svg",
+ "colors": {
+  "background": {
+   "measured": "#112131",
+   "snapped": "#121B2A",
+   "de2000_measured_to_snapped": 3.23,
+   "nearest_palette": "Deep Navy",
+   "exceeds_snap_threshold_4": false
+  },
+  "cyan": {
+   "measured": "#3ECDDB",
+   "snapped": "#00D5FF",
+   "de2000_measured_to_snapped": 8.11,
+   "nearest_palette": "Bright Cyan",
+   "exceeds_snap_threshold_4": true
+  },
+  "white": {
+   "measured": "#FFFFFF",
+   "snapped": "#FFFFFF",
+   "de2000_measured_to_snapped": 0.0,
+   "nearest_palette": "Pure White",
+   "exceeds_snap_threshold_4": false
+  },
+  "note": "white face extends ~2 px under the cyan face along white/cyan borders (no seams)"
+ },
+ "notes": [],
+ "text_bbox": null,
+ "method": "coverage map of the measured colours -> clean palette resynthesis (wordmark/ring masked) -> VectorCraft logo trace -> every edge snapped to the original 0.5 iso-line (smoothed per-point shift) -> straight runs refit as true lines meeting at sharp corners, curves as C2 cubic splines merged to few G1 cubics (tol 0.3 px); verified on a 4x VectorCraft render box-filtered to 1x",
+ "mark_bbox": [
+  150.3,
+  297.76,
+  874.12,
+  726.17
+ ],
+ "layers": [
+  {
+   "id": "a-white",
+   "fill": "#FFFFFF",
+   "bbox": [
+    150.3,
+    297.81,
+    671.34,
+    726.17
+   ],
+   "subpaths": 3,
+   "anchors": 34,
+   "line_segs": 12,
+   "curve_segs": 22,
+   "specks_dropped_area": [],
+   "trace_anchors": 153
+  },
+  {
+   "id": "ribbon-p-cyan",
+   "fill": "#00D5FF",
+   "bbox": [
+    157.47,
+    297.76,
+    874.12,
+    710.68
+   ],
+   "subpaths": 1,
+   "anchors": 51,
+   "line_segs": 10,
+   "curve_segs": 41,
+   "specks_dropped_area": [],
+   "trace_anchors": 202
+  }
+ ],
+ "metrics": {
+  "mark_iou": 0.9978,
+  "cyan_iou": 0.9974,
+  "white_iou": 0.9962,
+  "de_mean_canvas": 3.82,
+  "de_p95_canvas": 8.11,
+  "de_mean_mark_region": 5.43,
+  "de_p95_mark_region": 8.8,
+  "de_mean_background": 3.5,
+  "de_mean_if_measured_colours": 0.52,
+  "de_p95_if_measured_colours": 1.88,
+  "soft_iou_band": 0.9869,
+  "mean_edge_offset_px": -0.174
+ }
+}

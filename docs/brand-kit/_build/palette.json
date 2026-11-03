@@ -1,0 +1,54 @@
+{
+ "name": "A, P and the Ribbon",
+ "about": "The unified Alliance AI Partners palette (chosen 2026-11-01 by a four-proposal, three-judge review; the Figma library's Brand Colors variables hold the same 14 colours). Six core colours keep the brand board's exact values; eight shading tokens on two lightness ramps replace the 3D mark's 32 measured tones. build.py draws every master's 3D mark from it through stopMap (measured stop -> token), and the Brand Graphics too: stopMap.graphics gives each of the 72 tones measured in the swallow, shield, wave, data mesh and pattern tiles its nearest palette colour (CIEDE2000), so they use these 14 colours and no others. The Original Recreations keep their measured inks.",
+ "core": [
+  {"name": "Alliance Blue", "hex": "#1B56FF", "formerly": "Vibrant Blue", "role": "The AI in light lockups, the Flat-Light mark, the Mono-White ground, and the lit faces of the 3D A", "story": "The A, for Alliance: the mark's lit faces are the same blue as the AI, so mark and wordmark share one blue."},
+  {"name": "Ribbon Cyan", "hex": "#00D5FF", "formerly": "Bright Cyan", "role": "The ribbon's light in both 3D colourways; the AI and one-colour mark on dark grounds; the descriptor rule", "story": "The ribbon that binds A and P: one cyan everywhere, the light the mark gives off."},
+  {"name": "Partner Navy", "hex": "#121B2A", "formerly": "Deep Navy", "role": "All type on light grounds, the dark ground, and the deepest shadow of the light mark", "story": "The P, for Partner: the ink of every word and the floor of every shadow in the mark."},
+  {"name": "Pure White", "hex": "#FFFFFF", "formerly": "Pure White", "role": "Paper and knockout: type and the Mono-White mark on navy or blue grounds", "story": "The knockout: what the mark is cut from."},
+  {"name": "Daylight", "hex": "#F4F7FB", "formerly": "Off-White", "role": "Page and panel ground; the paper in print; not a logo ink", "story": "The page Daybreak rises into: a light ground with a trace of the navy's hue."},
+  {"name": "Black", "hex": "#000000", "formerly": "Black", "role": "Mono-Black one-ink work only (K100)", "story": "One ink, for when only one ink is possible."}
+ ],
+ "shading": [
+  {"name": "Partner 30", "hex": "#1A2D4E", "ramp": "Partner", "role": "the P's underside and the shadow band of the A's left bevel (light mark)"},
+  {"name": "Partner 38", "hex": "#2E4265", "ramp": "Partner", "role": "slate shadow faces of the A's right leg; deepest faces of the dark mark"},
+  {"name": "Partner 46", "hex": "#42587C", "ramp": "Partner", "role": "slate mid faces (P bowl, A's right leg); also secondary text on white"},
+  {"name": "Partner 50", "hex": "#4D6388", "ramp": "Partner", "role": "lifted slate highlights of the dark mark on navy"},
+  {"name": "Alliance 38", "hex": "#243F7B", "ramp": "Alliance", "role": "deep-blue shadow bands on the A under the ribbon (light mark)"},
+  {"name": "Alliance 46", "hex": "#244EB6", "ramp": "Alliance", "role": "blue faces turning into shadow, the ribbon's shaded end; hover/pressed Alliance Blue"},
+  {"name": "Alliance 50", "hex": "#2153D8", "ramp": "Alliance", "role": "the top of the A's left bevel in both colourways"},
+  {"name": "Ribbon 57", "hex": "#006DF5", "ramp": "Alliance", "role": "the ribbon's turn from blue into cyan, in both colourways; lies on Daybreak"}
+ ],
+ "stopMap": {
+  "light": {
+   "#081834": "Partner Navy", "#0A1E3E": "Partner Navy", "#132C52": "Partner 30", "#1C2F4F": "Partner 30",
+   "#213B66": "Partner 38", "#2D4366": "Partner 38", "#33496C": "Partner 38", "#3D5579": "Partner 46", "#42597D": "Partner 46",
+   "#183B7D": "Alliance 38", "#1D3A76": "Alliance 38", "#27489E": "Alliance 46", "#2654A7": "Alliance 46", "#2660C5": "Alliance 50",
+   "#296BE1": "Alliance Blue", "#1E7CC4": "Ribbon 57", "#1984C5": "Ribbon 57", "#0AE4F7": "Ribbon Cyan"
+  },
+  "dark": {
+   "#384B74": "Partner 38", "#35527C": "Partner 46", "#405684": "Partner 46", "#4E658A": "Partner 50", "#51678C": "Partner 50",
+   "#495E83": "Partner 50", "#3759A4": "Alliance 46", "#3C549A": "Alliance 46", "#425AB4": "Alliance 46", "#3067E6": "Alliance 50",
+   "#2468FF": "Alliance Blue", "#3662CB": "Alliance Blue", "#3267C5": "Alliance Blue", "#1D76ED": "Ribbon 57", "#1E7CC4": "Ribbon 57",
+   "#0AE4F7": "Ribbon Cyan"
+  },
+  "graphics": {
+   "#04E6DF": "Ribbon Cyan", "#063360": "Partner 30", "#07F4F0": "Ribbon Cyan", "#082348": "Partner 30", "#09122F": "Partner Navy",
+   "#0BECF5": "Ribbon Cyan", "#0DD8E3": "Ribbon Cyan", "#0DDCEC": "Ribbon Cyan", "#0EB7DA": "Ribbon Cyan", "#0F233D": "Partner 30",
+   "#0F244D": "Partner 30", "#0FA9D0": "Ribbon Cyan", "#0FE4E8": "Ribbon Cyan", "#10ABDC": "Ribbon Cyan", "#1190DC": "Ribbon 57",
+   "#129BB7": "Ribbon Cyan", "#129DDD": "Ribbon Cyan", "#12C6D6": "Ribbon Cyan", "#132D60": "Partner 30", "#14284C": "Partner 30",
+   "#15F3F5": "Ribbon Cyan", "#1794E1": "Ribbon 57", "#17BEF2": "Ribbon Cyan", "#182E6F": "Alliance 38", "#1884D4": "Ribbon 57",
+   "#196C85": "Partner 50", "#1974AA": "Ribbon 57", "#1995BD": "Ribbon Cyan", "#1A305B": "Partner 30", "#1A449D": "Alliance 46",
+   "#1AA2C8": "Ribbon Cyan", "#1ADBE1": "Ribbon Cyan", "#1B2250": "Partner 30", "#1B2C48": "Partner 30", "#1B71F8": "Ribbon 57",
+   "#1B78CF": "Ribbon 57", "#1C304D": "Partner 30", "#1C5CCB": "Alliance 50", "#1C72E2": "Ribbon 57", "#1DACD0": "Ribbon Cyan",
+   "#1E3871": "Alliance 38", "#1F5087": "Partner 46", "#1F69E2": "Ribbon 57", "#1F7CBA": "Ribbon 57", "#203D71": "Alliance 38",
+   "#204DB0": "Alliance 46", "#22385C": "Partner 38", "#224185": "Alliance 38", "#245089": "Partner 46", "#25426B": "Partner 38",
+   "#25668B": "Partner 50", "#2566F7": "Ribbon 57", "#2659D8": "Alliance 50", "#275CC6": "Alliance 50", "#2857B0": "Alliance 46",
+   "#2868B5": "Ribbon 57", "#29609A": "Partner 50", "#2975D5": "Ribbon 57", "#2A65A4": "Partner 50", "#2C4260": "Partner 38",
+   "#2D97B1": "Ribbon Cyan", "#30A1DB": "Ribbon Cyan", "#3190D7": "Ribbon 57", "#327DA1": "Ribbon 57", "#396FC4": "Ribbon 57",
+   "#3A4F6F": "Partner 46", "#3A5072": "Partner 46", "#3CB4CD": "Ribbon Cyan", "#4098B6": "Ribbon Cyan", "#41577A": "Partner 46",
+   "#43D2E5": "Ribbon Cyan", "#7DF9F9": "Ribbon Cyan"
+  }
+ },
+ "signature": {"name": "Daybreak", "stops": [["Partner Navy", 0.0], ["Alliance Blue", 0.54], ["Ribbon Cyan", 1.0]]}
+}

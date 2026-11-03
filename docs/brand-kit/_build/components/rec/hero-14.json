@@ -1,0 +1,1177 @@
+{
+ "component": "hero-14",
+ "source": "14",
+ "master": "ap-hero (06)",
+ "viewBox": [
+  0,
+  0,
+  1024,
+  1024
+ ],
+ "source_space": "original 14 pixel space (y down), identity placement",
+ "background_measured": "#FFFFFF",
+ "mark_box_14": [
+  259,
+  303,
+  762,
+  612
+ ],
+ "wordmark_excluded_below_y": 636,
+ "bbox": [
+  258.22,
+  303.23,
+  761.91,
+  611.91
+ ],
+ "apex_top_y": 303.227,
+ "baseline_y": 611.908,
+ "mark_height": 308.681,
+ "silhouette_d": "M258.216 611.908 L329.904 611.908 L356.645 551.364 L441.537 551.364 C459.086 551.364 476.906 547.257 493.125 540.614 C498.085 538.582 502.866 536.116 507.751 533.951 L546.126 611.908 L618.509 611.908 L590.67 556.984 L590.67 508.94 L669.744 508.94 C670.426 508.94 674.546 508.04 675.704 507.877 C686.802 506.314 697.504 502.917 707.456 497.757 C719.385 491.571 729.211 483.243 737.874 473.04 C783.021 419.869 761.748 337.378 697.609 310.87 C687.63 306.745 673.354 303.227 662.588 303.227 L528.455 303.227 L528.455 402.849 C528.455 403.179 527.41 407.854 527.265 408.79 C526.831 411.59 526.329 414.371 525.7 417.135 C524.462 422.566 524.426 420.441 523.002 422.873 L464.623 303.227 L395.434 303.227 L258.216 611.908 Z M590.67 447.136 L590.67 365.017 L661.692 365.017 C665.486 365.017 669.794 366.576 673.284 367.938 C704.109 379.975 708.803 426.067 679.101 442.195 C675.333 444.241 667.717 447.136 663.45 447.136 L590.67 447.136 Z M478.953 479.356 C466.72 485.599 453.503 489.531 439.667 489.531 L382.385 489.531 L430.821 379.612 L478.953 479.356 Z",
+ "z_order": "faces listed bottom to top (same 11 faces and order as ap-hero); each lower face reaches 2.5 px under the face stacked above it; all faces are cut by the one shared silhouette",
+ "faces": [
+  {
+   "id": "face-p-bowl-lower",
+   "z": 0,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-p-bowl-lower",
+    "x1": 717.115,
+    "y1": 388.483,
+    "x2": 676.844,
+    "y2": 455.505,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#031F47",
+      "measured": "#031F46",
+      "swatch": "AP14 Navy 6",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#175C8B",
+      "measured": "#175B8A",
+      "swatch": "AP14 Slate 3",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "traced + rebuilt (snapped lines, G1 cubics)",
+   "anchors": 24,
+   "fit": {
+    "K": 2,
+    "angle": 121.0
+   }
+  },
+  {
+   "id": "face-p-bowl-under",
+   "z": 1,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-p-bowl-under",
+    "x1": 571.616,
+    "y1": 492.144,
+    "x2": 670.028,
+    "y2": 502.487,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#082350",
+      "measured": "#08224F",
+      "swatch": "AP14 Navy 5",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#175C8B",
+      "measured": "#175A8A",
+      "swatch": "AP14 Slate 3",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "traced + rebuilt (snapped lines, G1 cubics)",
+   "anchors": 20,
+   "fit": {
+    "K": 2,
+    "angle": 6.0
+   }
+  },
+  {
+   "id": "face-a-right-outer",
+   "z": 2,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-a-right-outer",
+    "x1": 413.894,
+    "y1": 385.927,
+    "x2": 649.44,
+    "y2": 550.858,
+    "stops": [
+     {
+      "offset": 0.1538,
+      "hex": "#18608E",
+      "measured": "#19608E",
+      "swatch": "AP14 Slate 2",
+      "palette": false
+     },
+     {
+      "offset": 0.6154,
+      "hex": "#0B315F",
+      "measured": "#072D5B",
+      "swatch": "AP14 Navy 2",
+      "palette": false
+     },
+     {
+      "offset": 0.7692,
+      "hex": "#1759CA",
+      "measured": "#1658C9",
+      "swatch": "AP14 Blue 2",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1860E0",
+      "measured": "#1963DF",
+      "swatch": "AP14 Blue 1",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "polygon from measured lines",
+   "anchors": 9,
+   "fit": {
+    "K": 5,
+    "angle": 35.0
+   }
+  },
+  {
+   "id": "face-a-right-inner",
+   "z": 3,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-a-right-inner",
+    "x1": 425.052,
+    "y1": 367.129,
+    "x2": 579.636,
+    "y2": 605.168,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#031F47",
+      "measured": "#011D47",
+      "swatch": "AP14 Navy 6",
+      "palette": false
+     },
+     {
+      "offset": 0.3077,
+      "hex": "#0B315F",
+      "measured": "#0E3360",
+      "swatch": "AP14 Navy 2",
+      "palette": false
+     },
+     {
+      "offset": 0.6923,
+      "hex": "#031F47",
+      "measured": "#042149",
+      "swatch": "AP14 Navy 6",
+      "palette": false
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#17568D",
+      "measured": "#165587",
+      "swatch": "AP14 Blue 3",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#18608E",
+      "measured": "#176491",
+      "swatch": "AP14 Slate 2",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "polygon from measured lines",
+   "anchors": 9,
+   "fit": {
+    "K": 5,
+    "angle": 57.0
+   }
+  },
+  {
+   "id": "face-a-left-bevel",
+   "z": 4,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-a-left-bevel",
+    "x1": 403.885,
+    "y1": 299.669,
+    "x2": 364.961,
+    "y2": 616.675,
+    "stops": [
+     {
+      "offset": 0.0769,
+      "hex": "#1759CA",
+      "measured": "#1959C8",
+      "swatch": "AP14 Blue 2",
+      "palette": false
+     },
+     {
+      "offset": 0.5385,
+      "hex": "#0A295F",
+      "measured": "#092960",
+      "swatch": "AP14 Navy 4",
+      "palette": false
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#082350",
+      "measured": "#082553",
+      "swatch": "AP14 Navy 5",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#17568D",
+      "measured": "#185591",
+      "swatch": "AP14 Blue 3",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "polygon from measured lines",
+   "anchors": 9,
+   "fit": {
+    "K": 5,
+    "angle": 97.0
+   }
+  },
+  {
+   "id": "face-a-left-outer",
+   "z": 5,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-a-left-outer",
+    "x1": 438.449,
+    "y1": 318.88,
+    "x2": 241.697,
+    "y2": 589.686,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1759CA",
+      "measured": "#1659D5",
+      "swatch": "AP14 Blue 2",
+      "palette": false
+     },
+     {
+      "offset": 0.1538,
+      "hex": "#1860E0",
+      "measured": "#185FDF",
+      "swatch": "AP14 Blue 1",
+      "palette": false
+     },
+     {
+      "offset": 0.6154,
+      "hex": "#0E286C",
+      "measured": "#0E296C",
+      "swatch": "AP14 Navy 3",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#123690",
+      "measured": "#123690",
+      "swatch": "AP14 Blue 6",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "polygon from measured lines",
+   "anchors": 6,
+   "fit": {
+    "K": 4,
+    "angle": 126.0
+   }
+  },
+  {
+   "id": "face-p-bowl-top",
+   "z": 6,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-p-bowl-top",
+    "x1": 568.759,
+    "y1": 306.704,
+    "x2": 774.227,
+    "y2": 385.576,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0D4A98",
+      "measured": "#0D4A98",
+      "swatch": "AP14 Blue 4",
+      "palette": false
+     },
+     {
+      "offset": 0.6154,
+      "hex": "#04E3E0",
+      "measured": "#04E3E2",
+      "swatch": "AP14 Cyan 1",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#0DA6C3",
+      "measured": "#0DA6C2",
+      "swatch": "AP14 Cyan 6",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "traced + rebuilt (snapped lines, G1 cubics)",
+   "anchors": 19,
+   "fit": {
+    "K": 3,
+    "angle": 21.0
+   }
+  },
+  {
+   "id": "face-p-bowl-fold",
+   "z": 7,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-p-bowl-fold",
+    "x1": 674.623,
+    "y1": 343.219,
+    "x2": 590.139,
+    "y2": 366.648,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0177BD",
+      "measured": "#0177BD",
+      "swatch": "AP14 Azure 2",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1B4599",
+      "measured": "#1B4599",
+      "swatch": "AP14 Blue 5",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "traced + rebuilt (snapped lines, G1 cubics)",
+   "anchors": 17,
+   "fit": {
+    "K": 2,
+    "angle": 164.5
+   }
+  },
+  {
+   "id": "face-ribbon-front-stem",
+   "z": 8,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-ribbon-front-stem",
+    "x1": 555.374,
+    "y1": 336.209,
+    "x2": 530.581,
+    "y2": 432.073,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0D4A98",
+      "measured": "#0D4997",
+      "swatch": "AP14 Blue 4",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#017FB8",
+      "measured": "#007FB8",
+      "swatch": "AP14 Azure 1",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "traced + rebuilt (snapped lines, G1 cubics)",
+   "anchors": 14,
+   "fit": {
+    "K": 2,
+    "angle": 104.5
+   }
+  },
+  {
+   "id": "face-ribbon-front",
+   "z": 9,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-ribbon-front",
+    "x1": 523.646,
+    "y1": 437.51,
+    "x2": 301.147,
+    "y2": 576.543,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#017FB8",
+      "measured": "#007FB8",
+      "swatch": "AP14 Azure 1",
+      "palette": false
+     },
+     {
+      "offset": 0.3846,
+      "hex": "#04B1CC",
+      "measured": "#04B1CD",
+      "swatch": "AP14 Cyan 5",
+      "palette": false
+     },
+     {
+      "offset": 0.6154,
+      "hex": "#04E3E0",
+      "measured": "#03E3DD",
+      "swatch": "AP14 Cyan 1",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#0A83A1",
+      "measured": "#0B83A4",
+      "swatch": "AP14 Slate 1",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "traced + rebuilt (snapped lines, G1 cubics)",
+   "anchors": 25,
+   "fit": {
+    "K": 4,
+    "angle": 148.0
+   }
+  },
+  {
+   "id": "face-ribbon-back",
+   "z": 10,
+   "fill": {
+    "type": "linear",
+    "gradient_id": "grad-ribbon-back",
+    "x1": 611.592,
+    "y1": 416.164,
+    "x2": 293.648,
+    "y2": 592.403,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#09BDC4",
+      "measured": "#09BDC4",
+      "swatch": "AP14 Cyan 4",
+      "palette": false
+     },
+     {
+      "offset": 0.1538,
+      "hex": "#03E0E7",
+      "measured": "#03E0E7",
+      "swatch": "AP14 Cyan 2",
+      "palette": false
+     },
+     {
+      "offset": 0.3846,
+      "hex": "#03D0E9",
+      "measured": "#03D0E9",
+      "swatch": "AP14 Cyan 3",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#0F2886",
+      "measured": "#0F2886",
+      "swatch": "AP14 Navy 1",
+      "palette": false
+     }
+    ]
+   },
+   "geometry": "traced + rebuilt (snapped lines, G1 cubics)",
+   "anchors": 29,
+   "fit": {
+    "K": 4,
+    "angle": 151.0
+   }
+  }
+ ],
+ "tones": [
+  {
+   "name": "AP14 Azure 1",
+   "hex": "#017FB8",
+   "used_in": [
+    "face-ribbon-front-stem#1",
+    "face-ribbon-front#0"
+   ]
+  },
+  {
+   "name": "AP14 Azure 2",
+   "hex": "#0177BD",
+   "used_in": [
+    "face-p-bowl-fold#0"
+   ]
+  },
+  {
+   "name": "AP14 Blue 1",
+   "hex": "#1860E0",
+   "used_in": [
+    "face-a-right-outer#3",
+    "face-a-left-outer#1"
+   ]
+  },
+  {
+   "name": "AP14 Blue 2",
+   "hex": "#1759CA",
+   "used_in": [
+    "face-a-right-outer#2",
+    "face-a-left-bevel#0",
+    "face-a-left-outer#0"
+   ]
+  },
+  {
+   "name": "AP14 Blue 3",
+   "hex": "#17568D",
+   "used_in": [
+    "face-a-right-inner#3",
+    "face-a-left-bevel#3"
+   ]
+  },
+  {
+   "name": "AP14 Blue 4",
+   "hex": "#0D4A98",
+   "used_in": [
+    "face-p-bowl-top#0",
+    "face-ribbon-front-stem#0"
+   ]
+  },
+  {
+   "name": "AP14 Blue 5",
+   "hex": "#1B4599",
+   "used_in": [
+    "face-p-bowl-fold#1"
+   ]
+  },
+  {
+   "name": "AP14 Blue 6",
+   "hex": "#123690",
+   "used_in": [
+    "face-a-left-outer#3"
+   ]
+  },
+  {
+   "name": "AP14 Cyan 1",
+   "hex": "#04E3E0",
+   "used_in": [
+    "face-p-bowl-top#1",
+    "face-ribbon-front#2"
+   ]
+  },
+  {
+   "name": "AP14 Cyan 2",
+   "hex": "#03E0E7",
+   "used_in": [
+    "face-ribbon-back#1"
+   ]
+  },
+  {
+   "name": "AP14 Cyan 3",
+   "hex": "#03D0E9",
+   "used_in": [
+    "face-ribbon-back#2"
+   ]
+  },
+  {
+   "name": "AP14 Cyan 4",
+   "hex": "#09BDC4",
+   "used_in": [
+    "face-ribbon-back#0"
+   ]
+  },
+  {
+   "name": "AP14 Cyan 5",
+   "hex": "#04B1CC",
+   "used_in": [
+    "face-ribbon-front#1"
+   ]
+  },
+  {
+   "name": "AP14 Cyan 6",
+   "hex": "#0DA6C3",
+   "used_in": [
+    "face-p-bowl-top#2"
+   ]
+  },
+  {
+   "name": "AP14 Navy 1",
+   "hex": "#0F2886",
+   "used_in": [
+    "face-ribbon-back#3"
+   ]
+  },
+  {
+   "name": "AP14 Navy 2",
+   "hex": "#0B315F",
+   "used_in": [
+    "face-a-right-outer#1",
+    "face-a-right-inner#1"
+   ]
+  },
+  {
+   "name": "AP14 Navy 3",
+   "hex": "#0E286C",
+   "used_in": [
+    "face-a-left-outer#2"
+   ]
+  },
+  {
+   "name": "AP14 Navy 4",
+   "hex": "#0A295F",
+   "used_in": [
+    "face-a-left-bevel#1"
+   ]
+  },
+  {
+   "name": "AP14 Navy 5",
+   "hex": "#082350",
+   "used_in": [
+    "face-p-bowl-under#0",
+    "face-a-left-bevel#2"
+   ]
+  },
+  {
+   "name": "AP14 Navy 6",
+   "hex": "#031F47",
+   "used_in": [
+    "face-p-bowl-lower#0",
+    "face-a-right-inner#0",
+    "face-a-right-inner#2"
+   ]
+  },
+  {
+   "name": "AP14 Slate 1",
+   "hex": "#0A83A1",
+   "used_in": [
+    "face-ribbon-front#3"
+   ]
+  },
+  {
+   "name": "AP14 Slate 2",
+   "hex": "#18608E",
+   "used_in": [
+    "face-a-right-outer#0",
+    "face-a-right-inner#4"
+   ]
+  },
+  {
+   "name": "AP14 Slate 3",
+   "hex": "#175C8B",
+   "used_in": [
+    "face-p-bowl-lower#1",
+    "face-p-bowl-under#1"
+   ]
+  }
+ ],
+ "palette_used": [],
+ "colour_rule": {
+  "palette_snap_dE2000": 2.0,
+  "merge_dE2000": 2.0,
+  "palette_snaps": [],
+  "merged_tones": {
+   "#031F47": [
+    {
+     "measured": "#011D47",
+     "dE2000": 0.8
+    },
+    {
+     "measured": "#031F46",
+     "dE2000": 0.25
+    },
+    {
+     "measured": "#042149",
+     "dE2000": 0.67
+    }
+   ],
+   "#175C8B": [
+    {
+     "measured": "#175A8A",
+     "dE2000": 0.8
+    },
+    {
+     "measured": "#175B8A",
+     "dE2000": 0.36
+    }
+   ],
+   "#082350": [
+    {
+     "measured": "#08224F",
+     "dE2000": 0.36
+    },
+    {
+     "measured": "#082553",
+     "dE2000": 0.74
+    }
+   ],
+   "#18608E": [
+    {
+     "measured": "#176491",
+     "dE2000": 1.56
+    },
+    {
+     "measured": "#19608E",
+     "dE2000": 0.09
+    }
+   ],
+   "#0B315F": [
+    {
+     "measured": "#072D5B",
+     "dE2000": 1.29
+    },
+    {
+     "measured": "#0E3360",
+     "dE2000": 0.64
+    }
+   ],
+   "#1759CA": [
+    {
+     "measured": "#1658C9",
+     "dE2000": 0.35
+    },
+    {
+     "measured": "#1659D5",
+     "dE2000": 1.5
+    },
+    {
+     "measured": "#1959C8",
+     "dE2000": 0.24
+    }
+   ],
+   "#1860E0": [
+    {
+     "measured": "#185FDF",
+     "dE2000": 0.36
+    },
+    {
+     "measured": "#1963DF",
+     "dE2000": 1.07
+    }
+   ],
+   "#17568D": [
+    {
+     "measured": "#165587",
+     "dE2000": 0.99
+    },
+    {
+     "measured": "#185591",
+     "dE2000": 0.98
+    }
+   ],
+   "#0D4A98": [
+    {
+     "measured": "#0D4997",
+     "dE2000": 0.35
+    },
+    {
+     "measured": "#0D4A98",
+     "dE2000": 0.0
+    }
+   ],
+   "#04E3E0": [
+    {
+     "measured": "#03E3DD",
+     "dE2000": 0.99
+    },
+    {
+     "measured": "#04E3E2",
+     "dE2000": 0.66
+    }
+   ]
+  },
+  "largest_stop_move_dE2000": 1.56,
+  "method": "stops fitted by least squares in sRGB per face; a stop within 2.0 of a kit.PALETTE colour would snap to it (none is); stop colours within 2.0 of each other are clustered (complete linkage) and each cluster becomes one tone, re-solved by least squares over the pixels of every face that uses it (seams kept continuous)"
+ },
+ "measured_lines": {
+  "LL_outer": {
+   "kind": "xy",
+   "a": -0.44453,
+   "b": 530.22748,
+   "span": [
+    303,
+    612
+   ],
+   "rms": 0.065,
+   "n": 242,
+   "angle_deg": -23.967
+  },
+  "LL_crease_u": {
+   "kind": "xy",
+   "a": -0.44743,
+   "b": 566.35053,
+   "span": [
+    303,
+    500
+   ],
+   "rms": 0.273,
+   "n": 178,
+   "angle_deg": -24.105
+  },
+  "LL_crease_l": {
+   "kind": "xy",
+   "a": -0.44743,
+   "b": 567.33854,
+   "span": [
+    548,
+    612
+   ],
+   "rms": 0.54,
+   "n": 46,
+   "angle_deg": -24.105
+  },
+  "LL_inner_u": {
+   "kind": "xy",
+   "a": -0.44064,
+   "b": 598.09319,
+   "span": [
+    303,
+    500
+   ],
+   "rms": 0.12,
+   "n": 154,
+   "angle_deg": -23.78
+  },
+  "LL_inner_l": {
+   "kind": "xy",
+   "a": -0.44167,
+   "b": 600.16619,
+   "span": [
+    540,
+    612
+   ],
+   "rms": 0.043,
+   "n": 53,
+   "angle_deg": -23.83
+  },
+  "RL_inner_u": {
+   "kind": "xy",
+   "a": 0.48256,
+   "b": 247.63356,
+   "span": [
+    375,
+    486
+   ],
+   "rms": 0.079,
+   "n": 94,
+   "angle_deg": 25.76
+  },
+  "RL_inner_l": {
+   "kind": "xy",
+   "a": 0.49225,
+   "b": 244.91103,
+   "span": [
+    525,
+    612
+   ],
+   "rms": 0.05,
+   "n": 71,
+   "angle_deg": 26.209
+  },
+  "RL_internal_u": {
+   "kind": "xy",
+   "a": 0.48941,
+   "b": 280.66958,
+   "span": [
+    335,
+    462
+   ],
+   "rms": 0.132,
+   "n": 100,
+   "angle_deg": 26.077
+  },
+  "RL_internal_l": {
+   "kind": "xy",
+   "a": 0.50102,
+   "b": 276.18717,
+   "span": [
+    515,
+    612
+   ],
+   "rms": 0.205,
+   "n": 82,
+   "angle_deg": 26.612
+  },
+  "RL_outer_u": {
+   "kind": "xy",
+   "a": 0.48793,
+   "b": 316.6713,
+   "span": [
+    303,
+    428
+   ],
+   "rms": 0.068,
+   "n": 107,
+   "angle_deg": 26.009
+  },
+  "RL_outer_l": {
+   "kind": "xy",
+   "a": 0.50686,
+   "b": 308.35765,
+   "span": [
+    505,
+    612
+   ],
+   "rms": 0.121,
+   "n": 73,
+   "angle_deg": 26.879
+  },
+  "P_left": {
+   "kind": "v",
+   "c": 528.45548,
+   "span": [
+    303,
+    410
+   ],
+   "rms": 0.025,
+   "n": 93
+  },
+  "stem_right": {
+   "kind": "v",
+   "c": 590.67013,
+   "span": [
+    360,
+    560
+   ],
+   "rms": 0.07,
+   "n": 86
+  },
+  "stem_mid": {
+   "kind": "v",
+   "c": 559.22957,
+   "span": [
+    334,
+    394
+   ],
+   "rms": 0.058,
+   "n": 52
+  },
+  "top": {
+   "kind": "h",
+   "c": 303.22689,
+   "span": [
+    390,
+    665
+   ]
+  },
+  "base": {
+   "kind": "h",
+   "c": 611.90815,
+   "span": [
+    255,
+    625
+   ]
+  },
+  "fold_top": {
+   "kind": "h",
+   "c": 334.13322,
+   "span": [
+    555,
+    670
+   ]
+  },
+  "counter_top": {
+   "kind": "h",
+   "c": 365.0165,
+   "span": [
+    588,
+    670
+   ]
+  },
+  "counter_bottom": {
+   "kind": "h",
+   "c": 447.13596,
+   "span": [
+    588,
+    670
+   ]
+  },
+  "bowl_bottom": {
+   "kind": "h",
+   "c": 508.93988,
+   "span": [
+    588,
+    672
+   ]
+  },
+  "crossbar_top": {
+   "kind": "h",
+   "c": 489.5311,
+   "span": [
+    378,
+    442
+   ]
+  },
+  "crossbar_bottom": {
+   "kind": "h",
+   "c": 551.3637,
+   "span": [
+    345,
+    444
+   ]
+  },
+  "crease": {
+   "kind": "h",
+   "c": 477.90814,
+   "span": [
+    588,
+    690
+   ]
+  },
+  "fold_diag": {
+   "kind": "pd",
+   "p": [
+    576.306,
+    350.932
+   ],
+   "d": [
+    0.71178,
+    0.7024
+   ],
+   "rms": 0.096,
+   "n": 69,
+   "angle_deg": 44.62
+  }
+ },
+ "invisible_cuts": {
+  "top_split_x": 605.0,
+  "seam_stem": 433.7,
+  "under_end": 680.0,
+  "fold_top_cut": "p-bowl-top | ribbon-front-stem along fold_top, x P_left..stem_mid"
+ },
+ "leg_kinks": {
+  "LL_crease": {
+   "y_upper_line": 512,
+   "y_lower_line": 541
+  },
+  "LL_inner": {
+   "y_upper_line": 505,
+   "y_lower_line": 535
+  },
+  "RL_inner": {
+   "y_upper_line": 493,
+   "y_lower_line": 519
+  },
+  "RL_internal": {
+   "y_upper_line": 472,
+   "y_lower_line": 500
+  },
+  "RL_outer": {
+   "y_upper_line": 440,
+   "y_lower_line": 473
+  }
+ },
+ "differences_from_master": [
+  "leg slopes: left leg -24.0 deg (06: -25.4), right leg +26.0/+26.9 deg (06: +27.2)",
+  "14's leg edges are not collinear across the ribbon: below it the right leg's edges are turned 0.45-0.87 deg and land 2.5-3.1 px further right at the base, the left leg's inner edge and crease are shifted +1.5 and +1.0 px (its outer edge is one straight line); each such edge is an upper and a lower line joined by corners the ribbon covers",
+  "ribbon: thicker over the crossbar (61.8 px vs 58.1 transformed), flat runs at y 489.53 / 551.36; its upper band runs out as a 1-4 px strip along the A outer edge to y 584",
+  "P: stem 528.46-590.67, counter 365.02-447.14, crease 477.91, bowl bottom 508.94, fold top 334.13 with a 44.6 deg fold edge; the P stem below the bowl ends in a point where the leg crosses (y 556.98)"
+ ],
+ "metrics": {
+  "iou": 0.9971,
+  "de_mean": 1.78,
+  "de_p95": 5.67,
+  "de_mean_interior": 1.63,
+  "de_p95_interior": 4.58,
+  "per_face": {
+   "p-bowl-lower": {
+    "de_mean": 1.2,
+    "de_p95": 2.63,
+    "pixels": 8156
+   },
+   "p-bowl-under": {
+    "de_mean": 1.7,
+    "de_p95": 3.33,
+    "pixels": 3804
+   },
+   "a-right-outer": {
+    "de_mean": 1.49,
+    "de_p95": 3.38,
+    "pixels": 7249
+   },
+   "a-right-inner": {
+    "de_mean": 1.18,
+    "de_p95": 2.57,
+    "pixels": 6343
+   },
+   "a-left-bevel": {
+    "de_mean": 1.09,
+    "de_p95": 2.59,
+    "pixels": 7637
+   },
+   "a-left-outer": {
+    "de_mean": 1.14,
+    "de_p95": 2.71,
+    "pixels": 7703
+   },
+   "p-bowl-top": {
+    "de_mean": 1.93,
+    "de_p95": 4.43,
+    "pixels": 8558
+   },
+   "p-bowl-fold": {
+    "de_mean": 1.11,
+    "de_p95": 2.86,
+    "pixels": 3813
+   },
+   "ribbon-front-stem": {
+    "de_mean": 0.96,
+    "de_p95": 1.97,
+    "pixels": 2714
+   },
+   "ribbon-front": {
+    "de_mean": 1.58,
+    "de_p95": 4.03,
+    "pixels": 7423
+   },
+   "ribbon-back": {
+    "de_mean": 1.38,
+    "de_p95": 3.13,
+    "pixels": 11257
+   }
+  },
+  "seams": [
+   {
+    "faces": [
+     "p-bowl-top",
+     "ribbon-front-stem"
+    ],
+    "de_max": 0.86,
+    "de_mean": 0.27,
+    "n": 30
+   },
+   {
+    "faces": [
+     "ribbon-front-stem",
+     "ribbon-front"
+    ],
+    "de_max": 0.83,
+    "de_mean": 0.21,
+    "n": 36
+   },
+   {
+    "faces": [
+     "p-bowl-under",
+     "p-bowl-lower"
+    ],
+    "de_max": 0.0,
+    "de_mean": 0.0,
+    "n": 29
+   }
+  ],
+  "method": "VectorCraft render (kit.render_svg) of components/rec/hero-14.svg at 1x, composited on the measured 14 background #FFFFFF; IoU of kit.bg_mask(dE2000 > 18 from #FFFFFF) masks inside the mark box + 12 px, rows >= 636 (wordmark) excluded; dE2000 over the original mark mask (interior = mask eroded 1 px); per face over its visible interior eroded 1 px"
+ }
+}

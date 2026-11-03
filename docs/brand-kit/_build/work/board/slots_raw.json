@@ -1,0 +1,170 @@
+{
+ "hero-stacked.mark": {
+  "bbox": [
+   118.0,
+   204.77,
+   321.33,
+   327.0
+  ],
+  "bbox_px": [
+   118,
+   205,
+   321,
+   327
+  ],
+  "search_box": [
+   100,
+   196,
+   340,
+   336
+  ],
+  "note": "big gradient AP"
+ },
+ "hero-horizontal.mark": {
+  "bbox": [
+   401.67,
+   204.78,
+   502.16,
+   265.07
+  ],
+  "bbox_px": [
+   402,
+   205,
+   502,
+   265
+  ],
+  "search_box": [
+   396,
+   199,
+   506,
+   270
+  ],
+  "note": "small gradient AP left of ALLIANCE / AI PARTNERS"
+ },
+ "tile-twotone.mark": {
+  "bbox": [
+   418.0,
+   326.69,
+   500.11,
+   376.2
+  ],
+  "bbox_px": [
+   418,
+   327,
+   500,
+   376
+  ],
+  "search_box": [
+   406,
+   298,
+   513,
+   406
+  ],
+  "note": "white + cyan two-tone AP inside navy tile 1"
+ },
+ "tile-flat.mark": {
+  "bbox": [
+   555.52,
+   326.61,
+   637.24,
+   376.33
+  ],
+  "bbox_px": [
+   556,
+   327,
+   637,
+   376
+  ],
+  "search_box": [
+   543,
+   298,
+   650,
+   406
+  ],
+  "note": "flat cyan AP inside navy tile 2"
+ },
+ "clearspace.mark": {
+  "bbox": [
+   753.0,
+   542.71,
+   951.23,
+   673.0
+  ],
+  "bbox_px": [
+   753,
+   543,
+   951,
+   673
+  ],
+  "search_box": [
+   745,
+   535,
+   960,
+   680
+  ],
+  "note": "gradient AP inside the clear-space grid"
+ },
+ "graphic-wave": {
+  "bbox": [
+   1037.0,
+   504.0,
+   1319.0,
+   590.0
+  ],
+  "bbox_px": [
+   1037,
+   504,
+   1319,
+   590
+  ],
+  "search_box": [
+   1022,
+   485,
+   1345,
+   606
+  ],
+  "note": "ribbon wave core (glow excluded: luma < 185)"
+ },
+ "graphic-wave.glow": {
+  "bbox": [
+   1021.0,
+   488.0,
+   1334.5,
+   607.0
+  ],
+  "bbox_px": [
+   1021,
+   488,
+   1334,
+   607
+  ],
+  "search_box": [
+   1018,
+   480,
+   1350,
+   609
+  ],
+  "note": "visible extent incl. cyan glow (RGB distance > 10)"
+ },
+ "graphic-datamesh": {
+  "bbox": [
+   1037.0,
+   612.89,
+   1318.25,
+   711.42
+  ],
+  "bbox_px": [
+   1037,
+   613,
+   1318,
+   711
+  ],
+  "search_box": [
+   1030,
+   605,
+   1325,
+   718
+  ],
+  "note": "navy data-mesh panel"
+ }
+}

@@ -1,0 +1,2784 @@
+{
+ "component": "board-02",
+ "source": "11d44af0-e70b-4d0f-ba3e-1fc0d871167b.jpeg",
+ "viewBox": [
+  0,
+  0,
+  1376,
+  768
+ ],
+ "svg": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\components\\board-02.svg",
+ "method": {
+  "text": "Montserrat outlines from kit.text_paths; style/size/tracking/x/baseline fitted per run by mask IoU (alpha = per-pixel unmix of bg->apparent ink), shared style+size inside obvious groups, then per-glyph manual kerning (Illustrator kerning, 1/1000 em, at the given character index).",
+  "iou": "binary IoU of alpha>=0.5 (original) vs coverage>=0.5 (exact raster of the fitted outlines) at 1x; iou_render uses the VectorCraft render of the SVG instead of the raster; iou_soft = sum(min)/sum(max).",
+  "colors": "large-glyph interiors / least squares through a JPEG 4:2:0 chroma model of the original (it is quality-100 4:2:0, so thin features lose chroma, not luma); snapped to the palette within dE2000 4."
+ },
+ "style_choice": {
+  "spec": {
+   "style": "SemiBold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "SemiBold": 0.9274,
+    "Bold": 0.8276,
+    "Medium": 0.8045
+   },
+   "mean_iou_soft": {
+    "SemiBold": 0.9157,
+    "Bold": 0.8215,
+    "Medium": 0.775
+   },
+   "size": 35.784301524880334
+  },
+  "labels": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9058,
+    "SemiBold": 0.88,
+    "ExtraBold": 0.819
+   },
+   "mean_iou_soft": {
+    "Bold": 0.8941,
+    "SemiBold": 0.857,
+    "ExtraBold": 0.799
+   },
+   "size": 19.29133728392137
+  },
+  "title": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9606,
+    "ExtraBold": 0.9082,
+    "SemiBold": 0.7947
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9311,
+    "ExtraBold": 0.9012,
+    "SemiBold": 0.7815
+   },
+   "size": 50.17322465432653
+  },
+  "hex": {
+   "style": "Regular",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Medium": 0.7488,
+    "Regular": 0.8176,
+    "SemiBold": 0.6405
+   },
+   "mean_iou_soft": {
+    "Medium": 0.8006,
+    "Regular": 0.8026,
+    "SemiBold": 0.6825
+   },
+   "size": 17.47553785347309
+  },
+  "names": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); binary alone prefers SemiBold, soft alone Bold",
+   "ink_area_ratio": {
+    "Bold": 1.041,
+    "SemiBold": 0.909
+   },
+   "mean_iou": {
+    "Bold": 0.8715,
+    "SemiBold": 0.883,
+    "ExtraBold": 0.7838
+   },
+   "mean_iou_soft": {
+    "Bold": 0.8744,
+    "SemiBold": 0.8598,
+    "ExtraBold": 0.7793
+   },
+   "size": 16.89732711300746
+  },
+  "hero-tagline": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); binary alone prefers Regular, soft alone Medium",
+   "ink_area_ratio": {
+    "Medium": 1.031,
+    "Regular": 0.832
+   },
+   "mean_iou": {
+    "Medium": 0.8484,
+    "SemiBold": 0.6871,
+    "Regular": 0.8553
+   },
+   "mean_iou_soft": {
+    "Medium": 0.8387,
+    "SemiBold": 0.7482,
+    "Regular": 0.7757
+   },
+   "size": 14.570879682750682
+  },
+  "subtitle": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Medium": 0.8825,
+    "SemiBold": 0.736,
+    "Bold": 0.6399
+   },
+   "mean_iou_soft": {
+    "Medium": 0.8854,
+    "SemiBold": 0.7482,
+    "Bold": 0.6336
+   },
+   "size": 26.190920378935104
+  },
+  "hero-wordmark": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.895,
+    "ExtraBold": 0.8254,
+    "SemiBold": 0.8432
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9311,
+    "ExtraBold": 0.8399,
+    "SemiBold": 0.8347
+   },
+   "size": 24.677166195411115
+  },
+  "horiz-line1": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9701,
+    "ExtraBold": 0.8493,
+    "SemiBold": 0.8626
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9384,
+    "ExtraBold": 0.8428,
+    "SemiBold": 0.8346
+   },
+   "size": 27.900475213487482
+  },
+  "horiz-line2": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9506,
+    "ExtraBold": 0.8723,
+    "SemiBold": 0.8865
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9287,
+    "ExtraBold": 0.8614,
+    "SemiBold": 0.8339
+   },
+   "size": 21.025294380765164
+  },
+  "headline": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9552,
+    "ExtraBold": 0.8832,
+    "SemiBold": 0.8284
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9363,
+    "ExtraBold": 0.8541,
+    "SemiBold": 0.8202
+   },
+   "size": 36.999047829218895
+  },
+  "headline-note": {
+   "style": "Bold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Bold": 0.9107,
+    "SemiBold": 0.86,
+    "ExtraBold": 0.788
+   },
+   "mean_iou_soft": {
+    "Bold": 0.9046,
+    "SemiBold": 0.8558,
+    "ExtraBold": 0.8099
+   },
+   "size": 21.40049106162708
+  },
+  "subheader": {
+   "style": "SemiBold",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "SemiBold": 0.9072,
+    "Bold": 0.7881,
+    "Medium": 0.8099
+   },
+   "mean_iou_soft": {
+    "SemiBold": 0.909,
+    "Bold": 0.7977,
+    "Medium": 0.8124
+   },
+   "size": 26.904651022016935
+  },
+  "subheader-note": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); binary alone prefers Medium, soft alone SemiBold",
+   "ink_area_ratio": {
+    "Medium": 0.901,
+    "SemiBold": 1.082
+   },
+   "mean_iou": {
+    "SemiBold": 0.8604,
+    "Medium": 0.9034,
+    "Bold": 0.7649
+   },
+   "mean_iou_soft": {
+    "SemiBold": 0.8816,
+    "Medium": 0.8632,
+    "Bold": 0.752
+   },
+   "size": 21.215549948582307
+  },
+  "body": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "SemiBold": 0.8859,
+    "Medium": 0.8989,
+    "Bold": 0.756
+   },
+   "mean_iou_soft": {
+    "SemiBold": 0.866,
+    "Medium": 0.8725,
+    "Bold": 0.7305
+   },
+   "size": 24.701735044896704
+  },
+  "body-note": {
+   "style": "Medium",
+   "by": "argmax(binary IoU + soft IoU); both agree",
+   "ink_area_ratio": {},
+   "mean_iou": {
+    "Medium": 0.8996,
+    "SemiBold": 0.8031,
+    "Bold": 0.7037
+   },
+   "mean_iou_soft": {
+    "Medium": 0.8877,
+    "SemiBold": 0.8219,
+    "Bold": 0.6987
+   },
+   "size": 20.953982632877263
+  },
+  "csx": {
+   "style": "Medium",
+   "by": "ink area (rendered coverage / original luma coverage = 0.96); 1x IoU cannot separate weights on these 10 px glyphs",
+   "size": 18.217634398651906,
+   "mean_iou": {
+    "Light": 0.542,
+    "Regular": 0.627,
+    "Medium": 0.6644,
+    "SemiBold": 0.7007
+   }
+  }
+ },
+ "text_runs": {
+  "title": {
+   "string": "ALLIANCE AI PARTNERS",
+   "group": "title",
+   "style": "Montserrat Bold",
+   "size": 50.105,
+   "tracking": -3.61,
+   "x": 374.909,
+   "baseline": 81.046,
+   "kerning": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": -2.0,
+    "4": -3.0,
+    "5": -1.0,
+    "6": -7.0,
+    "7": -1.0,
+    "9": 4.0,
+    "10": 4.0,
+    "12": 9.0,
+    "13": -4.0,
+    "14": -4.0,
+    "15": 12.0,
+    "16": 2.0,
+    "17": -9.0,
+    "18": -5.0,
+    "19": 3.0
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.0,
+    0.0,
+    -0.1,
+    -0.25,
+    -0.3,
+    -0.65,
+    -0.7,
+    -0.5,
+    -0.3,
+    0.15,
+    -0.05,
+    -0.25,
+    0.35,
+    0.45,
+    0.0,
+    -0.25,
+    -0.1
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": "#00D5FF",
+   "ai_glyph_indices": [
+    9,
+    10
+   ],
+   "iou": 0.9606,
+   "iou_soft": 0.9311,
+   "iou_render": 0.9281,
+   "iou_4x": 0.9387,
+   "iou_ceiling_raster_vs_render": 0.9596,
+   "fit_box": [
+    362,
+    36,
+    1012,
+    90
+   ],
+   "bbox": [
+    374.46,
+    45.37,
+    1000.24,
+    81.65
+   ]
+  },
+  "subtitle": {
+   "string": "BRAND GUIDELINES & STYLE BOARD",
+   "group": "subtitle",
+   "style": "Montserrat Medium",
+   "size": 26.218,
+   "tracking": -0.08,
+   "x": 438.388,
+   "baseline": 118.177,
+   "kerning": {
+    "1": -5.7,
+    "2": 1.9,
+    "3": -3.8,
+    "4": -7.6,
+    "6": 0.0,
+    "7": -3.8,
+    "8": -1.9,
+    "9": -7.6,
+    "10": -9.5,
+    "11": -15.3,
+    "12": 5.7,
+    "13": -5.7,
+    "14": -13.3,
+    "15": 11.4,
+    "17": 11.4,
+    "19": 19.1,
+    "20": 13.3,
+    "21": 5.7,
+    "22": 9.5,
+    "23": -7.6,
+    "25": -5.7,
+    "26": 0.0,
+    "27": -9.5,
+    "28": 5.7,
+    "29": 0.0
+   },
+   "glyph_offsets_px": [
+    0.35,
+    0.2,
+    0.25,
+    0.15,
+    -0.05,
+    -0.05,
+    -0.15,
+    -0.2,
+    -0.4,
+    -0.65,
+    -1.05,
+    -0.9,
+    -1.05,
+    -1.4,
+    -1.1,
+    -0.8,
+    -0.3,
+    0.05,
+    0.2,
+    0.45,
+    0.25,
+    0.1,
+    0.1,
+    -0.15,
+    0.0,
+    0.0
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8825,
+   "iou_soft": 0.8854,
+   "iou_render": 0.8875,
+   "iou_4x": 0.8907,
+   "iou_ceiling_raster_vs_render": 0.968,
+   "fit_box": [
+    432,
+    91,
+    943,
+    124
+   ],
+   "bbox": [
+    441.49,
+    99.61,
+    933.9,
+    118.46
+   ]
+  },
+  "label-01": {
+   "string": "01 | LOGO VARIATIONS",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": -4.13,
+   "x": 58.624,
+   "baseline": 176.725,
+   "kerning": {
+    "1": -2.6,
+    "3": 7.8,
+    "5": 0.0,
+    "6": 7.8,
+    "7": -2.6,
+    "8": -5.2,
+    "10": -5.2,
+    "11": -7.8,
+    "12": -7.8,
+    "13": 10.4,
+    "14": -5.2,
+    "15": 7.8,
+    "16": 2.6,
+    "17": 5.2,
+    "18": -2.6,
+    "19": 0.0
+   },
+   "glyph_offsets_px": [
+    0.0,
+    -0.05,
+    0.1,
+    0.1,
+    0.25,
+    0.2,
+    0.1,
+    0.0,
+    -0.15,
+    -0.3,
+    -0.1,
+    -0.2,
+    -0.05,
+    0.0,
+    0.1,
+    0.05,
+    0.05
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.915,
+   "iou_soft": 0.9015,
+   "iou_render": 0.9104,
+   "iou_4x": 0.9034,
+   "iou_ceiling_raster_vs_render": 0.963,
+   "fit_box": [
+    52,
+    156,
+    296,
+    184
+   ],
+   "bbox": [
+    59.38,
+    162.41,
+    283.87,
+    180.47
+   ]
+  },
+  "label-02": {
+   "string": "02 | COLOR PALETTE",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": 0.02,
+   "x": 728.968,
+   "baseline": 176.681,
+   "kerning": {
+    "1": 0.0,
+    "3": 0.0,
+    "5": 5.2,
+    "6": 25.9,
+    "7": -18.1,
+    "8": 10.4,
+    "9": -7.8,
+    "11": -15.6,
+    "12": -2.6,
+    "13": 0.0,
+    "14": -7.8,
+    "15": 0.0,
+    "16": 15.6,
+    "17": -2.6
+   },
+   "glyph_offsets_px": [
+    -0.1,
+    -0.1,
+    -0.1,
+    0.0,
+    0.5,
+    0.15,
+    0.35,
+    0.2,
+    -0.1,
+    -0.15,
+    -0.15,
+    -0.3,
+    -0.3,
+    0.0,
+    -0.05
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8979,
+   "iou_soft": 0.8913,
+   "iou_render": 0.8896,
+   "iou_4x": 0.8887,
+   "iou_ceiling_raster_vs_render": 0.9732,
+   "fit_box": [
+    722,
+    156,
+    944,
+    184
+   ],
+   "bbox": [
+    729.62,
+    162.37,
+    935.92,
+    180.42
+   ]
+  },
+  "label-03": {
+   "string": "03 | TYPOGRAPHY",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": -0.97,
+   "x": 58.602,
+   "baseline": 472.519,
+   "kerning": {
+    "1": 15.6,
+    "3": -5.2,
+    "5": 5.2,
+    "6": 10.4,
+    "7": 5.2,
+    "8": -5.2,
+    "9": -7.8,
+    "10": -13.0,
+    "11": 0.0,
+    "12": 5.2,
+    "13": -18.1,
+    "14": 7.8
+   },
+   "glyph_offsets_px": [
+    -0.2,
+    0.1,
+    0.0,
+    0.1,
+    0.3,
+    0.4,
+    0.3,
+    0.15,
+    -0.1,
+    -0.1,
+    0.0,
+    -0.35,
+    -0.2
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9128,
+   "iou_soft": 0.892,
+   "iou_render": 0.9111,
+   "iou_4x": 0.8992,
+   "iou_ceiling_raster_vs_render": 0.9803,
+   "fit_box": [
+    52,
+    451,
+    248,
+    481
+   ],
+   "bbox": [
+    59.15,
+    458.2,
+    240.71,
+    476.26
+   ]
+  },
+  "label-04": {
+   "string": "04 | CLEAR SPACE",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": -1.98,
+   "x": 715.352,
+   "baseline": 472.626,
+   "kerning": {
+    "1": -7.8,
+    "3": 5.2,
+    "5": 5.2,
+    "6": 5.2,
+    "7": 7.8,
+    "8": -13.0,
+    "9": -7.8,
+    "11": 0.0,
+    "12": 7.8,
+    "13": -2.6,
+    "14": -7.8,
+    "15": 13.0
+   },
+   "glyph_offsets_px": [
+    0.05,
+    -0.1,
+    0.0,
+    0.1,
+    0.2,
+    0.35,
+    0.1,
+    -0.05,
+    -0.05,
+    0.1,
+    0.05,
+    -0.1,
+    0.15
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9042,
+   "iou_soft": 0.8883,
+   "iou_render": 0.9269,
+   "iou_4x": 0.8924,
+   "iou_ceiling_raster_vs_render": 0.9556,
+   "fit_box": [
+    707,
+    451,
+    904,
+    481
+   ],
+   "bbox": [
+    716.15,
+    458.31,
+    897.35,
+    476.37
+   ]
+  },
+  "label-05": {
+   "string": "05 | GRAPHIC ELEMENTS",
+   "group": "labels",
+   "style": "Montserrat Bold",
+   "size": 19.291,
+   "tracking": -2.33,
+   "x": 1037.429,
+   "baseline": 472.568,
+   "kerning": {
+    "1": 13.0,
+    "3": 2.6,
+    "5": 15.6,
+    "6": -13.0,
+    "7": -7.8,
+    "8": 2.6,
+    "9": 5.2,
+    "10": -2.6,
+    "11": -10.4,
+    "13": 10.4,
+    "14": 0.0,
+    "15": 7.8,
+    "16": -7.8,
+    "17": 5.2,
+    "18": -18.1,
+    "19": 7.8,
+    "20": 5.2
+   },
+   "glyph_offsets_px": [
+    -0.3,
+    -0.05,
+    0.0,
+    0.3,
+    0.05,
+    -0.1,
+    -0.05,
+    0.05,
+    0.0,
+    -0.2,
+    0.0,
+    0.0,
+    0.15,
+    0.0,
+    0.1,
+    -0.25,
+    -0.1,
+    0.0
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8989,
+   "iou_soft": 0.8975,
+   "iou_render": 0.8882,
+   "iou_4x": 0.8926,
+   "iou_ceiling_raster_vs_render": 0.9729,
+   "fit_box": [
+    1027,
+    451,
+    1298,
+    481
+   ],
+   "bbox": [
+    1037.88,
+    458.25,
+    1285.17,
+    476.31
+   ]
+  },
+  "hero-wordmark": {
+   "string": "ALLIANCE AI PARTNERS",
+   "group": "hero-wordmark",
+   "style": "Montserrat Bold",
+   "size": 25.073,
+   "tracking": -13.34,
+   "x": 62.806,
+   "baseline": 364.389,
+   "kerning": {
+    "1": 8.0,
+    "2": 6.0,
+    "3": -2.0,
+    "4": 4.0,
+    "5": -8.0,
+    "6": 4.0,
+    "7": 2.0,
+    "9": 4.0,
+    "10": 10.0,
+    "12": -4.0,
+    "13": -6.0,
+    "14": -4.0,
+    "15": 6.0,
+    "16": -4.0,
+    "17": -2.0,
+    "18": -8.0,
+    "19": 4.0
+   },
+   "glyph_offsets_px": [
+    -0.35,
+    -0.15,
+    0.0,
+    -0.05,
+    0.05,
+    -0.15,
+    -0.05,
+    0.0,
+    0.1,
+    0.35,
+    0.25,
+    0.1,
+    0.0,
+    0.15,
+    0.05,
+    0.0,
+    -0.2,
+    -0.1
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": "#2459B4",
+   "ai_glyph_indices": [
+    9,
+    10
+   ],
+   "iou": 0.895,
+   "iou_soft": 0.9311,
+   "iou_render": 0.9144,
+   "iou_4x": 0.934,
+   "iou_ceiling_raster_vs_render": 0.897,
+   "fit_box": [
+    57,
+    339,
+    378,
+    371
+   ],
+   "bbox": [
+    62.23,
+    346.54,
+    371.04,
+    364.69
+   ]
+  },
+  "hero-tagline": {
+   "string": "Partners in AI. Partners in growth.",
+   "group": "hero-tagline",
+   "style": "Montserrat Medium",
+   "size": 14.729,
+   "tracking": -7.62,
+   "x": 92.364,
+   "baseline": 383.88,
+   "kerning": {
+    "1": -6.8,
+    "2": 3.4,
+    "3": -6.8,
+    "4": -10.2,
+    "5": 3.4,
+    "6": -6.8,
+    "7": 27.2,
+    "9": -3.4,
+    "10": 13.6,
+    "12": -10.2,
+    "13": -3.4,
+    "14": 3.4,
+    "16": 0.0,
+    "17": 10.2,
+    "18": 3.4,
+    "19": -17.0,
+    "20": -10.2,
+    "21": 3.4,
+    "22": 0.0,
+    "23": -3.4,
+    "25": 13.6,
+    "26": 13.6,
+    "28": 0.0,
+    "29": -13.6,
+    "30": 6.8,
+    "31": -3.4,
+    "32": -3.4,
+    "33": -6.8,
+    "34": -3.4
+   },
+   "glyph_offsets_px": [
+    0.0,
+    -0.1,
+    -0.05,
+    -0.15,
+    -0.3,
+    -0.25,
+    -0.35,
+    0.05,
+    0.0,
+    0.2,
+    0.05,
+    0.0,
+    0.05,
+    0.05,
+    0.2,
+    0.25,
+    0.0,
+    -0.15,
+    -0.1,
+    -0.1,
+    -0.15,
+    0.05,
+    0.25,
+    0.25,
+    0.05,
+    0.15,
+    0.1,
+    0.05,
+    -0.05,
+    -0.1
+   ],
+   "fill": "#1F2229",
+   "fill_name": "Charcoal",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8484,
+   "iou_soft": 0.8387,
+   "iou_render": 0.8496,
+   "iou_4x": 0.8007,
+   "iou_ceiling_raster_vs_render": 0.8743,
+   "fit_box": [
+    86,
+    371,
+    351,
+    392
+   ],
+   "bbox": [
+    93.91,
+    372.73,
+    340.49,
+    386.83
+   ]
+  },
+  "horiz-line1": {
+   "string": "ALLIANCE",
+   "group": "horiz-line1",
+   "style": "Montserrat Bold",
+   "size": 28.057,
+   "tracking": -8.68,
+   "x": 510.146,
+   "baseline": 230.976,
+   "kerning": {
+    "1": 8.9,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 3.6,
+    "5": -3.6,
+    "6": -10.7,
+    "7": -1.8
+   },
+   "glyph_offsets_px": [
+    -0.25,
+    0.0,
+    0.0,
+    0.0,
+    0.1,
+    0.0,
+    -0.3,
+    -0.35
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9701,
+   "iou_soft": 0.9384,
+   "iou_render": 0.9664,
+   "iou_4x": 0.9428,
+   "iou_ceiling_raster_vs_render": 0.9892,
+   "fit_box": [
+    506,
+    203,
+    659,
+    234
+   ],
+   "bbox": [
+    509.64,
+    211.0,
+    654.69,
+    231.31
+   ]
+  },
+  "horiz-line2": {
+   "string": "AI PARTNERS",
+   "group": "horiz-line2",
+   "style": "Montserrat Bold",
+   "size": 20.928,
+   "tracking": -8.02,
+   "x": 509.928,
+   "baseline": 253.744,
+   "kerning": {
+    "1": 0.0,
+    "3": 2.4,
+    "4": -7.2,
+    "5": 2.4,
+    "6": 2.4,
+    "7": 4.8,
+    "8": 4.8,
+    "9": -14.3,
+    "10": 9.6
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.0,
+    0.05,
+    -0.1,
+    -0.05,
+    0.0,
+    0.1,
+    0.2,
+    -0.1,
+    0.1
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": "#2459B4",
+   "ai_glyph_indices": [
+    0,
+    1
+   ],
+   "iou": 0.9506,
+   "iou_soft": 0.9287,
+   "iou_render": 0.938,
+   "iou_4x": 0.9288,
+   "iou_ceiling_raster_vs_render": 0.9505,
+   "fit_box": [
+    506,
+    234,
+    659,
+    262
+   ],
+   "bbox": [
+    509.74,
+    238.84,
+    654.78,
+    253.99
+   ]
+  },
+  "name-vibrant": {
+   "string": "Vibrant",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -6.26,
+   "x": 755.765,
+   "baseline": 342.129,
+   "kerning": {
+    "1": 0.0,
+    "2": -3.0,
+    "3": -17.8,
+    "4": 35.5,
+    "5": -8.9,
+    "6": -23.7
+   },
+   "glyph_offsets_px": [
+    0.05,
+    0.05,
+    0.0,
+    -0.3,
+    0.3,
+    0.15,
+    -0.25
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8801,
+   "iou_soft": 0.8718,
+   "iou_render": 0.8603,
+   "iou_4x": 0.8745,
+   "iou_ceiling_raster_vs_render": 0.9696,
+   "fit_box": [
+    746,
+    325,
+    829,
+    346
+   ],
+   "bbox": [
+    755.66,
+    328.83,
+    819.95,
+    342.26
+   ]
+  },
+  "name-blue": {
+   "string": "Blue",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -18.06,
+   "x": 768.48,
+   "baseline": 362.631,
+   "kerning": {
+    "1": -5.9,
+    "2": -3.0,
+    "3": 17.8
+   },
+   "glyph_offsets_px": [
+    0.0,
+    -0.1,
+    -0.15,
+    0.15
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8662,
+   "iou_soft": 0.8923,
+   "iou_render": 0.8769,
+   "iou_4x": 0.8593,
+   "iou_ceiling_raster_vs_render": 0.9462,
+   "fit_box": [
+    761,
+    346,
+    814,
+    367
+   ],
+   "bbox": [
+    769.88,
+    350.09,
+    807.46,
+    362.77
+   ]
+  },
+  "name-cyan": {
+   "string": "Bright Cyan",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -13.68,
+   "x": 856.809,
+   "baseline": 342.808,
+   "kerning": {
+    "1": -14.8,
+    "2": 29.6,
+    "3": -17.8,
+    "4": 5.9,
+    "5": -14.8,
+    "7": 5.9,
+    "8": 14.8,
+    "9": 5.9,
+    "10": 0.0
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    -0.3,
+    0.2,
+    -0.1,
+    0.0,
+    -0.25,
+    -0.15,
+    0.1,
+    0.2,
+    0.2
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.853,
+   "iou_soft": 0.8564,
+   "iou_render": 0.8746,
+   "iou_4x": 0.8656,
+   "iou_ceiling_raster_vs_render": 0.9524,
+   "fit_box": [
+    851,
+    325,
+    967,
+    350
+   ],
+   "bbox": [
+    858.16,
+    329.51,
+    958.46,
+    346.22
+   ]
+  },
+  "name-navy": {
+   "string": "Deep Navy",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -12.43,
+   "x": 980.547,
+   "baseline": 342.896,
+   "kerning": {
+    "1": -5.9,
+    "2": -8.9,
+    "3": 3.0,
+    "5": -11.8,
+    "6": 5.9,
+    "7": -5.9,
+    "8": 20.7
+   },
+   "glyph_offsets_px": [
+    0.2,
+    0.1,
+    -0.05,
+    0.0,
+    -0.2,
+    -0.1,
+    -0.2,
+    0.15
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8554,
+   "iou_soft": 0.8694,
+   "iou_render": 0.8425,
+   "iou_4x": 0.8639,
+   "iou_ceiling_raster_vs_render": 0.9383,
+   "fit_box": [
+    976,
+    325,
+    1081,
+    350
+   ],
+   "bbox": [
+    982.15,
+    331.07,
+    1074.76,
+    346.31
+   ]
+  },
+  "name-white": {
+   "string": "Pure White",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -16.96,
+   "x": 1097.853,
+   "baseline": 342.886,
+   "kerning": {
+    "1": 3.0,
+    "2": -5.9,
+    "3": 8.9,
+    "5": -11.8,
+    "6": -5.9,
+    "7": 0.0,
+    "8": 8.9,
+    "9": 11.8
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.05,
+    -0.05,
+    0.1,
+    -0.1,
+    -0.2,
+    -0.2,
+    -0.05,
+    0.15
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8965,
+   "iou_soft": 0.8811,
+   "iou_render": 0.9057,
+   "iou_4x": 0.8849,
+   "iou_ceiling_raster_vs_render": 0.97,
+   "fit_box": [
+    1093,
+    325,
+    1202,
+    347
+   ],
+   "bbox": [
+    1099.26,
+    329.59,
+    1195.49,
+    343.02
+   ]
+  },
+  "name-offwhite": {
+   "string": "Off-White",
+   "group": "names",
+   "style": "Montserrat Bold",
+   "size": 16.897,
+   "tracking": -13.0,
+   "x": 1223.116,
+   "baseline": 342.884,
+   "kerning": {
+    "1": 5.9,
+    "2": -11.8,
+    "3": 14.8,
+    "4": -14.8,
+    "5": -3.0,
+    "6": -8.9,
+    "7": 14.8,
+    "8": 3.0
+   },
+   "glyph_offsets_px": [
+    0.1,
+    0.2,
+    0.0,
+    0.25,
+    0.0,
+    -0.05,
+    -0.2,
+    0.05,
+    0.1
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8779,
+   "iou_soft": 0.8751,
+   "iou_render": 0.8794,
+   "iou_4x": 0.8666,
+   "iou_ceiling_raster_vs_render": 0.961,
+   "fit_box": [
+    1218,
+    325,
+    1315,
+    347
+   ],
+   "bbox": [
+    1223.87,
+    329.59,
+    1308.36,
+    343.09
+   ]
+  },
+  "hex-blue": {
+   "string": "#1B56FF",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -21.74,
+   "x": 752.226,
+   "baseline": 383.853,
+   "kerning": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": -8.6,
+    "4": 17.2,
+    "5": 0.0,
+    "6": -11.4
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    -0.05,
+    -0.05,
+    -0.2,
+    0.1,
+    0.1,
+    -0.1
+   ],
+   "fill": "#1F2229",
+   "fill_name": "Charcoal",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8174,
+   "iou_soft": 0.7877,
+   "iou_render": 0.7288,
+   "iou_4x": 0.7568,
+   "iou_ceiling_raster_vs_render": 0.7368,
+   "fit_box": [
+    736,
+    367,
+    841,
+    390
+   ],
+   "bbox": [
+    752.68,
+    371.51,
+    823.47,
+    383.96
+   ]
+  },
+  "hex-cyan": {
+   "string": "#00D5FF",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -26.74,
+   "x": 868.706,
+   "baseline": 364.07,
+   "kerning": {
+    "1": 5.7,
+    "2": -5.7,
+    "3": -8.6,
+    "4": -8.6,
+    "5": 17.2,
+    "6": 2.9
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    0.05,
+    -0.05,
+    -0.2,
+    -0.35,
+    -0.05,
+    0.0
+   ],
+   "fill": "#1F2229",
+   "fill_name": "Charcoal",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8328,
+   "iou_soft": 0.8024,
+   "iou_render": 0.7986,
+   "iou_4x": 0.7878,
+   "iou_ceiling_raster_vs_render": 0.9231,
+   "fit_box": [
+    861,
+    350,
+    957,
+    369
+   ],
+   "bbox": [
+    869.16,
+    351.73,
+    946.97,
+    364.17
+   ]
+  },
+  "hex-navy": {
+   "string": "#121B2A",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -18.42,
+   "x": 993.485,
+   "baseline": 364.053,
+   "kerning": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 5.7,
+    "4": -5.7,
+    "5": 2.9,
+    "6": -2.9
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.0,
+    0.0,
+    0.1,
+    0.0,
+    0.05,
+    0.0
+   ],
+   "fill": "#1F2229",
+   "fill_name": "Charcoal",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8097,
+   "iou_soft": 0.7901,
+   "iou_render": 0.7867,
+   "iou_4x": 0.7697,
+   "iou_ceiling_raster_vs_render": 0.9502,
+   "fit_box": [
+    981,
+    350,
+    1077,
+    369
+   ],
+   "bbox": [
+    993.99,
+    351.71,
+    1061.86,
+    364.05
+   ]
+  },
+  "hex-white": {
+   "string": "#FFFFFF",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -32.16,
+   "x": 1109.516,
+   "baseline": 364.094,
+   "kerning": {
+    "1": 11.4,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "glyph_offsets_px": [
+    -0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "fill": "#1F2229",
+   "fill_name": "Charcoal",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8082,
+   "iou_soft": 0.8365,
+   "iou_render": 0.7074,
+   "iou_4x": 0.8066,
+   "iou_ceiling_raster_vs_render": 0.7396,
+   "fit_box": [
+    1101,
+    347,
+    1194,
+    369
+   ],
+   "bbox": [
+    1109.82,
+    351.86,
+    1184.0,
+    364.09
+   ]
+  },
+  "hex-offwhite": {
+   "string": "#F4F7FB",
+   "group": "hex",
+   "style": "Montserrat Regular",
+   "size": 17.476,
+   "tracking": -26.4,
+   "x": 1227.867,
+   "baseline": 364.078,
+   "kerning": {
+    "1": 5.7,
+    "2": 8.6,
+    "3": 2.9,
+    "4": -14.3,
+    "5": 20.0,
+    "6": -17.2
+   },
+   "glyph_offsets_px": [
+    -0.3,
+    -0.2,
+    -0.05,
+    0.0,
+    -0.25,
+    0.1,
+    -0.2
+   ],
+   "fill": "#1F2229",
+   "fill_name": "Charcoal",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8199,
+   "iou_soft": 0.7961,
+   "iou_render": 0.7622,
+   "iou_4x": 0.7692,
+   "iou_ceiling_raster_vs_render": 0.911,
+   "fit_box": [
+    1221,
+    347,
+    1312,
+    369
+   ],
+   "bbox": [
+    1228.07,
+    351.84,
+    1303.61,
+    364.08
+   ]
+  },
+  "spec-1": {
+   "string": "Aa Bb Cc Dd Ee Ff",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": -11.97,
+   "x": 57.167,
+   "baseline": 537.643,
+   "kerning": {
+    "1": 8.4,
+    "3": -2.8,
+    "4": -7.0,
+    "6": 7.0,
+    "7": 8.4,
+    "9": -5.6,
+    "10": -8.4,
+    "12": 1.4,
+    "13": -1.4,
+    "15": 12.6,
+    "16": -7.0
+   },
+   "glyph_offsets_px": [
+    -0.2,
+    0.1,
+    0.0,
+    -0.25,
+    0.0,
+    0.3,
+    0.1,
+    -0.2,
+    -0.15,
+    -0.2,
+    0.25,
+    0.0
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9401,
+   "iou_soft": 0.9253,
+   "iou_render": 0.9158,
+   "iou_4x": 0.93,
+   "iou_ceiling_raster_vs_render": 0.951,
+   "fit_box": [
+    51,
+    501,
+    394,
+    548
+   ],
+   "bbox": [
+    56.79,
+    510.84,
+    383.18,
+    538.0
+   ]
+  },
+  "spec-2": {
+   "string": "Gg Hh Ii Jj Kk Ll Mm",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": -11.94,
+   "x": 56.494,
+   "baseline": 581.152,
+   "kerning": {
+    "1": -11.2,
+    "3": -4.2,
+    "4": -19.6,
+    "6": -1.4,
+    "7": 8.4,
+    "9": 14.0,
+    "10": 11.2,
+    "12": 0.0,
+    "13": -8.4,
+    "15": -4.2,
+    "16": 4.2,
+    "18": 16.8,
+    "19": -16.8
+   },
+   "glyph_offsets_px": [
+    0.4,
+    0.0,
+    -0.15,
+    -0.85,
+    -0.9,
+    -0.6,
+    -0.1,
+    0.3,
+    0.3,
+    0.0,
+    -0.15,
+    0.0,
+    0.6,
+    0.0
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9236,
+   "iou_soft": 0.9104,
+   "iou_render": 0.9138,
+   "iou_4x": 0.9229,
+   "iou_ceiling_raster_vs_render": 0.953,
+   "fit_box": [
+    51,
+    548,
+    424,
+    594
+   ],
+   "bbox": [
+    58.47,
+    553.52,
+    414.23,
+    588.35
+   ]
+  },
+  "spec-3": {
+   "string": "Nn Oo Pp Qq Rr Ss",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": -12.16,
+   "x": 56.625,
+   "baseline": 624.401,
+   "kerning": {
+    "1": -8.4,
+    "3": 0.0,
+    "4": -2.8,
+    "6": 2.8,
+    "7": 7.0,
+    "9": -1.4,
+    "10": -7.0,
+    "12": 14.0,
+    "13": -14.0,
+    "15": 16.8,
+    "16": 7.0
+   },
+   "glyph_offsets_px": [
+    0.1,
+    -0.2,
+    -0.2,
+    -0.3,
+    -0.2,
+    0.05,
+    0.0,
+    -0.25,
+    0.25,
+    -0.25,
+    0.35,
+    0.6
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9278,
+   "iou_soft": 0.9111,
+   "iou_render": 0.9089,
+   "iou_4x": 0.9183,
+   "iou_ceiling_raster_vs_render": 0.968,
+   "fit_box": [
+    51,
+    594,
+    399,
+    638
+   ],
+   "bbox": [
+    60.09,
+    598.99,
+    392.22,
+    631.34
+   ]
+  },
+  "spec-4": {
+   "string": "Tt Uu Ww Xx Yy Zz",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": -2.22,
+   "x": 56.244,
+   "baseline": 667.907,
+   "kerning": {
+    "1": -8.4,
+    "3": -16.8,
+    "4": -14.0,
+    "6": -27.9,
+    "7": -2.8,
+    "9": 5.6,
+    "10": 46.1,
+    "12": 4.2,
+    "13": -12.6,
+    "15": -12.6,
+    "16": 11.2
+   },
+   "glyph_offsets_px": [
+    1.2,
+    0.9,
+    0.3,
+    -0.2,
+    -1.2,
+    -1.3,
+    -1.1,
+    0.55,
+    0.7,
+    0.25,
+    -0.2,
+    0.2
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9129,
+   "iou_soft": 0.9129,
+   "iou_render": 0.9059,
+   "iou_4x": 0.9204,
+   "iou_ceiling_raster_vs_render": 0.9789,
+   "fit_box": [
+    51,
+    638,
+    404,
+    681
+   ],
+   "bbox": [
+    57.59,
+    642.86,
+    396.94,
+    675.1
+   ]
+  },
+  "spec-5": {
+   "string": "0123456789",
+   "group": "spec",
+   "style": "Montserrat SemiBold",
+   "size": 35.784,
+   "tracking": 8.6,
+   "x": 57.071,
+   "baseline": 711.175,
+   "kerning": {
+    "1": -2.8,
+    "2": 0.0,
+    "3": 8.4,
+    "4": -11.2,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 7.0,
+    "9": 2.8
+   },
+   "glyph_offsets_px": [
+    0.1,
+    0.0,
+    0.0,
+    0.3,
+    -0.1,
+    -0.1,
+    -0.1,
+    -0.1,
+    0.15,
+    0.25
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9325,
+   "iou_soft": 0.9188,
+   "iou_render": 0.9179,
+   "iou_4x": 0.9356,
+   "iou_ceiling_raster_vs_render": 0.9575,
+   "fit_box": [
+    51,
+    681,
+    279,
+    720
+   ],
+   "bbox": [
+    58.75,
+    685.77,
+    272.18,
+    711.53
+   ]
+  },
+  "headline": {
+   "string": "HEADLINE",
+   "group": "headline",
+   "style": "Montserrat Bold",
+   "size": 37.023,
+   "tracking": -7.59,
+   "x": 448.862,
+   "baseline": 536.718,
+   "kerning": {
+    "1": 0.0,
+    "2": -5.4,
+    "3": 4.1,
+    "4": -2.7,
+    "5": 4.1,
+    "6": 0.0,
+    "7": 0.0
+   },
+   "glyph_offsets_px": [
+    0.0,
+    0.0,
+    -0.2,
+    -0.05,
+    -0.15,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9552,
+   "iou_soft": 0.9363,
+   "iou_render": 0.9471,
+   "iou_4x": 0.9418,
+   "iou_ceiling_raster_vs_render": 0.9698,
+   "fit_box": [
+    446,
+    503,
+    654,
+    543
+   ],
+   "bbox": [
+    451.94,
+    510.8,
+    648.15,
+    536.72
+   ]
+  },
+  "headline-note": {
+   "string": "(Bold)",
+   "group": "headline-note",
+   "style": "Montserrat Bold",
+   "size": 21.412,
+   "tracking": -14.27,
+   "x": 449.325,
+   "baseline": 563.527,
+   "kerning": {
+    "1": 2.3,
+    "2": -4.7,
+    "3": 4.7,
+    "4": 0.0,
+    "5": 4.7
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    0.0,
+    -0.1,
+    0.0,
+    0.0,
+    0.1
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9107,
+   "iou_soft": 0.9046,
+   "iou_render": 0.8852,
+   "iou_4x": 0.8982,
+   "iou_ceiling_raster_vs_render": 0.9568,
+   "fit_box": [
+    446,
+    543,
+    519,
+    570
+   ],
+   "bbox": [
+    450.84,
+    547.64,
+    513.31,
+    567.68
+   ]
+  },
+  "subheader": {
+   "string": "SUBHEADER",
+   "group": "subheader",
+   "style": "Montserrat SemiBold",
+   "size": 26.927,
+   "tracking": -21.49,
+   "x": 449.408,
+   "baseline": 615.678,
+   "kerning": {
+    "1": 1.9,
+    "2": -1.9,
+    "3": -7.4,
+    "4": 3.7,
+    "5": 5.6,
+    "6": 0.0,
+    "7": 3.7,
+    "8": 0.0
+   },
+   "glyph_offsets_px": [
+    -0.05,
+    0.0,
+    -0.05,
+    -0.25,
+    -0.15,
+    0.0,
+    0.0,
+    0.1,
+    0.1
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9072,
+   "iou_soft": 0.909,
+   "iou_render": 0.9084,
+   "iou_4x": 0.9067,
+   "iou_ceiling_raster_vs_render": 0.9545,
+   "fit_box": [
+    446,
+    590,
+    627,
+    620
+   ],
+   "bbox": [
+    450.3,
+    596.56,
+    622.49,
+    615.95
+   ]
+  },
+  "subheader-note": {
+   "string": "(Medium)",
+   "group": "subheader-note",
+   "style": "Montserrat Medium",
+   "size": 21.17,
+   "tracking": -1.41,
+   "x": 449.547,
+   "baseline": 639.81,
+   "kerning": {
+    "1": 18.9,
+    "2": -4.7,
+    "3": 4.7,
+    "4": 0.0,
+    "5": 4.7,
+    "6": -16.5,
+    "7": 7.1
+   },
+   "glyph_offsets_px": [
+    -0.4,
+    0.0,
+    -0.1,
+    0.0,
+    0.0,
+    0.1,
+    -0.25,
+    -0.1
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.9034,
+   "iou_soft": 0.8632,
+   "iou_render": 0.8383,
+   "iou_4x": 0.8619,
+   "iou_ceiling_raster_vs_render": 0.9115,
+   "fit_box": [
+    446,
+    620,
+    559,
+    647
+   ],
+   "bbox": [
+    451.16,
+    623.78,
+    551.74,
+    643.92
+   ]
+  },
+  "body": {
+   "string": "BODY TEXT",
+   "group": "body",
+   "style": "Montserrat Medium",
+   "size": 24.871,
+   "tracking": 5.05,
+   "x": 449.029,
+   "baseline": 688.521,
+   "kerning": {
+    "1": -8.0,
+    "2": -20.1,
+    "3": 0.0,
+    "5": 16.1,
+    "6": 2.0,
+    "7": 8.0,
+    "8": 30.2
+   },
+   "glyph_offsets_px": [
+    0.3,
+    0.1,
+    -0.4,
+    -0.4,
+    0.0,
+    0.05,
+    0.25,
+    1.0
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8989,
+   "iou_soft": 0.8725,
+   "iou_render": 0.8561,
+   "iou_4x": 0.8724,
+   "iou_ceiling_raster_vs_render": 0.9379,
+   "fit_box": [
+    446,
+    664,
+    599,
+    694
+   ],
+   "bbox": [
+    451.94,
+    670.91,
+    594.91,
+    688.72
+   ]
+  },
+  "body-note": {
+   "string": "(Regular)",
+   "group": "body-note",
+   "style": "Montserrat Medium",
+   "size": 21.101,
+   "tracking": -4.98,
+   "x": 449.205,
+   "baseline": 712.888,
+   "kerning": {
+    "1": 0.0,
+    "2": -4.7,
+    "3": 0.0,
+    "4": -7.1,
+    "5": -2.4,
+    "6": 2.4,
+    "7": 0.0,
+    "8": 21.3
+   },
+   "glyph_offsets_px": [
+    0.1,
+    0.1,
+    0.0,
+    0.0,
+    -0.15,
+    -0.2,
+    -0.15,
+    -0.15,
+    0.3
+   ],
+   "fill": "#151A37",
+   "fill_name": "Ink Navy",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.8996,
+   "iou_soft": 0.8877,
+   "iou_render": 0.8516,
+   "iou_4x": 0.8871,
+   "iou_ceiling_raster_vs_render": 0.8752,
+   "fit_box": [
+    446,
+    694,
+    552,
+    721
+   ],
+   "bbox": [
+    451.31,
+    697.23,
+    544.97,
+    717.11
+   ]
+  },
+  "cs-x-top": {
+   "string": "x",
+   "group": "csx",
+   "style": "Montserrat Medium",
+   "size": 18.218,
+   "tracking": 0.3,
+   "x": 865.224,
+   "baseline": 529.805,
+   "kerning": {},
+   "glyph_offsets_px": [
+    0.0
+   ],
+   "fill": "#8E5450",
+   "fill_name": "Clear-space Red",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.6667,
+   "iou_soft": 0.6532,
+   "iou_render": 0.6667,
+   "iou_4x": 0.6416,
+   "iou_ceiling_raster_vs_render": 1.0,
+   "fit_box": [
+    861,
+    514,
+    881,
+    533
+   ],
+   "bbox": [
+    865.48,
+    520.15,
+    875.03,
+    529.81
+   ]
+  },
+  "cs-x-bottom": {
+   "string": "x",
+   "group": "csx",
+   "style": "Montserrat Medium",
+   "size": 18.218,
+   "tracking": 2.99,
+   "x": 865.32,
+   "baseline": 695.755,
+   "kerning": {},
+   "glyph_offsets_px": [
+    0.0
+   ],
+   "fill": "#8E5450",
+   "fill_name": "Clear-space Red",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.617,
+   "iou_soft": 0.6,
+   "iou_render": 0.6304,
+   "iou_4x": 0.5988,
+   "iou_ceiling_raster_vs_render": 0.9737,
+   "fit_box": [
+    861,
+    681,
+    881,
+    700
+   ],
+   "bbox": [
+    865.58,
+    686.1,
+    875.12,
+    695.75
+   ]
+  },
+  "cs-x-left": {
+   "string": "x",
+   "group": "csx",
+   "style": "Montserrat Medium",
+   "size": 18.218,
+   "tracking": -2.66,
+   "x": 729.43,
+   "baseline": 595.081,
+   "kerning": {},
+   "glyph_offsets_px": [
+    0.0
+   ],
+   "fill": "#8E5450",
+   "fill_name": "Clear-space Red",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.6667,
+   "iou_soft": 0.6008,
+   "iou_render": 0.6522,
+   "iou_4x": 0.5997,
+   "iou_ceiling_raster_vs_render": 0.9722,
+   "fit_box": [
+    725,
+    579,
+    745,
+    598
+   ],
+   "bbox": [
+    729.69,
+    585.42,
+    739.23,
+    595.08
+   ]
+  },
+  "cs-x-right": {
+   "string": "x",
+   "group": "csx",
+   "style": "Montserrat Medium",
+   "size": 18.218,
+   "tracking": 0.3,
+   "x": 963.328,
+   "baseline": 595.519,
+   "kerning": {},
+   "glyph_offsets_px": [
+    0.0
+   ],
+   "fill": "#8E5450",
+   "fill_name": "Clear-space Red",
+   "ai_fill": null,
+   "ai_glyph_indices": [],
+   "iou": 0.7073,
+   "iou_soft": 0.6029,
+   "iou_render": 0.6829,
+   "iou_4x": 0.618,
+   "iou_ceiling_raster_vs_render": 0.9706,
+   "fit_box": [
+    957,
+    579,
+    977,
+    598
+   ],
+   "bbox": [
+    963.58,
+    585.86,
+    973.13,
+    595.52
+   ]
+  }
+ },
+ "colors": {
+  "background": {
+   "hex": "#F4F7FB",
+   "palette": "Off-White",
+   "measured": "#F5F9FD",
+   "dE_to_palette": 0.91,
+   "name": "Off-White"
+  },
+  "palette_used": {
+   "Vibrant Blue": "#1B56FF",
+   "Bright Cyan": "#00D5FF",
+   "Deep Navy": "#121B2A",
+   "Pure White": "#FFFFFF",
+   "Off-White": "#F4F7FB"
+  },
+  "supporting_tones": {
+   "Ink Navy": {
+    "hex": "#151A37",
+    "palette": null,
+    "measured": "#151A37",
+    "dE_to_palette": 7.55,
+    "nearest_palette": "Deep Navy",
+    "name": "Ink Navy",
+    "used_for": "all navy text: title (except AI), subtitle, section labels, lockup wordmarks, swatch names, typography specimens, HEADLINE/SUBHEADER/BODY TEXT and their notes"
+   },
+   "Charcoal": {
+    "hex": "#1F2229",
+    "palette": null,
+    "measured": "#1F2229",
+    "dE_to_palette": 4.9,
+    "nearest_palette": "Deep Navy",
+    "name": "Charcoal",
+    "used_for": "swatch hex codes (#1B56FF ... #F4F7FB) and the tagline 'Partners in AI. Partners in growth.'"
+   },
+   "Royal Blue": {
+    "hex": "#2459B4",
+    "palette": null,
+    "measured": "#2459B4",
+    "dE_to_palette": 9.7,
+    "nearest_palette": "Vibrant Blue",
+    "name": "Royal Blue",
+    "used_for": "'AI' in the two lockup wordmarks of the logo-variation panel"
+   },
+   "Guide Grey": {
+    "hex": "#CECFD3",
+    "palette": null,
+    "measured": "#CECFD3",
+    "dE_to_palette": 8.77,
+    "nearest_palette": "Off-White",
+    "name": "Guide Grey",
+    "used_for": "logo-variation layout guides (1.25 px hairlines)"
+   },
+   "Swatch Outline Grey": {
+    "hex": "#97989F",
+    "palette": null,
+    "measured": "#97989F",
+    "dE_to_palette": 23.77,
+    "nearest_palette": "Off-White",
+    "name": "Swatch Outline Grey",
+    "used_for": "outline of the Off-White swatch"
+   },
+   "Clear-space Red": {
+    "hex": "#8E5450",
+    "palette": null,
+    "measured": "#8E5450",
+    "dE_to_palette": 34.25,
+    "nearest_palette": "Deep Navy",
+    "name": "Clear-space Red",
+    "used_for": "clear-space dashed grid, double arrows, corner crosses and the 'x' unit labels"
+   }
+  },
+  "supporting_tone_pairwise_dE2000": {
+   "Ink Navy / Charcoal": 11.28,
+   "Ink Navy / Royal Blue": 25.51,
+   "Ink Navy / Guide Grey": 72.01,
+   "Ink Navy / Swatch Outline Grey": 45.74,
+   "Ink Navy / Clear-space Red": 33.4,
+   "Charcoal / Royal Blue": 27.39,
+   "Charcoal / Guide Grey": 69.29,
+   "Charcoal / Swatch Outline Grey": 42.64,
+   "Charcoal / Clear-space Red": 30.96,
+   "Royal Blue / Guide Grey": 44.18,
+   "Royal Blue / Swatch Outline Grey": 32.18,
+   "Royal Blue / Clear-space Red": 33.69,
+   "Guide Grey / Swatch Outline Grey": 15.17,
+   "Guide Grey / Clear-space Red": 40.28,
+   "Swatch Outline Grey / Clear-space Red": 28.91
+  },
+  "measurements": {
+   "ink_navy_interior": "#151A37",
+   "charcoal_ls_per_run_unstable_not_used": [
+    "#021706",
+    "#071B04",
+    "#051A03",
+    "#192713",
+    "#0C1D0A",
+    "#131A1E"
+   ],
+   "royal_ls_per_run": [
+    "#1C56B7",
+    "#2C5BB2"
+   ],
+   "title_ai_interior": "#08D0F4",
+   "clear_space_red_joint": "#8E5450",
+   "pure_white_ring_fitted": "#272D3B",
+   "off_white_ring_fitted": "#97989F"
+  }
+ },
+ "shapes": {
+  "background": {
+   "fill": "#F4F7FB"
+  },
+  "guides": {
+   "guide-h-205": {
+    "orient": "h",
+    "center": 205.09,
+    "from": 31.42,
+    "to": 689.63,
+    "width": 1.25
+   },
+   "guide-h-265": {
+    "orient": "h",
+    "center": 264.66,
+    "from": 371.04,
+    "to": 689.63,
+    "width": 1.25
+   },
+   "guide-h-294": {
+    "orient": "h",
+    "center": 293.63,
+    "from": 371.04,
+    "to": 689.63,
+    "width": 1.25
+   },
+   "guide-h-410": {
+    "orient": "h",
+    "center": 409.96,
+    "from": 31.42,
+    "to": 689.63,
+    "width": 1.25
+   },
+   "guide-v-62": {
+    "orient": "v",
+    "center": 62.17,
+    "from": 161.79,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-371": {
+    "orient": "v",
+    "center": 371.04,
+    "from": 161.79,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-401": {
+    "orient": "v",
+    "center": 401.42,
+    "from": 161.79,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-517": {
+    "orient": "v",
+    "center": 517.2,
+    "from": 264.66,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-538": {
+    "orient": "v",
+    "center": 538.1,
+    "from": 264.66,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "guide-v-654": {
+    "orient": "v",
+    "center": 654.37,
+    "from": 161.79,
+    "to": 441.0,
+    "width": 1.25
+   },
+   "_style": {
+    "stroke": "#CECFD3",
+    "width": 1.255
+   }
+  },
+  "dividers": {
+   "divider-header": {
+    "orient": "h",
+    "center": 147.42,
+    "from": 32.14,
+    "to": 1343.87,
+    "width": 1.89,
+    "width_at_fitted_ink": 1.75
+   },
+   "divider-row-left": {
+    "orient": "h",
+    "center": 440.59,
+    "from": 31.6,
+    "to": 676.22,
+    "width": 1.61,
+    "width_at_fitted_ink": 1.6
+   },
+   "divider-row-mid": {
+    "orient": "h",
+    "center": 440.58,
+    "from": 700.06,
+    "to": 999.46,
+    "width": 1.64,
+    "width_at_fitted_ink": 1.61
+   },
+   "divider-row-right": {
+    "orient": "h",
+    "center": 440.59,
+    "from": 1023.67,
+    "to": 1344.62,
+    "width": 1.64,
+    "width_at_fitted_ink": 1.61
+   },
+   "divider-col1-top": {
+    "orient": "v",
+    "center": 687.98,
+    "from": 168.58,
+    "to": 427.73,
+    "width": 1.8,
+    "width_at_fitted_ink": 2.09
+   },
+   "divider-col1-bottom": {
+    "orient": "v",
+    "center": 687.92,
+    "from": 453.97,
+    "to": 742.57,
+    "width": 1.78,
+    "width_at_fitted_ink": 2.0
+   },
+   "divider-col2": {
+    "orient": "v",
+    "center": 1011.63,
+    "from": 454.21,
+    "to": 742.52,
+    "width": 1.62,
+    "width_at_fitted_ink": 1.59
+   },
+   "_style": {
+    "stroke": "#121B2A"
+   }
+  },
+  "swatches": {
+   "radius": 45.35,
+   "cy": 268.75,
+   "centers_x": {
+    "swatch-vibrant-blue": 788.32,
+    "swatch-bright-cyan": 908.22,
+    "swatch-deep-navy": 1027.94
+   },
+   "pure_white": {
+    "cx": 1147.0725313632106,
+    "stroke": "#121B2A",
+    "stroke_width": 1.39,
+    "outer_radius": 45.35,
+    "fitted": {
+     "width": 1.519528764690019,
+     "ink": "#272D3B"
+    }
+   },
+   "off_white": {
+    "cx": 1266.2960502233836,
+    "r_stroke": 44.65693706005452,
+    "stroke": "#97989F",
+    "stroke_width": 1.1599414275695739
+   },
+   "bright_cyan_glow": "radial gradient Bright Cyan 34% -> 0 over r 45.35..49.6 (soft glow in the original)"
+  },
+  "tiles": {
+   "tile-two-tone": [
+    401.41,
+    293.49,
+    517.54,
+    410.14
+   ],
+   "tile-flat": [
+    538.04,
+    293.46,
+    654.61,
+    410.06
+   ]
+  },
+  "clear_space": {
+   "color": "#8E5450",
+   "grid_stroke_width": 1.669,
+   "grid": {
+    "cs-h1": {
+     "orient": "h",
+     "center": 505.6015361314465,
+     "from": 715.0668492791182,
+     "to": 987.8982205270415,
+     "dash_start": 722.9660103400045,
+     "corner_stub": [
+      715.0668492791182,
+      719.7235830608168
+     ],
+     "dash": 6.072069260673128,
+     "gap": 3.2424272791876945,
+     "period": 9.314496539860823
+    },
+    "cs-h2": {
+     "orient": "h",
+     "center": 543.4937514890541,
+     "from": 715.0668492791182,
+     "to": 987.8982205270415,
+     "dash_start": 724.1540096252602,
+     "corner_stub": [
+      715.0668492791182,
+      721.2607152585103
+     ],
+     "dash": 6.367249146192535,
+     "gap": 2.8932943667498545,
+     "period": 9.26054351294239
+    },
+    "cs-h3": {
+     "orient": "h",
+     "center": 671.9433248351775,
+     "from": 715.0668492791182,
+     "to": 987.8982205270415,
+     "dash_start": 724.1633442446773,
+     "corner_stub": [
+      715.0668492791182,
+      721.2803859103867
+     ],
+     "dash": 6.372632989528148,
+     "gap": 2.8829583342905654,
+     "period": 9.255591323818713
+    },
+    "cs-h4": {
+     "orient": "h",
+     "center": 709.6125683516261,
+     "from": 715.0668492791182,
+     "to": 987.8982205270415,
+     "dash_start": 722.1589754865527,
+     "corner_stub": [
+      715.0668492791182,
+      719.0289460328116
+     ],
+     "dash": 6.208010352649408,
+     "gap": 3.1300294537409723,
+     "period": 9.33803980639038
+    },
+    "cs-v1": {
+     "orient": "v",
+     "center": 715.9011977128833,
+     "from": 504.76718769768127,
+     "to": 710.4469167853913,
+     "dash_start": 512.9325995860877,
+     "corner_stub": [
+      504.76718769768127,
+      509.69960900171054
+     ],
+     "dash": 5.997477091456699,
+     "gap": 3.2329905843771423,
+     "period": 9.230467675833841
+    },
+    "cs-v2": {
+     "orient": "v",
+     "center": 752.7274429884778,
+     "from": 504.76718769768127,
+     "to": 710.4469167853913,
+     "dash_start": 511.44876466333596,
+     "corner_stub": [
+      504.76718769768127,
+      508.7496312248594
+     ],
+     "dash": 6.084544168477697,
+     "gap": 2.6991334384765704,
+     "period": 8.783677606954267
+    },
+    "cs-v3": {
+     "orient": "v",
+     "center": 950.0033264435913,
+     "from": 504.76718769768127,
+     "to": 710.4469167853913,
+     "dash_start": 511.8724505877016,
+     "corner_stub": [
+      504.76718769768127,
+      508.7769454507959
+     ],
+     "dash": 5.687698353112689,
+     "gap": 3.0955051369057287,
+     "period": 8.783203490018417
+    },
+    "cs-v4": {
+     "orient": "v",
+     "center": 987.0638720932764,
+     "from": 504.76718769768127,
+     "to": 710.4469167853913,
+     "dash_start": 512.5510911291005,
+     "corner_stub": [
+      504.76718769768127,
+      509.7909087313653
+     ],
+     "dash": 6.495321640753241,
+     "gap": 2.7601823977352478,
+     "period": 9.255504038488489
+    }
+   },
+   "arrows": {
+    "cs-arrow-top": {
+     "axis": 858.6899956226905,
+     "tip_a": 506.095824794293,
+     "tip_b": 542.5365966491236,
+     "vertical": true
+    },
+    "cs-arrow-bottom": {
+     "axis": 858.7653145040751,
+     "tip_a": 672.3819774241558,
+     "tip_b": 709.2084450751705,
+     "vertical": true
+    },
+    "cs-arrow-left": {
+     "axis": 602.260548823188,
+     "tip_a": 716.050270605167,
+     "tip_b": 751.9385885031791,
+     "vertical": false
+    },
+    "cs-arrow-right": {
+     "axis": 602.3241460104769,
+     "tip_a": 950.6441645511959,
+     "tip_b": 986.2493123494444,
+     "vertical": false
+    },
+    "_style": {
+     "shaft_width": 1.6977024078473235,
+     "head_length": 6.554454714771209,
+     "head_half_width": 3.4985136069346883
+    }
+   },
+   "crosses": {
+    "cs-cross-tl": {
+     "cx": 734.8809380044875,
+     "cy": 524.9198044803745
+    },
+    "cs-cross-tr": {
+     "cx": 968.5215706373631,
+     "cy": 525.0258998576071
+    },
+    "cs-cross-bl": {
+     "cx": 734.8297336702482,
+     "cy": 690.5527714311511
+    },
+    "cs-cross-br": {
+     "cx": 968.466077311577,
+     "cy": 690.5166301470686
+    },
+    "_style": {
+     "half_size": 8.826112495106972,
+     "stroke_width": 2.0519362668579033
+    }
+   }
+  }
+ },
+ "verify": {
+  "de_mean_excl_slots": 1.86,
+  "de_p95_excl_slots": 6.05,
+  "regions": {
+   "flat_background": {
+    "de_mean": 1.08,
+    "de_p95": 1.84,
+    "pixels": 671203
+   },
+   "swatch_interiors": {
+    "de_mean": 1.41,
+    "de_p95": 2.76,
+    "pixels": 26860
+   },
+   "edges_text_lines": {
+    "de_mean": 4.17,
+    "de_p95": 13.31,
+    "pixels": 226287
+   }
+  },
+  "render": "VectorCraft at 4x, box-downsampled to 1x; slots (+3 px) excluded from every metric",
+  "text_iou_mean": 0.8682,
+  "text_iou_4x_mean": 0.8505,
+  "text_iou_min": 0.617,
+  "text_runs_below_0.88": [
+   "hero-tagline",
+   "name-blue",
+   "name-cyan",
+   "name-navy",
+   "name-offwhite",
+   "hex-blue",
+   "hex-cyan",
+   "hex-navy",
+   "hex-white",
+   "hex-offwhite",
+   "cs-x-top",
+   "cs-x-bottom",
+   "cs-x-left",
+   "cs-x-right"
+  ]
+ }
+}

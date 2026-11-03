@@ -1,0 +1,1576 @@
+{
+ "component": "hero-04",
+ "source": "04",
+ "source_file": "29138393-2121-469f-8575-a5dbb045ed7b.jpeg",
+ "viewBox": [
+  0,
+  0,
+  1376,
+  768
+ ],
+ "placement": "identity: original 04 pixel space (y down); mark only, no text, no background",
+ "bbox": [
+  177.93,
+  259.86,
+  586.69,
+  508.06
+ ],
+ "background_measured": "#132032",
+ "background_note": "median of 04 more than 30 px from the mark and its glow, left of the wordmark (363382 px); nearest palette Deep Navy #121B2A at dE2000 2.13 (not snapped: the background is not part of this file)",
+ "structure": {
+  "z_order": [
+   "face-p-bowl-lower",
+   "face-p-bowl-lower-highlight",
+   "face-p-bowl-under",
+   "face-a-right-outer",
+   "face-a-right-inner",
+   "face-a-left-bevel",
+   "face-a-left-outer",
+   "face-p-bowl-top",
+   "face-p-bowl-top-highlight",
+   "face-p-bowl-fold",
+   "face-p-bowl-fold-highlight",
+   "face-ribbon-front-stem",
+   "face-ribbon-front",
+   "face-ribbon-front-highlight",
+   "face-ribbon-back"
+  ],
+  "faces_from_master": [
+   "p-bowl-lower",
+   "p-bowl-under",
+   "a-right-outer",
+   "a-right-inner",
+   "a-left-bevel",
+   "a-left-outer",
+   "p-bowl-top",
+   "p-bowl-fold",
+   "ribbon-front-stem",
+   "ribbon-front",
+   "ribbon-back"
+  ],
+  "highlights": {
+   "face-p-bowl-lower-highlight": {
+    "host": "face-p-bowl-lower",
+    "shape": "traced",
+    "threshold_L_excess": 8.0
+   },
+   "face-p-bowl-top-highlight": {
+    "host": "face-p-bowl-top",
+    "shape": "ellipse",
+    "threshold_L_excess": 2.0
+   },
+   "face-p-bowl-fold-highlight": {
+    "host": "face-p-bowl-fold",
+    "shape": "traced",
+    "threshold_L_excess": 8.0
+   },
+   "face-ribbon-front-highlight": {
+    "host": "face-ribbon-front",
+    "shape": "traced",
+    "threshold_L_excess": 8.0
+   }
+  },
+  "stacking": "faces listed bottom to top; each lower face reaches 1.5 px (04 px) under the face stacked above it; all faces (and highlights) are cut by one shared silhouette (VectorCraft Pathfinder intersect)",
+  "seams": "one ribbon band is split into p-bowl-top | ribbon-front-stem | ribbon-front and the P bar into p-bowl-under | p-bowl-lower by straight cuts; stops solved jointly so the cuts do not show (ribbon-front-stem kept vertical so both of its horizontal cuts can close)"
+ },
+ "silhouette_d": "M177.93 508.056 L236.079 508.056 L257.661 459.255 L330.391 459.742 C330.701 459.744 335.401 458.905 336.376 458.802 C347.454 457.631 358.444 455.084 368.839 451.002 C372.377 449.612 375.845 447.871 379.326 446.573 C380.837 450.206 381.609 450.434 382.359 451.971 L409.747 508.056 L467.429 508.056 L445.731 463.501 C447.116 462.45 448.79 462.678 448.79 460.335 L448.79 425.189 L512.47 425.189 C514.149 425.189 516.598 424.24 518.412 423.978 C524.605 423.083 530.33 421.172 536.142 418.942 C553.318 412.355 566.88 399.938 575.556 383.859 C578.956 377.559 582.059 371.073 583.899 364.117 C593.734 326.951 577.062 283.967 541.378 267.499 C534.825 264.475 528.076 262.35 520.979 260.999 C519.188 260.658 516.801 259.855 515.056 259.855 L399.3 259.855 L399.3 338.274 C399.3 338.811 398.289 343.166 398.123 344.234 C397.766 346.54 397.284 348.823 396.712 351.086 C395.181 357.149 395.4 354.453 393.906 357.082 L348.563 263.972 C348.149 263.123 348.904 263.432 346.656 259.855 L291.63 259.855 L177.93 508.056 Z M529.712 315.08 C529.688 316.951 529.343 318.902 529.861 320.805 C531.176 325.636 534.696 329.123 535.802 336.527 C538.095 351.891 529.73 367.981 514.815 373.405 C513.033 374.053 509.306 375.378 507.549 375.378 L448.685 375.378 C448.354 369.124 448.977 363.061 449.262 356.807 C449.42 353.329 448.727 354.287 446.957 352.243 C447.357 348.935 448.022 345.674 448.412 342.363 C448.529 341.37 448.629 340.374 448.717 339.378 C448.807 338.358 449.418 337.411 449.418 336.387 L449.418 316.397 C449.418 314.92 448.782 314.66 449.118 309.912 L509.944 309.912 C516.52 309.912 523.621 312.893 529.712 315.08 Z M279.576 409.7 L315.671 328.081 C316.504 326.197 318.758 325.779 320.263 324.81 L355 395.945 C352.783 400.356 353.441 397.613 352.432 403.262 C344.964 405.974 336.656 408.397 328.665 408.579 L279.576 409.7 Z",
+ "lines": {
+  "LL_outer": {
+   "a": -0.45809680173993217,
+   "b": 410.6685164148233
+  },
+  "LL_crease": {
+   "a": -0.4484258703387209,
+   "b": 434.71590629300067
+  },
+  "LL_inner": {
+   "a": -0.4422374681253068,
+   "b": 460.76049601950643
+  },
+  "RL_inner": {
+   "a": 0.48832991431812295,
+   "b": 161.6483865482797
+  },
+  "RL_internal": {
+   "a": 0.4903966670893239,
+   "b": 190.30590941649
+  },
+  "RL_outer": {
+   "a": 0.4869875559379962,
+   "b": 220.01177280825132
+  },
+  "stem_mid": {
+   "a": 0.002574433952959129,
+   "b": 423.4091013523306
+  },
+  "stem_diag": {
+   "a": 0.9691168926215108,
+   "b": 147.80880099147143
+  },
+  "top": 259.85509203931326,
+  "base": 508.05627677635925,
+  "P_left": 399.2995178300105,
+  "stem_right": 448.79003673566007,
+  "stem_right_hi": 449.4178089620228,
+  "fold_top": 284.4859937424883,
+  "counter_top": 309.9117191578419,
+  "counter_bottom": 375.37803464636414,
+  "crease": 400.25457128795506,
+  "bowl_bottom": 425.18927060548805,
+  "crossbar_mid": 433.78088957471005,
+  "crossbar_top": {
+   "ah": -0.02282511033692116,
+   "bh": 416.0810165119591
+  },
+  "crossbar_bottom": {
+   "ah": 0.006692299745851037,
+   "bh": 457.53065870443436
+  },
+  "seam_stem": 364.283,
+  "under_end": 532.741,
+  "top_split_x": 460.201
+ },
+ "colour_rule": "fidelity first: least-squares stops in sRGB (<= 5 per face, inside the visible pixels only); a stop snaps to a kit.PALETTE colour only within dE2000 2.0 (none did: nearest is 2.45); stops within dE2000 2.0 of each other (complete linkage) share one tone, re-solved by least squares over every pixel that uses it",
+ "tones": [
+  {
+   "hex": "#3BCCF3",
+   "family": "Azure",
+   "L": 76.4,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 2.45
+   },
+   "used_in": [
+    "face-ribbon-front-highlight#0"
+   ]
+  },
+  {
+   "hex": "#4CB7F3",
+   "family": "Azure",
+   "L": 70.8,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 10.97
+   },
+   "used_in": [
+    "face-p-bowl-fold-highlight#1"
+   ]
+  },
+  {
+   "hex": "#33ADDF",
+   "family": "Azure",
+   "L": 66.5,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 11.28
+   },
+   "used_in": [
+    "face-ribbon-front#3"
+   ]
+  },
+  {
+   "hex": "#11A3EC",
+   "family": "Azure",
+   "L": 63.6,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 16.52
+   },
+   "used_in": [
+    "face-p-bowl-fold-highlight#0"
+   ]
+  },
+  {
+   "hex": "#1091E1",
+   "family": "Azure",
+   "L": 57.8,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 21.68
+   },
+   "used_in": [
+    "face-p-bowl-fold#3"
+   ]
+  },
+  {
+   "hex": "#1980C6",
+   "family": "Azure",
+   "L": 51.5,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 16.82
+   },
+   "used_in": [
+    "face-ribbon-front-stem#3",
+    "face-ribbon-front#0"
+   ]
+  },
+  {
+   "hex": "#1C75EC",
+   "family": "Blue",
+   "L": 50.7,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 10.93
+   },
+   "used_in": [
+    "face-p-bowl-fold#1",
+    "face-p-bowl-fold#2"
+   ]
+  },
+  {
+   "hex": "#1F65F4",
+   "family": "Blue",
+   "L": 47.1,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 4.92
+   },
+   "used_in": [
+    "face-a-right-outer#4",
+    "face-a-left-outer#0"
+   ]
+  },
+  {
+   "hex": "#1F71B9",
+   "family": "Blue",
+   "L": 46.4,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 13.13
+   },
+   "used_in": [
+    "face-ribbon-front-stem#2"
+   ]
+  },
+  {
+   "hex": "#2261DD",
+   "family": "Blue",
+   "L": 44.4,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 5.6
+   },
+   "used_in": [
+    "face-a-left-bevel#0"
+   ]
+  },
+  {
+   "hex": "#2363B3",
+   "family": "Blue",
+   "L": 42.1,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 10.84
+   },
+   "used_in": [
+    "face-ribbon-front-stem#1"
+   ]
+  },
+  {
+   "hex": "#225BC5",
+   "family": "Blue",
+   "L": 41.0,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 7.73
+   },
+   "used_in": [
+    "face-p-bowl-fold#0"
+   ]
+  },
+  {
+   "hex": "#2354A5",
+   "family": "Blue",
+   "L": 36.8,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 11.58
+   },
+   "used_in": [
+    "face-p-bowl-top#2",
+    "face-ribbon-front-stem#0"
+   ]
+  },
+  {
+   "hex": "#2351B0",
+   "family": "Blue",
+   "L": 36.7,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 10.25
+   },
+   "used_in": [
+    "face-ribbon-back#0"
+   ]
+  },
+  {
+   "hex": "#194A96",
+   "family": "Blue",
+   "L": 32.5,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 14.07
+   },
+   "used_in": [
+    "face-a-right-outer#3"
+   ]
+  },
+  {
+   "hex": "#274798",
+   "family": "Blue",
+   "L": 32.3,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 13.85
+   },
+   "used_in": [
+    "face-a-left-outer#3"
+   ]
+  },
+  {
+   "hex": "#193E82",
+   "family": "Blue",
+   "L": 27.5,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 17.18
+   },
+   "used_in": [
+    "face-a-left-bevel#1",
+    "face-a-left-outer#1"
+   ]
+  },
+  {
+   "hex": "#093B75",
+   "family": "Blue",
+   "L": 25.2,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 15.56
+   },
+   "used_in": [
+    "face-a-right-outer#2"
+   ]
+  },
+  {
+   "hex": "#173578",
+   "family": "Blue",
+   "L": 23.9,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 15.25
+   },
+   "used_in": [
+    "face-a-left-outer#2"
+   ]
+  },
+  {
+   "hex": "#2AF5FA",
+   "family": "Cyan",
+   "L": 88.3,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 13.46
+   },
+   "used_in": [
+    "face-ribbon-back#3"
+   ]
+  },
+  {
+   "hex": "#5FE8F6",
+   "family": "Cyan",
+   "L": 85.4,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 9.03
+   },
+   "used_in": [
+    "face-p-bowl-top-highlight#2"
+   ]
+  },
+  {
+   "hex": "#05E9F8",
+   "family": "Cyan",
+   "L": 84.5,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 9.56
+   },
+   "used_in": [
+    "face-ribbon-front#2"
+   ]
+  },
+  {
+   "hex": "#17DCF2",
+   "family": "Cyan",
+   "L": 80.6,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 6.19
+   },
+   "used_in": [
+    "face-p-bowl-top#0",
+    "face-p-bowl-top#1",
+    "face-p-bowl-top-highlight#0",
+    "face-ribbon-front#1",
+    "face-ribbon-back#2"
+   ]
+  },
+  {
+   "hex": "#0BD9F1",
+   "family": "Cyan",
+   "L": 79.6,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 5.46
+   },
+   "used_in": [
+    "face-ribbon-front-highlight#2",
+    "face-ribbon-back#1"
+   ]
+  },
+  {
+   "hex": "#0F2E56",
+   "family": "Navy",
+   "L": 18.9,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 10.37
+   },
+   "used_in": [
+    "face-p-bowl-lower#1",
+    "face-p-bowl-under#0",
+    "face-a-right-inner#0",
+    "face-a-right-inner#3"
+   ]
+  },
+  {
+   "hex": "#00255A",
+   "family": "Navy",
+   "L": 15.8,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 11.38
+   },
+   "used_in": [
+    "face-a-right-inner#2"
+   ]
+  },
+  {
+   "hex": "#001A47",
+   "family": "Navy",
+   "L": 10.5,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 9.92
+   },
+   "used_in": [
+    "face-a-left-bevel#2"
+   ]
+  },
+  {
+   "hex": "#A2F8FF",
+   "family": "Slate",
+   "L": 92.6,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 13.55
+   },
+   "used_in": [
+    "face-ribbon-front-highlight#1"
+   ]
+  },
+  {
+   "hex": "#B8F0FF",
+   "family": "Slate",
+   "L": 91.6,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 13.15
+   },
+   "used_in": [
+    "face-p-bowl-lower-highlight#1",
+    "face-p-bowl-lower-highlight#2"
+   ]
+  },
+  {
+   "hex": "#86EDFA",
+   "family": "Slate",
+   "L": 88.2,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Bright Cyan",
+    "hex": "#00D5FF",
+    "de2000": 10.13
+   },
+   "used_in": [
+    "face-p-bowl-top-highlight#1"
+   ]
+  },
+  {
+   "hex": "#4B749C",
+   "family": "Slate",
+   "L": 47.5,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 11.87
+   },
+   "used_in": [
+    "face-p-bowl-lower-highlight#0"
+   ]
+  },
+  {
+   "hex": "#3D5579",
+   "family": "Slate",
+   "L": 35.7,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 15.17
+   },
+   "used_in": [
+    "face-p-bowl-lower#2",
+    "face-p-bowl-lower#3",
+    "face-p-bowl-under#3",
+    "face-a-right-outer#0",
+    "face-a-right-inner#4",
+    "face-a-left-bevel#3"
+   ]
+  },
+  {
+   "hex": "#315377",
+   "family": "Slate",
+   "L": 34.3,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 14.66
+   },
+   "used_in": [
+    "face-p-bowl-lower#4",
+    "face-p-bowl-lower-highlight#3"
+   ]
+  },
+  {
+   "hex": "#004A74",
+   "family": "Slate",
+   "L": 29.8,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Vibrant Blue",
+    "hex": "#1B56FF",
+    "de2000": 17.18
+   },
+   "used_in": [
+    "face-p-bowl-lower#0"
+   ]
+  },
+  {
+   "hex": "#2C466A",
+   "family": "Slate",
+   "L": 29.3,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 15.28
+   },
+   "used_in": [
+    "face-a-right-outer#1"
+   ]
+  },
+  {
+   "hex": "#283E65",
+   "family": "Slate",
+   "L": 26.3,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 13.62
+   },
+   "used_in": [
+    "face-p-bowl-under#2",
+    "face-a-right-inner#1"
+   ]
+  },
+  {
+   "hex": "#1D385C",
+   "family": "Slate",
+   "L": 23.2,
+   "palette": null,
+   "nearest_palette": {
+    "name": "Deep Navy",
+    "hex": "#121B2A",
+    "de2000": 11.62
+   },
+   "used_in": [
+    "face-p-bowl-under#1"
+   ]
+  }
+ ],
+ "palette_used": [],
+ "faces": [
+  {
+   "id": "face-p-bowl-lower",
+   "gradient": "grad-p-bowl-lower",
+   "z": 0,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 559.044,
+    "y1": 340.999,
+    "x2": 470.992,
+    "y2": 426.03,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#004A74",
+      "palette": null
+     },
+     {
+      "offset": 0.0332,
+      "hex": "#0F2E56",
+      "palette": null
+     },
+     {
+      "offset": 0.3721,
+      "hex": "#3D5579",
+      "palette": null
+     },
+     {
+      "offset": 0.8197,
+      "hex": "#3D5579",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#315377",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 28,
+   "fit": {
+    "K": 5,
+    "angle": 136.0,
+    "kept": 0.944,
+    "pixels": 4555,
+    "de_mean": 1.41,
+    "de_p95": 3.86
+   },
+   "verify": {
+    "pixels": 4974,
+    "de_mean": 2.47,
+    "de_p95": 9.2
+   }
+  },
+  {
+   "id": "face-p-bowl-lower-highlight",
+   "gradient": "grad-p-bowl-lower-highlight",
+   "z": 1,
+   "role": "highlight",
+   "host": "face-p-bowl-lower",
+   "fill": {
+    "type": "linear",
+    "x1": 503.715,
+    "y1": 368.292,
+    "x2": 533.443,
+    "y2": 372.47,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#4B749C",
+      "palette": null
+     },
+     {
+      "offset": 0.4402,
+      "hex": "#B8F0FF",
+      "palette": null
+     },
+     {
+      "offset": 0.7661,
+      "hex": "#B8F0FF",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#315377",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 14,
+   "fit": {
+    "K": 4,
+    "angle": 8.0,
+    "kept": 0.847,
+    "pixels": 149,
+    "de_mean": 2.56,
+    "de_p95": 6.2
+   },
+   "verify": {
+    "pixels": 130,
+    "de_mean": 5.41,
+    "de_p95": 19.93
+   }
+  },
+  {
+   "id": "face-p-bowl-under",
+   "gradient": "grad-p-bowl-under",
+   "z": 2,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 431.987,
+    "y1": 416.113,
+    "x2": 521.069,
+    "y2": 416.113,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0F2E56",
+      "palette": null
+     },
+     {
+      "offset": 0.1921,
+      "hex": "#1D385C",
+      "palette": null
+     },
+     {
+      "offset": 0.533,
+      "hex": "#283E65",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 14,
+   "fit": {
+    "K": 4,
+    "angle": 0.0,
+    "kept": 0.988,
+    "pixels": 2794,
+    "de_mean": 1.17,
+    "de_p95": 2.49
+   },
+   "verify": {
+    "pixels": 2887,
+    "de_mean": 1.37,
+    "de_p95": 3.13
+   }
+  },
+  {
+   "id": "face-a-right-outer",
+   "gradient": "grad-a-right-outer",
+   "z": 3,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 366.719,
+    "y1": 349.931,
+    "x2": 443.224,
+    "y2": 453.992,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#3D5579",
+      "palette": null
+     },
+     {
+      "offset": 0.1843,
+      "hex": "#2C466A",
+      "palette": null
+     },
+     {
+      "offset": 0.7079,
+      "hex": "#093B75",
+      "palette": null
+     },
+     {
+      "offset": 0.7612,
+      "hex": "#194A96",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1F65F4",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 6,
+   "fit": {
+    "K": 5,
+    "angle": 53.7,
+    "kept": 0.997,
+    "pixels": 4738,
+    "de_mean": 1.08,
+    "de_p95": 2.79
+   },
+   "verify": {
+    "pixels": 4893,
+    "de_mean": 1.19,
+    "de_p95": 3.29
+   }
+  },
+  {
+   "id": "face-a-right-inner",
+   "gradient": "grad-a-right-inner",
+   "z": 4,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 320.36,
+    "y1": 321.564,
+    "x2": 418.27,
+    "y2": 471.626,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0F2E56",
+      "palette": null
+     },
+     {
+      "offset": 0.3261,
+      "hex": "#283E65",
+      "palette": null
+     },
+     {
+      "offset": 0.6005,
+      "hex": "#00255A",
+      "palette": null
+     },
+     {
+      "offset": 0.8076,
+      "hex": "#0F2E56",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 4,
+   "fit": {
+    "K": 5,
+    "angle": 56.9,
+    "kept": 0.993,
+    "pixels": 4145,
+    "de_mean": 1.14,
+    "de_p95": 2.7
+   },
+   "verify": {
+    "pixels": 4245,
+    "de_mean": 1.31,
+    "de_p95": 3.86
+   }
+  },
+  {
+   "id": "face-a-left-bevel",
+   "gradient": "grad-a-left-bevel",
+   "z": 5,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 288.519,
+    "y1": 265.679,
+    "x2": 275.554,
+    "y2": 501.066,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#2261DD",
+      "palette": null
+     },
+     {
+      "offset": 0.5154,
+      "hex": "#193E82",
+      "palette": null
+     },
+     {
+      "offset": 0.7706,
+      "hex": "#001A47",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 3,
+   "fit": {
+    "K": 4,
+    "angle": 93.2,
+    "kept": 0.999,
+    "pixels": 5066,
+    "de_mean": 1.11,
+    "de_p95": 2.56
+   },
+   "verify": {
+    "pixels": 5201,
+    "de_mean": 1.19,
+    "de_p95": 2.7
+   }
+  },
+  {
+   "id": "face-a-left-outer",
+   "gradient": "grad-a-left-outer",
+   "z": 6,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 261.061,
+    "y1": 361.127,
+    "x2": 176.079,
+    "y2": 465.501,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1F65F4",
+      "palette": null
+     },
+     {
+      "offset": 0.4876,
+      "hex": "#193E82",
+      "palette": null
+     },
+     {
+      "offset": 0.8619,
+      "hex": "#173578",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#274798",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 3,
+   "fit": {
+    "K": 4,
+    "angle": 129.2,
+    "kept": 1.0,
+    "pixels": 4894,
+    "de_mean": 1.22,
+    "de_p95": 2.81
+   },
+   "verify": {
+    "pixels": 4968,
+    "de_mean": 1.22,
+    "de_p95": 2.6
+   }
+  },
+  {
+   "id": "face-p-bowl-top",
+   "gradient": "grad-p-bowl-top",
+   "z": 7,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 546.298,
+    "y1": 268.607,
+    "x2": 453.715,
+    "y2": 326.459,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#17DCF2",
+      "palette": null
+     },
+     {
+      "offset": 0.1431,
+      "hex": "#17DCF2",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#2354A5",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 26,
+   "fit": {
+    "K": 3,
+    "angle": 148.0,
+    "kept": 0.973,
+    "pixels": 4859,
+    "de_mean": 2.08,
+    "de_p95": 4.57
+   },
+   "verify": {
+    "pixels": 5095,
+    "de_mean": 2.37,
+    "de_p95": 5.88
+   }
+  },
+  {
+   "id": "face-p-bowl-top-highlight",
+   "gradient": "grad-p-bowl-top-highlight",
+   "z": 8,
+   "role": "highlight",
+   "host": "face-p-bowl-top",
+   "fill": {
+    "type": "linear",
+    "x1": 546.643,
+    "y1": 268.385,
+    "x2": 550.393,
+    "y2": 304.067,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#17DCF2",
+      "palette": null
+     },
+     {
+      "offset": 0.2671,
+      "hex": "#86EDFA",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#5FE8F6",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 4,
+   "fit": {
+    "K": 3,
+    "angle": 84.0,
+    "kept": 1.0,
+    "pixels": 407,
+    "de_mean": 1.01,
+    "de_p95": 1.8
+   },
+   "verify": {
+    "pixels": 407,
+    "de_mean": 1.0,
+    "de_p95": 1.7
+   }
+  },
+  {
+   "id": "face-p-bowl-fold",
+   "gradient": "grad-p-bowl-fold",
+   "z": 9,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 463.525,
+    "y1": 280.332,
+    "x2": 550.709,
+    "y2": 334.811,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#225BC5",
+      "palette": null
+     },
+     {
+      "offset": 0.3761,
+      "hex": "#1C75EC",
+      "palette": null
+     },
+     {
+      "offset": 0.8082,
+      "hex": "#1C75EC",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1091E1",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 16,
+   "fit": {
+    "K": 4,
+    "angle": 32.0,
+    "kept": 0.96,
+    "pixels": 2343,
+    "de_mean": 1.6,
+    "de_p95": 4.11
+   },
+   "verify": {
+    "pixels": 2680,
+    "de_mean": 2.15,
+    "de_p95": 6.83
+   }
+  },
+  {
+   "id": "face-p-bowl-fold-highlight",
+   "gradient": "grad-p-bowl-fold-highlight",
+   "z": 10,
+   "role": "highlight",
+   "host": "face-p-bowl-fold",
+   "fill": {
+    "type": "linear",
+    "x1": 496.498,
+    "y1": 305.823,
+    "x2": 496.411,
+    "y2": 308.313,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#11A3EC",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#4CB7F3",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 8,
+   "fit": {
+    "K": 2,
+    "angle": 92.0,
+    "kept": 1.0,
+    "pixels": 127,
+    "de_mean": 5.93,
+    "de_p95": 12.58
+   },
+   "verify": {
+    "pixels": 81,
+    "de_mean": 4.26,
+    "de_p95": 9.29
+   }
+  },
+  {
+   "id": "face-ribbon-front-stem",
+   "gradient": "grad-ribbon-front-stem",
+   "z": 11,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 406.632,
+    "y1": 285.794,
+    "x2": 414.627,
+    "y2": 361.863,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#2354A5",
+      "palette": null
+     },
+     {
+      "offset": 0.1902,
+      "hex": "#2363B3",
+      "palette": null
+     },
+     {
+      "offset": 0.7813,
+      "hex": "#1F71B9",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1980C6",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 13,
+   "fit": {
+    "K": 4,
+    "angle": 84.0,
+    "kept": 0.991,
+    "pixels": 1781,
+    "de_mean": 1.42,
+    "de_p95": 3.75
+   },
+   "verify": {
+    "pixels": 1863,
+    "de_mean": 1.71,
+    "de_p95": 5.23
+   }
+  },
+  {
+   "id": "face-ribbon-front",
+   "gradient": "grad-ribbon-front",
+   "z": 12,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 378.047,
+    "y1": 348.993,
+    "x2": 243.009,
+    "y2": 498.969,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1980C6",
+      "palette": null
+     },
+     {
+      "offset": 0.5719,
+      "hex": "#17DCF2",
+      "palette": null
+     },
+     {
+      "offset": 0.7793,
+      "hex": "#05E9F8",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#33ADDF",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 26,
+   "fit": {
+    "K": 4,
+    "angle": 132.0,
+    "kept": 0.979,
+    "pixels": 4598,
+    "de_mean": 1.58,
+    "de_p95": 3.69
+   },
+   "verify": {
+    "pixels": 5049,
+    "de_mean": 1.95,
+    "de_p95": 5.55
+   }
+  },
+  {
+   "id": "face-ribbon-front-highlight",
+   "gradient": "grad-ribbon-front-highlight",
+   "z": 13,
+   "role": "highlight",
+   "host": "face-ribbon-front",
+   "fill": {
+    "type": "linear",
+    "x1": 340.837,
+    "y1": 399.764,
+    "x2": 340.372,
+    "y2": 413.059,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#3BCCF3",
+      "palette": null
+     },
+     {
+      "offset": 0.6688,
+      "hex": "#A2F8FF",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#0BD9F1",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 15,
+   "fit": {
+    "K": 3,
+    "angle": 92.0,
+    "kept": 0.885,
+    "pixels": 162,
+    "de_mean": 2.94,
+    "de_p95": 6.68
+   },
+   "verify": {
+    "pixels": 151,
+    "de_mean": 3.01,
+    "de_p95": 6.75
+   }
+  },
+  {
+   "id": "face-ribbon-back",
+   "gradient": "grad-ribbon-back",
+   "z": 14,
+   "role": "face",
+   "fill": {
+    "type": "linear",
+    "x1": 237.568,
+    "y1": 395.538,
+    "x2": 434.594,
+    "y2": 423.228,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#2351B0",
+      "palette": null
+     },
+     {
+      "offset": 0.7054,
+      "hex": "#0BD9F1",
+      "palette": null
+     },
+     {
+      "offset": 0.9714,
+      "hex": "#17DCF2",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "hex": "#2AF5FA",
+      "palette": null
+     }
+    ]
+   },
+   "segments": 42,
+   "fit": {
+    "K": 4,
+    "angle": 8.0,
+    "kept": 0.953,
+    "pixels": 7060,
+    "de_mean": 1.77,
+    "de_p95": 4.67
+   },
+   "verify": {
+    "pixels": 7797,
+    "de_mean": 2.29,
+    "de_p95": 7.06
+   }
+  }
+ ],
+ "metrics": {
+  "iou": 0.9867,
+  "de_mean": 2.02,
+  "de_p95": 6.19,
+  "de_mean_interior2px": 1.82,
+  "de_p95_interior2px": 5.4,
+  "targets": {
+   "iou_min": 0.985,
+   "de_mean_max": 3.0
+  },
+  "mask_px": 54313,
+  "render_only_px": 381,
+  "mask_only_px": 349,
+  "per_face_interior2px": {
+   "p-bowl-lower": {
+    "pixels": 4974,
+    "de_mean": 2.47,
+    "de_p95": 9.2
+   },
+   "p-bowl-lower-highlight": {
+    "pixels": 130,
+    "de_mean": 5.41,
+    "de_p95": 19.93
+   },
+   "p-bowl-under": {
+    "pixels": 2887,
+    "de_mean": 1.37,
+    "de_p95": 3.13
+   },
+   "a-right-outer": {
+    "pixels": 4893,
+    "de_mean": 1.19,
+    "de_p95": 3.29
+   },
+   "a-right-inner": {
+    "pixels": 4245,
+    "de_mean": 1.31,
+    "de_p95": 3.86
+   },
+   "a-left-bevel": {
+    "pixels": 5201,
+    "de_mean": 1.19,
+    "de_p95": 2.7
+   },
+   "a-left-outer": {
+    "pixels": 4968,
+    "de_mean": 1.22,
+    "de_p95": 2.6
+   },
+   "p-bowl-top": {
+    "pixels": 5095,
+    "de_mean": 2.37,
+    "de_p95": 5.88
+   },
+   "p-bowl-top-highlight": {
+    "pixels": 407,
+    "de_mean": 1.0,
+    "de_p95": 1.7
+   },
+   "p-bowl-fold": {
+    "pixels": 2680,
+    "de_mean": 2.15,
+    "de_p95": 6.83
+   },
+   "p-bowl-fold-highlight": {
+    "pixels": 81,
+    "de_mean": 4.26,
+    "de_p95": 9.29
+   },
+   "ribbon-front-stem": {
+    "pixels": 1863,
+    "de_mean": 1.71,
+    "de_p95": 5.23
+   },
+   "ribbon-front": {
+    "pixels": 5049,
+    "de_mean": 1.95,
+    "de_p95": 5.55
+   },
+   "ribbon-front-highlight": {
+    "pixels": 151,
+    "de_mean": 3.01,
+    "de_p95": 6.75
+   },
+   "ribbon-back": {
+    "pixels": 7797,
+    "de_mean": 2.29,
+    "de_p95": 7.06
+   }
+  },
+  "seams": [
+   {
+    "faces": [
+     "p-bowl-top",
+     "ribbon-front-stem"
+    ],
+    "points": 55,
+    "de_max": 0.32,
+    "de_mean": 0.05
+   },
+   {
+    "faces": [
+     "ribbon-front-stem",
+     "ribbon-front"
+    ],
+    "points": 32,
+    "de_max": 0.12,
+    "de_mean": 0.0
+   },
+   {
+    "faces": [
+     "p-bowl-under",
+     "p-bowl-lower"
+    ],
+    "points": 28,
+    "de_max": 0.0,
+    "de_mean": 0.0
+   }
+  ],
+  "joins": {
+   "anchors": 275,
+   "smooth_lt_0.5deg": 153,
+   "corners_ge_15deg": 120,
+   "between": [
+    8.2,
+    9.8
+   ]
+  },
+  "method": "kit.render_svg(components/rec/hero-04.svg) at 1x composited over the measured background; IoU of render alpha > 0.5 vs 04 mark mask (work/ap-/mask04.py: dE2000 > 7 from the background, outer glow peeled, wordmark excluded); dE2000 over that mask (and over the mask eroded 2 px)"
+ },
+ "glow": {
+  "reproduced": false,
+  "profile_median_rgb_excess_by_distance_px": {
+   "cyan ribbon and bowl": {
+    "2": 28.2,
+    "3": 17.0,
+    "4": 10.2,
+    "6": 5.1,
+    "8": 3.5,
+    "10": 3.2
+   },
+   "blue left leg": {
+    "2": 19.2,
+    "3": 10.2,
+    "4": 6.2,
+    "6": 3.2,
+    "8": 2.4,
+    "10": 2.4
+   },
+   "right leg": {
+    "2": 9.9,
+    "3": 7.0,
+    "4": 6.2,
+    "6": 3.3,
+    "8": 2.4,
+    "10": 2.4
+   },
+   "slate P body": {
+    "2": 8.4,
+    "3": 6.2,
+    "4": 5.1,
+    "6": 4.0,
+    "8": 4.1,
+    "10": 2.4
+   }
+  },
+  "note": "the soft outer glow is face-dependent (strong cyan halo around the ribbon and bowl, a weak blue one around the left leg, almost none around the slate P body) and also spills over neighbouring faces inside the silhouette; one stack of offset copies with fill-opacity cannot reproduce that cleanly, and even a perfect glow would lower the in-mask mean dE2000 by only ~0.06, so it is left out"
+ },
+ "pipeline": "work/ap-04: seg04.py, lines04.py, build04.py, color04.py (fitgrad04.py), verify04.py, highlight04.py, color04.py again, finalize04.py"
+}

@@ -1,0 +1,154 @@
+{
+ "component": "board-02",
+ "units": "px in original 02 (1376x768), y down; bbox = [x0, y0, x1, y1]",
+ "method": "tight bbox from the original's pixels: object coverage estimated as RGB distance from the backdrop over the max distance in a 7x7 neighbourhood, bbox at coverage 0.5, sub-pixel refined by the outermost row/column coverage",
+ "slots": {
+  "slot-hero-stacked": {
+   "mark": [
+    118.0,
+    204.77,
+    321.33,
+    327.0
+   ],
+   "wordmark": [
+    62.23,
+    346.54,
+    371.04,
+    364.69
+   ],
+   "tagline": [
+    93.91,
+    372.73,
+    340.49,
+    386.83
+   ],
+   "note": "big gradient AP (mark) with the fitted wordmark 'ALLIANCE AI PARTNERS' and tagline below",
+   "rect": [
+    118.0,
+    204.77,
+    321.33,
+    327.0
+   ]
+  },
+  "slot-hero-horizontal": {
+   "mark": [
+    401.67,
+    204.78,
+    502.16,
+    265.07
+   ],
+   "wordmark_line1": [
+    509.64,
+    211.0,
+    654.69,
+    231.31
+   ],
+   "wordmark_line2": [
+    509.74,
+    238.84,
+    654.78,
+    253.99
+   ],
+   "note": "small gradient AP beside 'ALLIANCE / AI PARTNERS' (text fitted in the board)",
+   "rect": [
+    401.67,
+    204.78,
+    502.16,
+    265.07
+   ]
+  },
+  "slot-tile-twotone": {
+   "mark": [
+    418.0,
+    326.69,
+    500.11,
+    376.2
+   ],
+   "tile": [
+    401.41,
+    293.49,
+    517.54,
+    410.14
+   ],
+   "note": "white + cyan two-tone AP inside navy tile 1",
+   "rect": [
+    418.0,
+    326.69,
+    500.11,
+    376.2
+   ]
+  },
+  "slot-tile-flat": {
+   "mark": [
+    555.52,
+    326.61,
+    637.24,
+    376.33
+   ],
+   "tile": [
+    538.04,
+    293.46,
+    654.61,
+    410.06
+   ],
+   "note": "flat cyan AP inside navy tile 2",
+   "rect": [
+    555.52,
+    326.61,
+    637.24,
+    376.33
+   ]
+  },
+  "slot-clearspace-mark": {
+   "mark": [
+    753.0,
+    542.71,
+    951.23,
+    673.0
+   ],
+   "note": "gradient AP inside the clear-space grid",
+   "rect": [
+    753.0,
+    542.71,
+    951.23,
+    673.0
+   ]
+  },
+  "slot-graphic-wave": {
+   "bbox": [
+    1037.0,
+    504.0,
+    1319.0,
+    590.0
+   ],
+   "bbox_with_glow": [
+    1021.0,
+    488.0,
+    1334.5,
+    607.0
+   ],
+   "note": "ribbon wave core (glow excluded: luma < 185)",
+   "rect": [
+    1037.0,
+    504.0,
+    1319.0,
+    590.0
+   ]
+  },
+  "slot-graphic-datamesh": {
+   "bbox": [
+    1037.0,
+    612.89,
+    1318.25,
+    711.42
+   ],
+   "note": "navy data-mesh panel",
+   "rect": [
+    1037.0,
+    612.89,
+    1318.25,
+    711.42
+   ]
+  }
+ }
+}

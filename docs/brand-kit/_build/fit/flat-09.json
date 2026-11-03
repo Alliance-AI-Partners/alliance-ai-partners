@@ -1,0 +1,94 @@
+{
+ "id": "09",
+ "source": "7f533882-f9ad-48ce-9044-9b179b26109d.jpeg",
+ "description": "Stacked dark: flat cyan AP above 'ALLIANCE AI / PARTNERS' white",
+ "size": [
+  1024,
+  1024
+ ],
+ "svg": "components/flat-09.svg",
+ "colors": {
+  "background": {
+   "measured": "#112034",
+   "snapped": "#121B2A",
+   "de2000_measured_to_snapped": 2.77,
+   "nearest_palette": "Deep Navy",
+   "exceeds_snap_threshold_4": false
+  },
+  "text_white": {
+   "measured": "#FDFEFE",
+   "snapped": "#FFFFFF",
+   "de2000_measured_to_snapped": 0.56,
+   "nearest_palette": "Pure White",
+   "exceeds_snap_threshold_4": false
+  },
+  "cyan": {
+   "measured": "#3BD0DC",
+   "snapped": "#00D5FF",
+   "de2000_measured_to_snapped": 8.73,
+   "nearest_palette": "Bright Cyan",
+   "exceeds_snap_threshold_4": true
+  }
+ },
+ "notes": [],
+ "text_bbox": [
+  125,
+  569,
+  898,
+  767
+ ],
+ "text_lines_bbox": [
+  [
+   125,
+   569,
+   898,
+   653
+  ],
+  [
+   188,
+   684,
+   838,
+   767
+  ]
+ ],
+ "method": "coverage map of the measured colours -> clean palette resynthesis (wordmark/ring masked) -> VectorCraft logo trace -> every edge snapped to the original 0.5 iso-line (smoothed per-point shift) -> straight runs refit as true lines meeting at sharp corners, curves as C2 cubic splines merged to few G1 cubics (tol 0.3 px); verified on a 4x VectorCraft render box-filtered to 1x",
+ "mark_bbox": [
+  268.66,
+  230.13,
+  755.85,
+  512.04
+ ],
+ "layers": [
+  {
+   "id": "ap-cyan",
+   "fill": "#00D5FF",
+   "bbox": [
+    268.66,
+    230.13,
+    755.85,
+    512.04
+   ],
+   "subpaths": 1,
+   "anchors": 35,
+   "line_segs": 18,
+   "curve_segs": 17,
+   "specks_dropped_area": [],
+   "trace_anchors": 121
+  }
+ ],
+ "metrics": {
+  "mark_iou": 0.9976,
+  "de_mean_canvas": 7.74,
+  "de_p95_canvas": 84.43,
+  "de_mean_mark_region": 8.5,
+  "de_p95_mark_region": 9.4,
+  "de_mean_background": 2.89,
+  "note": "canvas dE includes the excluded wordmark (drawn by another agent) where present",
+  "de_mean_canvas_excl_text": 3.36,
+  "de_p95_canvas_excl_text": 8.41,
+  "de_mean_if_measured_colours": 0.77,
+  "de_p95_if_measured_colours": 1.77,
+  "soft_iou_band": 0.9905,
+  "mean_edge_offset_px": 0.003
+ }
+}

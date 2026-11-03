@@ -1,0 +1,2386 @@
+{
+ "out": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\03_Brand-Graphics\\AAP_Brand-Graphics.ai",
+ "components": {
+  "ap-hero": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-hero.svg",
+  "ap-hero-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-hero-dark.svg",
+  "ap-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-mono.svg",
+  "ap-micro": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-micro.svg",
+  "ap-micro16": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\ap-micro16.svg",
+  "icon-ai-strategy-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-ai-strategy-duo.svg",
+  "icon-ai-strategy-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-ai-strategy-mono.svg",
+  "icon-ai-strategy-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-ai-strategy-dark.svg",
+  "icon-machine-learning-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-machine-learning-duo.svg",
+  "icon-machine-learning-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-machine-learning-mono.svg",
+  "icon-machine-learning-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-machine-learning-dark.svg",
+  "icon-automation-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-automation-duo.svg",
+  "icon-automation-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-automation-mono.svg",
+  "icon-automation-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-automation-dark.svg",
+  "icon-data-analytics-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-data-analytics-duo.svg",
+  "icon-data-analytics-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-data-analytics-mono.svg",
+  "icon-data-analytics-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-data-analytics-dark.svg",
+  "icon-partnership-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-partnership-duo.svg",
+  "icon-partnership-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-partnership-mono.svg",
+  "icon-partnership-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-partnership-dark.svg",
+  "icon-security-governance-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-security-governance-duo.svg",
+  "icon-security-governance-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-security-governance-mono.svg",
+  "icon-security-governance-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-security-governance-dark.svg",
+  "icon-growth-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-growth-duo.svg",
+  "icon-growth-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-growth-mono.svg",
+  "icon-growth-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-growth-dark.svg",
+  "icon-cloud-integration-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-cloud-integration-duo.svg",
+  "icon-cloud-integration-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-cloud-integration-mono.svg",
+  "icon-cloud-integration-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-cloud-integration-dark.svg",
+  "icon-advisory-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-advisory-duo.svg",
+  "icon-advisory-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-advisory-mono.svg",
+  "icon-advisory-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-advisory-dark.svg",
+  "icon-training-enablement-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-training-enablement-duo.svg",
+  "icon-training-enablement-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-training-enablement-mono.svg",
+  "icon-training-enablement-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-training-enablement-dark.svg",
+  "icon-research-insights-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-research-insights-duo.svg",
+  "icon-research-insights-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-research-insights-mono.svg",
+  "icon-research-insights-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-research-insights-dark.svg",
+  "icon-launch-duo": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-launch-duo.svg",
+  "icon-launch-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-launch-mono.svg",
+  "icon-launch-dark": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\icon-launch-dark.svg",
+  "tile-datamesh": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\tile-datamesh.svg",
+  "tile-halftone": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\tile-halftone.svg",
+  "tile-ap-monogram": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\tile-ap-monogram.svg",
+  "tile-facets": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\tile-facets.svg",
+  "tile-ribbon-lines": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\tile-ribbon-lines.svg",
+  "wave": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\wave.svg",
+  "mesh": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\mesh.svg",
+  "badge-shield": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\badge-shield.svg",
+  "starburst": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\starburst.svg",
+  "sticker-lockup": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\sticker-lockup.svg",
+  "bird": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\bird.svg",
+  "bird-mono": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\prepared\\bird-mono.svg"
+ },
+ "artboards": [
+  {
+   "name": "01-Icons_Overview",
+   "rect": [
+    -1992,
+    -1931,
+    2256,
+    696
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "rect",
+     "x": -1992,
+     "y": -1931,
+     "w": 2256,
+     "h": 232,
+     "fill": "AAP Daylight",
+     "name": "duotone panel"
+    },
+    {
+     "type": "rect",
+     "x": -1992,
+     "y": -1699,
+     "w": 2256,
+     "h": 232,
+     "fill": "AAP Pure White",
+     "name": "mono panel"
+    },
+    {
+     "type": "rect",
+     "x": -1992,
+     "y": -1467,
+     "w": 2256,
+     "h": 232,
+     "fill": "AAP Partner Navy",
+     "name": "dark panel"
+    },
+    {
+     "type": "svg",
+     "component": "icon-ai-strategy-duo",
+     "x": -1900.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "ai-strategy duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI Strategy",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1852.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-ai-strategy-mono",
+     "x": -1900.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "ai-strategy mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI Strategy",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1852.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-ai-strategy-dark",
+     "x": -1900.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "ai-strategy dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI Strategy",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1852.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-machine-learning-duo",
+     "x": -1716.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "machine-learning duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Machine Learning",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1668.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-machine-learning-mono",
+     "x": -1716.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "machine-learning mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Machine Learning",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1668.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-machine-learning-dark",
+     "x": -1716.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "machine-learning dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Machine Learning",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1668.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-automation-duo",
+     "x": -1532.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "automation duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Automation",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1484.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-automation-mono",
+     "x": -1532.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "automation mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Automation",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1484.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-automation-dark",
+     "x": -1532.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "automation dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Automation",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1484.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-data-analytics-duo",
+     "x": -1348.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "data-analytics duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Data & Analytics",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1300.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-data-analytics-mono",
+     "x": -1348.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "data-analytics mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Data & Analytics",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1300.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-data-analytics-dark",
+     "x": -1348.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "data-analytics dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Data & Analytics",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1300.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-partnership-duo",
+     "x": -1164.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "partnership duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partnership",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1116.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-partnership-mono",
+     "x": -1164.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "partnership mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partnership",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1116.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-partnership-dark",
+     "x": -1164.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "partnership dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Partnership",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -1116.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-security-governance-duo",
+     "x": -980.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "security-governance duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Security & Governance",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -932.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-security-governance-mono",
+     "x": -980.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "security-governance mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Security & Governance",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -932.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-security-governance-dark",
+     "x": -980.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "security-governance dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Security & Governance",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -932.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-growth-duo",
+     "x": -796.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "growth duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Growth",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -748.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-growth-mono",
+     "x": -796.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "growth mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Growth",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -748.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-growth-dark",
+     "x": -796.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "growth dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Growth",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -748.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-cloud-integration-duo",
+     "x": -612.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "cloud-integration duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Cloud Integration",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -564.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-cloud-integration-mono",
+     "x": -612.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "cloud-integration mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Cloud Integration",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -564.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-cloud-integration-dark",
+     "x": -612.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "cloud-integration dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Cloud Integration",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -564.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-advisory-duo",
+     "x": -428.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "advisory duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Advisory",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -380.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-advisory-mono",
+     "x": -428.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "advisory mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Advisory",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -380.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-advisory-dark",
+     "x": -428.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "advisory dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Advisory",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -380.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-training-enablement-duo",
+     "x": -244.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "training-enablement duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Training & Enablement",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -196.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-training-enablement-mono",
+     "x": -244.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "training-enablement mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Training & Enablement",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -196.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-training-enablement-dark",
+     "x": -244.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "training-enablement dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Training & Enablement",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -196.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-research-insights-duo",
+     "x": -60.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "research-insights duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Research & Insights",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -12.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-research-insights-mono",
+     "x": -60.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "research-insights mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Research & Insights",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -12.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-research-insights-dark",
+     "x": -60.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "research-insights dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Research & Insights",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": -12.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-launch-duo",
+     "x": 124.0,
+     "y": -1883,
+     "scale": 2.0,
+     "name": "launch duo"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Launch",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": 172.0,
+     "baseline": -1755,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-launch-mono",
+     "x": 124.0,
+     "y": -1651,
+     "scale": 2.0,
+     "name": "launch mono"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Launch",
+       "swatch": "AAP Partner Navy"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": 172.0,
+     "baseline": -1523,
+     "align": "center",
+     "name": "label",
+     "live": false
+    },
+    {
+     "type": "svg",
+     "component": "icon-launch-dark",
+     "x": 124.0,
+     "y": -1419,
+     "scale": 2.0,
+     "name": "launch dark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "Launch",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Medium",
+     "size": 11,
+     "tracking": 0,
+     "x": 172.0,
+     "baseline": -1291,
+     "align": "center",
+     "name": "label",
+     "live": false
+    }
+   ]
+  },
+  {
+   "name": "Icon-ai-strategy_Duotone",
+   "rect": [
+    -1992,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-ai-strategy-duo",
+     "x": -1992,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "ai-strategy"
+    }
+   ]
+  },
+  {
+   "name": "Icon-machine-learning_Duotone",
+   "rect": [
+    -1896,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-machine-learning-duo",
+     "x": -1896,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "machine-learning"
+    }
+   ]
+  },
+  {
+   "name": "Icon-automation_Duotone",
+   "rect": [
+    -1800,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-automation-duo",
+     "x": -1800,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "automation"
+    }
+   ]
+  },
+  {
+   "name": "Icon-data-analytics_Duotone",
+   "rect": [
+    -1704,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-data-analytics-duo",
+     "x": -1704,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "data-analytics"
+    }
+   ]
+  },
+  {
+   "name": "Icon-partnership_Duotone",
+   "rect": [
+    -1608,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-partnership-duo",
+     "x": -1608,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "partnership"
+    }
+   ]
+  },
+  {
+   "name": "Icon-security-governance_Duotone",
+   "rect": [
+    -1512,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-security-governance-duo",
+     "x": -1512,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "security-governance"
+    }
+   ]
+  },
+  {
+   "name": "Icon-growth_Duotone",
+   "rect": [
+    -1416,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-growth-duo",
+     "x": -1416,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "growth"
+    }
+   ]
+  },
+  {
+   "name": "Icon-cloud-integration_Duotone",
+   "rect": [
+    -1320,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-cloud-integration-duo",
+     "x": -1320,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "cloud-integration"
+    }
+   ]
+  },
+  {
+   "name": "Icon-advisory_Duotone",
+   "rect": [
+    -1224,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-advisory-duo",
+     "x": -1224,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "advisory"
+    }
+   ]
+  },
+  {
+   "name": "Icon-training-enablement_Duotone",
+   "rect": [
+    -1128,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-training-enablement-duo",
+     "x": -1128,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "training-enablement"
+    }
+   ]
+  },
+  {
+   "name": "Icon-research-insights_Duotone",
+   "rect": [
+    -1032,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-research-insights-duo",
+     "x": -1032,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "research-insights"
+    }
+   ]
+  },
+  {
+   "name": "Icon-launch_Duotone",
+   "rect": [
+    -936,
+    -1139,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-launch-duo",
+     "x": -936,
+     "y": -1139,
+     "scale": 1.0,
+     "name": "launch"
+    }
+   ]
+  },
+  {
+   "name": "Icon-ai-strategy_Mono",
+   "rect": [
+    -1992,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-ai-strategy-mono",
+     "x": -1992,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "ai-strategy"
+    }
+   ]
+  },
+  {
+   "name": "Icon-machine-learning_Mono",
+   "rect": [
+    -1896,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-machine-learning-mono",
+     "x": -1896,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "machine-learning"
+    }
+   ]
+  },
+  {
+   "name": "Icon-automation_Mono",
+   "rect": [
+    -1800,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-automation-mono",
+     "x": -1800,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "automation"
+    }
+   ]
+  },
+  {
+   "name": "Icon-data-analytics_Mono",
+   "rect": [
+    -1704,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-data-analytics-mono",
+     "x": -1704,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "data-analytics"
+    }
+   ]
+  },
+  {
+   "name": "Icon-partnership_Mono",
+   "rect": [
+    -1608,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-partnership-mono",
+     "x": -1608,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "partnership"
+    }
+   ]
+  },
+  {
+   "name": "Icon-security-governance_Mono",
+   "rect": [
+    -1512,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-security-governance-mono",
+     "x": -1512,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "security-governance"
+    }
+   ]
+  },
+  {
+   "name": "Icon-growth_Mono",
+   "rect": [
+    -1416,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-growth-mono",
+     "x": -1416,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "growth"
+    }
+   ]
+  },
+  {
+   "name": "Icon-cloud-integration_Mono",
+   "rect": [
+    -1320,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-cloud-integration-mono",
+     "x": -1320,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "cloud-integration"
+    }
+   ]
+  },
+  {
+   "name": "Icon-advisory_Mono",
+   "rect": [
+    -1224,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-advisory-mono",
+     "x": -1224,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "advisory"
+    }
+   ]
+  },
+  {
+   "name": "Icon-training-enablement_Mono",
+   "rect": [
+    -1128,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-training-enablement-mono",
+     "x": -1128,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "training-enablement"
+    }
+   ]
+  },
+  {
+   "name": "Icon-research-insights_Mono",
+   "rect": [
+    -1032,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-research-insights-mono",
+     "x": -1032,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "research-insights"
+    }
+   ]
+  },
+  {
+   "name": "Icon-launch_Mono",
+   "rect": [
+    -936,
+    -1043,
+    48,
+    48
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-launch-mono",
+     "x": -936,
+     "y": -1043,
+     "scale": 1.0,
+     "name": "launch"
+    }
+   ]
+  },
+  {
+   "name": "Icon-ai-strategy_Dark",
+   "rect": [
+    -1992,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-ai-strategy-dark",
+     "x": -1992,
+     "y": -947,
+     "scale": 1.0,
+     "name": "ai-strategy"
+    }
+   ]
+  },
+  {
+   "name": "Icon-machine-learning_Dark",
+   "rect": [
+    -1896,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-machine-learning-dark",
+     "x": -1896,
+     "y": -947,
+     "scale": 1.0,
+     "name": "machine-learning"
+    }
+   ]
+  },
+  {
+   "name": "Icon-automation_Dark",
+   "rect": [
+    -1800,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-automation-dark",
+     "x": -1800,
+     "y": -947,
+     "scale": 1.0,
+     "name": "automation"
+    }
+   ]
+  },
+  {
+   "name": "Icon-data-analytics_Dark",
+   "rect": [
+    -1704,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-data-analytics-dark",
+     "x": -1704,
+     "y": -947,
+     "scale": 1.0,
+     "name": "data-analytics"
+    }
+   ]
+  },
+  {
+   "name": "Icon-partnership_Dark",
+   "rect": [
+    -1608,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-partnership-dark",
+     "x": -1608,
+     "y": -947,
+     "scale": 1.0,
+     "name": "partnership"
+    }
+   ]
+  },
+  {
+   "name": "Icon-security-governance_Dark",
+   "rect": [
+    -1512,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-security-governance-dark",
+     "x": -1512,
+     "y": -947,
+     "scale": 1.0,
+     "name": "security-governance"
+    }
+   ]
+  },
+  {
+   "name": "Icon-growth_Dark",
+   "rect": [
+    -1416,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-growth-dark",
+     "x": -1416,
+     "y": -947,
+     "scale": 1.0,
+     "name": "growth"
+    }
+   ]
+  },
+  {
+   "name": "Icon-cloud-integration_Dark",
+   "rect": [
+    -1320,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-cloud-integration-dark",
+     "x": -1320,
+     "y": -947,
+     "scale": 1.0,
+     "name": "cloud-integration"
+    }
+   ]
+  },
+  {
+   "name": "Icon-advisory_Dark",
+   "rect": [
+    -1224,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-advisory-dark",
+     "x": -1224,
+     "y": -947,
+     "scale": 1.0,
+     "name": "advisory"
+    }
+   ]
+  },
+  {
+   "name": "Icon-training-enablement_Dark",
+   "rect": [
+    -1128,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-training-enablement-dark",
+     "x": -1128,
+     "y": -947,
+     "scale": 1.0,
+     "name": "training-enablement"
+    }
+   ]
+  },
+  {
+   "name": "Icon-research-insights_Dark",
+   "rect": [
+    -1032,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-research-insights-dark",
+     "x": -1032,
+     "y": -947,
+     "scale": 1.0,
+     "name": "research-insights"
+    }
+   ]
+  },
+  {
+   "name": "Icon-launch_Dark",
+   "rect": [
+    -936,
+    -947,
+    48,
+    48
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "icon-launch-dark",
+     "x": -936,
+     "y": -947,
+     "scale": 1.0,
+     "name": "launch"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-Data-Mesh_Tile",
+   "rect": [
+    -1992,
+    -851,
+    240,
+    240
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "tile-datamesh",
+     "x": -1992,
+     "y": -851,
+     "scale": 1.0,
+     "name": "Data Mesh tile"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-Halftone_Tile",
+   "rect": [
+    -1656,
+    -851,
+    240,
+    240
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "tile-halftone",
+     "x": -1656,
+     "y": -851,
+     "scale": 1.0,
+     "name": "Halftone tile"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-AP-Monogram_Tile",
+   "rect": [
+    -1320,
+    -851,
+    240,
+    240
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "tile-ap-monogram",
+     "x": -1320,
+     "y": -851,
+     "scale": 1.0,
+     "name": "AP Monogram tile"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-Facets_Tile",
+   "rect": [
+    -984,
+    -851,
+    240,
+    240
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "tile-facets",
+     "x": -984,
+     "y": -851,
+     "scale": 1.0,
+     "name": "Facets tile"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-Ribbon-Lines_Tile",
+   "rect": [
+    -648,
+    -851,
+    240,
+    240
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "tile-ribbon-lines",
+     "x": -648,
+     "y": -851,
+     "scale": 1.0,
+     "name": "Ribbon Lines tile"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-Data-Mesh_Swatch",
+   "rect": [
+    -1992,
+    -515,
+    720,
+    405
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "rect",
+     "x": -1992,
+     "y": -515,
+     "w": 720,
+     "h": 405,
+     "pattern": "AAP Pattern Data Mesh",
+     "name": "Data Mesh swatch preview"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-Halftone_Swatch",
+   "rect": [
+    -1176,
+    -515,
+    720,
+    405
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "rect",
+     "x": -1176,
+     "y": -515,
+     "w": 720,
+     "h": 405,
+     "pattern": "AAP Pattern Halftone",
+     "name": "Halftone swatch preview"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-AP-Monogram_Swatch",
+   "rect": [
+    -360,
+    -515,
+    720,
+    405
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "rect",
+     "x": -360,
+     "y": -515,
+     "w": 720,
+     "h": 405,
+     "pattern": "AAP Pattern AP Monogram",
+     "name": "AP Monogram swatch preview"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-Facets_Swatch",
+   "rect": [
+    456,
+    -515,
+    720,
+    405
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "rect",
+     "x": 456,
+     "y": -515,
+     "w": 720,
+     "h": 405,
+     "pattern": "AAP Pattern Facets",
+     "name": "Facets swatch preview"
+    }
+   ]
+  },
+  {
+   "name": "Pattern-Ribbon-Lines_Swatch",
+   "rect": [
+    1272,
+    -515,
+    720,
+    405
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "rect",
+     "x": 1272,
+     "y": -515,
+     "w": 720,
+     "h": 405,
+     "pattern": "AAP Pattern Ribbon Lines",
+     "name": "Ribbon Lines swatch preview"
+    }
+   ]
+  },
+  {
+   "name": "Graphic-Wave",
+   "rect": [
+    -1992,
+    -14,
+    1099,
+    509
+   ],
+   "bg": "AAP Daylight",
+   "items": [
+    {
+     "type": "svg",
+     "component": "wave",
+     "x": -2242.82,
+     "y": 40.20499999999993,
+     "scale": 1.0,
+     "name": "ribbon wave"
+    }
+   ]
+  },
+  {
+   "name": "Graphic-DataMesh",
+   "rect": [
+    -797,
+    -14,
+    1123,
+    393
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "mesh",
+     "x": -4947.16,
+     "y": -2466.56,
+     "scale": 4.0,
+     "name": "data mesh"
+    }
+   ]
+  },
+  {
+   "name": "Badge-Shield",
+   "rect": [
+    -1992,
+    591,
+    867,
+    771
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "badge-shield",
+     "x": -2246.886,
+     "y": 588.5999999999999,
+     "scale": 1.0,
+     "name": "shield badge"
+    }
+   ]
+  },
+  {
+   "name": "Badge-Seal",
+   "rect": [
+    -1029,
+    591,
+    640,
+    640
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "ellipse",
+     "x": -1019,
+     "y": 601,
+     "w": 620,
+     "h": 620,
+     "fill": "AAP Partner Navy",
+     "stroke": null,
+     "strokeWidth": 1,
+     "name": "seal disc"
+    },
+    {
+     "type": "ellipse",
+     "x": -1005,
+     "y": 615,
+     "w": 592,
+     "h": 592,
+     "fill": null,
+     "stroke": "AAP Ribbon Cyan",
+     "strokeWidth": 2,
+     "name": "seal outer ring"
+    },
+    {
+     "type": "ellipse",
+     "x": -945,
+     "y": 675,
+     "w": 472,
+     "h": 472,
+     "fill": null,
+     "stroke": "AAP Ribbon Cyan",
+     "strokeWidth": 3,
+     "name": "seal inner ring"
+    },
+    {
+     "type": "pathtext",
+     "text": "ALLIANCE AI PARTNERS \u2022 PARTNERS IN AI \u2022 PARTNERS IN GROWTH \u2022",
+     "font": "Montserrat-Bold",
+     "size": 30,
+     "tracking": 286.3,
+     "swatch": "AAP Pure White",
+     "cx": -709,
+     "cy": 911,
+     "r": 255.4994,
+     "startAngle": -60.48553611279267,
+     "name": "seal text",
+     "ring": {
+      "seam0": 25.36449999999968,
+      "name": [
+       0,
+       17
+      ]
+     }
+    },
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -902.4677541156925,
+     "y": 717.6719528772087,
+     "scale": 0.3775864673010119,
+     "name": "AAP mark"
+    }
+   ]
+  },
+  {
+   "name": "Badge-Starburst",
+   "rect": [
+    -293,
+    591,
+    640,
+    640
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "starburst",
+     "x": -293,
+     "y": 591,
+     "scale": 1.0,
+     "name": "starburst"
+    },
+    {
+     "type": "ellipse",
+     "x": -235,
+     "y": 649,
+     "w": 524,
+     "h": 524,
+     "fill": "AAP Partner Navy",
+     "stroke": null,
+     "strokeWidth": 1,
+     "name": "badge disc"
+    },
+    {
+     "type": "ellipse",
+     "x": -217,
+     "y": 667,
+     "w": 488,
+     "h": 488,
+     "fill": null,
+     "stroke": "AAP Ribbon Cyan",
+     "strokeWidth": 3,
+     "name": "badge ring"
+    },
+    {
+     "type": "svg",
+     "component": "ap-hero-dark",
+     "x": -107.13764285354682,
+     "y": 702.2579806615313,
+     "scale": 0.2617932839953683,
+     "name": "AAP mark"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "CERTIFIED",
+       "swatch": "AAP Pure White"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 62,
+     "tracking": 20,
+     "x": -149.3895,
+     "baseline": 985.7012399999999,
+     "align": "left",
+     "name": "CERTIFIED"
+    },
+    {
+     "type": "text",
+     "runs": [
+      {
+       "text": "AI PARTNER",
+       "swatch": "AAP Ribbon Cyan"
+      }
+     ],
+     "font": "Montserrat-Bold",
+     "size": 34,
+     "tracking": 220,
+     "x": -114.54150000000004,
+     "baseline": 1037.7012399999999,
+     "align": "left",
+     "name": "AI PARTNER"
+    }
+   ]
+  },
+  {
+   "name": "Sticker-DieCut",
+   "rect": [
+    443,
+    591,
+    860,
+    440
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "rect",
+     "x": 456,
+     "y": 604,
+     "w": 834,
+     "h": 414,
+     "r": 207,
+     "fill": "AAP Partner Navy",
+     "name": "sticker art + bleed"
+    },
+    {
+     "type": "svg",
+     "component": "sticker-lockup",
+     "x": 488.49478646478383,
+     "y": 683.3942311533697,
+     "scale": 0.6751627981303184,
+     "name": "lockup"
+    },
+    {
+     "type": "rect",
+     "x": 465,
+     "y": 613,
+     "w": 816,
+     "h": 396,
+     "r": 198,
+     "stroke": "CutContour",
+     "strokeWidth": 0.5,
+     "overprint": true,
+     "name": "CutContour die line",
+     "layer": "CutContour"
+    }
+   ]
+  },
+  {
+   "name": "Mascot-Swallow_FullColor",
+   "rect": [
+    -1992,
+    1458,
+    592,
+    473
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "bird",
+     "x": -2208.9700000000003,
+     "y": 1281.1599999999999,
+     "scale": 1.0,
+     "name": "swallow"
+    }
+   ]
+  },
+  {
+   "name": "Mascot-Swallow_Mono-Black",
+   "rect": [
+    -1304,
+    1458,
+    592,
+    473
+   ],
+   "bg": null,
+   "items": [
+    {
+     "type": "svg",
+     "component": "bird-mono",
+     "x": -1520.97,
+     "y": 1281.1599999999999,
+     "scale": 1.0,
+     "name": "swallow",
+     "recolor": "AAP Black"
+    }
+   ]
+  },
+  {
+   "name": "Mascot-Swallow_Mono-White",
+   "rect": [
+    -616,
+    1458,
+    592,
+    473
+   ],
+   "bg": "AAP Partner Navy",
+   "items": [
+    {
+     "type": "svg",
+     "component": "bird-mono",
+     "x": -832.97,
+     "y": 1281.1599999999999,
+     "scale": 1.0,
+     "name": "swallow",
+     "recolor": "AAP Pure White"
+    }
+   ]
+  }
+ ],
+ "swatches": [
+  {
+   "group": "AAP Core",
+   "colors": [
+    {
+     "name": "AAP Alliance Blue",
+     "hex": "#1B56FF"
+    },
+    {
+     "name": "AAP Ribbon Cyan",
+     "hex": "#00D5FF"
+    },
+    {
+     "name": "AAP Partner Navy",
+     "hex": "#121B2A"
+    },
+    {
+     "name": "AAP Pure White",
+     "hex": "#FFFFFF"
+    },
+    {
+     "name": "AAP Daylight",
+     "hex": "#F4F7FB"
+    },
+    {
+     "name": "AAP Black",
+     "hex": "#000000"
+    }
+   ]
+  },
+  {
+   "group": "AAP Mark Shading",
+   "colors": [
+    {
+     "name": "AAP Partner 30",
+     "hex": "#1A2D4E"
+    },
+    {
+     "name": "AAP Partner 38",
+     "hex": "#2E4265"
+    },
+    {
+     "name": "AAP Partner 46",
+     "hex": "#42587C"
+    },
+    {
+     "name": "AAP Partner 50",
+     "hex": "#4D6388"
+    },
+    {
+     "name": "AAP Alliance 38",
+     "hex": "#243F7B"
+    },
+    {
+     "name": "AAP Alliance 46",
+     "hex": "#244EB6"
+    },
+    {
+     "name": "AAP Alliance 50",
+     "hex": "#2153D8"
+    },
+    {
+     "name": "AAP Ribbon 57",
+     "hex": "#006DF5"
+    }
+   ]
+  },
+  {
+   "group": "AAP Production",
+   "colors": [
+    {
+     "name": "CutContour",
+     "hex": "#FF00FF",
+     "spotCMYK": [
+      0,
+      100,
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "patterns": [
+  {
+   "name": "AAP Pattern Data Mesh",
+   "tile": "Pattern-Data-Mesh_Tile",
+   "item": "Data Mesh tile"
+  },
+  {
+   "name": "AAP Pattern Halftone",
+   "tile": "Pattern-Halftone_Tile",
+   "item": "Halftone tile"
+  },
+  {
+   "name": "AAP Pattern AP Monogram",
+   "tile": "Pattern-AP-Monogram_Tile",
+   "item": "AP Monogram tile"
+  },
+  {
+   "name": "AAP Pattern Facets",
+   "tile": "Pattern-Facets_Tile",
+   "item": "Facets tile"
+  },
+  {
+   "name": "AAP Pattern Ribbon Lines",
+   "tile": "Pattern-Ribbon-Lines_Tile",
+   "item": "Ribbon Lines tile"
+  }
+ ],
+ "exports": [
+  {
+   "type": "png",
+   "folder": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\03_Brand-Graphics\\PNG",
+   "scale": 2,
+   "transparent": true,
+   "prefix": "AAP_",
+   "artboards": "1,38-56",
+   "hideLayers": [
+    "CutContour"
+   ]
+  },
+  {
+   "type": "png",
+   "folder": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\03_Brand-Graphics\\PNG-Icons",
+   "scale": 4,
+   "transparent": true,
+   "prefix": "AAP_",
+   "artboards": "2-37"
+  },
+  {
+   "type": "svg",
+   "folder": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\03_Brand-Graphics\\SVG",
+   "transparent": true,
+   "prefix": "AAP_",
+   "artboards": "1-56",
+   "hideLayers": [
+    "CutContour"
+   ]
+  }
+ ],
+ "inventory": "C:\\Users\\dalig\\Desktop\\AllianceAIPartners\\Organization\\alliance-ai-partners\\docs\\brand-kit\\_build\\verify\\graphics.inventory.json"
+}

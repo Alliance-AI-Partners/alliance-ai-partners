@@ -1,0 +1,12 @@
+07 'ALLIANCE AI' -> SemiBold (IoU) size 101.333 tr 1.65 x 578.007 base 366.946 IoU 0.9253 (glyph-dx 0.9506) edge 0.408px stems 13.94/13.44 | cands [('SemiBold', 0.9253, 13.44), ('Bold', 0.8761, 16.5), ('Medium', 0.7568, 10.44)]
+    dx [-0.75, -0.5, -0.25, -0.25, 0.75, 1.25, 0.75, 0.0, -1.0, -1.25]  (95s)
+07 'PARTNERS' -> SemiBold (IoU) size 103.667 tr 6.50 x 567.059 base 471.778 IoU 0.9219 (glyph-dx 0.9559) edge 0.445px stems 14.12/13.75 | cands [('SemiBold', 0.9219, 13.75), ('Bold', 0.8725, 16.75), ('Medium', 0.7662, 10.75)]
+    dx [0.25, -0.5, -0.25, 0.75, 1.5, 0.5, -0.5, -0.5]  (91s)
+08 'ALLIANCE' -> Bold (IoU) size 133.320 tr -8.38 x 589.436 base 336.842 IoU 0.9419 (glyph-dx 0.9507) edge 0.503px stems 22.30/21.83 | cands [('Bold', 0.9419, 21.83), ('ExtraBold', 0.8989, 26.0), ('SemiBold', 0.7902, 17.75)]
+    dx [-0.75, 0.5, 0.25, -0.25, 0.0, 0.5, -0.75, -0.75]  (104s)
+08 'AI PARTNERS' -> Bold (IoU) size 100.848 tr -17.70 x 589.657 base 444.790 IoU 0.9307 (glyph-dx 0.9394) edge 0.468px stems 16.99/16.75 | cands [('Bold', 0.9307, 16.75), ('ExtraBold', 0.8854, 20.0), ('SemiBold', 0.8051, 13.75)]
+    dx [-0.25, 0.75, 0.5, -1.25, -0.25, -0.25, 0.75, 0.0, 0.25, -0.25]  (112s)
+09 'ALLIANCE AI' -> Bold (IoU) size 114.535 tr 16.51 x 126.944 base 650.938 IoU 0.9608 (glyph-dx 0.9612) edge 0.286px stems 19.08/18.88 | cands [('Bold', 0.9608, 18.88), ('ExtraBold', 0.8862, 22.75), ('SemiBold', 0.8063, 15.44)]
+    dx [-0.5, 0.0, 0.0, 0.0, -0.5, 0.5, 0.0, -0.5, 0.0, 0.0]  (103s)
+09 'PARTNERS' -> Bold (IoU) size 116.692 tr 4.48 x 178.535 base 766.204 IoU 0.9513 (glyph-dx 0.9708) edge 0.370px stems 19.14/19.25 | cands [('Bold', 0.9513, 19.25), ('ExtraBold', 0.8828, 22.75), ('SemiBold', 0.8121, 15.25)]
+    dx [0.0, -0.5, 0.25, 1.0, 1.25, -0.25, 0.0, 0.0]  (98s)

@@ -1,0 +1,9 @@
+{
+ "hero_metrics": {
+  "iou": 0.9961,
+  "de_mean": 1.9,
+  "de_p95": 5.28,
+  "de_mean_interior": 1.75,
+  "de_p95_interior": 4.61
+ }
+}

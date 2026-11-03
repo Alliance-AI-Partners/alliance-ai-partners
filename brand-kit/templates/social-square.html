@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>Social post, square</title>
+<!--
+  Template: feed post, 1080 x 1080 px. Screen only.
+  Copy: one point of the honest pricing promise (Brand DNA section 6, PRODUCT.md positioning). Brand DNA asks that
+  every promise is confirmed true before it is published; swap in another point the same way:
+  "No per-seat fees on the tools we build.", "You own what we build.", "AI usage passed on at cost, shown on the invoice."
+  Never put a price here until real prices replace [PRICE].
+  Layout: Daylight region for the statement, Partner Navy region for the full-colour dark lockup, the Daybreak
+  ribbon crossing from one to the other. Alliance Blue appears once, on the accent words.
+-->
+<link rel="stylesheet" href="../../design-system/tokens/tokens.css">
+<style>
+  html, body { margin: 0; background: var(--aap-color-neutral-200); }
+  .post {
+    position: relative; width: 1080px; height: 1080px; overflow: hidden;
+    background: var(--aap-color-brand-daylight); color: var(--aap-color-text-primary);
+    font-family: var(--aap-font-family-sans); -webkit-font-smoothing: antialiased;
+  }
+  .post__navy {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 300px;
+    background: var(--aap-color-brand-partner-navy); color: var(--aap-color-text-inverse);
+  }
+  .post__ribbon { position: absolute; inset: 0; width: 100%; height: 100%; }
+  h1 {
+    position: absolute; left: 80px; top: 136px; width: 900px; margin: 0;
+    font-weight: var(--aap-typography-display-xl-weight); font-stretch: var(--aap-typography-display-xl-stretch);
+    font-size: 108px; line-height: 0.98; letter-spacing: var(--aap-typography-display-xl-tracking);
+    text-wrap: balance;
+  }
+  .accent { font-weight: var(--aap-font-weight-regular); white-space: nowrap; } /* marked by weight: Alliance Blue is kept for the one action */
+  .post__line {
+    position: absolute; left: 82px; top: 494px; width: 820px; margin: 0;
+    font-size: 36px; line-height: 1.32; font-weight: 450; letter-spacing: -0.008em;
+    color: var(--aap-color-text-secondary); text-wrap: balance;
+  }
+  /* Lockup artboard 1139 x 378 with 69-unit clear space: at 316 px wide the clear space is 19 px. */
+  .post__logo { position: absolute; z-index: 1; left: 61px; bottom: 61px; width: 316px; height: auto; display: block; }
+  .post__url {
+    position: absolute; z-index: 1; right: 80px; bottom: 98px; margin: 0;
+    font-family: var(--aap-font-family-mono); font-size: 26px; line-height: 1; font-weight: 450;
+    color: var(--aap-color-text-inverse-secondary);
+  }
+</style>
+</head>
+<body>
+  <div class="post" id="artefact">
+    <div class="post__navy">
+      <img class="post__logo" src="../../design-system/logos/lockups/alliance-ai-partners-primary-horizontal-full-color-dark.svg" alt="Alliance AI Partners">
+      <p class="post__url">allianceaipartners.example</p>
+    </div>
+    <svg class="post__ribbon" viewBox="0 0 1080 1080" aria-hidden="true">
+      <defs>
+        <linearGradient id="sq-daybreak" gradientUnits="userSpaceOnUse" x1="0" y1="660" x2="1080" y2="860">
+          <stop offset="0" style="stop-color: var(--aap-color-brand-partner-navy)"/>
+          <stop offset="0.54" style="stop-color: var(--aap-color-brand-alliance-blue)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <linearGradient id="sq-light" gradientUnits="userSpaceOnUse" x1="0" y1="660" x2="1080" y2="860">
+          <stop offset="0" style="stop-color: var(--aap-color-shading-ribbon-57)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <path id="sq-path" d="M-60 664 C260 668 470 744 640 796 S940 862 1140 838"/>
+      </defs>
+      <use href="#sq-path" fill="none" stroke="url(#sq-daybreak)" stroke-width="52"/>
+      <use href="#sq-path" fill="none" stroke="url(#sq-light)" stroke-width="15" transform="translate(0 -18.5)"/>
+    </svg>
+    <h1>A <span class="accent">fixed quote</span> before any work starts.</h1>
+    <p class="post__line">It lists everything we’ll charge, and any change is quoted before we do it.</p>
+  </div>
+</body>
+</html>

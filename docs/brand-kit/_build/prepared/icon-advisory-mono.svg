@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-advisory-mono" width="48" height="48" viewBox="0 0 48 48">
+<rect id="aap-ref" x="0" y="0" width="48" height="48" fill="none"/>
+  <circle id="icon-advisory-mono-head" cx="16" cy="19.5" r="6" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-advisory-mono-shoulders" d="M6 42 C6 36.477 10.477 32 16 32 C21.523 32 26 36.477 26 42" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-advisory-mono-bubble" d="M31 6 L38 6 C40.209 6 42 7.791 42 10 L42 15.5 C42 17.709 40.209 19.5 38 19.5 L32 19.5 L27 24 L27 10 C27 7.791 28.791 6 31 6 Z" stroke="#121B2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

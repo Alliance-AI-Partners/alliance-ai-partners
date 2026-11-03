@@ -1,0 +1,3286 @@
+{
+ "component": "faceted origami swallow (brand mascot / secondary mark)",
+ "source": "15",
+ "source_file": "c516876b-0a00-4b22-9252-6f521ca520a6.jpeg",
+ "viewBox": [
+  0,
+  0,
+  1024,
+  1024
+ ],
+ "bbox": [
+  264.97,
+  224.84,
+  760.72,
+  601.22
+ ],
+ "files": {
+  "color": "components/bird.svg",
+  "mono": "components/bird-mono.svg",
+  "recolored_05": "components/bird-05.svg",
+  "recolored_08": "components/bird-08.svg",
+  "placements": "fit/bird-placements.json",
+  "diff": "verify/bird_diff.png"
+ },
+ "paint_order": "facet-01 first; each facet runs 1.0 px under every facet painted above it (seam cover); vertices are shared, so the visible edges meet exactly",
+ "vertex_count": 73,
+ "facet_count": 33,
+ "mono": {
+  "path_id": "bird-mono",
+  "fill": "#000000",
+  "fill_rule": "evenodd",
+  "subpaths": 3,
+  "anchors": 36
+ },
+ "facets": [
+  {
+   "id": "facet-01",
+   "name": "wing-top-light",
+   "vertices": [
+    [
+     312.45,
+     232.82
+    ],
+    [
+     499.21,
+     294.71
+    ],
+    [
+     537.85,
+     356.01
+    ]
+   ],
+   "path_vertices": [
+    [
+     312.45,
+     232.82
+    ],
+    [
+     499.21,
+     294.71
+    ],
+    [
+     540.75,
+     358.73
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#3A4F6F",
+    "measured": "#3B5072",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 2.16,
+    "rms_rgb_solid": 2.16,
+    "samples": 3824,
+    "de2000_mean_interior": 1.18
+   }
+  },
+  {
+   "id": "facet-02",
+   "name": "wing-top-dark",
+   "vertices": [
+    [
+     312.45,
+     232.82
+    ],
+    [
+     287.09,
+     224.84
+    ],
+    [
+     354.88,
+     305.63
+    ],
+    [
+     537.85,
+     356.01
+    ]
+   ],
+   "path_vertices": [
+    [
+     312.45,
+     232.82
+    ],
+    [
+     287.09,
+     224.84
+    ],
+    [
+     354.88,
+     305.63
+    ],
+    [
+     537.85,
+     356.01
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-02",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 411.353,
+    "y1": 263.943,
+    "x2": 371.531,
+    "y2": 315.999,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#2C4260",
+      "measured": "#2B4262",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0F233D",
+      "measured": "#10213C",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#2C4260"
+     ],
+     [
+      1.0,
+      "#0F233D"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 8.46,
+    "rms_rgb_solid": 10.96,
+    "samples": 5568,
+    "de2000_mean_interior": 2.31
+   }
+  },
+  {
+   "id": "facet-03",
+   "name": "wing-top-blue",
+   "vertices": [
+    [
+     354.88,
+     305.63
+    ],
+    [
+     537.85,
+     356.01
+    ],
+    [
+     442.51,
+     409.4
+    ]
+   ],
+   "path_vertices": [
+    [
+     354.88,
+     305.63
+    ],
+    [
+     539.22,
+     356.38
+    ],
+    [
+     443.17,
+     410.18
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-03",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 353.429,
+    "y1": 339.418,
+    "x2": 530.045,
+    "y2": 374.097,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#2566F7",
+      "measured": "#2864F5",
+      "palette": null
+     },
+     {
+      "offset": 0.3406,
+      "color": "#1B56FF",
+      "measured": "#2363F9",
+      "palette": "Vibrant Blue"
+     },
+     {
+      "offset": 1.0,
+      "color": "#132D60",
+      "measured": "#153368",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#2566F7"
+     ],
+     [
+      0.3406,
+      "#1B56FF"
+     ],
+     [
+      1.0,
+      "#132D60"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 2.15,
+    "rms_rgb_solid": 23.53,
+    "samples": 6701,
+    "de2000_mean_interior": 2.9
+   }
+  },
+  {
+   "id": "facet-04",
+   "name": "body-slate",
+   "vertices": [
+    [
+     537.85,
+     356.01
+    ],
+    [
+     442.51,
+     409.4
+    ],
+    [
+     478.24,
+     451.99
+    ],
+    [
+     495.5,
+     424.5
+    ]
+   ],
+   "path_vertices": [
+    [
+     539.65,
+     355.0
+    ],
+    [
+     442.51,
+     409.4
+    ],
+    [
+     478.91,
+     452.79
+    ],
+    [
+     496.35,
+     425.03
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-04",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 536.636,
+    "y1": 366.828,
+    "x2": 458.545,
+    "y2": 427.442,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#0F233D",
+      "measured": "#0C2440",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#41577A",
+      "measured": "#405579",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#0F233D"
+     ],
+     [
+      1.0,
+      "#41577A"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.45,
+    "rms_rgb_solid": 13.59,
+    "samples": 2625,
+    "de2000_mean_interior": 1.3
+   }
+  },
+  {
+   "id": "facet-05",
+   "name": "wing2-dark",
+   "vertices": [
+    [
+     320.85,
+     296.74
+    ],
+    [
+     373.65,
+     379.72
+    ],
+    [
+     265.78,
+     281.53
+    ]
+   ],
+   "path_vertices": [
+    [
+     320.85,
+     296.74
+    ],
+    [
+     376.46,
+     382.29
+    ],
+    [
+     265.78,
+     281.53
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-05",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 277.899,
+    "y1": 279.686,
+    "x2": 371.252,
+    "y2": 366.384,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#132D60",
+      "measured": "#122957",
+      "palette": null
+     },
+     {
+      "offset": 0.7641,
+      "color": "#1B56FF",
+      "measured": "#2261F5",
+      "palette": "Vibrant Blue"
+     },
+     {
+      "offset": 1.0,
+      "color": "#1B56FF",
+      "measured": "#245DE7",
+      "palette": "Vibrant Blue"
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#132D60"
+     ],
+     [
+      0.7641,
+      "#1B56FF"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 4.21,
+    "rms_rgb_solid": 26.38,
+    "samples": 1506,
+    "de2000_mean_interior": 2.82
+   }
+  },
+  {
+   "id": "facet-06",
+   "name": "wing2-blue",
+   "vertices": [
+    [
+     329.66,
+     299.41
+    ],
+    [
+     320.85,
+     296.74
+    ],
+    [
+     373.65,
+     379.72
+    ],
+    [
+     388.03,
+     393.03
+    ],
+    [
+     431.94,
+     405.94
+    ]
+   ],
+   "path_vertices": [
+    [
+     329.66,
+     299.41
+    ],
+    [
+     320.85,
+     296.74
+    ],
+    [
+     373.65,
+     379.72
+    ],
+    [
+     388.03,
+     393.03
+    ],
+    [
+     431.94,
+     405.94
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-06",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 417.507,
+    "y1": 352.997,
+    "x2": 336.879,
+    "y2": 367.644,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#132D60",
+      "measured": "#132B57",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#2566F7",
+      "measured": "#276AF6",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#132D60"
+     ],
+     [
+      1.0,
+      "#2566F7"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 6.78,
+    "rms_rgb_solid": 25.72,
+    "samples": 1853,
+    "de2000_mean_interior": 1.91
+   }
+  },
+  {
+   "id": "facet-07",
+   "name": "shoulder-top",
+   "vertices": [
+    [
+     586.2,
+     323.57
+    ],
+    [
+     651.82,
+     417.7
+    ],
+    [
+     645.83,
+     420.55
+    ],
+    [
+     604.91,
+     436.97
+    ],
+    [
+     577.2,
+     348.2
+    ],
+    [
+     499.21,
+     294.71
+    ]
+   ],
+   "path_vertices": [
+    [
+     586.2,
+     323.57
+    ],
+    [
+     652.4,
+     418.53
+    ],
+    [
+     645.83,
+     420.55
+    ],
+    [
+     603.98,
+     437.34
+    ],
+    [
+     576.35,
+     348.83
+    ],
+    [
+     499.21,
+     294.71
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-07",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 588.586,
+    "y1": 292.095,
+    "x2": 603.944,
+    "y2": 434.775,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#07F4F0",
+      "measured": "#08F3F5",
+      "palette": null
+     },
+     {
+      "offset": 0.2859,
+      "color": "#07F4F0",
+      "measured": "#06F1E7",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1B56FF",
+      "measured": "#2758F3",
+      "palette": "Vibrant Blue"
+     }
+    ],
+    "svg_stops": [
+     [
+      0.2859,
+      "#07F4F0"
+     ],
+     [
+      1.0,
+      "#1B56FF"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 6.69,
+    "rms_rgb_solid": 32.61,
+    "samples": 4185,
+    "de2000_mean_interior": 3.54
+   }
+  },
+  {
+   "id": "facet-08",
+   "name": "shoulder-mid",
+   "vertices": [
+    [
+     499.21,
+     294.71
+    ],
+    [
+     577.2,
+     348.2
+    ],
+    [
+     604.91,
+     436.97
+    ],
+    [
+     592.41,
+     442.28
+    ],
+    [
+     559.68,
+     389.3
+    ],
+    [
+     572.61,
+     366.47
+    ],
+    [
+     537.85,
+     356.01
+    ]
+   ],
+   "path_vertices": [
+    [
+     499.21,
+     294.71
+    ],
+    [
+     577.2,
+     348.2
+    ],
+    [
+     604.91,
+     436.97
+    ],
+    [
+     592.41,
+     442.28
+    ],
+    [
+     559.08,
+     388.33
+    ],
+    [
+     571.12,
+     367.07
+    ],
+    [
+     538.66,
+     357.3
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-08",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 506.133,
+    "y1": 299.175,
+    "x2": 611.204,
+    "y2": 428.624,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#1884D4",
+      "measured": "#1587D1",
+      "palette": null
+     },
+     {
+      "offset": 0.4625,
+      "color": "#0EB7DA",
+      "measured": "#0EB7DA",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1B56FF",
+      "measured": "#255FF8",
+      "palette": "Vibrant Blue"
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#1884D4"
+     ],
+     [
+      0.4625,
+      "#0EB7DA"
+     ],
+     [
+      1.0,
+      "#1B56FF"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.05,
+    "rms_rgb_solid": 15.5,
+    "samples": 2861,
+    "de2000_mean_interior": 1.9
+   }
+  },
+  {
+   "id": "facet-09",
+   "name": "cap",
+   "vertices": [
+    [
+     537.85,
+     356.01
+    ],
+    [
+     572.61,
+     366.47
+    ],
+    [
+     559.68,
+     389.3
+    ],
+    [
+     552.0,
+     401.75
+    ],
+    [
+     545.33,
+     381.05
+    ],
+    [
+     549.68,
+     374.08
+    ]
+   ],
+   "path_vertices": [
+    [
+     537.85,
+     356.01
+    ],
+    [
+     572.61,
+     366.47
+    ],
+    [
+     559.68,
+     389.3
+    ],
+    [
+     551.31,
+     402.87
+    ],
+    [
+     544.23,
+     380.91
+    ],
+    [
+     548.49,
+     374.09
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-09",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 570.381,
+    "y1": 369.747,
+    "x2": 545.264,
+    "y2": 379.592,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#2566F7",
+      "measured": "#2469F8",
+      "palette": null
+     },
+     {
+      "offset": 0.6156,
+      "color": "#2566F7",
+      "measured": "#286AF9",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1F69E2",
+      "measured": "#1B6CDF",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.6156,
+      "#2566F7"
+     ],
+     [
+      1.0,
+      "#1F69E2"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.12,
+    "rms_rgb_solid": 5.6,
+    "samples": 485,
+    "de2000_mean_interior": 1.48
+   }
+  },
+  {
+   "id": "facet-10",
+   "name": "leg-up-bright",
+   "vertices": [
+    [
+     537.85,
+     356.01
+    ],
+    [
+     549.68,
+     374.08
+    ],
+    [
+     545.33,
+     381.05
+    ],
+    [
+     521.65,
+     419.35
+    ],
+    [
+     495.5,
+     424.5
+    ]
+   ],
+   "path_vertices": [
+    [
+     537.85,
+     356.01
+    ],
+    [
+     549.68,
+     374.08
+    ],
+    [
+     545.33,
+     381.05
+    ],
+    [
+     522.27,
+     420.25
+    ],
+    [
+     494.79,
+     425.67
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-10",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 545.343,
+    "y1": 364.115,
+    "x2": 504.407,
+    "y2": 424.81,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#07F4F0",
+      "measured": "#07F4F0",
+      "palette": null
+     },
+     {
+      "offset": 0.6828,
+      "color": "#07F4F0",
+      "measured": "#03F5F1",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0DD8E3",
+      "measured": "#0DDAE3",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.6828,
+      "#07F4F0"
+     ],
+     [
+      1.0,
+      "#0DD8E3"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 2.63,
+    "rms_rgb_solid": 4.5,
+    "samples": 1065,
+    "de2000_mean_interior": 0.64
+   }
+  },
+  {
+   "id": "facet-11",
+   "name": "leg-up-medium",
+   "vertices": [
+    [
+     545.33,
+     381.05
+    ],
+    [
+     552.0,
+     401.75
+    ],
+    [
+     533.0,
+     433.0
+    ],
+    [
+     521.65,
+     419.35
+    ]
+   ],
+   "path_vertices": [
+    [
+     545.33,
+     381.05
+    ],
+    [
+     552.0,
+     401.75
+    ],
+    [
+     532.45,
+     433.9
+    ],
+    [
+     521.09,
+     420.25
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-11",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 552.592,
+    "y1": 393.238,
+    "x2": 524.881,
+    "y2": 422.214,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#1C72E2",
+      "measured": "#1C72E2",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#10ABDC",
+      "measured": "#11AADA",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#1C72E2"
+     ],
+     [
+      1.0,
+      "#10ABDC"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.31,
+    "rms_rgb_solid": 9.5,
+    "samples": 524,
+    "de2000_mean_interior": 0.95
+   }
+  },
+  {
+   "id": "facet-12",
+   "name": "leg-twist-left",
+   "vertices": [
+    [
+     478.24,
+     451.99
+    ],
+    [
+     467.8,
+     486.9
+    ],
+    [
+     495.35,
+     460.7
+    ],
+    [
+     521.65,
+     419.35
+    ],
+    [
+     495.5,
+     424.5
+    ]
+   ],
+   "path_vertices": [
+    [
+     477.24,
+     453.57
+    ],
+    [
+     466.5,
+     489.52
+    ],
+    [
+     496.13,
+     461.34
+    ],
+    [
+     521.65,
+     419.35
+    ],
+    [
+     495.5,
+     424.5
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-12",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 518.791,
+    "y1": 421.796,
+    "x2": 464.95,
+    "y2": 474.854,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#0FE4E8",
+      "measured": "#0BE1E6",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1190DC",
+      "measured": "#1190DC",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#0FE4E8"
+     ],
+     [
+      1.0,
+      "#1190DC"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 2.21,
+    "rms_rgb_solid": 10.85,
+    "samples": 891,
+    "de2000_mean_interior": 0.92
+   }
+  },
+  {
+   "id": "facet-13",
+   "name": "leg-twist-right",
+   "vertices": [
+    [
+     521.65,
+     419.35
+    ],
+    [
+     495.35,
+     460.7
+    ],
+    [
+     519.06,
+     455.94
+    ],
+    [
+     533.0,
+     433.0
+    ]
+   ],
+   "path_vertices": [
+    [
+     521.65,
+     419.35
+    ],
+    [
+     494.61,
+     461.87
+    ],
+    [
+     518.35,
+     457.11
+    ],
+    [
+     533.0,
+     433.0
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-13",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 528.828,
+    "y1": 428.018,
+    "x2": 500.63,
+    "y2": 460.357,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#10ABDC",
+      "measured": "#0FACDE",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0FE4E8",
+      "measured": "#08E3E8",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#10ABDC"
+     ],
+     [
+      1.0,
+      "#0FE4E8"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 2.29,
+    "rms_rgb_solid": 8.52,
+    "samples": 500,
+    "de2000_mean_interior": 0.74
+   }
+  },
+  {
+   "id": "facet-14",
+   "name": "leg-low-bright",
+   "vertices": [
+    [
+     495.35,
+     460.7
+    ],
+    [
+     519.06,
+     455.94
+    ],
+    [
+     506.45,
+     476.7
+    ],
+    [
+     432.69,
+     508.27
+    ],
+    [
+     467.8,
+     486.9
+    ]
+   ],
+   "path_vertices": [
+    [
+     495.35,
+     460.7
+    ],
+    [
+     519.06,
+     455.94
+    ],
+    [
+     505.55,
+     478.17
+    ],
+    [
+     432.63,
+     508.3
+    ],
+    [
+     467.8,
+     486.9
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-14",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 517.506,
+    "y1": 462.957,
+    "x2": 449.314,
+    "y2": 493.642,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#0DD8E3",
+      "measured": "#0DD7E3",
+      "palette": null
+     },
+     {
+      "offset": 0.3812,
+      "color": "#07F4F0",
+      "measured": "#04F7F1",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#07F4F0",
+      "measured": "#14F4F8",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#0DD8E3"
+     ],
+     [
+      0.3812,
+      "#07F4F0"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.22,
+    "rms_rgb_solid": 6.53,
+    "samples": 562,
+    "de2000_mean_interior": 1.15
+   }
+  },
+  {
+   "id": "facet-15",
+   "name": "leg-low-medium",
+   "vertices": [
+    [
+     478.24,
+     451.99
+    ],
+    [
+     440.85,
+     492.65
+    ],
+    [
+     418.13,
+     516.12
+    ],
+    [
+     432.69,
+     508.27
+    ],
+    [
+     467.8,
+     486.9
+    ]
+   ],
+   "path_vertices": [
+    [
+     478.24,
+     451.99
+    ],
+    [
+     440.85,
+     492.65
+    ],
+    [
+     418.13,
+     516.12
+    ],
+    [
+     432.69,
+     508.27
+    ],
+    [
+     467.8,
+     486.9
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-15",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 478.243,
+    "y1": 462.243,
+    "x2": 427.745,
+    "y2": 512.745,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#129DDD",
+      "measured": "#119EDF",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1F69E2",
+      "measured": "#2168E0",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#129DDD"
+     ],
+     [
+      1.0,
+      "#1F69E2"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 4.51,
+    "rms_rgb_solid": 9.54,
+    "samples": 490,
+    "de2000_mean_interior": 2.49
+   }
+  },
+  {
+   "id": "facet-16",
+   "name": "a-inner-light",
+   "vertices": [
+    [
+     567.36,
+     434.95
+    ],
+    [
+     534.59,
+     462.04
+    ],
+    [
+     558.71,
+     420.92
+    ]
+   ],
+   "path_vertices": [
+    [
+     567.89,
+     435.81
+    ],
+    [
+     533.11,
+     464.56
+    ],
+    [
+     558.71,
+     420.92
+    ]
+   ],
+   "fill": {
+    "type": "solid",
+    "color": "#3A4F6F",
+    "measured": "#394D6C",
+    "palette": null
+   },
+   "fit": {
+    "rms_rgb": 4.2,
+    "rms_rgb_solid": 4.2,
+    "samples": 218,
+    "de2000_mean_interior": 1.32
+   }
+  },
+  {
+   "id": "facet-17",
+   "name": "a-inner-dark",
+   "vertices": [
+    [
+     567.36,
+     434.95
+    ],
+    [
+     534.59,
+     462.04
+    ],
+    [
+     531.02,
+     467.35
+    ],
+    [
+     575.88,
+     448.62
+    ]
+   ],
+   "path_vertices": [
+    [
+     567.36,
+     434.95
+    ],
+    [
+     534.59,
+     462.04
+    ],
+    [
+     531.02,
+     467.35
+    ],
+    [
+     575.88,
+     448.62
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-17",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 554.689,
+    "y1": 443.563,
+    "x2": 560.211,
+    "y2": 454.321,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#1C304D",
+      "measured": "#162C4A",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0F233D",
+      "measured": "#15263D",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#1C304D"
+     ],
+     [
+      1.0,
+      "#0F233D"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.37,
+    "rms_rgb_solid": 3.84,
+    "samples": 283,
+    "de2000_mean_interior": 1.39
+   }
+  },
+  {
+   "id": "facet-18",
+   "name": "crossbar-bright",
+   "vertices": [
+    [
+     645.83,
+     420.55
+    ],
+    [
+     514.69,
+     494.56
+    ],
+    [
+     574.76,
+     485.12
+    ],
+    [
+     589.84,
+     470.69
+    ],
+    [
+     601.75,
+     458.36
+    ]
+   ],
+   "path_vertices": [
+    [
+     645.83,
+     420.55
+    ],
+    [
+     514.69,
+     494.56
+    ],
+    [
+     575.22,
+     486.06
+    ],
+    [
+     589.84,
+     470.69
+    ],
+    [
+     601.75,
+     458.36
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-18",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 529.08,
+    "y1": 499.849,
+    "x2": 631.917,
+    "y2": 431.125,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#1B78CF",
+      "measured": "#1B78CF",
+      "palette": null
+     },
+     {
+      "offset": 0.5859,
+      "color": "#07F4F0",
+      "measured": "#03EEE9",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0FE4E8",
+      "measured": "#12E6EE",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#1B78CF"
+     ],
+     [
+      0.5859,
+      "#07F4F0"
+     ],
+     [
+      1.0,
+      "#0FE4E8"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 4.11,
+    "rms_rgb_solid": 18.82,
+    "samples": 1144,
+    "de2000_mean_interior": 1.47
+   }
+  },
+  {
+   "id": "facet-19",
+   "name": "bottom-blue",
+   "vertices": [
+    [
+     574.76,
+     485.12
+    ],
+    [
+     514.69,
+     494.56
+    ],
+    [
+     490.03,
+     534.47
+    ],
+    [
+     599.03,
+     523.47
+    ]
+   ],
+   "path_vertices": [
+    [
+     575.84,
+     484.95
+    ],
+    [
+     514.69,
+     494.56
+    ],
+    [
+     490.03,
+     534.47
+    ],
+    [
+     599.03,
+     523.47
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-19",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 590.594,
+    "y1": 500.14,
+    "x2": 491.458,
+    "y2": 524.025,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#2566F7",
+      "measured": "#2364F7",
+      "palette": null
+     },
+     {
+      "offset": 0.3328,
+      "color": "#2566F7",
+      "measured": "#2364FB",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#132D60",
+      "measured": "#10295C",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.3328,
+      "#2566F7"
+     ],
+     [
+      1.0,
+      "#132D60"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.18,
+    "rms_rgb_solid": 28.56,
+    "samples": 2949,
+    "de2000_mean_interior": 1.2
+   }
+  },
+  {
+   "id": "facet-20",
+   "name": "bottom-cyan",
+   "vertices": [
+    [
+     574.76,
+     485.12
+    ],
+    [
+     599.03,
+     523.47
+    ],
+    [
+     617.65,
+     517.19
+    ],
+    [
+     589.84,
+     470.69
+    ]
+   ],
+   "path_vertices": [
+    [
+     574.76,
+     485.12
+    ],
+    [
+     599.03,
+     523.47
+    ],
+    [
+     617.65,
+     517.19
+    ],
+    [
+     589.84,
+     470.69
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-20",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 583.23,
+    "y1": 476.979,
+    "x2": 607.358,
+    "y2": 520.463,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#1F69E2",
+      "measured": "#1D67D8",
+      "palette": null
+     },
+     {
+      "offset": 0.8156,
+      "color": "#07F4F0",
+      "measured": "#05F2EB",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#07F4F0",
+      "measured": "#10F3F3",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#1F69E2"
+     ],
+     [
+      0.8156,
+      "#07F4F0"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 4.43,
+    "rms_rgb_solid": 28.03,
+    "samples": 799,
+    "de2000_mean_interior": 2.59
+   }
+  },
+  {
+   "id": "facet-21",
+   "name": "neck-blue",
+   "vertices": [
+    [
+     651.82,
+     417.7
+    ],
+    [
+     645.83,
+     420.55
+    ],
+    [
+     601.75,
+     458.36
+    ],
+    [
+     634.83,
+     511.45
+    ]
+   ],
+   "path_vertices": [
+    [
+     652.94,
+     417.17
+    ],
+    [
+     645.83,
+     420.55
+    ],
+    [
+     601.75,
+     458.36
+    ],
+    [
+     634.83,
+     511.45
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-21",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 645.336,
+    "y1": 418.932,
+    "x2": 614.996,
+    "y2": 499.535,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#1F69E2",
+      "measured": "#1F68EC",
+      "palette": null
+     },
+     {
+      "offset": 0.3609,
+      "color": "#2566F7",
+      "measured": "#2465FC",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#132D60",
+      "measured": "#132D67",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#1F69E2"
+     ],
+     [
+      0.3609,
+      "#2566F7"
+     ],
+     [
+      1.0,
+      "#132D60"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.59,
+    "rms_rgb_solid": 26.4,
+    "samples": 1758,
+    "de2000_mean_interior": 1.08
+   }
+  },
+  {
+   "id": "facet-22",
+   "name": "neck-bright",
+   "vertices": [
+    [
+     733.48,
+     395.27
+    ],
+    [
+     721.69,
+     401.39
+    ],
+    [
+     678.15,
+     418.1
+    ],
+    [
+     640.44,
+     500.06
+    ],
+    [
+     650.03,
+     493.97
+    ],
+    [
+     634.83,
+     511.45
+    ],
+    [
+     651.82,
+     417.7
+    ],
+    [
+     674.98,
+     405.39
+    ],
+    [
+     712.4,
+     396.35
+    ]
+   ],
+   "path_vertices": [
+    [
+     733.66,
+     395.19
+    ],
+    [
+     721.7,
+     401.42
+    ],
+    [
+     678.89,
+     418.89
+    ],
+    [
+     642.76,
+     497.4
+    ],
+    [
+     650.03,
+     493.97
+    ],
+    [
+     634.83,
+     511.45
+    ],
+    [
+     652.05,
+     416.45
+    ],
+    [
+     674.63,
+     404.45
+    ],
+    [
+     712.25,
+     395.36
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-22",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 671.84,
+    "y1": 390.597,
+    "x2": 656.741,
+    "y2": 507.975,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#0FE4E8",
+      "measured": "#07E5EA",
+      "palette": null
+     },
+     {
+      "offset": 0.3125,
+      "color": "#07F4F0",
+      "measured": "#04F8EE",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#2659D8",
+      "measured": "#2659D8",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#0FE4E8"
+     ],
+     [
+      0.3125,
+      "#07F4F0"
+     ],
+     [
+      1.0,
+      "#2659D8"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 4.77,
+    "rms_rgb_solid": 23.23,
+    "samples": 1468,
+    "de2000_mean_interior": 2.05
+   }
+  },
+  {
+   "id": "facet-23",
+   "name": "neck-right",
+   "vertices": [
+    [
+     698.64,
+     436.36
+    ],
+    [
+     721.69,
+     401.39
+    ],
+    [
+     678.15,
+     418.1
+    ],
+    [
+     640.44,
+     500.06
+    ],
+    [
+     650.03,
+     493.97
+    ]
+   ],
+   "path_vertices": [
+    [
+     700.0,
+     434.74
+    ],
+    [
+     722.09,
+     401.23
+    ],
+    [
+     678.15,
+     418.1
+    ],
+    [
+     640.44,
+     500.06
+    ],
+    [
+     650.03,
+     493.97
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-23",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 702.256,
+    "y1": 398.42,
+    "x2": 652.121,
+    "y2": 499.288,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#07F4F0",
+      "measured": "#01F8F4",
+      "palette": null
+     },
+     {
+      "offset": 0.5641,
+      "color": "#129DDD",
+      "measured": "#139DDB",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1B56FF",
+      "measured": "#2A56EF",
+      "palette": "Vibrant Blue"
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#07F4F0"
+     ],
+     [
+      0.5641,
+      "#129DDD"
+     ],
+     [
+      1.0,
+      "#1B56FF"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.55,
+    "rms_rgb_solid": 25.62,
+    "samples": 1530,
+    "de2000_mean_interior": 3.38
+   }
+  },
+  {
+   "id": "facet-24",
+   "name": "head-top",
+   "vertices": [
+    [
+     633.65,
+     372.48
+    ],
+    [
+     671.86,
+     382.91
+    ],
+    [
+     691.13,
+     396.74
+    ],
+    [
+     715.76,
+     383.64
+    ],
+    [
+     675.3,
+     358.55
+    ]
+   ],
+   "path_vertices": [
+    [
+     633.65,
+     372.48
+    ],
+    [
+     671.42,
+     383.83
+    ],
+    [
+     691.06,
+     397.91
+    ],
+    [
+     717.76,
+     383.7
+    ],
+    [
+     675.3,
+     358.55
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-24",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 693.702,
+    "y1": 363.246,
+    "x2": 659.969,
+    "y2": 394.555,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#07F4F0",
+      "measured": "#0EF7F2",
+      "palette": null
+     },
+     {
+      "offset": 0.3719,
+      "color": "#07F4F0",
+      "measured": "#05EFED",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1884D4",
+      "measured": "#1B82D6",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.3719,
+      "#07F4F0"
+     ],
+     [
+      1.0,
+      "#1884D4"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 7.07,
+    "rms_rgb_solid": 17.34,
+    "samples": 1073,
+    "de2000_mean_interior": 2.77
+   }
+  },
+  {
+   "id": "facet-25",
+   "name": "head-lower",
+   "vertices": [
+    [
+     633.65,
+     372.48
+    ],
+    [
+     651.82,
+     417.7
+    ],
+    [
+     674.98,
+     405.39
+    ],
+    [
+     712.4,
+     396.35
+    ],
+    [
+     691.13,
+     396.74
+    ],
+    [
+     671.86,
+     382.91
+    ]
+   ],
+   "path_vertices": [
+    [
+     633.65,
+     372.48
+    ],
+    [
+     651.82,
+     417.7
+    ],
+    [
+     674.98,
+     405.39
+    ],
+    [
+     714.63,
+     395.81
+    ],
+    [
+     691.13,
+     396.74
+    ],
+    [
+     671.86,
+     382.91
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-25",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 692.772,
+    "y1": 385.441,
+    "x2": 643.364,
+    "y2": 399.545,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#04E6DF",
+      "measured": "#04E6DF",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1F69E2",
+      "measured": "#2168E7",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#04E6DF"
+     ],
+     [
+      1.0,
+      "#1F69E2"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.8,
+    "rms_rgb_solid": 17.59,
+    "samples": 1082,
+    "de2000_mean_interior": 1.75
+   }
+  },
+  {
+   "id": "facet-26",
+   "name": "crown",
+   "vertices": [
+    [
+     694.48,
+     353.65
+    ],
+    [
+     722.65,
+     360.15
+    ],
+    [
+     733.84,
+     373.47
+    ],
+    [
+     760.72,
+     385.18
+    ],
+    [
+     715.76,
+     383.64
+    ],
+    [
+     675.3,
+     358.55
+    ]
+   ],
+   "path_vertices": [
+    [
+     694.48,
+     353.65
+    ],
+    [
+     722.65,
+     360.15
+    ],
+    [
+     733.84,
+     373.47
+    ],
+    [
+     760.72,
+     385.18
+    ],
+    [
+     716.61,
+     384.17
+    ],
+    [
+     675.3,
+     358.55
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-26",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 744.565,
+    "y1": 359.228,
+    "x2": 685.702,
+    "y2": 378.471,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#41577A",
+      "measured": "#425B7D",
+      "palette": null
+     },
+     {
+      "offset": 0.4906,
+      "color": "#41577A",
+      "measured": "#405677",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0F233D",
+      "measured": "#0A1F39",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.4906,
+      "#41577A"
+     ],
+     [
+      1.0,
+      "#0F233D"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.63,
+    "rms_rgb_solid": 15.86,
+    "samples": 868,
+    "de2000_mean_interior": 1.56
+   }
+  },
+  {
+   "id": "facet-27",
+   "name": "lower-beak",
+   "vertices": [
+    [
+     760.72,
+     385.18
+    ],
+    [
+     733.48,
+     395.27
+    ],
+    [
+     712.4,
+     396.35
+    ],
+    [
+     691.13,
+     396.74
+    ],
+    [
+     715.76,
+     383.64
+    ]
+   ],
+   "path_vertices": [
+    [
+     760.72,
+     385.18
+    ],
+    [
+     733.48,
+     395.27
+    ],
+    [
+     712.4,
+     396.35
+    ],
+    [
+     691.13,
+     396.74
+    ],
+    [
+     715.76,
+     383.64
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-27",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 726.386,
+    "y1": 380.527,
+    "x2": 721.962,
+    "y2": 399.867,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#1C304D",
+      "measured": "#1F2E4C",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0F233D",
+      "measured": "#0C243C",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#1C304D"
+     ],
+     [
+      1.0,
+      "#0F233D"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.02,
+    "rms_rgb_solid": 4.66,
+    "samples": 333,
+    "de2000_mean_interior": 1.58
+   }
+  },
+  {
+   "id": "facet-28",
+   "name": "tail-base",
+   "vertices": [
+    [
+     506.45,
+     476.7
+    ],
+    [
+     432.69,
+     508.27
+    ],
+    [
+     418.13,
+     516.12
+    ],
+    [
+     391.03,
+     545.97
+    ],
+    [
+     424.47,
+     541.44
+    ],
+    [
+     470.03,
+     536.7
+    ]
+   ],
+   "path_vertices": [
+    [
+     506.45,
+     476.7
+    ],
+    [
+     432.69,
+     508.27
+    ],
+    [
+     415.48,
+     517.55
+    ],
+    [
+     391.03,
+     545.97
+    ],
+    [
+     424.57,
+     542.19
+    ],
+    [
+     470.03,
+     536.7
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-28",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 507.804,
+    "y1": 492.292,
+    "x2": 395.242,
+    "y2": 542.926,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#2566F7",
+      "measured": "#2565EC",
+      "palette": null
+     },
+     {
+      "offset": 0.3469,
+      "color": "#2566F7",
+      "measured": "#2465FB",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#132D60",
+      "measured": "#123166",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.3469,
+      "#2566F7"
+     ],
+     [
+      1.0,
+      "#132D60"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 4.24,
+    "rms_rgb_solid": 28.86,
+    "samples": 2642,
+    "de2000_mean_interior": 1.54
+   }
+  },
+  {
+   "id": "facet-29",
+   "name": "tail-upper-light",
+   "vertices": [
+    [
+     440.85,
+     492.65
+    ],
+    [
+     325.62,
+     537.0
+    ],
+    [
+     337.84,
+     544.78
+    ],
+    [
+     418.13,
+     516.12
+    ]
+   ],
+   "path_vertices": [
+    [
+     440.85,
+     492.65
+    ],
+    [
+     325.62,
+     537.0
+    ],
+    [
+     337.72,
+     545.89
+    ],
+    [
+     416.56,
+     517.75
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-29",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 362.586,
+    "y1": 503.103,
+    "x2": 397.08,
+    "y2": 536.283,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#2C4260",
+      "measured": "#2B4260",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#41577A",
+      "measured": "#415778",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#2C4260"
+     ],
+     [
+      1.0,
+      "#41577A"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.81,
+    "rms_rgb_solid": 7.09,
+    "samples": 995,
+    "de2000_mean_interior": 1.25
+   }
+  },
+  {
+   "id": "facet-30",
+   "name": "tail-upper-dark",
+   "vertices": [
+    [
+     418.13,
+     516.12
+    ],
+    [
+     337.84,
+     544.78
+    ],
+    [
+     325.62,
+     537.0
+    ],
+    [
+     264.97,
+     560.53
+    ],
+    [
+     391.03,
+     545.97
+    ]
+   ],
+   "path_vertices": [
+    [
+     418.13,
+     516.12
+    ],
+    [
+     337.84,
+     544.78
+    ],
+    [
+     325.62,
+     537.0
+    ],
+    [
+     264.97,
+     560.53
+    ],
+    [
+     391.03,
+     545.97
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-30",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 407.819,
+    "y1": 549.334,
+    "x2": 280.802,
+    "y2": 532.536,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#0F233D",
+      "measured": "#122642",
+      "palette": null
+     },
+     {
+      "offset": 0.55,
+      "color": "#2C4260",
+      "measured": "#304664",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#1C304D",
+      "measured": "#1F3552",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#0F233D"
+     ],
+     [
+      0.55,
+      "#2C4260"
+     ],
+     [
+      1.0,
+      "#1C304D"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.31,
+    "rms_rgb_solid": 9.03,
+    "samples": 1216,
+    "de2000_mean_interior": 1.67
+   }
+  },
+  {
+   "id": "facet-31",
+   "name": "tail-lower-light",
+   "vertices": [
+    [
+     470.03,
+     536.7
+    ],
+    [
+     424.47,
+     541.44
+    ],
+    [
+     378.41,
+     574.34
+    ],
+    [
+     392.73,
+     575.27
+    ]
+   ],
+   "path_vertices": [
+    [
+     470.03,
+     536.7
+    ],
+    [
+     424.47,
+     541.44
+    ],
+    [
+     376.51,
+     574.47
+    ],
+    [
+     392.73,
+     575.27
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-31",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 424.46,
+    "y1": 532.175,
+    "x2": 414.927,
+    "y2": 579.075,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#41577A",
+      "measured": "#43587E",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#2C4260",
+      "measured": "#2E4461",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#41577A"
+     ],
+     [
+      1.0,
+      "#2C4260"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 3.7,
+    "rms_rgb_solid": 7.03,
+    "samples": 683,
+    "de2000_mean_interior": 1.44
+   }
+  },
+  {
+   "id": "facet-32",
+   "name": "tail-lower-dark",
+   "vertices": [
+    [
+     378.41,
+     574.34
+    ],
+    [
+     392.73,
+     575.27
+    ],
+    [
+     340.41,
+     601.22
+    ],
+    [
+     391.03,
+     545.97
+    ],
+    [
+     424.47,
+     541.44
+    ]
+   ],
+   "path_vertices": [
+    [
+     378.41,
+     574.34
+    ],
+    [
+     392.73,
+     575.27
+    ],
+    [
+     340.41,
+     601.22
+    ],
+    [
+     391.03,
+     545.97
+    ],
+    [
+     424.47,
+     541.44
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-32",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 365.787,
+    "y1": 604.821,
+    "x2": 395.841,
+    "y2": 535.156,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#1C304D",
+      "measured": "#1B304B",
+      "palette": null
+     },
+     {
+      "offset": 0.45,
+      "color": "#2C4260",
+      "measured": "#283E5B",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0F233D",
+      "measured": "#12233C",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#1C304D"
+     ],
+     [
+      0.45,
+      "#2C4260"
+     ],
+     [
+      1.0,
+      "#0F233D"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 5.28,
+    "rms_rgb_solid": 8.81,
+    "samples": 728,
+    "de2000_mean_interior": 1.73
+   }
+  },
+  {
+   "id": "facet-33",
+   "name": "neck-rim",
+   "vertices": [
+    [
+     733.48,
+     395.27
+    ],
+    [
+     698.64,
+     436.36
+    ],
+    [
+     721.69,
+     401.39
+    ]
+   ],
+   "path_vertices": [
+    [
+     733.48,
+     395.27
+    ],
+    [
+     698.64,
+     436.36
+    ],
+    [
+     721.69,
+     401.39
+    ]
+   ],
+   "fill": {
+    "type": "linearGradient",
+    "id": "grad-33",
+    "gradientUnits": "userSpaceOnUse",
+    "x1": 720.213,
+    "y1": 406.003,
+    "x2": 721.617,
+    "y2": 407.205,
+    "stops": [
+     {
+      "offset": 0.0,
+      "color": "#07F4F0",
+      "measured": "#07F2F3",
+      "palette": null
+     },
+     {
+      "offset": 1.0,
+      "color": "#0FE4E8",
+      "measured": "#21E4E4",
+      "palette": null
+     }
+    ],
+    "svg_stops": [
+     [
+      0.0,
+      "#07F4F0"
+     ],
+     [
+      1.0,
+      "#0FE4E8"
+     ]
+    ]
+   },
+   "fit": {
+    "rms_rgb": 2.48,
+    "rms_rgb_solid": 6.96,
+    "samples": 30,
+    "de2000_mean_interior": 0.95
+   }
+  }
+ ],
+ "palette_snaps": [
+  {
+   "facet": "facet-03",
+   "stop": 1,
+   "measured": "#2363F9",
+   "palette": "Vibrant Blue",
+   "hex": "#1B56FF",
+   "de": 3.97
+  },
+  {
+   "facet": "facet-05",
+   "stop": 1,
+   "measured": "#2261F5",
+   "palette": "Vibrant Blue",
+   "hex": "#1B56FF",
+   "de": 3.39
+  },
+  {
+   "facet": "facet-05",
+   "stop": 2,
+   "measured": "#245DE7",
+   "palette": "Vibrant Blue",
+   "hex": "#1B56FF",
+   "de": 3.45
+  },
+  {
+   "facet": "facet-07",
+   "stop": 2,
+   "measured": "#2758F3",
+   "palette": "Vibrant Blue",
+   "hex": "#1B56FF",
+   "de": 1.39
+  },
+  {
+   "facet": "facet-08",
+   "stop": 2,
+   "measured": "#255FF8",
+   "palette": "Vibrant Blue",
+   "hex": "#1B56FF",
+   "de": 2.61
+  },
+  {
+   "facet": "facet-23",
+   "stop": 2,
+   "measured": "#2A56EF",
+   "palette": "Vibrant Blue",
+   "hex": "#1B56FF",
+   "de": 1.72
+  }
+ ],
+ "supporting_tones": [
+  {
+   "name": "Bird Azure 1",
+   "hex": "#1B78CF",
+   "used_in": [
+    "facet-18"
+   ],
+   "stops": [
+    "facet-18/0"
+   ]
+  },
+  {
+   "name": "Bird Azure 2",
+   "hex": "#1884D4",
+   "used_in": [
+    "facet-08",
+    "facet-24"
+   ],
+   "stops": [
+    "facet-08/0",
+    "facet-24/2"
+   ]
+  },
+  {
+   "name": "Bird Azure 3",
+   "hex": "#1190DC",
+   "used_in": [
+    "facet-12"
+   ],
+   "stops": [
+    "facet-12/1"
+   ]
+  },
+  {
+   "name": "Bird Blue 1",
+   "hex": "#2659D8",
+   "used_in": [
+    "facet-22"
+   ],
+   "stops": [
+    "facet-22/2"
+   ]
+  },
+  {
+   "name": "Bird Blue 2",
+   "hex": "#1F69E2",
+   "used_in": [
+    "facet-09",
+    "facet-15",
+    "facet-20",
+    "facet-21",
+    "facet-25"
+   ],
+   "stops": [
+    "facet-09/2",
+    "facet-15/1",
+    "facet-20/0",
+    "facet-21/0",
+    "facet-25/1"
+   ]
+  },
+  {
+   "name": "Bird Blue 3",
+   "hex": "#2566F7",
+   "used_in": [
+    "facet-03",
+    "facet-06",
+    "facet-09",
+    "facet-19",
+    "facet-21",
+    "facet-28"
+   ],
+   "stops": [
+    "facet-03/0",
+    "facet-06/1",
+    "facet-09/0",
+    "facet-09/1",
+    "facet-19/0",
+    "facet-19/1",
+    "facet-21/1",
+    "facet-28/0",
+    "facet-28/1"
+   ]
+  },
+  {
+   "name": "Bird Blue 4",
+   "hex": "#1C72E2",
+   "used_in": [
+    "facet-11"
+   ],
+   "stops": [
+    "facet-11/0"
+   ]
+  },
+  {
+   "name": "Bird Cyan 1",
+   "hex": "#0DD8E3",
+   "used_in": [
+    "facet-10",
+    "facet-14"
+   ],
+   "stops": [
+    "facet-10/2",
+    "facet-14/0"
+   ]
+  },
+  {
+   "name": "Bird Cyan 2",
+   "hex": "#0FE4E8",
+   "used_in": [
+    "facet-12",
+    "facet-13",
+    "facet-18",
+    "facet-22",
+    "facet-33"
+   ],
+   "stops": [
+    "facet-12/0",
+    "facet-13/1",
+    "facet-18/2",
+    "facet-22/0",
+    "facet-33/1"
+   ]
+  },
+  {
+   "name": "Bird Cyan 3",
+   "hex": "#04E6DF",
+   "used_in": [
+    "facet-25"
+   ],
+   "stops": [
+    "facet-25/0"
+   ]
+  },
+  {
+   "name": "Bird Cyan 4",
+   "hex": "#07F4F0",
+   "used_in": [
+    "facet-07",
+    "facet-10",
+    "facet-14",
+    "facet-18",
+    "facet-20",
+    "facet-22",
+    "facet-23",
+    "facet-24",
+    "facet-33"
+   ],
+   "stops": [
+    "facet-07/0",
+    "facet-07/1",
+    "facet-10/0",
+    "facet-10/1",
+    "facet-14/1",
+    "facet-14/2",
+    "facet-18/1",
+    "facet-20/1",
+    "facet-20/2",
+    "facet-22/1",
+    "facet-23/0",
+    "facet-24/0",
+    "facet-24/1",
+    "facet-33/0"
+   ]
+  },
+  {
+   "name": "Bird Deep Blue 1",
+   "hex": "#132D60",
+   "used_in": [
+    "facet-03",
+    "facet-05",
+    "facet-06",
+    "facet-19",
+    "facet-21",
+    "facet-28"
+   ],
+   "stops": [
+    "facet-03/2",
+    "facet-05/0",
+    "facet-06/0",
+    "facet-19/2",
+    "facet-21/2",
+    "facet-28/2"
+   ]
+  },
+  {
+   "name": "Bird Navy 1",
+   "hex": "#0F233D",
+   "used_in": [
+    "facet-02",
+    "facet-04",
+    "facet-17",
+    "facet-26",
+    "facet-27",
+    "facet-30",
+    "facet-32"
+   ],
+   "stops": [
+    "facet-02/1",
+    "facet-04/0",
+    "facet-17/1",
+    "facet-26/2",
+    "facet-27/1",
+    "facet-30/0",
+    "facet-32/2"
+   ]
+  },
+  {
+   "name": "Bird Navy 2",
+   "hex": "#1C304D",
+   "used_in": [
+    "facet-17",
+    "facet-27",
+    "facet-30",
+    "facet-32"
+   ],
+   "stops": [
+    "facet-17/0",
+    "facet-27/0",
+    "facet-30/2",
+    "facet-32/0"
+   ]
+  },
+  {
+   "name": "Bird Sky 1",
+   "hex": "#129DDD",
+   "used_in": [
+    "facet-15",
+    "facet-23"
+   ],
+   "stops": [
+    "facet-15/0",
+    "facet-23/1"
+   ]
+  },
+  {
+   "name": "Bird Sky 2",
+   "hex": "#10ABDC",
+   "used_in": [
+    "facet-11",
+    "facet-13"
+   ],
+   "stops": [
+    "facet-11/1",
+    "facet-13/0"
+   ]
+  },
+  {
+   "name": "Bird Sky 3",
+   "hex": "#0EB7DA",
+   "used_in": [
+    "facet-08"
+   ],
+   "stops": [
+    "facet-08/1"
+   ]
+  },
+  {
+   "name": "Bird Slate 1",
+   "hex": "#2C4260",
+   "used_in": [
+    "facet-02",
+    "facet-29",
+    "facet-30",
+    "facet-31",
+    "facet-32"
+   ],
+   "stops": [
+    "facet-02/0",
+    "facet-29/0",
+    "facet-30/1",
+    "facet-31/1",
+    "facet-32/1"
+   ]
+  },
+  {
+   "name": "Bird Slate 2",
+   "hex": "#3A4F6F",
+   "used_in": [
+    "facet-01",
+    "facet-16"
+   ],
+   "stops": [
+    "facet-01/0",
+    "facet-16/0"
+   ]
+  },
+  {
+   "name": "Bird Slate 3",
+   "hex": "#41577A",
+   "used_in": [
+    "facet-04",
+    "facet-26",
+    "facet-29",
+    "facet-31"
+   ],
+   "stops": [
+    "facet-04/1",
+    "facet-26/0",
+    "facet-26/1",
+    "facet-29/1",
+    "facet-31/0"
+   ]
+  }
+ ],
+ "metrics": {
+  "iou": 0.9948,
+  "de_mean": 2.52,
+  "de_p95": 7.06,
+  "de_mean_eroded1": 2.39,
+  "de_p95_eroded1": 6.6,
+  "mono_iou_vs_original": 0.9943,
+  "mono_iou_vs_color_render": 0.9971
+ }
+}

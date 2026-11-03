@@ -1,0 +1,98 @@
+[
+ {
+  "artboard": "05-Favicon-32_FullColor-Light",
+  "checked": true,
+  "alpha_iou": 0.9178,
+  "within_1px": 1.0,
+  "de_mean": 0.96,
+  "de_p95": 5.67,
+  "size_px": [
+   32,
+   32
+  ]
+ },
+ {
+  "artboard": "05-Favicon-32_FullColor-Dark",
+  "checked": true,
+  "alpha_iou": 0.9178,
+  "within_1px": 1.0,
+  "de_mean": 1.09,
+  "de_p95": 6.54,
+  "size_px": [
+   32,
+   32
+  ]
+ },
+ {
+  "artboard": "05-Favicon-32_Mono-Black",
+  "checked": true,
+  "alpha_iou": 0.9178,
+  "within_1px": 1.0,
+  "de_mean": 1.56,
+  "de_p95": 10.27,
+  "size_px": [
+   32,
+   32
+  ]
+ },
+ {
+  "artboard": "05-Favicon-32_Mono-White",
+  "checked": true,
+  "alpha_iou": 0.9178,
+  "within_1px": 1.0,
+  "de_mean": 1.25,
+  "de_p95": 7.8,
+  "size_px": [
+   32,
+   32
+  ]
+ },
+ {
+  "artboard": "06-Favicon-16_FullColor-Light",
+  "checked": true,
+  "alpha_iou": 1.0,
+  "within_1px": 1.0,
+  "de_mean": 0.0,
+  "de_p95": 0.0,
+  "size_px": [
+   16,
+   16
+  ]
+ },
+ {
+  "artboard": "06-Favicon-16_FullColor-Dark",
+  "checked": true,
+  "alpha_iou": 1.0,
+  "within_1px": 1.0,
+  "de_mean": 0.0,
+  "de_p95": 0.0,
+  "size_px": [
+   16,
+   16
+  ]
+ },
+ {
+  "artboard": "06-Favicon-16_Mono-Black",
+  "checked": true,
+  "alpha_iou": 1.0,
+  "within_1px": 1.0,
+  "de_mean": 0.0,
+  "de_p95": 0.0,
+  "size_px": [
+   16,
+   16
+  ]
+ },
+ {
+  "artboard": "06-Favicon-16_Mono-White",
+  "checked": true,
+  "alpha_iou": 1.0,
+  "within_1px": 1.0,
+  "de_mean": 0.0,
+  "de_p95": 0.0,
+  "size_px": [
+   16,
+   16
+  ]
+ }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-security-governance" width="48" height="48" viewBox="0 0 48 48">
+<rect id="aap-ref" x="0" y="0" width="48" height="48" fill="none"/>
+  <path id="icon-security-governance-shield" d="M24 42.5 C31.5 39 39 32.5 39 24 L39 11 L24 5.5 L9 11 L9 24 C9 32.5 16.5 39 24 42.5 Z" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-security-governance-check" d="M16.5 23 L21.5 28 L31.5 17.5" stroke="#00D5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

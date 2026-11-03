@@ -1,0 +1,611 @@
+{
+ "viewBox": [
+  0,
+  0,
+  1024,
+  1024
+ ],
+ "source_space": "original 06 pixel space (y down)",
+ "bbox": [
+  171.23,
+  313.38,
+  853.53,
+  710.64
+ ],
+ "baseline_y": 710.64,
+ "apex_top_y": 313.38,
+ "mark_height": 397.26,
+ "silhouette_d": "M171.227 710.64 L265.76 710.64 L302.136 632.12 L436.815 632.12 C437.305 632.12 439.373 631.127 440.298 631.024 C441.622 630.877 442.946 630.714 444.266 630.532 C459.435 628.446 474.47 624.765 488.668 619.007 C495.031 616.426 501.26 613.344 507.685 611.054 L558.759 710.64 L653.74 710.64 L622.2 649.214 L622.2 577.15 L733.657 577.15 C734.354 577.15 738.446 576.236 739.611 576.067 C754.584 573.904 768.811 569.471 782.249 562.503 C797.101 554.802 810.991 544.47 821.817 531.642 C823.431 529.73 824.69 527.588 826.231 525.629 C828.086 523.27 830.202 521.276 831.875 518.751 C837.162 510.774 841.084 502.194 844.499 493.284 C865.613 438.188 849.037 376.273 801.722 340.458 C794.387 334.906 786.764 329.886 778.402 326.011 C766.505 320.496 753.719 316.468 740.725 314.667 C739.218 314.458 735.875 313.38 734.767 313.38 L541.4 313.38 L541.4 439.243 C541.4 440.172 540.395 443.839 540.197 445.197 C538.756 455.069 536.852 465.233 532.278 474.087 L449.76 313.38 L359.539 313.38 L171.227 710.64 Z M622.2 391.66 L724.741 391.66 C728.974 391.66 736.562 394.454 740.592 396.093 C748.78 399.422 756.193 405.675 761.377 412.781 C780.757 439.344 772.764 476.513 743.69 492.259 C739.237 494.67 728.591 498.55 723.756 498.55 L622.2 498.55 L622.2 391.66 Z M471.603 540.7 C457.66 546.895 443.395 551.144 428.245 553.089 C426.423 553.323 423.98 554.2 422.287 554.2 L338.234 554.2 L404.816 410.478 L471.603 540.7 Z",
+ "z_order": "faces listed bottom to top; each lower face reaches 2.5 px under the face stacked above it (no seams); all faces are cut by one shared silhouette",
+ "component": "ap-hero-dark",
+ "source": "04",
+ "background_measured": "#132031",
+ "background_palette": "Deep Navy #121B2A (dE2000 2.1 from the measured 04 background)",
+ "transform_to_04": {
+  "scale": 0.6045,
+  "tx": 73.321,
+  "ty": 74.123,
+  "note": "p04 = scale * p_master + (tx, ty), pixel-centre convention",
+  "iou_fit": 0.9292
+ },
+ "faces": [
+  {
+   "id": "face-p-bowl-lower",
+   "z": 0,
+   "fill": {
+    "type": "linear",
+    "x1": 773.908,
+    "y1": 439.068,
+    "x2": 740.546,
+    "y2": 509.013,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0D335A",
+      "swatch": "AP Navy 1",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": "AP Slate 2",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 28
+  },
+  {
+   "id": "face-p-bowl-under",
+   "z": 1,
+   "fill": {
+    "type": "linear",
+    "x1": 581.255,
+    "y1": 565.3,
+    "x2": 755.271,
+    "y2": 557.702,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#132C52",
+      "swatch": "AP Navy 3",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": "AP Slate 2",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 18
+  },
+  {
+   "id": "face-a-right-outer",
+   "z": 2,
+   "fill": {
+    "type": "linear",
+    "x1": 472.442,
+    "y1": 327.08,
+    "x2": 592.846,
+    "y2": 715.631,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#42597D",
+      "swatch": "AP Slate 1",
+      "palette": false
+     },
+     {
+      "offset": 0.3846,
+      "hex": "#33496C",
+      "swatch": "AP Slate 3",
+      "palette": false
+     },
+     {
+      "offset": 0.6923,
+      "hex": "#12438A",
+      "swatch": "AP Blue 10",
+      "palette": false
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#1C65FC",
+      "swatch": "AP Blue 2",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1C65FC",
+      "swatch": "AP Blue 2",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 4
+  },
+  {
+   "id": "face-a-right-inner",
+   "z": 3,
+   "fill": {
+    "type": "linear",
+    "x1": 411.864,
+    "y1": 390.193,
+    "x2": 587.824,
+    "y2": 704.815,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#132C52",
+      "swatch": "AP Navy 3",
+      "palette": false
+     },
+     {
+      "offset": 0.3077,
+      "hex": "#213B66",
+      "swatch": "AP Slate 5",
+      "palette": false
+     },
+     {
+      "offset": 0.6923,
+      "hex": "#132C52",
+      "swatch": "AP Navy 3",
+      "palette": false
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#3D5579",
+      "swatch": "AP Slate 2",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#3D5579",
+      "swatch": "AP Slate 2",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 5
+  },
+  {
+   "id": "face-a-left-bevel",
+   "z": 4,
+   "fill": {
+    "type": "linear",
+    "x1": 373.787,
+    "y1": 312.517,
+    "x2": 309.186,
+    "y2": 715.12,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#2261DF",
+      "swatch": "AP Blue 4",
+      "palette": false
+     },
+     {
+      "offset": 0.5385,
+      "hex": "#183B7D",
+      "swatch": "AP Blue 11",
+      "palette": false
+     },
+     {
+      "offset": 0.8462,
+      "hex": "#132C52",
+      "swatch": "AP Navy 3",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#42597D",
+      "swatch": "AP Slate 1",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 8
+  },
+  {
+   "id": "face-a-left-outer",
+   "z": 5,
+   "fill": {
+    "type": "linear",
+    "x1": 379.231,
+    "y1": 318.673,
+    "x2": 197.594,
+    "y2": 706.147,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1C65FC",
+      "swatch": "AP Blue 2",
+      "palette": false
+     },
+     {
+      "offset": 0.3846,
+      "hex": "#1C65FC",
+      "swatch": "AP Blue 2",
+      "palette": false
+     },
+     {
+      "offset": 0.5385,
+      "hex": "#1D55BC",
+      "swatch": "AP Blue 7",
+      "palette": false
+     },
+     {
+      "offset": 0.6154,
+      "hex": "#183B7D",
+      "swatch": "AP Blue 11",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#27489E",
+      "swatch": "AP Blue 9",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 3
+  },
+  {
+   "id": "face-p-bowl-top",
+   "z": 6,
+   "fill": {
+    "type": "linear",
+    "x1": 775.158,
+    "y1": 333.071,
+    "x2": 615.514,
+    "y2": 419.75,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0AE4F7",
+      "swatch": "AP Cyan",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1D5CB8",
+      "swatch": "AP Blue 6",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 30
+  },
+  {
+   "id": "face-p-bowl-fold",
+   "z": 7,
+   "fill": {
+    "type": "linear",
+    "x1": 655.406,
+    "y1": 340.165,
+    "x2": 697.642,
+    "y2": 376.238,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1D55BC",
+      "swatch": "AP Blue 7",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1D76ED",
+      "swatch": "AP Blue 1",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 16
+  },
+  {
+   "id": "face-ribbon-front-stem",
+   "z": 8,
+   "fill": {
+    "type": "linear",
+    "x1": 566.395,
+    "y1": 357.021,
+    "x2": 554.998,
+    "y2": 475.385,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1D5CB8",
+      "swatch": "AP Blue 6",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1E7CC4",
+      "swatch": "AP Azure 2",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 12
+  },
+  {
+   "id": "face-ribbon-front",
+   "z": 9,
+   "fill": {
+    "type": "linear",
+    "x1": 515.483,
+    "y1": 463.101,
+    "x2": 375.342,
+    "y2": 596.091,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#1E7CC4",
+      "swatch": "AP Azure 2",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#0AE4F7",
+      "swatch": "AP Cyan",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 25
+  },
+  {
+   "id": "face-ribbon-back",
+   "z": 10,
+   "fill": {
+    "type": "linear",
+    "x1": 487.432,
+    "y1": 549.813,
+    "x2": 281.616,
+    "y2": 628.819,
+    "stops": [
+     {
+      "offset": 0.0,
+      "hex": "#0AE4F7",
+      "swatch": "AP Cyan",
+      "palette": false
+     },
+     {
+      "offset": 1.0,
+      "hex": "#1D5CB8",
+      "swatch": "AP Blue 6",
+      "palette": false
+     }
+    ]
+   },
+   "anchors": 33
+  }
+ ],
+ "supporting_tones": [
+  {
+   "name": "AP Azure 2",
+   "hex": "#1E7CC4",
+   "used_in": [
+    "face-ribbon-front-stem#1",
+    "face-ribbon-front#0"
+   ]
+  },
+  {
+   "name": "AP Blue 1",
+   "hex": "#1D76ED",
+   "used_in": [
+    "face-p-bowl-fold#1"
+   ]
+  },
+  {
+   "name": "AP Blue 10",
+   "hex": "#12438A",
+   "used_in": [
+    "face-a-right-outer#2"
+   ]
+  },
+  {
+   "name": "AP Blue 11",
+   "hex": "#183B7D",
+   "used_in": [
+    "face-a-left-bevel#1",
+    "face-a-left-outer#3"
+   ]
+  },
+  {
+   "name": "AP Blue 2",
+   "hex": "#1C65FC",
+   "used_in": [
+    "face-a-right-outer#3",
+    "face-a-right-outer#4",
+    "face-a-left-outer#0",
+    "face-a-left-outer#1"
+   ]
+  },
+  {
+   "name": "AP Blue 4",
+   "hex": "#2261DF",
+   "used_in": [
+    "face-a-left-bevel#0"
+   ]
+  },
+  {
+   "name": "AP Blue 6",
+   "hex": "#1D5CB8",
+   "used_in": [
+    "face-p-bowl-top#1",
+    "face-ribbon-front-stem#0",
+    "face-ribbon-back#1"
+   ]
+  },
+  {
+   "name": "AP Blue 7",
+   "hex": "#1D55BC",
+   "used_in": [
+    "face-a-left-outer#2",
+    "face-p-bowl-fold#0"
+   ]
+  },
+  {
+   "name": "AP Blue 9",
+   "hex": "#27489E",
+   "used_in": [
+    "face-a-left-outer#4"
+   ]
+  },
+  {
+   "name": "AP Cyan",
+   "hex": "#0AE4F7",
+   "used_in": [
+    "face-p-bowl-top#0",
+    "face-ribbon-front#1",
+    "face-ribbon-back#0"
+   ]
+  },
+  {
+   "name": "AP Navy 1",
+   "hex": "#0D335A",
+   "used_in": [
+    "face-p-bowl-lower#0"
+   ]
+  },
+  {
+   "name": "AP Navy 3",
+   "hex": "#132C52",
+   "used_in": [
+    "face-p-bowl-under#0",
+    "face-a-right-inner#0",
+    "face-a-right-inner#2",
+    "face-a-left-bevel#2"
+   ]
+  },
+  {
+   "name": "AP Slate 1",
+   "hex": "#42597D",
+   "used_in": [
+    "face-a-right-outer#0",
+    "face-a-left-bevel#3"
+   ]
+  },
+  {
+   "name": "AP Slate 2",
+   "hex": "#3D5579",
+   "used_in": [
+    "face-p-bowl-lower#1",
+    "face-p-bowl-under#1",
+    "face-a-right-inner#3",
+    "face-a-right-inner#4"
+   ]
+  },
+  {
+   "name": "AP Slate 3",
+   "hex": "#33496C",
+   "used_in": [
+    "face-a-right-outer#1"
+   ]
+  },
+  {
+   "name": "AP Slate 5",
+   "hex": "#213B66",
+   "used_in": [
+    "face-a-right-inner#1"
+   ]
+  }
+ ],
+ "palette_used": [],
+ "metrics": {
+  "iou_04": 0.9292,
+  "de_mean_04": 4.41,
+  "de_p95_04": 19.19,
+  "de_mean_04_interior2px": 3.47,
+  "de_p95_04_interior2px": 13.99,
+  "per_face": {
+   "p-bowl-lower": {
+    "de_mean": 2.68,
+    "de_p95": 8.82,
+    "pixels": 4139
+   },
+   "p-bowl-under": {
+    "de_mean": 1.16,
+    "de_p95": 2.14,
+    "pixels": 2136
+   },
+   "a-right-outer": {
+    "de_mean": 1.61,
+    "de_p95": 3.3,
+    "pixels": 3700
+   },
+   "a-right-inner": {
+    "de_mean": 1.2,
+    "de_p95": 2.84,
+    "pixels": 3240
+   },
+   "a-left-bevel": {
+    "de_mean": 1.07,
+    "de_p95": 2.32,
+    "pixels": 3971
+   },
+   "a-left-outer": {
+    "de_mean": 1.01,
+    "de_p95": 2.66,
+    "pixels": 3738
+   },
+   "p-bowl-top": {
+    "de_mean": 2.61,
+    "de_p95": 5.83,
+    "pixels": 3968
+   },
+   "p-bowl-fold": {
+    "de_mean": 2.86,
+    "de_p95": 9.96,
+    "pixels": 1840
+   },
+   "ribbon-front-stem": {
+    "de_mean": 1.44,
+    "de_p95": 3.06,
+    "pixels": 1292
+   },
+   "ribbon-front": {
+    "de_mean": 2.27,
+    "de_p95": 6.65,
+    "pixels": 3801
+   },
+   "ribbon-back": {
+    "de_mean": 2.39,
+    "de_p95": 5.6,
+    "pixels": 5578
+   }
+  },
+  "method": "master geometry placed by the fitted similarity into 04 (1376x768), rendered, composited on the measured 04 background; mask of 04 = dE2000 > 7 from the background with the outer glow peeled (mask04.py)",
+  "seams": [
+   {
+    "variant": "dark",
+    "faces": [
+     "p-bowl-top",
+     "ribbon-front-stem"
+    ],
+    "de_max": 0.0,
+    "de_mean": 0.0
+   },
+   {
+    "variant": "dark",
+    "faces": [
+     "ribbon-front-stem",
+     "ribbon-front"
+    ],
+    "de_max": 0.0,
+    "de_mean": 0.0
+   },
+   {
+    "variant": "dark",
+    "faces": [
+     "p-bowl-under",
+     "p-bowl-lower"
+    ],
+    "de_max": 0.0,
+    "de_mean": 0.0
+   }
+  ]
+ }
+}

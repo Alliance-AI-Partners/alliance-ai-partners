@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-launch" width="48" height="48" viewBox="0 0 48 48">
+<rect id="aap-ref" x="0" y="0" width="48" height="48" fill="none"/>
+  <path id="icon-launch-trail" d="M6.5 41.5 C8.269 38.436 8.077 35 12.5 35 C16.787 35 16.383 31.617 18.808 29.192" stroke="#00D5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-launch-body" d="M17.393 22.121 L25.879 13.636 C30.475 9.04 35.778 7.979 40.021 7.979 C40.021 12.222 38.96 17.525 34.364 22.121 L25.879 30.607 Z" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-launch-fin-left" d="M23.05 16.464 L14.565 17.172 L11.737 20 L17.393 22.121" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path id="icon-launch-fin-right" d="M31.536 24.95 L30.828 33.435 L28 36.263 L25.879 30.607" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle id="icon-launch-window" cx="30.828" cy="17.172" r="3" stroke="#1B56FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

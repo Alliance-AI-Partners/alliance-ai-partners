@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Letterhead</title>
+<!--
+  Template: A4 letterhead (210 x 297 mm) with a sample letter. Prints as one A4 page with no margins added by the
+  browser (@page margin 0); the page keeps its own margins.
+  Header: primary horizontal lockup, full-colour light, art 48 mm wide (print minimum 40 mm).
+  Margins: 22 mm left and right, body from 62 mm. The footer sits 11 mm above the bottom edge, clear of the
+  unprintable strip of office printers. The ribbon runs off both side edges; on printers that cannot print to the
+  edge its last few millimetres show white, which is fine for a decorative element.
+  Placeholders in square brackets stay as they are until real details exist: never invent an address, a company
+  number, a price or a duration.
+  SAMPLE: the letter, Hannah Whitfield and Isabel Navarro are fictional. +1 202 555 0147 is in the range reserved
+  for fictional use; allianceaipartners.example is a placeholder domain.
+-->
+<link rel="stylesheet" href="../../design-system/tokens/tokens.css">
+<style>
+  @page { size: A4; margin: 0; }
+  html { background: var(--aap-color-neutral-200); }
+  body { margin: 0; }
+  .page {
+    position: relative; width: 210mm; height: 297mm; overflow: hidden; box-sizing: border-box;
+    padding: 62mm 22mm 50mm;
+    background: var(--aap-color-brand-pure-white); color: var(--aap-color-text-primary);
+    font-family: var(--aap-font-family-sans); font-size: 10pt; line-height: 15pt;
+    -webkit-font-smoothing: antialiased;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page p { margin: 0 0 9pt; max-width: 152mm; text-wrap: pretty; }
+  .ribbon { position: absolute; left: 0; top: 0; width: 210mm; height: 297mm; }
+  /* Artboard 1139 units with 69-unit clear space: at 54.62 mm the art is 48 mm wide and starts 3.31 mm inside. */
+  .head-logo { position: absolute; left: 18.69mm; top: 14.69mm; width: 54.62mm; height: auto; display: block; }
+  .head-from {
+    position: absolute; right: 22mm; top: 17.2mm; margin: 0; text-align: right;
+    font-style: normal; font-size: 8pt; line-height: 11.5pt; color: var(--aap-color-text-secondary);
+  }
+  .head-from strong { font-weight: 600; color: var(--aap-color-text-primary); }
+  .head-from .ph { font-size: 7.5pt; }
+  .date { margin-bottom: 12pt !important; }
+  .to { margin-bottom: 18pt !important; }
+  .subject {
+    margin-bottom: 13pt !important;
+    font-weight: 600; font-stretch: var(--aap-typography-heading-2-stretch);
+    font-size: 15pt; line-height: 19pt; letter-spacing: -0.02em; text-wrap: balance;
+  }
+  .ph { font-family: var(--aap-font-family-mono); font-size: 9pt; color: var(--aap-color-text-tertiary); }
+  .sign { margin-top: 18pt !important; }
+  .sign strong { font-weight: 600; }
+  .foot {
+    position: absolute; left: 22mm; right: 22mm; bottom: 11mm;
+    display: flex; justify-content: space-between; gap: 10mm;
+    font-size: 7.5pt; line-height: 10pt; color: var(--aap-color-text-tertiary);
+  }
+  .foot .ph { font-size: 7pt; }
+  .foot strong { font-weight: 600; color: var(--aap-color-text-primary); }
+  @media print { html { background: none; } }
+</style>
+</head>
+<body>
+  <article class="page" id="artefact">
+    <svg class="ribbon" viewBox="0 0 210 297" aria-hidden="true">
+      <defs>
+        <linearGradient id="lh-daybreak" gradientUnits="userSpaceOnUse" x1="0" y1="277" x2="210" y2="250">
+          <stop offset="0" style="stop-color: var(--aap-color-brand-partner-navy)"/>
+          <stop offset="0.54" style="stop-color: var(--aap-color-brand-alliance-blue)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <linearGradient id="lh-light" gradientUnits="userSpaceOnUse" x1="0" y1="277" x2="210" y2="250">
+          <stop offset="0" style="stop-color: var(--aap-color-shading-ribbon-57)"/>
+          <stop offset="1" style="stop-color: var(--aap-color-brand-ribbon-cyan)"/>
+        </linearGradient>
+        <path id="lh-path" d="M-6 276.6 C40 277.6 96 272 140 264.4 S190 252.6 218 249.6"/>
+      </defs>
+      <use href="#lh-path" fill="none" stroke="url(#lh-daybreak)" stroke-width="2.6"/>
+      <use href="#lh-path" fill="none" stroke="url(#lh-light)" stroke-width="0.8" transform="translate(0 -0.9)"/>
+    </svg>
+
+    <img class="head-logo" src="../../design-system/logos/lockups/alliance-ai-partners-primary-horizontal-full-color-light.svg" alt="Alliance AI Partners">
+    <address class="head-from">
+      <strong>Alliance AI Partners</strong><br>
+      <span class="ph">[Registered address]</span><br>
+      hello@allianceaipartners.example<br>
+      allianceaipartners.example
+    </address>
+
+    <p class="date">2 November 2026</p>
+    <p class="to">Hannah Whitfield<br>Chief executive<br><span class="ph">[Recipient organisation]</span><br><span class="ph">[Recipient address]</span></p>
+
+    <p class="subject">Your AI check-up: what happens next</p>
+    <p>Dear Hannah,</p>
+    <p>Thank you for walking us through how new orders reach your team. We heard three places where the work slows down: orders typed in twice, customer questions answered one at a time, and a weekly report that takes most of a Friday.</p>
+    <p>The AI check-up looks at each of them. Over <span class="ph">[two weeks]</span>, we will map how the work runs today, find where AI or simpler automation could save your team time or money, and tell you plainly where it would not.</p>
+    <p>You will get a short written plan: what we would build first, what changes for your team, and a fixed quote that lists everything we would charge. The check-up itself is <span class="ph">[PRICE]</span>. Nothing else is charged without a quote you have approved.</p>
+    <p>Your data stays in your systems wherever possible. We work through the access you give us, a person on our team reviews every piece of work before it reaches you, and you will see progress every week.</p>
+    <p>We will send the plan by Friday 20 November. If anything changes on your side before then, reply to this letter or call me on +1&nbsp;202&nbsp;555&nbsp;0147.</p>
+    <p class="sign">Kind regards,<br><br><strong>Isabel Navarro</strong><br>Partner success lead</p>
+
+    <footer class="foot">
+      <span><strong>Alliance AI Partners</strong> · <span class="ph">[Registered address]</span> · <span class="ph">[Company number]</span></span>
+      <span>Partners in AI. Partners in growth.</span>
+    </footer>
+  </article>
+</body>
+</html>
