@@ -94,7 +94,7 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 8. The security contact (the page shows the sample address security@allianceaipartners.example), the PGP key fingerprint, the response times and the testing scope on the Security disclosure page, plus a legal check of its safe harbor text.
 9. The legal text of the Privacy page, and of the Terms, Cookies and Accessibility pages that share its template. A lawyer should write or review it.
 10. The registered address and company number (`[Registered address]`, `[Company number]`), in the footer and on the legal pages.
-11. The date of the Clutch SEO retainer figure (an average of US$3,199 a month), used on the Grow and Pricing pages. The Brand DNA gives it without a date, so Grow shows `[date to confirm]`.
+11. The date of the Clutch SEO retainer figure (an average of US$3,199 a month), used on the Grow and Pricing pages and in the sample Insights article. The Brand DNA gives it without a date, so those pages show `[date to confirm]`.
 12. That an agency keeps its own client relationship (For agencies page: "The client relationship stays yours"). It follows from the Brand DNA's white-label line but isn't written there.
 13. The Australia page's headline, the Brand DNA tagline "Two hours behind Sydney. Nowhere near Sydney prices." The Brand DNA approves it for web, design and SEO work, but the page also sells AI development, where the Brand DNA says there is no price gap with Australia. Confirm that real A$ prices back it, and check it against ACCC rules.
 14. What the For agencies page should answer to "Will my clients know you're involved?" Any answer is a new promise, and data rules may require telling a client when we process its personal data. Fill in the NDA and confidentiality terms there too (`[NDA terms: …]`, `[Confidentiality terms: …]`).
@@ -113,6 +113,7 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 27. For Brand and press: the brand guide PDF and press photos, which don't exist yet; the press reply time `[one working day]`; and a real press address in place of the sample press@allianceaipartners.example.
 28. For the digital business card: the LinkedIn profile (`[profile]`), the contact-card and booking links, and a real QR code once the domain exists.
 29. The four case-study rules on the Case studies page (real partners only, their own numbers, a source and a date for every result, and nothing published before the partner approves every word, figure and quote), as policy.
+30. The claim that Alliance AI Partners costs less than other AI firms, as the sample article ("Two things let Alliance AI Partners charge less than most AI firms."), the Pricing page ("Two reasons we cost less.") and Why the Philippines put it. It is Brand DNA wording, but the Brand DNA's own rules say a price comparison must be backed in all three markets before it is published.
 
 Every figure on the site carries a source key and a dated source line, from the sources the Brand DNA lists. Recheck them before launch, because prices and statistics change.
 
@@ -125,3 +126,5 @@ Every figure on the site carries a source key and a dated source line, from the 
 - Text over an image sits on a Partner Navy scrim that holds at least 82 % under every line (`design-system/imagery/image-overlays.css`), so it passes AA whatever the image.
 - Keep `/case-studies` out of the main navigation and footer until the first approved case study exists.
 - Job rows and Download rows have no mobile variant in Figma; on mobile their text wraps under the title. In code, stack the link under the text below the `md` breakpoint.
+- The footer is the site map: Services, Company (including Why the Philippines and Insights), Who we work with (the three country pages and For agencies) and Trust (including Subprocessors and Security).
+- Site copy uses American spelling, as the Brand DNA does (color, canceling, harbor). Design notes in the page records follow DESIGN.md's British spelling.

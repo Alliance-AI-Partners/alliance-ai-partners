@@ -239,14 +239,14 @@
    "images": [
     {
      "imageId": "IMG-07-2",
-     "slotName": "IMG-07-2 · Monthly report",
+     "slotName": "IMG-07-2 · Welcome email",
      "kind": "existing",
-     "source": "brand-kit/emails/previews/monthly-report-desktop.png (mobile: brand-kit/emails/previews/monthly-report-mobile.png)",
+     "source": "brand-kit/emails/previews/welcome-desktop.png",
      "aspectDesktop": "600x600 framed, top of the email",
      "aspectMobile": "358x440 framed",
      "placement": "inset framed product visual, left of the text on desktop; under the rows on mobile",
-     "textArea": "none (caption below: 'Sample monthly report from our email templates.')",
-     "alt": "Sample monthly report email: what shipped this month, AI usage at cost and the plan for next month."
+     "textArea": "none (caption below: 'Sample welcome email from our email templates.')",
+     "alt": "Sample welcome email: your team starts on Monday, and you will see progress by Friday."
     }
    ]
   },
@@ -370,7 +370,7 @@
      },
      {
       "q": "Can we stop?",
-      "a": "Yes. Monthly plans can be cancelled with [30] days’ notice."
+      "a": "Yes. Monthly plans can be canceled with [30] days’ notice."
      }
     ],
     "ctas": [
@@ -426,17 +426,17 @@
    "images": [
     {
      "imageId": "IMG-07-3",
-     "slotName": "IMG-07-3 · Faceted leaves",
-     "kind": "existing",
-     "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+     "slotName": "IMG-07-3 · One swallow joins the flock",
+     "kind": "new",
+     "source": "Editorial illustration for a dark Partner Navy band. In the left third, a small flock of four swallows built from flat faceted paper planes in navy and blue shades flies in a loose, steady line toward the upper right. A fifth swallow, its facets catching Ribbon Cyan light from the upper left, glides in from the lower left edge and takes its place in the line: one new developer joining a team that is already moving. A faint satin ribbon in a gradient from Alliance Blue to Ribbon Cyan traces the flock's path. The right half and the top third are calm, almost plain deep navy, for white text. Wide landscape, about 21:9 (1440x600); keep the flock in the left third and lower half, so a tall mobile crop positioned on the left still shows the joining swallow. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
      "aspectDesktop": "1440x600 full bleed",
      "aspectMobile": "390x680, crop to the darkest navy area",
      "placement": "background with a Partner Navy scrim from the right edge (desktop) or from the top (mobile)",
      "textArea": "right side, white text (desktop); top, white text (mobile)",
-     "alt": ""
+     "alt": "A fifth faceted swallow joins a small flock in flight."
     }
    ]
   }
  ],
- "notes": "Frames were started by an earlier builder copy (stopped) and completed and checked in this session: desktop was complete; mobile was finished from 'A normal week' to the footer, copying the desktop's step texts and FAQ answers. Fixes made here: Source keys switched to Size=MD (12px) so no text is under 12px; the 'What if it isn’t working out?' answer reworded on both frames; the Alliance AI Partners table column tint rebuilt as Ribbon Cyan at 10% paint opacity (it was a solid cyan fill at 10% layer opacity). The ribbon signature is used once (Steps in 'Getting started'). One Primary per screenful (desktop y 631 and 6174; mobile y 429 and 8513). [PRICE], [30] and [two weeks] stay as placeholders; every figure has a dated source in its section. Lint: no findings on either frame. Lead review 2026-11-03: removed promises the Brand DNA does not make (holiday and sick cover, a replacement developer, a laptop, licences and a workspace, a senior engineer behind them); Figma is the final copy where it differs from this spec. Review 2026-11-03: the closed FAQ items still held the removed promises in their Answer property (a laptop, software licences, a workspace, cover when they’re away, a replacement developer); set to the answers above on both frames. Step 2 softened from 'Meet the shortlist' (we recruit and test candidates, you interview and choose) to what the Brand DNA supports (we recruit, you don’t pay for it), and the closing lead no longer promises a shortlist to interview: the owner confirms the hiring process before either comes back. Step 4 now lands on the first commit instead of repeating the section above; 'A normal week' no longer promises a monthly check-in (the lead removed it from the steps). Mobile price card split so [PRICE] sits on one line; mobile ONS source restored to the full working; 'ask us directly' linked to Contact; 'Read all the questions' goes to /faq."
+ "notes": "Frames were started by an earlier builder copy (stopped) and completed and checked in this session: desktop was complete; mobile was finished from 'A normal week' to the footer, copying the desktop's step texts and FAQ answers. Fixes made here: Source keys switched to Size=MD (12px) so no text is under 12px; the 'What if it isn’t working out?' answer reworded on both frames; the Alliance AI Partners table column tint rebuilt as Ribbon Cyan at 10% paint opacity (it was a solid cyan fill at 10% layer opacity). The ribbon signature is used once (Steps in 'Getting started'). One Primary per screenful (desktop y 631 and 6174; mobile y 429 and 8513). [PRICE], [30] and [two weeks] stay as placeholders; every figure has a dated source in its section. Lint: no findings on either frame. Lead review 2026-11-03: removed promises the Brand DNA does not make (holiday and sick cover, a replacement developer, a laptop, licences and a workspace, a senior engineer behind them); Figma is the final copy where it differs from this spec. Review 2026-11-03: the closed FAQ items still held the removed promises in their Answer property (a laptop, software licences, a workspace, cover when they’re away, a replacement developer); set to the answers above on both frames. Step 2 softened from 'Meet the shortlist' (we recruit and test candidates, you interview and choose) to what the Brand DNA supports (we recruit, you don’t pay for it), and the closing lead no longer promises a shortlist to interview: the owner confirms the hiring process before either comes back. Step 4 now lands on the first commit instead of repeating the section above; 'A normal week' no longer promises a monthly check-in (the lead removed it from the steps). Mobile price card split so [PRICE] sits on one line; mobile ONS source restored to the full working; 'ask us directly' linked to Contact; 'Read all the questions' goes to /faq. Lead image pass 2026-11-03: section-specific images replace backgrounds that repeated across pages."
 }

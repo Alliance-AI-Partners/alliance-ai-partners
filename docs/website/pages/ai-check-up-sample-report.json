@@ -291,21 +291,21 @@
    "images": [
     {
      "imageId": "IMG-34-2",
-     "slotName": "IMG-34-2 · Faceted leaves",
-     "kind": "existing",
+     "slotName": "IMG-34-2 · A report, ready to open",
+     "kind": "new",
      "figma": {
       "desktop": "45:1274",
       "mobile": "46:2123"
      },
-     "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+     "source": "Editorial illustration on a deep Partner Navy ground. In the lower left, a closed booklet folded from flat faceted paper, its blank cover in pale Daylight and soft navy shades with no marks at all, lies at a slight angle. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is tied around it and is just coming undone, its loose end curving up and away to the right: a finished report, ready to open. A soft navy-tinted shadow falls beneath the booklet. The right half and the top third are calm, plain deep navy for white text. Landscape, about 16:9 (1440x800); keep the booklet in the left third so a tall mobile crop positioned on the left still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
      "aspectDesktop": "1440x800 full bleed",
      "aspectMobile": "390x828 full bleed",
      "placement": "background with a navy scrim from the reading edge (right on desktop, top on mobile)",
      "textArea": "right side, white text (desktop); top (mobile)",
-     "alt": ""
+     "alt": "A blank faceted booklet tied with a ribbon that is coming undone."
     }
    ]
   }
  ],
- "notes": "Clearly a SAMPLE: the Info alert opens the page, the fictional partner is [Partner name], and every finding uses a bracketed placeholder ([hours a week], [hours a month], [number], [city], [four weeks], [six weeks], [a few times a month], [date], [Month year]), so nothing reads as a real result. The table's highlighted row is the recommended first fix (10% Ribbon Cyan tint, re-applied after its content was built and verified at 0.1). One Primary (the closing band); the ribbon signature once (the cover rule). Header CTA stays the Secondary outline and no nav item is marked current. faceted-leaves.webp is used twice across this page group (here and on page 02), the allowed maximum. Both frames pass the lint (node 37:851) with no findings. Review 2026-11-03 (outside reviewer): step 03 now says 'The check-up is from [PRICE]' so the price can't be read as the first fix's; the quote lead no longer repeats 'Changes are quoted before we do them' (it stays in the price terms); three headings were set on balanced lines. Both frames re-lint with no findings."
+ "notes": "Clearly a SAMPLE: the Info alert opens the page, the fictional partner is [Partner name], and every finding uses a bracketed placeholder ([hours a week], [hours a month], [number], [city], [four weeks], [six weeks], [a few times a month], [date], [Month year]), so nothing reads as a real result. The table's highlighted row is the recommended first fix (10% Ribbon Cyan tint, re-applied after its content was built and verified at 0.1). One Primary (the closing band); the ribbon signature once (the cover rule). Header CTA stays the Secondary outline and no nav item is marked current. faceted-leaves.webp is used twice across this page group (here and on page 02), the allowed maximum. Both frames pass the lint (node 37:851) with no findings. Review 2026-11-03 (outside reviewer): step 03 now says 'The check-up is from [PRICE]' so the price can't be read as the first fix's; the quote lead no longer repeats 'Changes are quoted before we do them' (it stays in the price terms); three headings were set on balanced lines. Both frames re-lint with no findings. Lead image pass 2026-11-03: section-specific images replace backgrounds that repeated across pages."
 }

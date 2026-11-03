@@ -34,7 +34,7 @@
     "lead": "AI answers calls, sends appointment reminders, collects intake forms before the visit and drafts notes for the doctor to check. Clinical decisions stay with your clinicians.",
     "accentWord": "patients.",
     "body": [
-     "Every healthcare project starts with a privacy and compliance review."
+     "Built and run by our team in the Philippines, alongside your clinic team."
     ],
     "ctas": [
      {
@@ -53,7 +53,7 @@
     "Header",
     "Button",
     "Link",
-    "Icon/lock",
+    "Icon/globe",
     "Image slot"
    ],
    "images": [
@@ -88,7 +88,7 @@
     "items": [
      {
       "title": "A phone that doesn’t stop",
-      "text": "Booking, moving and cancelling appointments by phone pulls your front desk away from the patients in front of them."
+      "text": "Booking, moving and canceling appointments by phone pulls your front desk away from the patients in front of them."
      },
      {
       "title": "Reminders by hand",
@@ -241,7 +241,7 @@
    "ground": "daylight",
    "layout": "list-rows",
    "job": "List the services that work alongside the package, with published starting prices where they exist and a fixed quote otherwise.",
-   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service.",
+   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service. Review 2026-11-03: the desktop list is a 2 x 3 grid (three row pairs, the shorter row of each pair stretched, content top-aligned), so titles, prices and hairlines line up across the columns; each row keeps a 24 px gap between the description and the price (the Service row component itself still packs them with space-between and no gap).",
    "mobile": "Head; the six Service rows (Mobile variant) in one column; link.",
    "content": {
     "heading": "Add more when you’re ready.",
@@ -311,7 +311,7 @@
    "content": {
     "heading": "Patient privacy comes first.",
     "lead": "Every healthcare project starts with a privacy and compliance review, because health data has stricter rules.",
-    "accentWord": "first.",
+    "accentWord": "privacy",
     "items": [
      {
       "title": "Patient data stays where you decide",
@@ -414,5 +414,5 @@
    ]
   }
  ],
- "notes": "Built from the shared industry template. Privacy wording is careful and makes no medical claims: the page promises only the Brand DNA package (AI receptionists, appointment reminders, patient intake, note-taking during visits), says every healthcare project starts with a privacy and compliance review, that clinical decisions stay with the clinicians, that the tools give no medical advice and that visit notes wait for the doctor’s approval. No compliance certification or law other than the sourced Philippine Data Privacy Act is named. Owner check: how patients are told before AI takes notes during a visit, and which health-privacy rules the review covers in each market. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
+ "notes": "Built from the shared industry template. Privacy wording is careful and makes no medical claims: the page promises only the Brand DNA package (AI receptionists, appointment reminders, patient intake, note-taking during visits), says every healthcare project starts with a privacy and compliance review, that clinical decisions stay with the clinicians, that the tools give no medical advice and that visit notes wait for the doctor’s approval. No compliance certification or law other than the sourced Philippine Data Privacy Act is named. Owner check: how patients are told before AI takes notes during a visit, and which health-privacy rules the review covers in each market. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build. Review 2026-11-03 (reviewer): the hero meta no longer repeats the data lead word for word and now names the Philippines base (globe icon); the data headline accent moved from “first.” to “privacy” so “first.” is accented once on the page (closing CTA); services list regrouped into an aligned grid. Medical-claims check passed: only the Brand DNA package, no medical advice, clinicians decide, no certification and no law beyond the sourced Data Privacy Act. Every frame lint-clean afterwards."
 }

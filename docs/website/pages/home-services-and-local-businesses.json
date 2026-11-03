@@ -99,7 +99,7 @@
       "text": "Finding a time that suits the customer and your calendar takes several calls or texts."
      },
      {
-      "title": "Enquiries after hours",
+      "title": "Inquiries after hours",
       "text": "Calls and messages that come in after you finish wait until the next morning."
      }
     ]
@@ -131,7 +131,7 @@
      },
      {
       "title": "Messages for your team",
-      "text": "When a caller needs a person, it takes a clear message and passes it straight to you.",
+      "text": "Part of call answering. When a caller needs a person, it takes a clear message and passes it straight to you.",
       "icon": "Service icon/Mono/partnership"
      }
     ]
@@ -230,7 +230,7 @@
    "ground": "daylight",
    "layout": "list-rows",
    "job": "List the services that work alongside the package, with published starting prices where they exist and a fixed quote otherwise.",
-   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service.",
+   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service. Review 2026-11-03: the desktop list is a 2 x 3 grid (three row pairs, the shorter row of each pair stretched, content top-aligned), so titles, prices and hairlines line up across the columns; each row keeps a 24 px gap between the description and the price (the Service row component itself still packs them with space-between and no gap).",
    "mobile": "Head; the six Service rows (Mobile variant) in one column; link.",
    "content": {
     "heading": "Add more when you’re ready.",
@@ -403,5 +403,5 @@
    ]
   }
  ],
- "notes": "Built from the shared industry template. The Brand DNA package is \"Call answering and job booking\"; the third card (messages for your team) is part of the Brand DNA AI voice agents service (\"takes messages\"), not a new package item. The sample call names no times beyond \"after you’ve finished for the day\" and no results. No promise that every call is answered. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
+ "notes": "Built from the shared industry template. The Brand DNA package is \"Call answering and job booking\"; the third card (messages for your team) is part of the Brand DNA AI voice agents service (\"takes messages\"), not a new package item. The sample call names no times beyond \"after you’ve finished for the day\" and no results. No promise that every call is answered. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build. Review 2026-11-03 (reviewer): the third package card now says it is part of call answering, so the package still reads as the two Brand DNA items; services list regrouped into an aligned grid. Every frame lint-clean afterwards."
 }

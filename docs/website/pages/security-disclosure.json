@@ -1,207 +1,207 @@
 {
-  "slug": "security-disclosure",
-  "figmaPage": "39 · Security disclosure",
-  "phase": "Later",
-  "route": "/security",
-  "purpose": "Tell a security researcher, in one screen, where to send a vulnerability, what to include and what Alliance AI Partners promises in return, with the legal safe harbour held as a placeholder for review.",
-  "primaryAction": {
-    "label": "Email the security team",
-    "target": "mailto:security@allianceaipartners.example"
+ "slug": "security-disclosure",
+ "figmaPage": "39 · Security disclosure",
+ "phase": "Later",
+ "route": "/security",
+ "purpose": "Tell a security researcher, in one screen, where to send a vulnerability, what to include and what Alliance AI Partners promises in return, with the legal safe harbour held as a placeholder for review.",
+ "primaryAction": {
+  "label": "Email the security team",
+  "target": "mailto:security@allianceaipartners.example"
+ },
+ "seo": {
+  "title": "Report a security problem | Alliance AI Partners",
+  "description": "How to report a security vulnerability to Alliance AI Partners: what's in scope, how to reach us, what to include and what we promise in return."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "43:3770",
+  "mobile": "43:4245"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Section · Hero",
+   "layout": "hero-text-led",
+   "ground": "daylight",
+   "job": "Give the security address and the response promise at once, with the page's one Primary.",
+   "desktop": "Text 652 left (Heading/1 title, since this is a simple page; Body/LG lead at 600; Primary LG; mono meta). Right: a raised contact card with the security-governance service icon and three label/value rows in mono.",
+   "mobile": "Title, lead, full-width Primary, meta; the contact card follows at full width with label above value.",
+   "content": {
+    "heading": "Found a security problem? Tell us.",
+    "lead": "If you find a weakness in our website or services, email our security team. We'll acknowledge your report within [two working days] and keep you posted until it's fixed.",
+    "body": [
+     "Last updated [date]"
+    ],
+    "items": [
+     {
+      "title": "Email",
+      "text": "security@allianceaipartners.example (sample address)"
+     },
+     {
+      "title": "Encrypt your report",
+      "text": "PGP key [fingerprint to come]"
+     },
+     {
+      "title": "First reply",
+      "text": "Within [two working days]"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Email the security team",
+      "variant": "primary",
+      "target": "mailto:security@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button (Primary)",
+    "Card",
+    "Service icon/security-governance (Mono)"
+   ],
+   "images": []
   },
-  "seo": {
-    "title": "Report a security problem | Alliance AI Partners",
-    "description": "How to report a security vulnerability to Alliance AI Partners: what's in scope, how to reach us, what to include and what we promise in return."
+  {
+   "id": "scope",
+   "name": "Section · Scope",
+   "layout": "list-rows",
+   "ground": "daylight",
+   "job": "Say what may be tested and what may not.",
+   "desktop": "Asymmetric section head, then two equal hairline lists side by side: In scope (check-circle icons) and Out of scope (x-circle icons).",
+   "mobile": "Head, then the two lists stacked, In scope first.",
+   "content": {
+    "heading": "What you may test.",
+    "lead": "Test only what's listed here. If you're not sure whether something counts, ask us first.",
+    "items": [
+     {
+      "title": "In scope",
+      "text": "Our website, allianceaipartners.example, and its subdomains · Forms that collect information, such as the AI check-up booking · [Other services, listed before launch]"
+     },
+     {
+      "title": "Out of scope",
+      "text": "Systems we build or run for partners (tell us, and we'll pass your report on) · Denial of service, spam, or tricking our team into giving access · Physical access to any office or device · Automated scan results without a working example"
+     }
+    ]
+   },
+   "components": [
+    "Icon/check-circle",
+    "Icon/x-circle"
+   ],
+   "images": []
   },
-  "states": [
-    "default"
-  ],
-  "frames": {
-    "desktop": "43:3770",
-    "mobile": "43:4245"
+  {
+   "id": "report",
+   "name": "Section · How to report",
+   "layout": "bento",
+   "ground": "navy",
+   "job": "Explain how to contact us and what a useful report contains.",
+   "desktop": "Navy chapter. Asymmetric head (Heading/1 with one cyan accent | Body/LG lead with the email as a cyan underlined link), then a 2x2 grid of numbered cells with hairline tops (cyan mono numbers, Heading/4, Body), then a hairline foot with the encryption note in mono and a Secondary button.",
+   "mobile": "Head stacked, the four items as hairline rows, the encryption note, then a full-width Secondary button.",
+   "content": {
+    "heading": "Tell us what you found, and how.",
+    "accentWord": "how.",
+    "lead": "Email security@allianceaipartners.example, one problem per email. The easier it is to reproduce, the sooner we fix it.",
+    "items": [
+     {
+      "title": "What you found, and where",
+      "text": "The page, address or system, and what the weakness lets someone do."
+     },
+     {
+      "title": "How to reproduce it",
+      "text": "The steps, requests or code you used. Screenshots or a short video help."
+     },
+     {
+      "title": "What data you could see",
+      "text": "If you saw anyone's personal data, tell us what kind, and don't keep a copy."
+     },
+     {
+      "title": "How to reach you",
+      "text": "A name or handle and an email, if you'd like us to reply."
+     }
+    ],
+    "body": [
+     "Want to encrypt it? Use our public key: [PGP key fingerprint]."
+    ],
+    "ctas": [
+     {
+      "label": "Email your report",
+      "variant": "secondary",
+      "target": "mailto:security@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Button (Secondary)",
+    "Link"
+   ],
+   "images": []
   },
-  "sections": [
-    {
-      "id": "hero",
-      "name": "Section · Hero",
-      "layout": "hero-text-led",
-      "ground": "daylight",
-      "job": "Give the security address and the response promise at once, with the page's one Primary.",
-      "desktop": "Text 652 left (Heading/1 title, since this is a simple page; Body/LG lead at 600; Primary LG; mono meta). Right: a raised contact card with the security-governance service icon and three label/value rows in mono.",
-      "mobile": "Title, lead, full-width Primary, meta; the contact card follows at full width with label above value.",
-      "content": {
-        "heading": "Found a security problem? Tell us.",
-        "lead": "If you find a weakness in our website or services, email our security team. We'll acknowledge your report within [two working days] and keep you posted until it's fixed.",
-        "body": [
-          "Last updated [date]"
-        ],
-        "items": [
-          {
-            "title": "Email",
-            "text": "security@allianceaipartners.example (sample address)"
-          },
-          {
-            "title": "Encrypt your report",
-            "text": "PGP key [fingerprint to come]"
-          },
-          {
-            "title": "First reply",
-            "text": "Within [two working days]"
-          }
-        ],
-        "ctas": [
-          {
-            "label": "Email the security team",
-            "variant": "primary",
-            "target": "mailto:security@allianceaipartners.example"
-          }
-        ]
-      },
-      "components": [
-        "Header",
-        "Button (Primary)",
-        "Card",
-        "Service icon/security-governance (Mono)"
-      ],
-      "images": []
-    },
-    {
-      "id": "scope",
-      "name": "Section · Scope",
-      "layout": "list-rows",
-      "ground": "daylight",
-      "job": "Say what may be tested and what may not.",
-      "desktop": "Asymmetric section head, then two equal hairline lists side by side: In scope (check-circle icons) and Out of scope (x-circle icons).",
-      "mobile": "Head, then the two lists stacked, In scope first.",
-      "content": {
-        "heading": "What you may test.",
-        "lead": "Test only what's listed here. If you're not sure whether something counts, ask us first.",
-        "items": [
-          {
-            "title": "In scope",
-            "text": "Our website, allianceaipartners.example, and its subdomains · Forms that collect information, such as the AI check-up booking · [Other services, listed before launch]"
-          },
-          {
-            "title": "Out of scope",
-            "text": "Systems we build or run for partners (tell us, and we'll pass your report on) · Denial of service, spam, or tricking our team into giving access · Physical access to any office or device · Automated scan results without a working example"
-          }
-        ]
-      },
-      "components": [
-        "Icon/check-circle",
-        "Icon/x-circle"
-      ],
-      "images": []
-    },
-    {
-      "id": "report",
-      "name": "Section · How to report",
-      "layout": "bento",
-      "ground": "navy",
-      "job": "Explain how to contact us and what a useful report contains.",
-      "desktop": "Navy chapter. Asymmetric head (Heading/1 with one cyan accent | Body/LG lead with the email as a cyan underlined link), then a 2x2 grid of numbered cells with hairline tops (cyan mono numbers, Heading/4, Body), then a hairline foot with the encryption note in mono and a Secondary button.",
-      "mobile": "Head stacked, the four items as hairline rows, the encryption note, then a full-width Secondary button.",
-      "content": {
-        "heading": "Tell us what you found, and how.",
-        "accentWord": "how.",
-        "lead": "Email security@allianceaipartners.example, one problem per email. The easier it is to reproduce, the sooner we fix it.",
-        "items": [
-          {
-            "title": "What you found, and where",
-            "text": "The page, address or system, and what the weakness lets someone do."
-          },
-          {
-            "title": "How to reproduce it",
-            "text": "The steps, requests or code you used. Screenshots or a short video help."
-          },
-          {
-            "title": "What data you could see",
-            "text": "If you saw anyone's personal data, tell us what kind, and don't keep a copy."
-          },
-          {
-            "title": "How to reach you",
-            "text": "A name or handle and an email, if you'd like us to reply."
-          }
-        ],
-        "body": [
-          "Want to encrypt it? Use our public key: [PGP key fingerprint]."
-        ],
-        "ctas": [
-          {
-            "label": "Email your report",
-            "variant": "secondary",
-            "target": "mailto:security@allianceaipartners.example"
-          }
-        ]
-      },
-      "components": [
-        "Button (Secondary)",
-        "Link"
-      ],
-      "images": []
-    },
-    {
-      "id": "promise",
-      "name": "Section · What we promise",
-      "layout": "steps",
-      "ground": "daylight",
-      "job": "Set out what happens after a report, with the response time as a placeholder.",
-      "desktop": "Section head, then a full-width Ribbon rule (the page's one ribbon signature) with four columns hanging from it: mono time, Heading/4, Body/SM.",
-      "mobile": "Head, the rule at 358, then the four steps stacked.",
-      "content": {
-        "heading": "What we promise in return.",
-        "lead": "A person keeps you updated, from the day you report to the day it's fixed.",
-        "items": [
-          {
-            "meta": "Within [two working days]",
-            "title": "We confirm we have it.",
-            "text": "A person on our team replies to say your report arrived."
-          },
-          {
-            "meta": "Within [time to assess]",
-            "title": "We tell you what we found.",
-            "text": "Whether we could reproduce it, how serious we think it is, and what we plan to do."
-          },
-          {
-            "meta": "While we fix it",
-            "title": "We keep you posted.",
-            "text": "We tell you how the fix is going, and ask if we need more detail."
-          },
-          {
-            "meta": "When it's fixed",
-            "title": "We agree on disclosure.",
-            "text": "We tell you it's fixed and agree with you when the details can be made public."
-          }
-        ]
-      },
-      "components": [
-        "Ribbon rule"
-      ],
-      "images": []
-    },
-    {
-      "id": "safe-harbour",
-      "name": "Section · Safe harbour",
-      "layout": "text-column",
-      "ground": "daylight",
-      "job": "Hold the place for the safe harbour wording, clearly marked for legal review.",
-      "desktop": "Left 572: Heading/2 and lead. Right: a Warning alert, a Neutral 50 well with the bracketed legal placeholders, and a contact line.",
-      "mobile": "Title, lead, alert, well, contact line.",
-      "content": {
-        "heading": "Safe harbour",
-        "lead": "Here is how we treat people who research and report in good faith.",
-        "body": [
-          "Alert (Warning): Placeholder for legal review. The safe harbour wording below must be written and approved by a lawyer before this page goes live.",
-          "[Legal text to come: our safe harbour promise for people who research and report in good faith and follow this policy.]",
-          "[Legal text to come: what good faith means here, and what falls outside this policy.]",
-          "Questions about this policy? Email security@allianceaipartners.example."
-        ]
-      },
-      "components": [
-        "Alert (Warning)",
-        "Footer"
-      ],
-      "images": []
-    }
-  ],
-  "notes": "Simple page: Heading/1 instead of Display/XL, no image slots, the Ribbon rule used once as the timeline axis. Linked from Data and security (the hero link and the security strip), so no nav item is current. The footer's Trust column doesn't list it yet (checked 2026-11-03): adding a Security link there is a Footer component change. security@allianceaipartners.example is a sample address on the .example domain, like every contact on the site. [two working days], [time to assess], the PGP fingerprint and the safe harbour wording are placeholders to fill before launch; the safe harbour needs legal review. Review 2026-11-03: the scope heading is now 'What you may test.' (it sat right above an 'In scope' column heading and didn't cover the out-of-scope list); the report lead drops its double 'can'; the safe harbour lead is now publishable copy, and the lawyer note lives only in the Warning alert (it was said twice). Lint clean on both frames."
+  {
+   "id": "promise",
+   "name": "Section · What we promise",
+   "layout": "steps",
+   "ground": "daylight",
+   "job": "Set out what happens after a report, with the response time as a placeholder.",
+   "desktop": "Section head, then a full-width Ribbon rule (the page's one ribbon signature) with four columns hanging from it: mono time, Heading/4, Body/SM.",
+   "mobile": "Head, the rule at 358, then the four steps stacked.",
+   "content": {
+    "heading": "What we promise in return.",
+    "lead": "A person keeps you updated, from the day you report to the day it's fixed.",
+    "items": [
+     {
+      "meta": "Within [two working days]",
+      "title": "We confirm we have it.",
+      "text": "A person on our team replies to say your report arrived."
+     },
+     {
+      "meta": "Within [time to assess]",
+      "title": "We tell you what we found.",
+      "text": "Whether we could reproduce it, how serious we think it is, and what we plan to do."
+     },
+     {
+      "meta": "While we fix it",
+      "title": "We keep you posted.",
+      "text": "We tell you how the fix is going, and ask if we need more detail."
+     },
+     {
+      "meta": "When it's fixed",
+      "title": "We agree on disclosure.",
+      "text": "We tell you it's fixed and agree with you when the details can be made public."
+     }
+    ]
+   },
+   "components": [
+    "Ribbon rule"
+   ],
+   "images": []
+  },
+  {
+   "id": "safe-harbour",
+   "name": "Section · Safe harbour",
+   "layout": "text-column",
+   "ground": "daylight",
+   "job": "Hold the place for the safe harbour wording, clearly marked for legal review.",
+   "desktop": "Left 572: Heading/2 and lead. Right: a Warning alert, a Neutral 50 well with the bracketed legal placeholders, and a contact line.",
+   "mobile": "Title, lead, alert, well, contact line.",
+   "content": {
+    "heading": "Safe harbor",
+    "lead": "Here is how we treat people who research and report in good faith.",
+    "body": [
+     "Alert (Warning): Placeholder for legal review. The safe harbor wording below must be written and approved by a lawyer before this page goes live.",
+     "[Legal text to come: our safe harbor promise for people who research and report in good faith and follow this policy.]",
+     "[Legal text to come: what good faith means here, and what falls outside this policy.]",
+     "Questions about this policy? Email security@allianceaipartners.example."
+    ]
+   },
+   "components": [
+    "Alert (Warning)",
+    "Footer"
+   ],
+   "images": []
+  }
+ ],
+ "notes": "Simple page: Heading/1 instead of Display/XL, no image slots, the Ribbon rule used once as the timeline axis. Linked from Data and security (the hero link and the security strip), so no nav item is current. The footer's Trust column doesn't list it yet (checked 2026-11-03): adding a Security link there is a Footer component change. security@allianceaipartners.example is a sample address on the .example domain, like every contact on the site. [two working days], [time to assess], the PGP fingerprint and the safe harbour wording are placeholders to fill before launch; the safe harbour needs legal review. Review 2026-11-03: the scope heading is now 'What you may test.' (it sat right above an 'In scope' column heading and didn't cover the out-of-scope list); the report lead drops its double 'can'; the safe harbour lead is now publishable copy, and the lawyer note lives only in the Warning alert (it was said twice). Lint clean on both frames."
 }

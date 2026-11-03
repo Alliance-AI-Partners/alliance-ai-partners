@@ -397,17 +397,17 @@
    "images": [
     {
      "imageId": "IMG-08-3",
-     "slotName": "IMG-08-3 · Ribbon river",
-     "kind": "existing",
-     "source": "design-system/imagery/backgrounds/ribbon-river.webp",
+     "slotName": "IMG-08-3 · One slow loop pulled straight",
+     "kind": "new",
+     "source": "Editorial illustration for a dark Partner Navy band. A wide landscape of low faceted paper hills in navy shades. Through it runs one satin ribbon stream: at the left it winds in tight, slow loops in muted slate blue; at one point near the centre a loop has been pulled straight, and from there the ribbon runs smooth and wide in a gradient from Alliance Blue to Ribbon Cyan to the right edge: one slow process, made fast. The top third is calm, plain deep navy for white text; the ribbon and the hills sit in the lower two thirds. Wide landscape, about 21:9 (1440x640); keep the straightened loop near the centre so a tall mobile crop from the centre still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
      "aspectDesktop": "1440x640 full bleed",
      "aspectMobile": "390x700, crop centred on the river",
      "placement": "background with a Partner Navy scrim from the top",
      "textArea": "top third, white text",
-     "alt": ""
+     "alt": "A looping ribbon stream with one loop pulled straight into a smooth run."
     }
    ]
   }
  ],
- "notes": "Ribbon signature used once (Steps in 'How a project runs'). One Primary per screenful (hero at y 610, closing band at y 5662 on desktop; 429 and 7696 on mobile). The before/after visual is a sample and says so. No figures other than placeholders, so the page needs no source list. Lint: no findings on either frame. Review 2026-11-03: two closed FAQ answers went beyond the Brand DNA ('with the provider’s usage report attached'; 'We ask only for the access the work needs'); the data answer now points to the data and security page, as Brand DNA section 6 asks. The Pricing lead repeated step 2 of 'How a project runs' word for word, and the proposal caption repeated the price line; both rewritten. Price numeral to its line: 8 px. 'Read all the questions' goes to /faq."
+ "notes": "Ribbon signature used once (Steps in 'How a project runs'). One Primary per screenful (hero at y 610, closing band at y 5662 on desktop; 429 and 7696 on mobile). The before/after visual is a sample and says so. No figures other than placeholders, so the page needs no source list. Lint: no findings on either frame. Review 2026-11-03: two closed FAQ answers went beyond the Brand DNA ('with the provider’s usage report attached'; 'We ask only for the access the work needs'); the data answer now points to the data and security page, as Brand DNA section 6 asks. The Pricing lead repeated step 2 of 'How a project runs' word for word, and the proposal caption repeated the price line; both rewritten. Price numeral to its line: 8 px. 'Read all the questions' goes to /faq. Lead image pass 2026-11-03: section-specific images replace backgrounds that repeated across pages."
 }

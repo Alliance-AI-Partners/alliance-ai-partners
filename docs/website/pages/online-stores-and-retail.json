@@ -34,7 +34,7 @@
     "lead": "We write content for your whole catalog, add a shopping assistant that helps people find the right product, and answer questions at any hour. Harder cases go to your team.",
     "accentWord": "written.",
     "body": [
-     "A person checks every product description before it goes live."
+     "Built and run by our team in the Philippines, alongside your store team."
     ],
     "ctas": [
      {
@@ -53,7 +53,7 @@
     "Header",
     "Button",
     "Link",
-    "Icon/check-circle",
+    "Icon/globe",
     "Image slot"
    ],
    "images": [
@@ -177,9 +177,9 @@
    "desktop": "Whole Partner Navy chapter. Split: text column 520 (Heading/1 title with one cyan accent, Body/LG lead, cyan underlined link) | a Partner 30 panel drawn in Figma (raised shadow): a bar with the Sample tag and the panel title, then numbered steps in mono between hairlines, each with a Tag saying who does it. Steps where a person decides carry a 10% Ribbon Cyan tint.",
    "mobile": "Title, lead, the panel full width (each step: number | text with its Tag below), then the link.",
    "content": {
-    "heading": "AI answers first. Your team steps in.",
+    "heading": "AI answers first. You make it right.",
     "lead": "A sample of how one shopper’s questions move through the package. We map your real steps with your team before we build.",
-    "accentWord": "first.",
+    "accentWord": "right.",
     "items": [
      {
       "title": "01",
@@ -241,7 +241,7 @@
    "ground": "daylight",
    "layout": "list-rows",
    "job": "List the services that work alongside the package, with published starting prices where they exist and a fixed quote otherwise.",
-   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service.",
+   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service. Review 2026-11-03: the desktop list is a 2 x 3 grid (three row pairs, the shorter row of each pair stretched, content top-aligned), so titles, prices and hairlines line up across the columns; each row keeps a 24 px gap between the description and the price (the Service row component itself still packs them with space-between and no gap).",
    "mobile": "Head; the six Service rows (Mobile variant) in one column; link.",
    "content": {
     "heading": "Add more when you’re ready.",
@@ -414,5 +414,5 @@
    ]
   }
  ],
- "notes": "Built from the shared industry template. Package items are the Brand DNA online stores and retail list (product content, shopping assistants, recommendations, customer support); the related services reuse Brand DNA wording (Selling through AI assistants, Forecasting, Email marketing, AI search visibility). Content is checked by a person before it goes live (Brand DNA: written with AI and checked by people). No conversion, sales or traffic figures. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
+ "notes": "Built from the shared industry template. Package items are the Brand DNA online stores and retail list (product content, shopping assistants, recommendations, customer support); the related services reuse Brand DNA wording (Selling through AI assistants, Forecasting, Email marketing, AI search visibility). Content is checked by a person before it goes live (Brand DNA: written with AI and checked by people). No conversion, sales or traffic figures. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build. Review 2026-11-03 (reviewer): the hero meta now names the Philippines base (globe icon); “a person checks every description” stays in the package card and the data promise, where it was already said twice; the sample headline now ends “You make it right.” so its accent is no longer a second “first.” (the closing CTA keeps it); services list regrouped into an aligned grid. Every frame lint-clean afterwards."
 }

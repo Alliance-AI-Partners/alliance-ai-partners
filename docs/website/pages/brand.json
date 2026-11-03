@@ -10,7 +10,7 @@
  },
  "seo": {
   "title": "Brand and press | Alliance AI Partners",
-  "description": "Download the Alliance AI Partners logo kit, see how to use the logo, the colours and the type, copy the boilerplate and reach our press contact."
+  "description": "Download the Alliance AI Partners logo kit, see how to use the logo, the colors and the type, copy the boilerplate and reach our press contact."
  },
  "states": [
   "default"
@@ -31,7 +31,7 @@
    "content": {
     "heading": "The right logo, every time.",
     "accentWord": "time.",
-    "lead": "The press and brand kit for Alliance AI Partners: the logo kit, the colours and type, and our boilerplate.",
+    "lead": "The press and brand kit for Alliance AI Partners: the logo kit, the colors and type, and our boilerplate.",
     "body": [
      "SVG, PNG and ICO · ZIP · 920 KB"
     ],
@@ -63,7 +63,7 @@
      "aspectDesktop": "604x378 (16:10; the file is 3300x2065)",
      "aspectMobile": "358x224 (16:10)",
      "placement": "right half of the hero split, framed (radius 18); under the actions on mobile",
-     "alt": "The Alliance AI Partners brand board: the logo on navy, its clear space, the homepage, a voice line, the colours, the type, merchandise, imagery and the system.",
+     "alt": "The Alliance AI Partners brand board: the logo on navy, its clear space, the homepage, a voice line, the colors, the type, merchandise, imagery and the system.",
      "textArea": "none (text sits beside the image)"
     }
    ]
@@ -127,14 +127,14 @@
    "content": {
     "heading": "One logo, two grounds.",
     "accentWord": null,
-    "lead": "Use the full-colour logo on Daylight or white, and the dark version on Partner Navy. Both come as SVG and PNG in the logo kit.",
+    "lead": "Use the full-color logo on Daylight or white, and the dark version on Partner Navy. Both come as SVG and PNG in the logo kit.",
     "items": [
      {
-      "title": "Full colour, for Daylight and white",
+      "title": "Full color, for Daylight and white",
       "meta": "alliance-ai-partners-primary-horizontal-full-color-light.svg"
      },
      {
-      "title": "Full colour dark, for Partner Navy",
+      "title": "Full color dark, for Partner Navy",
       "meta": "alliance-ai-partners-primary-horizontal-full-color-dark.svg"
      },
      {
@@ -199,7 +199,7 @@
        "15 mm high"
       ],
       [
-       "Flat or one-colour mark",
+       "Flat or one-color mark",
        "32 px high",
        "20 mm high"
       ],
@@ -215,7 +215,7 @@
       "title": "Don’t rotate it."
      },
      {
-      "title": "Don’t change its colours."
+      "title": "Don’t change its colors."
      },
      {
       "title": "Don’t put the light logo on navy."
@@ -243,7 +243,7 @@
    "desktop": "Navy chapter (so every swatch, Ribbon Cyan included, sits on a ground where it is allowed). Heading/1 head; five swatches 248 wide (tile 248x200, radius 18; Partner Navy gets a hairline edge) with name (Heading/4), hex, RGB and CMYK in Data/Mono and the colour's job in Body/SM; the eight shading tones as chips with token name and hex in Data/Mono; the Daybreak bar with its rule; a Print Black note.",
    "mobile": "Head; each swatch becomes a row (72 px tile beside name and values); the shading chips as a 4 x 2 grid; the Daybreak bar full width.",
    "content": {
-    "heading": "Colours with a job each.",
+    "heading": "Colors with a job each.",
     "accentWord": null,
     "lead": "Daylight and Partner Navy are the grounds. Alliance Blue marks the one action that commits, and Ribbon Cyan is the ribbon’s light.",
     "items": [
@@ -274,7 +274,7 @@
      }
     ],
     "body": [
-     "Eight shading tones build the 3D mark. Use them inside the mark’s artwork, not as new colours.",
+     "Eight shading tones build the 3D mark. Use them inside the mark’s artwork, not as new colors.",
      "partner-30 #1A2D4E · partner-38 #2E4265 · partner-46 #42587C · partner-50 #4D6388 · alliance-38 #243F7B · alliance-46 #244EB6 · alliance-50 #2153D8 · ribbon-57 #006DF5",
      "Daybreak runs from Partner Navy through Alliance Blue to Ribbon Cyan, for hero bands and brand graphics, never behind small text.",
      "Print Black (#000000) is for one-ink print only, never on screen."
@@ -376,7 +376,7 @@
      "aspectDesktop": "536x308 (centre crop)",
      "aspectMobile": "dropped on mobile",
      "placement": "bottom right of the mosaic",
-     "alt": "Mockup: a white mug with the full-colour mark and a ribbon line."
+     "alt": "Mockup: a white mug with the full-color mark and a ribbon line."
     }
    ]
   }

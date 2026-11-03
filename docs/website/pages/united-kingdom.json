@@ -407,17 +407,17 @@
    "images": [
     {
      "imageId": "IMG-28-2",
-     "slotName": "IMG-28-2 · Faceted leaves",
-     "kind": "existing",
-     "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+     "slotName": "IMG-28-2 · Morning on the horizon",
+     "kind": "new",
+     "source": "Editorial illustration for a dark closing band. A deep Partner Navy night sky over low faceted paper hills; toward the right edge the sky grades softly through Alliance Blue to a band of Ribbon Cyan along the horizon, the first light of morning. One satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs along the hills from the lower left toward that light: our afternoon is your morning. The left half is calm, plain deep navy for white text. Wide landscape, about 21:9 (1440x600); keep the horizon light in the right third and the lower half, so a tall mobile crop positioned on the right still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
      "aspectDesktop": "1440x600 full bleed",
      "aspectMobile": "390x640",
      "placement": "background of the closing band with a navy scrim",
      "textArea": "left half, white text on the scrim (the image is dark navy throughout)",
-     "alt": ""
+     "alt": "A ribbon runs across dark faceted hills toward morning light."
     }
    ]
   }
  ],
- "notes": "Deliberate exception to the site's sample clock moment (Manila 9:41 am, London 1:41 am): the UK strip shows a November afternoon in Manila (4:41 pm, London 8:41 am) so the clocks show the headline, and the caption says so. The FAQ answer to 'Where is your team?' uses Brand DNA facts (seven or eight hours ahead; we work as part of the partner’s team) in the Australian page’s pattern, so it doesn’t repeat the headline. Clutch gives a UK figure only for web design in our sources, so the UK table has one row and claims nothing else. Every promise on the page is Brand DNA wording: the five price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), the price card line is the Brand DNA's embedded-developers line, and the FAQ answers are the Brand DNA's 'Questions buyers will ask'. Header marks no nav item. One Primary in the hero and one in the closing band. Every number carries a Source key and a dated source line in its own section. Review 2026-11-03: full name in the price card; the goal links read “See how we …” instead of “Explore …”. The hero lead, the clock-strip title and the first answer no longer repeat the headline."
+ "notes": "Deliberate exception to the site's sample clock moment (Manila 9:41 am, London 1:41 am): the UK strip shows a November afternoon in Manila (4:41 pm, London 8:41 am) so the clocks show the headline, and the caption says so. The FAQ answer to 'Where is your team?' uses Brand DNA facts (seven or eight hours ahead; we work as part of the partner’s team) in the Australian page’s pattern, so it doesn’t repeat the headline. Clutch gives a UK figure only for web design in our sources, so the UK table has one row and claims nothing else. Every promise on the page is Brand DNA wording: the five price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), the price card line is the Brand DNA's embedded-developers line, and the FAQ answers are the Brand DNA's 'Questions buyers will ask'. Header marks no nav item. One Primary in the hero and one in the closing band. Every number carries a Source key and a dated source line in its own section. Review 2026-11-03: full name in the price card; the goal links read “See how we …” instead of “Explore …”. The hero lead, the clock-strip title and the first answer no longer repeat the headline. Lead image pass 2026-11-03: section-specific images replace backgrounds that repeated across pages."
 }

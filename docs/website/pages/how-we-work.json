@@ -313,14 +313,14 @@
    "images": [
     {
      "imageId": "IMG-11-3",
-     "slotName": "IMG-11-3 · Faceted leaves",
-     "kind": "existing",
-     "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+     "slotName": "IMG-11-3 · A young tree kept steady",
+     "kind": "new",
+     "source": "Editorial illustration on a deep Partner Navy ground. At the left, a young tree built from flat faceted paper planes in navy and blue shades stands on a low faceted hill. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is tied loosely around its trunk and runs to a slim stake beside it, the way a gardener keeps a young tree steady while it grows; fresh leaves at the top of the tree catch cyan light from the upper left: staying after launch to keep what we built growing. The right half is calm, open deep navy for white text. Landscape, about 16:9 (1440x760); keep the tree in the left third so a tall mobile crop positioned on the left still shows the tree and the tie. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
      "aspectDesktop": "1440x760 full bleed",
      "aspectMobile": "390x600 or taller (grows with the text), cropped to the calm navy side, scrim from the top",
      "placement": "background with a navy scrim from the reading edge (right on desktop, top on mobile)",
      "textArea": "right side, white text (desktop); top (mobile)",
-     "alt": ""
+     "alt": "A ribbon tie holds a young faceted tree steady as it grows."
     }
    ]
   },
@@ -572,5 +572,5 @@
    "images": []
   }
  ],
- "notes": "Long scrolling story: the Steps component appears once (the page's one ribbon signature), then each step gets its own layout (split image, navy list with sample quote, table, full-bleed band). Every step section carries a mono meta line below its title (Step n of 4) and the same You get / From you pair, which ties the story together. One Primary in the hero and one in the closing navy band. Only Brand DNA facts; placeholders kept ([PRICE], [30]). Frames: desktop 39:1005 (built by an earlier builder, checked and kept: lint clean, screenshots reviewed), mobile 42:663 (built 2026-11-03 to this spec). Both pass the lint with no findings. Titles that left a single word on the last line are set on balanced lines: desktop 'Four steps from / first call to growth.', 'You see progress / every week.', 'Your data stays / in your systems.', 'Then we pick / the right fix.'; mobile also 'Start with / step one.' and 'Working hours / that fit yours.'. Review 2026-11-03 (outside reviewer): hero title rebalanced so 'team.' no longer sits alone on its line; the desktop sample-times note moved under the clocks it explains; the 'We join your team' day-to-day cell now says who 'them' is ('You manage our people, backed by all of Alliance AI Partners'); the data link points to the Data and security route /trust. Both frames lint clean."
+ "notes": "Long scrolling story: the Steps component appears once (the page's one ribbon signature), then each step gets its own layout (split image, navy list with sample quote, table, full-bleed band). Every step section carries a mono meta line below its title (Step n of 4) and the same You get / From you pair, which ties the story together. One Primary in the hero and one in the closing navy band. Only Brand DNA facts; placeholders kept ([PRICE], [30]). Frames: desktop 39:1005 (built by an earlier builder, checked and kept: lint clean, screenshots reviewed), mobile 42:663 (built 2026-11-03 to this spec). Both pass the lint with no findings. Titles that left a single word on the last line are set on balanced lines: desktop 'Four steps from / first call to growth.', 'You see progress / every week.', 'Your data stays / in your systems.', 'Then we pick / the right fix.'; mobile also 'Start with / step one.' and 'Working hours / that fit yours.'. Review 2026-11-03 (outside reviewer): hero title rebalanced so 'team.' no longer sits alone on its line; the desktop sample-times note moved under the clocks it explains; the 'We join your team' day-to-day cell now says who 'them' is ('You manage our people, backed by all of Alliance AI Partners'); the data link points to the Data and security route /trust. Both frames lint clean. Lead image pass 2026-11-03: section-specific images replace backgrounds that repeated across pages."
 }

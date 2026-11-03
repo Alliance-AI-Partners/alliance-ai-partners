@@ -301,14 +301,14 @@
    "images": [
     {
      "imageId": "IMG-10-2",
-     "slotName": "IMG-10-2 · Ribbon river",
-     "kind": "existing",
-     "source": "design-system/imagery/backgrounds/ribbon-river.webp",
+     "slotName": "IMG-10-2 · Two ribbons, one steady route",
+     "kind": "new",
+     "source": "Editorial illustration on a deep Partner Navy ground. Two satin ribbons, one in Alliance Blue and one in Ribbon Cyan, rise side by side in smooth parallel curves from the lower right corner toward the upper right, evenly spaced and never tangled, with a single row of small flat faceted paper leaves between them like a path: two plain reasons, one steady route. The left 45 percent and the top half are calm, plain deep navy for text. Landscape, about 16:9 (1440x800); keep the ribbons in the right half and the lower part, so a tall mobile crop positioned on the lower right still shows both. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
      "aspectDesktop": "1440x800 full bleed",
      "aspectMobile": "390x900, crop to the river in the lower part",
      "placement": "background of the navy band with a navy scrim from the reading edge (left on desktop, top on mobile)",
      "textArea": "left 45% (desktop), top 60% (mobile), Daylight text on the scrim",
-     "alt": ""
+     "alt": "Two parallel ribbons, blue and cyan, rising side by side."
     }
    ]
   },
@@ -467,5 +467,5 @@
    ]
   }
  ],
- "notes": "Different layouts from the Home pricing chapter (which is a navy split with a check list, service rows and an inset invoice image): here the promise is two groups of hairline rows with where-to-check tags on Daylight, prices are a bento, the comparison is a sourced table, the reasons sit on a full-bleed band, and the invoice is drawn as live UI with numbered notes. One Primary in the hero and one in the closing navy band. Ribbon signature: the Ribbon rule over the promise groups, plus the ribbon line inside the sample invoice header. Every figure is in the table section with Source keys and dated source lines. Built 2026-11-03: desktop 46:4946 (completed and checked: table Source keys swapped to Size=MD for 12 px keys, invoice notes column set to hug), mobile 57:4049. Both frames lint clean. Review 2026-11-03: the seven promises now read word for word as the Brand DNA's honest pricing promise (the paraphrased sub-lines, including the unapproved 'Add as many people as you like', were removed on both frames); the mobile Embedded developers card no longer promises cover during leave (recruiting, salary, benefits and equipment; cancel with [30] days' notice); the last FAQ answer says 'sets it up', not 'can set it up'; source 5 (Clutch SEO retainers) carries [date to confirm], as on the Grow page; the desktop table note is set at 572 wide (about 72 characters a line); heading line breaks rebalanced (desktop and mobile 'Seven promises / you can check.', mobile hero 'Honest prices, / published / up front.', mobile 'A sample invoice, / line by line.'). Both frames lint clean."
+ "notes": "Different layouts from the Home pricing chapter (which is a navy split with a check list, service rows and an inset invoice image): here the promise is two groups of hairline rows with where-to-check tags on Daylight, prices are a bento, the comparison is a sourced table, the reasons sit on a full-bleed band, and the invoice is drawn as live UI with numbered notes. One Primary in the hero and one in the closing navy band. Ribbon signature: the Ribbon rule over the promise groups, plus the ribbon line inside the sample invoice header. Every figure is in the table section with Source keys and dated source lines. Built 2026-11-03: desktop 46:4946 (completed and checked: table Source keys swapped to Size=MD for 12 px keys, invoice notes column set to hug), mobile 57:4049. Both frames lint clean. Review 2026-11-03: the seven promises now read word for word as the Brand DNA's honest pricing promise (the paraphrased sub-lines, including the unapproved 'Add as many people as you like', were removed on both frames); the mobile Embedded developers card no longer promises cover during leave (recruiting, salary, benefits and equipment; cancel with [30] days' notice); the last FAQ answer says 'sets it up', not 'can set it up'; source 5 (Clutch SEO retainers) carries [date to confirm], as on the Grow page; the desktop table note is set at 572 wide (about 72 characters a line); heading line breaks rebalanced (desktop and mobile 'Seven promises / you can check.', mobile hero 'Honest prices, / published / up front.', mobile 'A sample invoice, / line by line.'). Both frames lint clean. Lead image pass 2026-11-03: section-specific images replace backgrounds that repeated across pages."
 }

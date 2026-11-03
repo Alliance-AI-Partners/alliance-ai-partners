@@ -34,7 +34,7 @@
     "lead": "AI reads your invoices, checks expenses and drafts the monthly report. Your team stays in charge of what goes in the books.",
     "accentWord": "typing.",
     "body": [
-     "Every finance and accounting project starts with a privacy and compliance review."
+     "Built and run by our team in the Philippines, alongside your accounts team."
     ],
     "ctas": [
      {
@@ -53,7 +53,7 @@
     "Header",
     "Button",
     "Link",
-    "Icon/lock",
+    "Icon/globe",
     "Image slot"
    ],
    "images": [
@@ -241,7 +241,7 @@
    "ground": "daylight",
    "layout": "list-rows",
    "job": "List the services that work alongside the package, with published starting prices where they exist and a fixed quote otherwise.",
-   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service.",
+   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service. Review 2026-11-03: the desktop list is a 2 x 3 grid (three row pairs, the shorter row of each pair stretched, content top-aligned), so titles, prices and hairlines line up across the columns; each row keeps a 24 px gap between the description and the price (the Service row component itself still packs them with space-between and no gap).",
    "mobile": "Head; the six Service rows (Mobile variant) in one column; link.",
    "content": {
     "heading": "Add more when you’re ready.",
@@ -414,5 +414,5 @@
    ]
   }
  ],
- "notes": "Built from the shared industry template, so pages 21 to 24 read as a set; each has its own hero image and package image. Package items are the Brand DNA finance and accounting list (invoice processing, bookkeeping help, expense checks, monthly reports). The hero meta and the data lead state the Brand DNA rule that finance projects start with a privacy and compliance review. The sample is labelled as a sample and carries no amounts, times or results. Header marks Services as current. One Primary in the hero and one in the closing card, never in one screenful. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
+ "notes": "Built from the shared industry template, so pages 21 to 24 read as a set; each has its own hero image and package image. Package items are the Brand DNA finance and accounting list (invoice processing, bookkeeping help, expense checks, monthly reports). The data lead states the Brand DNA rule that finance projects start with a privacy and compliance review; the hero meta says where the team is (Brand DNA: say where we are early). The sample is labelled as a sample and carries no amounts, times or results. Header marks Services as current. One Primary in the hero and one in the closing card, never in one screenful. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build. Review 2026-11-03 (reviewer): the hero meta no longer repeats the data lead word for word and now names the Philippines base (globe icon); services list regrouped into an aligned grid with a 24 px description-to-price gap. Every frame lint-clean afterwards."
 }

@@ -79,7 +79,7 @@
    "ground": "daylight",
    "layout": "bento",
    "job": "Put the four industries that have their own page first, each with its Brand DNA package and a link to its page.",
-   "desktop": "Section head, then a staggered bento of four white cards in two rows (wide 760 | narrow; narrow | wide 760), each row one height: service icon 40, Heading/3 industry, Body/Default one-liner, the package items as Tags, a link at the foot.",
+   "desktop": "Section head, then a staggered bento of four white cards in two rows (wide 760 | narrow; narrow | wide 760), each row one height: service icon 40, Heading/3 industry, Body/Default one-liner, the package items as Tags, a link at the foot. Review 2026-11-03: each row’s two cards are one height with the link on one line at the foot; the body text in the wide cards is capped at 560 px (about 73 characters a line).",
    "mobile": "Head; the four cards in one column, in the same order.",
    "content": {
     "heading": "Find your industry.",
@@ -113,6 +113,12 @@
       "icon": "Service icon/Mono/automation",
       "link": "/industries/home-services-and-local-businesses"
      }
+    ],
+    "linkLabels": [
+     "Explore finance and accounting",
+     "Explore healthcare and clinics",
+     "Explore online stores and retail",
+     "Explore home services"
     ]
    },
    "components": [
@@ -304,5 +310,5 @@
    ]
   }
  ],
- "notes": "Index of the Brand DNA \"Ready-made solutions by industry\": the four industries with their own page first (staggered bento), the other seven in a table. Shares its hero, data and closing sections with the industry template (21 to 24), so the five pages read as one set. One new image (the hero); the swallow is the real vector graphic. Header marks Services as current. One Primary in the hero and one in the closing card. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
+ "notes": "Index of the Brand DNA \"Ready-made solutions by industry\": the four industries with their own page first (staggered bento), the other seven in a table. Shares its hero, data and closing sections with the industry template (21 to 24), so the five pages read as one set. One new image (the hero); the swallow is the real vector graphic. Header marks Services as current. One Primary in the hero and one in the closing card. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section. The hero link “See every service” goes to /services. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build. Review 2026-11-03 (reviewer): equal-height bento rows; wide-card measure capped at 560 px (the lint’s two long-measure findings); card links in sentence case. Every frame lint-clean afterwards."
 }

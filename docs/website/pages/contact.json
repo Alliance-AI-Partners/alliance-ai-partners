@@ -1,382 +1,382 @@
 {
-  "slug": "contact",
-  "figmaPage": "15 · Contact",
-  "phase": "Launch",
-  "route": "/contact",
-  "purpose": "Let a founder reach a person at Alliance AI Partners in the way that suits them (form, email or phone), show when our team is working in their time zone, give the company details, and nudge anyone unsure where to start toward the AI check-up.",
-  "primaryAction": {
-    "label": "Send message",
-    "target": "form submit (POST /api/contact), then the Sent state"
+ "slug": "contact",
+ "figmaPage": "15 · Contact",
+ "phase": "Launch",
+ "route": "/contact",
+ "purpose": "Let a founder reach a person at Alliance AI Partners in the way that suits them (form, email or phone), show when our team is working in their time zone, give the company details, and nudge anyone unsure where to start toward the AI check-up.",
+ "primaryAction": {
+  "label": "Send message",
+  "target": "form submit (POST /api/contact), then the Sent state"
+ },
+ "seo": {
+  "title": "Contact | Alliance AI Partners",
+  "description": "Talk to a person at Alliance AI Partners. Send us a message, email or call. Our team in the Philippines replies within [one working day]."
+ },
+ "states": [
+  "default",
+  "sent"
+ ],
+ "frames": {
+  "desktop": "46:10684",
+  "mobile": "56:1381",
+  "desktopSent": "46:11377",
+  "mobileSent": "57:4997"
+ },
+ "sections": [
+  {
+   "id": "contact",
+   "name": "Section · Contact",
+   "layout": "form",
+   "ground": "daylight",
+   "job": "Take the message: a title that promises a person, the ways to reach us, and the form with the page's one Primary.",
+   "desktop": "Split, never centred: text 560 left (Display/LG title, Body/LG lead, four hairline contact rows with icons, sample caption), form card 664 right (white card, 32 padding). Fields two-up: Your name | Work email, Company | What do you need? (select); then Your message (textarea), the consent checkbox with a privacy line, and the Primary 'Send message' with a reassurance line.",
+   "mobile": "Title (Display/LG, one line), lead, two half-width LG Secondary buttons (Email us, Call us) with a two-line caption giving the sample email and phone, then the form card full width (24 padding): one field per row, the consent checkbox label wraps with its box top-aligned, full-width LG Primary 'Send message' and the reassurance line. Hours and location move to the Hours chapter.",
+   "content": {
+    "heading": "Talk to a person.",
+    "accentWord": "person.",
+    "lead": "Tell us what you need, in your own words. Someone on our team reads every message and replies within [one working day].",
+    "items": [
+     {
+      "title": "Email",
+      "text": "hello@allianceaipartners.example",
+      "link": "mailto:hello@allianceaipartners.example"
+     },
+     {
+      "title": "Phone",
+      "text": "+1 202 555 0147",
+      "link": "tel:+12025550147"
+     },
+     {
+      "title": "Hours",
+      "text": "[9 am to 6 pm] Manila time, Monday to Friday",
+      "meta": "Chip (Live): Team online"
+     },
+     {
+      "title": "Based in",
+      "text": "The Philippines, working with companies in the United States, Australia and the United Kingdom."
+     }
+    ],
+    "body": [
+     "Sample email and phone until launch."
+    ],
+    "form": {
+     "title": "Send us a message",
+     "fields": [
+      {
+       "label": "Your name",
+       "type": "text",
+       "placeholder": "Full name",
+       "required": true
+      },
+      {
+       "label": "Work email",
+       "type": "email",
+       "placeholder": "name@company.com",
+       "help": "We reply to this address.",
+       "required": true
+      },
+      {
+       "label": "Company",
+       "type": "text",
+       "placeholder": "Company name",
+       "required": true
+      },
+      {
+       "label": "What do you need?",
+       "type": "select",
+       "placeholder": "Choose one",
+       "options": [
+        "An AI check-up",
+        "AI automation",
+        "A website or web app",
+        "Embedded developers",
+        "A fixed quote for a project",
+        "Something else"
+       ],
+       "help": "Prefilled from links such as /contact?service=embedded-developers.",
+       "required": true
+      },
+      {
+       "label": "Your message",
+       "type": "textarea",
+       "placeholder": "For example: our team answers the same customer questions all day.",
+       "help": "A few sentences is plenty.",
+       "required": true
+      },
+      {
+       "label": "I agree that Alliance AI Partners may use these details to reply to me.",
+       "type": "checkbox",
+       "help": "We use them only to answer you. Read our privacy notice (link /privacy).",
+       "required": true
+      }
+     ],
+     "submit": "Send message",
+     "note": "We’ll ask a few questions before we suggest anything."
+    },
+    "ctas": [
+     {
+      "label": "Send message",
+      "variant": "primary",
+      "target": "submit"
+     },
+     {
+      "label": "Email us",
+      "variant": "secondary",
+      "target": "mailto:hello@allianceaipartners.example",
+      "mobileOnly": true
+     },
+     {
+      "label": "Call us",
+      "variant": "secondary",
+      "target": "tel:+12025550147",
+      "mobileOnly": true
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Card",
+    "Field",
+    "Select",
+    "Textarea",
+    "Checkbox",
+    "Button",
+    "Chip (Live)",
+    "Icon/mail",
+    "Icon/phone",
+    "Icon/clock",
+    "Icon/map-pin"
+   ],
+   "images": []
   },
-  "seo": {
-    "title": "Contact | Alliance AI Partners",
-    "description": "Talk to a person at Alliance AI Partners. Send us a message, email or call. Our team in the Philippines replies within [one working day]."
+  {
+   "id": "hours",
+   "name": "Section · Hours",
+   "layout": "timezones",
+   "ground": "navy",
+   "job": "Show when our team works in the reader's own time, with the clocks and the sources for every time difference.",
+   "desktop": "Navy chapter. Asymmetric head (Heading/1 with one cyan accent | lead). Time zones clocks full width, sample-time caption, then three hairline rows: market name in Heading/4 with its Source key (MD) in a 572 px 'Market' cell, so the row text starts on the lead's column (x 680) and stays 680 px wide; then the numbered sources.",
+   "mobile": "Head stacked, the title balanced over two lines ('Our hours, / in your time.'), the Team online chip and a map-pin line 'Based in the Philippines, working with companies in the United States, Australia and the United Kingdom.', mobile clocks (two rows of two), caption, three stacked hairline rows (Heading/4 with its Source key, over Body/Default), sources.",
+   "content": {
+    "heading": "Our hours, in your time.",
+    "accentWord": "time.",
+    "lead": "Our team works [9 am to 6 pm] Manila time, Monday to Friday. Here’s how that lines up with your day.",
+    "items": [
+     {
+      "title": "United States",
+      "text": "We work while you sleep. Brief us before you log off, and you’ll see progress when you log on.",
+      "meta": "Source 1"
+     },
+     {
+      "title": "United Kingdom",
+      "text": "Our afternoon is your morning, so the start of your day overlaps with the end of ours.",
+      "meta": "Source 1"
+     },
+     {
+      "title": "Australia",
+      "text": "Sydney is two hours ahead of us, or three during daylight saving, so most of your working day overlaps with ours.",
+      "meta": "Source 2"
+     }
+    ],
+    "body": [
+     "Sample times for a November morning in Manila. The live site shows the real time in each city."
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "NIST, Local time FAQs (US time zones and daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
+     },
+     {
+      "key": "2",
+      "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
+     }
+    ],
+    "sourceNote": "Keys follow the Brand DNA, which cites NSW Government and NIST for the time differences with Australia, the United States and the United Kingdom. Sources are numbered in order of first citation (the United States row comes first)."
+   },
+   "components": [
+    "Time zones",
+    "Source list",
+    "Source key"
+   ],
+   "images": []
   },
-  "states": [
-    "default",
-    "sent"
-  ],
-  "frames": {
-    "desktop": "46:10684",
-    "mobile": "56:1381",
-    "desktopSent": "46:11377",
-    "mobileSent": "57:4997"
+  {
+   "id": "other-ways",
+   "name": "Section · Other ways to reach us",
+   "layout": "list-rows",
+   "ground": "daylight",
+   "job": "Send press, job seekers, security reporters and data questions to the right page, and give the company details.",
+   "desktop": "Asymmetric head, then a row: five hairline list rows (icon, Heading/4 title, Body/SM line, link on the right) filling the left, and a 400-wide quiet panel (Neutral 50 well, 18px radius) with the company details on the right. The panel ends with the caption 'Sample email until launch.'",
+   "mobile": "Head stacked; rows stack icon + text with the link underneath; the company details panel follows full width, ending with the caption 'Sample email until launch.'",
+   "content": {
+    "heading": "Other ways to reach us.",
+    "lead": "Not a new project? These pages get you to the right people faster.",
+    "items": [
+     {
+      "title": "Press and brand",
+      "text": "Logos, colors and how to write our name.",
+      "link": "Brand and press → /brand"
+     },
+     {
+      "title": "Careers",
+      "text": "How we hire, and how to apply.",
+      "link": "Visit careers → /careers"
+     },
+     {
+      "title": "Report a security issue",
+      "text": "Tell us privately. We acknowledge every report within [two working days].",
+      "link": "Security disclosure → /security"
+     },
+     {
+      "title": "Questions about your data",
+      "text": "Where your data lives, who can see it and what we never do with it.",
+      "link": "Data and security → /trust"
+     },
+     {
+      "title": "Questions buyers ask",
+      "text": "Straight answers on quality, price, time zones and how we work together.",
+      "link": "Read the answers → /faq"
+     }
+    ],
+    "companyDetails": [
+     {
+      "label": "Registered address",
+      "value": "[Registered address]"
+     },
+     {
+      "label": "Company number",
+      "value": "[Company number]"
+     },
+     {
+      "label": "Based in",
+      "value": "The Philippines"
+     },
+     {
+      "label": "Working with",
+      "value": "Companies in the United States, Australia and the United Kingdom"
+     },
+     {
+      "label": "Email",
+      "value": "hello@allianceaipartners.example"
+     }
+    ],
+    "body": [
+     "Sample email until launch."
+    ]
+   },
+   "components": [
+    "Link",
+    "Icon/download",
+    "Icon/globe",
+    "Icon/lock",
+    "Icon/info",
+    "Icon/search"
+   ],
+   "images": []
   },
-  "sections": [
+  {
+   "id": "check-up",
+   "name": "Section · AI check-up",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Nudge anyone unsure what to ask toward the AI check-up, the low-risk first step.",
+   "desktop": "One large white card (1320, 18px radius, clips): text block left (padding 48, Heading/1, Body/LG, the closing Primary and a link) and the image right at 560x480 running to the card edges. The Primary is allowed here because the form's Primary is several screens up.",
+   "mobile": "The card stacks: text first (padding 32/24, Heading/1 balanced over two lines 'Not sure what / to ask?', full-width LG Primary, centred link), the image last at 358x300, re-cropped to 6:5 and clipped by the card's 18px corners.",
+   "content": {
+    "heading": "Not sure what to ask?",
+    "lead": "Start with an AI check-up, a short first project. In [two weeks], we find where AI could save you time or money, and you get a written plan with a fixed quote. From [PRICE].",
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "See a sample report",
+      "variant": "link",
+      "target": "/ai-check-up/sample"
+     }
+    ]
+   },
+   "components": [
+    "Card",
+    "Button",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
     {
-      "id": "contact",
-      "name": "Section · Contact",
-      "layout": "form",
-      "ground": "daylight",
-      "job": "Take the message: a title that promises a person, the ways to reach us, and the form with the page's one Primary.",
-      "desktop": "Split, never centred: text 560 left (Display/LG title, Body/LG lead, four hairline contact rows with icons, sample caption), form card 664 right (white card, 32 padding). Fields two-up: Your name | Work email, Company | What do you need? (select); then Your message (textarea), the consent checkbox with a privacy line, and the Primary 'Send message' with a reassurance line.",
-      "mobile": "Title (Display/LG, one line), lead, two half-width LG Secondary buttons (Email us, Call us) with a two-line caption giving the sample email and phone, then the form card full width (24 padding): one field per row, the consent checkbox label wraps with its box top-aligned, full-width LG Primary 'Send message' and the reassurance line. Hours and location move to the Hours chapter.",
-      "content": {
-        "heading": "Talk to a person.",
-        "accentWord": "person.",
-        "lead": "Tell us what you need, in your own words. Someone on our team reads every message and replies within [one working day].",
-        "items": [
-          {
-            "title": "Email",
-            "text": "hello@allianceaipartners.example",
-            "link": "mailto:hello@allianceaipartners.example"
-          },
-          {
-            "title": "Phone",
-            "text": "+1 202 555 0147",
-            "link": "tel:+12025550147"
-          },
-          {
-            "title": "Hours",
-            "text": "[9 am to 6 pm] Manila time, Monday to Friday",
-            "meta": "Chip (Live): Team online"
-          },
-          {
-            "title": "Based in",
-            "text": "The Philippines, working with companies in the United States, Australia and the United Kingdom."
-          }
-        ],
-        "body": [
-          "Sample email and phone until launch."
-        ],
-        "form": {
-          "title": "Send us a message",
-          "fields": [
-            {
-              "label": "Your name",
-              "type": "text",
-              "placeholder": "Full name",
-              "required": true
-            },
-            {
-              "label": "Work email",
-              "type": "email",
-              "placeholder": "name@company.com",
-              "help": "We reply to this address.",
-              "required": true
-            },
-            {
-              "label": "Company",
-              "type": "text",
-              "placeholder": "Company name",
-              "required": true
-            },
-            {
-              "label": "What do you need?",
-              "type": "select",
-              "placeholder": "Choose one",
-              "options": [
-                "An AI check-up",
-                "AI automation",
-                "A website or web app",
-                "Embedded developers",
-                "A fixed quote for a project",
-                "Something else"
-              ],
-              "help": "Prefilled from links such as /contact?service=embedded-developers.",
-              "required": true
-            },
-            {
-              "label": "Your message",
-              "type": "textarea",
-              "placeholder": "For example: our team answers the same customer questions all day.",
-              "help": "A few sentences is plenty.",
-              "required": true
-            },
-            {
-              "label": "I agree that Alliance AI Partners may use these details to reply to me.",
-              "type": "checkbox",
-              "help": "We use them only to answer you. Read our privacy notice (link /privacy).",
-              "required": true
-            }
-          ],
-          "submit": "Send message",
-          "note": "We’ll ask a few questions before we suggest anything."
-        },
-        "ctas": [
-          {
-            "label": "Send message",
-            "variant": "primary",
-            "target": "submit"
-          },
-          {
-            "label": "Email us",
-            "variant": "secondary",
-            "target": "mailto:hello@allianceaipartners.example",
-            "mobileOnly": true
-          },
-          {
-            "label": "Call us",
-            "variant": "secondary",
-            "target": "tel:+12025550147",
-            "mobileOnly": true
-          }
-        ]
-      },
-      "components": [
-        "Header",
-        "Card",
-        "Field",
-        "Select",
-        "Textarea",
-        "Checkbox",
-        "Button",
-        "Chip (Live)",
-        "Icon/mail",
-        "Icon/phone",
-        "Icon/clock",
-        "Icon/map-pin"
-      ],
-      "images": []
-    },
-    {
-      "id": "hours",
-      "name": "Section · Hours",
-      "layout": "timezones",
-      "ground": "navy",
-      "job": "Show when our team works in the reader's own time, with the clocks and the sources for every time difference.",
-      "desktop": "Navy chapter. Asymmetric head (Heading/1 with one cyan accent | lead). Time zones clocks full width, sample-time caption, then three hairline rows: market name in Heading/4 with its Source key (MD) in a 572 px 'Market' cell, so the row text starts on the lead's column (x 680) and stays 680 px wide; then the numbered sources.",
-      "mobile": "Head stacked, the title balanced over two lines ('Our hours, / in your time.'), the Team online chip and a map-pin line 'Based in the Philippines, working with companies in the United States, Australia and the United Kingdom.', mobile clocks (two rows of two), caption, three stacked hairline rows (Heading/4 with its Source key, over Body/Default), sources.",
-      "content": {
-        "heading": "Our hours, in your time.",
-        "accentWord": "time.",
-        "lead": "Our team works [9 am to 6 pm] Manila time, Monday to Friday. Here’s how that lines up with your day.",
-        "items": [
-          {
-            "title": "United States",
-            "text": "We work while you sleep. Brief us before you log off, and you’ll see progress when you log on.",
-            "meta": "Source 1"
-          },
-          {
-            "title": "United Kingdom",
-            "text": "Our afternoon is your morning, so the start of your day overlaps with the end of ours.",
-            "meta": "Source 1"
-          },
-          {
-            "title": "Australia",
-            "text": "Sydney is two hours ahead of us, or three during daylight saving, so most of your working day overlaps with ours.",
-            "meta": "Source 2"
-          }
-        ],
-        "body": [
-          "Sample times for a November morning in Manila. The live site shows the real time in each city."
-        ],
-        "sources": [
-          {
-            "key": "1",
-            "text": "NIST, Local time FAQs (US time zones and daylight saving). Retrieved 2026-11-02.",
-            "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
-          },
-          {
-            "key": "2",
-            "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
-            "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
-          }
-        ],
-        "sourceNote": "Keys follow the Brand DNA, which cites NSW Government and NIST for the time differences with Australia, the United States and the United Kingdom. Sources are numbered in order of first citation (the United States row comes first)."
-      },
-      "components": [
-        "Time zones",
-        "Source list",
-        "Source key"
-      ],
-      "images": []
-    },
-    {
-      "id": "other-ways",
-      "name": "Section · Other ways to reach us",
-      "layout": "list-rows",
-      "ground": "daylight",
-      "job": "Send press, job seekers, security reporters and data questions to the right page, and give the company details.",
-      "desktop": "Asymmetric head, then a row: five hairline list rows (icon, Heading/4 title, Body/SM line, link on the right) filling the left, and a 400-wide quiet panel (Neutral 50 well, 18px radius) with the company details on the right. The panel ends with the caption 'Sample email until launch.'",
-      "mobile": "Head stacked; rows stack icon + text with the link underneath; the company details panel follows full width, ending with the caption 'Sample email until launch.'",
-      "content": {
-        "heading": "Other ways to reach us.",
-        "lead": "Not a new project? These pages get you to the right people faster.",
-        "items": [
-          {
-            "title": "Press and brand",
-            "text": "Logos, colours and how to write our name.",
-            "link": "Brand and press → /brand"
-          },
-          {
-            "title": "Careers",
-            "text": "How we hire, and how to apply.",
-            "link": "Visit careers → /careers"
-          },
-          {
-            "title": "Report a security issue",
-            "text": "Tell us privately. We acknowledge every report within [two working days].",
-            "link": "Security disclosure → /security"
-          },
-          {
-            "title": "Questions about your data",
-            "text": "Where your data lives, who can see it and what we never do with it.",
-            "link": "Data and security → /trust"
-          },
-          {
-            "title": "Questions buyers ask",
-            "text": "Straight answers on quality, price, time zones and how we work together.",
-            "link": "Read the answers → /faq"
-          }
-        ],
-        "companyDetails": [
-          {
-            "label": "Registered address",
-            "value": "[Registered address]"
-          },
-          {
-            "label": "Company number",
-            "value": "[Company number]"
-          },
-          {
-            "label": "Based in",
-            "value": "The Philippines"
-          },
-          {
-            "label": "Working with",
-            "value": "Companies in the United States, Australia and the United Kingdom"
-          },
-          {
-            "label": "Email",
-            "value": "hello@allianceaipartners.example"
-          }
-        ],
-        "body": [
-          "Sample email until launch."
-        ]
-      },
-      "components": [
-        "Link",
-        "Icon/download",
-        "Icon/globe",
-        "Icon/lock",
-        "Icon/info",
-        "Icon/search"
-      ],
-      "images": []
-    },
-    {
-      "id": "check-up",
-      "name": "Section · AI check-up",
-      "layout": "bento",
-      "ground": "daylight",
-      "job": "Nudge anyone unsure what to ask toward the AI check-up, the low-risk first step.",
-      "desktop": "One large white card (1320, 18px radius, clips): text block left (padding 48, Heading/1, Body/LG, the closing Primary and a link) and the image right at 560x480 running to the card edges. The Primary is allowed here because the form's Primary is several screens up.",
-      "mobile": "The card stacks: text first (padding 32/24, Heading/1 balanced over two lines 'Not sure what / to ask?', full-width LG Primary, centred link), the image last at 358x300, re-cropped to 6:5 and clipped by the card's 18px corners.",
-      "content": {
-        "heading": "Not sure what to ask?",
-        "lead": "Start with an AI check-up, a short first project. In [two weeks], we find where AI could save you time or money, and you get a written plan with a fixed quote. From [PRICE].",
-        "ctas": [
-          {
-            "label": "See where AI can help",
-            "variant": "primary",
-            "target": "/ai-check-up"
-          },
-          {
-            "label": "See a sample report",
-            "variant": "link",
-            "target": "/ai-check-up/sample"
-          }
-        ]
-      },
-      "components": [
-        "Card",
-        "Button",
-        "Link",
-        "Image slot"
-      ],
-      "images": [
-        {
-          "imageId": "IMG-15-1",
-          "slotName": "IMG-15-1 · First stepping stone",
-          "kind": "new",
-          "aspectDesktop": "560x480 (about 7:6), inside the card, running to its right edge",
-          "aspectMobile": "358x300 (6:5), inside the card, at its foot",
-          "placement": "right half of the large check-up card; bottom of the card on mobile",
-          "textArea": "none (text sits beside the image); keep the upper third calm",
-          "alt": "A line of flat stepping stones crosses a satin ribbon stream, the nearest stone large and bright, with a swallow skimming toward the far bank.",
-          "source": "Editorial illustration on a Daylight background. A calm satin ribbon stream, in a gradient from Alliance Blue to Ribbon Cyan, flows from the upper right toward the lower left through a landscape of flat faceted paper meadows in pale blue-grey. A short line of five flat, faceted stepping stones crosses the stream from the near bank at the lower left to the far bank, where low faceted trees and broad leaves catch the morning light. The first stone, nearest the viewer, is the largest and the brightest, lit from the upper left: one easy, low-risk first step with the way ahead in plain view. A single faceted paper swallow skims low over the stones toward the far bank. Partner Navy only in the deepest shaded sides of the stones and trees. Keep the upper third a calm, open Daylight sky. Landscape about 7:6, safe to crop to 6:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
-        }
-      ]
-    },
-    {
-      "id": "sent",
-      "name": "Section · Contact (Sent state)",
-      "layout": "form",
-      "ground": "daylight",
-      "state": "sent",
-      "job": "Confirm the message arrived and say exactly what happens next.",
-      "desktop": "Frames 'Contact — Desktop · Sent' (x 2150) and 'Contact — Mobile · Sent' (x 3750) are the page after submit: the form card is replaced in place by a Success alert, 'What happens next' as four numbered hairline rows (mono 01 to 04), a Secondary button, a link and a help line. No Primary: nothing is left to commit.",
-      "mobile": "Frame 'Contact — Mobile · Sent' is a copy of the mobile page with the form card replaced in place by the Sent card: Success alert (text wraps), 'What happens next' as four hairline rows (mono 01 to 04 beside Heading/4 and Body/SM), a full-width LG Secondary 'Back to the home page', a centred link, and the help line. No Primary in the card; the only Primary is the closing check-up card.",
-      "content": {
-        "alert": {
-          "type": "Success",
-          "title": "Message sent.",
-          "body": "Thanks. A copy is on its way to [email address]."
-        },
-        "heading": "What happens next",
-        "items": [
-          {
-            "title": "01 · A person reads it",
-            "text": "Someone on our team reads every message."
-          },
-          {
-            "title": "02 · We reply within [one working day]",
-            "text": "With a few questions first, so we understand your situation before we suggest anything."
-          },
-          {
-            "title": "03 · We find a time to talk",
-            "text": "A short call at a time that suits you. We send your time and ours side by side."
-          },
-          {
-            "title": "04 · You get a plan and a fixed quote",
-            "text": "If there’s work worth doing, you get it in writing before anything starts. If AI isn’t the answer, we say so."
-          }
-        ],
-        "ctas": [
-          {
-            "label": "Back to the home page",
-            "variant": "secondary",
-            "target": "/"
-          },
-          {
-            "label": "Read the questions buyers ask",
-            "variant": "link",
-            "target": "/faq"
-          }
-        ],
-        "body": [
-          "Didn’t get the copy? Check your spam folder, or email hello@allianceaipartners.example."
-        ]
-      },
-      "components": [
-        "Alert (Success)",
-        "Button",
-        "Link"
-      ],
-      "images": []
+     "imageId": "IMG-15-1",
+     "slotName": "IMG-15-1 · First stepping stone",
+     "kind": "new",
+     "aspectDesktop": "560x480 (about 7:6), inside the card, running to its right edge",
+     "aspectMobile": "358x300 (6:5), inside the card, at its foot",
+     "placement": "right half of the large check-up card; bottom of the card on mobile",
+     "textArea": "none (text sits beside the image); keep the upper third calm",
+     "alt": "A line of flat stepping stones crosses a satin ribbon stream, the nearest stone large and bright, with a swallow skimming toward the far bank.",
+     "source": "Editorial illustration on a Daylight background. A calm satin ribbon stream, in a gradient from Alliance Blue to Ribbon Cyan, flows from the upper right toward the lower left through a landscape of flat faceted paper meadows in pale blue-grey. A short line of five flat, faceted stepping stones crosses the stream from the near bank at the lower left to the far bank, where low faceted trees and broad leaves catch the morning light. The first stone, nearest the viewer, is the largest and the brightest, lit from the upper left: one easy, low-risk first step with the way ahead in plain view. A single faceted paper swallow skims low over the stones toward the far bank. Partner Navy only in the deepest shaded sides of the stones and trees. Keep the upper third a calm, open Daylight sky. Landscape about 7:6, safe to crop to 6:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
     }
-  ],
-  "notes": "Contact details are the template samples (allianceaipartners.example, +1 202 555 0147) and are marked as samples on the page: under the contact rows at the top, and at the foot of the Company details panel. Placeholders kept: [one working day], [9 am to 6 pm], [two weeks], [PRICE], [two working days], [Registered address], [Company number], [email address]. The page carries one Primary per screenful: the form's 'Send message' at the top and the check-up Primary in the closing card. One new image (IMG-15-1) in a card, a presentation not used on the neighbouring pages. Mobile headings use balanced wrapping (CSS text-wrap: balance) where a single word would sit alone on the last line."
+   ]
+  },
+  {
+   "id": "sent",
+   "name": "Section · Contact (Sent state)",
+   "layout": "form",
+   "ground": "daylight",
+   "state": "sent",
+   "job": "Confirm the message arrived and say exactly what happens next.",
+   "desktop": "Frames 'Contact — Desktop · Sent' (x 2150) and 'Contact — Mobile · Sent' (x 3750) are the page after submit: the form card is replaced in place by a Success alert, 'What happens next' as four numbered hairline rows (mono 01 to 04), a Secondary button, a link and a help line. No Primary: nothing is left to commit.",
+   "mobile": "Frame 'Contact — Mobile · Sent' is a copy of the mobile page with the form card replaced in place by the Sent card: Success alert (text wraps), 'What happens next' as four hairline rows (mono 01 to 04 beside Heading/4 and Body/SM), a full-width LG Secondary 'Back to the home page', a centred link, and the help line. No Primary in the card; the only Primary is the closing check-up card.",
+   "content": {
+    "alert": {
+     "type": "Success",
+     "title": "Message sent.",
+     "body": "Thanks. A copy is on its way to [email address]."
+    },
+    "heading": "What happens next",
+    "items": [
+     {
+      "title": "01 · A person reads it",
+      "text": "Someone on our team reads every message."
+     },
+     {
+      "title": "02 · We reply within [one working day]",
+      "text": "With a few questions first, so we understand your situation before we suggest anything."
+     },
+     {
+      "title": "03 · We find a time to talk",
+      "text": "A short call at a time that suits you. We send your time and ours side by side."
+     },
+     {
+      "title": "04 · You get a plan and a fixed quote",
+      "text": "If there’s work worth doing, you get it in writing before anything starts. If AI isn’t the answer, we say so."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Back to the home page",
+      "variant": "secondary",
+      "target": "/"
+     },
+     {
+      "label": "Read the questions buyers ask",
+      "variant": "link",
+      "target": "/faq"
+     }
+    ],
+    "body": [
+     "Didn’t get the copy? Check your spam folder, or email hello@allianceaipartners.example."
+    ]
+   },
+   "components": [
+    "Alert (Success)",
+    "Button",
+    "Link"
+   ],
+   "images": []
+  }
+ ],
+ "notes": "Contact details are the template samples (allianceaipartners.example, +1 202 555 0147) and are marked as samples on the page: under the contact rows at the top, and at the foot of the Company details panel. Placeholders kept: [one working day], [9 am to 6 pm], [two weeks], [PRICE], [two working days], [Registered address], [Company number], [email address]. The page carries one Primary per screenful: the form's 'Send message' at the top and the check-up Primary in the closing card. One new image (IMG-15-1) in a card, a presentation not used on the neighbouring pages. Mobile headings use balanced wrapping (CSS text-wrap: balance) where a single word would sit alone on the last line."
 }
