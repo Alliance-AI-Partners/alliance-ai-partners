@@ -21,7 +21,7 @@ The base layer themes what the browser would otherwise draw itself: `border-box`
 | `.aap-surface-sunken` | A Neutral 50 well for code, tables or quiet panels. |
 | `.aap-container` | Centred content, `min(100% - 2 x gutter, 1320px)`. The gutter is fluid (16 to 32 px). |
 | `.aap-section` | Vertical section padding, fluid 72 to 128 px. |
-| `.aap-measure` | Caps a text column at 68ch. |
+| `.aap-measure` | Caps a text column at 52ch, about 74 characters of Mona Sans. `.aap-lead` stops at 44ch. |
 
 ## Type
 

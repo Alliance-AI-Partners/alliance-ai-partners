@@ -43,6 +43,7 @@ L.run = async (rootId, opts) => {
     const stripped = str.replace(/\[[^\]]*\]/g, '');
     if (L.FIGURE.test(stripped)) { const s = sectionOf(t); if (s && !sectionsWithSources.has(s.id)) add('high', 'unsourced-figure', t, str.slice(0, 100)); }
     if (typeof t.fontSize === 'number' && t.fontSize < 12) add('medium', 'tiny-text', t, t.fontSize + 'px: ' + str.slice(0, 40));
+    { const stn = styles[t.textStyleId] || ''; if (!inst && /^Body\//.test(stn) && typeof t.fontSize === 'number' && t.height > t.fontSize * 2.4) { const per = t.width / (t.fontSize * 0.447); if (per > 80) add('medium', 'long-measure', t, 'about ' + Math.round(per) + ' characters a line (keep running text to about 75): ' + str.slice(0, 40)); } }
     const bb = t.absoluteBoundingBox;
     if (bb && (bb.x < RB.x - 1 || bb.x + bb.width > RB.x + RB.width + 1)) add('high', 'text-outside-frame', t, str.slice(0, 60));
     let segs = [];

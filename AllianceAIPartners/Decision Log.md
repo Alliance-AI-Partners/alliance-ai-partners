@@ -30,6 +30,7 @@ Files outside this vault are named by their path in the repository, because Obsi
 | 2 Nov | Chose "The Ribbon" as the big idea behind the design, over the Banig Weave look a design tool suggested. Ruled out Philippine and other regional motifs, because we work internationally. Chose Mona Sans for all live text and Next.js on Vercel for the website. Built the design system and the brand kit. | `PRODUCT.md`, `DESIGN.md`, `design-system/`, `brand-kit/` |
 | 3 Nov | Matched the Figma file to the website code: its color variables now carry the CSS names, and its usage notes follow `DESIGN.md`. Updated the Brand DNA to version 2.2. | The Figma file, this note |
 | 3 Nov | Designed the website in Figma: 39 pages, each at desktop (1,440 pixels) and mobile (390 pixels) widths, built from the design system's variables and components. The copy comes from the Brand DNA, with placeholders where facts are still missing. Images are marked slots with written prompts, to be generated with Gemini in a later session. | The Figma Website file, `docs/website/`, `design-system/imagery/website/` |
+| 3 Nov | Shortened the reading measure to 52ch for running text and 44ch for leads (it was 68ch and 60ch). Measured in Mona Sans, 68ch held about 97 characters a line, well past the 45 to 75 that read comfortably; the new values hold about 74 and 63. | `DESIGN.md`, `design-system/tokens/` |
 
 ## Older rules that no longer apply
 

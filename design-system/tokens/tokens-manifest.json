@@ -11,7 +11,7 @@
   {
    "path": "tokens/tokens.css",
    "format": "CSS custom properties",
-   "description": "222 --aap-* properties on :root plus @font-face for Mona Sans and Mona Sans Mono.",
+   "description": "223 --aap-* properties on :root plus @font-face for Mona Sans and Mona Sans Mono.",
    "generated_from": "tokens/tokens.json"
   },
   {
