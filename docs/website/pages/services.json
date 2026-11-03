@@ -1,374 +1,374 @@
 {
-  "slug": "services",
-  "figmaPage": "03 · Services",
-  "phase": "Launch",
-  "route": "/services",
-  "purpose": "The hub. Let a founder pick one of three goals in seconds, see published starting prices, then browse every service and the industry packages.",
-  "primaryAction": {
-    "label": "See where AI can help",
-    "target": "/ai-check-up"
+ "slug": "services",
+ "figmaPage": "03 · Services",
+ "phase": "Launch",
+ "route": "/services",
+ "purpose": "The hub. Let a founder pick one of three goals in seconds, see published starting prices, then browse every service and the industry packages.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "Services | Alliance AI Partners",
+  "description": "Every Alliance AI Partners service, sorted by goal: scale AI, solve problems with AI, and grow. Published starting prices and ready-made packages for common industries."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "40:39",
+  "mobile": "42:1186"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "hero-text-led",
+   "ground": "daylight",
+   "job": "Say that every service sits under three goals, show the starting prices, and offer the one committing action.",
+   "desktop": "Split 1.08fr | 1fr: text (Display/XL title, Body/LG lead 560, Primary LG + link, caption) left; an unboxed price list right on Daylight (Heading/3 title, a strong top rule, four hairline price rows with mono prices, the AI-usage footnote and a link). No card in the hero. Never centred.",
+   "mobile": "Title, lead, full-width Primary, link, caption. The price card moves below the three goals (result first, price second).",
+   "content": {
+    "heading": "Three goals. One team.",
+    "accentWord": "team.",
+    "lead": "Every service we offer sits under one of three goals: scale AI across your company, solve the problems that slow your team down, or grow. Start with one service and add more when you need them.",
+    "body": [
+     "Every project gets a fixed quote before work starts, and you own what we build."
+    ],
+    "items": [
+     {
+      "title": "AI check-up",
+      "price": "From [PRICE]",
+      "link": "/ai-check-up"
+     },
+     {
+      "title": "AI automation",
+      "price": "From [PRICE] a project",
+      "link": "/services/ai-automation"
+     },
+     {
+      "title": "Websites and web apps",
+      "price": "From [PRICE]",
+      "link": "/services/websites"
+     },
+     {
+      "title": "Embedded developers",
+      "price": "From [PRICE] a month",
+      "link": "/services/embedded-developers"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "Browse every service",
+      "variant": "link",
+      "target": "#all-services"
+     },
+     {
+      "label": "Read the price list",
+      "variant": "link",
+      "target": "/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link"
+   ],
+   "images": []
   },
-  "seo": {
-    "title": "Services | Alliance AI Partners",
-    "description": "Every Alliance AI Partners service, sorted by goal: scale AI, solve problems with AI, and grow. Published starting prices and ready-made packages for common industries."
-  },
-  "states": [
-    "default"
-  ],
-  "frames": {
-    "desktop": "40:39",
-    "mobile": "42:1186"
-  },
-  "sections": [
+  {
+   "id": "goals",
+   "name": "Three goals",
+   "layout": "split-image-left",
+   "ground": "daylight",
+   "job": "The way in: one large split row per goal, image and text alternating sides, each listing its categories and linking to the goal page.",
+   "desktop": "Three rows, zig-zag: image 620x520 left (Scale AI), right (Solve problems with AI), left (Grow); text column with service icon, Heading/2, Body/LG lead, categories in a two-column hairline list, link. 96 px between rows.",
+   "mobile": "One column per goal: icon and title, lead, image under the lead re-cropped to 4:3 (358x268), categories as tags, link.",
+   "content": {
+    "items": [
+     {
+      "title": "Scale AI",
+      "text": "Plan, build and run AI across the company. We train your people to use it and add engineers when you need more hands.",
+      "meta": "Strategy and leadership · Training and adoption · Software and product engineering · Running AI for you · Robotics and physical AI · Talent and teams",
+      "link": "/services/scale-ai"
+     },
+     {
+      "title": "Solve problems with AI",
+      "text": "Fix the jobs that slow your team down: the copying, chasing and checking that fill a week. AI does the repetitive steps, and a person checks the result.",
+      "meta": "Automation and AI agents · Customer support · Knowledge and data · Design · Security and risk",
+      "link": "/services/solve-problems-with-ai"
+     },
+     {
+      "title": "Grow",
+      "text": "Win more customers, with AI doing the repetitive part of your marketing and sales. Your team spends its time on the people who buy.",
+      "meta": "Marketing · Sales and go-to-market · Online stores",
+      "link": "/services/grow"
+     }
+    ]
+   },
+   "components": [
+    "Service icon/Mono",
+    "Link",
+    "Tag (mobile)",
+    "Image slot"
+   ],
+   "images": [
     {
-      "id": "hero",
-      "name": "Hero",
-      "layout": "hero-text-led",
-      "ground": "daylight",
-      "job": "Say that every service sits under three goals, show the starting prices, and offer the one committing action.",
-      "desktop": "Split 1.08fr | 1fr: text (Display/XL title, Body/LG lead 560, Primary LG + link, caption) left; an unboxed price list right on Daylight (Heading/3 title, a strong top rule, four hairline price rows with mono prices, the AI-usage footnote and a link). No card in the hero. Never centred.",
-      "mobile": "Title, lead, full-width Primary, link, caption. The price card moves below the three goals (result first, price second).",
-      "content": {
-        "heading": "Three goals. One team.",
-        "accentWord": "team.",
-        "lead": "Every service we offer sits under one of three goals: scale AI across your company, solve the problems that slow your team down, or grow. Start with one service and add more when you need them.",
-        "body": [
-          "Every project gets a fixed quote before work starts, and you own what we build."
-        ],
-        "items": [
-          {
-            "title": "AI check-up",
-            "price": "From [PRICE]",
-            "link": "/ai-check-up"
-          },
-          {
-            "title": "AI automation",
-            "price": "From [PRICE] a project",
-            "link": "/services/ai-automation"
-          },
-          {
-            "title": "Websites and web apps",
-            "price": "From [PRICE]",
-            "link": "/services/websites-and-web-apps"
-          },
-          {
-            "title": "Embedded developers",
-            "price": "From [PRICE] a month",
-            "link": "/services/embedded-developers"
-          }
-        ],
-        "ctas": [
-          {
-            "label": "See where AI can help",
-            "variant": "primary",
-            "target": "/ai-check-up"
-          },
-          {
-            "label": "Browse every service",
-            "variant": "link",
-            "target": "#all-services"
-          },
-          {
-            "label": "Read the price list",
-            "variant": "link",
-            "target": "/pricing"
-          }
-        ]
-      },
-      "components": [
-        "Header",
-        "Button",
-        "Link"
-      ],
-      "images": []
+     "imageId": "IMG-03-1",
+     "slotName": "IMG-03-1 · Scale AI",
+     "kind": "new",
+     "aspectDesktop": "620x520 (about 6:5)",
+     "aspectMobile": "358x268 (4:3)",
+     "placement": "left of the Scale AI row; under the lead on mobile",
+     "textArea": "none (text sits beside the image)",
+     "alt": "One ribbon river branching into channels that reach every terrace of a faceted hillside.",
+     "source": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. At the upper left a single satin ribbon river in a gradient from Alliance Blue to Ribbon Cyan begins as one stream, then branches into many smaller ribbon channels that run down across a wide hillside of terraces built from flat paper facets in slate blues, so one source reaches every level: AI reaching every team in a company. Small faceted trees stand on each terrace, taller on the lower terraces where the channels have arrived. Calm open Daylight sky in the top quarter, nothing important near the edges. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
     },
     {
-      "id": "goals",
-      "name": "Three goals",
-      "layout": "split-image-left",
-      "ground": "daylight",
-      "job": "The way in: one large split row per goal, image and text alternating sides, each listing its categories and linking to the goal page.",
-      "desktop": "Three rows, zig-zag: image 620x520 left (Scale AI), right (Solve problems with AI), left (Grow); text column with service icon, Heading/2, Body/LG lead, categories in a two-column hairline list, link. 96 px between rows.",
-      "mobile": "One column per goal: icon and title, lead, image under the lead re-cropped to 4:3 (358x268), categories as tags, link.",
-      "content": {
-        "items": [
-          {
-            "title": "Scale AI",
-            "text": "Plan, build and run AI across the company. We train your people to use it and add engineers when you need more hands.",
-            "meta": "Strategy and leadership · Training and adoption · Software and product engineering · Running AI for you · Robotics and physical AI · Talent and teams",
-            "link": "/services/scale-ai"
-          },
-          {
-            "title": "Solve problems with AI",
-            "text": "Fix the jobs that slow your team down: the copying, chasing and checking that fill a week. AI does the repetitive steps, and a person checks the result.",
-            "meta": "Automation and AI agents · Customer support · Knowledge and data · Design · Security and risk",
-            "link": "/services/solve-problems-with-ai"
-          },
-          {
-            "title": "Grow",
-            "text": "Win more customers, with AI doing the repetitive part of your marketing and sales. Your team spends its time on the people who buy.",
-            "meta": "Marketing · Sales and go-to-market · Online stores",
-            "link": "/services/grow"
-          }
-        ]
-      },
-      "components": [
-        "Service icon/Mono",
-        "Link",
-        "Tag (mobile)",
-        "Image slot"
-      ],
-      "images": [
-        {
-          "imageId": "IMG-03-1",
-          "slotName": "IMG-03-1 · Scale AI",
-          "kind": "new",
-          "aspectDesktop": "620x520 (about 6:5)",
-          "aspectMobile": "358x268 (4:3)",
-          "placement": "left of the Scale AI row; under the lead on mobile",
-          "textArea": "none (text sits beside the image)",
-          "alt": "One ribbon river branching into channels that reach every terrace of a faceted hillside.",
-          "source": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. At the upper left a single satin ribbon river in a gradient from Alliance Blue to Ribbon Cyan begins as one stream, then branches into many smaller ribbon channels that run down across a wide hillside of terraces built from flat paper facets in slate blues, so one source reaches every level: AI reaching every team in a company. Small faceted trees stand on each terrace, taller on the lower terraces where the channels have arrived. Calm open Daylight sky in the top quarter, nothing important near the edges. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
-        },
-        {
-          "imageId": "IMG-03-2",
-          "slotName": "IMG-03-2 · Solve problems",
-          "kind": "new",
-          "aspectDesktop": "620x520 (about 6:5)",
-          "aspectMobile": "358x268 (4:3)",
-          "placement": "right of the Solve problems with AI row; under the lead on mobile",
-          "textArea": "none (text sits beside the image)",
-          "alt": "Faceted boulders lifted aside so a ribbon stream runs straight through a clear channel.",
-          "source": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. A satin ribbon stream in a gradient from Alliance Blue to Ribbon Cyan used to be blocked by a jumble of flat faceted boulders in Partner Navy and slate blue. The boulders have been lifted and stacked neatly to one side, and the ribbon now runs straight and smooth through the cleared channel toward the lower right: the slow work moved out of the way. A few folded paper leaves ride the current. Calm Daylight space in the upper third. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
-        },
-        {
-          "imageId": "IMG-03-3",
-          "slotName": "IMG-03-3 · Grow",
-          "kind": "new",
-          "aspectDesktop": "620x520 (about 6:5)",
-          "aspectMobile": "358x268 (4:3)",
-          "placement": "left of the Grow row; under the lead on mobile",
-          "textArea": "none (text sits beside the image)",
-          "alt": "Paper blossoms opening one after another along a climbing ribbon vine.",
-          "source": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. A satin ribbon vine in a gradient from Alliance Blue to Ribbon Cyan climbs from the lower left to the upper right. Along it, flat folded paper blossoms open one after another, from closed buds near the bottom to full open blooms near the top, each a little larger than the last: more customers over time. Faceted leaves in slate blue and Partner Navy along the vine. Calm Daylight space along the right edge. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
-        }
-      ]
+     "imageId": "IMG-03-2",
+     "slotName": "IMG-03-2 · Solve problems",
+     "kind": "new",
+     "aspectDesktop": "620x520 (about 6:5)",
+     "aspectMobile": "358x268 (4:3)",
+     "placement": "right of the Solve problems with AI row; under the lead on mobile",
+     "textArea": "none (text sits beside the image)",
+     "alt": "Faceted boulders lifted aside so a ribbon stream runs straight through a clear channel.",
+     "source": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. A satin ribbon stream in a gradient from Alliance Blue to Ribbon Cyan used to be blocked by a jumble of flat faceted boulders in Partner Navy and slate blue. The boulders have been lifted and stacked neatly to one side, and the ribbon now runs straight and smooth through the cleared channel toward the lower right: the slow work moved out of the way. A few folded paper leaves ride the current. Calm Daylight space in the upper third. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
     },
     {
-      "id": "all-services",
-      "name": "Full list",
-      "layout": "list-rows",
-      "ground": "navy",
-      "job": "Every service by goal and category, with Private AI marked not available yet and the four priced services linked to their pages.",
-      "desktop": "Navy chapter. Asymmetric head (Heading/1). One block per goal: a hairline header row (dark service icon, Heading/2, link right), then categories in three columns of hairline rows (Heading/4 category, Body/SM service names). Priced services carry a mono starting price line and an underlined Ribbon Cyan name.",
-      "mobile": "Head stacked. Per goal: Heading/3 and link, then one accordion item per category; the first category open with its services listed.",
-      "content": {
-        "heading": "Every service, in one list.",
-        "lead": "Sorted by goal and category. Each goal’s page says what every service does. All are available now except Private AI.",
-        "items": [
-          {
-            "title": "Scale AI · Strategy and leadership",
-            "text": "AI strategy and roadmap; AI check-up (From [PRICE]); Fractional Chief AI Officer; AI governance and compliance"
-          },
-          {
-            "title": "Scale AI · Training and adoption",
-            "text": "AI training and workshops; AI assistant rollout; AI in tools you already pay for"
-          },
-          {
-            "title": "Scale AI · Software and product engineering",
-            "text": "AI software engineering and web development (Websites from [PRICE]); MVPs and prototypes; Mobile apps; AI features for your product; SaaS products; Fixing AI-built apps; Legacy system updates; AI connectors (MCP)"
-          },
-          {
-            "title": "Scale AI · Running AI for you",
-            "text": "AI-as-a-Service; Managed AI operations; Private AI (not available yet); Custom model training; AI testing and quality checks"
-          },
-          {
-            "title": "Scale AI · Robotics and physical AI",
-            "text": "AI robotics; Computer vision; Predictive maintenance; Warehouse and logistics automation; Digital twins"
-          },
-          {
-            "title": "Scale AI · Talent and teams",
-            "text": "Agency services; Embedded developers (developer staffing) (From [PRICE] a month); Dedicated AI teams; AI-powered virtual assistants; White-label services for agencies"
-          },
-          {
-            "title": "Solve problems with AI · Automation and AI agents",
-            "text": "AI integration and automation (Projects from [PRICE]); AI agents; Teams of AI agents; Document processing; AI for older software; Back-office automation; Meeting assistants"
-          },
-          {
-            "title": "Solve problems with AI · Customer support",
-            "text": "AI-assisted support; Website and app chat assistants; AI voice agents and receptionists; Messaging assistants; Help desk automation; Call insights; Multilingual support"
-          },
-          {
-            "title": "Solve problems with AI · Knowledge and data",
-            "text": "Knowledge assistants; Data cleanup and pipelines; Talk to your data; Forecasting; Recommendations and personalization"
-          },
-          {
-            "title": "Solve problems with AI · Design",
-            "text": "UI/UX design powered by AI; Prototypes and user testing; Chat and voice design"
-          },
-          {
-            "title": "Solve problems with AI · Security and risk",
-            "text": "AI security testing; Fraud and anomaly detection; Security monitoring with AI"
-          },
-          {
-            "title": "Grow · Marketing",
-            "text": "Lead generation; Marketing campaigns; AI search visibility (GEO); SEO and content; Paid ads; Social media; Email marketing; AI images and video; Video translation and voiceovers"
-          },
-          {
-            "title": "Grow · Sales and go-to-market",
-            "text": "Go-to-market (GTM) strategy; Sales support; AI sales agents; CRM automation and lead scoring; Proposal and RFP automation; Customer retention"
-          },
-          {
-            "title": "Grow · Online stores",
-            "text": "Product content; Shopping assistants; Selling through AI assistants"
-          }
-        ]
-      },
-      "components": [
-        "Service icon/Dark",
-        "Link",
-        "Tag",
-        "Accordion item (mobile)"
-      ],
-      "images": []
-    },
-    {
-      "id": "industries",
-      "name": "Industry packages",
-      "layout": "table",
-      "ground": "daylight",
-      "job": "Offer the ready-made industry packages as a second way in, with the compliance review called out.",
-      "desktop": "Asymmetric head, then a two-column hairline table (Industry 360 | Popular AI solutions). The four industries with their own pages are underlined links. Secondary button below.",
-      "mobile": "Head stacked; the table becomes stacked rows (industry, then solutions) with hairlines; full-width Secondary button.",
-      "content": {
-        "heading": "Ready-made for your industry.",
-        "lead": "We package popular services for specific industries. Projects in healthcare, finance, insurance and legal start with a privacy and compliance review, because those industries have stricter rules about data.",
-        "table": {
-          "columns": [
-            "Industry",
-            "Popular AI solutions"
-          ],
-          "rows": [
-            [
-              "Healthcare and clinics",
-              "AI receptionists, appointment reminders, patient intake, note-taking for doctors during visits"
-            ],
-            [
-              "Legal",
-              "Contract review, legal research, document drafting, client intake"
-            ],
-            [
-              "Finance and accounting",
-              "Invoice processing, bookkeeping help, expense checks, monthly reports"
-            ],
-            [
-              "Insurance",
-              "Claims intake, document checks"
-            ],
-            [
-              "Real estate",
-              "Lead follow-up, listing descriptions, virtual staging"
-            ],
-            [
-              "Online stores and retail",
-              "Product content, shopping assistants, recommendations, customer support"
-            ],
-            [
-              "Restaurants and hospitality",
-              "Phone orders, reservations"
-            ],
-            [
-              "Home services and local businesses",
-              "Call answering and job booking"
-            ],
-            [
-              "HR and recruiting",
-              "Resume screening and interview scheduling"
-            ],
-            [
-              "Manufacturing and logistics",
-              "Quality checks, predictive maintenance, demand forecasting, route planning"
-            ],
-            [
-              "Education and training",
-              "AI tutors and course creation"
-            ]
-          ]
-        },
-        "ctas": [
-          {
-            "label": "See all industries",
-            "variant": "secondary",
-            "target": "/industries"
-          }
-        ]
-      },
-      "components": [
-        "Link",
-        "Button"
-      ],
-      "images": []
-    },
-    {
-      "id": "cta",
-      "name": "Closing CTA",
-      "layout": "cta-band",
-      "ground": "navy",
-      "job": "Close with the AI check-up for anyone who has not picked a goal.",
-      "desktop": "Full-bleed band 1440x680 with the ribbon-river background; navy scrim from the top left; text block top left (Display/LG, lead, Primary, email link) over the scrim, the river visible in the lower right.",
-      "mobile": "390x720, scrim from the top, text at the top, full-width Primary; the river shows in the lower third.",
-      "content": {
-        "heading": "Tell us what slows you down.",
-        "accentWord": "slows",
-        "lead": "Start with the AI check-up, our usual first project. We learn how your business works, find where AI could save you time or money, and hand you a plan with a fixed quote. If the answer doesn’t involve AI, we’ll say so.",
-        "ctas": [
-          {
-            "label": "See where AI can help",
-            "variant": "primary",
-            "target": "/ai-check-up"
-          },
-          {
-            "label": "hello@allianceaipartners.example",
-            "variant": "link",
-            "target": "mailto:hello@allianceaipartners.example"
-          }
-        ]
-      },
-      "components": [
-        "Image slot",
-        "Button"
-      ],
-      "images": [
-        {
-          "imageId": "IMG-03-4",
-          "slotName": "IMG-03-4 · Ribbon river",
-          "kind": "existing",
-          "source": "design-system/imagery/backgrounds/ribbon-river.webp",
-          "aspectDesktop": "1440x680 full bleed",
-          "aspectMobile": "390x720, crop to the river in the lower third",
-          "placement": "background with a navy scrim from the top left",
-          "textArea": "top left (desktop), top half (mobile), white text on the scrim",
-          "alt": ""
-        }
-      ]
+     "imageId": "IMG-03-3",
+     "slotName": "IMG-03-3 · Grow",
+     "kind": "new",
+     "aspectDesktop": "620x520 (about 6:5)",
+     "aspectMobile": "358x268 (4:3)",
+     "placement": "left of the Grow row; under the lead on mobile",
+     "textArea": "none (text sits beside the image)",
+     "alt": "Paper blossoms opening one after another along a climbing ribbon vine.",
+     "source": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. A satin ribbon vine in a gradient from Alliance Blue to Ribbon Cyan climbs from the lower left to the upper right. Along it, flat folded paper blossoms open one after another, from closed buds near the bottom to full open blooms near the top, each a little larger than the last: more customers over time. Faceted leaves in slate blue and Partner Navy along the vine. Calm Daylight space along the right edge. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
     }
-  ],
-  "notes": "Hub page. The three goals come first (Brand DNA note 1), the full list second. Starting prices appear only as [PRICE]; Private AI is marked not available yet. The hero carries the page’s Primary; the closing band carries the second, out of view of the first. No sourced figures on this page, so no source list. Review 2026-11-03: the hero price card is now an unboxed ruled list (no cards in the hero) and its sub-line was cut; the full-list lead no longer repeats the hero’s “start with one service”; one-word last lines in six headings balanced with soft line breaks.",
-  "sectionIds": {
-    "desktop": {
-      "hero": "40:130",
-      "goals": "40:180",
-      "all-services": "41:744",
-      "industries": "41:984",
-      "cta": "41:1054"
+   ]
+  },
+  {
+   "id": "all-services",
+   "name": "Full list",
+   "layout": "list-rows",
+   "ground": "navy",
+   "job": "Every service by goal and category, with Private AI marked not available yet and the four priced services linked to their pages.",
+   "desktop": "Navy chapter. Asymmetric head (Heading/1). One block per goal: a hairline header row (dark service icon, Heading/2, link right), then categories in three columns of hairline rows (Heading/4 category, Body/SM service names). Priced services carry a mono starting price line and an underlined Ribbon Cyan name.",
+   "mobile": "Head stacked. Per goal: Heading/3 and link, then one accordion item per category; the first category open with its services listed.",
+   "content": {
+    "heading": "Every service, in one list.",
+    "lead": "Sorted by goal and category. Each goal’s page says what every service does. All are available now except Private AI.",
+    "items": [
+     {
+      "title": "Scale AI · Strategy and leadership",
+      "text": "AI strategy and roadmap; AI check-up (From [PRICE]); Fractional Chief AI Officer; AI governance and compliance"
+     },
+     {
+      "title": "Scale AI · Training and adoption",
+      "text": "AI training and workshops; AI assistant rollout; AI in tools you already pay for"
+     },
+     {
+      "title": "Scale AI · Software and product engineering",
+      "text": "AI software engineering and web development (Websites from [PRICE]); MVPs and prototypes; Mobile apps; AI features for your product; SaaS products; Fixing AI-built apps; Legacy system updates; AI connectors (MCP)"
+     },
+     {
+      "title": "Scale AI · Running AI for you",
+      "text": "AI-as-a-Service; Managed AI operations; Private AI (not available yet); Custom model training; AI testing and quality checks"
+     },
+     {
+      "title": "Scale AI · Robotics and physical AI",
+      "text": "AI robotics; Computer vision; Predictive maintenance; Warehouse and logistics automation; Digital twins"
+     },
+     {
+      "title": "Scale AI · Talent and teams",
+      "text": "Agency services; Embedded developers (developer staffing) (From [PRICE] a month); Dedicated AI teams; AI-powered virtual assistants; White-label services for agencies"
+     },
+     {
+      "title": "Solve problems with AI · Automation and AI agents",
+      "text": "AI integration and automation (Projects from [PRICE]); AI agents; Teams of AI agents; Document processing; AI for older software; Back-office automation; Meeting assistants"
+     },
+     {
+      "title": "Solve problems with AI · Customer support",
+      "text": "AI-assisted support; Website and app chat assistants; AI voice agents and receptionists; Messaging assistants; Help desk automation; Call insights; Multilingual support"
+     },
+     {
+      "title": "Solve problems with AI · Knowledge and data",
+      "text": "Knowledge assistants; Data cleanup and pipelines; Talk to your data; Forecasting; Recommendations and personalization"
+     },
+     {
+      "title": "Solve problems with AI · Design",
+      "text": "UI/UX design powered by AI; Prototypes and user testing; Chat and voice design"
+     },
+     {
+      "title": "Solve problems with AI · Security and risk",
+      "text": "AI security testing; Fraud and anomaly detection; Security monitoring with AI"
+     },
+     {
+      "title": "Grow · Marketing",
+      "text": "Lead generation; Marketing campaigns; AI search visibility (GEO); SEO and content; Paid ads; Social media; Email marketing; AI images and video; Video translation and voiceovers"
+     },
+     {
+      "title": "Grow · Sales and go-to-market",
+      "text": "Go-to-market (GTM) strategy; Sales support; AI sales agents; CRM automation and lead scoring; Proposal and RFP automation; Customer retention"
+     },
+     {
+      "title": "Grow · Online stores",
+      "text": "Product content; Shopping assistants; Selling through AI assistants"
+     }
+    ]
+   },
+   "components": [
+    "Service icon/Dark",
+    "Link",
+    "Tag",
+    "Accordion item (mobile)"
+   ],
+   "images": []
+  },
+  {
+   "id": "industries",
+   "name": "Industry packages",
+   "layout": "table",
+   "ground": "daylight",
+   "job": "Offer the ready-made industry packages as a second way in, with the compliance review called out.",
+   "desktop": "Asymmetric head, then a two-column hairline table (Industry 360 | Popular AI solutions). The four industries with their own pages are underlined links. Secondary button below.",
+   "mobile": "Head stacked; the table becomes stacked rows (industry, then solutions) with hairlines; full-width Secondary button.",
+   "content": {
+    "heading": "Ready-made for your industry.",
+    "lead": "We package popular services for specific industries. Projects in healthcare, finance, insurance and legal start with a privacy and compliance review, because those industries have stricter rules about data.",
+    "table": {
+     "columns": [
+      "Industry",
+      "Popular AI solutions"
+     ],
+     "rows": [
+      [
+       "Healthcare and clinics",
+       "AI receptionists, appointment reminders, patient intake, note-taking for doctors during visits"
+      ],
+      [
+       "Legal",
+       "Contract review, legal research, document drafting, client intake"
+      ],
+      [
+       "Finance and accounting",
+       "Invoice processing, bookkeeping help, expense checks, monthly reports"
+      ],
+      [
+       "Insurance",
+       "Claims intake, document checks"
+      ],
+      [
+       "Real estate",
+       "Lead follow-up, listing descriptions, virtual staging"
+      ],
+      [
+       "Online stores and retail",
+       "Product content, shopping assistants, recommendations, customer support"
+      ],
+      [
+       "Restaurants and hospitality",
+       "Phone orders, reservations"
+      ],
+      [
+       "Home services and local businesses",
+       "Call answering and job booking"
+      ],
+      [
+       "HR and recruiting",
+       "Resume screening and interview scheduling"
+      ],
+      [
+       "Manufacturing and logistics",
+       "Quality checks, predictive maintenance, demand forecasting, route planning"
+      ],
+      [
+       "Education and training",
+       "AI tutors and course creation"
+      ]
+     ]
     },
-    "mobile": {
-      "hero": "42:1225",
-      "goals": "42:1239",
-      "prices": "42:1324",
-      "all-services": "42:1361",
-      "industries": "42:1504",
-      "cta": "42:1547"
+    "ctas": [
+     {
+      "label": "See all industries",
+      "variant": "secondary",
+      "target": "/industries"
+     }
+    ]
+   },
+   "components": [
+    "Link",
+    "Button"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the AI check-up for anyone who has not picked a goal.",
+   "desktop": "Full-bleed band 1440x680 with the ribbon-river background; navy scrim from the top left; text block top left (Display/LG, lead, Primary, email link) over the scrim, the river visible in the lower right.",
+   "mobile": "390x720, scrim from the top, text at the top, full-width Primary; the river shows in the lower third.",
+   "content": {
+    "heading": "Tell us what slows you down.",
+    "accentWord": "slows",
+    "lead": "Start with the AI check-up, our usual first project. We learn how your business works, find where AI could save you time or money, and hand you a plan with a fixed quote. If the answer doesn’t involve AI, we’ll say so.",
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "hello@allianceaipartners.example",
+      "variant": "link",
+      "target": "mailto:hello@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Button"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-03-4",
+     "slotName": "IMG-03-4 · Ribbon river",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/ribbon-river.webp",
+     "aspectDesktop": "1440x680 full bleed",
+     "aspectMobile": "390x720, crop to the river in the lower third",
+     "placement": "background with a navy scrim from the top left",
+     "textArea": "top left (desktop), top half (mobile), white text on the scrim",
+     "alt": ""
     }
+   ]
   }
+ ],
+ "notes": "Hub page. The three goals come first (Brand DNA note 1), the full list second. Starting prices appear only as [PRICE]; Private AI is marked not available yet. The hero carries the page’s Primary; the closing band carries the second, out of view of the first. No sourced figures on this page, so no source list. Review 2026-11-03: the hero price card is now an unboxed ruled list (no cards in the hero) and its sub-line was cut; the full-list lead no longer repeats the hero’s “start with one service”; one-word last lines in six headings balanced with soft line breaks.",
+ "sectionIds": {
+  "desktop": {
+   "hero": "40:130",
+   "goals": "40:180",
+   "all-services": "41:744",
+   "industries": "41:984",
+   "cta": "41:1054"
+  },
+  "mobile": {
+   "hero": "42:1225",
+   "goals": "42:1239",
+   "prices": "42:1324",
+   "all-services": "42:1361",
+   "industries": "42:1504",
+   "cta": "42:1547"
+  }
+ }
 }

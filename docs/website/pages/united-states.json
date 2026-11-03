@@ -98,19 +98,19 @@
      {
       "title": "Scale AI",
       "text": "Plan, build and run AI across the company, with your people trained to use it.",
-      "link": "/scale-ai",
+      "link": "/services/scale-ai",
       "linkLabel": "See how we scale AI"
      },
      {
       "title": "Solve problems with AI",
       "text": "Fix the jobs that slow your team down: the copying, chasing and checking that fill a week.",
-      "link": "/solve-problems-with-ai",
+      "link": "/services/solve-problems-with-ai",
       "linkLabel": "See how we solve problems with AI"
      },
      {
       "title": "Grow",
       "text": "Win more customers, with AI doing the repetitive part of your marketing and sales.",
-      "link": "/grow",
+      "link": "/services/grow",
       "linkLabel": "See how we help you grow"
      }
     ]

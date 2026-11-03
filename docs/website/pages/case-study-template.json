@@ -64,14 +64,13 @@
      "value": "[Date]"
     }
    ],
-   "desktop": "Padding 80 top. Split 1.08fr | 1fr, top-aligned: text column 652 (Display/LG title on two lines, Body/LG standfirst at 600, a meta row below: Tag, Body/SM line, small link; then the Info alert, full column width) | the ‘At a glance’ card (604): Heading/4 and six term/value rows on hairlines. 56 below, the cover image across the 1320 container (1320x520, 18 px corners).",
-   "mobile": "Title, standfirst, meta row (wraps), the alert, the cover re-cropped to 4:3 (358x268), then the ‘At a glance’ card with the rows stacked term over value.",
+   "desktop": "Padding 80 top. Split 1.08fr | 1fr, top-aligned: text column 652 (Display/LG title on two lines, Body/LG standfirst at 600, a meta row below: Tag, Body/SM line, small link; then the Info alert, full column width) | the ‘At a glance’ facts list (604; a plain list, not a card, since the hero holds no cards): Heading/4 and six term/value rows on hairlines. 56 below, the cover image across the 1320 container (1320x520, 18 px corners).",
+   "mobile": "Title, standfirst, meta row (wraps), the alert, the cover re-cropped to 4:3 (358x268), then the ‘At a glance’ facts list (no card) with the rows stacked term over value.",
    "components": [
     "Header",
     "Tag",
     "Link",
     "Alert (Info)",
-    "Card",
     "Image slot"
    ],
    "images": [
@@ -335,5 +334,5 @@
    }
   }
  ],
- "notes": "Template only: every partner detail, result, date, quote and service list is a bracketed placeholder ([Partner name], [Industry], [Country], [Result], [Quote, approved by the partner], [Name], [Role], [date]); nothing is invented. The Info alert marks the frame as a template and is removed on a real case study. The four steps use the Brand DNA names (Understand, Plan, Build, Run and grow). Results follow the price-claim rules: a Source key on each figure, a dated source line, approval by the partner. One Primary (the closing band); the hero has none, the header keeps its Secondary outline and no nav item is marked current. The ribbon appears twice: the Steps component and the rule in the closing band. Build 2026-11-03: both frames pass the lint (node 37:851) with no findings, before and after the last text edits; the mobile frame has no layer wider than 390. Headings and the quote were set on balanced lines by hand (in code, text-wrap: balance). No existing background is used, so the template adds no repeated image."
+ "notes": "Template only: every partner detail, result, date, quote and service list is a bracketed placeholder ([Partner name], [Industry], [Country], [Result], [Quote, approved by the partner], [Name], [Role], [date]); nothing is invented. The Info alert marks the frame as a template and is removed on a real case study. The four steps use the Brand DNA names (Understand, Plan, Build, Run and grow). Results follow the price-claim rules: a Source key on each figure, a dated source line, approval by the partner. One Primary (the closing band); the hero has none, the header keeps its Secondary outline and no nav item is marked current. The ribbon appears twice: the Steps component and the rule in the closing band. Build 2026-11-03: both frames pass the lint (node 37:851) with no findings, before and after the last text edits; the mobile frame has no layer wider than 390. Headings and the quote were set on balanced lines by hand (in code, text-wrap: balance). No existing background is used, so the template adds no repeated image. Outside review 2026-11-03: the ‘At a glance’ facts sat in a white raised card inside the hero, which broke the no-cards-in-the-hero rule and pulled the eye from the headline; the card chrome (fill, hairline, shadow, radius, padding) was removed on both frames (96:661, 97:968, now named ‘At a glance’), leaving a hairline-ruled facts list whose values fill the column. Both frames re-linted with no findings. The desktop Info alert now wraps to three lines because the Alert component’s body carries the 496 px measure cap; that is intended."
 }

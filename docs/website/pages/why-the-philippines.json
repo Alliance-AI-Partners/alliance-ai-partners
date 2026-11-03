@@ -273,7 +273,7 @@
      {
       "label": "How we handle your data",
       "variant": "link",
-      "target": "/data-and-security"
+      "target": "/trust"
      }
     ],
     "sources": [
@@ -458,7 +458,7 @@
      {
       "label": "Read how we handle data",
       "variant": "link",
-      "target": "/data-and-security"
+      "target": "/trust"
      }
     ]
    },
