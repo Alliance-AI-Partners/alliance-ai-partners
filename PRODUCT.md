@@ -60,8 +60,9 @@ Success on the website: a founder starts an "AI check-up", the short, low-risk f
 
 ## Evidence on Hand
 
-- Brand DNA & Foundation v2.1: [AllianceAIPartners/Brand DNA & Foundation.md](AllianceAIPartners/Brand%20DNA%20%26%20Foundation.md), with the pitch, taglines, price rules and sourced market figures (IBPAP 2025, EF EPI 2025, Clutch September 2026, BLS, ONS, Jobs and Skills Australia).
-- Logo suite, original recreations, brand graphics and print masters: [docs/brand-kit/](docs/brand-kit/) (branch `brand-kit`), plus the Figma file "Alliance AI Partners — Logo Suite".
+- Brand DNA & Foundation v2.2: [AllianceAIPartners/Brand DNA & Foundation.md](AllianceAIPartners/Brand%20DNA%20%26%20Foundation.md), with the pitch, taglines, price rules and sourced market figures (IBPAP 2025, EF EPI 2025, Clutch September 2026, BLS, ONS, Jobs and Skills Australia).
+- Logo suite, original recreations, brand graphics and print masters: [docs/brand-kit/](docs/brand-kit/), plus the Figma file [Alliance AI Partners — Logo Suite](https://www.figma.com/design/rXNPaaMds46oWgM64QPRI6/Alliance-AI-Partners-%E2%80%94-Logo-Suite), whose Brand Colors variables use the CSS names from `design-system/tokens/tokens.css` as their code syntax.
+- Decision history (what was chosen, when, and which older rules it replaced): [AllianceAIPartners/Decision Log.md](AllianceAIPartners/Decision%20Log.md).
 - Palette source of truth: [docs/brand-kit/_build/palette.json](docs/brand-kit/_build/palette.json).
 - Not available, and never to be invented: partner names or logos, testimonials, case studies, results figures, published prices, team photos or headcounts. Use clearly marked placeholders until real material exists.
 

@@ -1,5 +1,8 @@
 # Logo explorations
 
+> [!NOTE]
+> Archived exploration. None of these logos was chosen. The final logo is the 3D A+P ribbon mark in `docs/brand-kit/` and in the Figma file [Alliance AI Partners — Logo Suite](https://www.figma.com/design/rXNPaaMds46oWgM64QPRI6/Alliance-AI-Partners-%E2%80%94-Logo-Suite). Keep these files for the record, but don't take marks, colors or fonts from them. The directions they were drawn from were removed from Design System Directions on 28 October 2026; they are in git history (commit `252bfc1`). See the [Decision Log](../Decision%20Log.md).
+
 Logos for the top directions in [Design System Directions](../Design%20System%20Directions.md), made with four different tools. Each tool has its own folder, each direction has a numbered folder inside it, and every file name starts with the direction and the tool, so a file stays labeled even if it's moved.
 
 ## Where each tool's logos are

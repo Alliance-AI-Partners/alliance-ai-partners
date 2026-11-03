@@ -148,9 +148,11 @@ to their pixel grid instead.
 
 ## Colour
 
-One unified palette, "{BRAND['name']}" (`_build/palette.json`; the Figma library's Brand Colors variables hold the
-same 14 colours). The six core colours keep the brand board's exact values, so every CMYK build and PANTONE reference
-is unchanged; only their names changed, to tell one story: A for Alliance, P for Partner, and the ribbon between them.
+One unified palette, "{BRAND['name']}" (`_build/palette.json`; the Brand Colors variables in the Figma file
+[Alliance AI Partners — Logo Suite](https://www.figma.com/design/rXNPaaMds46oWgM64QPRI6/Alliance-AI-Partners-%E2%80%94-Logo-Suite)
+hold the same 14 colours, and their code syntax uses the CSS names in `design-system/tokens/tokens.css`). The six
+core colours keep the brand board's exact values, so every CMYK build and PANTONE reference is unchanged; only their
+names changed, to tell one story: A for Alliance, P for Partner, and the ribbon between them.
 
 {md_table(["Colour", "Formerly", "Hex", "RGB", "CMYK (Coated GRACoL 2006)", "PANTONE coated", "PANTONE uncoated"], core_rows)}
 

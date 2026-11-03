@@ -1,5 +1,8 @@
 Alliance AI Partners · Big idea options · Draft, October 2026
 
+> [!NOTE]
+> Historical note, kept for its research. We chose The Ribbon as our big idea on 2 November 2026, not Joinery. Where this note disagrees with the finished brand, the [Decision Log](Decision%20Log.md) says which applies.
+
 This note collects options for our big idea: the one picture or story that will shape the logo, visual identity, and design system. Nothing here is final. The wolf pack and constellation idea from the earlier [Brand DNA](Brand%20DNA%20%26%20Foundation.md) is included as option 15, so it can be compared fairly with the rest.
 
 ## The short answer
