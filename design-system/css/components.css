@@ -1034,13 +1034,24 @@ a.aap-card:hover {
   }
 }
 
+/* Phones: the nav and the header's action move into the menu sheet (Figma: Header, Viewport=Mobile, and Header / Mobile menu),
+   so the bar holds the logo at its minimum size and the menu button. */
+.aap-header__menu {
+  display: none;
+}
+
 @media (max-width: 639px) {
   .aap-footer__grid {
     grid-template-columns: 1fr;
   }
 
-  .aap-nav {
+  .aap-nav,
+  .aap-header__bar > .aap-button:not(.aap-header__menu) {
     display: none;
+  }
+
+  .aap-header__menu {
+    display: inline-flex;
   }
 }
 
