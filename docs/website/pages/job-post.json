@@ -1,0 +1,256 @@
+{
+ "slug": "job-post",
+ "figmaPage": "31 · Job post",
+ "phase": "Next",
+ "route": "/careers/<job>",
+ "purpose": "The job post template, shown with one sample role (Sample role: Full-stack developer): what the role does, what you bring, how we work, pay and location, and an application form with consent. Marked as a sample throughout.",
+ "primaryAction": {
+  "label": "Apply for this role",
+  "target": "#apply"
+ },
+ "seo": {
+  "title": "Sample role: Full-stack developer | Alliance AI Partners",
+  "description": "A sample job post from Alliance AI Partners: build web apps and AI tools inside partner teams in the US, Australia and the UK. Remote, Philippines. Full time."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "87:39",
+  "mobile": "88:308"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "hero-text-led",
+   "ground": "daylight",
+   "job": "Name the role, mark it as a sample, say what the job is in one sentence, and offer the one committing action, with the key facts in a strip below.",
+   "desktop": "Text-led: Heading/1 title (page title on a simple page), Body/LG lead 640, Primary LG + link to all roles; then a full-width facts strip (hairlines top and bottom, four cells split by hairlines): Location, Type, Pay (Data/Mono), Status.",
+   "mobile": "Title set on two lines (Sample role: / Full-stack developer) so it never breaks at the hyphen; lead; Primary full width LG; link; the facts strip becomes a 2 x 2 grid with hairlines.",
+   "content": {
+    "heading": "Sample role: Full-stack developer",
+    "accentWord": null,
+    "lead": "Build web apps and AI tools for partners in the US, Australia and the UK, as part of their team, and keep them running after launch.",
+    "items": [
+     {
+      "title": "Location",
+      "text": "Remote, Philippines"
+     },
+     {
+      "title": "Type",
+      "text": "Full time"
+     },
+     {
+      "title": "Pay",
+      "text": "[salary range]"
+     },
+     {
+      "title": "Status",
+      "text": "Sample role, not open"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Apply for this role",
+      "variant": "primary",
+      "target": "#apply"
+     },
+     {
+      "label": "See all roles",
+      "variant": "link",
+      "target": "/careers#roles"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "role",
+   "name": "The role",
+   "layout": "split-sticky",
+   "ground": "daylight",
+   "job": "Say what the person will do and what they bring, with the hiring steps beside it.",
+   "desktop": "Article 760 (Heading/2 'What you will do' and 'What you bring', each a check list with hairlines) | sticky aside card 440 on the right: How hiring works (four numbered steps, marked sample) and a Secondary 'Apply for this role'.",
+   "mobile": "Both lists stack; the hiring steps follow as their own card after the lists; the Secondary button sits in the card.",
+   "content": {
+    "heading": "What you will do",
+    "items": [
+     {
+      "text": "Build web apps and AI features for partners, from the first version to launch."
+     },
+     {
+      "text": "Connect partner tools to AI assistants and to automation platforms such as Make, n8n and Zapier."
+     },
+     {
+      "text": "Work inside the partner’s team: their tools, their stand-ups and their standards."
+     },
+     {
+      "text": "Keep what you built running after launch, and improve it over time."
+     },
+     {
+      "text": "Write down how it works, clearly enough for a new hire to follow."
+     }
+    ],
+    "body": [
+     "What you bring",
+     "Experience building and running web apps that real customers use, front end and back end.",
+     "Good judgment with AI coding tools: you use them for the repetitive work and check what they write.",
+     "Clear written English. Partners read what you write every week.",
+     "Care with data. Partner data stays where the partner decides.",
+     "Nice to have: Next.js, TypeScript, or experience connecting tools to AI assistants."
+    ],
+    "faq": [],
+    "ctas": [
+     {
+      "label": "Apply for this role",
+      "variant": "secondary",
+      "target": "#apply"
+     }
+    ]
+   },
+   "aside": {
+    "heading": "How hiring works",
+    "items": [
+     {
+      "title": "Apply",
+      "text": "Your links and a short note."
+     },
+     {
+      "title": "First call",
+      "text": "A [30-minute] call about your work and ours."
+     },
+     {
+      "title": "Work sample",
+      "text": "A short task, reviewed by the people you would work with."
+     },
+     {
+      "title": "Offer",
+      "text": "A decision within [one week], either way."
+     }
+    ],
+    "note": "Sample process."
+   },
+   "components": [
+    "Card",
+    "Icon/check",
+    "Button"
+   ],
+   "images": []
+  },
+  {
+   "id": "how-we-work",
+   "name": "How we work",
+   "layout": "list-rows",
+   "ground": "navy",
+   "job": "Show the ways of working that apply to every role.",
+   "desktop": "Navy chapter. Heading/1 head, then a two-column check list (three rows each) with hairlines and Ribbon Cyan checks.",
+   "mobile": "Head stacked; one column of six check rows.",
+   "content": {
+    "heading": "How we work.",
+    "accentWord": null,
+    "lead": "The same ways of working on every project, whatever the role.",
+    "items": [
+     {
+      "text": "You work inside the partner’s team, in their tools and to their standards."
+     },
+     {
+      "text": "A person reviews every piece of work before it reaches a partner."
+     },
+     {
+      "text": "Partners see progress every week."
+     },
+     {
+      "text": "We try new AI tools on our own business first, and keep only what proves itself."
+     },
+     {
+      "text": "Everything is written down, clearly enough for a new hire to follow."
+     },
+     {
+      "text": "If AI isn’t the right answer, we say so. Bad news goes out early, with a plan to fix it."
+     }
+    ]
+   },
+   "components": [
+    "Icon/check"
+   ],
+   "images": []
+  },
+  {
+   "id": "apply",
+   "name": "Apply",
+   "layout": "form",
+   "ground": "daylight",
+   "job": "Take the application (name, email, links, message, consent), clearly marked as a sample form.",
+   "desktop": "Split: text column 560 (Heading/2, Body/LG lead, Info alert marking the sample) | white form card (name and email side by side, links, message, consent, Primary LG).",
+   "mobile": "Title, lead, alert, then the form card at full width; Primary full width LG.",
+   "content": {
+    "heading": "Apply for this role.",
+    "accentWord": null,
+    "lead": "Send your links and a short note. We reply to every application within [one week].",
+    "body": [
+     "This is a sample role. The form shows how applying will work; it doesn’t send anything until real roles open.",
+     "Read how we handle your details in our privacy notice."
+    ],
+    "form": {
+     "fields": [
+      {
+       "label": "Full name",
+       "type": "text",
+       "placeholder": "Your name",
+       "required": true
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "placeholder": "name@example.com",
+       "required": true
+      },
+      {
+       "label": "Links to your work",
+       "type": "url",
+       "placeholder": "https://",
+       "help": "GitHub, a portfolio or LinkedIn.",
+       "required": true
+      },
+      {
+       "label": "Tell us about something you built",
+       "type": "textarea",
+       "placeholder": "What it does, who uses it, and what you did.",
+       "help": "A few lines is plenty.",
+       "required": true
+      },
+      {
+       "label": "I agree that Alliance AI Partners may keep my application to consider me for this role.",
+       "type": "checkbox",
+       "required": true
+      }
+     ],
+     "submit": "Send application"
+    }
+   },
+   "components": [
+    "Alert",
+    "Card",
+    "Field",
+    "Textarea",
+    "Checkbox",
+    "Button",
+    "Link"
+   ],
+   "images": []
+  }
+ ],
+ "notes": "Template for every job post, shown with one sample role. The sample is marked in the title ('Sample role:'), in the facts strip (Status: Sample role, not open), on the hiring steps ('Sample process') and by an Info alert beside the form. Pay stays [salary range]; the hiring times stay [30-minute] and [one week] (owner check). Location 'Remote, Philippines' and 'Full time' belong to the sample role only. Duties and ways of working come from the Brand DNA (services list: AI software engineering, Make, n8n and Zapier automation, AI connectors; values; review and weekly-progress commitments). 'Nice to have' tools are part of the sample. No images: a simple page. One Primary in the hero and one on the form (desktop y 329 and 3087; mobile 344 and 4145); the aside apply button is Secondary. Header marks About as current. Lint clean on both frames; no overflow on mobile.",
+ "mobileOrder": [
+  "hero",
+  "role",
+  "how-we-work",
+  "apply"
+ ]
+}

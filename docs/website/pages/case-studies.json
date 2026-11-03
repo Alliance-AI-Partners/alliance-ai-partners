@@ -1,0 +1,232 @@
+{
+ "slug": "case-studies",
+ "figmaPage": "35 · Case studies",
+ "phase": "Later",
+ "route": "/case-studies",
+ "purpose": "Say honestly that no case studies are published yet, show what each one will contain and the rules it will follow (a real partner, their own numbers, a source and a date for every result, approved by the partner), and offer the sample report and the AI check-up instead.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "Case studies | Alliance AI Partners",
+  "description": "No case studies yet. Each one we publish will show a real partner’s results, measured in their own numbers and approved by them, with a source and a date for every figure. Until then, read the sample AI check-up report."
+ },
+ "states": [
+  "default (empty: no case studies published)"
+ ],
+ "frames": {
+  "desktop": "94:638",
+  "mobile": "94:2744"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "split-image-right",
+   "ground": "daylight",
+   "job": "Say plainly that there are no case studies yet and why that is on purpose, then offer the one committing action and the sample report.",
+   "heading": "Real results only.",
+   "accentWord": "only.",
+   "lead": "We haven’t published a case study yet. Each one we publish will show a real partner’s results, measured in their own numbers and approved by them.",
+   "body": [
+    "The sample report shows what an AI check-up finds, written for a fictional company."
+   ],
+   "ctas": [
+    {
+     "label": "See where AI can help",
+     "variant": "primary",
+     "target": "/ai-check-up"
+    },
+    {
+     "label": "Read the sample report",
+     "variant": "link",
+     "target": "/ai-check-up/sample"
+    }
+   ],
+   "desktop": "Hero split 1.08fr | 1fr (padding 96 top, 128 bottom): text column 652 (Display/XL title with one accent word, Body/LG lead at 560, Primary LG + underlined link, Body/SM note at 460) | the image 604x560 on the right, vertically centred.",
+   "mobile": "Title, lead, full-width Primary LG, the link centred under it, the note, then the image re-cropped to 4:5 (358x420) last.",
+   "components": [
+    "Header",
+    "Button (Primary, LG)",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-35-1",
+     "slotName": "IMG-35-1 · Empty plinths",
+     "kind": "new",
+     "aspectDesktop": "604x560 (about 1:1)",
+     "aspectMobile": "4:5 (358x420)",
+     "placement": "right half of the hero split on desktop; last in the hero on mobile, under the actions",
+     "textArea": "none (text sits beside the image); keep the upper half calm",
+     "alt": "Three empty faceted paper plinths with a satin ribbon across them.",
+     "source": "Editorial still life on a calm Daylight background, seen at eye level from slightly above. Three plinths folded from flat faceted paper in white and pale blue-grey stand in a loose row across the lower half, each a little different in height, their tops bare and clean: space kept ready for results that are not in yet. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs in a loose, gentle curve across the front of the plinths from the lower left and rises toward the upper right, like a ribbon waiting to be cut at an opening. A few small faceted paper leaves rest on the ribbon where it touches the floor. The upper half is calm, open Daylight. Nearly square, about 1:1 (604x560), safe to crop to 4:5 (358x420) around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "figma": {
+      "desktop": "94:703",
+      "mobile": "94:2797"
+     }
+    }
+   ],
+   "figma": {
+    "desktop": "94:687",
+    "mobile": "94:2783"
+   }
+  },
+  {
+   "id": "what-a-case-study-shows",
+   "name": "What a case study shows",
+   "layout": "list-rows",
+   "ground": "daylight",
+   "job": "Show what each case study will contain, and show the empty list honestly: a placeholder card where the first approved case study will appear.",
+   "heading": "What each case study will show. (desktop set on two lines: ‘What each case’ / ‘study will show.’; mobile: ‘What each case study’ / ‘will show.’)",
+   "lead": "Every case study follows the same four parts, so each one is quick to read and easy to check.",
+   "items": [
+    {
+     "title": "The problem",
+     "text": "What was slow or stuck, what it cost the partner, and what they had tried before."
+    },
+    {
+     "title": "What we did",
+     "text": "The four steps: understand, plan, build, run and grow. We say so when part of the fix needed no AI."
+    },
+    {
+     "title": "The results",
+     "text": "Measured in the partner’s own numbers, agreed before we started. Each result shows its source and the date it was measured."
+    },
+    {
+     "title": "In the partner’s words",
+     "text": "A quote from the partner, approved by them before we publish it."
+    }
+   ],
+   "emptyState": {
+    "card": {
+     "title": "[What changed, in one line]",
+     "meta": "Tag [Industry] · [Partner name] · [Country] (below the title)",
+     "stat": {
+      "value": "[Result]",
+      "caption": "[What the result measures]",
+      "key": "1"
+     },
+     "source": "[Source], measured [date]. Approved by [Partner name]."
+    },
+    "note": "The first case study will appear here once the partner has approved it."
+   },
+   "desktop": "Asymmetric section head (Heading/2 0.9fr | Body/LG lead 1.1fr), 48 below: four numbered hairline rows (616: mono number, Heading/4, Body/Default at 560) | the empty list (grow): a dashed hairline outline, 18 px corners, holding one placeholder card (white, the Ribbon rule along its top edge as the page’s one ribbon signature; Heading/3 title first, then a meta row with the [Industry] Tag and the Body/SM line, a Stat with Source key 1 and a one-line source list) and the Body/SM note below it. Nothing sits above the card title.",
+   "mobile": "Head stacked; the empty list with its placeholder card first (it is the proof that nothing is invented), then the four rows.",
+   "components": [
+    "Section head",
+    "Tag",
+    "Stat",
+    "Source key + Source list",
+    "Ribbon rule",
+    "Card"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "source": "Placeholder case-study card drawn from library parts (Card, Ribbon rule, Tag, Stat, Source key) inside a dashed empty-list outline; no raster."
+    }
+   ],
+   "figma": {
+    "desktop": "94:707",
+    "mobile": "94:2801"
+   }
+  },
+  {
+   "id": "rules",
+   "name": "Rules",
+   "layout": "split-sticky",
+   "ground": "navy",
+   "job": "Hold case studies to the price-claim rules in a form a reader can check: real partners, their own numbers, a source and a date for every result, approved before it goes up.",
+   "heading": "Four rules for every case study. (set on two lines: ‘Four rules for’ / ‘every case study.’)",
+   "accentWord": "rules",
+   "lead": "A case study is a claim about results, so it follows the same rules as our prices: real numbers, each with a source and a date.",
+   "items": [
+    {
+     "title": "Real partners, real work.",
+     "text": "Every case study is about a partner we worked with and work we did. Samples, like the sample report, are marked as samples."
+    },
+    {
+     "title": "Measured in their numbers.",
+     "text": "Before we start, we agree with the partner on what success looks like, using their own numbers. The case study reports against those."
+    },
+    {
+     "title": "A source and a date for every result.",
+     "text": "Each result says where the figure came from, such as the partner’s order system, and when it was measured."
+    },
+    {
+     "title": "Approved before it goes up.",
+     "text": "The partner reads the whole case study and approves every word, figure and quote before we publish it."
+    }
+   ],
+   "ctas": [
+    {
+     "label": "How we handle partner data",
+     "variant": "link",
+     "target": "/trust"
+    }
+   ],
+   "desktop": "A whole Partner Navy chapter, split: title block 560 (Heading/1 with the cyan accent word, Body/LG lead, cyan underlined link) | four hairline rows (grow), each a cyan check icon, Heading/4 and Body/Default at 600.",
+   "mobile": "Title, lead, the four rows in one column, then the link.",
+   "components": [
+    "Icon/check",
+    "Link"
+   ],
+   "images": [],
+   "figma": {
+    "desktop": "94:754",
+    "mobile": "94:2846"
+   }
+  },
+  {
+   "id": "until-then",
+   "name": "Until then",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Give the reader something real to look at now: the sample report, the AI check-up and a person to talk to.",
+   "heading": "Until then, see what we find. (mobile set on two lines: ‘Until then,’ / ‘see what we find.’)",
+   "lead": "The sample report shows what the AI check-up delivers, written for a fictional company. A real check-up does the same for your business.",
+   "items": [
+    {
+     "title": "The sample report",
+     "text": "Four opportunities ranked by what each would save, a fixed quote for the first fix, and where we would not use AI. Every figure is a placeholder, so nothing in it reads as a real result.",
+     "link": "Read the sample report → /ai-check-up/sample"
+    },
+    {
+     "title": "Book an AI check-up",
+     "text": "Our usual first project: a short review of where AI could save your team time or money, with a report like the sample.",
+     "link": "Book your AI check-up (Secondary) → /ai-check-up#book"
+    },
+    {
+     "title": "Talk to a person first",
+     "text": "Tell us what slows your team down, and a person from our team will reply.",
+     "link": "Contact us → /contact"
+    }
+   ],
+   "desktop": "Section head, then a bento: one large white card (700) with a product visual on top (a Neutral 50 well holding the top of the sample report page: its title first, then the Tag ‘Sample report’ and mono ‘[Partner name] · [Date]’, then the four ranked rows from page 34, row 1 tinted 10% Ribbon Cyan, cropped at the well’s foot) and Heading/3, Body/Default, link below | two stacked cards (Service icon, Heading/3, Body/Default, then a Secondary button or a link).",
+   "mobile": "Head stacked; the sample report card (preview well 358 wide: title, Tag, three ranked rows with the saving under each opportunity, cropped), then the check-up card with a full-width Secondary button, then the contact card.",
+   "components": [
+    "Section head",
+    "Card",
+    "Tag",
+    "Service icon/research-insights",
+    "Service icon/partnership",
+    "Button (Secondary)",
+    "Link"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "source": "Product visual of the sample report (page 34) drawn in Figma: a white page inside a Neutral 50 well with the Tag, title and the four ranked rows; no raster."
+    }
+   ],
+   "figma": {
+    "desktop": "94:789",
+    "mobile": "94:2879"
+   }
+  }
+ ],
+ "notes": "Honest empty state: no partner names, logos, quotes, results or numbers anywhere; every bracketed item is a placeholder and the only card is labelled by its brackets and the note under it. One Primary (the hero); the header keeps its Secondary outline and no nav item is marked current, since Case studies is not in the main nav. The ribbon signature appears once (the rule on the placeholder card). One image slot (simple page). The sample report preview repeats the real ranked rows from page 34 so the two pages agree. The four rules come from the Brand DNA (values: agree what success looks like using the partner’s own numbers; price rules: every number gets a source and a date; only publish numbers you can prove) plus the brief’s requirement that results are approved by the partner. Build 2026-11-03: both frames pass the lint (node 37:851) with no findings; the mobile frame has no layer wider than 390. Headings were set on balanced lines by hand (in code, text-wrap: balance). The 10% Ribbon Cyan row in the report preview is bound to Core/Ribbon Cyan with the resolved cyan as its base colour: the toolkit’s K.tint leaves the base colour black, which renders as a 10% black (grey) row. Review fix: the Tags on the placeholder card and in the report preview moved below their titles (the No Label Above rule); both frames re-linted with no findings."
+}

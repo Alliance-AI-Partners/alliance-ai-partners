@@ -16,7 +16,10 @@
  "states": [
   "default"
  ],
- "frames": {},
+ "frames": {
+  "desktop": "82:11506",
+  "mobile": "83:343"
+ },
  "sections": [
   {
    "id": "hero",
@@ -27,7 +30,7 @@
    "desktop": "Header (Services marked current). Hero grid 1.08fr | 1fr: text column 652 (Display/XL title with one accent word in regular weight, Body/LG lead 560, the page’s one Primary LG + an underlined link, a meta line in UI/Caption with a small UI icon) | image slot 604x560 on the right. 96 top, 128 bottom.",
    "mobile": "Title, lead, full-width LG Primary, centred link, then the image re-cropped to 4:5 (358x448), then the meta line. 48 top, 72 bottom.",
    "content": {
-    "heading": "Calls answered. Jobs booked.",
+    "heading": "Calls taken. Jobs booked.",
     "lead": "An AI receptionist answers your calls in a natural voice, asks what the customer needs and books the job into your calendar. When a caller needs a person, it takes a message for you.",
     "accentWord": "booked.",
     "body": [
@@ -63,7 +66,11 @@
      "aspectMobile": "4:5 (358x448)",
      "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line",
      "textArea": "none (text sits beside the image); keep the top third calm",
-     "alt": "A ribbon road winds between small faceted tree groves at early evening."
+     "alt": "A ribbon road winds between small faceted tree groves at early evening.",
+     "figma": {
+      "desktop": "82:11559",
+      "mobile": "83:420"
+     }
     }
    ]
   },
@@ -146,7 +153,11 @@
      "aspectMobile": "16:10 (358x224)",
      "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile",
      "textArea": "none (text sits below the image in the card); keep the top third calm",
-     "alt": "A swallow on a ribbon curl answers a second swallow flying in."
+     "alt": "A swallow on a ribbon curl answers a second swallow flying in.",
+     "figma": {
+      "desktop": "82:11607",
+      "mobile": "83:465"
+     }
     }
    ],
    "note": "Package items are the Brand DNA list for this industry (Ready-made solutions by industry); each line reuses the matching service’s Brand DNA meaning."
@@ -349,7 +360,7 @@
    "desktop": "Daylight section holding one large white card (28px radius, 64 padding, raised shadow with the lit edge): text column | the swallow (Graphic/Swallow, 360x288). Display/LG title with one accent, Body/LG lead (620), two check-up facts in mono between hairlines (From [PRICE] · [two weeks]), then the closing Primary (LG) and a link. This Primary is far below the hero Primary, never in the same screenful.",
    "mobile": "Card with 24 padding: title, lead, full-width Primary, link, the two facts as hairline rows, the swallow small (144x115) at the lower right.",
    "content": {
-    "heading": "Find what’s worth automating first.",
+    "heading": "See what to automate first.",
     "lead": "The AI check-up is our usual first project. We learn how your business works, find where AI could save you time or money, and hand you a written plan with a fixed quote for the first fix.",
     "accentWord": "first.",
     "items": [
@@ -392,5 +403,5 @@
    ]
   }
  ],
- "notes": "Built from the shared industry template. The Brand DNA package is \"Call answering and job booking\"; the third card (messages for your team) is part of the Brand DNA AI voice agents service (\"takes messages\"), not a new package item. The sample call names no times beyond \"after you’ve finished for the day\" and no results. No promise that every call is answered."
+ "notes": "Built from the shared industry template. The Brand DNA package is \"Call answering and job booking\"; the third card (messages for your team) is part of the Brand DNA AI voice agents service (\"takes messages\"), not a new package item. The sample call names no times beyond \"after you’ve finished for the day\" and no results. No promise that every call is answered. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
 }

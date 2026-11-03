@@ -78,7 +78,7 @@
     "newsletterDesktop": "65:732",
     "newsletterMobile": "65:898"
   },
-  "canvas": "One Figma page, one row per system page: desktop at x 0, mobile at x 1600. Rows at y 0 (404), y 2800 (error) and y 5600 (newsletter confirmed). The brief suggested rows 1600 apart, but a mobile system page with the full mobile footer (1231 px) is about 2300 px tall, so rows 1600 apart would overlap.",
+  "canvas": "One Figma page, one row per system page: desktop at x 0, mobile at x 1600. Rows at y 0 (404), y 2800 (error) and y 5600 (newsletter confirmed). The brief suggested rows 1600 apart, but with the full mobile footer (1299 px since the footer update on 2026-11-03) the mobile frames are 2368 to 2554 px tall, so rows 1600 apart would overlap; 2800 apart they clear.",
   "sections": [
     {
       "id": "not-found",
@@ -257,7 +257,7 @@
           },
           {
             "title": "How often",
-            "text": "[Once a month], from hello@allianceaipartners.example. Add it to your contacts so Insights doesn’t land in spam."
+            "text": "Arrives [once a month] from hello@allianceaipartners.example. Add the address to your contacts so Insights doesn’t land in spam."
           },
           {
             "title": "Your email",
@@ -296,5 +296,5 @@
       ]
     }
   ],
-  "notes": "Copy follows Brand DNA section 5: the result first, plain words, 'we will'. Nothing is invented: the newsletter name and contents come from brand-kit/emails/newsletter.html (Insights: a lead story, two short stories, one sourced figure, the AI check-up call to action); its cadence stays a placeholder, [once a month]. Placeholders kept: [request ID], [9 am to 6 pm], [once a month], [email address]. Contact details are the template samples and are marked as samples. Each page has one Primary and one visual (the swallow on the 404, the ribbon rule on the error and newsletter pages) and no raster image slots. The error page's Secondary is 'Try again' rather than a link to /contact, because the contact details are on the page itself; the newsletter page's Secondary goes to the Insights index, the natural next read. All three pages carry the full header and footer, so the footer’s links stay one tap away."
+  "notes": "Copy follows Brand DNA section 5: the result first, plain words, 'we will'. Nothing is invented: the newsletter name and contents come from brand-kit/emails/newsletter.html (Insights: a lead story, two short stories, one sourced figure, the AI check-up call to action); its cadence stays a placeholder, [once a month]. Placeholders kept: [request ID], [9 am to 6 pm], [once a month], [email address]. Contact details are the template samples and are marked as samples. Each page has one Primary and one visual (the swallow on the 404, the ribbon rule on the error and newsletter pages) and no raster image slots. The error page's Secondary is 'Try again' rather than a link to /contact, because the contact details are on the page itself; the newsletter page's Secondary goes to the Insights index, the natural next read. All three pages carry the full header and footer, so the footer’s links stay one tap away. The cadence placeholder appears only as [once a month], never capitalised, so it can be found and filled in one search."
 }

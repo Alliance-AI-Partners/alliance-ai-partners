@@ -1,0 +1,394 @@
+{
+ "slug": "brand",
+ "figmaPage": "32 · Brand and press",
+ "phase": "Next",
+ "route": "/brand",
+ "purpose": "Give press, partners and event organisers what they need to show Alliance AI Partners correctly: the logo kit and how to use it, the colours with their values, the type, the boilerplate and a press contact.",
+ "primaryAction": {
+  "label": "Download the logo kit",
+  "target": "/downloads/alliance-ai-partners-logo-kit.zip"
+ },
+ "seo": {
+  "title": "Brand and press | Alliance AI Partners",
+  "description": "Download the Alliance AI Partners logo kit, see how to use the logo, the colours and the type, copy the boilerplate and reach our press contact."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "90:53",
+  "mobile": "93:551"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "split-image-right",
+   "ground": "daylight",
+   "job": "Say what the page is for and offer the logo kit download as the one committing action.",
+   "desktop": "Hero grid 1.08fr | 1fr: text column 652 (Display/XL title, Body/LG lead, Primary LG with the download icon + link, a Data/Mono file line) | the brand board as a framed product visual, 604x378 (16:10), radius 18.",
+   "mobile": "Title, lead, Primary full width LG, link, file line; the brand board under the actions at 358x224.",
+   "content": {
+    "heading": "The right logo, every time.",
+    "accentWord": "time.",
+    "lead": "The press and brand kit for Alliance AI Partners: the logo kit, the colours and type, and our boilerplate.",
+    "body": [
+     "SVG, PNG and ICO · ZIP · 920 KB"
+    ],
+    "ctas": [
+     {
+      "label": "Download the logo kit",
+      "variant": "primary",
+      "target": "/downloads/alliance-ai-partners-logo-kit.zip"
+     },
+     {
+      "label": "Email our press contact",
+      "variant": "link",
+      "target": "mailto:press@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-32-1",
+     "slotName": "IMG-32-1 · Brand board",
+     "kind": "existing",
+     "source": "brand-kit/brand-board.png",
+     "aspectDesktop": "604x378 (16:10; the file is 3300x2065)",
+     "aspectMobile": "358x224 (16:10)",
+     "placement": "right half of the hero split, framed (radius 18); under the actions on mobile",
+     "alt": "The Alliance AI Partners brand board: the logo on navy, its clear space, the homepage, a voice line, the colours, the type, merchandise, imagery and the system.",
+     "textArea": "none (text sits beside the image)"
+    }
+   ]
+  },
+  {
+   "id": "press-kit",
+   "name": "Press kit",
+   "layout": "split-sticky",
+   "ground": "navy",
+   "job": "Put the press essentials first: the downloads, the boilerplate and a person to ask.",
+   "desktop": "Navy chapter. Heading/1 head, then two columns: Download rows (628) | boilerplate (Heading/3, Body/LG, a one-line version, Secondary 'Copy the boilerplate') above a hairline and the press contact (Heading/3, Ribbon Cyan underlined email, Body/SM note).",
+   "mobile": "Head; the Download rows (name and meta set to wrap inside the row); the boilerplate at Body/Default with a full-width Secondary copy button; the press contact.",
+   "content": {
+    "heading": "Press kit.",
+    "accentWord": null,
+    "lead": "The files, the words, and a person to ask.",
+    "items": [
+     {
+      "title": "Logo kit",
+      "meta": "SVG, PNG and ICO · ZIP · 920 KB"
+     },
+     {
+      "title": "Brand guide",
+      "meta": "PDF · [size]"
+     },
+     {
+      "title": "Press photos",
+      "meta": "To come"
+     }
+    ],
+    "body": [
+     "Alliance AI Partners is an AI company based in the Philippines. It works as part of its partners’ teams in the United States, Australia and the United Kingdom, helping them scale AI, solve business problems with AI and grow. Its team automates slow work, builds AI software and support tools, and adds developers when partners need more hands, then stays to keep everything running and help partners win more customers.",
+     "One line: Alliance AI Partners helps companies put AI to work so they can grow faster.",
+     "press@allianceaipartners.example",
+     "Sample address until our domain is chosen. We reply within [one working day]."
+    ],
+    "ctas": [
+     {
+      "label": "Copy the boilerplate",
+      "variant": "secondary",
+      "target": "copy"
+     }
+    ]
+   },
+   "components": [
+    "Download row",
+    "Button",
+    "Link"
+   ],
+   "images": [],
+   "note": "The logo kit's size is the real file (brand-kit/downloads/alliance-ai-partners-logo-kit.zip, 942,389 bytes, 90 files: 57 SVG, 30 PNG, an ICO, the webmanifest and a README). The brand guide PDF does not exist yet, so its size stays [size]; press photos are 'To come'."
+  },
+  {
+   "id": "logo",
+   "name": "Logo",
+   "layout": "gallery-strip",
+   "ground": "daylight",
+   "job": "Show the logo suite on Daylight and on navy, and the marks for small spaces.",
+   "desktop": "Asymmetric head; two large specimen tiles 648x360 (white with a hairline: Logo/Primary horizontal/Full colour light at 72 px; Partner Navy: Full colour dark), each with a name and the file name in Data/Mono; then a row of four small tiles 312x200 (Mark light and dark, Flat mark light and dark at 64 px), each with a caption.",
+   "mobile": "Head; the two large tiles full width (358x200); the four marks as a 2 x 2 grid of 171x128 tiles.",
+   "content": {
+    "heading": "One logo, two grounds.",
+    "accentWord": null,
+    "lead": "Use the full-colour logo on Daylight or white, and the dark version on Partner Navy. Both come as SVG and PNG in the logo kit.",
+    "items": [
+     {
+      "title": "Full colour, for Daylight and white",
+      "meta": "alliance-ai-partners-primary-horizontal-full-color-light.svg"
+     },
+     {
+      "title": "Full colour dark, for Partner Navy",
+      "meta": "alliance-ai-partners-primary-horizontal-full-color-dark.svg"
+     },
+     {
+      "title": "Mark"
+     },
+     {
+      "title": "Mark, dark"
+     },
+     {
+      "title": "Flat mark"
+     },
+     {
+      "title": "Flat mark, dark"
+     }
+    ]
+   },
+   "components": [
+    "Logo/Primary horizontal/Full colour light",
+    "Logo/Primary horizontal/Full colour dark",
+    "Logo/Mark/Full colour light",
+    "Logo/Mark/Full colour dark",
+    "Logo/Mark/Flat light",
+    "Logo/Mark/Flat dark"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "source": "Logo components 10:37, 11:37, 13:12, 13:25, 13:6, 13:11 on specimen tiles (never with a shadow)"
+    }
+   ]
+  },
+  {
+   "id": "logo-use",
+   "name": "Using the logo",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Show clear space and minimum sizes, and four common mistakes.",
+   "desktop": "Head; two columns: a clear-space diagram (the light logo inside a dashed box with x marked, x = 0.287 x the mark's height) and a minimum-size table (Artwork | Screen | Print, Data/Mono values) | a 2 x 2 grid of 'Don't' tiles with an x-circle icon and a caption: rotated, recoloured, light logo on navy, the name typed in place of the logo.",
+   "mobile": "Head; the diagram; the table as stacked rows; the four Don't tiles as a 2 x 2 grid.",
+   "content": {
+    "heading": "Give it room.",
+    "accentWord": "room.",
+    "lead": "Keep clear space on every side, keep it above its minimum size, and use it as drawn.",
+    "body": [
+     "Clear space: x = 0.287 × the mark’s height, on every side. Nothing else goes inside it."
+    ],
+    "table": {
+     "columns": [
+      "Artwork",
+      "Screen",
+      "Print"
+     ],
+     "rows": [
+      [
+       "Horizontal logo",
+       "200 px wide",
+       "40 mm wide"
+      ],
+      [
+       "3D mark",
+       "48 px high",
+       "15 mm high"
+      ],
+      [
+       "Flat or one-colour mark",
+       "32 px high",
+       "20 mm high"
+      ],
+      [
+       "Favicon micro-mark",
+       "16 px high",
+       "5 mm high"
+      ]
+     ]
+    },
+    "items": [
+     {
+      "title": "Don’t rotate it."
+     },
+     {
+      "title": "Don’t change its colours."
+     },
+     {
+      "title": "Don’t put the light logo on navy."
+     },
+     {
+      "title": "Don’t type the name as a logo."
+     }
+    ]
+   },
+   "components": [
+    "Logo/Primary horizontal/Full colour light",
+    "Table (K.table)",
+    "Icon/x-circle",
+    "Icon/check-circle"
+   ],
+   "images": [],
+   "note": "Clear space and minimum sizes come from docs/brand-kit/README.md (Logo suite). The typed-name rule is in CLAUDE.md: never type the company name as a stand-in for the logo."
+  },
+  {
+   "id": "colours",
+   "name": "Colours",
+   "layout": "gallery-strip",
+   "ground": "navy",
+   "job": "Give the palette with names, values in mono and each colour's job; the shading tones; the Daybreak gradient.",
+   "desktop": "Navy chapter (so every swatch, Ribbon Cyan included, sits on a ground where it is allowed). Heading/1 head; five swatches 248 wide (tile 248x200, radius 18; Partner Navy gets a hairline edge) with name (Heading/4), hex, RGB and CMYK in Data/Mono and the colour's job in Body/SM; the eight shading tones as chips with token name and hex in Data/Mono; the Daybreak bar with its rule; a Print Black note.",
+   "mobile": "Head; each swatch becomes a row (72 px tile beside name and values); the shading chips as a 4 x 2 grid; the Daybreak bar full width.",
+   "content": {
+    "heading": "Colours with a job each.",
+    "accentWord": null,
+    "lead": "Daylight and Partner Navy are the grounds. Alliance Blue marks the one action that commits, and Ribbon Cyan is the ribbon’s light.",
+    "items": [
+     {
+      "title": "Partner Navy",
+      "meta": "#121B2A · RGB 18 27 42 · CMYK 56 28 0 93",
+      "text": "Type on light grounds, and the navy chapters."
+     },
+     {
+      "title": "Daylight",
+      "meta": "#F4F7FB · RGB 244 247 251 · CMYK 4 2 0 0",
+      "text": "The page ground."
+     },
+     {
+      "title": "Pure White",
+      "meta": "#FFFFFF · RGB 255 255 255 · CMYK 0 0 0 0",
+      "text": "Cards, fields and menus."
+     },
+     {
+      "title": "Alliance Blue",
+      "meta": "#1B56FF · RGB 27 86 255 · CMYK 84 64 0 0",
+      "text": "The one action that commits, once per view."
+     },
+     {
+      "title": "Ribbon Cyan",
+      "meta": "#00D5FF · RGB 0 213 255 · CMYK 62 0 3 0",
+      "text": "The ribbon’s light: links and accents on navy. Never text on light grounds."
+     }
+    ],
+    "body": [
+     "Eight shading tones build the 3D mark. Use them inside the mark’s artwork, not as new colours.",
+     "partner-30 #1A2D4E · partner-38 #2E4265 · partner-46 #42587C · partner-50 #4D6388 · alliance-38 #243F7B · alliance-46 #244EB6 · alliance-50 #2153D8 · ribbon-57 #006DF5",
+     "Daybreak runs from Partner Navy through Alliance Blue to Ribbon Cyan, for hero bands and brand graphics, never behind small text.",
+     "Print Black (#000000) is for one-ink print only, never on screen."
+    ]
+   },
+   "components": [
+    "Brand Colors variables (swatch fills are bound)"
+   ],
+   "images": [],
+   "note": "Values from docs/brand-kit/README.md (Colour) and docs/brand-kit/_build/palette.json. Shading tones are named by their token (lowercase) so the page never shortens the company name."
+  },
+  {
+   "id": "type",
+   "name": "Type",
+   "layout": "table",
+   "ground": "daylight",
+   "job": "Show Mona Sans at its roles and sizes, and the wordmark rule.",
+   "desktop": "Head; four hairline rows: role and spec (Body/Strong + Data/Mono, 360) | a sample set in the real style (Display/LG, Heading/2, Body/LG, Data/Mono); then a two-column note row (the wordmark rule | the licence).",
+   "mobile": "Head; each row stacks the spec over its sample; the notes stack.",
+   "content": {
+    "heading": "Mona Sans, at three widths.",
+    "accentWord": null,
+    "lead": "Mona Sans sets every word on screen: wide for headlines, normal width for reading. Mona Sans Mono sets prices, sources, times and codes.",
+    "items": [
+     {
+      "title": "Display",
+      "meta": "Mona Sans Expanded · 620 · 40 to 68 px",
+      "text": "Put AI to work."
+     },
+     {
+      "title": "Headings",
+      "meta": "Mona Sans Semi-expanded · 600 · 28 to 52 px",
+      "text": "Honest prices, published up front."
+     },
+     {
+      "title": "Text",
+      "meta": "Mona Sans · 400 · 16 to 21 px",
+      "text": "We build the AI tools and software your business needs, then help you use them to grow."
+     },
+     {
+      "title": "Mono",
+      "meta": "Mona Sans Mono · 420 · 13 to 14 px",
+      "text": "9:41 am · #1B56FF · [PRICE] · Retrieved 2026-11-02"
+     }
+    ],
+    "body": [
+     "The wordmark is drawn in Montserrat Bold and lives only in the logo files. Never type the name in its place.",
+     "Mona Sans and Mona Sans Mono are free to use under the SIL Open Font License 1.1."
+    ]
+   },
+   "components": [
+    "Text styles Display/LG, Heading/2, Body/LG, Data/Mono"
+   ],
+   "images": [],
+   "note": "Sizes from DESIGN.md (Typography). In the Figma file Cascadia Mono stands in for Mona Sans Mono."
+  },
+  {
+   "id": "merch",
+   "name": "Merch",
+   "layout": "mosaic",
+   "ground": "daylight",
+   "job": "Show the brand applied to merchandise, honestly labelled as mockups.",
+   "desktop": "Head; a mosaic of three images of different sizes: tote 760x640 on the left | notebook 536x308 over mug 536x308 on the right (24 gap).",
+   "mobile": "Head; one large (tote 358x358) and one small (notebook 358x200).",
+   "content": {
+    "heading": "The brand on things people keep.",
+    "accentWord": null,
+    "lead": "Mockups made to test the logo on merchandise. Nothing here is for sale."
+   },
+   "components": [
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-32-2",
+     "slotName": "IMG-32-2 · Tote",
+     "kind": "existing",
+     "source": "brand-kit/merch/mockups/tote.webp (1200x1200)",
+     "aspectDesktop": "760x640 (centre crop of the square)",
+     "aspectMobile": "358x358",
+     "placement": "large left tile of the mosaic",
+     "alt": "Mockup: a canvas tote printed with the logo and a ribbon line."
+    },
+    {
+     "imageId": "IMG-32-3",
+     "slotName": "IMG-32-3 · Notebook",
+     "kind": "existing",
+     "source": "brand-kit/merch/mockups/notebook.webp (1200x1200)",
+     "aspectDesktop": "536x308 (centre crop)",
+     "aspectMobile": "358x200",
+     "placement": "top right of the mosaic; the small image on mobile",
+     "alt": "Mockup: a navy notebook with the mark embossed and a cyan ribbon bookmark."
+    },
+    {
+     "imageId": "IMG-32-4",
+     "slotName": "IMG-32-4 · Mug",
+     "kind": "existing",
+     "source": "brand-kit/merch/mockups/mug.webp (1200x1200)",
+     "aspectDesktop": "536x308 (centre crop)",
+     "aspectMobile": "dropped on mobile",
+     "placement": "bottom right of the mosaic",
+     "alt": "Mockup: a white mug with the full-colour mark and a ribbon line."
+    }
+   ]
+  }
+ ],
+ "notes": "Header marks About as current. The page's one Primary is the logo kit download in the hero (desktop y 478, mobile 354); Copy the boilerplate is Secondary. Images: all existing rasters, presented three ways: the brand board as a framed product visual in the hero split (IMG-32-1), and a mosaic of merch mockups of different sizes (IMG-32-2 tote, IMG-32-3 notebook, IMG-32-4 mug; mobile drops the mug). Logos, marks and colour swatches are real components and bound variables, not images. Specimen tiles are white with a hairline or Partner Navy; they show artwork, not section grounds. The Colours section is a navy chapter so the Ribbon Cyan swatch never sits on a light ground; the Daybreak bar's gradient stops are bound to the Partner Navy, Alliance Blue and Ribbon Cyan variables. Facts: clear space, minimum sizes, colour values (hex, RGB, CMYK) and the Print Black rule come from docs/brand-kit/README.md and palette.json; type sizes from DESIGN.md; the licence from design-system/README.md; the logo kit size from the real file (942,389 bytes). The boilerplate is built from the Brand DNA's 'Who we are' and elevator pitch, and the one-line version is its one-sentence pitch. Placeholders kept: [size] for the brand guide PDF (not made yet), 'To come' for press photos, [one working day] for the press reply time (owner check), and the sample address press@allianceaipartners.example. The four Don't tiles show a rotated logo, a recoloured (grey) logo, the light logo on navy and the name typed in Mona Sans; none adds a shadow or glow. Lint clean on both frames (three long-measure texts narrowed on desktop); no overflow on mobile.",
+ "mobileOrder": [
+  "hero",
+  "press-kit",
+  "logo",
+  "logo-use",
+  "colours",
+  "type",
+  "merch"
+ ]
+}

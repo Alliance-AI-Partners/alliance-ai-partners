@@ -71,45 +71,45 @@
    "layout": "list-rows",
    "ground": "daylight",
    "job": "List every point of the honest pricing promise and say where the partner can check each one.",
-   "desktop": "Section head (title 0.45 | lead). A full-width Ribbon rule (the page's ribbon signature), then two columns (636 each, gap 48): 'Before work starts' (promises 01 to 03) and 'While we work together' (04 to 07). Each row: mono number, Body/Strong title with a Body/SM line, and a Tag saying where to check it; hairlines between rows.",
-   "mobile": "Head stacked, Ribbon rule 358, then the two groups one after the other (Heading/3 group title, hairline rows); each row keeps the mono number and text, the Tag moves under the text; the sample-invoice link closes the section.",
+   "desktop": "Section head (title 0.45 | lead). A full-width Ribbon rule (the page's ribbon signature), then two columns (636 each, gap 48): 'Before work starts' (promises 01 to 03) and 'While we work together' (04 to 07). Each row: mono number, the promise in Body/Strong, word for word from the Brand DNA's honest pricing promise, and a Tag saying where to check it; hairlines between rows.",
+   "mobile": "Head stacked, Ribbon rule 358, then the two groups one after the other (Heading/3 group title, hairline rows); each row keeps the mono number and the promise, the Tag moves under the text; the sample-invoice link closes the section.",
    "content": {
     "heading": "Seven promises you can check.",
     "lead": "Honest pricing has to mean something you can test. Here is what we promise, and where you will see each promise in writing.",
     "items": [
      {
-      "title": "01 Published starting prices",
-      "text": "Every core service has a starting price on this page.",
+      "title": "01",
+      "text": "Published starting prices for every core service.",
       "meta": "On this page"
      },
      {
-      "title": "02 A fixed quote first",
-      "text": "It lists everything we will charge. Changes are quoted before we do them.",
+      "title": "02",
+      "text": "A fixed quote before work starts that lists everything we’ll charge. Changes are quoted before we do them.",
       "meta": "In your proposal"
      },
      {
-      "title": "03 Honest advice on cheaper options",
+      "title": "03",
       "text": "If an off-the-shelf tool or a simpler fix costs you less, we say so.",
       "meta": "In your plan"
      },
      {
-      "title": "04 No per-seat fees",
-      "text": "Add as many people as you like to the tools we build.",
+      "title": "04",
+      "text": "No per-seat fees on the tools we build.",
       "meta": "On every invoice"
      },
      {
-      "title": "05 AI usage at cost",
-      "text": "Model fees are passed on at cost and shown on their own invoice line.",
+      "title": "05",
+      "text": "AI usage, like model fees, passed on at cost and shown on the invoice.",
       "meta": "On every invoice"
      },
      {
-      "title": "06 Cancel with [30] days’ notice",
-      "text": "Monthly plans run month to month.",
+      "title": "06",
+      "text": "Monthly plans you can cancel with [30] days’ notice.",
       "meta": "In your plan terms"
      },
      {
-      "title": "07 You own what we build",
-      "text": "Including the code and the documentation, whether you stay or go.",
+      "title": "07",
+      "text": "You own what we build.",
       "meta": "In your proposal"
      }
     ]
@@ -250,7 +250,7 @@
      },
      {
       "key": "5",
-      "text": "Clutch, SEO firm pricing. Marketplace ranges, not official statistics. Retrieved 2026-11-02.",
+      "text": "Clutch, SEO firm pricing, [date to confirm]. Marketplace ranges, not official statistics. Retrieved 2026-11-02.",
       "url": "https://clutch.co/seo-firms/pricing"
      }
     ]
@@ -405,7 +405,7 @@
      },
      {
       "q": "Will you tell us if a ready-made tool would cost less?",
-      "a": "Yes, even when it means less work for us. Our AI assistant rollout service can set it up for you."
+      "a": "Yes, even when it means less work for us. Our AI assistant rollout service sets it up for you."
      }
     ],
     "ctas": [
@@ -467,5 +467,5 @@
    ]
   }
  ],
- "notes": "Different layouts from the Home pricing chapter (which is a navy split with a check list, service rows and an inset invoice image): here the promise is two groups of hairline rows with where-to-check tags on Daylight, prices are a bento, the comparison is a sourced table, the reasons sit on a full-bleed band, and the invoice is drawn as live UI with numbered notes. One Primary in the hero and one in the closing navy band. Ribbon signature: the Ribbon rule over the promise groups, plus the ribbon line inside the sample invoice header. Every figure is in the table section with Source keys and dated source lines. Built 2026-11-03: desktop 46:4946 (completed and checked: table Source keys swapped to Size=MD for 12 px keys, invoice notes column set to hug), mobile 57:4049. Both frames lint clean."
+ "notes": "Different layouts from the Home pricing chapter (which is a navy split with a check list, service rows and an inset invoice image): here the promise is two groups of hairline rows with where-to-check tags on Daylight, prices are a bento, the comparison is a sourced table, the reasons sit on a full-bleed band, and the invoice is drawn as live UI with numbered notes. One Primary in the hero and one in the closing navy band. Ribbon signature: the Ribbon rule over the promise groups, plus the ribbon line inside the sample invoice header. Every figure is in the table section with Source keys and dated source lines. Built 2026-11-03: desktop 46:4946 (completed and checked: table Source keys swapped to Size=MD for 12 px keys, invoice notes column set to hug), mobile 57:4049. Both frames lint clean. Review 2026-11-03: the seven promises now read word for word as the Brand DNA's honest pricing promise (the paraphrased sub-lines, including the unapproved 'Add as many people as you like', were removed on both frames); the mobile Embedded developers card no longer promises cover during leave (recruiting, salary, benefits and equipment; cancel with [30] days' notice); the last FAQ answer says 'sets it up', not 'can set it up'; source 5 (Clutch SEO retainers) carries [date to confirm], as on the Grow page; the desktop table note is set at 572 wide (about 72 characters a line); heading line breaks rebalanced (desktop and mobile 'Seven promises / you can check.', mobile hero 'Honest prices, / published / up front.', mobile 'A sample invoice, / line by line.'). Both frames lint clean."
 }

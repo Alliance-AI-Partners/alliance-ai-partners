@@ -45,13 +45,13 @@ Figma holds the final copy. Where a page record's draft copy differs from Figma,
 | 27 | United States | `/us` | Next | Give a founder in the United States the local case: how our hours line up, what a developer costs them locally, what agencies charge, our starting prices in their currency, and the AI check-up. | [united-states.json](pages/united-states.json) |
 | 28 | United Kingdom | `/uk` | Next | Give a founder in the United Kingdom the local case: how our hours line up, what a developer costs them locally, what agencies charge, our starting prices in their currency, and the AI check-up. | [united-kingdom.json](pages/united-kingdom.json) |
 | 29 | For agencies | `/for-agencies` | Next | Show agencies how white-label work with Alliance AI Partners runs: we build under the agency’s brand, the client relationship stays theirs, embedded developers when they need more hands, a fixed quote first and published starting prices, the four steps, and confidentiality terms to confirm. Move the reader to ask for a fixed quote. | [for-agencies.json](pages/for-agencies.json) |
-| 30 | Careers | | Next | Being built | |
-| 31 | Job post | | Next | Being built | |
-| 32 | Brand and press | | Next | Being built | |
-| 33 | Digital business card | | Next | Being built | |
+| 30 | Careers | `/careers` | Next | Show engineers, designers and marketers what working at Alliance AI Partners is like (the four values in practice, how we work inside partner teams, how you learn), be honest that the team and roles are placeholders and samples, and get them onto the talent list. | [careers.json](pages/careers.json) |
+| 31 | Job post | `/careers/<job>` | Next | The job post template, shown with one sample role (Sample role: Full-stack developer): what the role does, what you bring, how we work, pay and location, and an application form with consent. Marked as a sample throughout. | [job-post.json](pages/job-post.json) |
+| 32 | Brand and press | `/brand` | Next | Give press, partners and event organisers what they need to show Alliance AI Partners correctly: the logo kit and how to use it, the colours with their values, the type, the boilerplate and a press contact. | [brand.json](pages/brand.json) |
+| 33 | Digital business card | `/card/<name>` | Next | A phone e-card behind a contact link or QR code, shown for the template's sample person Isabel Navarro, partner success lead: save the contact in one tap, then email, call, connect on LinkedIn or book a call. | [digital-business-card.json](pages/digital-business-card.json) |
 | 34 | AI check-up sample report | `/ai-check-up/sample` | Next | Show, with a clearly labelled SAMPLE, what the AI check-up delivers, so a founder knows exactly what they get before they book a real one. | [ai-check-up-sample-report.json](pages/ai-check-up-sample-report.json) |
-| 35 | Case studies | | Later | Being built | |
-| 36 | Case study template | | Later | Being built | |
+| 35 | Case studies | `/case-studies` | Later | Say honestly that no case studies are published yet, show what each one will contain and the rules it will follow (a real partner, their own numbers, a source and a date for every result, approved by the partner), and offer the sample report and the AI check-up instead. | [case-studies.json](pages/case-studies.json) |
+| 36 | Case study template | `/case-studies/<case>` | Later | The layout every future case study will use, with placeholders only: who the partner is, the problem, what we did in the four steps, results that each carry a source and a date, the partner’s approved quote, related services and the AI check-up. | [case-study-template.json](pages/case-study-template.json) |
 | 37 | Compare | `/compare` | Later | Let a founder weigh Alliance AI Partners fairly against hiring locally, US and Australian agencies and per-seat AI tools, with a source and a date for every number, say honestly when each option is the right choice, and move them to an AI check-up. | [compare.json](pages/compare.json) |
 | 38 | Subprocessors | `/trust/subprocessors` | Later | List every AI provider and software tool that may touch partner data, with what it does, which data it may see and where it runs, and say how partners hear about changes. Until the list exists, every row is a marked placeholder. | [subprocessors.json](pages/subprocessors.json) |
 | 39 | Security disclosure | `/security` | Later | Tell a security researcher, in one screen, where to send a vulnerability, what to include and what Alliance AI Partners promises in return, with the legal safe harbour held as a placeholder for review. | [security-disclosure.json](pages/security-disclosure.json) |
@@ -105,6 +105,14 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 19. How often the Insights newsletter goes out (`[once a month]` on the newsletter confirmation page).
 20. A link for the Clutch AI development price range (Compare page, source 7). The Brand DNA gives the figure and its date but no URL.
 21. Your working hours (`[9 am to 6 pm]` Manila time, Monday to Friday, on the Questions buyers ask page), and whether to show them in the reader's own time zone.
+22. A UK source for the UK time difference. The Brand DNA cites NIST, whose local-time FAQs cover US time zones; a UK government page on clock changes would fit better.
+23. For the Healthcare and clinics page: how patients are told, and asked, before AI takes notes during a visit, and which health-privacy rules the privacy and compliance review covers in each market. The page makes no HIPAA or certification claim.
+24. That every industry package shown as available now can be delivered well (Brand DNA Note 3: show only what we deliver well).
+25. Other firms' published prices in the sample Insights article (Clutch, Microsoft 365 Copilot, Intercom, Smith.ai), rechecked on the day it goes live, as the Brand DNA asks.
+26. The hiring process on Careers and Job post, shown as a sample: the steps (Apply, First call, Work sample, Offer), the times `[30-minute]` and `[one week]`, "No cover letter needed" and "We reply to every application within `[one week]`". Real roles replace the sample roles, with pay instead of `[salary range]`.
+27. For Brand and press: the brand guide PDF and press photos, which don't exist yet; the press reply time `[one working day]`; and a real press address in place of the sample press@allianceaipartners.example.
+28. For the digital business card: the LinkedIn profile (`[profile]`), the contact-card and booking links, and a real QR code once the domain exists.
+29. The four case-study rules on the Case studies page (real partners only, their own numbers, a source and a date for every result, and nothing published before the partner approves every word, figure and quote), as policy.
 
 Every figure on the site carries a source key and a dated source line, from the sources the Brand DNA lists. Recheck them before launch, because prices and statistics change.
 
@@ -115,3 +123,5 @@ Every figure on the site carries a source key and a dated source line, from the 
 - A link on its own line, such as "Read the price list" under a button, uses `.aap-link--standalone`, which gives it a 44 px touch target in code. Figma shows it at its visual size, 26 px tall.
 - Headings are balanced in code (`text-wrap: balance`, in the design system's base layer). In Figma the line breaks were set by hand, so they may differ slightly in the browser.
 - Text over an image sits on a Partner Navy scrim that holds at least 82 % under every line (`design-system/imagery/image-overlays.css`), so it passes AA whatever the image.
+- Keep `/case-studies` out of the main navigation and footer until the first approved case study exists.
+- Job rows and Download rows have no mobile variant in Figma; on mobile their text wraps under the title. In code, stack the link under the text below the `md` breakpoint.

@@ -155,8 +155,8 @@
       "layout": "timezones",
       "ground": "navy",
       "job": "Show when our team works in the reader's own time, with the clocks and the sources for every time difference.",
-      "desktop": "Navy chapter. Asymmetric head (Heading/1 with one cyan accent | lead). Time zones clocks full width, sample-time caption, then three hairline rows (market in Heading/4 at 280 | what the overlap means), then the numbered sources.",
-      "mobile": "Head stacked, the title balanced over two lines ('Our hours, / in your time.'), the Team online chip and a map-pin line 'Based in the Philippines, working with companies in the United States, Australia and the United Kingdom.', mobile clocks (two rows of two), caption, three stacked hairline rows (Heading/4 over Body/Default), sources.",
+      "desktop": "Navy chapter. Asymmetric head (Heading/1 with one cyan accent | lead). Time zones clocks full width, sample-time caption, then three hairline rows: market name in Heading/4 with its Source key (MD) in a 572 px 'Market' cell, so the row text starts on the lead's column (x 680) and stays 680 px wide; then the numbered sources.",
+      "mobile": "Head stacked, the title balanced over two lines ('Our hours, / in your time.'), the Team online chip and a map-pin line 'Based in the Philippines, working with companies in the United States, Australia and the United Kingdom.', mobile clocks (two rows of two), caption, three stacked hairline rows (Heading/4 with its Source key, over Body/Default), sources.",
       "content": {
         "heading": "Our hours, in your time.",
         "accentWord": "time.",
@@ -164,15 +164,18 @@
         "items": [
           {
             "title": "United States",
-            "text": "We work while you sleep. Brief us before you log off, and you’ll see progress when you log on."
+            "text": "We work while you sleep. Brief us before you log off, and you’ll see progress when you log on.",
+            "meta": "Source 1"
           },
           {
             "title": "United Kingdom",
-            "text": "Our afternoon is your morning, so the start of your day overlaps with the end of ours."
+            "text": "Our afternoon is your morning, so the start of your day overlaps with the end of ours.",
+            "meta": "Source 1"
           },
           {
             "title": "Australia",
-            "text": "Sydney is two hours ahead of us, or three during daylight saving, so most of your working day overlaps with ours."
+            "text": "Sydney is two hours ahead of us, or three during daylight saving, so most of your working day overlaps with ours.",
+            "meta": "Source 2"
           }
         ],
         "body": [
@@ -181,19 +184,21 @@
         "sources": [
           {
             "key": "1",
-            "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
-            "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
+            "text": "NIST, Local time FAQs (US time zones and daylight saving). Retrieved 2026-11-02.",
+            "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
           },
           {
             "key": "2",
-            "text": "NIST, Local time FAQs (US time zones and daylight saving). Retrieved 2026-11-02.",
-            "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
+            "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
+            "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
           }
-        ]
+        ],
+        "sourceNote": "Keys follow the Brand DNA, which cites NSW Government and NIST for the time differences with Australia, the United States and the United Kingdom. Sources are numbered in order of first citation (the United States row comes first)."
       },
       "components": [
         "Time zones",
-        "Source list"
+        "Source list",
+        "Source key"
       ],
       "images": []
     },
@@ -203,8 +208,8 @@
       "layout": "list-rows",
       "ground": "daylight",
       "job": "Send press, job seekers, security reporters and data questions to the right page, and give the company details.",
-      "desktop": "Asymmetric head, then a row: five hairline list rows (icon, Heading/4 title, Body/SM line, link on the right) filling the left, and a 400-wide quiet panel (Neutral 50 well, 18px radius) with the company details on the right.",
-      "mobile": "Head stacked; rows stack icon + text with the link underneath; the company details panel follows full width.",
+      "desktop": "Asymmetric head, then a row: five hairline list rows (icon, Heading/4 title, Body/SM line, link on the right) filling the left, and a 400-wide quiet panel (Neutral 50 well, 18px radius) with the company details on the right. The panel ends with the caption 'Sample email until launch.'",
+      "mobile": "Head stacked; rows stack icon + text with the link underneath; the company details panel follows full width, ending with the caption 'Sample email until launch.'",
       "content": {
         "heading": "Other ways to reach us.",
         "lead": "Not a new project? These pages get you to the right people faster.",
@@ -256,6 +261,9 @@
             "label": "Email",
             "value": "hello@allianceaipartners.example"
           }
+        ],
+        "body": [
+          "Sample email until launch."
         ]
       },
       "components": [
@@ -370,5 +378,5 @@
       "images": []
     }
   ],
-  "notes": "Contact details are the template samples (allianceaipartners.example, +1 202 555 0147) and are marked as samples on the page. Placeholders kept: [one working day], [9 am to 6 pm], [two weeks], [PRICE], [two working days], [Registered address], [Company number], [email address]. The page carries one Primary per screenful: the form's 'Send message' at the top and the check-up Primary in the closing card. One new image (IMG-15-1) in a card, a presentation not used on the neighbouring pages. Mobile headings use balanced wrapping (CSS text-wrap: balance) where a single word would sit alone on the last line."
+  "notes": "Contact details are the template samples (allianceaipartners.example, +1 202 555 0147) and are marked as samples on the page: under the contact rows at the top, and at the foot of the Company details panel. Placeholders kept: [one working day], [9 am to 6 pm], [two weeks], [PRICE], [two working days], [Registered address], [Company number], [email address]. The page carries one Primary per screenful: the form's 'Send message' at the top and the check-up Primary in the closing card. One new image (IMG-15-1) in a card, a presentation not used on the neighbouring pages. Mobile headings use balanced wrapping (CSS text-wrap: balance) where a single word would sit alone on the last line."
 }

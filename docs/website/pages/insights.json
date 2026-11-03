@@ -26,8 +26,8 @@
    "layout": "hero-text-led",
    "ground": "daylight",
    "job": "Name the page, say what Insights covers and that every article is a sample for now, and offer the newsletter.",
-   "desktop": "Split 1.08fr | 1fr, bottom-aligned: Display/XL title in the left column (652, three lines); the right column (604) holds the Body/LG lead (one sentence, to keep the hero budget), one Secondary LG button that jumps to the sign-up, and a Body/SM sample note with an info icon. Padding 96 top, 64 bottom, so the featured article below shares the first viewport as one composition. No image: the featured article’s cover is the first visual.",
-   "mobile": "Title (Display/XL, four lines), lead, full-width Secondary LG, sample note. Padding 48 top, 40 bottom.",
+   "desktop": "Split 1.08fr | 1fr, bottom-aligned: Display/XL title in the left column (652), its text box set at 509 so it breaks ‘Insights for / putting AI / to work.’; the right column (604) holds the Body/LG lead (one sentence, to keep the hero budget), one Secondary LG button that jumps to the sign-up, and a Body/SM sample note with an info icon. Padding 96 top, 64 bottom, so the featured article below shares the first viewport as one composition. No image: the featured article’s cover is the first visual.",
+   "mobile": "Title (Display/XL, three lines; its text box set at 269 so it breaks ‘Insights for / putting AI / to work.’), lead, full-width Secondary LG, sample note. Padding 48 top, 40 bottom.",
    "content": {
     "heading": "Insights for putting AI to work.",
     "accentWord": "work.",
@@ -40,7 +40,7 @@
      }
     ],
     "body": [
-     "Sample articles: they show what Insights will cover until our first issues are published."
+     "Every article here is a sample for now, to show what Insights will cover."
     ]
    },
    "components": [
@@ -95,11 +95,11 @@
    "layout": "bento",
    "ground": "daylight",
    "job": "Let readers pick a topic and scan every sample article, with lead stories and short ones in a two-column zig-zag.",
-   "desktop": "Asymmetric section head (Heading/2 0.9fr | Body/LG lead 1.1fr), then the filter row: six Tags, each inside a 44 px tall hit area, ‘All topics’ selected (Partner Navy fill, white label: the checked-control colours, aria-pressed), and a UI/Caption count at the right. Then a two-column zig-zag of Article cards: row 1 is a lead story (760: a 760x428 Image slot directly above an Article card whose own 263 px image is hidden, because a nested image inside the card can't be re-cropped; title raised to Heading/3, then excerpt and topic Tag) beside a 536 column of two text-only stories between hairlines (Article card with the image hidden, Heading/4 title, meta, excerpt, Tag); row 2 mirrors it, the text column on the left and the second lead story on the right. Meta always sits below the title.",
+   "desktop": "Asymmetric section head (Heading/2 0.9fr | Body/LG lead 1.1fr), then the filter row: six Tags, each inside a 44 px tall hit area, ‘All topics’ selected (Partner Navy fill, white label: the checked-control colours, aria-pressed), and a UI/Caption count at the right. Then a two-column zig-zag of Article cards: row 1 is a lead story (760: a 760x428 Image slot directly above an Article card whose own 263 px image is hidden, because a nested image inside the card can't be re-cropped; title raised to Heading/3, then excerpt and topic Tag) beside a 536 column of two text-only stories between hairlines (Article card with the image hidden, Heading/4 title, meta, excerpt, Tag); row 2 mirrors it, the text column on the left and the second lead story on the right. Meta always sits below the title. Lead-story excerpts are capped at 576 (about 75 characters of Body/Default a line).",
    "mobile": "Head stacked; the tags wrap over three rows of 44 px hit areas (no sideways scroll); stories in one column ordered lead, short, short, lead, short, short, so the two images are spaced apart; lead images re-cropped to 16:10 (358x224), each a direct Image slot above its Article card.",
    "content": {
     "heading": "Browse by topic",
-    "lead": "Every article below is a sample. Together they show what Insights will cover: where to start, what things cost, and how we work with your team.",
+    "lead": "Each article answers a question founders ask before they bring in an AI team, from where to start to what a hire really costs.",
     "filters": [
      "All topics",
      "Getting started",
@@ -145,7 +145,7 @@
      {
       "title": "How a time difference turns into overnight progress",
       "meta": "Sample article · Working together · [4] min read",
-      "text": "Brief us before you log off, and see progress when you log on. For UK partners, our afternoon is your morning.",
+      "text": "For US partners, we work while you sleep: brief us before you log off, and see progress when you log on. For UK partners, our afternoon is your morning.",
       "tag": "Working together",
       "size": "short story",
       "link": "/insights/overnight-progress"
@@ -197,7 +197,7 @@
    "layout": "product-visual",
    "ground": "navy",
    "job": "Sign readers up to Insights and show exactly what an issue looks like.",
-   "desktop": "Partner Navy chapter, split: a 600 text column (Heading/1 title with one cyan accent word, Body/LG lead, the email Field with its help line hidden beside a Primary MD ‘Subscribe’ aligned to the field’s control, Body/SM note with an underlined cyan link) and, on the right, the framed sample issue (560x620, Tone Navy) cropped to its top: the logo band, the ribbon rule and the lead story. This holds the page’s one Primary.",
+   "desktop": "Partner Navy chapter, split: a 600 text column (Heading/1 title with one cyan accent word, Body/LG lead, the email Field with its help line hidden beside a Primary MD ‘Subscribe’ aligned to the field’s control, Body/SM note with an underlined cyan link) and, on the right, the framed sample issue (560x620, Tone Navy) cropped to its top: the logo band, the ribbon rule and the lead story. This holds the page’s one Primary. The Body/SM note is capped at 480 (about 72 characters a line).",
    "mobile": "Title, lead, full-width Field, full-width Primary LG, note; then the mobile render of the sample issue, cropped to its top (358x440).",
    "content": {
     "heading": "Get Insights by email.",
@@ -251,5 +251,5 @@
    ]
   }
  ],
- "notes": "Every article is a sample and says so: the hero note, ‘Sample article’ first in every meta line and the ‘Every article below is a sample’ lead. Titles and excerpts come from the Insights email in brand-kit/emails/newsletter.html (lead story ‘Start with the work your team does twice’, short stories ‘When AI is not the answer’ and ‘What a hire really costs’) and from the Brand DNA (the price table and price rules, the buyer questions, the time-zone lines and the ‘AI in tools you already pay for’ service). The featured article is the one written in full on 19 · Article, so its read time (3 min, from its word count) is real; the other read times stay placeholders ([3], [4], [5]) until those articles exist. No figures appear on this page, so it needs no sources; the sourced price table lives in the article. One Primary (Subscribe) in the navy newsletter chapter; the hero’s action is a Secondary that jumps to it, because on a reading page the committing action is the sign-up. Layouts differ section to section: text-led hero, image-left split, zig-zag of lead and short stories, navy product visual. Three new images and one existing email preview; IMG-19-1 is shared with the article page and IMG-18-1 and IMG-18-2 are reused in its related articles, each keeping one ID. The newsletter cadence stays the placeholder [once a month], as on the newsletter-confirmed page. Built 2026-11-03: desktop 75:3655, mobile 76:304; both lint clean (no findings)."
+ "notes": "Every article is a sample and says so: the hero note, ‘Sample article’ first in every meta line and the ‘Every article below is a sample’ lead. Titles and excerpts come from the Insights email in brand-kit/emails/newsletter.html (lead story ‘Start with the work your team does twice’, short stories ‘When AI is not the answer’ and ‘What a hire really costs’) and from the Brand DNA (the price table and price rules, the buyer questions, the time-zone lines and the ‘AI in tools you already pay for’ service). The featured article is the one written in full on 19 · Article, so its read time (3 min, from its word count) is real; the other read times stay placeholders ([3], [4], [5]) until those articles exist. No figures appear on this page, so it needs no sources; the sourced price table lives in the article. One Primary (Subscribe) in the navy newsletter chapter; the hero’s action is a Secondary that jumps to it, because on a reading page the committing action is the sign-up. Layouts differ section to section: text-led hero, image-left split, zig-zag of lead and short stories, navy product visual. Three new images and one existing email preview; IMG-19-1 is shared with the article page and IMG-18-1 and IMG-18-2 are reused in its related articles, each keeping one ID. The newsletter cadence stays the placeholder [once a month], as on the newsletter-confirmed page. Built 2026-11-03: desktop 75:3655, mobile 76:304; both lint clean (no findings). Review 2026-11-03 (outside reviewer): the hero title now breaks ‘Insights for / putting AI / to work.’ on both frames (measured text box widths 509 and 269) instead of leaving ‘to’ at a line end; the hero note no longer says ‘first issues’ (articles are not issues) and reads ‘Every article here is a sample for now, to show what Insights will cover.’; the Browse lead no longer repeats that note and says what the articles answer (the sample marking stays in the hero note, the ‘6 sample articles’ count and every meta line); the time-difference excerpt is again addressed to US partners, as in the Brand DNA buyer answer, so it no longer promises overnight progress to Australian partners; lead-story excerpts capped at 576 and the newsletter note at 480 (long-measure). The hero’s Secondary jump to the sign-up was kept: it scrolls rather than commits, so it is not the page’s Primary, and one form on the page beats two. Both frames re-lint with no findings."
 }

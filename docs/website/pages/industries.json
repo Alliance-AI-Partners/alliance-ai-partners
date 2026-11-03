@@ -15,7 +15,10 @@
  "states": [
   "default"
  ],
- "frames": {},
+ "frames": {
+  "desktop": "82:2107",
+  "mobile": "82:2476"
+ },
  "sections": [
   {
    "id": "hero",
@@ -62,7 +65,11 @@
      "aspectMobile": "4:5 (358x448)",
      "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line",
      "textArea": "none (text sits beside the image); keep the top third calm",
-     "alt": "Four different bundles of faceted paper plants, each tied by the same satin ribbon."
+     "alt": "Four different bundles of faceted paper plants, each tied by the same satin ribbon.",
+     "figma": {
+      "desktop": "82:2160",
+      "mobile": "82:2517"
+     }
     }
    ]
   },
@@ -297,5 +304,5 @@
    ]
   }
  ],
- "notes": "Index of the Brand DNA \"Ready-made solutions by industry\": the four industries with their own page first (staggered bento), the other seven in a table. Shares its hero, data and closing sections with the industry template (21 to 24), so the five pages read as one set. One new image (the hero); the swallow is the real vector graphic. Header marks Services as current. One Primary in the hero and one in the closing card. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section."
+ "notes": "Index of the Brand DNA \"Ready-made solutions by industry\": the four industries with their own page first (staggered bento), the other seven in a table. Shares its hero, data and closing sections with the industry template (21 to 24), so the five pages read as one set. One new image (the hero); the swallow is the real vector graphic. Header marks Services as current. One Primary in the hero and one in the closing card. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
 }

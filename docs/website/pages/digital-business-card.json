@@ -1,0 +1,124 @@
+{
+ "slug": "digital-business-card",
+ "figmaPage": "33 · Digital business card",
+ "phase": "Next",
+ "route": "/card/<name>",
+ "purpose": "A phone e-card behind a contact link or QR code, shown for the template's sample person Isabel Navarro, partner success lead: save the contact in one tap, then email, call, connect on LinkedIn or book a call.",
+ "primaryAction": {
+  "label": "Save contact",
+  "target": "https://allianceaipartners.example/card/isabel-navarro.vcf"
+ },
+ "seo": {
+  "title": "Isabel Navarro | Alliance AI Partners",
+  "description": "Sample digital business card: save Isabel Navarro’s contact, email her or book a call with Alliance AI Partners.",
+  "robots": "noindex (cards are reached by link or QR code, not search)"
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "mobile": "94:2632",
+  "desktop": "94:3454"
+ },
+ "sections": [
+  {
+   "id": "card-head",
+   "name": "Card head",
+   "layout": "hero-text-led",
+   "ground": "navy",
+   "job": "Say who this is and where they work: mark and name, role, the company line.",
+   "mobile": "Built first. A Partner Navy band at full width: Logo/Primary horizontal/Full colour dark at 56 px (the 3D mark stays above its 48 px minimum), the name in Display/LG, the role in Body/LG, the company and base in Data/Mono. The satin ribbon (the page's one signature) runs out of the band: its navy end lies on Daylight at the left, its cyan end rises into the navy at the right, as in brand-kit/templates/digital-business-card.html.",
+   "desktop": "The same head as the top of a 400-wide card (28 px radius, Lifted shadow) centred on a Daylight page; the ribbon is clipped by the card.",
+   "content": {
+    "heading": "Isabel Navarro",
+    "accentWord": null,
+    "lead": "Partner success lead",
+    "body": [
+     "Alliance AI Partners · Philippines · UTC+8"
+    ]
+   },
+   "components": [
+    "Logo/Primary horizontal/Full colour dark",
+    "Ribbon (vector, gradient strokes bound to the brand variables)"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "source": "Satin ribbon: a 26 px band (Partner Navy to Alliance Blue at 54% to Ribbon Cyan) with an 8 px lit edge (Ribbon 57 to Ribbon Cyan) shifted up 9 px, the template's path M-30 344 C92 346 190 322 262 298 S362 262 420 254."
+    }
+   ]
+  },
+  {
+   "id": "card-body",
+   "name": "Card body",
+   "layout": "list-rows",
+   "ground": "daylight",
+   "job": "Save the contact in one tap, then the ways to reach her, the QR placeholder and the company line.",
+   "mobile": "Primary 'Save contact' full width LG with the download icon; four hairline contact rows (icon, caption label, value): Mobile +1 202 555 0147 in Data/Mono with a 'Sample' tag, Email, LinkedIn linkedin.com/in/[profile], Website; Secondary 'Book a call with Isabel' full width with the calendar icon; the QR placeholder (dashed, three finder squares, 'QR sample') beside 'Scan to save this contact', 'Placeholder, not scannable' and the vCard URL; the company line (the tagline and the one-sentence pitch); a sample note and the privacy link.",
+   "desktop": "The same body inside the card (white, raised), 352 px of content width; a caption under the card marks it as a sample.",
+   "content": {
+    "items": [
+     {
+      "title": "Mobile",
+      "text": "+1 202 555 0147",
+      "meta": "Sample",
+      "link": "tel:+12025550147"
+     },
+     {
+      "title": "Email",
+      "text": "isabel.navarro@\nallianceaipartners.example",
+      "link": "mailto:isabel.navarro@allianceaipartners.example"
+     },
+     {
+      "title": "LinkedIn",
+      "text": "linkedin.com/in/[profile]"
+     },
+     {
+      "title": "Website",
+      "text": "allianceaipartners.example",
+      "link": "https://allianceaipartners.example"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Save contact",
+      "variant": "primary",
+      "target": "https://allianceaipartners.example/card/isabel-navarro.vcf"
+     },
+     {
+      "label": "Book a call with Isabel",
+      "variant": "secondary",
+      "target": "https://allianceaipartners.example/book/isabel-navarro"
+     }
+    ],
+    "body": [
+     "Scan to save this contact",
+     "Placeholder, not scannable",
+     "allianceaipartners.example/card/isabel-navarro.vcf",
+     "Partners in AI. Partners in growth.",
+     "Alliance AI Partners helps companies put AI to work so they can grow faster.",
+     "Sample card. Isabel Navarro is a sample person, and these details are samples."
+    ]
+   },
+   "components": [
+    "Button",
+    "Icon/phone",
+    "Icon/mail",
+    "Icon/linkedin",
+    "Icon/globe",
+    "Icon/calendar",
+    "Icon/download",
+    "Tag",
+    "Link"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "source": "QR placeholder drawn in Figma (white tile, dashed Neutral 500 edge, three Partner Navy finder squares, 'QR sample'); not scannable until the domain and vCard URL exist (brand-kit/templates/README.md, QR code)."
+    }
+   ],
+   "note": "The email breaks after the @ (set by hand in Figma; in code use overflow-wrap: anywhere with a <wbr> after the @, as the template does)."
+  }
+ ],
+ "notes": "Mobile-first: the Mobile frame (390, x 1600) was built first; the Desktop frame (1440, x 0) centres the same card, 400 wide with a 28 px radius, a hairline and the Lifted shadow, on a Daylight page, and sets the card to the Mobile viewport mode so its type stays at phone sizes. Like the brand-kit template it has no site header or footer: the card's own logo carries the brand, and the page is reached by a link or a QR code. One Primary, Save contact (mobile y 397, desktop y 494); Book a call is Secondary. The ribbon is the page's one signature: two vectors (band and lit edge) inside a 'Ribbon' frame, their gradient stops bound to the Partner Navy, Alliance Blue, Ribbon 57 and Ribbon Cyan variables. Sample data only, from brand-kit/templates/README.md: Isabel Navarro (partner success lead) is a sample person and appears on no other page; +1 202 555 0147 is in the range kept for fiction and carries a 'Sample' tag; the domain is allianceaipartners.example; the LinkedIn profile stays [profile]; the QR is a labelled placeholder, not scannable. A sample note sits above the privacy link. The amber 'Placeholder, not scannable' uses the warning text colour (#8A5800, 5.62:1 on Daylight). Lint clean on both frames."
+}

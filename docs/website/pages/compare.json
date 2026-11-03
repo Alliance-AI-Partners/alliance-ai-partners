@@ -82,7 +82,7 @@
    "layout": "table",
    "ground": "daylight",
    "job": "Compare like for like: what one full-time software developer costs to employ in each market against our price for one full-time embedded developer.",
-   "desktop": "Section head (title 0.45 | lead), then a five-column table: Where you hire (with Source keys) | Median pay | Cost to employ, a year | A month | Embedded developer from Alliance AI Partners (the column tinted 10% Ribbon Cyan). Note on what is not included and the US hourly figures, a link to the embedded developers page, then source lines 1 to 4.",
+   "desktop": "Section head (title 0.45 | lead), then a five-column table: Where you hire (with Source keys) | Median pay | Cost to employ, a year | A month | Embedded developer from Alliance AI Partners (the column tinted 10% Ribbon Cyan). Notes column 572 wide: what is not included, and the US hourly figures with Source keys [1][2]; a link to the embedded developers page, then source lines 1 to 4.",
    "mobile": "Head stacked; the table becomes three country blocks between hairlines: country as Heading/4 with its Source keys, then label and value rows (Median pay, Cost to employ, a year, A month) and a tinted row for the embedded developer at [PRICE] a month; note, link and sources last.",
    "content": {
     "heading": "Hiring locally, like for like.",
@@ -122,7 +122,7 @@
     },
     "body": [
      "None of these figures include recruiting fees, equipment or office space, so the real cost of hiring locally is higher.",
-     "In US hourly terms, that is US$65.38 an hour in pay and about US$94 an hour to the employer."
+     "In US hourly terms, that is US$65.38 an hour in pay and about US$94 an hour to the employer. [1][2]"
     ],
     "ctas": [
      {
@@ -167,7 +167,7 @@
    "layout": "product-visual",
    "ground": "daylight",
    "job": "Show where the agency price gap is and where it is not, using Clutch marketplace ranges, without claiming a gap with Australia for AI development.",
-   "desktop": "Section head, then a white card (32 padding) holding a range chart: three groups (Web development, Web design, AI development), each a Heading/4 with its Source key (AI development also carries the tag 'No gap with Australia'), then one row per market: label 240 | track 720 on a US$0 to US$150 scale | range in mono. Philippine bars in Neutral 500, other markets in Partner Navy, each labelled directly. Axis labels under the last group. Note under the card, then source lines 5 to 7.",
+   "desktop": "Section head, then a white card (32 padding) holding a range chart: three groups (Web development, Web design, AI development), each a Heading/4 with its Source key (AI development also carries the tag 'No gap with Australia'), then one row per market: label 240 | track 720 on a US$0 to US$150 scale | range in mono. Philippine bars in Neutral 500, other markets in Partner Navy, each labelled directly. Axis labels under the last group. Note under the card (572 wide), then source lines 5 to 7.",
    "mobile": "Head stacked; the chart card full width: each market row puts the label and the range on one line and the bar (310 wide track) under it; axis labels under each group's last bar; note and sources last.",
    "content": {
     "heading": "Agency rates: where the gap is, and where it isn’t.",
@@ -477,5 +477,5 @@
    ]
   }
  ],
- "notes": "Later-phase page. Every figure comes from the Brand DNA cost comparison, the Clutch agency ranges and the per-seat examples, each with a Source key and a dated source line in its own section, plus the full list with links in the fairness section. Rules applied: like for like (employee yearly cost against an embedded developer; agency hourly ranges shown as market ranges, not against our prices); no superlatives; Clutch ranges marked as marketplace ranges that describe typical Philippine agencies, not our prices; no AI development gap claimed with Australia; no 'about half' claim until real prices exist. Our prices stay [PRICE]. Header marks Pricing as the current section. Layouts: text-led hero with an index, table, chart card, navy stat split, split-sticky with an inset image, two-column text, full-bleed band with the text on the right. Ribbon signature once: the Ribbon rule over the hero index. Built 2026-11-03: desktop 65:2774, mobile 67:3663, both lint clean. Our-column tints set explicitly at 10% (the toolkit tint came back solid once and was reset). Image slot nodes: IMG-37-1 desktop 67:1048, mobile 67:5402; IMG-37-2 desktop 67:1193, mobile 67:5542."
+ "notes": "Later-phase page. Every figure comes from the Brand DNA cost comparison, the Clutch agency ranges and the per-seat examples, each with a Source key and a dated source line in its own section, plus the full list with links in the fairness section. Rules applied: like for like (employee yearly cost against an embedded developer; agency hourly ranges shown as market ranges, not against our prices); no superlatives; Clutch ranges marked as marketplace ranges that describe typical Philippine agencies, not our prices; no AI development gap claimed with Australia; no 'about half' claim until real prices exist. Our prices stay [PRICE]. Header marks Pricing as the current section. Layouts: text-led hero with an index, table, chart card, navy stat split, split-sticky with an inset image, two-column text, full-bleed band with the text on the right. Ribbon signature once: the Ribbon rule over the hero index. Built 2026-11-03: desktop 65:2774, mobile 67:3663, both lint clean. Our-column tints set explicitly at 10% (the toolkit tint came back solid once and was reset). Image slot nodes: IMG-37-1 desktop 67:1048, mobile 67:5402; IMG-37-2 desktop 67:1193, mobile 67:5542. Review 2026-11-03: the US hourly figures (US$65.38 and about US$94) now carry Source keys [1][2] on both frames; the desktop notes under the table and the chart are set at 572 wide (about 72 characters a line, aligned with the head's title column); mobile headline breaks rebalanced ('Pick the option / that costs / you less.', 'What per-seat / AI tools cost / as you grow.'). Source 7 (Clutch AI development, September 2026) still has no URL: the Brand DNA gives none (owner check). Both frames lint clean."
 }

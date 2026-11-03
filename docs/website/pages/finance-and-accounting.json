@@ -16,7 +16,10 @@
  "states": [
   "default"
  ],
- "frames": {},
+ "frames": {
+  "desktop": "82:8858",
+  "mobile": "82:9255"
+ },
  "sections": [
   {
    "id": "hero",
@@ -27,7 +30,7 @@
    "desktop": "Header (Services marked current). Hero grid 1.08fr | 1fr: text column 652 (Display/XL title with one accent word in regular weight, Body/LG lead 560, the page’s one Primary LG + an underlined link, a meta line in UI/Caption with a small UI icon) | image slot 604x560 on the right. 96 top, 128 bottom.",
    "mobile": "Title, lead, full-width LG Primary, centred link, then the image re-cropped to 4:5 (358x448), then the meta line. 48 top, 72 bottom.",
    "content": {
-    "heading": "Clean books, without the typing.",
+    "heading": "Clean books, less typing.",
     "lead": "AI reads your invoices, checks expenses and drafts the monthly report. Your team stays in charge of what goes in the books.",
     "accentWord": "typing.",
     "body": [
@@ -63,7 +66,11 @@
      "aspectMobile": "4:5 (358x448)",
      "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line",
      "textArea": "none (text sits beside the image); keep the top third calm",
-     "alt": "A ribbon stream runs along even rows of faceted paper plants."
+     "alt": "A ribbon stream runs along even rows of faceted paper plants.",
+     "figma": {
+      "desktop": "82:8911",
+      "mobile": "82:9296"
+     }
     }
    ]
   },
@@ -152,7 +159,11 @@
      "aspectMobile": "16:10 (358x224)",
      "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile",
      "textArea": "none (text sits below the image in the card); keep the top third calm",
-     "alt": "Ribbon threads lift from a leaf’s veins into a neat row of seed pods."
+     "alt": "Ribbon threads lift from a leaf’s veins into a neat row of seed pods.",
+     "figma": {
+      "desktop": "82:8959",
+      "mobile": "82:9341"
+     }
     }
    ],
    "note": "Package items are the Brand DNA list for this industry (Ready-made solutions by industry); each line reuses the matching service’s Brand DNA meaning."
@@ -360,7 +371,7 @@
    "desktop": "Daylight section holding one large white card (28px radius, 64 padding, raised shadow with the lit edge): text column | the swallow (Graphic/Swallow, 360x288). Display/LG title with one accent, Body/LG lead (620), two check-up facts in mono between hairlines (From [PRICE] · [two weeks]), then the closing Primary (LG) and a link. This Primary is far below the hero Primary, never in the same screenful.",
    "mobile": "Card with 24 padding: title, lead, full-width Primary, link, the two facts as hairline rows, the swallow small (144x115) at the lower right.",
    "content": {
-    "heading": "Find what’s worth automating first.",
+    "heading": "See what to automate first.",
     "lead": "The AI check-up is our usual first project. We learn how your finance team works, find where AI could save you time or money, and hand you a written plan with a fixed quote for the first fix.",
     "accentWord": "first.",
     "items": [
@@ -403,5 +414,5 @@
    ]
   }
  ],
- "notes": "Built from the shared industry template, so pages 21 to 24 read as a set; each has its own hero image and package image. Package items are the Brand DNA finance and accounting list (invoice processing, bookkeeping help, expense checks, monthly reports). The hero meta and the data lead state the Brand DNA rule that finance projects start with a privacy and compliance review. The sample is labelled as a sample and carries no amounts, times or results. Header marks Services as current. One Primary in the hero and one in the closing card, never in one screenful. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section."
+ "notes": "Built from the shared industry template, so pages 21 to 24 read as a set; each has its own hero image and package image. Package items are the Brand DNA finance and accounting list (invoice processing, bookkeeping help, expense checks, monthly reports). The hero meta and the data lead state the Brand DNA rule that finance projects start with a privacy and compliance review. The sample is labelled as a sample and carries no amounts, times or results. Header marks Services as current. One Primary in the hero and one in the closing card, never in one screenful. The only figure-like fact (the Data Privacy Act of 2012) carries Source key 1 and a dated source line in its own section. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
 }

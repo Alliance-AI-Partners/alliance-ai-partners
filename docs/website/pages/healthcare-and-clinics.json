@@ -16,7 +16,10 @@
  "states": [
   "default"
  ],
- "frames": {},
+ "frames": {
+  "desktop": "82:9938",
+  "mobile": "82:10336"
+ },
  "sections": [
   {
    "id": "hero",
@@ -63,7 +66,11 @@
      "aspectMobile": "4:5 (358x448)",
      "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line",
      "textArea": "none (text sits beside the image); keep the top third calm",
-     "alt": "A calm faceted garden sheltered by a low hedge woven from one ribbon."
+     "alt": "A calm faceted garden sheltered by a low hedge woven from one ribbon.",
+     "figma": {
+      "desktop": "82:9991",
+      "mobile": "82:10377"
+     }
     }
    ]
   },
@@ -152,7 +159,11 @@
      "aspectMobile": "16:10 (358x224)",
      "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile",
      "textArea": "none (text sits below the image in the card); keep the top third calm",
-     "alt": "Faceted bellflowers hang in an even row along one arching ribbon stem."
+     "alt": "Faceted bellflowers hang in an even row along one arching ribbon stem.",
+     "figma": {
+      "desktop": "82:10039",
+      "mobile": "82:10422"
+     }
     }
    ],
    "note": "Package items are the Brand DNA list for this industry (Ready-made solutions by industry); each line reuses the matching service’s Brand DNA meaning."
@@ -166,7 +177,7 @@
    "desktop": "Whole Partner Navy chapter. Split: text column 520 (Heading/1 title with one cyan accent, Body/LG lead, cyan underlined link) | a Partner 30 panel drawn in Figma (raised shadow): a bar with the Sample tag and the panel title, then numbered steps in mono between hairlines, each with a Tag saying who does it. Steps where a person decides carry a 10% Ribbon Cyan tint.",
    "mobile": "Title, lead, the panel full width (each step: number | text with its Tag below), then the link.",
    "content": {
-    "heading": "AI handles the admin. You handle the care.",
+    "heading": "AI does the admin. You give the care.",
     "lead": "A sample of how one new appointment moves through the package. We map your real steps with your team before we build.",
     "accentWord": "care.",
     "items": [
@@ -360,7 +371,7 @@
    "desktop": "Daylight section holding one large white card (28px radius, 64 padding, raised shadow with the lit edge): text column | the swallow (Graphic/Swallow, 360x288). Display/LG title with one accent, Body/LG lead (620), two check-up facts in mono between hairlines (From [PRICE] · [two weeks]), then the closing Primary (LG) and a link. This Primary is far below the hero Primary, never in the same screenful.",
    "mobile": "Card with 24 padding: title, lead, full-width Primary, link, the two facts as hairline rows, the swallow small (144x115) at the lower right.",
    "content": {
-    "heading": "Find what’s worth automating first.",
+    "heading": "See what to automate first.",
     "lead": "The AI check-up is our usual first project. We learn how your clinic works, find where AI could save you time or money, and hand you a written plan with a fixed quote for the first fix.",
     "accentWord": "first.",
     "items": [
@@ -403,5 +414,5 @@
    ]
   }
  ],
- "notes": "Built from the shared industry template. Privacy wording is careful and makes no medical claims: the page promises only the Brand DNA package (AI receptionists, appointment reminders, patient intake, note-taking during visits), says every healthcare project starts with a privacy and compliance review, that clinical decisions stay with the clinicians, that the tools give no medical advice and that visit notes wait for the doctor’s approval. No compliance certification or law other than the sourced Philippine Data Privacy Act is named. Owner check: how patients are told before AI takes notes during a visit, and which health-privacy rules the review covers in each market."
+ "notes": "Built from the shared industry template. Privacy wording is careful and makes no medical claims: the page promises only the Brand DNA package (AI receptionists, appointment reminders, patient intake, note-taking during visits), says every healthcare project starts with a privacy and compliance review, that clinical decisions stay with the clinicians, that the tools give no medical advice and that visit notes wait for the doctor’s approval. No compliance certification or law other than the sourced Philippine Data Privacy Act is named. Owner check: how patients are told before AI takes notes during a visit, and which health-privacy rules the review covers in each market. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build."
 }

@@ -32,9 +32,10 @@ K.page = async (name) => {
   K.P = p; return p;
 };
 // paints, spacing, radius
-// a paint bound to a colour variable. For a tint use K.tint: Figma keeps a bound paint's opacity only when the node's fill is already bound to that variable, so it assigns twice
+// a paint bound to a colour variable. For a tint use K.tint: Figma keeps a bound paint's opacity only when the node's fill is already bound to that variable,
+// so K.tint binds first, reads the colour Figma resolved, then assigns that colour with the opacity (a black base colour would render as a grey tint)
 K.p = (name, op) => figma.variables.setBoundVariableForPaint({ type: 'SOLID', color: { r: 0, g: 0, b: 0 }, opacity: op === undefined ? 1 : op }, 'color', K.v[name]);
-K.tint = (node, name, op, prop = 'fills') => { node[prop] = [K.p(name)]; node[prop] = [K.p(name, op)]; return node; };
+K.tint = (node, name, op, prop = 'fills') => { node[prop] = [K.p(name)]; const c = node[prop][0].color; node[prop] = [figma.variables.setBoundVariableForPaint({ type: 'SOLID', color: { r: c.r, g: c.g, b: c.b }, opacity: op }, 'color', K.v[name])]; return node; };
 K.gap = (f, px) => { if (K.SP[px]) f.setBoundVariable('itemSpacing', K.v['sp' + px]); else f.itemSpacing = px; };
 K.pad = (f, p) => {
   const a = Array.isArray(p) ? (p.length === 2 ? [p[0], p[1], p[0], p[1]] : p) : [p, p, p, p];
