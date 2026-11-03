@@ -1,0 +1,332 @@
+{
+ "slug": "article",
+ "figmaPage": "19 · Article",
+ "phase": "Next",
+ "route": "/insights/<article> (sample: /insights/what-honest-ai-pricing-looks-like)",
+ "purpose": "Show how an Insights article reads, with one sample built from the Brand DNA price rules: how AI work is charged, with a sourced table, what to check before signing, and the pricing promise Alliance AI Partners keeps; then offer related reads and the newsletter.",
+ "primaryAction": {
+  "label": "Subscribe",
+  "target": "newsletter strip: POST to the newsletter list with double opt-in; the confirmation email links to /insights/subscribed"
+ },
+ "seo": {
+  "title": "What honest AI pricing looks like | Insights | Alliance AI Partners",
+  "description": "How AI work is charged, by the hour, per seat, per call or on a retainer; what to watch with each; six questions to ask before you sign; and the pricing promise Alliance AI Partners keeps."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "",
+  "mobile": ""
+ },
+ "sections": [
+  {
+   "id": "article-header",
+   "name": "Section · Article header",
+   "layout": "hero-text-led",
+   "ground": "daylight",
+   "job": "Give the title, what the reader will get, who wrote it and how long it takes, say plainly that it is a sample, and show the cover.",
+   "desktop": "Title block 1000 wide at the container’s left edge: Display/LG title on two lines (920, one accent word at regular weight), Body/LG standfirst at 680 (about 60ch), a meta row below them (topic Tag, then Body/SM byline, date and read time), then an Info Alert at 680 marking the sample. The cover image runs the full 1320 container (1320x560, 18 px corners) 56 below. Padding 80 top, 0 bottom; the body section follows.",
+   "mobile": "Title (Display/LG, three lines), standfirst, meta row wrapping under it, an ‘All insights’ back link, the Alert, then the cover re-cropped to 4:3 (358x268).",
+   "content": {
+    "heading": "What honest AI pricing looks like.",
+    "accentWord": "honest",
+    "lead": "AI work is sold by the hour, by the seat, by the call and by the month. Each can be fair when you can check what you’re paying for. Here’s what to check, and what we do instead.",
+    "meta": "Tag ‘Pricing and costs’ · [Name], [Role] · [Publish date] · 3 min read",
+    "body": [
+     "Alert (Info) title: Sample article",
+     "Alert body: This shows how an Insights article will look. The prices it quotes are published by the firms named, with sources and dates at the end."
+    ]
+   },
+   "components": [
+    "Header",
+    "Tag",
+    "Alert (Type=Info)",
+    "Image slot",
+    "Link"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-19-1",
+     "slotName": "IMG-19-1 · Box opened flat",
+     "kind": "new",
+     "source": "Still life on a calm Daylight background, seen from slightly above. A small box folded from flat faceted paper has been opened all the way: its satin ribbon, in a gradient from Alliance Blue to Ribbon Cyan, is untied and lies in one smooth curve beside it, the lid rests to one side, and all four sides are folded down flat, so everything that was inside is in plain view: a neat row of five faceted paper blocks of different sizes in pale Daylight white, soft blue-grey and Partner Navy, each one separate and fully visible, none hidden behind another. Two small flat faceted paper leaves rest near the ribbon. What the box holds is shown before anyone pays for it: an honest price, with nothing tucked away. Keep the opened box across the centre of the frame and the upper left quarter calm and empty. Landscape 16:9, safe to crop to 5:4, 4:3 and 4:5 around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "1320x560 (about 2.4:1) here; 656x520 on the Insights index",
+     "aspectMobile": "358x268 (4:3) on both pages",
+     "placement": "cover under the article header, full container width, inset with 18 px corners; also the featured image on 18 · Insights (same ID)",
+     "textArea": "none (text sits above the image); upper left quarter calm",
+     "alt": "A paper box opened out flat, every block inside in plain view, its ribbon untied beside it."
+    }
+   ]
+  },
+  {
+   "id": "article-body",
+   "name": "Section · Article",
+   "layout": "split-sticky",
+   "ground": "daylight",
+   "job": "Explain how AI work is charged with a sourced table, give six questions to ask, quote our own pricing line, give the two reasons our prices can be lower and the promise we keep, and list every source with its date.",
+   "desktop": "A 280 sticky rail on the left (an ‘All insights’ back link with arrow, ‘In this article’ with five items on a 1px hairline rail, the current item marked by a 2 px Partner Navy bar and navy text, then ‘Share this article’ with LinkedIn, X and copy-link icon buttons), 96 gap, then the reading column: text blocks at 648 (68ch of Body/Default), each sub-section a Heading/3 block. The price table breaks out of the column to the container edge (944): three columns, UI/Label header row, Body/Strong first column, Body/SM cells, a Source key under each published price. The six questions are hairline rows with mono numbers. The pull quote sits inline in the column: a 120 Ribbon rule, the tagline in Heading/2 with curly quotes, and a Body/SM attribution that names us, so it can’t be read as a testimonial. Check rows (check icon, Body/Default) carry the promise. Sources close the section: a Heading/4 and the numbered mono source list below a hairline. Padding 80 top, 128 bottom.",
+   "mobile": "Under the cover, ‘In this article’ collapses to one closed Accordion item; then the column at 358. The table becomes stacked rows: one block per way of charging, the Heading/4 name over label-and-value pairs, with the Source key under each price. Questions, pull quote, reasons, promise and sources keep their order; share buttons sit at the end of the article.",
+   "content": {
+    "body": [
+     "Most AI work is priced in one of four ways, and some firms don’t publish a price at all. None of these is wrong. Each one puts a different part of the risk on you, so it helps to know which part before you sign.",
+     "## How AI work is charged",
+     "Here is a published example of each, with what to watch. These are examples of how AI is priced, not attacks on these companies. Some of these tools are the right choice for a partner, and our AI assistant rollout service sets them up.",
+     "[table]",
+     "## Six questions to ask before you sign",
+     "Whichever way a firm charges, these questions show whether you can check the price.",
+     "[questions]",
+     "[pull quote] “Honest prices, published up front.” Alliance AI Partners · the line on our pricing page",
+     "## Why our prices can be lower",
+     "Two things let Alliance AI Partners charge less than most AI firms.",
+     "AI does the repetitive work. First drafts, testing, content production and data entry take fewer hours, so a project needs fewer billable hours.",
+     "We’re based in the Philippines. Our costs are lower than those of firms in the US, the UK or Australia, and we pass the difference on to you.",
+     "Lower cost doesn’t mean less care. AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you.",
+     "## What we do instead",
+     "Our honest pricing promise is a list you can check:",
+     "[promise]",
+     "If you’re comparing us with another firm, ask us the same six questions, then compare the answers. Our usual first project is the AI check-up: in [two weeks], we find where AI could save you time or money, and you get a fixed quote for the first fix.",
+     "[link] See what the AI check-up includes → /ai-check-up",
+     "## Sources"
+    ],
+    "table": {
+     "columns": [
+      "How it’s charged",
+      "A published example",
+      "What to watch"
+     ],
+     "rows": [
+      [
+       "By the hour",
+       "Most US and Australian web development agencies on Clutch charge US$100 to US$149 an hour. [key 1]",
+       "Slow work costs more, and the final bill is hard to predict."
+      ],
+      [
+       "Per seat",
+       "Microsoft 365 Copilot is US$30 per user a month, paid yearly, on top of a Microsoft 365 plan. For 50 people, that’s US$1,500 a month. [key 2]",
+       "Costs rise with every person you add."
+      ],
+      [
+       "Per resolution or per call",
+       "Intercom’s Fin is US$0.99 per outcome, with seats extra. Smith.ai’s AI receptionist is US$150 a month for 75 calls, then US$2.50 a call. [keys 3, 4]",
+       "Busy months cost more, so budgets are hard to set."
+      ],
+      [
+       "Monthly retainer",
+       "SEO retainers on Clutch run from US$2,000 to US$20,000 a month, averaging US$3,199. [key 5]",
+       "It isn’t always clear what the retainer buys."
+      ],
+      [
+       "No published prices",
+       "Some firms share prices only after a sales call.",
+       "You can’t compare until you’ve given up an hour."
+      ]
+     ]
+    },
+    "items": [
+     {
+      "title": "Is there a published starting price?",
+      "text": "A starting price lets you compare firms before anyone books a call.",
+      "meta": "01"
+     },
+     {
+      "title": "Is the quote fixed, and does it list everything?",
+      "text": "A fixed quote names every charge. Any change should be quoted before the work is done.",
+      "meta": "02"
+     },
+     {
+      "title": "Does the price grow with every seat?",
+      "text": "Per-seat fees rise each time you add a person, even when the work stays the same.",
+      "meta": "03"
+     },
+     {
+      "title": "How is AI usage billed?",
+      "text": "Model fees are a real cost. Ask whether they’re passed on at cost and shown on the invoice.",
+      "meta": "04"
+     },
+     {
+      "title": "Can you cancel a monthly plan?",
+      "text": "Ask how much notice you need to give, and what you keep when you leave.",
+      "meta": "05"
+     },
+     {
+      "title": "Who owns what is built?",
+      "text": "You should own the code, the data and the documents, even if you stop working together.",
+      "meta": "06"
+     }
+    ],
+    "promise": [
+     "Published starting prices for every core service.",
+     "A fixed quote before work starts that lists everything we’ll charge. Changes are quoted before we do them.",
+     "No per-seat fees on the tools we build.",
+     "AI usage, like model fees, passed on at cost and shown on the invoice.",
+     "Monthly plans you can cancel with [30] days’ notice.",
+     "You own what we build.",
+     "If an off-the-shelf tool or a simpler fix costs you less, we say so."
+    ],
+    "rail": {
+     "back": "All insights → /insights",
+     "contents": [
+      "How AI work is charged",
+      "Six questions to ask before you sign",
+      "Why our prices can be lower",
+      "What we do instead",
+      "Sources"
+     ],
+     "share": "Share this article: LinkedIn, X, Copy link"
+    },
+    "sources": [
+     {
+      "key": "1",
+      "text": "Clutch, web developers pricing guide, September 2026. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-developers/pricing"
+     },
+     {
+      "key": "2",
+      "text": "Microsoft, Microsoft 365 Copilot for enterprise, pricing. Retrieved 2026-11-02.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/copilot/enterprise"
+     },
+     {
+      "key": "3",
+      "text": "Intercom, pricing for Fin. Retrieved 2026-11-02.",
+      "url": "https://www.intercom.com/pricing"
+     },
+     {
+      "key": "4",
+      "text": "Smith.ai, AI receptionist pricing. Retrieved 2026-11-02.",
+      "url": "https://smith.ai/pricing/ai-receptionist"
+     },
+     {
+      "key": "5",
+      "text": "Clutch, SEO firms pricing guide, September 2026. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/seo-firms/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Link",
+    "Icon/arrow-left",
+    "Icon button",
+    "Source key (Size=MD)",
+    "Source list",
+    "Ribbon rule",
+    "Icon/check",
+    "Accordion item (mobile contents)"
+   ],
+   "images": []
+  },
+  {
+   "id": "related",
+   "name": "Section · Related articles",
+   "layout": "gallery-strip",
+   "ground": "navy",
+   "job": "Offer the next two reads once the article ends, as a clear break from the reading column.",
+   "desktop": "Partner Navy chapter: asymmetric head (Heading/1 ‘Keep reading’ 0.9fr | Body/LG lead 1.1fr), then two stories side by side (636 each, 48 gap; two, not three): a 636x358 Image slot (Tone Navy) above an Article card with its own image hidden, title raised to Heading/3, meta below, then a Body/Default excerpt. A cyan underlined ‘All insights’ link closes the section.",
+   "mobile": "Head stacked; the two stories in one column with 16:10 images (358x224); the link last.",
+   "content": {
+    "heading": "Keep reading",
+    "lead": "Two more sample articles from Insights: where to start, and what a hire really costs.",
+    "items": [
+     {
+      "title": "Start with the work your team does twice",
+      "meta": "Sample article · Getting started · [3] min read",
+      "text": "Most companies don’t need a big AI plan to begin. They need one task that takes hours every week and follows the same steps each time.",
+      "link": "/insights/start-with-the-work-your-team-does-twice"
+     },
+     {
+      "title": "What a hire really costs",
+      "meta": "Sample article · Hiring and teams · [5] min read",
+      "text": "Salary is only part of it. Benefits, recruiting and equipment add to it. Compare the full cost before you decide.",
+      "link": "/insights/what-a-hire-really-costs"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "All insights",
+      "variant": "link",
+      "target": "/insights"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Article card",
+    "Image slot (Tone=Navy)",
+    "Link"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-18-1",
+     "slotName": "IMG-18-1 · Worn path",
+     "kind": "new",
+     "source": "Editorial illustration of a calm meadow at daybreak, seen from slightly above. The meadow is built from thousands of small flat faceted paper blades of grass in pale blue-grey and soft Daylight white. Across it runs one path, worn smooth by being walked again and again, the same way every day: the path is a smooth satin ribbon in a gradient from Alliance Blue at the lower left to Ribbon Cyan at the upper right, pressed a little into the grass and easy to spot from above. It stands for the task a team repeats every week, plain to see once you look for it. A few faceted paper wildflowers in Partner Navy and Alliance Blue grow beside the path. Keep the path in the middle band of the frame and the top quarter a calm, pale sky. Landscape 16:9, safe to crop to 16:10 and 4:3 around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "636x358 (16:9) here; 760x428 on the Insights index",
+     "aspectMobile": "358x224 (16:10)",
+     "placement": "first related story, image above its Article card; the same picture leads the first story on 18 · Insights (same ID)",
+     "textArea": "none (title sits below the image)",
+     "alt": "A ribbon path worn smooth across a faceted paper meadow."
+    },
+    {
+     "imageId": "IMG-18-2",
+     "slotName": "IMG-18-2 · Iceberg",
+     "kind": "new",
+     "source": "Editorial illustration of a calm sea on a Daylight morning, drawn in cross-section so the view is half above and half below the waterline. A faceted paper iceberg floats in the middle: above the water only a small tip shows, in Daylight white and pale blue-grey; below the waterline, through clear, still water in soft Alliance Blue shades, the much larger part of the iceberg is fully visible, built from layered flat facets that deepen to Partner Navy toward the bottom. A thin satin ribbon in a gradient from Alliance Blue to Ribbon Cyan marks the waterline across the whole frame. The salary is the tip; benefits, recruiting and equipment are the larger part below. Keep the upper third a calm, pale sky. Landscape 16:9, safe to crop to 16:10, 4:3 and 1:1 around the iceberg. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "636x358 (16:9) here; 760x428 on the Insights index",
+     "aspectMobile": "358x224 (16:10)",
+     "placement": "second related story, image above its Article card; the same picture leads the second story on 18 · Insights (same ID)",
+     "textArea": "none (title sits below the image)",
+     "alt": "A faceted paper iceberg, small above the waterline and much larger below it."
+    }
+   ]
+  },
+  {
+   "id": "newsletter-strip",
+   "name": "Section · Newsletter strip",
+   "layout": "form",
+   "ground": "daylight",
+   "job": "Sign the reader up for the next article in one step.",
+   "desktop": "One white card the width of the container (48 padding), the Ribbon rule along its top edge (clipped by the 18 px corners, as on the newsletter-confirmed page), and a two-part row: Heading/3 title and Body/Default lead at 560 on the left; on the right the email Field (help hidden) beside a Primary MD ‘Subscribe’ aligned to the field’s control, with a Body/SM note and underlined link below. The page’s one Primary.",
+   "mobile": "The card at 358 with 24 padding: title, lead, full-width Field, full-width Primary LG, note.",
+   "content": {
+    "heading": "Get the next article by email.",
+    "lead": "One short email [once a month]: one main story, two short ones, and one figure with its source and date.",
+    "form": {
+     "fields": [
+      {
+       "label": "Work email",
+       "type": "email",
+       "placeholder": "name@company.com",
+       "required": true
+      }
+     ],
+     "submit": "Subscribe"
+    },
+    "body": [
+     "We’ll send a confirmation email first. Our privacy notice explains how we use your email."
+    ],
+    "ctas": [
+     {
+      "label": "Subscribe",
+      "variant": "primary",
+      "target": "newsletter sign-up (double opt-in) then /insights/subscribed"
+     },
+     {
+      "label": "privacy notice",
+      "variant": "link",
+      "target": "/privacy"
+     }
+    ]
+   },
+   "components": [
+    "Card",
+    "Ribbon rule",
+    "Field",
+    "Button (Primary)",
+    "Link",
+    "Footer"
+   ],
+   "images": []
+  }
+ ],
+ "notes": "A sample, marked twice: the Info Alert under the meta, and ‘Sample article’ on every related card. Every word comes from the Brand DNA: the ‘How other AI firms charge’ table (examples and what to watch, with its fairness line that these are examples, not attacks), the price rules, ‘Why we cost less’, the honest pricing promise and the buyer answer that a person reviews every piece of work. The table drops the Brand DNA’s fourth column (‘What we do instead’) because the promise list below says it in checkable form, and so the bracketed, unconfirmed ‘[A flat monthly price, with AI usage passed on at cost]’ is not published. Every figure sits in the article body section, with a Source key on the table cell and a dated line in the source list (Clutch September 2026, Microsoft, Intercom, Smith.ai; retrieved 2026-11-02); the US$1,500 for 50 seats is our sum of the Microsoft price. Read time 3 min, from the 675 words in the standfirst and body. Placeholders kept: [Name], [Role], [Publish date], [30], [two weeks], [once a month]. One Primary (Subscribe in the newsletter strip); the AI check-up is offered by an underlined link at the end of the article and by the header’s Secondary. The ribbon appears twice: the rule over the pull quote and the rule along the newsletter card. The pull quote is our own tagline (‘Honest prices, published up front.’, Brand DNA section 7) with an attribution that names Alliance AI Partners. Owner check before publishing: the article names other firms’ prices, and the Brand DNA says to check anything public that names one; re-check each price on the day it goes live."
+}

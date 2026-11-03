@@ -303,7 +303,7 @@
           {
             "label": "Read all the questions",
             "variant": "link",
-            "target": "/questions"
+            "target": "/faq"
           }
         ]
       },

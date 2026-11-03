@@ -259,7 +259,7 @@
    "mobile": "Title, lead, price, the framed proposal (358x480) and caption, then the two lists stacked, full-width Secondary last.",
    "content": {
     "heading": "Know the price before we start.",
-    "lead": "Each project gets one fixed quote that lists everything we will charge. Changes are quoted before we do them.",
+    "lead": "Our starting price is published, so you can compare before you talk to us. Every quote lists what is included, and what we never charge for.",
     "items": [
      {
       "title": "From [PRICE]",
@@ -298,7 +298,7 @@
      "aspectDesktop": "656x640 framed, top of the email (headline, fixed total, what is included)",
      "aspectMobile": "358x480 framed",
      "placement": "inset framed product visual right of the price on desktop; after the price on mobile",
-     "textArea": "none (caption below: 'Sample proposal from our templates: one fixed total, with project management, testing and documentation included.')",
+     "textArea": "none (caption below: 'Sample proposal from our templates: one fixed total, agreed before any work starts.')",
      "alt": "Sample proposal email: one fixed total for order entry automation, with project management, testing and documentation included."
     }
    ]
@@ -325,7 +325,7 @@
      },
      {
       "q": "What do we pay for AI usage?",
-      "a": "What it costs. Model fees are passed on with no markup and shown on their own line of your invoice, with the provider’s usage report attached."
+      "a": "What it costs. Model fees are passed on with no markup and shown on their own line of your invoice."
      },
      {
       "q": "Who owns the automation?",
@@ -337,7 +337,11 @@
      },
      {
       "q": "What happens to our data?",
-      "a": "It stays in your systems wherever possible. We ask only for the access the work needs, and we never use your data to train anything you don’t own."
+      "a": "It stays in your systems wherever possible, and we never use it to train anything you don’t own. Our data and security page sets out how we handle it.",
+      "link": {
+       "label": "Our data and security page",
+       "target": "/trust"
+      }
      }
     ],
     "ctas": [
@@ -349,7 +353,7 @@
      {
       "label": "Read all the questions",
       "variant": "link",
-      "target": "/questions"
+      "target": "/faq"
      }
     ]
    },
@@ -405,5 +409,5 @@
    ]
   }
  ],
- "notes": "Ribbon signature used once (Steps in 'How a project runs'). One Primary per screenful (hero at y 610, closing band at y 5662 on desktop; 429 and 7696 on mobile). The before/after visual is a sample and says so. No figures other than placeholders, so the page needs no source list. Lint: no findings on either frame."
+ "notes": "Ribbon signature used once (Steps in 'How a project runs'). One Primary per screenful (hero at y 610, closing band at y 5662 on desktop; 429 and 7696 on mobile). The before/after visual is a sample and says so. No figures other than placeholders, so the page needs no source list. Lint: no findings on either frame. Review 2026-11-03: two closed FAQ answers went beyond the Brand DNA ('with the provider’s usage report attached'; 'We ask only for the access the work needs'); the data answer now points to the data and security page, as Brand DNA section 6 asks. The Pricing lead repeated step 2 of 'How a project runs' word for word, and the proposal caption repeated the price line; both rewritten. Price numeral to its line: 8 px. 'Read all the questions' goes to /faq."
 }

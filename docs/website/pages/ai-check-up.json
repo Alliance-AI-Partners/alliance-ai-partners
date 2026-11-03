@@ -86,7 +86,7 @@
     "mobile": "43:804"
    },
    "job": "Show the Understand and Plan steps applied to the partner: interviews, a walk through their tools and their slowest processes, then how we weigh and check the fixes.",
-   "heading": "We listen first, then we plan.",
+   "heading": "We listen first, then we plan. (mobile set on two lines: 'We listen first,' / 'then we plan.')",
    "accentWord": "plan.",
    "lead": "The check-up covers the first two of our four steps. Building the fix is a separate decision, and the plan is yours either way.",
    "items": [
@@ -128,7 +128,7 @@
     },
     {
      "title": "After the check-up",
-     "text": "Build, and Run and grow, only if you want them, at the price in your fixed quote. You can also take the plan to your own team or anyone else."
+     "text": "If you want us to build the first fix, you already have its fixed price. You can also take the plan to your own team, or to anyone else."
     }
    ],
    "ctas": [
@@ -151,7 +151,7 @@
     "mobile": "43:883"
    },
    "job": "Name the three deliverables and show a framed SAMPLE report preview that links to the sample report page.",
-   "heading": "A plan, a price and a straight answer.",
+   "heading": "A plan, a price and a straight answer. (desktop set on two lines: 'A plan, a price' / 'and a straight answer.')",
    "lead": "At the end of the check-up you get three things, in writing. They are yours to keep, whatever you decide next.",
    "items": [
     {
@@ -176,7 +176,7 @@
     {
      "slotName": "Sample report preview",
      "kind": "vector",
-     "source": "UI composition drawn in Figma (not a raster): a white document in a Neutral 50 well at the top of the large card. 'Sample report' tag, 'AI check-up · [Partner name]', title 'Where AI could save [Partner name] time', three ranked rows (Order entry from email, Repeat customer questions, Monthly report) with 'Saves [hours a week]' / '[hours a month]' in mono, row 1 tinted 10% Ribbon Cyan as the recommended first fix, and the line 'Fixed quote for the first fix [PRICE]'.",
+     "source": "UI composition drawn in Figma (not a raster): a white document in a Neutral 50 well at the top of the large card. 'Sample report' tag, 'AI check-up · [Partner name]', title 'Where AI could save [Partner name] time', three ranked rows that match the top three of the sample report on page 34 (Order entry from email, Matching supplier invoices, Repeat customer questions), each 'Saves [hours a week]' in mono, row 1 tinted 10% Ribbon Cyan as the recommended first fix, and the line 'Fixed quote for the first fix [PRICE]'.",
      "aspectDesktop": "large bento card, about 648 wide",
      "aspectMobile": "358 wide",
      "placement": "top of the large bento card",
@@ -298,7 +298,9 @@
        "None of these. Email me other times."
       ],
       "help": "Shown in your time zone, New York (EST), with our time in Manila.",
-      "required": true
+      "required": true,
+      "tag": "Sample times",
+      "note": "The four slots are samples: a 'Sample times' Tag sits on the right of the group label."
      },
      {
       "label": "I agree that Alliance AI Partners may use these details to arrange my AI check-up, as set out in the privacy policy.",
@@ -431,8 +433,9 @@
      "caption": "Sample confirmation email from our templates.",
      "alt": "Sample confirmation email: the AI check-up is booked for Tuesday, November 17, with the agenda and what to prepare."
     }
-   ]
+   ],
+   "tag": "Sample booking (Tag under the lead; the date and times are the sample booking from brand-kit/emails/check-up-booked.html)"
   }
  ],
- "notes": "Desktop 39:528 was started by an earlier builder copy that has stopped; it was taken over as it stood and fixed: the preview's first row went from solid Ribbon Cyan to the 10% tint, 'After the check-up' moved to Heading/4 so it no longer breaks mid-word, the FAQ title is set on two lines for the same reason, 'No payment now.' was removed (no payment policy is confirmed), 'Most partners start here.' was removed (it implied a track record), the country select shows the United States so the call times in EST make sense, and the consent link got the standard 1px underline. Sample booking values (Tuesday, November 17, 5:00 to 6:00 pm EST = 6:00 to 7:00 am PHT Wednesday; the one-hour call) follow brand-kit/emails/check-up-booked.html. Placeholders kept: [PRICE], [two weeks], [Partner name], [hours a week], [hours a month], [email address]. No figures are claimed, so the page has no source list. One ribbon signature (the step rule). Header CTA stays the Secondary outline and no nav item is marked current. faceted-leaves.webp is used twice across this page group (here and on page 34), the allowed maximum. All four frames pass the lint (node 37:851) with no findings."
+ "notes": "Desktop 39:528 was started by an earlier builder copy that has stopped; it was taken over as it stood and fixed: the preview's first row went from solid Ribbon Cyan to the 10% tint, 'After the check-up' moved to Heading/4 so it no longer breaks mid-word, the FAQ title is set on two lines for the same reason, 'No payment now.' was removed (no payment policy is confirmed), 'Most partners start here.' was removed (it implied a track record), the country select shows the United States so the call times in EST make sense, and the consent link got the standard 1px underline. Sample booking values (Tuesday, November 17, 5:00 to 6:00 pm EST = 6:00 to 7:00 am PHT Wednesday; the one-hour call) follow brand-kit/emails/check-up-booked.html. Placeholders kept: [PRICE], [two weeks], [Partner name], [hours a week], [hours a month], [email address]. No figures are claimed, so the page has no source list. One ribbon signature (the step rule). Header CTA stays the Secondary outline and no nav item is marked current. faceted-leaves.webp is used twice across this page group (here and on page 34), the allowed maximum. All four frames pass the lint (node 37:851) with no findings. Review 2026-11-03 (outside reviewer): the booking slots now carry a 'Sample times' Tag and both Booked states a 'Sample booking' Tag; the preview's rows 2 and 3 now match the sample report's ranking (Matching supplier invoices, then Repeat customer questions); the 'After the check-up' line was rewritten in plain words; two headings were set on balanced lines. Still for the owner to confirm: the one-hour first call (from the brand-kit booking email). All four frames re-lint with no findings."
 }

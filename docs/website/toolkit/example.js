@@ -79,7 +79,8 @@ K.header(R, 'Services');
   const band = figma.createFrame(); band.name = 'Band'; band.fills = []; band.clipsContent = true; K.add(s, band, { w: 'fill' }); band.layoutSizingVertical = 'FIXED'; band.resize(1440, 600);
   const img = K.img('IMG-07-3', 'Dawn wave', 'Existing: design-system/imagery/backgrounds/dawn-wave.webp', 1440, 600, { tone: 'Navy', radius: 0 }); band.appendChild(img); img.x = 0; img.y = 0;
   const scrim = figma.createRectangle(); scrim.name = 'Scrim'; band.appendChild(scrim); scrim.resize(1440, 600);
-  scrim.fills = [{ type: 'GRADIENT_LINEAR', gradientTransform: [[1, 0, 0], [0, 1, 0]], gradientStops: [{ position: 0, color: { r: 0.071, g: 0.106, b: 0.165, a: 0.82 } }, { position: 0.6, color: { r: 0.071, g: 0.106, b: 0.165, a: 0 } }] }];
+  // the scrim holds at least 82% navy under every line of text (here the text sits in the first half), then fades out
+  scrim.fills = [{ type: 'GRADIENT_LINEAR', gradientTransform: [[1, 0, 0], [0, 1, 0]], gradientStops: [{ position: 0, color: { r: 0.071, g: 0.106, b: 0.165, a: 0.88 } }, { position: 0.5, color: { r: 0.071, g: 0.106, b: 0.165, a: 0.82 } }, { position: 0.75, color: { r: 0.071, g: 0.106, b: 0.165, a: 0 } }] }];
   // scrim from the top instead: gradientTransform [[0, 1, 0], [-1, 0, 1]]
   const tx = K.f('V', { name: 'Text', gap: 24 }); band.appendChild(tx); tx.x = 60; tx.y = 160;
   const h = await K.t('Start with one developer.', 'Display/LG', 'tP', { name: 'Title' }); K.add(tx, h); h.layoutSizingHorizontal = 'FIXED'; h.resize(760, h.height); h.textAutoResize = 'HEIGHT';

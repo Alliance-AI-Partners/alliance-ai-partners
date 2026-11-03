@@ -33,7 +33,7 @@
         "lead": "We call them subprocessors: the companies whose AI models and software we use to do your work. Each one is listed here with what it does, which of your data it may see and where it runs.",
         "body": [
           "Last updated [date]",
-          "Alert (Info): Published before launch. We publish the full list before the site goes live. Until then, every row on this page is a placeholder."
+          "Alert (Info): Published before launch. We will publish the full list before the site goes live. Until then, every row on this page is a placeholder."
         ],
         "ctas": [
           {
@@ -169,5 +169,5 @@
       "images": []
     }
   ],
-  "notes": "Simple Later-phase page: Heading/1 instead of Display/XL, no image slots, no ribbon. No Primary: the page asks nothing of the visitor, and the header keeps the check-up outline. The first row of each group repeats the bracketed purposes previewed on Data and security (/trust), so the two pages agree. Every provider, purpose, data type, region, the notice period and the objection terms are placeholders until the real list and contract terms exist."
+  "notes": "Simple Later-phase page: Heading/1 instead of Display/XL, no image slots, no ribbon. No Primary: the page asks nothing of the visitor, and the header keeps the check-up outline. The first row of each group repeats the bracketed purposes previewed on Data and security (/trust), so the two pages agree. Every provider, purpose, data type, region, the notice period and the objection terms are placeholders until the real list and contract terms exist. Review 2026-11-03: the alert now says 'We will publish the full list' (the voice rule, and the same tense as the Data and security caption); lint clean on both frames."
 }

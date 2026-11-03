@@ -16,8 +16,8 @@
   "default"
  ],
  "frames": {
-  "desktop": "TBD",
-  "mobile": "TBD"
+  "desktop": "65:2774",
+  "mobile": "67:3663"
  },
  "sections": [
   {
@@ -477,5 +477,5 @@
    ]
   }
  ],
- "notes": "Later-phase page. Every figure comes from the Brand DNA cost comparison, the Clutch agency ranges and the per-seat examples, each with a Source key and a dated source line in its own section, plus the full list with links in the fairness section. Rules applied: like for like (employee yearly cost against an embedded developer; agency hourly ranges shown as market ranges, not against our prices); no superlatives; Clutch ranges marked as marketplace ranges that describe typical Philippine agencies, not our prices; no AI development gap claimed with Australia; no 'about half' claim until real prices exist. Our prices stay [PRICE]. Header marks Pricing as the current section. Layouts: text-led hero with an index, table, chart card, navy stat split, split-sticky with an inset image, two-column text, full-bleed band with the text on the right. Ribbon signature once: the Ribbon rule over the hero index."
+ "notes": "Later-phase page. Every figure comes from the Brand DNA cost comparison, the Clutch agency ranges and the per-seat examples, each with a Source key and a dated source line in its own section, plus the full list with links in the fairness section. Rules applied: like for like (employee yearly cost against an embedded developer; agency hourly ranges shown as market ranges, not against our prices); no superlatives; Clutch ranges marked as marketplace ranges that describe typical Philippine agencies, not our prices; no AI development gap claimed with Australia; no 'about half' claim until real prices exist. Our prices stay [PRICE]. Header marks Pricing as the current section. Layouts: text-led hero with an index, table, chart card, navy stat split, split-sticky with an inset image, two-column text, full-bleed band with the text on the right. Ribbon signature once: the Ribbon rule over the hero index. Built 2026-11-03: desktop 65:2774, mobile 67:3663, both lint clean. Our-column tints set explicitly at 10% (the toolkit tint came back solid once and was reset). Image slot nodes: IMG-37-1 desktop 67:1048, mobile 67:5402; IMG-37-2 desktop 67:1193, mobile 67:5542."
 }

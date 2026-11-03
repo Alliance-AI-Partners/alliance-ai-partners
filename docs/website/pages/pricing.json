@@ -412,7 +412,7 @@
      {
       "label": "Read all the questions buyers ask",
       "variant": "link",
-      "target": "/questions"
+      "target": "/faq"
      }
     ]
    },

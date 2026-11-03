@@ -4,13 +4,21 @@
   "phase": "Launch",
   "route": "/trust",
   "purpose": "Show a founder or CTO, before they share anything, how Alliance AI Partners handles partner data: it stays in their systems wherever possible, we take only the access a job needs, a person reviews every piece of work, and a national privacy law stands behind it.",
-  "primaryAction": { "label": "See where AI can help", "target": "/ai-check-up" },
+  "primaryAction": {
+    "label": "See where AI can help",
+    "target": "/ai-check-up"
+  },
   "seo": {
     "title": "Data and security | Alliance AI Partners",
     "description": "How Alliance AI Partners handles your data: it stays in your systems wherever possible, we take only the access a job needs, and a person reviews every piece of work."
   },
-  "states": ["default"],
-  "frames": { "desktop": "38:45", "mobile": "39:1228" },
+  "states": [
+    "default"
+  ],
+  "frames": {
+    "desktop": "38:45",
+    "mobile": "39:1228"
+  },
   "sections": [
     {
       "id": "hero",
@@ -24,21 +32,61 @@
         "heading": "Your data stays yours.",
         "accentWord": "yours.",
         "lead": "It stays in your systems wherever possible. We take only the access a job needs, and a person on our team reviews every piece of work before it reaches you.",
-        "body": ["We will publish our full data policy on this page before launch."],
+        "body": [
+          "We will publish our full data policy on this page before launch."
+        ],
         "items": [
-          { "title": "Access record", "meta": "[Partner name] · AI check-up · Sample" },
-          { "title": "Your CRM", "text": "Contacts and deals only", "meta": "Read only" },
-          { "title": "Your help desk", "text": "Drafts replies; a person sends them", "meta": "Draft only" },
-          { "title": "Shared drive", "text": "One folder for the check-up files", "meta": "One folder" },
-          { "title": "Access ends when the job ends.", "meta": "Ends [date]" },
-          { "title": "Reviewed by a person", "text": "[Name], [Role]" }
+          {
+            "title": "Access record",
+            "meta": "[Partner name] · AI check-up · Sample"
+          },
+          {
+            "title": "Your CRM",
+            "text": "Contacts and deals only",
+            "meta": "Read only"
+          },
+          {
+            "title": "Your help desk",
+            "text": "Drafts replies; a person sends them",
+            "meta": "Draft only"
+          },
+          {
+            "title": "Shared drive",
+            "text": "One folder for the check-up files",
+            "meta": "One folder"
+          },
+          {
+            "title": "Access ends when the job ends.",
+            "meta": "Ends [date]"
+          },
+          {
+            "title": "Reviewed by a person",
+            "text": "[Name], [Role]"
+          }
         ],
         "ctas": [
-          { "label": "See the AI tools we use", "variant": "secondary", "target": "/trust/subprocessors" },
-          { "label": "Report a security problem", "variant": "link", "target": "/security" }
+          {
+            "label": "See the AI tools we use",
+            "variant": "secondary",
+            "target": "/trust/subprocessors"
+          },
+          {
+            "label": "Report a security problem",
+            "variant": "link",
+            "target": "/security"
+          }
         ]
       },
-      "components": ["Header", "Button (Secondary)", "Link", "Card", "Tag", "Icon/lock", "Service icon/security-governance (Mono)", "Service icon/advisory (Mono)"],
+      "components": [
+        "Header",
+        "Button (Secondary)",
+        "Link",
+        "Card",
+        "Tag",
+        "Icon/lock",
+        "Service icon/security-governance (Mono)",
+        "Service icon/advisory (Mono)"
+      ],
       "images": [
         {
           "imageId": null,
@@ -64,13 +112,31 @@
         "heading": "Four rules on every project.",
         "lead": "They hold for every service we offer, from the AI check-up to a developer working inside your team.",
         "items": [
-          { "title": "Your data stays in your systems wherever possible.", "text": "We work inside your tools and accounts instead of copying your data into ours. When a job does need a copy, you decide first." },
-          { "title": "We take only the access a job needs.", "text": "Named accounts, the lowest access level that does the work, removed when the job ends." },
-          { "title": "A person reviews every piece of work.", "text": "AI drafts and checks. A person on our team reviews the result before it reaches you or your customers." },
-          { "title": "Your data trains only what you own.", "text": "Your data is never used to train anything you don't own." }
+          {
+            "title": "Your data stays in your systems wherever possible.",
+            "text": "We work inside your tools and accounts instead of copying your data into ours. When a job does need a copy, you decide first."
+          },
+          {
+            "title": "We take only the access a job needs.",
+            "text": "Named accounts, the lowest access level that does the work, removed when the job ends."
+          },
+          {
+            "title": "A person reviews every piece of work.",
+            "text": "AI drafts and checks. A person on our team reviews the result before it reaches you or your customers."
+          },
+          {
+            "title": "Your data trains only what you own.",
+            "text": "Your data is never used to train anything you don't own."
+          }
         ]
       },
-      "components": ["Card", "Tag", "Service icon/security-governance", "Service icon/advisory", "Service icon/machine-learning"],
+      "components": [
+        "Card",
+        "Tag",
+        "Service icon/security-governance",
+        "Service icon/advisory",
+        "Service icon/machine-learning"
+      ],
       "images": [
         {
           "imageId": null,
@@ -95,19 +161,60 @@
       "content": {
         "heading": "What we touch, and where it lives.",
         "lead": "Our data policy will list every kind of data we handle. Until it is published, this table shows what each row will tell you.",
-        "body": ["Alert (Info): Placeholder until the data policy is published. Each row below is filled in from the policy before launch."],
+        "body": [
+          "Alert (Info): Placeholder until the data policy is published. Each row below is filled in from the policy before launch."
+        ],
         "table": {
-          "columns": ["Data", "Why we use it", "Where it lives", "Who can see it", "Kept for"],
+          "columns": [
+            "Data",
+            "Why we use it",
+            "Where it lives",
+            "Who can see it",
+            "Kept for"
+          ],
           "rows": [
-            ["[Contact details you send us]", "[Purpose]", "[System and region]", "[Roles]", "[Period]"],
-            ["[Records in your systems]", "[Purpose]", "[Stays in your systems]", "[Roles]", "[Period]"],
-            ["[Customer conversations an assistant handles]", "[Purpose]", "[System and region]", "[Roles]", "[Period]"],
-            ["[Code and repositories]", "[Purpose]", "[Your repositories]", "[Roles]", "[Period]"],
-            ["[AI usage records for your invoice]", "[Purpose]", "[System and region]", "[Roles]", "[Period]"]
+            [
+              "[Contact details you send us]",
+              "[Purpose]",
+              "[System and region]",
+              "[Roles]",
+              "[Period]"
+            ],
+            [
+              "[Records in your systems]",
+              "[Purpose]",
+              "[Stays in your systems]",
+              "[Roles]",
+              "[Period]"
+            ],
+            [
+              "[Customer conversations an assistant handles]",
+              "[Purpose]",
+              "[System and region]",
+              "[Roles]",
+              "[Period]"
+            ],
+            [
+              "[Code and repositories]",
+              "[Purpose]",
+              "[Your repositories]",
+              "[Roles]",
+              "[Period]"
+            ],
+            [
+              "[AI usage records for your invoice]",
+              "[Purpose]",
+              "[System and region]",
+              "[Roles]",
+              "[Period]"
+            ]
           ]
         }
       },
-      "components": ["Alert (Info)", "Table row"],
+      "components": [
+        "Alert (Info)",
+        "Table row"
+      ],
       "images": []
     },
     {
@@ -116,16 +223,33 @@
       "layout": "full-bleed-band",
       "ground": "navy",
       "job": "Name the Philippine privacy law and its independent regulator, with the source.",
-      "desktop": "Full-bleed 1440x640 band with the image behind a navy scrim; text block on the right: Display/LG title with one cyan accent, Body/LG with Source key 1, a cyan link to the Act, and the mono source line below a hairline.",
-      "mobile": "390x760 band, scrim from the top, text and source at the top.",
+      "desktop": "Full-bleed 1440x640 band with the image behind a navy scrim; text block on the right: Display/LG title with one cyan accent, Body/LG with Source key 1, a cyan link to the Act, and the mono source line below a hairline. The scrim is solid 92% Partner Navy from the right edge to the middle of the band (x 720, before the text column at 780) and fades to 0 at x 288, so the leaves' lit edges never sit under the text.",
+      "mobile": "390x760 band, scrim from the top, text and source at the top. The scrim is solid 94% from the top to 62% of the height (below the source list) and fades to 0 at 90%, so the crop's leaves show only at the foot.",
       "content": {
         "heading": "Our promise, backed by law.",
         "accentWord": "law.",
         "lead": "Alliance AI Partners is based in the Philippines. Personal data there is protected by the Data Privacy Act of 2012, enforced by an independent National Privacy Commission.",
-        "ctas": [{ "label": "Read the Data Privacy Act", "variant": "link", "target": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253" }],
-        "sources": [{ "key": "1", "text": "Republic Act No. 10173, the Data Privacy Act of 2012. Supreme Court of the Philippines E-Library. Retrieved 2026-11-02.", "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253" }]
+        "ctas": [
+          {
+            "label": "Read the Data Privacy Act",
+            "variant": "link",
+            "target": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+          }
+        ],
+        "sources": [
+          {
+            "key": "1",
+            "text": "Republic Act No. 10173, the Data Privacy Act of 2012. Supreme Court of the Philippines E-Library. Retrieved 2026-11-02.",
+            "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+          }
+        ]
       },
-      "components": ["Image slot (Navy)", "Source key", "Source list", "Link"],
+      "components": [
+        "Image slot (Navy)",
+        "Source key",
+        "Source list",
+        "Link"
+      ],
       "images": [
         {
           "imageId": "IMG-13-1",
@@ -151,14 +275,47 @@
       "content": {
         "heading": "Which AI tools touch your data.",
         "lead": "Some work runs through AI models and tools from other companies. We publish each one that may touch partner data: what it does, what it sees and where it runs.",
-        "body": ["Before a new provider touches your data, we tell you [notice period] ahead.", "Preview. The full list is published before launch."],
+        "body": [
+          "Before a new provider touches your data, we tell you [notice period] ahead.",
+          "Preview. The full list is published before launch."
+        ],
         "table": {
-          "columns": ["Provider", "Purpose", "Location"],
-          "rows": [["[Provider]", "[AI model: drafts and answers]", "[Region]"], ["[Provider]", "[Automation platform]", "[Region]"], ["[Provider]", "[Hosting and storage]", "[Region]"]]
+          "columns": [
+            "Provider",
+            "Purpose",
+            "Location"
+          ],
+          "rows": [
+            [
+              "[Provider]",
+              "[AI model: drafts and answers]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Automation platform]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Hosting and storage]",
+              "[Region]"
+            ]
+          ]
         },
-        "ctas": [{ "label": "See the subprocessor list", "variant": "secondary", "target": "/trust/subprocessors" }]
+        "ctas": [
+          {
+            "label": "See the subprocessor list",
+            "variant": "secondary",
+            "target": "/trust/subprocessors"
+          }
+        ]
       },
-      "components": ["Card", "Button (Secondary)", "Table row"],
+      "components": [
+        "Card",
+        "Button (Secondary)",
+        "Table row"
+      ],
       "images": [
         {
           "imageId": null,
@@ -184,11 +341,23 @@
         "heading": "Found a security problem?",
         "lead": "Tell us privately first. We acknowledge every report within [two working days].",
         "ctas": [
-          { "label": "security@allianceaipartners.example", "variant": "link", "target": "mailto:security@allianceaipartners.example" },
-          { "label": "How to report a vulnerability", "variant": "link", "target": "/security" }
+          {
+            "label": "security@allianceaipartners.example",
+            "variant": "link",
+            "target": "mailto:security@allianceaipartners.example"
+          },
+          {
+            "label": "How to report a vulnerability",
+            "variant": "link",
+            "target": "/security"
+          }
         ]
       },
-      "components": ["Card", "Icon/lock", "Link"],
+      "components": [
+        "Card",
+        "Icon/lock",
+        "Link"
+      ],
       "images": []
     },
     {
@@ -202,20 +371,40 @@
       "content": {
         "heading": "Start with an AI check-up.",
         "accentWord": "check-up.",
-        "lead": "A short first project, and the easiest way to start.",
+        "lead": "A short, low-risk first project.",
         "items": [
-          { "title": "We learn how your business works." },
-          { "title": "We find where AI could save you time or money." },
-          { "title": "You get a plan with a fixed quote." }
+          {
+            "title": "We learn how your business works."
+          },
+          {
+            "title": "We find where AI could save you time or money."
+          },
+          {
+            "title": "You get a plan with a fixed quote."
+          }
         ],
         "ctas": [
-          { "label": "See where AI can help", "variant": "primary", "target": "/ai-check-up" },
-          { "label": "Ask us about your data first", "variant": "link", "target": "mailto:hello@allianceaipartners.example" }
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "Ask us about your data first",
+            "variant": "link",
+            "target": "mailto:hello@allianceaipartners.example"
+          }
         ]
       },
-      "components": ["Ribbon rule", "Button (Primary)", "Icon/check", "Link", "Footer"],
+      "components": [
+        "Ribbon rule",
+        "Button (Primary)",
+        "Icon/check",
+        "Link",
+        "Footer"
+      ],
       "images": []
     }
   ],
-  "notes": "Frames 38:45 and 39:1228 were built by a stopped duplicate builder and kept after review: lint clean on 2026-11-03 after two fixes (the law band Source key text raised from 10 to 12 px, and the fourth rule retitled 'Your data trains only what you own.' to match Brand DNA, since custom model training on a partner's own data is a listed service). Footer-linked trust page, so no nav item is current. The security-governance and lock visuals are used small and in context (lock icons on the access record and in the security strip, the shield service icon in the rules), never as padlock clip art. Everything that depends on the unpublished data policy is a bracketed placeholder and labelled as one (Brand DNA, Notes before launch 6). The only number shown (the Act and its year) carries Source key 1 and a dated source line."
+  "notes": "Frames 38:45 and 39:1228 were built by a stopped duplicate builder and kept after review: lint clean on 2026-11-03 after two fixes (the law band Source key text raised from 10 to 12 px, and the fourth rule retitled 'Your data trains only what you own.' to match Brand DNA, since custom model training on a partner's own data is a listed service). Footer-linked trust page, so no nav item is current. The security-governance and lock visuals are used small and in context (lock icons on the access record and in the security strip, the shield service icon in the rules), never as padlock clip art. Everything that depends on the unpublished data policy is a bracketed placeholder and labelled as one (Brand DNA, Notes before launch 6). The only number shown (the Act and its year) carries Source key 1 and a dated source line. Review 2026-11-03: law band scrims strengthened on both frames (the text column started over a 15% scrim on desktop and the source list over a 10 to 25% scrim on mobile, where the crop puts leaves under all the text); the closing lead changed from 'the easiest way to start' (a superlative Brand DNA doesn't make) to Brand DNA's 'short, low-risk first project'."
 }

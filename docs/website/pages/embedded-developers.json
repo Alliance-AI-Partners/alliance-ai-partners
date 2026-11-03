@@ -115,7 +115,7 @@
     },
     "body": [
      "None of these figures include recruiting fees, equipment or office space, so the real cost of hiring locally is higher.",
-     "Mobile card: An embedded developer from Alliance AI Partners. [PRICE] a month. Recruiting, benefits and equipment included."
+     "Mobile card: An embedded developer from Alliance AI Partners. [PRICE] (Data/Numeral), then: a month, with recruiting, benefits and equipment included."
     ],
     "sources": [
      {
@@ -213,11 +213,11 @@
    "mobile": "Title, lead, the four rows stacked (day above text), then the framed report (358x440) and caption.",
    "content": {
     "heading": "You see progress every week.",
-    "lead": "Your developer works like anyone else on your team, with a written update every Friday and a check-in with us every month.",
+    "lead": "Your developer works like anyone else on your team, with a short written update every week.",
     "items": [
      {
       "title": "Monday",
-      "text": "You set the priorities. Your developer takes work from your board, like anyone else on the team."
+      "text": "You set the priorities, and your developer takes work from your board."
      },
      {
       "title": "Every day",
@@ -228,8 +228,8 @@
       "text": "A short written update: what shipped, what’s next, and anything that needs you."
      },
      {
-      "title": "Every month",
-      "text": "A check-in with us. If something isn’t working, you hear it early, with a plan to fix it."
+      "title": "Any time",
+      "text": "If something isn’t working, you hear it from us early, with a plan to fix it."
      }
     ]
    },
@@ -260,23 +260,23 @@
    "mobile": "Stacked head, vertical Steps variant.",
    "content": {
     "heading": "From first call to first commit.",
-    "lead": "Four steps. You choose the developer, and you can stop with [30] days’ notice.",
+    "lead": "Four steps, and you can stop with [30] days’ notice.",
     "items": [
      {
       "title": "Tell us about the role",
       "text": "The skills, the stack, the hours and who they report to."
      },
      {
-      "title": "Meet the shortlist",
-      "text": "We recruit and test candidates. You interview the ones we put forward, and you choose."
+      "title": "We recruit for the role",
+      "text": "We look for the skills, stack and hours you described. You don’t pay for recruiting."
      },
      {
       "title": "Start in your tools",
       "text": "Your developer starts within [two weeks] of your yes, in your accounts and your stand-ups."
      },
      {
-      "title": "Check in every month",
-      "text": "We review the work with you each month."
+      "title": "Ship the first commit",
+      "text": "Your developer’s first work goes through your code review and into your repositories."
      }
     ]
    },
@@ -292,12 +292,12 @@
    "layout": "timezones",
    "ground": "navy",
    "job": "Show how a morning in Manila lines up with Sydney, New York and London and what that means for each market, with sources.",
-   "desktop": "Navy chapter. Heading/1 head, the Time zones component (sample November moment), a sample-time note, three hairline rows (country + source key | what it means), two mono sources.",
+   "desktop": "Navy chapter. Heading/1 head, the Time zones component (sample November moment), a sample-time note, three hairline rows (country + source key | what it means), two mono sources. Row text starts on the lead's column and stays 620 px wide (about 75 characters).",
    "mobile": "Head, the 2x2 Time zones variant, note, rows stacked (country above text), sources.",
    "content": {
     "heading": "On your hours, wherever you are.",
     "accentWord": "hours",
-    "lead": "Your developer keeps the hours you choose: alongside your day, or through your night so the work moves while you sleep.",
+    "lead": "Our day overlaps yours in Australia and the UK. For US partners, the work moves while you sleep: brief us before you log off, and see progress when you log on.",
     "items": [
      {
       "title": "Australia [1]",
@@ -375,9 +375,14 @@
     ],
     "ctas": [
      {
+      "label": "ask us directly",
+      "variant": "link",
+      "target": "/contact?service=embedded-developers"
+     },
+     {
       "label": "Read all the questions",
       "variant": "link",
-      "target": "/questions"
+      "target": "/faq"
      }
     ]
    },
@@ -398,7 +403,7 @@
    "content": {
     "heading": "Start with one developer.",
     "accentWord": "one",
-    "lead": "Tell us about the role. You’ll get a fixed monthly price and a shortlist to interview.",
+    "lead": "Tell us about the role. You’ll get a fixed monthly price before your developer starts.",
     "ctas": [
      {
       "label": "Tell us about the role",
@@ -433,5 +438,5 @@
    ]
   }
  ],
- "notes": "Frames were started by an earlier builder copy (stopped) and completed and checked in this session: desktop was complete; mobile was finished from 'A normal week' to the footer, copying the desktop's step texts and FAQ answers. Fixes made here: Source keys switched to Size=MD (12px) so no text is under 12px; the 'What if it isn’t working out?' answer reworded on both frames; the Alliance AI Partners table column tint rebuilt as Ribbon Cyan at 10% paint opacity (it was a solid cyan fill at 10% layer opacity). The ribbon signature is used once (Steps in 'Getting started'). One Primary per screenful (desktop y 631 and 6174; mobile y 429 and 8513). [PRICE], [30] and [two weeks] stay as placeholders; every figure has a dated source in its section. Lint: no findings on either frame. Lead review 2026-11-03: removed promises the Brand DNA does not make (holiday and sick cover, a replacement developer, a laptop, licences and a workspace, a senior engineer behind them); Figma is the final copy where it differs from this spec."
+ "notes": "Frames were started by an earlier builder copy (stopped) and completed and checked in this session: desktop was complete; mobile was finished from 'A normal week' to the footer, copying the desktop's step texts and FAQ answers. Fixes made here: Source keys switched to Size=MD (12px) so no text is under 12px; the 'What if it isn’t working out?' answer reworded on both frames; the Alliance AI Partners table column tint rebuilt as Ribbon Cyan at 10% paint opacity (it was a solid cyan fill at 10% layer opacity). The ribbon signature is used once (Steps in 'Getting started'). One Primary per screenful (desktop y 631 and 6174; mobile y 429 and 8513). [PRICE], [30] and [two weeks] stay as placeholders; every figure has a dated source in its section. Lint: no findings on either frame. Lead review 2026-11-03: removed promises the Brand DNA does not make (holiday and sick cover, a replacement developer, a laptop, licences and a workspace, a senior engineer behind them); Figma is the final copy where it differs from this spec. Review 2026-11-03: the closed FAQ items still held the removed promises in their Answer property (a laptop, software licences, a workspace, cover when they’re away, a replacement developer); set to the answers above on both frames. Step 2 softened from 'Meet the shortlist' (we recruit and test candidates, you interview and choose) to what the Brand DNA supports (we recruit, you don’t pay for it), and the closing lead no longer promises a shortlist to interview: the owner confirms the hiring process before either comes back. Step 4 now lands on the first commit instead of repeating the section above; 'A normal week' no longer promises a monthly check-in (the lead removed it from the steps). Mobile price card split so [PRICE] sits on one line; mobile ONS source restored to the full working; 'ask us directly' linked to Contact; 'Read all the questions' goes to /faq."
 }

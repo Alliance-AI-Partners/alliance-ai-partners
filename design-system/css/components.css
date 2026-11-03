@@ -335,6 +335,19 @@
   transform: translateX(3px);
 }
 
+/* A link on its own line (not inside running text) gets a 44 px touch target that doesn't move the layout. */
+.aap-link--standalone {
+  position: relative;
+}
+
+.aap-link--standalone::before {
+  content: "";
+  position: absolute;
+  inset: 50% 0 auto;
+  height: max(100%, var(--aap-size-control-md));
+  transform: translateY(-50%);
+}
+
 /* ---------------------------------------------------------------- forms */
 
 .aap-field {

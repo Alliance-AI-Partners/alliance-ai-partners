@@ -74,18 +74,18 @@
    "desktop": "Section head; bento: a column of two stacked white cards with Mono service icons that stretch to the large card's height | one large white card (760) with the image slot on top and text below.",
    "mobile": "Head; the large card first (image 358x240); the two cards stacked below.",
    "content": {
-    "heading": "What stays yours.",
+    "heading": "Work you can put your name on.",
     "accentWord": "",
-    "lead": "Your clients work with your agency, and the relationship stays yours. Behind your brand, our team does the building.",
+    "lead": "Your clients judge your agency by the work we deliver.",
     "items": [
      {
-      "title": "Your brand on the work",
+      "title": "Your brand, start to finish",
       "text": "We deliver AI projects under your agency’s brand, from planning to launch.",
       "meta": "large card"
      },
      {
       "title": "A person checks every piece of work",
-      "text": "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you.",
+      "text": "AI takes over the repetitive hours, and a person reviews it all before it reaches you.",
       "meta": "icon: research-insights"
      },
      {
@@ -127,7 +127,7 @@
    "content": {
     "heading": "Add developers when you need more hands.",
     "accentWord": "",
-    "lead": "Our developers join your team and work inside it, with all of Alliance behind them.",
+    "lead": "Our developers join your team and work inside it, with all of Alliance AI Partners behind them.",
     "items": [
      {
       "text": "Before we start, we agree on what success looks like, using your own numbers."
@@ -410,5 +410,5 @@
    ]
   }
  ],
- "notes": "Promises come from the Brand DNA only: the white-label line is the Brand DNA's service entry ('We deliver AI projects under your agency's brand, so you can offer AI without hiring'), 'from planning to launch' is its Agency services entry, the embedded-developer lead is its Embedded developers entry, the price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), and the rest come from its values and 'Questions buyers will ask'. 'The client relationship stays yours' follows from the white-label line and was asked for in the brief for this page: confirm it before launch. NDA and confidentiality terms are placeholders. The page says 'clients' for the agency's own customers, the word agencies use; 'partners' still means the agencies. The contact links use a new ?service=white-label value, which the contact form needs to accept. No figures on the page, so no sources. Header marks no nav item. One Primary in the hero and one in the closing band."
+ "notes": "Promises come from the Brand DNA only: the white-label line is the Brand DNA's service entry ('We deliver AI projects under your agency's brand, so you can offer AI without hiring'), 'from planning to launch' is its Agency services entry, the embedded-developer lead is its Embedded developers entry, the price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), and the rest come from its values and 'Questions buyers will ask'. 'The client relationship stays yours' follows from the white-label line and was asked for in the brief for this page: confirm it before launch. NDA and confidentiality terms are placeholders. The page says 'clients' for the agency's own customers, the word agencies use; 'partners' still means the agencies. The contact links use a new ?service=white-label value, which the contact form needs to accept. No figures on the page, so no sources. Header marks no nav item. One Primary in the hero and one in the closing band. Review 2026-11-03: the White-label head and its large card no longer repeat the hero (title, lead and “Your brand on the work”); full name in the Embedded developers lead; line breaks keep single words off the last line of three headings. Still for the owner: whether the client relationship stays with the agency, and a direct yes or no to “Will my clients know you’re involved?”."
 }

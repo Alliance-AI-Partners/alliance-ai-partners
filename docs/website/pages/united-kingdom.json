@@ -32,7 +32,7 @@
    "content": {
     "heading": "Our afternoon is your morning.",
     "accentWord": "morning.",
-    "lead": "Our team in the Philippines is seven or eight hours ahead of you, so your morning meets our afternoon. A person reviews every piece of work, and you get a fixed quote before we start.",
+    "lead": "An embedded team in the Philippines, at work when your day starts. A person reviews every piece of work, and you get a fixed quote before we start.",
     "items": [
      {
       "title": "Manila",
@@ -45,7 +45,7 @@
       "meta": "8 hours behind"
      },
      {
-      "title": "Your morning, our afternoon",
+      "title": "Hours that overlap",
       "text": "The UK is seven hours behind us during British Summer Time, and eight the rest of the year.",
       "meta": "Source 1"
      }
@@ -98,17 +98,20 @@
      {
       "title": "Scale AI",
       "text": "Plan, build and run AI across the company, with your people trained to use it.",
-      "link": "/scale-ai"
+      "link": "/scale-ai",
+      "linkLabel": "See how we scale AI"
      },
      {
       "title": "Solve problems with AI",
       "text": "Fix the jobs that slow your team down: the copying, chasing and checking that fill a week.",
-      "link": "/solve-problems-with-ai"
+      "link": "/solve-problems-with-ai",
+      "linkLabel": "See how we solve problems with AI"
      },
      {
       "title": "Grow",
       "text": "Win more customers, with AI doing the repetitive part of your marketing and sales.",
-      "link": "/grow"
+      "link": "/grow",
+      "linkLabel": "See how we help you grow"
      }
     ]
    },
@@ -178,7 +181,7 @@
      {
       "title": "An embedded developer from Alliance AI Partners",
       "price": "£[PRICE] a month",
-      "text": "Joins your team and works inside it, with all of Alliance behind them."
+      "text": "Joins your team and works inside it, with all of Alliance AI Partners behind them."
      }
     ],
     "sources": [
@@ -341,7 +344,7 @@
     "faq": [
      {
       "q": "Where is your team?",
-      "a": "In the Philippines. For UK partners, our afternoon is your morning."
+      "a": "In the Philippines, seven or eight hours ahead of you. We work as part of your team."
      },
      {
       "q": "Does cheaper mean lower quality?",
@@ -416,5 +419,5 @@
    ]
   }
  ],
- "notes": "Deliberate exception to the site's sample clock moment (Manila 9:41 am, London 1:41 am): the UK strip shows a November afternoon in Manila (4:41 pm, London 8:41 am) so the clocks show the headline, and the caption says so. The FAQ answer to 'Where is your team?' is the Brand DNA's UK line. Clutch gives a UK figure only for web design in our sources, so the UK table has one row and claims nothing else. Every promise on the page is Brand DNA wording: the five price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), the price card line is the Brand DNA's embedded-developers line, and the FAQ answers are the Brand DNA's 'Questions buyers will ask'. Header marks no nav item. One Primary in the hero and one in the closing band. Every number carries a Source key and a dated source line in its own section."
+ "notes": "Deliberate exception to the site's sample clock moment (Manila 9:41 am, London 1:41 am): the UK strip shows a November afternoon in Manila (4:41 pm, London 8:41 am) so the clocks show the headline, and the caption says so. The FAQ answer to 'Where is your team?' uses Brand DNA facts (seven or eight hours ahead; we work as part of the partner’s team) in the Australian page’s pattern, so it doesn’t repeat the headline. Clutch gives a UK figure only for web design in our sources, so the UK table has one row and claims nothing else. Every promise on the page is Brand DNA wording: the five price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), the price card line is the Brand DNA's embedded-developers line, and the FAQ answers are the Brand DNA's 'Questions buyers will ask'. Header marks no nav item. One Primary in the hero and one in the closing band. Every number carries a Source key and a dated source line in its own section. Review 2026-11-03: full name in the price card; the goal links read “See how we …” instead of “Explore …”. The hero lead, the clock-strip title and the first answer no longer repeat the headline."
 }

@@ -56,7 +56,7 @@ Look for: clipped or overflowing text, collapsed frames (a frame given a fixed w
 - Vary image presentation across a page and across pages: split image left or right, full-bleed band with a navy scrim and text over it, inset framed media, mosaic of 2 to 3 images of different sizes, image inside a large bento card, product visuals (framed email or template previews). Not every section needs an image; a rich page has 2 to 4 image slots, a simple page 0 to 1.
 - Light from the top left; no glow; no gradient text; no sparkles, brains, circuits, robots, purple or pink; no Philippine or other regional motifs (the Philippines base is said in copy only).
 - The ribbon signature at most once or twice per page: the Ribbon rule (`K.rule(w)`) or the Steps component.
-- WCAG AA: never put Text/Tertiary on navy for important text; never put text on an image without a navy scrim.
+- WCAG AA: never put Text/Tertiary on navy for important text; never put text on an image without a navy scrim, and keep that scrim at 82% navy or more under every line of text (fade it only beyond the text). The lint flags a weaker scrim as weak-scrim.
 
 ## 5. Mobile-first (design it, don't just stack)
 

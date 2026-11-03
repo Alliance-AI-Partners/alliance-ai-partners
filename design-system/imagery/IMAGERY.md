@@ -81,7 +81,7 @@ It needs `google-genai` and `Pillow`, and reads `GEMINI_API_KEY` from the enviro
 
 ## Text over imagery
 
-Use [image-overlays.css](image-overlays.css) when copy has to sit on a busy part of an image. The scrims are Partner Navy gradients, so text on them is checked against navy (16:1 for Daylight text), never against the image.
+Use [image-overlays.css](image-overlays.css) whenever copy sits on an image. Each scrim holds at least 82 % Partner Navy over the part of the image nearest its edge, then fades out. Text kept inside that part passes AA over any image, even pure white: Daylight 9.1:1, `#BFCBE0` 6.0:1 and Ribbon Cyan 5.6:1. The Figma website file follows the same rule in every image band.
 
 ```html
 <div class="aap-media aap-scrim-start" style="aspect-ratio: 16 / 9">
@@ -90,8 +90,9 @@ Use [image-overlays.css](image-overlays.css) when copy has to sit on a busy part
 </div>
 ```
 
-- `.aap-scrim-start`: navy from the reading-start edge, fading out by 60 %.
-- `.aap-scrim-bottom`: navy from the bottom, for captions and stories.
+- `.aap-scrim-start`: navy from the reading-start edge. Keep the text in the first half.
+- `.aap-scrim-top`: navy from the top, for mobile bands. Keep the text in the top 45 %.
+- `.aap-scrim-bottom`: navy from the bottom, for captions and stories. Keep the text in the bottom 45 %.
 - Decorative backgrounds get `alt=""`; an image that carries meaning gets a description of what it shows.
 
 ## Formats

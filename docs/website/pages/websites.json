@@ -27,7 +27,7 @@
    "ground": "navy",
    "job": "Promise the result (a fast website that stays working) and offer the one committing action.",
    "desktop": "Full-bleed 1440x760 navy band: image with a navy scrim from the left, text block (700) on the left, vertically centred: Display/XL title, Body/LG lead at 580, Primary LG + link, meta.",
-   "mobile": "390x800 band, scrim from the top, text at the top: title, lead, full-width Primary, centred link, meta; the image shows below.",
+   "mobile": "390x800 navy band: text at the top (title, lead, full-width Primary, centred link, meta); the 4:5 portrait IMG-09-1m (390x488) sits full width at the bottom of the band under a Partner Navy scrim from the top (100% at the top, 85% at 60%, clear from 85%).",
    "content": {
     "heading": "A fast website, kept running.",
     "accentWord": "running.",
@@ -60,11 +60,22 @@
      "slotName": "IMG-09-1 · Ribbon road at daybreak",
      "kind": "new",
      "aspectDesktop": "1440x760 (about 2:1) full bleed",
-     "aspectMobile": "390x800 (about 1:2) full bleed: generate a portrait version of the same scene",
-     "placement": "hero background with a Partner Navy scrim from the left (desktop) or from the top (mobile)",
-     "textArea": "left two thirds (desktop); top 60% (mobile), white text",
+     "aspectMobile": "not used on mobile: the mobile hero uses IMG-09-1m, a portrait of the same scene",
+     "placement": "desktop hero background with a Partner Navy scrim from the left",
+     "textArea": "left two thirds, white text",
      "alt": "",
-     "source": "A wide, calm landscape of flat faceted paper hills at daybreak. A smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs like a fast, clean road from the lower right foreground toward the horizon, even and unbroken, with two small faceted paper swallows flying low alongside it: a fast site that keeps running. The sky is deep Partner Navy at the top, easing to Alliance Blue and a thin band of Ribbon Cyan light at the horizon. Keep the left two thirds dark and calm (open sky and soft hills) for white text. Wide 2:1. For the mobile version, a 1:2 portrait of the same scene with the ribbon rising from the bottom centre and the top 60% calm, dark sky. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+     "source": "A wide, calm landscape of flat faceted paper hills at daybreak. A smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs like a fast, clean road from the lower right foreground toward the horizon, even and unbroken, with two small faceted paper swallows flying low alongside it: a fast site that keeps running. The sky is deep Partner Navy at the top, easing to Alliance Blue and a thin band of Ribbon Cyan light at the horizon. Keep the left two thirds dark and calm (open sky and soft hills) for white text. Wide 2:1. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    },
+    {
+     "imageId": "IMG-09-1m",
+     "slotName": "IMG-09-1m · Ribbon road, portrait",
+     "kind": "new",
+     "aspectDesktop": "390x488 (4:5); mobile only, generate at 4:5",
+     "aspectMobile": "390x488 (4:5), full bleed at the bottom of the 390x800 hero band",
+     "placement": "mobile hero only: full width at the bottom of the navy band, under a Partner Navy scrim from the top; the text sits above and over its top",
+     "textArea": "top 35%: plain, calm deep navy sky under the scrim, where the end of the hero text overlaps",
+     "alt": "",
+     "source": "A calm landscape of flat faceted paper hills at daybreak, composed as a tall portrait for phones. A smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan rises from the bottom centre like a fast, clean road toward a high horizon, even and unbroken, with two small faceted paper swallows flying low alongside it: a fast site that keeps running. The same scene as IMG-09-1, recomposed for a portrait frame. The sky is deep Partner Navy at the top, easing to Alliance Blue and a thin band of Ribbon Cyan light at the horizon. Keep the top 35% plain, calm deep Partner Navy sky with no detail, because it sits under a navy scrim and the end of the hero text; the ribbon, the hills and the swallows sit in the lower two thirds. Portrait 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
     }
    ]
   },
@@ -92,7 +103,7 @@
      },
      {
       "title": "Kept running after launch",
-      "text": "We stay to keep it secure, up to date and working, and make the changes you need as you grow."
+      "text": "We keep it working and improve it over time, making the changes you need as you grow."
      },
      {
       "title": "Yours to keep",
@@ -146,7 +157,7 @@
      },
      {
       "title": "Design",
-      "text": "Our designers design it with you. You approve it before we build."
+      "text": "We design it with you. You approve it before we build."
      },
      {
       "title": "Build and test",
@@ -268,5 +279,5 @@
    "images": []
   }
  ],
- "notes": "Ribbon signature used twice (Steps in 'How we build', the ribbon rule in the closing chapter). One Primary per screenful (hero at y 570 and closing chapter at y 3976 on desktop; 362 and 5259 on mobile). The Clutch figures carry a source key, a dated source and the 'marketplace ranges, not our prices' caveat from Brand DNA. No FAQ on this page (not in the brief). Lint: no findings on either frame."
+ "notes": "Ribbon signature used twice (Steps in 'How we build', the ribbon rule in the closing chapter). One Primary per screenful (hero at y 570 and closing chapter at y 3976 on desktop; 362 and 5259 on mobile). The Clutch figures carry a source key, a dated source and the 'marketplace ranges, not our prices' caveat from Brand DNA. No FAQ on this page (not in the brief). Lint: no findings on either frame. Review 2026-11-03: the mobile hero shared IMG-09-1, which the generator makes once at the desktop ratio, so a phone would have shown a thin strip of a landscape image; it now has its own 4:5 slot, IMG-09-1m, at the bottom of the band (node 46:3047, renamed), with the scrim strengthened so the image's top edge never shows. Line breaks balance three headings ('What agencies charge / by the hour.', 'A fixed quote for the / whole project', and the mobile 'Tell us what your / website needs / to do.'); build them with text-wrap: balance. The 'Kept running after launch' card no longer repeats the hero lead, and step 2 reads 'We design it with you.'"
 }

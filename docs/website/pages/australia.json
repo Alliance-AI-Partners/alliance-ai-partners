@@ -98,17 +98,20 @@
      {
       "title": "Scale AI",
       "text": "Plan, build and run AI across the company, with your people trained to use it.",
-      "link": "/scale-ai"
+      "link": "/scale-ai",
+      "linkLabel": "See how we scale AI"
      },
      {
       "title": "Solve problems with AI",
       "text": "Fix the jobs that slow your team down: the copying, chasing and checking that fill a week.",
-      "link": "/solve-problems-with-ai"
+      "link": "/solve-problems-with-ai",
+      "linkLabel": "See how we solve problems with AI"
      },
      {
       "title": "Grow",
       "text": "Win more customers, with AI doing the repetitive part of your marketing and sales.",
-      "link": "/grow"
+      "link": "/grow",
+      "linkLabel": "See how we help you grow"
      }
     ]
    },
@@ -178,7 +181,7 @@
      {
       "title": "An embedded developer from Alliance AI Partners",
       "price": "A$[PRICE] a month",
-      "text": "Joins your team and works inside it, with all of Alliance behind them."
+      "text": "Joins your team and works inside it, with all of Alliance AI Partners behind them."
      }
     ],
     "sources": [
@@ -437,5 +440,5 @@
    ]
   }
  ],
- "notes": "Hero tagline from Brand DNA section 7, approved for Australian ads for web, design and SEO work; before launch, confirm the real A$ prices support it. The Clutch table states plainly that there is no gap with Australia for AI development (Brand DNA, Rules for price claims), and the FAQ repeats it. Every promise on the page is Brand DNA wording: the five price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), the price card line is the Brand DNA's embedded-developers line, and the FAQ answers are the Brand DNA's 'Questions buyers will ask'. Header marks no nav item. One Primary in the hero and one in the closing band. Every number carries a Source key and a dated source line in its own section."
+ "notes": "Hero tagline from Brand DNA section 7, approved for Australian ads for web, design and SEO work; before launch, confirm the real A$ prices support it. The Clutch table states plainly that there is no gap with Australia for AI development (Brand DNA, Rules for price claims), and the FAQ repeats it. Every promise on the page is Brand DNA wording: the five price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), the price card line is the Brand DNA's embedded-developers line, and the FAQ answers are the Brand DNA's 'Questions buyers will ask'. Header marks no nav item. One Primary in the hero and one in the closing band. Every number carries a Source key and a dated source line in its own section. Review 2026-11-03: full name in the price card; the goal links read “See how we …” instead of “Explore …”."
 }

@@ -132,20 +132,22 @@
    "content": {
     "heading": "A person checks every piece of work.",
     "accentWord": "",
-    "lead": "AI takes over the repetitive hours. A person still reviews every piece of work before it reaches you.",
+    "lead": "AI takes over the repetitive hours. Nothing reaches you until a person has reviewed it.",
     "items": [
      {
-      "title": "You see progress every week",
-      "text": "Before we start, we agree on what success looks like, using your own numbers.",
+      "title": "Judged by your own numbers",
+      "text": "Before we start, we agree on what success looks like, using your own numbers. Then you see progress every week.",
       "meta": "Sample report from our email templates."
      },
      {
       "title": "Written down for a new hire",
-      "text": "We write down how everything works, clearly enough for a new hire to follow."
+      "text": "We write down how everything works, clearly enough for a new hire to follow.",
+      "meta": "icon: training-enablement"
      },
      {
       "title": "Tried on our own work first",
-      "text": "We try new AI tools on our own business before we bring them to you, so you only get what works."
+      "text": "We try new AI tools on our own business before we bring them to you, so you only get what works.",
+      "meta": "icon: research-insights"
      }
     ]
    },
@@ -253,15 +255,15 @@
    "desktop": "Image slot left (600x640) | text right: Heading/2, Body/LG lead with Source key, three check rows between hairlines, link, source list. 80 gap, vertically centred.",
    "mobile": "Title, lead, check rows, link; image under at 358x300 (6:5); source list last.",
    "content": {
-    "heading": "A national law protects your data.",
+    "heading": "A national law protects personal data.",
     "accentWord": "",
     "lead": "Personal data in the Philippines is protected by the Data Privacy Act of 2012, enforced by an independent National Privacy Commission.",
     "items": [
      {
-      "text": "Your data stays in your systems wherever possible."
+      "text": "Your data stays where you decide, in your own systems wherever possible."
      },
      {
-      "text": "It stays where you decide, and we never use it to train anything you don’t own."
+      "text": "We never use your data to train anything you don’t own."
      },
      {
       "text": "We share bad news early, along with a plan to fix it."
@@ -314,7 +316,7 @@
    "content": {
     "heading": "Your AI team in the Philippines. Your savings back home.",
     "accentWord": "savings",
-    "lead": "Two things let us charge less. AI does the repetitive work, and our team’s costs are Philippine costs. We pass the difference on to you.",
+    "lead": "Two things let us charge less, and we pass the difference on to you.",
     "items": [
      {
       "title": "AI does the repetitive work",
@@ -322,7 +324,7 @@
      },
      {
       "title": "Our costs are Philippine costs",
-      "text": "Our costs are lower than those of firms in the US, the UK or Australia, and we pass the difference on to you."
+      "text": "A team in the Philippines costs less to run than one in the US, the UK or Australia."
      },
      {
       "title": "Websites and web apps",
@@ -511,5 +513,5 @@
    ]
   }
  ],
- "notes": "Skill leads, price follows (Brand DNA: lead with skill, then price). The Philippines base is said in copy only; no regional motifs in any image. Header marks About as current. One Primary in the hero and one in the closing band. Every number on the page carries a Source key and a dated source line in its own section; FAQ answers avoid numbers so they need none. Every promise is Brand DNA wording (values, Questions buyers will ask, Why we cost less); nothing else is promised."
+ "notes": "Skill leads, price follows (Brand DNA: lead with skill, then price). The Philippines base is said in copy only; no regional motifs in any image. Header marks About as current. One Primary in the hero and one in the closing band. Every number on the page carries a Source key and a dated source line in its own section; FAQ answers avoid numbers so they need none. Every promise is Brand DNA wording (values, Questions buyers will ask, Why we cost less); nothing else is promised. Review 2026-11-03: the Privacy title says personal data (what the Data Privacy Act covers), not all of a partner’s data; the Quality and Costs leads no longer repeat their titles and cards; the Quality icons now match their cards."
 }

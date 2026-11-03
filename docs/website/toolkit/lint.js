@@ -86,6 +86,19 @@ L.run = async (rootId, opts) => {
   // image slot names
   const slots = insts.filter(n => { const mc = mains.get(n.id); return mc && mc.parent && mc.parent.name === 'Image slot'; });
   for (const s of slots) if (!/^IMG-\d{2}-\d+[a-z]? · /.test(s.name)) add('medium', 'slot-name', s, s.name);
+  // scrims over images: at least 82% Partner Navy under every line of real text (slot labels and buttons excluded)
+  const alphaAt = (st, x) => { x = Math.max(0, Math.min(1, x)); if (x <= st[0].position) return st[0].color.a; for (let i = 1; i < st.length; i++) { const a = st[i - 1], b = st[i]; if (x <= b.position) return a.color.a + (b.color.a - a.color.a) * (x - a.position) / Math.max(1e-6, b.position - a.position); } return st[st.length - 1].color.a; };
+  const skipT = (n, root) => { let p = n.parent; while (p && p !== root) { if (p.type === 'INSTANCE' && (/^Button/.test(p.name) || /^IMG-\d\d-\d+[a-z]? · /.test(p.name))) return true; p = p.parent; } return false; };
+  for (const sc of R.findAll(n => /scrim/i.test(n.name) && 'fills' in n && Array.isArray(n.fills) && n.fills.some(p => p.type === 'GRADIENT_LINEAR'))) {
+    const g = sc.fills.find(p => p.type === 'GRADIENT_LINEAR'), m = g.gradientTransform, po = g.opacity === undefined ? 1 : g.opacity, SB = sc.absoluteBoundingBox;
+    let worst = 1;
+    for (const t of sc.parent.findAll(x => x.type === 'TEXT' && x.visible !== false)) {
+      if (skipT(t, sc.parent)) continue; const B = t.absoluteBoundingBox; if (!B) continue;
+      if (B.x > SB.x + SB.width || B.x + B.width < SB.x || B.y > SB.y + SB.height || B.y + B.height < SB.y) continue;
+      for (const [x, y] of [[B.x, B.y], [B.x + B.width, B.y], [B.x, B.y + B.height], [B.x + B.width, B.y + B.height]]) worst = Math.min(worst, alphaAt(g.gradientStops, m[0][0] * (x - SB.x) / SB.width + m[0][1] * (y - SB.y) / SB.height + m[0][2]) * po);
+    }
+    if (worst < 0.8) add('high', 'weak-scrim', sc, sc.name + ' is ' + Math.round(worst * 100) + '% navy under some text; hold 82% or more under every line');
+  }
   // headings: count Display/XL (one statement per page)
   const xl = texts.filter(t => styles[t.textStyleId] === 'Display/XL' && !inInstance(t));
   if (xl.length > 1) add('medium', 'display-xl-count', xl[1], xl.length + ' Display/XL texts');

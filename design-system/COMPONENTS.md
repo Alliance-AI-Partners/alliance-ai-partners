@@ -79,7 +79,7 @@ Use the ribbon once or twice per page, to tie sections together. It is not a div
 | `[aria-busy="true"]` | Loading: the ribbon runs along the button's foot; clicks are ignored. |
 | `:disabled`, `[aria-disabled="true"]` | 45 % opacity, no pointer events. |
 
-An icon with `data-direction="forward"` slides 3 px on hover with the spring easing. `.aap-link` is an inline text link (Partner Navy and always underlined, so colour alone never marks a link; Ribbon Cyan inside a navy chapter) with an optional trailing arrow that does the same.
+An icon with `data-direction="forward"` slides 3 px on hover with the spring easing. `.aap-link` is an inline text link (Partner Navy and always underlined, so colour alone never marks a link; Ribbon Cyan inside a navy chapter) with an optional trailing arrow that does the same. Add `.aap-link--standalone` to a link on its own line, such as "Read the price list" under a button: it gets a 44 px touch target without moving the layout, so keep 8 px or more between it and the next control.
 
 ## Forms
 

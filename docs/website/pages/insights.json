@@ -1,0 +1,255 @@
+{
+ "slug": "insights",
+ "figmaPage": "18 · Insights",
+ "phase": "Next",
+ "route": "/insights",
+ "purpose": "Give founders short, plain reads on putting AI to work, show what Insights will cover with clearly marked sample articles, and turn readers into Insights subscribers.",
+ "primaryAction": {
+  "label": "Subscribe",
+  "target": "#newsletter: POST to the newsletter list with double opt-in; the confirmation email links to /insights/subscribed"
+ },
+ "seo": {
+  "title": "Insights: putting AI to work, in plain words | Alliance AI Partners",
+  "description": "Short reads for founders on where to start with AI, when AI isn’t the answer, and what AI work really costs, from Alliance AI Partners."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "75:3655",
+  "mobile": "76:304"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Section · Hero",
+   "layout": "hero-text-led",
+   "ground": "daylight",
+   "job": "Name the page, say what Insights covers and that every article is a sample for now, and offer the newsletter.",
+   "desktop": "Split 1.08fr | 1fr, bottom-aligned: Display/XL title in the left column (652, three lines); the right column (604) holds the Body/LG lead, one Secondary LG button that jumps to the sign-up, and a Body/SM sample note with an info icon. Padding 96 top, 64 bottom, so the featured article below shares the first viewport as one composition. No image: the featured article’s cover is the first visual.",
+   "mobile": "Title (Display/XL, four lines), lead, full-width Secondary LG, sample note. Padding 48 top, 40 bottom.",
+   "content": {
+    "heading": "Insights for putting AI to work.",
+    "accentWord": "work.",
+    "lead": "Where to start, when AI isn’t the answer, and what things really cost. Short reads for founders, written by the team that does the work.",
+    "ctas": [
+     {
+      "label": "Get Insights by email",
+      "variant": "secondary",
+      "target": "#newsletter"
+     }
+    ],
+    "body": [
+     "Sample articles: they show what Insights will cover until our first issues are published."
+    ]
+   },
+   "components": [
+    "Header",
+    "Button (Secondary LG)",
+    "Icon/info"
+   ],
+   "images": []
+  },
+  {
+   "id": "featured",
+   "name": "Section · Featured article",
+   "layout": "split-image-left",
+   "ground": "daylight",
+   "job": "Lead with one sample article, large, so the page opens on a real read rather than a list.",
+   "desktop": "Split: the cover image 656x520 (18 px corners) on the left, a 600 text column on the right, centred: Heading/1 title, Body/SM meta below it, Body/LG excerpt, Secondary MD ‘Read the article’ with arrow. Padding 0 top (it continues the hero), 128 bottom.",
+   "mobile": "Cover re-cropped to 4:3 (358x268) on top, then title (Heading/1), meta, excerpt (Body/Default) and an underlined link with arrow instead of a second full-width button.",
+   "content": {
+    "heading": "What honest AI pricing looks like.",
+    "meta": "Sample article · Pricing and costs · 3 min read",
+    "lead": "By the hour, by the seat, by the call or by the month: how AI work is charged, what to watch with each, and six questions to ask before you sign.",
+    "ctas": [
+     {
+      "label": "Read the article",
+      "variant": "secondary",
+      "target": "/insights/what-honest-ai-pricing-looks-like"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Button (Secondary MD)",
+    "Link"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-19-1",
+     "slotName": "IMG-19-1 · Box opened flat",
+     "kind": "new",
+     "source": "Still life on a calm Daylight background, seen from slightly above. A small box folded from flat faceted paper has been opened all the way: its satin ribbon, in a gradient from Alliance Blue to Ribbon Cyan, is untied and lies in one smooth curve beside it, the lid rests to one side, and all four sides are folded down flat, so everything that was inside is in plain view: a neat row of five faceted paper blocks of different sizes in pale Daylight white, soft blue-grey and Partner Navy, each one separate and fully visible, none hidden behind another. Two small flat faceted paper leaves rest near the ribbon. What the box holds is shown before anyone pays for it: an honest price, with nothing tucked away. Keep the opened box across the centre of the frame and the upper left quarter calm and empty. Landscape 16:9, safe to crop to 5:4, 4:3 and 4:5 around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "656x520 (about 5:4) here; 1320x560 on the article page",
+     "aspectMobile": "358x268 (4:3) here; 358x268 on the article page",
+     "placement": "left half of the featured split; the same picture is the cover of the article page (19 · Article), so it keeps one ID",
+     "textArea": "none (text sits beside the image); upper left quarter calm",
+     "alt": "A paper box opened out flat, every block inside in plain view, its ribbon untied beside it."
+    }
+   ]
+  },
+  {
+   "id": "browse",
+   "name": "Section · Browse by topic",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Let readers pick a topic and scan every sample article, with lead stories and short ones in a two-column zig-zag.",
+   "desktop": "Asymmetric section head (Heading/2 0.9fr | Body/LG lead 1.1fr), then the filter row: six Tags, each inside a 44 px tall hit area, ‘All topics’ selected (Partner Navy fill, white label: the checked-control colours, aria-pressed), and a UI/Caption count at the right. Then a two-column zig-zag of Article cards: row 1 is a lead story (760: a 760x428 Image slot directly above an Article card whose own 263 px image is hidden, because a nested image inside the card can't be re-cropped; title raised to Heading/3, then excerpt and topic Tag) beside a 536 column of two text-only stories between hairlines (Article card with the image hidden, Heading/4 title, meta, excerpt, Tag); row 2 mirrors it, the text column on the left and the second lead story on the right. Meta always sits below the title.",
+   "mobile": "Head stacked; the tags wrap over three rows of 44 px hit areas (no sideways scroll); stories in one column ordered lead, short, short, lead, short, short, so the two images are spaced apart; lead images re-cropped to 16:10 (358x224), each a direct Image slot above its Article card.",
+   "content": {
+    "heading": "Browse by topic",
+    "lead": "Every article below is a sample. Together they show what Insights will cover: where to start, what things cost, and how we work with your team.",
+    "filters": [
+     "All topics",
+     "Getting started",
+     "Pricing and costs",
+     "Hiring and teams",
+     "Working together",
+     "Data and trust"
+    ],
+    "count": "6 sample articles",
+    "items": [
+     {
+      "title": "Start with the work your team does twice",
+      "meta": "Sample article · Getting started · [3] min read",
+      "text": "Most companies don’t need a big AI plan to begin. They need one task that takes hours every week and follows the same steps each time.",
+      "tag": "Getting started",
+      "size": "lead story, image IMG-18-1",
+      "link": "/insights/start-with-the-work-your-team-does-twice"
+     },
+     {
+      "title": "When AI is not the answer",
+      "meta": "Sample article · Getting started · [3] min read",
+      "text": "Sometimes the fix is a clearer form or one less approval step. We say so, even when it means less work for us.",
+      "tag": "Getting started",
+      "size": "short story",
+      "link": "/insights/when-ai-is-not-the-answer"
+     },
+     {
+      "title": "Check the AI you already pay for",
+      "meta": "Sample article · Pricing and costs · [4] min read",
+      "text": "Tools like Salesforce and HubSpot include AI features. Before you buy anything new, see what your current plans can already do.",
+      "tag": "Pricing and costs",
+      "size": "short story",
+      "link": "/insights/check-the-ai-you-already-pay-for"
+     },
+     {
+      "title": "Questions to ask before you outsource AI work",
+      "meta": "Sample article · Data and trust · [5] min read",
+      "text": "Who reviews the work? Where does your data stay? How will you see progress? What to ask any team, ours included.",
+      "tag": "Data and trust",
+      "size": "short story",
+      "link": "/insights/questions-to-ask-before-you-outsource-ai-work"
+     },
+     {
+      "title": "How a time difference turns into overnight progress",
+      "meta": "Sample article · Working together · [4] min read",
+      "text": "Brief us before you log off, and see progress when you log on. For UK partners, our afternoon is your morning.",
+      "tag": "Working together",
+      "size": "short story",
+      "link": "/insights/overnight-progress"
+     },
+     {
+      "title": "What a hire really costs",
+      "meta": "Sample article · Hiring and teams · [5] min read",
+      "text": "Salary is only part of it. Benefits, recruiting and equipment add to it. Compare the full cost before you decide.",
+      "tag": "Hiring and teams",
+      "size": "lead story, image IMG-18-2",
+      "link": "/insights/what-a-hire-really-costs"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Tag",
+    "Article card",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-18-1",
+     "slotName": "IMG-18-1 · Worn path",
+     "kind": "new",
+     "source": "Editorial illustration of a calm meadow at daybreak, seen from slightly above. The meadow is built from thousands of small flat faceted paper blades of grass in pale blue-grey and soft Daylight white. Across it runs one path, worn smooth by being walked again and again, the same way every day: the path is a smooth satin ribbon in a gradient from Alliance Blue at the lower left to Ribbon Cyan at the upper right, pressed a little into the grass and easy to spot from above. It stands for the task a team repeats every week, plain to see once you look for it. A few faceted paper wildflowers in Partner Navy and Alliance Blue grow beside the path. Keep the path in the middle band of the frame and the top quarter a calm, pale sky. Landscape 16:9, safe to crop to 16:10 and 4:3 around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "760x428 (16:9) here; 648x364 in the related articles on 19 · Article",
+     "aspectMobile": "358x224 (16:10)",
+     "placement": "image of the first lead story (Article card); reused, same ID, in the related articles on the article page",
+     "textArea": "none (title sits below the image)",
+     "alt": "A ribbon path worn smooth across a faceted paper meadow."
+    },
+    {
+     "imageId": "IMG-18-2",
+     "slotName": "IMG-18-2 · Iceberg",
+     "kind": "new",
+     "source": "Editorial illustration of a calm sea on a Daylight morning, drawn in cross-section so the view is half above and half below the waterline. A faceted paper iceberg floats in the middle: above the water only a small tip shows, in Daylight white and pale blue-grey; below the waterline, through clear, still water in soft Alliance Blue shades, the much larger part of the iceberg is fully visible, built from layered flat facets that deepen to Partner Navy toward the bottom. A thin satin ribbon in a gradient from Alliance Blue to Ribbon Cyan marks the waterline across the whole frame. The salary is the tip; benefits, recruiting and equipment are the larger part below. Keep the upper third a calm, pale sky. Landscape 16:9, safe to crop to 16:10, 4:3 and 1:1 around the iceberg. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "760x428 (16:9) here; 648x364 in the related articles on 19 · Article",
+     "aspectMobile": "358x224 (16:10)",
+     "placement": "image of the second lead story (Article card, right column of the mirrored row); reused, same ID, in the related articles on the article page",
+     "textArea": "none (title sits below the image)",
+     "alt": "A faceted paper iceberg, small above the waterline and much larger below it."
+    }
+   ]
+  },
+  {
+   "id": "newsletter",
+   "name": "Section · Newsletter",
+   "layout": "product-visual",
+   "ground": "navy",
+   "job": "Sign readers up to Insights and show exactly what an issue looks like.",
+   "desktop": "Partner Navy chapter, split: a 600 text column (Heading/1 title with one cyan accent word, Body/LG lead, the email Field with its help line hidden beside a Primary MD ‘Subscribe’ aligned to the field’s control, Body/SM note with an underlined cyan link) and, on the right, the framed sample issue (560x620, Tone Navy) cropped to its top: the logo band, the ribbon rule and the lead story. This holds the page’s one Primary.",
+   "mobile": "Title, lead, full-width Field, full-width Primary LG, note; then the mobile render of the sample issue, cropped to its top (358x440).",
+   "content": {
+    "heading": "Get Insights by email.",
+    "accentWord": "email.",
+    "lead": "One short email [once a month]: one main story, two short ones, and one figure with its source and date.",
+    "form": {
+     "fields": [
+      {
+       "label": "Work email",
+       "type": "email",
+       "placeholder": "name@company.com",
+       "required": true
+      }
+     ],
+     "submit": "Subscribe"
+    },
+    "body": [
+     "We’ll send a confirmation email first. We use your email to send Insights, and our privacy notice explains the rest."
+    ],
+    "ctas": [
+     {
+      "label": "Subscribe",
+      "variant": "primary",
+      "target": "newsletter sign-up (double opt-in) then /insights/subscribed"
+     },
+     {
+      "label": "privacy notice",
+      "variant": "link",
+      "target": "/privacy"
+     }
+    ]
+   },
+   "components": [
+    "Field",
+    "Button (Primary)",
+    "Image slot (Tone=Navy)",
+    "Footer"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-18-3",
+     "slotName": "IMG-18-3 · Sample issue",
+     "kind": "existing",
+     "source": "brand-kit/emails/previews/newsletter-desktop.png (mobile: brand-kit/emails/previews/newsletter-mobile.png)",
+     "aspectDesktop": "560x620 framed, cropped to the top of the email",
+     "aspectMobile": "358x440 framed, cropped to the top of the mobile render",
+     "placement": "right half of the navy newsletter chapter; under the form on mobile",
+     "textArea": "none",
+     "alt": "The top of a sample Insights email: the logo band and the lead story, ‘Start with the work your team does twice.’"
+    }
+   ]
+  }
+ ],
+ "notes": "Every article is a sample and says so: the hero note, ‘Sample article’ first in every meta line and the ‘Every article below is a sample’ lead. Titles and excerpts come from the Insights email in brand-kit/emails/newsletter.html (lead story ‘Start with the work your team does twice’, short stories ‘When AI is not the answer’ and ‘What a hire really costs’) and from the Brand DNA (the price table and price rules, the buyer questions, the time-zone lines and the ‘AI in tools you already pay for’ service). The featured article is the one written in full on 19 · Article, so its read time (3 min, from its word count) is real; the other read times stay placeholders ([3], [4], [5]) until those articles exist. No figures appear on this page, so it needs no sources; the sourced price table lives in the article. One Primary (Subscribe) in the navy newsletter chapter; the hero’s action is a Secondary that jumps to it, because on a reading page the committing action is the sign-up. Layouts differ section to section: text-led hero, image-left split, zig-zag of lead and short stories, navy product visual. Three new images and one existing email preview; IMG-19-1 is shared with the article page and IMG-18-1 and IMG-18-2 are reused in its related articles, each keeping one ID. The newsletter cadence stays the placeholder [once a month], as on the newsletter-confirmed page. Built 2026-11-03: desktop 75:3655, mobile 76:304; both lint clean (no findings)."
+}

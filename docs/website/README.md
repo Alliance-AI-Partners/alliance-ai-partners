@@ -33,8 +33,8 @@ Figma holds the final copy. Where a page record's draft copy differs from Figma,
 | 15 | Contact | `/contact` | Launch | Let a founder reach a person at Alliance AI Partners in the way that suits them (form, email or phone), show when our team is working in their time zone, give the company details, and nudge anyone unsure where to start toward the AI check-up. | [contact.json](pages/contact.json) |
 | 16 | Privacy (legal template) | `/privacy` | Launch | A long-form legal page template: plain title, last updated line, contents that stay in view, numbered sections and a contact block. Privacy is the first use; Terms, Cookies and Accessibility reuse the same design. | [privacy.json](pages/privacy.json) |
 | 17 | System pages | `404: any unknown path (app/not-found.tsx) · Error: any route that fails (app/error.tsx) · Newsletter confirmed: /insights/subscribed (the link in the double opt-in email)` | Launch | Three short pages that catch a visitor when something is missing, broken or just finished, say plainly what happened, and give a kind way back to the home page or the AI check-up. | [system-pages.json](pages/system-pages.json) |
-| 18 | Insights | | Next | Being built | |
-| 19 | Article | | Next | Being built | |
+| 18 | Insights | `/insights` | Next | Give founders short, plain reads on putting AI to work, show what Insights will cover with clearly marked sample articles, and turn readers into Insights subscribers. | [insights.json](pages/insights.json) |
+| 19 | Article | `/insights/<article> (sample: /insights/what-honest-ai-pricing-looks-like)` | Next | Show how an Insights article reads, with one sample built from the Brand DNA price rules: how AI work is charged, with a sourced table, what to check before signing, and the pricing promise Alliance AI Partners keeps; then offer related reads and the newsletter. | [article.json](pages/article.json) |
 | 20 | Industries | | Next | Being built | |
 | 21 | Finance and accounting | | Next | Being built | |
 | 22 | Healthcare and clinics | | Next | Being built | |
@@ -96,6 +96,12 @@ The pages use only facts from the Brand DNA. Where a fact is missing, they show 
 10. The registered address and company number (`[Registered address]`, `[Company number]`), in the footer and on the legal pages.
 11. The date of the Clutch SEO retainer figure (an average of US$3,199 a month), used on the Grow and Pricing pages. The Brand DNA gives it without a date, so Grow shows `[date to confirm]`.
 12. That an agency keeps its own client relationship (For agencies page: "The client relationship stays yours"). It follows from the Brand DNA's white-label line but isn't written there.
+13. The Australia page's headline, the Brand DNA tagline "Two hours behind Sydney. Nowhere near Sydney prices." The Brand DNA approves it for web, design and SEO work, but the page also sells AI development, where the Brand DNA says there is no price gap with Australia. Confirm that real A$ prices back it, and check it against ACCC rules.
+14. What the For agencies page should answer to "Will my clients know you're involved?" Any answer is a new promise, and data rules may require telling a client when we process its personal data. Fill in the NDA and confidentiality terms there too (`[NDA terms: …]`, `[Confidentiality terms: …]`).
+15. Whether to change the Brand DNA's own "with all of Alliance behind them" (Talent and teams, and Note 2) to the full name. The website already says "with all of Alliance AI Partners behind them".
+16. Which social profiles exist. The footer shows LinkedIn, X and YouTube icons; remove any that has no real profile.
+17. What "you see progress every week" looks like in practice. The Embedded developers page shows a short written update every Friday; the Brand DNA promises weekly progress but not its form or day.
+18. The sample report's pair of placeholders, `[four weeks]` for the first fix's timeline and `[two weeks]` of work for a low-effort fix, so they agree once filled in.
 
 Every figure on the site carries a source key and a dated source line, from the sources the Brand DNA lists. Recheck them before launch, because prices and statistics change.
 
@@ -103,3 +109,6 @@ Every figure on the site carries a source key and a dated source line, from the 
 
 - The Contact form reads a `service` query parameter to preselect the topic, for example `/contact?service=embedded-developers` or `/contact?service=white-label`.
 - The time-zone clocks are live on the site. The mock-ups show one sample moment in November (Manila 9:41 am, Sydney 12:41 pm, New York 8:41 pm the day before, London 1:41 am); the United Kingdom page shows Manila 4:41 pm and London 8:41 am to match its headline.
+- A link on its own line, such as "Read the price list" under a button, uses `.aap-link--standalone`, which gives it a 44 px touch target in code. Figma shows it at its visual size, 26 px tall.
+- Headings are balanced in code (`text-wrap: balance`, in the design system's base layer). In Figma the line breaks were set by hand, so they may differ slightly in the browser.
+- Text over an image sits on a Partner Navy scrim that holds at least 82 % under every line (`design-system/imagery/image-overlays.css`), so it passes AA whatever the image.

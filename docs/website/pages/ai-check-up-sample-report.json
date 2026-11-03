@@ -116,7 +116,7 @@
     "mobile": "46:2004"
    },
    "job": "Rank every opportunity by what it would save, with effort, a placeholder saving and the recommended fix.",
-   "heading": "Ranked by what it would save.",
+   "heading": "Ranked by what it would save. (set on two lines: 'Ranked by what' / 'it would save.')",
    "lead": "Each opportunity we found, with the effort it takes, what it would save and the fix we recommend. Savings are estimates from [Partner name]’s own figures.",
    "table": {
     "columns": [
@@ -172,9 +172,9 @@
     "mobile": "46:2067"
    },
    "job": "Show the fixed quote for the first fix ([PRICE]) and everything it covers, in the honest-pricing terms.",
-   "heading": "The first fix, at a fixed price.",
+   "heading": "The first fix, at a fixed price. (set on two lines: 'The first fix,' / 'at a fixed price.')",
    "accentWord": "price.",
-   "lead": "Order entry automation. One price that lists everything we would charge, agreed before we start. Changes are quoted before we do them.",
+   "lead": "Order entry automation. One price that lists everything we would charge, agreed before we start.",
    "items": [
     {
      "title": "What we build",
@@ -226,7 +226,7 @@
     "mobile": "46:2100"
    },
    "job": "Say what we would not use AI for, and why: the honest-advice promise made concrete.",
-   "heading": "Where we would not use AI.",
+   "heading": "Where we would not use AI. (mobile set on two lines: 'Where we would' / 'not use AI.')",
    "lead": "Some slow work doesn’t need AI, and some should stay with a person. Here is what we would do instead, and why.",
    "items": [
     {
@@ -271,7 +271,7 @@
     },
     {
      "title": "03 You get your plan",
-     "text": "Ranked by what it would save, with a fixed quote for the first fix. From [PRICE]."
+     "text": "Ranked by what it would save, with a fixed quote for the first fix. The check-up is from [PRICE]."
     }
    ],
    "ctas": [
@@ -307,5 +307,5 @@
    ]
   }
  ],
- "notes": "Clearly a SAMPLE: the Info alert opens the page, the fictional partner is [Partner name], and every finding uses a bracketed placeholder ([hours a week], [hours a month], [number], [city], [four weeks], [six weeks], [a few times a month], [date], [Month year]), so nothing reads as a real result. The table's highlighted row is the recommended first fix (10% Ribbon Cyan tint, re-applied after its content was built and verified at 0.1). One Primary (the closing band); the ribbon signature once (the cover rule). Header CTA stays the Secondary outline and no nav item is marked current. faceted-leaves.webp is used twice across this page group (here and on page 02), the allowed maximum. Both frames pass the lint (node 37:851) with no findings."
+ "notes": "Clearly a SAMPLE: the Info alert opens the page, the fictional partner is [Partner name], and every finding uses a bracketed placeholder ([hours a week], [hours a month], [number], [city], [four weeks], [six weeks], [a few times a month], [date], [Month year]), so nothing reads as a real result. The table's highlighted row is the recommended first fix (10% Ribbon Cyan tint, re-applied after its content was built and verified at 0.1). One Primary (the closing band); the ribbon signature once (the cover rule). Header CTA stays the Secondary outline and no nav item is marked current. faceted-leaves.webp is used twice across this page group (here and on page 02), the allowed maximum. Both frames pass the lint (node 37:851) with no findings. Review 2026-11-03 (outside reviewer): step 03 now says 'The check-up is from [PRICE]' so the price can't be read as the first fix's; the quote lead no longer repeats 'Changes are quoted before we do them' (it stays in the price terms); three headings were set on balanced lines. Both frames re-lint with no findings."
 }
