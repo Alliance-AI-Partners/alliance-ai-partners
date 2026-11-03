@@ -1,0 +1,576 @@
+{
+ "slug": "how-we-work",
+ "figmaPage": "11 · How we work",
+ "phase": "Launch",
+ "route": "/how-we-work",
+ "purpose": "Show a founder exactly what working with Alliance AI Partners is like, step by step, so the process feels safe and they start an AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "How we work | Alliance AI Partners",
+  "description": "Four steps: we learn how your business works, pick the right fix, build it, then keep it running and help you grow. Weekly updates, a person reviews every piece of work, and your data stays in your systems."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "39:1005",
+  "mobile": "42:663"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "hero-split-image",
+   "ground": "daylight",
+   "job": "Say how we work in one line and offer the one committing action.",
+   "desktop": "Text 652 | image 604x560 (1.08fr:1fr), vertically centred. Display/XL title, Body/LG lead at 560, Primary LG + link, small base line.",
+   "mobile": "Title, lead, full-width Primary LG, link, the small 'step one' line, then the image re-cropped to 4:5 (358x448) under the actions.",
+   "content": {
+    "heading": "We work as part of your team.",
+    "accentWord": "team.",
+    "lead": "Four steps: we learn how your business works, pick the right fix, build it, then keep it running and help you grow. You see progress every week, and a person reviews every piece of work.",
+    "body": [
+     "Step one is usually the AI check-up, our short first project."
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "See what it costs",
+      "variant": "link",
+      "target": "/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-11-1",
+     "slotName": "IMG-11-1 · Four hills, one ribbon",
+     "kind": "new",
+     "aspectDesktop": "604x560 (about 1.08:1)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right column of the hero split; under the actions on mobile",
+     "textArea": "none (text sits beside the image)",
+     "alt": "One ribbon path crossing four hills, with a young tree on the last one.",
+     "source": "Editorial illustration on a Daylight background. Four low hills made of flat faceted paper stand in a row from the lower left to the upper right, each a little higher than the one before. One continuous wide satin ribbon, in a gradient from Alliance Blue to Ribbon Cyan, runs across all four hills like a path, catching the light on each crest, and carries on out of frame at the upper right: four steps that keep going. A young faceted paper sapling stands on the last and highest hill. Soft slate-blue shadows, Partner Navy only in the deepest facets, a pale Daylight sky with calm empty space in the upper left quarter. Aspect about 1.08:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "name": "Four steps",
+   "layout": "steps",
+   "ground": "daylight",
+   "job": "Show the whole path once, on the ribbon, before each step is told in depth.",
+   "desktop": "Asymmetric head (title 0.9fr, lead 1.1fr), 48 px, Steps component (Desktop) full container width.",
+   "mobile": "Head stacked, Steps component (Mobile, vertical).",
+   "content": {
+    "heading": "Four steps from first call to growth.",
+    "accentWord": "growth.",
+    "lead": "Every partnership follows the same path, and the last step doesn’t end at launch. Here is what happens at each one, what you get and what we need from you."
+   },
+   "components": [
+    "Section head",
+    "Steps"
+   ],
+   "images": []
+  },
+  {
+   "id": "understand",
+   "name": "Step 1 · Understand",
+   "layout": "split-image-left",
+   "ground": "daylight",
+   "job": "Explain that we listen first, what we ask, and that this is usually the AI check-up.",
+   "desktop": "Image 560x700 left, text column right (680). Title, mono meta below it, lead, 'What we ask' rows with mono numbers and hairlines, You get / From you rows, link.",
+   "mobile": "Title, meta, lead, image 4:5 under the lead, question rows, You get / From you, link.",
+   "content": {
+    "heading": "First, we listen.",
+    "meta": "Step 1 of 4 · Understand",
+    "lead": "We learn how your business works and where it gets stuck. On the first call, we spend the first half asking questions, then repeat the problem back in your words before we suggest anything.",
+    "items": [
+     {
+      "title": "Walk us through what happens when a new customer request comes in."
+     },
+     {
+      "title": "Where does your team copy, chase or check the same thing every week?"
+     },
+     {
+      "title": "What would success look like, in your own numbers?"
+     }
+    ],
+    "body": [
+     "You get: where the work gets stuck, and where AI could save you time or money. If the answer doesn’t involve AI, we say so.",
+     "From you: someone who knows how the work really gets done, and a real example to walk through."
+    ],
+    "ctas": [
+     {
+      "label": "About the AI check-up",
+      "variant": "link",
+      "target": "/ai-check-up"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Link"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-11-2",
+     "slotName": "IMG-11-2 · Where work gets stuck",
+     "kind": "new",
+     "aspectDesktop": "560x700 (4:5)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "left half of a split; under the lead on mobile",
+     "textArea": "none (text sits beside the image)",
+     "alt": "A ribbon stream bunching into a knot at a cluster of stones, with one strand slipping through.",
+     "source": "Editorial illustration on a Daylight background, seen from slightly above. A wide satin ribbon in a gradient from Alliance Blue to Ribbon Cyan flows in from the left like a stream across a field of flat faceted paper tiles, then bunches into a loose tangled knot where it meets a cluster of faceted paper stones in the middle of the frame: the place where the work gets stuck, lit clearly so the eye goes straight to it. Beyond the stones a single smooth strand slips through and continues to the right. Soft slate-blue shadows, Partner Navy only in the deepest facets of the stones. Calm empty Daylight space across the top third. Portrait 4:5, safe to crop to 3:4. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "name": "Step 2 · Plan",
+   "layout": "split-sticky",
+   "ground": "navy",
+   "job": "Show that the fix is chosen for the partner, sometimes without AI, and that the plan comes with a fixed quote.",
+   "desktop": "Navy chapter. Head: title + mono meta (0.9fr) | lead (1.1fr). Two columns: five fix rows with dark service icons and hairlines (620) | Partner 30 sample quote card with [PRICE], label/value rows and a Secondary button. Title set on two balanced lines ('Then we pick / the right fix.') so the accent word never sits alone.",
+   "mobile": "Title (two balanced lines: 'Then we pick / the right fix.'), meta, lead, five fix rows full width with dark service icons, the sample quote card full width with a full-width Secondary button, then You get / From you.",
+   "content": {
+    "heading": "Then we pick the right fix.",
+    "accentWord": "fix.",
+    "meta": "Step 2 of 4 · Plan",
+    "lead": "That might be AI or automation, better design, extra developers or a marketing push. Sometimes it doesn’t involve AI at all.",
+    "items": [
+     {
+      "title": "AI or automation",
+      "text": "Slow, repetitive work handed to AI and checked by a person."
+     },
+     {
+      "title": "Better design",
+      "text": "Apps and websites that are easy to use, designed faster with AI."
+     },
+     {
+      "title": "Extra developers",
+      "text": "A developer from our team joins yours, full time, on your tools and your hours."
+     },
+     {
+      "title": "A marketing push",
+      "text": "Campaigns, content and ads that bring in more customers."
+     },
+     {
+      "title": "No AI at all",
+      "text": "If an off-the-shelf tool or a simpler fix costs you less, we say so."
+     }
+    ],
+    "body": [
+     "Sample quote card: Your fixed quote, [PRICE]. One price for the whole project, agreed before we start. Includes project management, testing and documentation. Changes are quoted before we do them. No per-seat fees on the tools we build. AI usage passed on at cost, on its own line. You own what we build.",
+     "You get: a plan with a fixed quote that lists everything we will charge.",
+     "From you: your sign-off on the plan before we build."
+    ],
+    "ctas": [
+     {
+      "label": "See starting prices",
+      "variant": "secondary",
+      "target": "/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Service icon/Dark",
+    "Card",
+    "Tag",
+    "Button"
+   ],
+   "images": []
+  },
+  {
+   "id": "build",
+   "name": "Step 3 · Build",
+   "layout": "table",
+   "ground": "daylight",
+   "job": "Compare the two ways we build: the whole project for you, or our people inside your team.",
+   "desktop": "Head with meta, then a 3-column comparison table (row label 240 | We build it for you | We join your team) with service icons in the column heads; You get / From you rows; three service links.",
+   "mobile": "Table collapses into two stacked cards, one per way of building, each with label/value rows.",
+   "content": {
+    "heading": "Two ways to build.",
+    "meta": "Step 3 of 4 · Build",
+    "lead": "Our engineers and designers build what we planned. We take on the whole project, or our people join your team and work inside it.",
+    "table": {
+     "columns": [
+      "",
+      "We build it for you",
+      "We join your team"
+     ],
+     "rows": [
+      [
+       "Best for",
+       "A defined project, such as a website, an automation or an AI tool",
+       "Ongoing work, when you need more hands"
+      ],
+      [
+       "Day to day",
+       "Our project lead runs the work and reports to you",
+       "You manage the work, with all of Alliance AI Partners behind them"
+      ],
+      [
+       "Where it happens",
+       "In your accounts and tools wherever possible",
+       "In your tools, on your hours"
+      ],
+      [
+       "Price",
+       "A fixed quote before work starts",
+       "From [PRICE] a month"
+      ],
+      [
+       "Review",
+       "A person reviews every result before launch",
+       "A person reviews every change before it reaches you"
+      ],
+      [
+       "Ownership",
+       "You own everything we build, including the code and documentation",
+       "You own everything they build for you"
+      ]
+     ]
+    },
+    "body": [
+     "You get: working software tested with your real data, a short training session and written instructions a new hire can follow.",
+     "From you: access to the tools the work needs, and feedback on each weekly update."
+    ],
+    "ctas": [
+     {
+      "label": "Websites and web apps",
+      "variant": "link",
+      "target": "/services/websites-and-web-apps"
+     },
+     {
+      "label": "AI automation",
+      "variant": "link",
+      "target": "/services/ai-automation"
+     },
+     {
+      "label": "Embedded developers",
+      "variant": "link",
+      "target": "/services/embedded-developers"
+     }
+    ]
+   },
+   "components": [
+    "Table row",
+    "Service icon/Mono",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "run-and-grow",
+   "name": "Step 4 · Run and grow",
+   "layout": "full-bleed-band",
+   "ground": "navy",
+   "job": "Prove we stay after launch: keep it running, improve it, help the partner grow.",
+   "desktop": "Full-bleed band 1440x760, image with a navy scrim from the right edge, text block (620) on the right: Display/LG title, mono meta, lead, three hairline rows, note.",
+   "mobile": "Band 390x600 cropped to the calm navy side, scrim from the top, title + meta + lead at the top; the three rows and the note move below the band inside the same navy chapter.",
+   "content": {
+    "heading": "Then we stay.",
+    "accentWord": "stay.",
+    "meta": "Step 4 of 4 · Run and grow",
+    "lead": "Where most agencies hand over the project and move on, we keep what we built working, improve it over time and help you win more customers.",
+    "items": [
+     {
+      "title": "Keep it running",
+      "text": "We watch what we built, fix what breaks and keep AI costs in check."
+     },
+     {
+      "title": "Improve it",
+      "text": "Each month we review the numbers with you and agree what to improve next."
+     },
+     {
+      "title": "Help you grow",
+      "text": "Marketing and sales work, when you are ready for more customers."
+     }
+    ],
+    "body": [
+     "You get: a monthly report with the results, AI usage at cost and the plan for next month. Monthly plans you can cancel with [30] days’ notice."
+    ]
+   },
+   "components": [
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-11-3",
+     "slotName": "IMG-11-3 · Faceted leaves",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+     "aspectDesktop": "1440x760 full bleed",
+     "aspectMobile": "390x600 or taller (grows with the text), cropped to the calm navy side, scrim from the top",
+     "placement": "background with a navy scrim from the reading edge (right on desktop, top on mobile)",
+     "textArea": "right side, white text (desktop); top (mobile)",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "weekly-updates",
+   "name": "Weekly updates",
+   "layout": "product-visual",
+   "ground": "daylight",
+   "job": "Show what the weekly update and monthly report contain, with a real template as the visual.",
+   "desktop": "Text 600 left (title, lead, four mono-labelled rows); right: a Neutral 50 well (28 radius) holding the framed email preview 640x760 with the raised shadow; mono caption below.",
+   "mobile": "Title, lead, framed mobile email preview 358x560 in the well, caption, then the rows.",
+   "content": {
+    "heading": "You see progress every week.",
+    "lead": "Every week, a short written update: what shipped, what changed and what needs you. Every month, a report with the results, the AI usage at cost and the plan for next month.",
+    "items": [
+     {
+      "title": "What shipped",
+      "text": "Each change, with the date it went live."
+     },
+     {
+      "title": "What needs you",
+      "text": "Anything waiting on a decision from you."
+     },
+     {
+      "title": "Bad news, early",
+      "text": "If something went wrong, you hear it from us first, with the fix."
+     },
+     {
+      "title": "AI usage at cost",
+      "text": "Model fees on their own line, with nothing added on top."
+     }
+    ],
+    "body": [
+     "Sample monthly report from our email templates. Figures in brackets are placeholders."
+    ]
+   },
+   "components": [
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-11-4",
+     "slotName": "IMG-11-4 · Sample monthly report",
+     "kind": "existing",
+     "source": "brand-kit/emails/previews/monthly-report-desktop.png (mobile: brand-kit/emails/previews/monthly-report-mobile.png)",
+     "aspectDesktop": "640x760 framed, cropped to the top of the email",
+     "aspectMobile": "326x540 framed, inside a 358-wide Neutral 50 well (16 px padding)",
+     "placement": "inset framed media in a Neutral 50 well, right of the text",
+     "textArea": "none",
+     "alt": "Sample monthly report email: hours saved, what shipped, AI usage at cost and next month's plan, with bracketed placeholder figures."
+    }
+   ]
+  },
+  {
+   "id": "reviews",
+   "name": "Reviewed by a person",
+   "layout": "list-rows",
+   "ground": "navy",
+   "job": "Answer 'does cheaper mean lower quality?' by showing where a person checks the work.",
+   "desktop": "Navy chapter. Asymmetric head (Heading/1, accent in Ribbon Cyan). Two columns of three hairline rows, cyan check icons.",
+   "mobile": "Head stacked; one column of six rows.",
+   "content": {
+    "heading": "A person checks every piece of work.",
+    "accentWord": "person",
+    "lead": "Does cheaper mean lower quality? No. AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you.",
+    "items": [
+     {
+      "title": "Code",
+      "text": "A person on our team reviews every change before it reaches you."
+     },
+     {
+      "title": "Writing",
+      "text": "Articles and landing pages are written faster with AI and checked by people."
+     },
+     {
+      "title": "AI agents",
+      "text": "They finish multi-step jobs and check with a person when they are unsure."
+     },
+     {
+      "title": "Support replies",
+      "text": "Draft replies wait for your team to approve, and harder cases go to a person."
+     },
+     {
+      "title": "Accuracy",
+      "text": "We test AI answers before and after launch, so you can rely on them."
+     },
+     {
+      "title": "Documents",
+      "text": "Data pulled from invoices and forms is checked before it is saved."
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Icon/check"
+   ],
+   "images": []
+  },
+  {
+   "id": "time-zones",
+   "name": "Time zones",
+   "layout": "timezones",
+   "ground": "daylight",
+   "job": "Show working hours against the partner's day, with sources.",
+   "desktop": "Asymmetric head; Time zones component (Desktop); three hairline rows (market | what it means | source key); sample note; numbered sources.",
+   "mobile": "Head stacked; Time zones (Mobile, 2x2) with the sample-times note directly under the clocks; three market rows (name + source key, then text); numbered sources.",
+   "content": {
+    "heading": "Working hours that fit yours.",
+    "lead": "Project teams work a Manila day, so US partners brief us before they log off and see progress when they log on. Embedded developers work your hours.",
+    "items": [
+     {
+      "title": "United States",
+      "text": "We work while you sleep. Brief us before you log off, and you will see progress when you log on.",
+      "meta": "2"
+     },
+     {
+      "title": "United Kingdom",
+      "text": "Our afternoon is your morning, so the start of your day overlaps with the end of ours.",
+      "meta": "2"
+     },
+     {
+      "title": "Australia",
+      "text": "Sydney is two hours ahead of us, or three during Australian daylight saving, so most of the working day overlaps.",
+      "meta": "1"
+     }
+    ],
+    "body": [
+     "Sample times for a November morning in Manila. The live site shows the real time in each city."
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
+     },
+     {
+      "key": "2",
+      "text": "NIST, Local time FAQs (US time zones and daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Time zones",
+    "Source key",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "tools-and-data",
+   "name": "Tools and data",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Promise that work happens in the partner's tools and their data stays where they decide.",
+   "desktop": "Asymmetric head; bento: one large card (648) with three icon rows and a link | two stacked cards (ownership; national privacy law with a source key); numbered source.",
+   "mobile": "Head; large card full width; the two small cards stacked; source.",
+   "content": {
+    "heading": "Your data stays in your systems.",
+    "lead": "We work inside the tools you already use. Your data stays where you decide, and we never use it to train anything you don’t own.",
+    "items": [
+     {
+      "title": "Lessons travel. Your data doesn’t.",
+      "text": "What we learn on one project makes the next one better. Partner data never travels with it."
+     },
+     {
+      "title": "You own what we build",
+      "text": "Everything we build is yours, including the code and the documentation."
+     },
+     {
+      "title": "A national privacy law",
+      "text": "The Philippines protects personal data under the Data Privacy Act of 2012, enforced by an independent National Privacy Commission.",
+      "meta": "1"
+     }
+    ],
+    "body": [
+     "Your data stays in your systems wherever possible.",
+     "Everything is written down clearly enough for a new hire to follow.",
+     "Every automation has an owner and a backup plan."
+    ],
+    "ctas": [
+     {
+      "label": "Read how we handle data",
+      "variant": "link",
+      "target": "/data-and-security"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "Republic Act 10173, Data Privacy Act of 2012 (Supreme Court E-Library). Retrieved 2026-11-02.",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+     }
+    ]
+   },
+   "components": [
+    "Card",
+    "Service icon/Mono",
+    "Icon",
+    "Source key",
+    "Source list",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the AI check-up as step one.",
+   "desktop": "Navy chapter, split: Display/LG title, lead, Primary LG + email link (720) | Partner 30 card listing what the check-up gives you.",
+   "mobile": "Title, lead, full-width Primary LG, email link, then the card.",
+   "content": {
+    "heading": "Start with step one.",
+    "accentWord": "one.",
+    "lead": "Step one is usually the AI check-up: a short first project that finds where AI could save you time or money. You get a plan with a fixed quote, and you decide what happens next.",
+    "items": [
+     {
+      "title": "Where AI could save you time or money"
+     },
+     {
+      "title": "A plan with a fixed quote"
+     },
+     {
+      "title": "A straight answer if AI isn’t the fix"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "hello@allianceaipartners.example",
+      "variant": "link",
+      "target": "mailto:hello@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Button",
+    "Card",
+    "Icon/check",
+    "Footer"
+   ],
+   "images": []
+  }
+ ],
+ "notes": "Long scrolling story: the Steps component appears once (the page's one ribbon signature), then each step gets its own layout (split image, navy list with sample quote, table, full-bleed band). Every step section carries a mono meta line below its title (Step n of 4) and the same You get / From you pair, which ties the story together. One Primary in the hero and one in the closing navy band. Only Brand DNA facts; placeholders kept ([PRICE], [30]). Frames: desktop 39:1005 (built by an earlier builder, checked and kept: lint clean, screenshots reviewed), mobile 42:663 (built 2026-11-03 to this spec). Both pass the lint with no findings. Titles that left a single word on the last line are set on balanced lines: desktop 'Four steps from / first call to growth.', 'You see progress / every week.', 'Your data stays / in your systems.', 'Then we pick / the right fix.'; mobile also 'Start with / step one.' and 'Working hours / that fit yours.'."
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "subprocessors",
+  "figmaPage": "38 · Subprocessors",
+  "phase": "Later",
+  "route": "/trust/subprocessors",
+  "purpose": "List every AI provider and software tool that may touch partner data, with what it does, which data it may see and where it runs, and say how partners hear about changes. Until the list exists, every row is a marked placeholder.",
+  "primaryAction": {
+    "label": "none on this page (the header carries the check-up outline)",
+    "target": "/ai-check-up"
+  },
+  "seo": {
+    "title": "Subprocessors | Alliance AI Partners",
+    "description": "The AI providers and software tools that may touch partner data at Alliance AI Partners: what each one does, which data it may see and where it runs."
+  },
+  "states": [
+    "default"
+  ],
+  "frames": {
+    "desktop": "43:1682",
+    "mobile": "43:2698"
+  },
+  "sections": [
+    {
+      "id": "title",
+      "name": "Section · Title",
+      "layout": "hero-text-led",
+      "ground": "daylight",
+      "job": "Name the list, explain the word subprocessor in plain words, and say the list is published before launch.",
+      "desktop": "Text 760 left: Heading/1 (simple page), Body/LG lead at 640, a meta row with the mono 'Last updated' line and a small link back to Data and security. Right: the Info alert, aligned to the bottom of the text.",
+      "mobile": "Title, lead, the alert, then the meta line and the link stacked.",
+      "content": {
+        "heading": "Every AI provider and tool that may touch your data.",
+        "lead": "We call them subprocessors: the companies whose AI models and software we use to do your work. Each one is listed here with what it does, which of your data it may see and where it runs.",
+        "body": [
+          "Last updated [date]",
+          "Alert (Info): Published before launch. We publish the full list before the site goes live. Until then, every row on this page is a placeholder."
+        ],
+        "ctas": [
+          {
+            "label": "How we handle your data",
+            "variant": "link",
+            "target": "/trust"
+          }
+        ]
+      },
+      "components": [
+        "Header",
+        "Alert (Info)",
+        "Link"
+      ],
+      "images": []
+    },
+    {
+      "id": "list",
+      "name": "Section · List",
+      "layout": "table",
+      "ground": "daylight",
+      "job": "Show the placeholder list in two groups, AI providers and software tools, with the four columns partners need.",
+      "desktop": "Two groups, each with a Heading/3 and one line of description on an asymmetric row, then a table: Provider 260, Purpose, Data, Location 220. Contact line under the second table.",
+      "mobile": "Each table becomes stacked rows: Heading/4 '[Provider]' and three label and value lines (Purpose, Data, Location), hairlines between.",
+      "content": {
+        "items": [
+          {
+            "title": "AI providers",
+            "text": "Models and AI services that may process data for your work."
+          },
+          {
+            "title": "Software tools",
+            "text": "Tools we use to plan, build, store and talk about your work."
+          }
+        ],
+        "table": {
+          "columns": [
+            "Provider",
+            "Purpose",
+            "Data",
+            "Location"
+          ],
+          "rows": [
+            [
+              "[Provider]",
+              "[AI model: drafts and answers]",
+              "[Data it may see]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Purpose]",
+              "[Data it may see]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Purpose]",
+              "[Data it may see]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Automation platform]",
+              "[Data it may see]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Hosting and storage]",
+              "[Data it may see]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Purpose]",
+              "[Data it may see]",
+              "[Region]"
+            ]
+          ]
+        },
+        "body": [
+          "Questions about a subprocessor? Email hello@allianceaipartners.example."
+        ]
+      },
+      "components": [
+        "Table row",
+        "Link"
+      ],
+      "images": []
+    },
+    {
+      "id": "changes",
+      "name": "Section · Changes",
+      "layout": "split-sticky",
+      "ground": "navy",
+      "job": "Explain how partners hear about a change before it happens.",
+      "desktop": "Navy chapter. Left 600: Heading/1 with one cyan accent, Body/LG, Secondary button. Right: three numbered hairline rows (cyan mono numbers, Heading/4, Body), then a bracketed legal placeholder.",
+      "mobile": "Title, lead, the three rows, the legal placeholder, full-width Secondary button.",
+      "content": {
+        "heading": "When this list changes, you hear first.",
+        "accentWord": "first.",
+        "lead": "We tell partners before a new subprocessor starts working with their data.",
+        "items": [
+          {
+            "title": "We email you first.",
+            "text": "The contact on your account hears from us [notice period] before a new subprocessor starts, with who it is, what it does and why."
+          },
+          {
+            "title": "You can ask or object.",
+            "text": "Reply with questions or concerns, and we'll answer before the change goes ahead."
+          },
+          {
+            "title": "We update this page.",
+            "text": "The change appears here, with its date, on the day it takes effect."
+          }
+        ],
+        "body": [
+          "[Legal text to come: how a partner objects to a new subprocessor, and what happens next.]"
+        ],
+        "ctas": [
+          {
+            "label": "Ask about a subprocessor",
+            "variant": "secondary",
+            "target": "mailto:hello@allianceaipartners.example"
+          }
+        ]
+      },
+      "components": [
+        "Button (Secondary)",
+        "Footer"
+      ],
+      "images": []
+    }
+  ],
+  "notes": "Simple Later-phase page: Heading/1 instead of Display/XL, no image slots, no ribbon. No Primary: the page asks nothing of the visitor, and the header keeps the check-up outline. The first row of each group repeats the bracketed purposes previewed on Data and security (/trust), so the two pages agree. Every provider, purpose, data type, region, the notice period and the objection terms are placeholders until the real list and contract terms exist."
+}

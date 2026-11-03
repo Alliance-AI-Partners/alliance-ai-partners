@@ -1,0 +1,481 @@
+{
+ "slug": "compare",
+ "figmaPage": "37 · Compare",
+ "phase": "Later",
+ "route": "/compare",
+ "purpose": "Let a founder weigh Alliance AI Partners fairly against hiring locally, US and Australian agencies and per-seat AI tools, with a source and a date for every number, say honestly when each option is the right choice, and move them to an AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "Compare: hiring locally, agencies and AI tools | Alliance AI Partners",
+  "description": "What it costs to hire a developer in the US, the UK or Australia, what agencies charge by the hour and what per-seat AI tools cost, compared like for like with Alliance AI Partners. Every figure sourced and dated."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "TBD",
+  "mobile": "TBD"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "hero-text-led",
+   "ground": "daylight",
+   "job": "Say what the page lets the reader do, offer the one committing action and show the four parts of the comparison.",
+   "desktop": "Text column 652 (Display/XL title, lead 560, Primary LG + link) | index column (grow): a Ribbon rule (the page's ribbon signature) over four hairline rows, each a Heading/4 title, a Body/SM line and an arrow, linking to the sections below. Padding 96 top, 112 bottom.",
+   "mobile": "Title, lead, full-width LG Primary, link; the ribbon rule and the four index rows follow as compact hairline rows.",
+   "content": {
+    "heading": "Pick the option that costs you less.",
+    "accentWord": "less.",
+    "lead": "Hire locally, use a US or Australian agency, buy a per-seat AI tool, or work with Alliance AI Partners. Here is what each one costs, with a source and a date for every number, and when each one is the right choice.",
+    "items": [
+     {
+      "title": "Hiring locally",
+      "text": "One full-time developer in the US, the UK or Australia.",
+      "link": "#hiring-locally"
+     },
+     {
+      "title": "US and Australian agencies",
+      "text": "Hourly ranges from Clutch, and where the gap is.",
+      "link": "#agencies"
+     },
+     {
+      "title": "Per-seat AI tools",
+      "text": "What seats cost as your team grows.",
+      "link": "#per-seat-tools"
+     },
+     {
+      "title": "When each option is right",
+      "text": "Including when it isn’t us.",
+      "link": "#right-choice"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "See our prices",
+      "variant": "link",
+      "target": "/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Ribbon rule",
+    "Icon/arrow-right"
+   ],
+   "images": []
+  },
+  {
+   "id": "hiring-locally",
+   "name": "Hiring locally",
+   "layout": "table",
+   "ground": "daylight",
+   "job": "Compare like for like: what one full-time software developer costs to employ in each market against our price for one full-time embedded developer.",
+   "desktop": "Section head (title 0.45 | lead), then a five-column table: Where you hire (with Source keys) | Median pay | Cost to employ, a year | A month | Embedded developer from Alliance AI Partners (the column tinted 10% Ribbon Cyan). Note on what is not included and the US hourly figures, a link to the embedded developers page, then source lines 1 to 4.",
+   "mobile": "Head stacked; the table becomes three country blocks between hairlines: country as Heading/4 with its Source keys, then label and value rows (Median pay, Cost to employ, a year, A month) and a tinted row for the embedded developer at [PRICE] a month; note, link and sources last.",
+   "content": {
+    "heading": "Hiring locally, like for like.",
+    "lead": "What it costs to employ one full-time software developer, against our price for one full-time embedded developer. Our monthly price includes recruiting, benefits and equipment.",
+    "table": {
+     "columns": [
+      "Where you hire",
+      "Median pay",
+      "Cost to employ, a year",
+      "A month",
+      "Embedded developer from Alliance AI Partners"
+     ],
+     "rows": [
+      [
+       "United States [1][2]",
+       "US$135,980 a year",
+       "About US$196,500",
+       "About US$16,400",
+       "[PRICE] a month"
+      ],
+      [
+       "United Kingdom [3]",
+       "£59,863 a year",
+       "About £69,400",
+       "About £5,800",
+       "[PRICE] a month"
+      ],
+      [
+       "Australia [4]",
+       "A$2,537 a week (about A$131,900 a year)",
+       "About A$147,800",
+       "About A$12,300",
+       "[PRICE] a month"
+      ]
+     ],
+     "oursColumn": 4
+    },
+    "body": [
+     "None of these figures include recruiting fees, equipment or office space, so the real cost of hiring locally is higher.",
+     "In US hourly terms, that is US$65.38 an hour in pay and about US$94 an hour to the employer."
+    ],
+    "ctas": [
+     {
+      "label": "See embedded developers",
+      "variant": "link",
+      "target": "/services/embedded-developers"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "U.S. Bureau of Labor Statistics, software developers, median pay, May 2025. Retrieved 2026-11-02.",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+     },
+     {
+      "key": "2",
+      "text": "U.S. Bureau of Labor Statistics, benefits as a share of total compensation for professional workers, June 2026. Retrieved 2026-11-02.",
+      "url": "https://www.bls.gov/news.release/ecec.t04.htm"
+     },
+     {
+      "key": "3",
+      "text": "Office for National Statistics, Annual Survey of Hours and Earnings 2026 (provisional), programmers and software development professionals; employer National Insurance and pension at 2026-27 rates (GOV.UK). Retrieved 2026-11-02.",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026 ; https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027"
+     },
+     {
+      "key": "4",
+      "text": "Jobs and Skills Australia, software and applications programmers (ABS data, May 2025); superannuation guarantee (Australian Taxation Office). Retrieved 2026-11-02.",
+      "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-anzsco/2613-software-and-applications-programmers ; https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee"
+     }
+    ]
+   },
+   "components": [
+    "Source key",
+    "Link",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "agencies",
+   "name": "Agency rates",
+   "layout": "product-visual",
+   "ground": "daylight",
+   "job": "Show where the agency price gap is and where it is not, using Clutch marketplace ranges, without claiming a gap with Australia for AI development.",
+   "desktop": "Section head, then a white card (32 padding) holding a range chart: three groups (Web development, Web design, AI development), each a Heading/4 with its Source key (AI development also carries the tag 'No gap with Australia'), then one row per market: label 240 | track 720 on a US$0 to US$150 scale | range in mono. Philippine bars in Neutral 500, other markets in Partner Navy, each labelled directly. Axis labels under the last group. Note under the card, then source lines 5 to 7.",
+   "mobile": "Head stacked; the chart card full width: each market row puts the label and the range on one line and the bar (310 wide track) under it; axis labels under each group's last bar; note and sources last.",
+   "content": {
+    "heading": "Agency rates: where the gap is, and where it isn’t.",
+    "lead": "Clutch, a marketplace of reviewed agencies, publishes the hourly ranges most agencies charge. For web development and design, Philippine agencies charge far less. For AI development, Australian and Philippine agencies sit in the same band.",
+    "items": [
+     {
+      "title": "Web development [5]",
+      "text": "US and Australia: US$100 to US$149 an hour. Philippines: US$25 to US$49."
+     },
+     {
+      "title": "Web design [6]",
+      "text": "US and Australia: US$100 to US$149 an hour. United Kingdom: US$50 to US$99. Philippines: under US$25."
+     },
+     {
+      "title": "AI development [7]",
+      "text": "United States: US$50 to US$99 an hour. Australia: US$25 to US$49. Philippines: US$25 to US$49.",
+      "meta": "No gap with Australia"
+     }
+    ],
+    "body": [
+     "US dollars an hour, September 2026. These are marketplace ranges, not official statistics, and the Philippine ranges describe typical agencies, not our prices. We don’t bill by the hour: every project gets a fixed quote."
+    ],
+    "sources": [
+     {
+      "key": "5",
+      "text": "Clutch, web developer pricing, September 2026. Marketplace ranges, not official statistics. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-developers/pricing"
+     },
+     {
+      "key": "6",
+      "text": "Clutch, web designer pricing, September 2026. Marketplace ranges, not official statistics. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-designers/pricing"
+     },
+     {
+      "key": "7",
+      "text": "Clutch, AI development pricing, September 2026. Marketplace ranges, not official statistics. Retrieved 2026-11-02.",
+      "url": ""
+     }
+    ]
+   },
+   "components": [
+    "Card",
+    "Source key",
+    "Tag",
+    "Source list"
+   ],
+   "images": [
+    {
+     "slotName": "Agency rate range chart",
+     "kind": "vector",
+     "source": "Range chart drawn in Figma from the Brand DNA Clutch figures (September 2026): horizontal bars on a US$0 to US$150 an hour scale, one group per kind of work, one bar per market, each labelled with its range in mono.",
+     "aspectDesktop": "1256 wide inside the card",
+     "aspectMobile": "310 wide inside the card",
+     "placement": "inside a white card under the section head",
+     "alt": "Hourly agency ranges on Clutch, September 2026. Web development: US and Australia US$100 to US$149, Philippines US$25 to US$49. Web design: US and Australia US$100 to US$149, United Kingdom US$50 to US$99, Philippines under US$25. AI development: United States US$50 to US$99, Australia and Philippines both US$25 to US$49."
+    }
+   ]
+  },
+  {
+   "id": "per-seat-tools",
+   "name": "Per-seat AI tools",
+   "layout": "sourced-stats",
+   "ground": "navy",
+   "job": "Show what per-seat and per-use AI tools cost as a team grows, with the published examples, and what we do instead.",
+   "desktop": "Navy chapter: section head (Heading/1, accent 'grow.' in Ribbon Cyan) | then two columns: a Stat (US$1,500, a month for 50 people on Microsoft 365 Copilot, Source key 8) in a Partner 30 panel (560) | hairline rows on the right: Per outcome (Intercom, key 9), Per call (Smith.ai, key 10), What we do instead (two check items). Source lines 8 to 10 below in Text/Secondary.",
+   "mobile": "Title, lead, the stat panel full width, then the rows, then sources.",
+   "content": {
+    "heading": "What per-seat AI tools cost as you grow.",
+    "accentWord": "grow.",
+    "lead": "Ready-made AI tools are priced per person or per use. They are quick to start, and the bill rises with every person you add and every busy month.",
+    "items": [
+     {
+      "title": "US$1,500 [8]",
+      "text": "A month for 50 people on Microsoft 365 Copilot: US$30 per user a month, paid yearly, on top of a Microsoft 365 plan."
+     },
+     {
+      "title": "Per outcome [9]",
+      "text": "Intercom’s Fin is US$0.99 per outcome, with seats extra."
+     },
+     {
+      "title": "Per call [10]",
+      "text": "Smith.ai’s AI receptionist is US$150 a month for 75 calls, then US$2.50 a call."
+     },
+     {
+      "title": "What we do instead",
+      "text": "No per-seat fees on the tools we build. AI usage, like model fees, is passed on at cost and shown on its own invoice line."
+     }
+    ],
+    "sources": [
+     {
+      "key": "8",
+      "text": "Microsoft, Microsoft 365 Copilot for enterprise, pricing. Retrieved 2026-11-02.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/copilot/enterprise"
+     },
+     {
+      "key": "9",
+      "text": "Intercom, pricing for Fin. Retrieved 2026-11-02.",
+      "url": "https://www.intercom.com/pricing"
+     },
+     {
+      "key": "10",
+      "text": "Smith.ai, AI receptionist pricing. Retrieved 2026-11-02.",
+      "url": "https://smith.ai/pricing/ai-receptionist"
+     }
+    ]
+   },
+   "components": [
+    "Stat",
+    "Source key",
+    "Icon/check",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "right-choice",
+   "name": "When each option is right",
+   "layout": "split-sticky",
+   "ground": "daylight",
+   "job": "Say honestly when each option is the right choice, including when a per-seat tool or a local hire beats us.",
+   "desktop": "Left column 520: title, lead and the image 520x650 (4:5) inset with 18px corners | right column (grow): four numbered hairline rows, each an option as Heading/3 with 'Right when' and 'Watch for' label and value pairs.",
+   "mobile": "Title, lead, the image cropped to 358x268 (4:3), then the four rows in one column.",
+   "content": {
+    "heading": "When each option is the right choice.",
+    "lead": "Each one is right for some work. If we are not the right choice for yours, we will say so.",
+    "items": [
+     {
+      "title": "Hiring locally",
+      "text": "Right when: the role is permanent and central to your business, and you want that skill on your own payroll, in your own office.",
+      "meta": "Watch for: recruiting time, benefits, equipment and office space, all on top of pay."
+     },
+     {
+      "title": "A US or Australian agency",
+      "text": "Right when: the work needs people on site, or in the room with your customers.",
+      "meta": "Watch for: hourly billing. Slow work costs more and the final bill is hard to predict, so ask for a fixed quote."
+     },
+     {
+      "title": "A per-seat AI tool",
+      "text": "Right when: a ready-made tool already does the job. Our AI assistant rollout service sets up ChatGPT, Claude, Microsoft Copilot or Gemini across your company, with the right security settings.",
+      "meta": "Watch for: costs rise with every person you add, so check which seats you need."
+     },
+     {
+      "title": "Alliance AI Partners",
+      "text": "Right when: you need AI tools, software or automation built around how your business works, or more developers without hiring, and a team that stays to run it and help you grow.",
+      "meta": "Watch for: our team is in the Philippines, so you won’t meet us in your office. We work inside your team: you see progress every week, and a person reviews every piece of work."
+     }
+    ]
+   },
+   "components": [
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-37-1",
+     "slotName": "IMG-37-1 · Four paths, one hilltop",
+     "kind": "new",
+     "aspectDesktop": "520x650 (4:5)",
+     "aspectMobile": "358x268 (4:3)",
+     "placement": "left column under the lead on desktop; under the lead on mobile",
+     "textArea": "none (text sits beside or above the image); keep the upper third calm",
+     "alt": "Four ribbon paths take different routes up one faceted hill and meet at the same top.",
+     "source": "Editorial illustration on a soft Daylight background, portrait 4:5, safe to crop to 4:3 around the middle. Four satin ribbon paths start from four different points along the lower edge, each in its own colour (Partner Navy, slate blue, pale blue-grey, and one in a gradient from Alliance Blue to Ribbon Cyan), and wind by different routes up a gentle hill of flat faceted paper to meet at the same rounded hilltop: four fair ways to reach one goal. The paths are about the same width and none is shown as better than the others. A few small flat faceted paper leaves sit along the routes. Keep the upper third of the sky calm and empty. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "fair",
+   "name": "How we keep it fair",
+   "layout": "text-column",
+   "ground": "daylight",
+   "job": "Show the rules behind every comparison on the page, how each cost was worked out, and the full list of sources with links.",
+   "desktop": "Section head, then two columns (616 | grow, gap 64): 'Our rules' as five numbered hairline rows | 'How we worked out the costs' as four hairline rows with Source keys. Below, full width, the complete numbered source list with links.",
+   "mobile": "Head stacked; the rules, then the method rows, then the full source list.",
+   "content": {
+    "heading": "How we keep this comparison fair.",
+    "lead": "The rules we follow whenever we compare prices, and how we worked out every cost on this page.",
+    "items": [
+     {
+      "title": "Like with like",
+      "text": "A full-time employee’s yearly cost against our price for a full-time embedded developer, and an agency’s hourly rate against how we price the same work."
+     },
+     {
+      "title": "A source and a date for every number",
+      "text": "We update the US and UK figures every year, when new data comes out."
+     },
+     {
+      "title": "Marketplace ranges, marked as such",
+      "text": "Clutch ranges describe typical agencies. They are not official statistics, and they are not our prices."
+     },
+     {
+      "title": "No gap where there isn’t one",
+      "text": "For AI development, Australian and Philippine agencies charge in the same band, so we don’t claim a gap with Australia."
+     },
+     {
+      "title": "Figures, not superlatives",
+      "text": "We give you the real number and let you decide."
+     }
+    ],
+    "body": [
+     "United States [1][2]: median pay from the Bureau of Labor Statistics (May 2025). Benefits make up 30.8% of total compensation for professional workers (June 2026), so we divided pay by 0.692.",
+     "United Kingdom [3]: median pay for full-time programmers and software development professionals from the ONS (2026 provisional figures), plus employer National Insurance at 15% above £5,000 and the minimum 3% employer pension contribution (2026-27 rates).",
+     "Australia [4]: median weekly pay for software and applications programmers from Jobs and Skills Australia (ABS data, May 2025), times 52, plus the 12% superannuation guarantee.",
+     "Not included: recruiting fees, equipment and office space, so the real cost of hiring is higher."
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "U.S. Bureau of Labor Statistics, software developers, median pay, May 2025. Retrieved 2026-11-02.",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+     },
+     {
+      "key": "2",
+      "text": "U.S. Bureau of Labor Statistics, benefits as a share of total compensation for professional workers, June 2026. Retrieved 2026-11-02.",
+      "url": "https://www.bls.gov/news.release/ecec.t04.htm"
+     },
+     {
+      "key": "3",
+      "text": "Office for National Statistics, Annual Survey of Hours and Earnings 2026 (provisional), programmers and software development professionals; employer National Insurance and pension at 2026-27 rates (GOV.UK). Retrieved 2026-11-02.",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026 ; https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027"
+     },
+     {
+      "key": "4",
+      "text": "Jobs and Skills Australia, software and applications programmers (ABS data, May 2025); superannuation guarantee (Australian Taxation Office). Retrieved 2026-11-02.",
+      "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-anzsco/2613-software-and-applications-programmers ; https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee"
+     },
+     {
+      "key": "5",
+      "text": "Clutch, web developer pricing, September 2026. Marketplace ranges, not official statistics. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-developers/pricing"
+     },
+     {
+      "key": "6",
+      "text": "Clutch, web designer pricing, September 2026. Marketplace ranges, not official statistics. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-designers/pricing"
+     },
+     {
+      "key": "7",
+      "text": "Clutch, AI development pricing, September 2026. Marketplace ranges, not official statistics. Retrieved 2026-11-02.",
+      "url": ""
+     },
+     {
+      "key": "8",
+      "text": "Microsoft, Microsoft 365 Copilot for enterprise, pricing. Retrieved 2026-11-02.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/copilot/enterprise"
+     },
+     {
+      "key": "9",
+      "text": "Intercom, pricing for Fin. Retrieved 2026-11-02.",
+      "url": "https://www.intercom.com/pricing"
+     },
+     {
+      "key": "10",
+      "text": "Smith.ai, AI receptionist pricing. Retrieved 2026-11-02.",
+      "url": "https://smith.ai/pricing/ai-receptionist"
+     }
+    ]
+   },
+   "components": [
+    "Source key",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "full-bleed-band",
+   "ground": "navy",
+   "job": "Close with the AI check-up, where we tell the partner which option fits, even when it is not us.",
+   "desktop": "Navy chapter, full bleed 1440x640: background image with a navy scrim from the right; text block 600 on the right: Display/LG title with one cyan accent, lead, Primary LG and a cyan link.",
+   "mobile": "390 band, image cropped to its calm navy side, scrim from the top; title, lead, full-width Primary and the link at the top.",
+   "content": {
+    "heading": "We will tell you which option fits.",
+    "accentWord": "fits.",
+    "lead": "Start with an AI check-up. In [two weeks], we find where AI could save you time or money, and we tell you which option fits your work, even when it isn’t us.",
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "See our prices",
+      "variant": "link",
+      "target": "/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Button",
+    "Link",
+    "Footer"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-37-2",
+     "slotName": "IMG-37-2 · Faceted leaves",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+     "aspectDesktop": "1440x640 full bleed",
+     "aspectMobile": "390 wide, as tall as the text plus 280, crop to the calm navy side",
+     "placement": "background of the navy band with a navy scrim from the reading edge (right on desktop, top on mobile)",
+     "textArea": "right 45% (desktop), top 60% (mobile), Daylight text on the scrim",
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "notes": "Later-phase page. Every figure comes from the Brand DNA cost comparison, the Clutch agency ranges and the per-seat examples, each with a Source key and a dated source line in its own section, plus the full list with links in the fairness section. Rules applied: like for like (employee yearly cost against an embedded developer; agency hourly ranges shown as market ranges, not against our prices); no superlatives; Clutch ranges marked as marketplace ranges that describe typical Philippine agencies, not our prices; no AI development gap claimed with Australia; no 'about half' claim until real prices exist. Our prices stay [PRICE]. Header marks Pricing as the current section. Layouts: text-led hero with an index, table, chart card, navy stat split, split-sticky with an inset image, two-column text, full-bleed band with the text on the right. Ribbon signature once: the Ribbon rule over the hero index."
+}

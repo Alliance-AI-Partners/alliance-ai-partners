@@ -1,0 +1,414 @@
+{
+ "slug": "for-agencies",
+ "figmaPage": "29 · For agencies",
+ "phase": "Next",
+ "route": "/for-agencies",
+ "purpose": "Show agencies how white-label work with Alliance AI Partners runs: we build under the agency’s brand, the client relationship stays theirs, embedded developers when they need more hands, a fixed quote first and published starting prices, the four steps, and confidentiality terms to confirm. Move the reader to ask for a fixed quote.",
+ "primaryAction": {
+  "label": "Ask for a fixed quote",
+  "target": "/contact?service=white-label"
+ },
+ "seo": {
+  "title": "White-label AI for agencies | Alliance AI Partners",
+  "description": "Alliance AI Partners delivers AI projects under your agency’s brand, so you can offer AI without hiring. The client relationship stays yours, and every project starts with a fixed quote."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "",
+  "mobile": ""
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "split-image-right",
+   "ground": "daylight",
+   "job": "Say what white-label means in one line, with the one committing action.",
+   "desktop": "Hero grid 1.08fr | 1fr: text column 652 (Display/XL title, one sentence per line block; Body/LG lead 600; Primary LG + link) | image slot 604x600 on the right, 64 gap, vertically centred.",
+   "mobile": "Title, lead, Primary full width LG, link; the image moves under the actions and re-crops to 4:5 (358x448).",
+   "content": {
+    "heading": "Your brand on the work. Our team behind it.",
+    "accentWord": "brand",
+    "lead": "Offer your clients AI without hiring. We build under your agency’s brand, and the client relationship stays yours.",
+    "ctas": [
+     {
+      "label": "Ask for a fixed quote",
+      "variant": "primary",
+      "target": "/contact?service=white-label"
+     },
+     {
+      "label": "See how it works",
+      "variant": "link",
+      "target": "#process"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-29-1",
+     "slotName": "IMG-29-1 · Kite and flock",
+     "kind": "new",
+     "aspectDesktop": "604x600 (about 1:1)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right half of the hero split; under the actions on mobile",
+     "textArea": "none (text sits beside the image); keep the upper left quarter calm",
+     "alt": "A paper kite flies out front on a satin ribbon, with a flock of paper swallows close behind it.",
+     "source": "Editorial illustration on a soft Daylight sky at daybreak. A large faceted paper kite, folded from flat planes in Partner Navy and slate blue, flies out in front, trailing a long satin ribbon in a gradient from Alliance Blue to Ribbon Cyan. A small flock of faceted paper swallows flies close behind the kite in a tight, orderly formation, following the ribbon: one shape leads and a capable team works behind it. The kite is plain, with no marks, symbols or letters. A low band of flat faceted paper hills in pale blue-grey runs along the bottom edge. Keep the upper left quarter calm and empty. Near-square, about 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "white-label",
+   "name": "White-label",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Spell out what stays with the agency: its brand, its client, reviewed work and written documentation.",
+   "desktop": "Section head; bento: a column of two stacked white cards with Mono service icons that stretch to the large card's height | one large white card (760) with the image slot on top and text below.",
+   "mobile": "Head; the large card first (image 358x240); the two cards stacked below.",
+   "content": {
+    "heading": "What stays yours.",
+    "accentWord": "",
+    "lead": "Your clients work with your agency, and the relationship stays yours. Behind your brand, our team does the building.",
+    "items": [
+     {
+      "title": "Your brand on the work",
+      "text": "We deliver AI projects under your agency’s brand, from planning to launch.",
+      "meta": "large card"
+     },
+     {
+      "title": "A person checks every piece of work",
+      "text": "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you.",
+      "meta": "icon: research-insights"
+     },
+     {
+      "title": "Written down for your team",
+      "text": "We write down how everything works, clearly enough for a new hire to follow.",
+      "meta": "icon: training-enablement"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Card",
+    "Image slot",
+    "Service icon/Mono/research-insights",
+    "Service icon/Mono/training-enablement"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-29-2",
+     "slotName": "IMG-29-2 · Blank paper tag",
+     "kind": "new",
+     "aspectDesktop": "760x360 (about 2:1), top of the large bento card",
+     "aspectMobile": "3:2 (358x240)",
+     "placement": "inset at the top of the large white-label card, full bleed inside the card",
+     "textArea": "none",
+     "alt": "A blank paper tag hangs from a satin ribbon.",
+     "source": "Still life on a Daylight background. A large blank paper tag, folded from flat faceted planes in white and pale blue-grey, hangs from a satin ribbon in Alliance Blue shading to Ribbon Cyan that loops in from the upper left. The tag is completely blank, with no marks, lines or letters, ready to carry another name. A few small faceted paper leaves in Partner Navy and slate blue rest beneath it. Generous calm Daylight space on the right. Landscape, about 2:1, safe to crop to 3:2. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "embedded-developers",
+   "name": "Embedded developers",
+   "layout": "split-price-card",
+   "ground": "daylight",
+   "job": "Offer embedded developers to agencies that need more hands, with the monthly starting price.",
+   "desktop": "Split, vertically centred: text column 620 (Heading/2, Body/LG lead, three check rows between hairlines, link) | white price card filling the rest: label, [PRICE] in Data/Numeral with 'a month', one line, Secondary button.",
+   "mobile": "Title, lead, the price card (Secondary full width), check rows, link.",
+   "content": {
+    "heading": "Add developers when you need more hands.",
+    "accentWord": "",
+    "lead": "Our developers join your team and work inside it, with all of Alliance behind them.",
+    "items": [
+     {
+      "text": "Before we start, we agree on what success looks like, using your own numbers."
+     },
+     {
+      "text": "You see progress every week."
+     },
+     {
+      "text": "Monthly plans you can cancel with [30] days’ notice."
+     },
+     {
+      "title": "An embedded developer, full time",
+      "price": "[PRICE] a month",
+      "text": "Starting price, published before you talk to us."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Tell us about the role",
+      "variant": "secondary",
+      "target": "/contact?service=embedded-developers"
+     },
+     {
+      "label": "How embedded developers work",
+      "variant": "link",
+      "target": "/services/embedded-developers"
+     }
+    ]
+   },
+   "components": [
+    "Icon/check",
+    "Card",
+    "Button",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "prices",
+   "name": "Starting prices",
+   "layout": "list-rows",
+   "ground": "navy",
+   "job": "Put the fixed-quote promise first, then the published starting prices an agency can price its own work on.",
+   "desktop": "Navy chapter. Section head (Heading/1 with one cyan accent | lead). Split: four Service rows and a Secondary button | a Partner 30 card (440) 'Our honest pricing promise' with four cyan check rows.",
+   "mobile": "Head; Service rows (mobile variant); Secondary button full width; the card below.",
+   "content": {
+    "heading": "A fixed quote before you quote your client.",
+    "accentWord": "fixed",
+    "lead": "A fixed quote before work starts that lists everything we’ll charge. Changes are quoted before we do them.",
+    "items": [
+     {
+      "title": "Websites and web apps",
+      "text": "A fast, accessible site or web app, built and kept running.",
+      "price": "From [PRICE]"
+     },
+     {
+      "title": "The AI check-up",
+      "text": "A short first project that finds where AI could save you time or money.",
+      "price": "From [PRICE]"
+     },
+     {
+      "title": "AI automation",
+      "text": "One slow process handled by AI and checked by a person.",
+      "price": "From [PRICE] a project"
+     },
+     {
+      "title": "Embedded developers",
+      "text": "A developer from our team works inside yours, full time.",
+      "price": "From [PRICE] a month"
+     },
+     {
+      "text": "No per-seat fees on the tools we build."
+     },
+     {
+      "text": "AI usage, like model fees, passed on at cost and shown on the invoice."
+     },
+     {
+      "text": "You own what we build."
+     },
+     {
+      "text": "If an off-the-shelf tool or a simpler fix costs you less, we say so."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See all prices",
+      "variant": "secondary",
+      "target": "/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Service row",
+    "Card",
+    "Icon/check",
+    "Button"
+   ],
+   "images": []
+  },
+  {
+   "id": "process",
+   "name": "Process",
+   "layout": "steps",
+   "ground": "daylight",
+   "job": "Show the four steps of a white-label project, the same steps as How we work, with the agency in front of its client.",
+   "desktop": "Section head; the Steps component (Desktop variant, 1320) with the step texts rewritten for agencies.",
+   "mobile": "Head; Steps (Mobile variant).",
+   "content": {
+    "heading": "How a white-label project runs.",
+    "accentWord": "",
+    "lead": "The same four steps we use with every partner, with your agency in front of the client.",
+    "items": [
+     {
+      "title": "Understand",
+      "text": "You share the client’s brief. We agree on what success looks like before we start.",
+      "meta": "1"
+     },
+     {
+      "title": "Plan",
+      "text": "We pick the simplest fix that does the job, and send you a fixed quote.",
+      "meta": "2"
+     },
+     {
+      "title": "Build",
+      "text": "We build under your brand. You see progress every week.",
+      "meta": "3"
+     },
+     {
+      "title": "Run and grow",
+      "text": "We keep it running behind your brand, or hand it over with everything written down.",
+      "meta": "4"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Steps"
+   ],
+   "images": []
+  },
+  {
+   "id": "confidentiality",
+   "name": "Confidentiality",
+   "layout": "terms-grid",
+   "ground": "daylight",
+   "job": "Say how we protect client data, with the NDA and confidentiality terms left as placeholders to confirm before launch.",
+   "desktop": "Section head; a 2x2 grid between hairlines (icon | Heading/4 + Body), vertical hairline between the columns; link below.",
+   "mobile": "Head; the four terms stacked between hairlines; link.",
+   "content": {
+    "heading": "We protect your clients’ data.",
+    "accentWord": "",
+    "lead": "We treat that access as if it were our own. Your clients’ data stays where you decide, and we never use it to train anything you don’t own.",
+    "items": [
+     {
+      "title": "Non-disclosure agreement",
+      "text": "[NDA terms: who signs, when, and what it covers]",
+      "meta": "icon: file"
+     },
+     {
+      "title": "Confidentiality",
+      "text": "[Confidentiality terms: what we keep private, and for how long]",
+      "meta": "icon: lock"
+     },
+     {
+      "title": "Where the data lives",
+      "text": "In your systems, or your clients’ systems, wherever possible.",
+      "meta": "icon: map-pin"
+     },
+     {
+      "title": "If something goes wrong",
+      "text": "We share bad news early, along with a plan to fix it.",
+      "meta": "icon: alert-triangle"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "How we handle data",
+      "variant": "link",
+      "target": "/data-and-security"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Icon/file",
+    "Icon/lock",
+    "Icon/map-pin",
+    "Icon/alert-triangle",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "questions",
+   "name": "Questions",
+   "layout": "accordion",
+   "ground": "daylight",
+   "job": "Answer what agencies ask before they bring us a client project.",
+   "desktop": "Split: head column (504: Heading/2 + Body/LG lead) | accordion (first item open) with a link below.",
+   "mobile": "Head; accordion full width, first item open; link.",
+   "content": {
+    "heading": "What agencies ask us.",
+    "accentWord": "",
+    "lead": "Straight answers before you bring us a client project.",
+    "faq": [
+     {
+      "q": "Will my clients know you’re involved?",
+      "a": "We deliver the work under your agency’s brand, and the client relationship stays yours."
+     },
+     {
+      "q": "How do you price agency work?",
+      "a": "Every project starts with a fixed quote that lists everything we’ll charge. Changes are quoted before we do them."
+     },
+     {
+      "q": "Does cheaper mean lower quality?",
+      "a": "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you."
+     },
+     {
+      "q": "What happens to our clients’ data?",
+      "a": "It stays where you decide, and we never use it to train anything you don’t own. Our data and security page explains how we handle it."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Why we’re based in the Philippines",
+      "variant": "link",
+      "target": "/why-the-philippines"
+     }
+    ]
+   },
+   "components": [
+    "Accordion item",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close by asking for a fixed quote on the agency's next client project.",
+   "desktop": "Full-bleed band 1440x600: image slot, navy scrim from the left; text block at x 60, y 88: Display/LG title on two lines, Body/LG lead 600, Primary + email link.",
+   "mobile": "390x640, scrim from the top, text at the top, Primary full width.",
+   "content": {
+    "heading": "Bring us your next client project.",
+    "accentWord": "project.",
+    "lead": "Tell us what your client needs. We’ll send a fixed quote that lists everything we’ll charge, before any work starts.",
+    "ctas": [
+     {
+      "label": "Ask for a fixed quote",
+      "variant": "primary",
+      "target": "/contact?service=white-label"
+     },
+     {
+      "label": "hello@allianceaipartners.example",
+      "variant": "link",
+      "target": "mailto:hello@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Button",
+    "Footer"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-29-3",
+     "slotName": "IMG-29-3 · Dawn wave",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/dawn-wave.webp",
+     "aspectDesktop": "1440x600 full bleed",
+     "aspectMobile": "390x640",
+     "placement": "background of the closing band with a navy scrim from the left (from the top on mobile)",
+     "textArea": "upper half, white text on the scrim",
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "notes": "Promises come from the Brand DNA only: the white-label line is the Brand DNA's service entry ('We deliver AI projects under your agency's brand, so you can offer AI without hiring'), 'from planning to launch' is its Agency services entry, the embedded-developer lead is its Embedded developers entry, the price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), and the rest come from its values and 'Questions buyers will ask'. 'The client relationship stays yours' follows from the white-label line and was asked for in the brief for this page: confirm it before launch. NDA and confidentiality terms are placeholders. The page says 'clients' for the agency's own customers, the word agencies use; 'partners' still means the agencies. The contact links use a new ?service=white-label value, which the contact form needs to accept. No figures on the page, so no sources. Header marks no nav item. One Primary in the hero and one in the closing band."
+}

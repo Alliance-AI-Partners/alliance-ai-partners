@@ -1,0 +1,272 @@
+{
+ "slug": "websites",
+ "figmaPage": "09 · Websites and web apps",
+ "phase": "Launch",
+ "route": "/services/websites",
+ "purpose": "Show a founder that we build fast, accessible websites and web apps and keep them running, how AI and people share the work, how agency hourly rates compare (Clutch, sourced) against our fixed quote from [PRICE], and get them to ask for a fixed quote.",
+ "primaryAction": {
+  "label": "Get a fixed quote",
+  "target": "/contact?service=websites"
+ },
+ "seo": {
+  "title": "Websites and web apps | Alliance AI Partners",
+  "description": "Fast, accessible websites and web apps, designed with you, built with AI doing the first drafts and testing, reviewed by people and kept running after launch. A fixed quote, from [PRICE]."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "46:39",
+  "mobile": "46:3006"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "hero-fullbleed-image",
+   "ground": "navy",
+   "job": "Promise the result (a fast website that stays working) and offer the one committing action.",
+   "desktop": "Full-bleed 1440x760 navy band: image with a navy scrim from the left, text block (700) on the left, vertically centred: Display/XL title, Body/LG lead at 580, Primary LG + link, meta.",
+   "mobile": "390x800 band, scrim from the top, text at the top: title, lead, full-width Primary, centred link, meta; the image shows below.",
+   "content": {
+    "heading": "A fast website, kept running.",
+    "accentWord": "running.",
+    "lead": "We design and build fast, accessible websites and web apps, then stay to keep them secure, up to date and working.",
+    "body": [
+     "From [PRICE], with a fixed quote before we start. You own the code."
+    ],
+    "ctas": [
+     {
+      "label": "Get a fixed quote",
+      "variant": "primary",
+      "target": "/contact?service=websites"
+     },
+     {
+      "label": "Compare agency rates",
+      "variant": "link",
+      "target": "#agency-rates"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Image slot",
+    "Button",
+    "Link"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-09-1",
+     "slotName": "IMG-09-1 · Ribbon road at daybreak",
+     "kind": "new",
+     "aspectDesktop": "1440x760 (about 2:1) full bleed",
+     "aspectMobile": "390x800 (about 1:2) full bleed: generate a portrait version of the same scene",
+     "placement": "hero background with a Partner Navy scrim from the left (desktop) or from the top (mobile)",
+     "textArea": "left two thirds (desktop); top 60% (mobile), white text",
+     "alt": "",
+     "source": "A wide, calm landscape of flat faceted paper hills at daybreak. A smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs like a fast, clean road from the lower right foreground toward the horizon, even and unbroken, with two small faceted paper swallows flying low alongside it: a fast site that keeps running. The sky is deep Partner Navy at the top, easing to Alliance Blue and a thin band of Ribbon Cyan light at the horizon. Keep the left two thirds dark and calm (open sky and soft hills) for white text. Wide 2:1. For the mobile version, a 1:2 portrait of the same scene with the ribbon rising from the bottom centre and the top 60% calm, dark sky. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "what-you-get",
+   "name": "What you get",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Show what a partner gets: fast pages, accessibility, care after launch and ownership.",
+   "desktop": "Asymmetric head, then a bento: a large card (760) holding a framed browser product visual (a sample page for [Partner name] on a Neutral 50 well) above its text and four tags; three stacked cards on the right (Accessible to everyone, Kept running after launch, Yours to keep), bottoms aligned.",
+   "mobile": "Stacked head, the browser card full width, then the three points as hairline rows with 32px icons instead of cards.",
+   "content": {
+    "heading": "Fast for your customers, simple for your team.",
+    "accentWord": "simple",
+    "lead": "Company websites, landing pages and web apps, designed around what your customers need to do and built so your team can update the content themselves.",
+    "items": [
+     {
+      "title": "Fast on every screen",
+      "text": "Pages are built light and checked on phones first, so they open quickly even on a slow connection.",
+      "meta": "Tags: Company websites · Landing pages · Web apps · Fixing AI-built apps"
+     },
+     {
+      "title": "Accessible to everyone",
+      "text": "Built to the WCAG AA standard: readable contrast, full keyboard use and clear labels for screen readers."
+     },
+     {
+      "title": "Kept running after launch",
+      "text": "We stay to keep it secure, up to date and working, and make the changes you need as you grow."
+     },
+     {
+      "title": "Yours to keep",
+      "text": "You own the code, the content and the design files, whether you stay with us or not."
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Card",
+    "Tag",
+    "Service icon/Mono",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "source": "UI composition drawn in Figma: a browser window (toolbar with three dots and the address yourcompany.example) showing a sample page with the nav '[Partner name] · Services · About · Contact', a hero image slot, the heading 'Your next customer starts here.' and the note 'Sample page, for illustration.'",
+     "placement": "top of the large bento card",
+     "alt": "A sample website for [Partner name] in a browser window."
+    },
+    {
+     "imageId": "IMG-09-2",
+     "slotName": "IMG-09-2 · Sample site hero",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/paper-garden.webp",
+     "aspectDesktop": "656x230 (about 3:1) inside the browser mock, 10px corners",
+     "aspectMobile": "290x150 (about 2:1), 8px corners",
+     "placement": "the sample page's hero image inside the browser product visual",
+     "textArea": "none (no text on the image)",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "how-we-build",
+   "name": "How we build",
+   "layout": "steps",
+   "ground": "navy",
+   "job": "Show how AI and people share the work: AI does first drafts and testing, people design, review and decide.",
+   "desktop": "Navy chapter. Heading/1 head, the Steps component (ribbon 1, cyan markers), then two columns of checked lists: What AI does / What people do, each with a Dark service icon.",
+   "mobile": "Head, vertical Steps, then the two lists stacked.",
+   "content": {
+    "heading": "AI drafts. People decide.",
+    "accentWord": "decide.",
+    "lead": "AI does the first drafts and the testing, so your project needs fewer hours. People design it with you, review every page and decide what ships.",
+    "items": [
+     {
+      "title": "Understand",
+      "text": "We learn what your site must do, who it is for and what it replaces."
+     },
+     {
+      "title": "Design",
+      "text": "Our designers design it with you. You approve it before we build."
+     },
+     {
+      "title": "Build and test",
+      "text": "AI writes first drafts and runs the tests. Engineers review every change."
+     },
+     {
+      "title": "Launch and run",
+      "text": "We launch, then keep it fast, secure and up to date."
+     },
+     {
+      "title": "What AI does",
+      "text": "First drafts of code and page content · Tests on every change: broken links, contrast and page speed · The repetitive checks across every page and screen size"
+     },
+     {
+      "title": "What people do",
+      "text": "Design the site with you, around your customers · Review every page before it goes live · Decide what ships, and answer for it"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Steps",
+    "Service icon/Dark",
+    "Icon/check"
+   ],
+   "images": []
+  },
+  {
+   "id": "agency-rates",
+   "name": "Agency rates",
+   "layout": "sourced-stats",
+   "ground": "daylight",
+   "job": "Compare typical agency hourly rates for web developers (US and Australia vs the Philippines, Clutch, September 2026) and set them against our fixed quote from [PRICE].",
+   "desktop": "Asymmetric head; a range chart (736 wide) with two bars on a US$0 to US$150 axis, each labelled with its source key and value in mono, a note that these are marketplace ranges; a white price card (520) with 'From [PRICE]' in Data/Numeral and a Secondary button; one mono source below a hairline.",
+   "mobile": "Head, the two bars stacked at 358 (label, value, track), axis, note, the price card full width, source.",
+   "content": {
+    "heading": "What agencies charge by the hour.",
+    "lead": "On Clutch, a marketplace of reviewed agencies, most web developers in the US and Australia charge US$100 to US$149 an hour, and most in the Philippines charge US$25 to US$49. We don’t bill by the hour: you get one fixed quote.",
+    "items": [
+     {
+      "title": "US and Australian web developers [1]",
+      "text": "US$100 to US$149 an hour"
+     },
+     {
+      "title": "Philippine web developers [1]",
+      "text": "US$25 to US$49 an hour"
+     },
+     {
+      "title": "A fixed quote for the whole project",
+      "price": "From [PRICE]",
+      "text": "Project management, design, testing, documentation and launch included. Changes are quoted before we do them."
+     }
+    ],
+    "body": [
+     "Typical hourly rates by country. These are marketplace ranges, not official statistics, and they describe typical agencies, not our prices."
+    ],
+    "ctas": [
+     {
+      "label": "See all prices",
+      "variant": "secondary",
+      "target": "/pricing"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "Clutch, Web developer pricing: most agencies in the US and Australia charge US$100 to US$149 an hour; in the Philippines, US$25 to US$49. Marketplace ranges, September 2026. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-developers/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Source key (Size=MD)",
+    "Card",
+    "Button",
+    "Source list"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "source": "Range chart drawn in Figma: Neutral 50 tracks with Partner Navy range bars at 100 to 149 and 25 to 49 on a 0 to 150 axis; values printed as text so colour carries nothing alone.",
+     "placement": "left of the price card",
+     "alt": "Most US and Australian web developers charge US$100 to US$149 an hour; most Philippine web developers charge US$25 to US$49."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the committing action: ask for a fixed quote, with the AI check-up as the softer start.",
+   "desktop": "Navy chapter, no image: ribbon rule (ribbon 2) above a Display/LG title on the left (700); lead, Primary LG and link on the right, bottoms aligned.",
+   "mobile": "Rule, title, lead, full-width Primary, link.",
+   "content": {
+    "heading": "Tell us what your website needs to do.",
+    "accentWord": "needs",
+    "lead": "We will come back with a fixed quote that lists everything we will charge, and a plan for launch. If an off-the-shelf tool would cost you less, we will say so.",
+    "ctas": [
+     {
+      "label": "Get a fixed quote",
+      "variant": "primary",
+      "target": "/contact?service=websites"
+     },
+     {
+      "label": "Or start with an AI check-up",
+      "variant": "link",
+      "target": "/ai-check-up"
+     }
+    ]
+   },
+   "components": [
+    "Ribbon rule",
+    "Button",
+    "Link",
+    "Footer"
+   ],
+   "images": []
+  }
+ ],
+ "notes": "Ribbon signature used twice (Steps in 'How we build', the ribbon rule in the closing chapter). One Primary per screenful (hero at y 570 and closing chapter at y 3976 on desktop; 362 and 5259 on mobile). The Clutch figures carry a source key, a dated source and the 'marketplace ranges, not our prices' caveat from Brand DNA. No FAQ on this page (not in the brief). Lint: no findings on either frame."
+}

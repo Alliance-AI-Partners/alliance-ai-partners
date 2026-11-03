@@ -1,0 +1,301 @@
+{
+  "slug": "questions-buyers-ask",
+  "figmaPage": "14 · Questions buyers ask",
+  "phase": "Launch",
+  "route": "/faq",
+  "purpose": "Answer, in plain words and before any sales call, the questions founders ask about quality, price, time zones, data and working together, so they can decide to start an AI check-up or ask us directly.",
+  "primaryAction": {
+    "label": "See where AI can help",
+    "target": "/ai-check-up"
+  },
+  "seo": {
+    "title": "Questions buyers ask | Alliance AI Partners",
+    "description": "Straight answers on quality, price, time zones, data and how Alliance AI Partners works with your team. Published starting prices, a fixed quote and a person who reviews every piece of work."
+  },
+  "states": [
+    "default"
+  ],
+  "frames": {
+    "desktop": "46:4111",
+    "mobile": "46:4539"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Section · Hero",
+      "layout": "hero-text-led",
+      "ground": "daylight",
+      "job": "Say what the page gives (straight answers, each one a promise) and offer the one committing action.",
+      "desktop": "Asymmetric text-led hero, never centred: Display/LG title (620) with a 240px Ribbon rule under it on the left; Body/LG lead (600), the Primary and a link, and a mono meta line on the right, bottom-aligned with the rule. Short padding (96 top, 48 bottom) so the answers start in the first viewport.",
+      "mobile": "Title, Ribbon rule, lead, full-width LG Primary, link, meta.",
+      "content": {
+        "heading": "Straight answers before you start.",
+        "accentWord": "start.",
+        "lead": "What founders ask us before they start: about quality, price, time zones, data and how we work together. Every answer here is a promise we keep.",
+        "body": [
+          "22 answers in 5 topics · Updated [date]"
+        ],
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "Ask us a question",
+            "variant": "link",
+            "target": "/contact"
+          }
+        ]
+      },
+      "components": [
+        "Header",
+        "Button",
+        "Link",
+        "Ribbon rule"
+      ],
+      "images": []
+    },
+    {
+      "id": "answers",
+      "name": "Section · Answers",
+      "layout": "split-sticky",
+      "ground": "daylight",
+      "job": "Answer every buyer question, grouped by topic, with a topic list that stays in view on desktop.",
+      "desktop": "Hairline on top. Left 296: sticky topic list (five rows, 44px tall, a 2px Partner Navy bar marks the current topic, count in mono), then 'Can’t find your question?' and a small link. Right 928: five topic groups 80px apart, each a Heading/2 title, one-line intro (640) and accordion items (answers held to 640 for reading). The first item of each group is open to show the voice. Time zones group adds the Time zones clocks, a sample-time caption and sources; Quality and Data groups carry their own numbered sources; Data adds a link to the Data and security page.",
+      "mobile": "Topic list becomes one 'Jump to a topic' select at the top (sticky on the live site). Groups stack full width; answers fill the width; Time zones uses the mobile clock variant (two rows of two). Sources sit under their group.",
+      "content": {
+        "topics": [
+          "Quality (5)",
+          "Price (5)",
+          "Time zones (3)",
+          "Data and security (4)",
+          "Working together (5)"
+        ],
+        "groups": [
+          {
+            "title": "Quality",
+            "intro": "AI does the repetitive hours. People check the result.",
+            "faq": [
+              {
+                "q": "Does cheaper mean lower quality?",
+                "a": "No. AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you.",
+                "open": true
+              },
+              {
+                "q": "Who checks the work?",
+                "a": "A person on our team reviews every piece of work before it reaches you: code, designs, writing and automations. AI drafts and tests. People decide what ships."
+              },
+              {
+                "q": "Why is your team in the Philippines?",
+                "a": "Because the skills are there. The Philippines’ IT and business services industry earned US$40.3 billion in 2025 and employs 1.89 million people¹, and its English proficiency is rated “High”, second in Asia². Our costs are lower there, and we pass the difference on to you."
+              },
+              {
+                "q": "How do we know it’s working?",
+                "a": "Before we start, we agree what success looks like, using your own numbers, like hours saved or more sales. Then you see progress every week, in writing."
+              },
+              {
+                "q": "What if something goes wrong?",
+                "a": "You hear it from us early, with a plan to fix it. When something goes wrong, we say “we”, and we fix it."
+              }
+            ],
+            "sources": [
+              {
+                "key": "1",
+                "text": "IBPAP (IT and Business Process Association of the Philippines), industry revenue and employment, 2025. Retrieved 2026-11-02.",
+                "url": "https://admin.ibpap.org/storage/hub-resources/7Hv9U2uoLJVx2kxyRMObNm6W6L0MR57l9dZfrez7.pdf"
+              },
+              {
+                "key": "2",
+                "text": "EF English Proficiency Index 2025, Philippines. Retrieved 2026-11-02.",
+                "url": "https://www.ef.com/wwen/epi/regions/asia/philippines/"
+              }
+            ]
+          },
+          {
+            "title": "Price",
+            "intro": "Published starting prices, a fixed quote and nothing on the invoice you didn’t expect.",
+            "faq": [
+              {
+                "q": "What does it cost?",
+                "a": "Every core service has a published starting price: websites from [PRICE], the AI check-up from [PRICE], AI automation projects from [PRICE] and embedded developers from [PRICE] a month. Before work starts, you get a fixed quote that lists everything we’ll charge.",
+                "open": true
+              },
+              {
+                "q": "Why do you cost less?",
+                "a": "Two reasons. AI does the repetitive work, so a project needs fewer billable hours. And our team is based in the Philippines, where our costs are lower than in the US, the UK or Australia. We pass the difference on to you."
+              },
+              {
+                "q": "Are there any hidden fees?",
+                "a": "No. Changes are quoted before we do them. There are no per-seat fees on the tools we build, and AI usage, like model fees, is passed on at cost and shown on your invoice."
+              },
+              {
+                "q": "Can we cancel a monthly plan?",
+                "a": "Yes, with [30] days’ notice. You own what we build, so it stays with you."
+              },
+              {
+                "q": "What if a cheaper tool would do the job?",
+                "a": "We’ll tell you. If an off-the-shelf tool or a simpler fix costs you less, we say so, even when it means less work for us."
+              }
+            ]
+          },
+          {
+            "title": "Time zones",
+            "intro": "Our team is in the Philippines. Here’s how our day lines up with yours.",
+            "faq": [
+              {
+                "q": "Where is your team?",
+                "a": "In the Philippines. Sydney is two hours ahead of us, or three during Australian daylight saving. For US partners, we work while you sleep: brief us before you log off, and you’ll see progress when you log on. For UK partners, our afternoon is your morning.",
+                "open": true
+              },
+              {
+                "q": "When can we talk live?",
+                "a": "We agree a regular time for calls when we start. Your evening in the US is our morning, your morning in the UK is our afternoon, and in Australia most of the working day overlaps."
+              },
+              {
+                "q": "What happens when the clocks change?",
+                "a": "We follow them. The Philippines doesn’t change its clocks, so when Sydney, the US or the UK move theirs, we move our call times to match."
+              }
+            ],
+            "extras": [
+              "Time zones component (sample November moment: Manila 9:41 am · Sydney 12:41 pm · New York 8:41 pm the day before · London 1:41 am)",
+              "Caption: Sample times for a November morning in Manila. The live site shows the real time in each city."
+            ],
+            "sources": [
+              {
+                "key": "3",
+                "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
+                "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
+              },
+              {
+                "key": "4",
+                "text": "NIST, Local time FAQs (US time zones and daylight saving). Retrieved 2026-11-02.",
+                "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
+              }
+            ]
+          },
+          {
+            "title": "Data and security",
+            "intro": "Your data stays where you decide.",
+            "faq": [
+              {
+                "q": "What happens to our data?",
+                "a": "It stays where you decide. We work inside your systems wherever we can, take only the access a job needs, and never use your data to train anything you don’t own.",
+                "open": true
+              },
+              {
+                "q": "Isn’t outsourcing risky?",
+                "a": "You see progress every week, a person reviews every piece of work, and your data stays in your systems wherever possible. The Philippines also has a national privacy law, the Data Privacy Act of 2012, enforced by an independent National Privacy Commission⁵."
+              },
+              {
+                "q": "Who can access our systems?",
+                "a": "Only the people on your project, with only the access the job needs. It’s your system, so you can see and remove our access at any time."
+              },
+              {
+                "q": "Do you work with regulated industries?",
+                "a": "Yes. Projects in healthcare, finance, insurance and legal start with a privacy and compliance review, because those industries have stricter rules about data."
+              }
+            ],
+            "ctas": [
+              {
+                "label": "Read how we handle data",
+                "variant": "link",
+                "target": "/trust"
+              }
+            ],
+            "sources": [
+              {
+                "key": "5",
+                "text": "Republic Act No. 10173, Data Privacy Act of 2012. Supreme Court E-Library. Retrieved 2026-11-02.",
+                "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+              }
+            ]
+          },
+          {
+            "title": "Working together",
+            "intro": "We work as part of your team, and we stay after launch.",
+            "faq": [
+              {
+                "q": "How do we start?",
+                "a": "With an AI check-up, a short first project. In [two weeks], we learn how your business runs, find where AI could save you time or money, and give you a written plan with a fixed quote for the first fix. It costs from [PRICE].",
+                "open": true
+              },
+              {
+                "q": "What are the four steps?",
+                "a": "Understand, Plan, Build, and Run and grow. We learn how your business works and where it gets stuck, pick the right fix, build it, then keep it running and help you win more customers."
+              },
+              {
+                "q": "Will you tell us if AI isn’t the answer?",
+                "a": "Yes. The right fix might be better design, extra developers or a simpler tool. If AI isn’t the right answer, we say so, even when it means less work for us."
+              },
+              {
+                "q": "Do you stay after launch?",
+                "a": "Yes. Where most agencies hand over the project and move on, we stay to keep everything running, improve it over time and help you win more customers."
+              },
+              {
+                "q": "Who owns what you build?",
+                "a": "You do, including the code and the documentation. Work happens in your accounts and tools wherever possible."
+              }
+            ]
+          }
+        ]
+      },
+      "components": [
+        "Accordion item (Closed, Open)",
+        "Time zones",
+        "Source list",
+        "Link",
+        "Select (mobile topic jump)"
+      ],
+      "images": []
+    },
+    {
+      "id": "still-have-a-question",
+      "name": "Section · Still have a question",
+      "layout": "cta-band",
+      "ground": "navy",
+      "job": "Give every other question a direct route: the contact page, email, phone and our hours.",
+      "desktop": "Navy chapter. Left (572): Heading/1 title and Body/LG lead. Right: three hairline contact rows (icon, label, value: email and phone as Ribbon Cyan underlined links, hours in text), then a Secondary button and a sample caption. No Primary here: the hero carries it.",
+      "mobile": "Title, lead, the three rows stacked, full-width Secondary button, caption.",
+      "content": {
+        "heading": "Still have a question?",
+        "lead": "Ask us. A person on our team will reply within [one working day], with a straight answer.",
+        "items": [
+          {
+            "title": "Email",
+            "text": "hello@allianceaipartners.example",
+            "link": "mailto:hello@allianceaipartners.example"
+          },
+          {
+            "title": "Phone",
+            "text": "+1 202 555 0147",
+            "link": "tel:+12025550147"
+          },
+          {
+            "title": "Hours",
+            "text": "[9 am to 6 pm] Manila time, Monday to Friday"
+          }
+        ],
+        "ctas": [
+          {
+            "label": "Send us a message",
+            "variant": "secondary",
+            "target": "/contact"
+          }
+        ],
+        "body": [
+          "Sample email and phone until launch."
+        ]
+      },
+      "components": [
+        "Icon/mail",
+        "Icon/phone",
+        "Icon/clock",
+        "Button",
+        "Footer"
+      ],
+      "images": []
+    }
+  ],
+  "notes": "A simple page: no image slots; the Ribbon rule under the hero title is the one signature. All 22 answers use Brand DNA wording where it exists (the four buyer questions verbatim) and match the AI check-up, How we work and Data and security specs. Placeholders kept: [PRICE], [30] days, [two weeks], [one working day], [9 am to 6 pm], [date]. Superscript numbers in two answers key to the numbered source lists under their group. The header marks no nav item (the FAQ sits under Trust in the footer)."
+}

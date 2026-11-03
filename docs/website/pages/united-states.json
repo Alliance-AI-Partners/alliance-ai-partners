@@ -1,0 +1,445 @@
+{
+ "slug": "united-states",
+ "figmaPage": "27 · United States",
+ "phase": "Next",
+ "route": "/us",
+ "template": "country (shared by 26 · Australia, 27 · United States, 28 · United Kingdom)",
+ "purpose": "Give a founder in the United States the local case: how our hours line up, what a developer costs them locally, what agencies charge, our starting prices in their currency, and the AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "Alliance AI Partners for US companies | Progress while you sleep",
+  "description": "An embedded AI and software team in the Philippines that works while you sleep. Published starting prices in US dollars and a fixed quote before we start."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "48:39",
+  "mobile": "48:588"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "hero-text-led",
+   "ground": "daylight",
+   "job": "Lead with the country tagline, prove the time difference with a two-city clock strip, and offer the one committing action.",
+   "desktop": "Display/XL title on four lines, two per sentence, in the left 760; Body/LG lead 620; Primary LG + link. Below, a clock strip between hairlines: Manila (300) | New York (330) | the difference in words with its Source key. Caption and source list.",
+   "mobile": "Title (one sentence per line), lead, Primary full width, link; clock strip as two clocks side by side with the difference below; caption; source.",
+   "content": {
+    "heading": "Brief us before you log off. See progress when you log on.",
+    "accentWord": "progress",
+    "lead": "Our team in the Philippines works while you sleep. A person reviews every piece of work, and you get a fixed quote before we start.",
+    "items": [
+     {
+      "title": "Manila",
+      "text": "9:41 am",
+      "meta": "Our team"
+     },
+     {
+      "title": "New York",
+      "text": "8:41 pm",
+      "meta": "Yesterday, 13 hours behind"
+     },
+     {
+      "title": "Overnight progress",
+      "text": "The US is 12 to 16 hours behind us. Your evening brief is our morning’s work.",
+      "meta": "Source 1"
+     }
+    ],
+    "body": [
+     "Sample times for a November morning in Manila. The live site shows the real time in each city."
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "Compare the costs",
+      "variant": "link",
+      "target": "#cost-of-hiring"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "NIST, Local time FAQs (US time zones and daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Source key",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "services",
+   "name": "Services",
+   "layout": "split-image-right",
+   "ground": "daylight",
+   "job": "Say what we do in three goals, beside an image of two teams working the same day.",
+   "desktop": "Text column 652 (Heading/2 with one accent, Body/LG lead, three goal rows between hairlines: service icon | title, line, small link) | image slot 604x680 on the right.",
+   "mobile": "Title, lead, image 358x448 (4:5), then the three goal rows.",
+   "content": {
+    "heading": "The AI team you don’t have to hire.",
+    "accentWord": "hire.",
+    "lead": "We automate slow work, build AI software and support tools, and add developers when you need more hands. Then we stay to keep it running.",
+    "items": [
+     {
+      "title": "Scale AI",
+      "text": "Plan, build and run AI across the company, with your people trained to use it.",
+      "link": "/scale-ai"
+     },
+     {
+      "title": "Solve problems with AI",
+      "text": "Fix the jobs that slow your team down: the copying, chasing and checking that fill a week.",
+      "link": "/solve-problems-with-ai"
+     },
+     {
+      "title": "Grow",
+      "text": "Win more customers, with AI doing the repetitive part of your marketing and sales.",
+      "link": "/grow"
+     }
+    ]
+   },
+   "components": [
+    "Service icon/Mono/ai-strategy",
+    "Service icon/Mono/automation",
+    "Service icon/Mono/growth",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-27-1",
+     "slotName": "IMG-27-1 · Night into daybreak",
+     "kind": "new",
+     "aspectDesktop": "604x680 (about 8:9)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right half of the split; under the lead on mobile",
+     "textArea": "none (text sits beside it); upper left quarter calm",
+     "alt": "A satin ribbon runs from a night sky into daybreak, with paper leaves unfolding along it.",
+     "source": "A wide landscape of flat faceted paper hills under a sky that runs from deep Partner Navy night at the right to pale daybreak at the upper left. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan flows out of the dark side toward the light, and small faceted paper leaves unfold along it, larger and brighter as they reach the dawn: work that moves forward overnight and is ready by morning. Calm sky in the upper left quarter. Portrait, about 8:9, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "cost-of-hiring",
+   "name": "Cost of hiring",
+   "layout": "sourced-stats",
+   "ground": "daylight",
+   "job": "Show what one full-time developer costs the partner locally, worked out in the open, beside our price.",
+   "desktop": "Section head. Split: left 560 (Stat with Source key, then a white card with our [PRICE] a month in Data/Numeral) | right: 'How we worked it out' with a Source key and the breakdown rows (label | mono value) between hairlines. Source list.",
+   "mobile": "Head; Stat; breakdown rows stacked (label above value); our price card; source.",
+   "content": {
+    "heading": "What a developer costs you in the US.",
+    "accentWord": "",
+    "lead": "One full-time software developer, before recruiting fees, equipment and office space. Those make the real cost higher.",
+    "items": [
+     {
+      "title": "US$196,500",
+      "text": "A year to employ one software developer in the United States: median pay of US$135,980 plus benefits.",
+      "meta": "Source 1"
+     },
+     {
+      "title": "Median pay",
+      "text": "US$135,980 a year"
+     },
+     {
+      "title": "Per hour",
+      "text": "US$65.38"
+     },
+     {
+      "title": "Benefits, share of total compensation",
+      "text": "30.8%"
+     },
+     {
+      "title": "Cost to the employer",
+      "text": "About US$196,500 a year"
+     },
+     {
+      "title": "Per hour, to the employer",
+      "text": "About US$94"
+     },
+     {
+      "title": "Per month",
+      "text": "About US$16,400"
+     },
+     {
+      "title": "Not included",
+      "text": "Recruiting, equipment, office space"
+     },
+     {
+      "title": "An embedded developer from Alliance AI Partners",
+      "price": "US$[PRICE] a month",
+      "text": "Joins your team and works inside it, with all of Alliance behind them."
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "U.S. Bureau of Labor Statistics, software developers, median pay, May 2025; benefits are 30.8% of total compensation for professional workers, June 2026. Retrieved 2026-11-02.",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "urls": [
+       "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+       "https://www.bls.gov/news.release/ecec.t04.htm"
+      ]
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Stat",
+    "Source key",
+    "Card",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "agency-rates",
+   "name": "Agency rates",
+   "layout": "table",
+   "ground": "daylight",
+   "job": "Compare agency hourly rates from Clutch, exact about where the gap is, and say what we do instead.",
+   "desktop": "Split: left 480 (Heading/2, Body/LG lead, 'What we do instead' with three check rows) | right: table (Work | local agencies | Philippine agencies | Source), caption, source list.",
+   "mobile": "Title, lead; one stacked block per kind of work (title with Source key, then local and Philippine rows); caption; 'What we do instead'; sources.",
+   "content": {
+    "heading": "What agencies charge by the hour.",
+    "accentWord": "",
+    "lead": "Clutch, a marketplace of reviewed agencies, publishes the hourly ranges most agencies charge. Here is how US and Philippine agencies compare.",
+    "table": {
+     "columns": [
+      "Work",
+      "US agencies",
+      "Philippine agencies",
+      "Source"
+     ],
+     "rows": [
+      [
+       "Web development",
+       "US$100–149",
+       "US$25–49",
+       "1"
+      ],
+      [
+       "Web design",
+       "US$100–149",
+       "Under US$25",
+       "2"
+      ],
+      [
+       "AI development",
+       "US$50–99",
+       "US$25–49",
+       "3"
+      ]
+     ],
+     "oursRow": null
+    },
+    "items": [
+     {
+      "text": "A fixed quote for each project"
+     },
+     {
+      "text": "Published starting prices"
+     },
+     {
+      "text": "A person reviews every piece of work"
+     }
+    ],
+    "body": [
+     "In US dollars an hour, September 2026. These are marketplace ranges, not official statistics, and they describe typical Philippine agencies, not our own prices."
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "Clutch, web developer pricing, September 2026. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-developers/pricing"
+     },
+     {
+      "key": "2",
+      "text": "Clutch, web designer pricing, September 2026. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-designers/pricing"
+     },
+     {
+      "key": "3",
+      "text": "Clutch, AI development pricing, September 2026. Retrieved 2026-11-02."
+     }
+    ]
+   },
+   "components": [
+    "Table row",
+    "Icon/check",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "prices",
+   "name": "Starting prices",
+   "layout": "list-rows",
+   "ground": "navy",
+   "job": "Publish our starting prices in the partner’s currency (US$), with what every price comes with.",
+   "desktop": "Navy chapter. Section head (Heading/1 | lead). Split: four Service rows and a Secondary button | a Partner 30 card (440) 'Every price comes with' with five cyan check rows.",
+   "mobile": "Head; Service rows (mobile variant); Secondary button full width; the card below.",
+   "content": {
+    "heading": "Starting prices in US dollars.",
+    "accentWord": "",
+    "lead": "Published before you talk to us. Then a fixed quote that lists everything we’ll charge.",
+    "items": [
+     {
+      "title": "Websites and web apps",
+      "text": "A fast, accessible site or web app, built and kept running.",
+      "price": "From US$[PRICE]"
+     },
+     {
+      "title": "The AI check-up",
+      "text": "A short first project that finds where AI could save you time or money.",
+      "price": "From US$[PRICE]"
+     },
+     {
+      "title": "AI automation",
+      "text": "One slow process handled by AI and checked by a person.",
+      "price": "From US$[PRICE] a project"
+     },
+     {
+      "title": "Embedded developers",
+      "text": "A developer from our team works inside yours, full time.",
+      "price": "From US$[PRICE] a month"
+     },
+     {
+      "text": "A fixed quote before work starts that lists everything we’ll charge. Changes are quoted before we do them."
+     },
+     {
+      "text": "No per-seat fees on the tools we build."
+     },
+     {
+      "text": "AI usage, like model fees, passed on at cost and shown on the invoice."
+     },
+     {
+      "text": "Monthly plans you can cancel with [30] days’ notice."
+     },
+     {
+      "text": "You own what we build."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See all prices",
+      "variant": "secondary",
+      "target": "/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Service row",
+    "Card",
+    "Icon/check",
+    "Button"
+   ],
+   "images": []
+  },
+  {
+   "id": "questions",
+   "name": "Questions",
+   "layout": "accordion",
+   "ground": "daylight",
+   "job": "Answer what founders in this market ask first, without numbers that would need sources here.",
+   "desktop": "Section head; accordion offset to the lead column (starts at 620), first item open; link to Why the Philippines.",
+   "mobile": "Head; accordion full width, first open; link.",
+   "content": {
+    "heading": "What US founders ask us.",
+    "accentWord": "",
+    "lead": "Straight answers before you commit to anything.",
+    "faq": [
+     {
+      "q": "Where is your team?",
+      "a": "In the Philippines. We work while you sleep: brief us before you log off, and you’ll see progress when you log on."
+     },
+     {
+      "q": "Does cheaper mean lower quality?",
+      "a": "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you."
+     },
+     {
+      "q": "Isn’t outsourcing risky?",
+      "a": "You see progress every week, a person reviews every piece of work, and your data stays in your systems wherever possible. The Philippines also has a national privacy law, enforced by an independent National Privacy Commission."
+     },
+     {
+      "q": "What happens to our data?",
+      "a": "It stays where you decide, and we never use it to train anything you don’t own. Our data and security page explains how we handle it."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Why we’re based in the Philippines",
+      "variant": "link",
+      "target": "/why-the-philippines"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Accordion item",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the AI check-up, priced in the partner’s currency.",
+   "desktop": "Full-bleed band 1440x600: image slot, navy scrim from the left; text block at x 60, y 88: Display/LG title, lead, Primary + email link.",
+   "mobile": "390x640, scrim from the top, text at the top, Primary full width.",
+   "content": {
+    "heading": "Start with an AI check-up.",
+    "accentWord": "check-up.",
+    "lead": "A short first project, from US$[PRICE]. We find where AI could save you time or money, and hand you a plan with a fixed quote.",
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "hello@allianceaipartners.example",
+      "variant": "link",
+      "target": "mailto:hello@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Button",
+    "Footer"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-27-2",
+     "slotName": "IMG-27-2 · Dawn wave",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/dawn-wave.webp",
+     "aspectDesktop": "1440x600 full bleed",
+     "aspectMobile": "390x640",
+     "placement": "background of the closing band with a navy scrim",
+     "textArea": "upper half, white text",
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "notes": "Hero tagline from Brand DNA section 7 (US ads, sales emails). The FTC substantiation rule is an internal check, so it is not mentioned on the page; price comparisons still need checking before any ad runs. Every promise on the page is Brand DNA wording: the five price promises are verbatim from 'Our honest pricing promise' (confirm each is true before launch), the price card line is the Brand DNA's embedded-developers line, and the FAQ answers are the Brand DNA's 'Questions buyers will ask'. Header marks no nav item. One Primary in the hero and one in the closing band. Every number carries a Source key and a dated source line in its own section."
+}

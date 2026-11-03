@@ -45,7 +45,8 @@ Success on the website: a founder starts an "AI check-up", the short, low-risk f
 - Price claims follow the Brand DNA rules: every number has a source and a date, comparisons are like for like and proven in all three markets (FTC, UK ASA, ACCC), and never "cheapest", "best rate" or "a fraction of the cost".
 - Starting prices are still placeholders ([PRICE]) and must be filled with real figures before launch.
 - "The Alliance AI platform" may be mentioned only once that platform exists.
-- Open: the site map and page list, the CMS or content source, analytics, and the domain.
+- Site map: 39 pages, designed at desktop and mobile widths in the Figma file [Alliance AI Partners — Website](https://www.figma.com/design/1VGkymJ9AH6vGYgFDAU68A/Alliance-AI-Partners-%E2%80%94-Website). Routes, purposes and copy are in `docs/website/`.
+- Open: the CMS or content source, analytics, and the domain.
 
 ## Brand Commitments
 

@@ -17,6 +17,7 @@ Every image comes from the logo kit's own language: **the ribbon** that binds th
 |---|---|---|
 | [graphics/](graphics/) | The logo kit's brand graphics: ribbon wave, data mesh, five patterns (tile and swatch each), badges, sticker artwork and the swallow mascot. PNG at 2x plus SVG. | [imagery.json](imagery.json) |
 | [backgrounds/](backgrounds/) | Generated nature backgrounds. Each has a web `.webp` (1920 px wide), a `.jpg` master and a `.json` record of its exact prompt, model, aspect ratio and date. | [imagery.json](imagery.json), `category: "background"` |
+| [website/](website/) | The website's images: one entry for every image slot in the Figma website file, with its prompt or repo source, sizes, alt text and slot node IDs. Generated images are saved here as well. | [website/manifest.json](website/manifest.json) |
 
 ## Backgrounds
 
@@ -44,6 +45,34 @@ python brand-kit/tools/build-assets-data.py   # refreshes the brand-kit page
 ```
 
 All eight were reviewed by eye on 2026-11-02: palette only, no text, the calm area where the table says. Generated images vary from run to run, so review any regenerated image the same way before it ships.
+
+## Website images
+
+The Figma website file ([Alliance AI Partners — Website](https://www.figma.com/design/1VGkymJ9AH6vGYgFDAU68A/Alliance-AI-Partners-%E2%80%94-Website)) marks every image as an Image slot named `IMG-<page>-<n> · <short>`. For example, `IMG-07-1` is the first image on page 07, Embedded developers. An image keeps its ID on desktop and mobile; an ID ending in `m` is a separate mobile crop. Each slot's label says `New:` (to be generated) or `Existing:` (a file already in this repository, such as a background or an email preview).
+
+[website/manifest.json](website/manifest.json) has one entry per image:
+
+| Field | What |
+|---|---|
+| `id`, `slotName` | The slot's ID and name in Figma |
+| `kind` | `new` or `existing` |
+| `prompt` | For a new image, the full Gemini prompt. It shows the section's idea and repeats the rules above: palette only, ribbon and facets, light from the upper left, no text, people or AI clichés |
+| `source` | For an existing image, its path in this repository |
+| `aspectDesktop`, `aspectMobile` | The slot's size on each frame |
+| `alt`, `textArea` | The alt text, and where text sits on or beside the image |
+| `uses` | Every page, section and placement that shows the image |
+| `figma` | The node IDs of its slots, frame by frame, so a script can fill them |
+
+**Generate them.** [../../brand-kit/tools/generate-website-images.py](../../brand-kit/tools/generate-website-images.py) works like the background script. It makes every missing `new` image at the nearest aspect ratio Gemini supports, then saves `<id>.jpg`, `<id>.webp` and a `<id>.json` record of the exact prompt and model in this folder:
+
+```bash
+python brand-kit/tools/generate-website-images.py              # fills gaps only
+python brand-kit/tools/generate-website-images.py IMG-07-1     # regenerates one
+```
+
+It needs `google-genai` and `Pillow`, and reads `GEMINI_API_KEY` from the environment or the git-ignored `.env`. In a cloud session, add `generativelanguage.googleapis.com` to the environment's allowed domains first.
+
+**Review, then place them.** Check each image by eye: palette only, no text or letters, nothing the rules forbid, and the calm area where `textArea` says. Then upload it to the Figma file and fill its slots, using the node IDs in `figma`. Switch off each slot's `Show label` property once the image is in.
 
 ## Brand graphics with conditions
 

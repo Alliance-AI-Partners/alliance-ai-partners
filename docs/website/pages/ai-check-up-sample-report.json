@@ -1,0 +1,311 @@
+{
+ "slug": "ai-check-up-sample-report",
+ "figmaPage": "34 · AI check-up sample report",
+ "phase": "Next",
+ "route": "/ai-check-up/sample",
+ "purpose": "Show, with a clearly labelled SAMPLE, what the AI check-up delivers, so a founder knows exactly what they get before they book a real one.",
+ "primaryAction": {
+  "label": "Book your AI check-up",
+  "target": "/ai-check-up#book"
+ },
+ "seo": {
+  "title": "Sample AI check-up report | Alliance AI Partners",
+  "description": "A sample of the report the AI check-up delivers, written for a fictional company: opportunities ranked by what they would save, a fixed quote for the first fix, and where we would not use AI. Every figure is a placeholder."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "44:1719",
+  "mobile": "46:1910"
+ },
+ "sections": [
+  {
+   "id": "cover",
+   "layout": "hero-split-image",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "44:1768",
+    "mobile": "46:1949"
+   },
+   "job": "Label the page as a sample before anything else, then open the report like a cover: what it is, for whom, by whom.",
+   "alert": {
+    "type": "Info",
+    "title": "This is a sample report.",
+    "body": "It shows what the AI check-up delivers, written for a fictional company, [Partner name]. Every figure is a placeholder, such as [hours a week], so nothing here is a real result."
+   },
+   "heading": "Where AI could save you time.",
+   "accentWord": "time.",
+   "lead": "We spent [two weeks] with your team, your tools and your slowest processes. This report ranks what we found by what each fix would save, prices the first one, and says where AI is not the answer.",
+   "details": [
+    {
+     "term": "Prepared for",
+     "value": "[Partner name]"
+    },
+    {
+     "term": "Prepared by",
+     "value": "Alliance AI Partners"
+    },
+    {
+     "term": "Check-up",
+     "value": "[Start date] to [End date]"
+    },
+    {
+     "term": "Report",
+     "value": "Sample · [Date]"
+    }
+   ],
+   "desktop": "Info alert across the container; then text (652: Display/LG title, lead, a 2x2 hairline grid of report details, the ribbon rule) | cover art (604x600).",
+   "mobile": "Alert, title, lead, the details as four term/value rows, the rule, then the cover art at 4:5 (358x448).",
+   "images": [
+    {
+     "imageId": "IMG-34-1",
+     "slotName": "IMG-34-1 · Ranked saplings",
+     "kind": "new",
+     "figma": {
+      "desktop": "44:1799",
+      "mobile": "46:1975"
+     },
+     "aspectDesktop": "604x600 (about 1:1)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right half of the cover split; last in the cover on mobile",
+     "textArea": "none (text sits beside the image); calm top third",
+     "alt": "Four paper saplings of falling height stand along a ribbon path, the tallest first.",
+     "source": "Editorial illustration on a Daylight background. A single satin ribbon in a gradient from Alliance Blue to Ribbon Cyan unrolls across a calm, pale faceted paper ground from the lower left toward the upper right, like a route drawn across a map. Along it stand four flat faceted paper saplings of clearly different heights, the tallest first and nearest the viewer, then each one smaller: findings ranked by what they would save. A small faceted paper swallow rests on the tallest sapling. Partner Navy only in the shaded facets. Calm, open Daylight space across the top third. About 1:1 (604x600), keep the four saplings inside the centre so it crops to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "layout": "split-sticky",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "44:1803",
+    "mobile": "46:1979"
+   },
+   "job": "Give the short version: the situation, the recommendation and three key points, with where the figures come from.",
+   "heading": "The short version.",
+   "lead": "[Partner name] has [number] people in [city]. Most of the slow work sits in three places: orders that arrive by email, supplier invoices, and the same customer questions answered by hand.",
+   "items": [
+    {
+     "title": "Start with order entry.",
+     "text": "It would save the most time, [hours a week], for the least effort, and it needs no change to how your customers order. The fixed quote for it is [PRICE].",
+     "link": "See the quote → #first-fix-quote"
+    },
+    {
+     "title": "Key points",
+     "text": "Four opportunities, ranked by what each would save: about [hours a week] in all. / One fix needs no AI at all: payment reminders your accounting software already sends. / Two decisions should stay with a person. We say which, and why."
+    }
+   ],
+   "sources": [
+    {
+     "key": "Sample",
+     "text": "Source: [Partner name]’s own records and our interviews, [Month year]. Sample placeholders."
+    }
+   ],
+   "desktop": "Title and lead left (572) | recommendation card, key points with check icons and hairlines, mono source line (700).",
+   "mobile": "Title, lead, the recommendation card, the points, the source line.",
+   "images": []
+  },
+  {
+   "id": "ranked-opportunities",
+   "layout": "table",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "44:1831",
+    "mobile": "46:2004"
+   },
+   "job": "Rank every opportunity by what it would save, with effort, a placeholder saving and the recommended fix.",
+   "heading": "Ranked by what it would save.",
+   "lead": "Each opportunity we found, with the effort it takes, what it would save and the fix we recommend. Savings are estimates from [Partner name]’s own figures.",
+   "table": {
+    "columns": [
+     "Rank",
+     "Opportunity",
+     "Effort",
+     "Saving",
+     "Recommended fix"
+    ],
+    "rows": [
+     [
+      "1",
+      "Typing orders from email into the order system",
+      "Low",
+      "[hours a week]",
+      "An automation that reads each order email and drafts the order for a person to approve."
+     ],
+     [
+      "2",
+      "Matching supplier invoices to purchase orders",
+      "Medium",
+      "[hours a week]",
+      "Document processing that pulls the invoice data and flags any mismatch for your team."
+     ],
+     [
+      "3",
+      "Answering the same customer questions",
+      "Medium",
+      "[hours a week]",
+      "A chat assistant on your website that answers from your help pages and passes harder cases to your team."
+     ],
+     [
+      "4",
+      "Building the monthly sales report",
+      "Low",
+      "[hours a month]",
+      "A report that fills itself from your CRM at the end of each month."
+     ]
+    ],
+    "oursRow": 0,
+    "note": "Row 1 is the fix we recommend first. Effort: Low is up to [two weeks] of work, Medium up to [six weeks]. Savings are estimates, not results."
+   },
+   "desktop": "Section head, then the five-column table; row 1 (the recommended first fix) tinted 10% Ribbon Cyan with Body/Strong cells; savings in right-aligned mono; mono note below.",
+   "mobile": "The table collapses into one stacked row per opportunity: rank and title, then Effort and Saving as term/value pairs and the recommended fix under its label; row 1 keeps the 10% tint.",
+   "images": []
+  },
+  {
+   "id": "first-fix-quote",
+   "layout": "split-sticky",
+   "ground": "navy",
+   "figma": {
+    "desktop": "45:1214",
+    "mobile": "46:2067"
+   },
+   "job": "Show the fixed quote for the first fix ([PRICE]) and everything it covers, in the honest-pricing terms.",
+   "heading": "The first fix, at a fixed price.",
+   "accentWord": "price.",
+   "lead": "Order entry automation. One price that lists everything we would charge, agreed before we start. Changes are quoted before we do them.",
+   "items": [
+    {
+     "title": "What we build",
+     "text": "An automation that reads each order email and drafts the order in your system for a person to approve"
+    },
+    {
+     "title": "Timeline",
+     "text": "[four weeks] from your go-ahead"
+    },
+    {
+     "title": "Included",
+     "text": "Project management, testing, documentation and training for your team"
+    },
+    {
+     "title": "AI usage",
+     "text": "Passed on at cost and shown on its own line on your invoice"
+    },
+    {
+     "title": "Per-seat fees",
+     "text": "None"
+    },
+    {
+     "title": "Who owns it",
+     "text": "You do"
+    }
+   ],
+   "price": {
+    "label": "Fixed price",
+    "value": "[PRICE]",
+    "terms": "Valid until [date]. Changes are quoted before we do them."
+   },
+   "ctas": [
+    {
+     "label": "How we price",
+     "variant": "link",
+     "target": "/pricing"
+    }
+   ],
+   "desktop": "A whole Partner Navy chapter: head (Heading/1, cyan accent) then one Partner 30 card, quote lines left | the fixed price (Data/Numeral) on the right behind a hairline.",
+   "mobile": "Title, lead, then the card with the price first and the lines stacked label over value.",
+   "images": []
+  },
+  {
+   "id": "where-we-would-not-use-ai",
+   "layout": "list-rows",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "45:1248",
+    "mobile": "46:2100"
+   },
+   "job": "Say what we would not use AI for, and why: the honest-advice promise made concrete.",
+   "heading": "Where we would not use AI.",
+   "lead": "Some slow work doesn’t need AI, and some should stay with a person. Here is what we would do instead, and why.",
+   "items": [
+    {
+     "title": "Payment reminders",
+     "tag": "No AI needed",
+     "text": "Your accounting software already sends reminders. We would turn them on and write the wording, not build something new."
+    },
+    {
+     "title": "Refund approvals",
+     "tag": "Keep a person",
+     "text": "Refunds need judgment and happen [a few times a month]. A short checklist will help more than AI, and the decision stays with your team."
+    },
+    {
+     "title": "Supplier price talks",
+     "tag": "Keep a person",
+     "text": "Your prices come from relationships your team has built. AI would add risk and give little time back."
+    }
+   ],
+   "desktop": "Section head, then hairline rows: title and tag (572) | why (700, Body/LG).",
+   "mobile": "Head stacked; each row stacks title, tag and why.",
+   "images": []
+  },
+  {
+   "id": "next-steps",
+   "layout": "full-bleed-band",
+   "ground": "navy",
+   "figma": {
+    "desktop": "45:1272",
+    "mobile": "46:2121"
+   },
+   "job": "Close with how to get a real report, and the page's one Primary.",
+   "heading": "Get a report with your numbers.",
+   "accentWord": "numbers.",
+   "items": [
+    {
+     "title": "01 Book your check-up",
+     "text": "Pick a time for the first call. It takes a few minutes."
+    },
+    {
+     "title": "02 We listen and look",
+     "text": "Interviews, a walk through your tools and your slowest processes, over [two weeks]."
+    },
+    {
+     "title": "03 You get your plan",
+     "text": "Ranked by what it would save, with a fixed quote for the first fix. From [PRICE]."
+    }
+   ],
+   "ctas": [
+    {
+     "label": "Book your AI check-up",
+     "variant": "primary",
+     "target": "/ai-check-up#book"
+    },
+    {
+     "label": "Read about the check-up",
+     "variant": "link",
+     "target": "/ai-check-up"
+    }
+   ],
+   "desktop": "Band 1440x800: image full bleed with a Partner Navy scrim from the right (92% to 86% under the text, clear by 80%); text column (560) on the right, vertically centred; numbers in cyan mono.",
+   "mobile": "Band 390x828: text at the top on a scrim from the top, full-width LG Primary and the link, the image showing below.",
+   "images": [
+    {
+     "imageId": "IMG-34-2",
+     "slotName": "IMG-34-2 · Faceted leaves",
+     "kind": "existing",
+     "figma": {
+      "desktop": "45:1274",
+      "mobile": "46:2123"
+     },
+     "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+     "aspectDesktop": "1440x800 full bleed",
+     "aspectMobile": "390x828 full bleed",
+     "placement": "background with a navy scrim from the reading edge (right on desktop, top on mobile)",
+     "textArea": "right side, white text (desktop); top (mobile)",
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "notes": "Clearly a SAMPLE: the Info alert opens the page, the fictional partner is [Partner name], and every finding uses a bracketed placeholder ([hours a week], [hours a month], [number], [city], [four weeks], [six weeks], [a few times a month], [date], [Month year]), so nothing reads as a real result. The table's highlighted row is the recommended first fix (10% Ribbon Cyan tint, re-applied after its content was built and verified at 0.1). One Primary (the closing band); the ribbon signature once (the cover rule). Header CTA stays the Secondary outline and no nav item is marked current. faceted-leaves.webp is used twice across this page group (here and on page 02), the allowed maximum. Both frames pass the lint (node 37:851) with no findings."
+}
