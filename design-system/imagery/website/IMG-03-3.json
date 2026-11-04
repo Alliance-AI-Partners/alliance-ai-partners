@@ -1,0 +1,18 @@
+{
+ "id": "IMG-03-3",
+ "slot": "IMG-03-3 · Grow",
+ "alt": "Paper blossoms opening one after another along a climbing ribbon vine.",
+ "prompt": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. A satin ribbon vine in a gradient from Alliance Blue to Ribbon Cyan climbs from the lower left to the upper right. Along it, flat folded paper blossoms open one after another, from closed buds near the bottom to full open blooms near the top, each a little larger than the last: more customers over time. Faceted leaves in slate blue and Partner Navy along the vine. Calm Daylight space along the right edge. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "5:4",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "03 · Services",
+   "section": "goals",
+   "placement": "left of the Grow row; under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

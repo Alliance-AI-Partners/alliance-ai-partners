@@ -1,0 +1,18 @@
+{
+ "id": "IMG-03-2",
+ "slot": "IMG-03-2 · Solve problems",
+ "alt": "Faceted boulders lifted aside so a ribbon stream runs straight through a clear channel.",
+ "prompt": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. A satin ribbon stream in a gradient from Alliance Blue to Ribbon Cyan used to be blocked by a jumble of flat faceted boulders in Partner Navy and slate blue. The boulders have been lifted and stacked neatly to one side, and the ribbon now runs straight and smooth through the cleared channel toward the lower right: the slow work moved out of the way. A few folded paper leaves ride the current. Calm Daylight space in the upper third. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "5:4",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "03 · Services",
+   "section": "goals",
+   "placement": "right of the Solve problems with AI row; under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "IMG-05-1",
+ "slot": "IMG-05-1 · Leaves gathered",
+ "alt": "",
+ "prompt": "Wide landscape at first light, about 1.9:1. The left 55% is a calm, deep Partner Navy sky fading softly toward Alliance Blue, empty, for white text. On the right, a calm lake built from flat paper facets. Dozens of folded paper leaves lie scattered and tangled on the water at the far right; a satin ribbon current in a gradient from Alliance Blue to Ribbon Cyan gathers them and carries them in one tidy, evenly spaced line toward the lower right corner: scattered chores turned into one orderly flow that runs on its own. Low faceted hills on the horizon catching the first light. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "05 · Solve problems with AI",
+   "section": "hero",
+   "placement": "hero background with a navy scrim from the left (desktop) and from the top (mobile)"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

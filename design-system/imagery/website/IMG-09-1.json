@@ -1,0 +1,18 @@
+{
+ "id": "IMG-09-1",
+ "slot": "IMG-09-1 · Ribbon road at daybreak",
+ "alt": "",
+ "prompt": "A wide, calm landscape of flat faceted paper hills at daybreak. A smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs like a fast, clean road from the lower right foreground toward the horizon, even and unbroken, with two small faceted paper swallows flying low alongside it: a fast site that keeps running. The sky is deep Partner Navy at the top, easing to Alliance Blue and a thin band of Ribbon Cyan light at the horizon. Keep the left two thirds dark and calm (open sky and soft hills) for white text. Wide 2:1. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "09 · Websites and web apps",
+   "section": "hero",
+   "placement": "desktop hero background with a Partner Navy scrim from the left"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

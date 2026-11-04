@@ -1,0 +1,18 @@
+{
+ "id": "IMG-11-3",
+ "slot": "IMG-11-3 · A young tree kept steady",
+ "alt": "A ribbon tie holds a young faceted tree steady as it grows.",
+ "prompt": "Editorial illustration on a deep Partner Navy ground. At the left, a young tree built from flat faceted paper planes in navy and blue shades stands on a low faceted hill. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is tied loosely around its trunk and runs to a slim stake beside it, the way a gardener keeps a young tree steady while it grows; fresh leaves at the top of the tree catch cyan light from the upper left: staying after launch to keep what we built growing. The right half is calm, open deep navy for white text. Landscape, about 16:9 (1440x760); keep the tree in the left third so a tall mobile crop positioned on the left still shows the tree and the tie. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "11 · How we work",
+   "section": "run-and-grow",
+   "placement": "background with a navy scrim from the reading edge (right on desktop, top on mobile)"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "IMG-18-2",
+ "slot": "IMG-18-2 · Iceberg",
+ "alt": "A faceted paper iceberg, small above the waterline and much larger below it.",
+ "prompt": "Editorial illustration of a calm sea on a Daylight morning, drawn in cross-section so the view is half above and half below the waterline. A faceted paper iceberg floats in the middle: above the water only a small tip shows, in Daylight white and pale blue-grey; below the waterline, through clear, still water in soft Alliance Blue shades, the much larger part of the iceberg is fully visible, built from layered flat facets that deepen to Partner Navy toward the bottom. A thin satin ribbon in a gradient from Alliance Blue to Ribbon Cyan marks the waterline across the whole frame. The salary is the tip; benefits, recruiting and equipment are the larger part below. Keep the upper third a calm, pale sky. Landscape 16:9, safe to crop to 16:10, 4:3 and 1:1 around the iceberg. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "19 · Article",
+   "section": "related",
+   "placement": "second related story, image above its Article card; the same picture leads the second story on 18 · Insights (same ID)"
+  },
+  {
+   "page": "18 · Insights",
+   "section": "browse",
+   "placement": "image of the second lead story (Article card, right column of the mirrored row); reused, same ID, in the related articles on the article page"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "IMG-08-3",
+ "slot": "IMG-08-3 · One slow loop pulled straight",
+ "alt": "A looping ribbon stream with one loop pulled straight into a smooth run.",
+ "prompt": "Editorial illustration for a dark Partner Navy band. A wide landscape of low faceted paper hills in navy shades. Through it runs one satin ribbon stream: at the left it winds in tight, slow loops in muted slate blue; at one point near the centre a loop has been pulled straight, and from there the ribbon runs smooth and wide in a gradient from Alliance Blue to Ribbon Cyan to the right edge: one slow process, made fast. The top third is calm, plain deep navy for white text; the ribbon and the hills sit in the lower two thirds. Wide landscape, about 21:9 (1440x640); keep the straightened loop near the centre so a tall mobile crop from the centre still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "21:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "08 · AI automation",
+   "section": "cta",
+   "placement": "background with a Partner Navy scrim from the top"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

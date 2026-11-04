@@ -1,0 +1,18 @@
+{
+ "id": "IMG-10-2",
+ "slot": "IMG-10-2 · Two ribbons, one steady route",
+ "alt": "Two parallel ribbons, blue and cyan, rising side by side.",
+ "prompt": "Editorial illustration on a deep Partner Navy ground. Two satin ribbons, one in Alliance Blue and one in Ribbon Cyan, rise side by side in smooth parallel curves from the lower right corner toward the upper right, evenly spaced and never tangled, with a single row of small flat faceted paper leaves between them like a path: two plain reasons, one steady route. The left 45 percent and the top half are calm, plain deep navy for text. Landscape, about 16:9 (1440x800); keep the ribbons in the right half and the lower part, so a tall mobile crop positioned on the lower right still shows both. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "10 · Pricing",
+   "section": "why-we-cost-less",
+   "placement": "background of the navy band with a navy scrim from the reading edge (left on desktop, top on mobile)"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

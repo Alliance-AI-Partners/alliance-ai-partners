@@ -5,7 +5,7 @@ where text will sit). This script generates every missing image at the nearest a
 saves a JPEG master, a web WebP and a JSON sidecar with the exact prompt and model (its provenance), the same way
 brand-kit/tools/generate-imagery.py does for the backgrounds. Existing images are skipped; pass ids to regenerate.
 
-    python brand-kit/tools/generate-website-images.py [IMG-01-1 ...]   # key: GEMINI_API_KEY in the environment or .env
+    python brand-kit/tools/generate-website-images.py [--jobs 3] [IMG-01-1 ...]   # key: GEMINI_API_KEY in the environment or .env
 
 Needs the google-genai and Pillow packages (the gemini-image-generator skill's venv has both). In a cloud session the
 environment must allow generativelanguage.googleapis.com.
@@ -19,6 +19,8 @@ import json
 import os
 import re
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from google import genai
@@ -56,42 +58,57 @@ def aspect_of(text):
     return min(RATIOS, key=lambda k: abs(RATIOS[k] - r))
 
 
-def generate(client, prompt, aspect, size="2K"):
-    r = client.models.generate_content(model=MODEL, contents=[prompt], config=types.GenerateContentConfig(
-        response_modalities=["IMAGE"], image_config=types.ImageConfig(aspect_ratio=aspect, image_size=size)))
-    for part in r.candidates[0].content.parts:
-        if getattr(part, "inline_data", None) and part.inline_data.data:
-            return Image.open(io.BytesIO(part.inline_data.data)).convert("RGB")
-    raise RuntimeError("no image in the response")
+def generate(client, prompt, aspect, size="2K", tries=4):
+    """One image; temporary failures (rate limits, overloads, an empty answer) are retried with a growing wait."""
+    for attempt in range(1, tries + 1):
+        try:
+            r = client.models.generate_content(model=MODEL, contents=[prompt], config=types.GenerateContentConfig(
+                response_modalities=["IMAGE"], image_config=types.ImageConfig(aspect_ratio=aspect, image_size=size)))
+            for part in r.candidates[0].content.parts:
+                if getattr(part, "inline_data", None) and part.inline_data.data:
+                    return Image.open(io.BytesIO(part.inline_data.data)).convert("RGB")
+            raise RuntimeError("no image in the response")
+        except Exception:
+            if attempt == tries:
+                raise
+            time.sleep(10 * attempt)
+
+
+def make(client, e, today):
+    """Generate one manifest entry and save its JPEG master, web WebP and JSON record. Returns True when saved."""
+    base = OUT / e["id"]
+    aspect = aspect_of(e.get("aspectDesktop") or e.get("aspectMobile"))
+    print(f"generating {e['id']} ({aspect})", flush=True)
+    try:
+        img = generate(client, e.get("prompt") or e["source"], aspect)
+    except Exception as ex:  # one failed image never stops the batch
+        print(f"  failed {e['id']}: {ex}", flush=True)
+        return False
+    OUT.mkdir(parents=True, exist_ok=True)
+    img.save(base.with_suffix(".jpg"), quality=92, optimize=True, progressive=True)
+    web = img.resize((1920, round(img.height * 1920 / img.width)), Image.LANCZOS) if img.width > 1920 else img
+    web.save(base.with_suffix(".webp"), quality=82, method=6)
+    meta = {"id": e["id"], "slot": e.get("slotName"), "alt": e.get("alt"), "prompt": e.get("prompt") or e["source"], "model": MODEL, "aspect_ratio": aspect,
+            "size": "2K", "uses": e.get("uses"), "generated": today, "tool": "brand-kit/tools/generate-website-images.py"}
+    base.with_suffix(".json").write_text(json.dumps(meta, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"  saved {base.with_suffix('.jpg').relative_to(ROOT)} {img.size}", flush=True)
+    return True
 
 
 def main():
-    only = set(sys.argv[1:])
+    args = sys.argv[1:]
+    jobs = 1
+    if args[:1] == ["--jobs"]:
+        jobs, args = max(1, int(args[1])), args[2:]
+    only = set(args)
     entries = [e for e in json.loads(MANIFEST.read_text(encoding="utf-8")) if e.get("kind") == "new"]
+    todo = [e for e in entries if e["id"] in only] if only else [e for e in entries if not (OUT / e["id"]).with_suffix(".jpg").exists()]
     client = genai.Client(api_key=key())
     today = datetime.date.today().isoformat()
-    made = 0
-    for e in entries:
-        base = OUT / e["id"]
-        if (only and e["id"] not in only) or (not only and base.with_suffix(".jpg").exists()):
-            continue
-        aspect = aspect_of(e.get("aspectDesktop") or e.get("aspectMobile"))
-        print(f"generating {e['id']} ({aspect})", flush=True)
-        try:
-            img = generate(client, e.get("prompt") or e["source"], aspect)
-        except Exception as ex:  # one failed image never stops the batch
-            print(f"  failed: {ex}", flush=True)
-            continue
-        OUT.mkdir(parents=True, exist_ok=True)
-        img.save(base.with_suffix(".jpg"), quality=92, optimize=True, progressive=True)
-        web = img.resize((1920, round(img.height * 1920 / img.width)), Image.LANCZOS) if img.width > 1920 else img
-        web.save(base.with_suffix(".webp"), quality=82, method=6)
-        meta = {"id": e["id"], "slot": e.get("slotName"), "alt": e.get("alt"), "prompt": e.get("prompt") or e["source"], "model": MODEL, "aspect_ratio": aspect,
-                "size": "2K", "uses": e.get("uses"), "generated": today, "tool": "brand-kit/tools/generate-website-images.py"}
-        base.with_suffix(".json").write_text(json.dumps(meta, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-        made += 1
-        print(f"  saved {base.with_suffix('.jpg').relative_to(ROOT)} {img.size}", flush=True)
-    print(f"{made} images generated this run")
+    OUT.mkdir(parents=True, exist_ok=True)
+    with ThreadPoolExecutor(max_workers=jobs) as pool:
+        made = sum(pool.map(lambda e: make(client, e, today), todo))
+    print(f"{made} of {len(todo)} images generated this run")
 
 
 if __name__ == "__main__":

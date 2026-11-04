@@ -1,0 +1,18 @@
+{
+ "id": "IMG-04-1",
+ "slot": "IMG-04-1 · Growing flock",
+ "alt": "Faceted swallows flying in a widening formation along a satin ribbon current.",
+ "prompt": "Editorial illustration on a soft Daylight sky, nearly square, safe to crop to 4:5. A flock of swallows built from flat paper facets in Partner Navy and slate blue flies in a widening V formation along a satin ribbon current that sweeps from the lower left to the upper right in a gradient from Alliance Blue to Ribbon Cyan. Three birds lead at the lower left and the formation grows to many birds toward the upper right, every bird holding its place: AI growing across a whole company, with one team flying together. Below, low faceted hills at daybreak in pale blues. Calm open sky in the upper left quarter. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "04 · Scale AI",
+   "section": "hero",
+   "placement": "right half of the hero split; under the actions on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

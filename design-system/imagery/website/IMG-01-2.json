@@ -1,0 +1,18 @@
+{
+ "id": "IMG-01-2",
+ "slot": "IMG-01-2 · Scale AI",
+ "alt": "A row of faceted saplings growing taller along a ribbon path.",
+ "prompt": "A wide calm landscape of flat faceted paper hills at daybreak. A row of faceted saplings rises along a winding satin ribbon path, each a little taller than the last, from a small shoot at the left to a strong young tree at the right: steady growth across a whole company. Sky in a soft gradient from Daylight near the horizon to pale Ribbon Cyan, with Partner Navy only in the deepest facets; the ribbon path is satin Alliance Blue to Ribbon Cyan. Keep the top third calm and empty. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "01 · Home",
+   "section": "goals",
+   "placement": "top of the large Scale AI bento card, full bleed inside the card"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

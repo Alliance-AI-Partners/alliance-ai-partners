@@ -1,0 +1,18 @@
+{
+ "id": "IMG-09-1m",
+ "slot": "IMG-09-1m · Ribbon road, portrait",
+ "alt": "",
+ "prompt": "A calm landscape of flat faceted paper hills at daybreak, composed as a tall portrait for phones. A smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan rises from the bottom centre like a fast, clean road toward a high horizon, even and unbroken, with two small faceted paper swallows flying low alongside it: a fast site that keeps running. The same scene as IMG-09-1, recomposed for a portrait frame. The sky is deep Partner Navy at the top, easing to Alliance Blue and a thin band of Ribbon Cyan light at the horizon. Keep the top 35% plain, calm deep Partner Navy sky with no detail, because it sits under a navy scrim and the end of the hero text; the ribbon, the hills and the swallows sit in the lower two thirds. Portrait 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "4:5",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "09 · Websites and web apps",
+   "section": "hero",
+   "placement": "mobile hero only: full width at the bottom of the navy band, under a Partner Navy scrim from the top; the text sits above and over its top"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}
