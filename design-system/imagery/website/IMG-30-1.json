@@ -1,0 +1,19 @@
+{
+ "id": "IMG-30-1",
+ "slot": "IMG-30-1 · Stepping stones at daybreak",
+ "alt": "A satin ribbon laid along a path of paper stepping stones that rise across calm water at daybreak.",
+ "prompt": "Editorial illustration on a soft Daylight sky at daybreak. A calm stretch of water built from flat faceted paper planes in pale blue-grey fills the lower half. A path of flat faceted paper stepping stones crosses it from the lower left toward the upper right, each stone a little higher than the one before. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is laid along the stones like a handrail, the way a team clears the path for the next person: work that grows one step at a time. Low faceted hills in Partner Navy and slate blue sit on the far shore. Keep the upper left quarter calm and empty. Near-square, about 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "30 · Careers",
+   "section": "hero",
+   "placement": "right half of the hero split; under the actions on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 5.01% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

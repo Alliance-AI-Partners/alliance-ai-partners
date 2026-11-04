@@ -1,0 +1,19 @@
+{
+ "id": "IMG-23-1",
+ "slot": "IMG-23-1 · A swallow finds the blossom",
+ "alt": "A swallow follows a ribbon across a meadow of faceted flowers to one bright blossom.",
+ "prompt": "Editorial illustration on a Daylight background, nearly square (about 1:1), safe to crop to 4:5 around the centre. A wide meadow of many different flat faceted paper flowers in neat drifts, each kind a different shape in Partner Navy, slate blue and pale blue: a whole catalog. A single faceted paper swallow follows a satin ribbon in a gradient from Alliance Blue to Ribbon Cyan that curves through the meadow from the upper left and ends at one bright blossom in the lower right: helping a shopper find the right product. Calm, open Daylight sky in the top third. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "23 · Online stores and retail",
+   "section": "hero",
+   "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 4.33% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

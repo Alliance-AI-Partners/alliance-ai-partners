@@ -48,7 +48,7 @@ All eight were reviewed by eye on 2026-11-02: palette only, no text, the calm ar
 
 ## Website images
 
-The Figma website file ([Alliance AI Partners — Website](https://www.figma.com/design/1VGkymJ9AH6vGYgFDAU68A/Alliance-AI-Partners-%E2%80%94-Website)) marks every image as an Image slot named `IMG-<page>-<n> · <short>`. For example, `IMG-07-1` is the first image on page 07, Embedded developers. An image keeps its ID on desktop and mobile; an ID ending in `m` is a separate mobile crop. Each slot's label says `New:` (to be generated) or `Existing:` (a file already in this repository, such as a background or an email preview).
+The Figma website file ([Alliance AI Partners — Website](https://www.figma.com/design/1VGkymJ9AH6vGYgFDAU68A/Alliance-AI-Partners-%E2%80%94-Website)) marks every image as an Image slot named `IMG-<page>-<n> · <short>`. For example, `IMG-07-1` is the first image on page 07, Embedded developers. An image keeps its ID on desktop and mobile; an ID ending in `m` is a separate mobile crop. Each slot's label says `New:` (an image generated for this site, saved in [website/](website/)) or `Existing:` (a file already in this repository, such as a background or an email preview).
 
 [website/manifest.json](website/manifest.json) has one entry per image:
 
@@ -61,18 +61,23 @@ The Figma website file ([Alliance AI Partners — Website](https://www.figma.com
 | `aspectDesktop`, `aspectMobile` | The slot's size on each frame |
 | `alt`, `textArea` | The alt text, and where text sits on or beside the image |
 | `uses` | Every page, section and placement that shows the image |
-| `figma` | The node IDs of its slots, frame by frame, so a script can fill them |
+| `figma` | The node IDs of its slots, frame by frame, so a script can fill them. A slot can name its own `source` (for example the mobile preview of an email) and a `crop` note |
 
 **Generate them.** [../../brand-kit/tools/generate-website-images.py](../../brand-kit/tools/generate-website-images.py) works like the background script. It makes every missing `new` image at the nearest aspect ratio Gemini supports, then saves `<id>.jpg`, `<id>.webp` and a `<id>.json` record of the exact prompt and model in this folder:
 
 ```bash
 python brand-kit/tools/generate-website-images.py              # fills gaps only
+python brand-kit/tools/generate-website-images.py --jobs 3     # fills gaps, three at a time
 python brand-kit/tools/generate-website-images.py IMG-07-1     # regenerates one
 ```
 
 It needs `google-genai` and `Pillow`, and reads `GEMINI_API_KEY` from the environment or the git-ignored `.env`. In a cloud session, add `generativelanguage.googleapis.com` to the environment's allowed domains first.
 
-**Review, then place them.** Check each image by eye: palette only, no text or letters, nothing the rules forbid, and the calm area where `textArea` says. Then upload it to the Figma file and fill its slots, using the node IDs in `figma`: give each slot instance an image fill (scale mode Fill), then switch off its `Show label` property, which also hides the ribbon hint.
+**Review, then place them.** Check each image by eye: palette only, no text or letters, nothing the rules forbid, and the calm area where `textArea` says. Then upload it to the Figma file and fill its slots, using the node IDs in `figma`: give each slot instance an image fill, clear its dashed placeholder stroke, then switch off its `Show label` property, which also hides the ribbon hint. Most slots use scale mode Fill, centred. Where a tall phone crop must keep the subject in view, or the slot's `crop` note names a side, use a Crop moved to that side instead. Email previews always show the top of the email.
+
+**Colour fixes in post.** Gemini sometimes drifts off the palette: a cream ground, or a faint peach or rainbow cast in pale areas. Such an image is corrected in post rather than regenerated. Only the off-palette pixels move to the Daylight hue, and the change is written into the `postprocess` field of the image's `.json` record. A regenerated image comes back without the fix, so review it again.
+
+All 52 new images were reviewed by eye on 2026-11-04 and placed in the Figma file; with the 24 existing images they fill all 157 slots. IMG-05-1 was regenerated once, because the first version showed a seam. 19 images carry a colour fix in post. IMG-07-1's cream ground was fixed in post only because the API credits ran out before it could be regenerated, so regenerate and review it when there is budget.
 
 ## Brand graphics with conditions
 

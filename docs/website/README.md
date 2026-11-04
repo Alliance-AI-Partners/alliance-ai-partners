@@ -62,7 +62,7 @@ Figma holds the final copy. Where a page record's draft copy differs from Figma,
 - **Frames.** Each page has `<Page> — Desktop` (1,440 wide, at x 0) and `<Page> — Mobile` (390 wide, at x 1,600). Extra states sit to their right, for example `Contact — Desktop · Sent` or `Home — Mobile · Menu open`.
 - **Variables.** Two collections drive everything: Theme (modes Daylight and Navy) and Viewport (modes Desktop and Mobile). Their names match the CSS tokens in `design-system/tokens/`. A Partner Navy chapter is a section frame set to the Navy mode; a mobile frame is set to the Mobile mode, which switches type sizes, the gutter and section padding.
 - **Type.** The text styles follow `DESIGN.md`. In Figma, mono text uses Cascadia Mono as a stand-in, because Figma's font library has no Mona Sans Mono. The website uses Mona Sans Mono from `design-system/fonts/`.
-- **Images.** Every raster image is an Image slot, labelled `New:` (to be generated) or `Existing:` (a file in this repository). See `design-system/imagery/IMAGERY.md`.
+- **Images.** Every raster image is an Image slot, labelled `New:` (generated for this site) or `Existing:` (a file in this repository). All 76 images are placed, filling the 157 slots; their files, prompts and alt text are in `design-system/imagery/website/`. See `design-system/imagery/IMAGERY.md`.
 
 ## Changing or adding a page
 

@@ -1,0 +1,19 @@
+{
+ "id": "IMG-29-1",
+ "slot": "IMG-29-1 · Kite and flock",
+ "alt": "A paper kite flies out front on a satin ribbon, with a flock of paper swallows close behind it.",
+ "prompt": "Editorial illustration on a soft Daylight sky at daybreak. A large faceted paper kite, folded from flat planes in Partner Navy and slate blue, flies out in front, trailing a long satin ribbon in a gradient from Alliance Blue to Ribbon Cyan. A small flock of faceted paper swallows flies close behind the kite in a tight, orderly formation, following the ribbon: one shape leads and a capable team works behind it. The kite is plain, with no marks, symbols or letters. A low band of flat faceted paper hills in pale blue-grey runs along the bottom edge. Keep the upper left quarter calm and empty. Near-square, about 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "29 · For agencies",
+   "section": "hero",
+   "placement": "right half of the hero split; under the actions on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 13.86% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

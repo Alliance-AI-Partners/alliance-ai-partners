@@ -1,0 +1,19 @@
+{
+ "id": "IMG-30-2",
+ "slot": "IMG-30-2 · A ribbon clears the path",
+ "alt": "A satin ribbon opens a path through a paper meadow, with young leaves taking root along it.",
+ "prompt": "A wide, calm meadow of tall faceted paper grass in pale slate blue and soft navy shades at first light. One satin ribbon in a gradient from Alliance Blue to Ribbon Cyan lies along the ground and curves from the lower left into the distance, opening a clear path through the grass; along the stretch it has already crossed, small faceted paper leaves have taken root beside the path: we try the new tools first, and what works takes root. The sky is a soft Daylight gradient with pale Ribbon Cyan near the horizon. Keep the top third calm and empty. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "30 · Careers",
+   "section": "learning",
+   "placement": "top of the large bento card, full bleed inside the card"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 5.14% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

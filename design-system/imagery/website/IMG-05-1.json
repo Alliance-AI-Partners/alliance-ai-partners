@@ -2,7 +2,7 @@
  "id": "IMG-05-1",
  "slot": "IMG-05-1 · Leaves gathered",
  "alt": "",
- "prompt": "Wide landscape at first light, about 1.9:1. The left 55% is a calm, deep Partner Navy sky fading softly toward Alliance Blue, empty, for white text. On the right, a calm lake built from flat paper facets. Dozens of folded paper leaves lie scattered and tangled on the water at the far right; a satin ribbon current in a gradient from Alliance Blue to Ribbon Cyan gathers them and carries them in one tidy, evenly spaced line toward the lower right corner: scattered chores turned into one orderly flow that runs on its own. Low faceted hills on the horizon catching the first light. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "prompt": "One continuous wide landscape at first light, about 1.9:1, with no panels, borders or split frames. A calm lake built from flat paper facets stretches across the whole frame under a deep Partner Navy sky that lightens softly toward Alliance Blue at the horizon. The left half of the scene is quiet and empty, open water and sky growing darker toward the left edge, for white text. Dozens of folded paper leaves lie scattered and tangled on the water at the far right; a satin ribbon current in a gradient from Alliance Blue to Ribbon Cyan gathers them and carries them in one tidy, evenly spaced line toward the lower right corner: scattered chores turned into one orderly flow that runs on its own. Low faceted hills on the horizon catching the first light. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
  "model": "gemini-3-pro-image-preview",
  "aspect_ratio": "16:9",
  "size": "2K",
@@ -14,5 +14,6 @@
   }
  ],
  "generated": "2026-11-04",
- "tool": "brand-kit/tools/generate-website-images.py"
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Palette clamp in post (2026-11-04): 1.14% of pixels carried a faint warm tint (peach or cream light), outside the brand palette; their hue was moved to the Daylight hue and their saturation lowered, brightness unchanged. Cool cast in post (2026-11-04): 0.4% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
 }

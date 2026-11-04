@@ -423,7 +423,7 @@
   "id": "IMG-05-1",
   "slotName": "IMG-05-1 · Leaves gathered",
   "kind": "new",
-  "prompt": "Wide landscape at first light, about 1.9:1. The left 55% is a calm, deep Partner Navy sky fading softly toward Alliance Blue, empty, for white text. On the right, a calm lake built from flat paper facets. Dozens of folded paper leaves lie scattered and tangled on the water at the far right; a satin ribbon current in a gradient from Alliance Blue to Ribbon Cyan gathers them and carries them in one tidy, evenly spaced line toward the lower right corner: scattered chores turned into one orderly flow that runs on its own. Low faceted hills on the horizon catching the first light. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "prompt": "One continuous wide landscape at first light, about 1.9:1, with no panels, borders or split frames. A calm lake built from flat paper facets stretches across the whole frame under a deep Partner Navy sky that lightens softly toward Alliance Blue at the horizon. The left half of the scene is quiet and empty, open water and sky growing darker toward the left edge, for white text. Dozens of folded paper leaves lie scattered and tangled on the water at the far right; a satin ribbon current in a gradient from Alliance Blue to Ribbon Cyan gathers them and carries them in one tidy, evenly spaced line toward the lower right corner: scattered chores turned into one orderly flow that runs on its own. Low faceted hills on the horizon catching the first light. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
   "aspectDesktop": "1440x760 full bleed (about 1.9:1)",
   "aspectMobile": "390x780, crop to the right third (the current and the leaves in the lower third)",
   "alt": "",
@@ -545,7 +545,7 @@
   "id": "IMG-07-1",
   "slotName": "IMG-07-1 · Joining the band",
   "kind": "new",
-  "prompt": "Editorial illustration on a Daylight background. A band of four or five parallel satin ribbons in Partner Navy and slate blue flows from the lower left to the upper right, the partner's own team. A single brighter satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the left edge, weaves over and under the navy ribbons and settles into the band as one of them, so the band continues to the right as one team with the bright ribbon inside it. Low flat faceted paper hills in pale Daylight blues sit beneath. Keep the weave in the centre of the frame so it crops cleanly to 4:5, and keep the top quarter calm and open. Square 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "prompt": "Editorial illustration on a Daylight background. The ground is cool, pale Daylight #F4F7FB, with no warm, cream or beige tones anywhere. A band of four or five parallel satin ribbons in Partner Navy and slate blue flows from the lower left to the upper right, the partner's own team. A single brighter satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the left edge, weaves over and under the navy ribbons and settles into the band as one of them, so the band continues to the right as one team with the bright ribbon inside it. Low flat faceted paper hills in pale Daylight blues sit beneath. Keep the weave in the centre of the frame so it crops cleanly to 4:5, and keep the top quarter calm and open. Square 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
   "aspectDesktop": "604x600 (1:1)",
   "aspectMobile": "358x448 (4:5)",
   "alt": "A blue-to-cyan satin ribbon weaving into a band of navy ribbons.",
@@ -595,7 +595,8 @@
    {
     "frame": "Embedded developers — Mobile",
     "node": "43:2954",
-    "size": "358x440"
+    "size": "358x440",
+    "source": "brand-kit/emails/previews/welcome-mobile.png"
    }
   ]
  },

@@ -64,7 +64,7 @@
      "placement": "right half of the hero split; under the actions on mobile",
      "textArea": "none (text sits beside the image)",
      "alt": "A blue-to-cyan satin ribbon weaving into a band of navy ribbons.",
-     "source": "Editorial illustration on a Daylight background. A band of four or five parallel satin ribbons in Partner Navy and slate blue flows from the lower left to the upper right, the partner's own team. A single brighter satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the left edge, weaves over and under the navy ribbons and settles into the band as one of them, so the band continues to the right as one team with the bright ribbon inside it. Low flat faceted paper hills in pale Daylight blues sit beneath. Keep the weave in the centre of the frame so it crops cleanly to 4:5, and keep the top quarter calm and open. Square 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+     "source": "Editorial illustration on a Daylight background. The ground is cool, pale Daylight #F4F7FB, with no warm, cream or beige tones anywhere. A band of four or five parallel satin ribbons in Partner Navy and slate blue flows from the lower left to the upper right, the partner's own team. A single brighter satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the left edge, weaves over and under the navy ribbons and settles into the band as one of them, so the band continues to the right as one team with the bright ribbon inside it. Low flat faceted paper hills in pale Daylight blues sit beneath. Keep the weave in the centre of the frame so it crops cleanly to 4:5, and keep the top quarter calm and open. Square 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
     }
    ]
   },
@@ -241,7 +241,7 @@
      "imageId": "IMG-07-2",
      "slotName": "IMG-07-2 · Welcome email",
      "kind": "existing",
-     "source": "brand-kit/emails/previews/welcome-desktop.png",
+     "source": "brand-kit/emails/previews/welcome-desktop.png (mobile: brand-kit/emails/previews/welcome-mobile.png)",
      "aspectDesktop": "600x600 framed, top of the email",
      "aspectMobile": "358x440 framed",
      "placement": "inset framed product visual, left of the text on desktop; under the rows on mobile",

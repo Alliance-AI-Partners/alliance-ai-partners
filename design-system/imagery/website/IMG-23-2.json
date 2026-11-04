@@ -1,0 +1,18 @@
+{
+ "id": "IMG-23-2",
+ "slot": "IMG-23-2 · Every flower tied and ready",
+ "alt": "A row of different faceted flowers, each tied with a small ribbon bow.",
+ "prompt": "Editorial illustration on a Daylight background, wide (about 2:1), safe to crop to 16:10 around the centre. A long, tidy row of different flat faceted paper flowers grows from a low faceted bed, each a different kind and shade of blue, and each stem tied with a small satin ribbon bow in a gradient from Alliance Blue to Ribbon Cyan: every product described and ready to go live. Keep the top third calm and plain. No shop fronts, no packaging, no price tags. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "23 · Online stores and retail",
+   "section": "package",
+   "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

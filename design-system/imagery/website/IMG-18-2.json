@@ -19,5 +19,6 @@
   }
  ],
  "generated": "2026-11-04",
- "tool": "brand-kit/tools/generate-website-images.py"
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 14.73% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
 }

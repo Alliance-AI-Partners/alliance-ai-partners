@@ -1,0 +1,18 @@
+{
+ "id": "IMG-34-1",
+ "slot": "IMG-34-1 · Ranked saplings",
+ "alt": "Four paper saplings of falling height stand along a ribbon path, the tallest first.",
+ "prompt": "Editorial illustration on a Daylight background. A single satin ribbon in a gradient from Alliance Blue to Ribbon Cyan unrolls across a calm, pale faceted paper ground from the lower left toward the upper right, like a route drawn across a map. Along it stand four flat faceted paper saplings of clearly different heights, the tallest first and nearest the viewer, then each one smaller: findings ranked by what they would save. A small faceted paper swallow rests on the tallest sapling. Partner Navy only in the shaded facets. Calm, open Daylight space across the top third. About 1:1 (604x600), keep the four saplings inside the centre so it crops to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "34 · AI check-up sample report",
+   "section": "cover",
+   "placement": "right half of the cover split; last in the cover on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

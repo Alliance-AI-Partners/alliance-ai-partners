@@ -1,0 +1,19 @@
+{
+ "id": "IMG-25-3",
+ "slot": "IMG-25-3 · Papers bound with ribbon",
+ "alt": "A stack of blank paper bound with a satin ribbon tied in a firm knot.",
+ "prompt": "Still life on a Daylight background. A neat stack of plain, blank paper sheets rests on a flat surface, bound twice with a wide satin ribbon in Alliance Blue shading to Ribbon Cyan and tied in a firm, tidy knot on top: information kept together and protected. A few flat faceted paper leaves in Partner Navy and slate blue lie beside the stack. The sheets carry no marks, lines or letters. Generous calm Daylight space around the stack, especially at the top. Portrait, about 15:16, safe to crop to 6:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "25 · Why the Philippines",
+   "section": "privacy",
+   "placement": "left half of the split; under the list on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Palette clamp in post (2026-11-04): 11.5% of pixels carried a faint warm tint (peach or cream light), outside the brand palette; their hue was moved to the Daylight hue and their saturation lowered, brightness unchanged. Cool cast in post (2026-11-04): 0.29% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

@@ -14,5 +14,6 @@
   }
  ],
  "generated": "2026-11-04",
- "tool": "brand-kit/tools/generate-website-images.py"
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Ground tone corrected in post (2026-11-04): the generated cream ground was shifted toward Daylight #F4F7FB on pale pixels only (luminance above 170); ribbons unchanged."
 }
