@@ -151,3 +151,6 @@ vite.config.ts.timestamp-*
 # Next.js website
 next-env.d.ts
 .vercel
+
+# Claude Code worktrees for parallel builders (each is its own checkout)
+.claude/worktrees/
