@@ -214,7 +214,7 @@
   --aap-space-20: 80px; /* Section gap (mobile). */
   --aap-space-24: 96px; /* Section gap. */
   --aap-space-32: 128px; /* Chapter gap. */
-  --aap-space-section: clamp(4.5rem, 3rem + 5vw, 8rem); /* Vertical padding of a page section, fluid. */
+  --aap-space-section: clamp(4.5rem, 3.2rem + 5.3333vw, 8rem); /* Vertical padding of a page section, fluid: 72px at 390 wide to 128px at 1440, as in the Figma website file. */
   --aap-space-gutter: clamp(1rem, 0.6rem + 1.6vw, 2rem); /* Page side gutter, fluid. */
   --aap-size-container: 1320px; /* Maximum content width. */
   --aap-size-measure: 52ch; /* Maximum line length for running text: about 74 characters of Mona Sans (1ch is a zero, wider than most letters). */

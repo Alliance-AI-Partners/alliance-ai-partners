@@ -144,7 +144,7 @@ spacing:
   "20": "80px"
   "24": "96px"
   "32": "128px"
-  section: "clamp(4.5rem, 3rem + 5vw, 8rem)"
+  section: "clamp(4.5rem, 3.2rem + 5.3333vw, 8rem)"
   gutter: "clamp(1rem, 0.6rem + 1.6vw, 2rem)"
 components:
   button-primary:
