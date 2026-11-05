@@ -4,7 +4,7 @@
   "private": true,
   "description": "The Alliance AI Partners website: Next.js, TypeScript and Tailwind CSS, built from the Figma website file and the design system in design-system/.",
   "engines": {
-    "node": ">=20.9.0"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",

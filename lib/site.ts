@@ -6,6 +6,11 @@
 
 export type NavLink = { label: string; href: string };
 
+/** The site's default title and description (docs/website/pages/home.json, seo). */
+export const siteTitle = "Alliance AI Partners | Put AI to work";
+export const siteDescription =
+  "An embedded AI team in the Philippines for companies in the US, Australia and the UK. We build the AI tools and software you need, then help you grow. Published starting prices.";
+
 /** The primary action of the whole site (docs/website/pages/home.json, primaryAction). */
 export const primaryAction: NavLink = { label: "See where AI can help", href: "/ai-check-up" };
 

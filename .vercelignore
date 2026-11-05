@@ -1,0 +1,16 @@
+# Files the Vercel CLI uploads for a deployment (`vercel deploy` from your computer): only what the website needs.
+# The rest of the repository (print masters, logo sources, the Obsidian vault, design-tool records: about 380 MB)
+# never reaches the site. Keep this list in step with what app/, components/ and lib/ import.
+
+# Ignore everything at the root, then allow back what the build reads.
+/*
+!app
+!components
+!lib
+!design-system
+!brand-kit
+!package.json
+!package-lock.json
+!next.config.ts
+!tsconfig.json
+!eslint.config.mjs

@@ -7,16 +7,23 @@ import { SiteHeader } from "@/components/site-header";
 import appleTouchIcon from "@/design-system/logos/app-icons/apple-touch-icon.png";
 import faviconIco from "@/design-system/logos/app-icons/favicon.ico";
 import faviconSvg from "@/design-system/logos/app-icons/favicon.svg";
+import { siteDescription, siteTitle } from "@/lib/site";
+import { allowIndexing, siteUrl } from "@/lib/site-url";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  // Absolute URLs for canonical links and social previews (lib/site-url.ts).
+  metadataBase: siteUrl,
   title: {
-    default: "Alliance AI Partners | Put AI to work",
+    default: siteTitle,
     template: "%s | Alliance AI Partners",
   },
-  description:
-    "An embedded AI team in the Philippines for companies in the US, Australia and the UK. We build the AI tools and software you need, then help you grow. Published starting prices.",
+  description: siteDescription,
   applicationName: "Alliance AI Partners",
+  // Closed to search engines until launch; see lib/site-url.ts.
+  robots: allowIndexing ? { index: true, follow: true } : { index: false, follow: false },
+  openGraph: { type: "website", siteName: "Alliance AI Partners", locale: "en_US" },
+  twitter: { card: "summary" },
   icons: {
     icon: [
       { url: faviconIco.src, sizes: "32x32" },
