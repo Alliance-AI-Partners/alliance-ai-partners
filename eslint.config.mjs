@@ -18,6 +18,8 @@ const eslintConfig = defineConfig([
     "AllianceAIPartners/**",
     ".impeccable/**",
     ".claude-flow/**",
+    // Claude Code's working copies for parallel builders (each is a separate checkout).
+    ".claude/**",
   ]),
 ]);
 
