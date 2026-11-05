@@ -1,0 +1,191 @@
+/*
+ * Global styles for the Alliance AI Partners website.
+ *
+ * Load order:
+ * 1. Tailwind CSS (preflight and utilities).
+ * 2. The design tokens (--aap-* custom properties), generated from design-system/tokens/tokens.json.
+ * 3. The Tailwind theme generated from those tokens (bg-page, text-ink, text-body-lg, ...).
+ * 4. The design system's components (aap-* classes), placed in Tailwind's components layer so a utility class can
+ *    still override one property of a component (for example `max-w-[560px]` on a component that sets a max-width).
+ * 5. Site rules: the few places where the Figma website file differs from a component's defaults, each with a note.
+ *
+ * tokens.css also declares @font-face rules for the font masters. The site loads the fonts through next/font instead
+ * (app/fonts.ts) and points the font tokens at them below, so those @font-face rules are never used by a page.
+ */
+/* Tailwind scans only the site's own code for class names, not the brand kit, docs or design-system folders. */
+@import "tailwindcss" source(none);
+@source "../app";
+@source "../components";
+@source "../lib";
+@import "../design-system/tokens/tokens.css";
+@import "../design-system/tokens/tailwind-theme.css";
+@import "../design-system/css/components.css" layer(components);
+
+:root {
+  /* next/font sets --font-mona-sans and --font-mona-sans-mono on <html> (see app/layout.tsx). */
+  --aap-font-family-sans: var(--font-mona-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --aap-font-family-mono: var(--font-mona-sans-mono), ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas,
+    monospace;
+
+  /* The hero's top padding: 48px at 390 wide to 96px at 1440, like the section padding token. */
+  --site-hero-padding-top: clamp(3rem, 1.8857rem + 4.5714vw, 6rem);
+}
+
+html {
+  /* Keep in-page targets (source notes) clear of the sticky 72px header. */
+  scroll-padding-top: 88px;
+}
+
+/* The open mobile menu covers the page; stop the page behind it from scrolling. */
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------- design system adjustments from the Figma file */
+
+@layer components {
+  /* Steps: Figma starts each step title at the top of its step; the component adds 8px above it. */
+  .aap-steps__title {
+    margin-top: 0;
+  }
+
+  /* Label type carries +1% tracking (UI/Label in Figma, typography.label in the tokens); these components set the
+     label's size and weight but not its tracking. */
+  .aap-nav__link,
+  .aap-footer__heading,
+  .aap-timezones__name {
+    letter-spacing: var(--aap-typography-label-tracking);
+  }
+
+  /* Sources: Figma (and the page toolkit) give the note numbers a 32px column at every size. */
+  .aap-sources li {
+    grid-template-columns: 2rem minmax(0, 1fr);
+  }
+
+  /* Time zones: two cities per row on phones and tablets, four from 1024px, each row ruled as in Figma.
+     Clocks are set in Regular; the team's own city stays semibold through aria-current. */
+  .aap-timezones {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .aap-timezones__name {
+    line-height: var(--aap-typography-label-line-height);
+  }
+
+  .aap-timezones__time {
+    font-weight: var(--aap-font-weight-regular);
+  }
+
+  .aap-timezones__note {
+    line-height: var(--aap-typography-caption-line-height);
+  }
+
+  @media (max-width: 1023px) {
+    .aap-timezones__city:nth-child(odd) {
+      border-inline-start: 0;
+    }
+
+    .aap-timezones__city:nth-child(-n + 2) {
+      border-block-end: 1px solid var(--aap-color-border-default);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .aap-timezones {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  /* Accordion: Figma marks open and closed with the 20px plus and close icons instead of the drawn plus. */
+  .aap-accordion > summary::after {
+    content: none;
+  }
+
+  .aap-accordion > summary > svg {
+    flex: none;
+    width: 20px;
+    height: 20px;
+  }
+
+  .aap-accordion[open] > summary > .site-icon-closed,
+  .aap-accordion:not([open]) > summary > .site-icon-open {
+    display: none;
+  }
+
+  .aap-accordion__body {
+    max-width: 560px;
+  }
+
+  /* Footer: headings and links on their type roles' line heights (18px and 23px in Figma). */
+  .aap-footer__heading {
+    line-height: var(--aap-typography-label-line-height);
+  }
+
+  .aap-footer__list {
+    line-height: var(--aap-typography-body-sm-line-height);
+  }
+
+  .aap-footer__base {
+    align-items: center;
+    line-height: var(--aap-typography-caption-line-height);
+  }
+}
+
+/* ---------------------------------------------------------------- home page */
+
+@layer components {
+  /* Partner Navy scrims over the two band images, as drawn in the Figma frames: from the top on phones, from the
+     reading edge (left) from 1024px. They keep every line of text over at least 80% navy. */
+  .home-scrim-overnight {
+    background: linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--aap-color-brand-partner-navy) 90%, transparent) 0%,
+      color-mix(in srgb, var(--aap-color-brand-partner-navy) 82%, transparent) 67.667%,
+      transparent 92.667%
+    );
+  }
+
+  .home-scrim-cta {
+    background: linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--aap-color-brand-partner-navy) 86%, transparent) 0%,
+      color-mix(in srgb, var(--aap-color-brand-partner-navy) 80%, transparent) 66%,
+      color-mix(in srgb, var(--aap-color-brand-partner-navy) 25%, transparent) 86%,
+      color-mix(in srgb, var(--aap-color-brand-partner-navy) 10%, transparent) 100%
+    );
+  }
+
+  @media (min-width: 1024px) {
+    .home-scrim-overnight {
+      background: linear-gradient(
+        to right,
+        color-mix(in srgb, var(--aap-color-brand-partner-navy) 88%, transparent) 0%,
+        color-mix(in srgb, var(--aap-color-brand-partner-navy) 82%, transparent) 51.611%,
+        transparent 76.611%
+      );
+    }
+
+    .home-scrim-cta {
+      background: linear-gradient(
+        to right,
+        color-mix(in srgb, var(--aap-color-brand-partner-navy) 90%, transparent) 0%,
+        color-mix(in srgb, var(--aap-color-brand-partner-navy) 82%, transparent) 64.111%,
+        transparent 89.111%
+      );
+    }
+  }
+
+  /* The hero's ribbon is in view when the page opens, so it draws itself once on load rather than with the scroll
+     (a scroll-driven draw would rest half-finished at the top of the page). Reduced motion keeps it drawn. */
+  @media (prefers-reduced-motion: no-preference) {
+    .home-hero-ribbon path {
+      animation: aap-ribbon-draw var(--aap-duration-ribbon) var(--aap-easing-out) 150ms both;
+    }
+  }
+
+  /* The brand kit's hero shadow for the 3D mark: light from the top left, no glow. */
+  .home-hero-mark {
+    filter: drop-shadow(10px 28px 36px rgba(18, 27, 42, 0.16));
+  }
+}
