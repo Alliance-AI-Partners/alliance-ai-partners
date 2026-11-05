@@ -31,9 +31,9 @@ export function Goals() {
           }
         />
 
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid gap-6 lg:grid-cols-2" data-reveal-group>
           {/* The large card: full-bleed image on top, then the body. */}
-          <article className="aap-card flex flex-col gap-4 overflow-hidden p-0 lg:gap-5">
+          <article className="aap-card flex flex-col gap-4 overflow-hidden p-0 lg:gap-5" data-reveal-item>
             <div className="relative aspect-[356/224] lg:aspect-[646/340]">
               <Image
                 src={scaleImage}
@@ -61,7 +61,7 @@ export function Goals() {
           </article>
 
           <div className="flex flex-col gap-6">
-            <article className="aap-card flex flex-1 flex-col gap-4 p-6 lg:p-8">
+            <article className="aap-card flex flex-1 flex-col gap-4 p-6 lg:p-8" data-reveal-item>
               <GoalBody
                 icon={automationIcon}
                 title="Solve problems with AI"
@@ -81,7 +81,7 @@ export function Goals() {
                 href="/services/solve-problems-with-ai"
               />
             </article>
-            <article className="aap-card flex flex-1 flex-col gap-4 p-6 lg:p-8">
+            <article className="aap-card flex flex-1 flex-col gap-4 p-6 lg:p-8" data-reveal-item>
               <GoalBody
                 icon={growthIcon}
                 title="Grow"

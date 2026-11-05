@@ -1,11 +1,15 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/site-link";
+import type { CSSProperties } from "react";
 import { Icon } from "@/components/icon";
 import { Ribbon } from "@/components/ribbon";
 import logomark from "@/design-system/logos/marks/alliance-ai-partners-logomark-full-color-light.svg";
 import { primaryAction } from "@/lib/site";
 
 const baseLine = "Based in the Philippines. Working inside teams in the United States, Australia and the United Kingdom.";
+
+/** The order of a line in the hero entrance (plans/005): each starts 60ms after the one before. */
+const rise = (index: number) => ({ "--rise-index": index }) as CSSProperties;
 
 /** Home hero (Figma: Section · Hero). Text and the 3D mark side by side from 1024px; stacked below. */
 export function Hero() {
@@ -16,10 +20,10 @@ export function Hero() {
           <h1 id="hero-title" className="aap-display-xl">
             Put AI to <span className="aap-accent">work.</span>
           </h1>
-          <p className="max-w-[560px] text-body-lg text-ink-secondary">
+          <p className="home-hero-rise max-w-[560px] text-body-lg text-ink-secondary" style={rise(0)}>
             We build the AI tools and software your business needs, then help you use them to grow.
           </p>
-          <div className="flex flex-col items-center gap-4 lg:flex-row lg:gap-6">
+          <div className="home-hero-rise flex flex-col items-center gap-4 lg:flex-row lg:gap-6" style={rise(1)}>
             <Link
               href={primaryAction.href}
               className="aap-button aap-button--primary aap-button--lg w-full lg:w-auto"
@@ -32,13 +36,17 @@ export function Hero() {
               <Icon name="arrow-right" />
             </Link>
           </div>
-          <p className="hidden max-w-[480px] text-caption text-ink-tertiary lg:block">{baseLine}</p>
+          <p className="home-hero-rise hidden max-w-[480px] text-caption text-ink-tertiary lg:block" style={rise(2)}>
+            {baseLine}
+          </p>
         </div>
 
         <HeroObject />
 
         {/* On phones the base line follows the mark. */}
-        <p className="text-caption text-ink-tertiary lg:hidden">{baseLine}</p>
+        <p className="home-hero-rise text-caption text-ink-tertiary lg:hidden" style={rise(2)}>
+          {baseLine}
+        </p>
       </div>
     </section>
   );

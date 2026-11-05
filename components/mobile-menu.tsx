@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
-import { useEffect, useRef } from "react";
+import Link from "@/components/site-link";
+import { type CSSProperties, useEffect, useRef } from "react";
 import { Icon } from "@/components/icon";
 import { Logo } from "@/components/logo";
 import { contactEmail, mobileMenuNav, primaryAction } from "@/lib/site";
@@ -55,7 +55,7 @@ export function MobileMenu() {
       <dialog
         ref={dialogRef}
         aria-label="Menu"
-        className="m-0 h-dvh max-h-none w-full max-w-none overflow-y-auto overscroll-contain border-0 bg-page p-0 text-ink backdrop:bg-transparent"
+        className="site-menu m-0 h-dvh max-h-none w-full max-w-none overflow-y-auto overscroll-contain border-0 bg-page p-0 text-ink backdrop:bg-transparent"
       >
         <div className="flex min-h-full flex-col">
           <div className="aap-container flex min-h-[72px] items-center justify-between gap-8">
@@ -74,8 +74,8 @@ export function MobileMenu() {
 
           <nav aria-label="Main" className="aap-container pt-2">
             <ul>
-              {mobileMenuNav.map((item) => (
-                <li key={item.href}>
+              {mobileMenuNav.map((item, index) => (
+                <li key={item.href} className="site-menu__item" style={{ "--item-index": index } as CSSProperties}>
                   <Link
                     href={item.href}
                     onClick={close}

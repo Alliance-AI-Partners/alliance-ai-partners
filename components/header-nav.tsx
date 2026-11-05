@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/site-link";
 import { usePathname } from "next/navigation";
 import { headerNav } from "@/lib/site";
 

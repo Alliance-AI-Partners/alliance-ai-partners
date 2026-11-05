@@ -28,9 +28,9 @@ export function HowWeWork() {
             </>
           }
         />
-        <ol className="aap-steps">
+        <ol className="aap-steps" data-reveal-group>
           {steps.map((step) => (
-            <li key={step.title}>
+            <li key={step.title} data-reveal-item>
               <h3 className="aap-steps__title">{step.title}</h3>
               <p className="aap-steps__text">{step.text}</p>
             </li>

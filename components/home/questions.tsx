@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import { ArrowLink } from "@/components/arrow-link";
 import { Icon } from "@/components/icon";
 
@@ -44,13 +45,19 @@ export function Questions() {
           </ArrowLink>
         </div>
 
-        <div className="border-t border-line">
+        <div
+          className="border-t border-line"
+          data-reveal-group
+          style={{ "--reveal-stagger": "40ms" } as CSSProperties}
+        >
           {questions.map((item, index) => (
-            <details key={item.question} className="aap-accordion" open={index === 0}>
+            <details key={item.question} className="aap-accordion" open={index === 0} data-reveal-item>
               <summary>
                 <h3>{item.question}</h3>
-                <Icon name="plus" className="site-icon-closed" />
-                <Icon name="close" className="site-icon-open" />
+                <span className="site-accordion-icon">
+                  <Icon name="plus" className="site-icon-closed" />
+                  <Icon name="close" className="site-icon-open" />
+                </span>
               </summary>
               <div className="aap-accordion__body">
                 <p>{item.answer}</p>

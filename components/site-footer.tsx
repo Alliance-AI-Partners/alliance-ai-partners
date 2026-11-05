@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/site-link";
 import { Icon } from "@/components/icon";
 import { Logo } from "@/components/logo";
 import { contactEmail, footerColumns, socialProfiles } from "@/lib/site";

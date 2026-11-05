@@ -1,6 +1,6 @@
 import { getImageProps } from "next/image";
-import Link from "next/link";
-import type { ReactNode } from "react";
+import Link from "@/components/site-link";
+import type { CSSProperties, ReactNode } from "react";
 import { Icon } from "@/components/icon";
 import { SectionHead } from "@/components/home/section-head";
 import invoiceDesktop from "@/brand-kit/emails/previews/invoice-ready-desktop.png";
@@ -93,9 +93,17 @@ export function HonestPricing() {
         />
 
         <div className="grid gap-8 lg:grid-cols-[minmax(0,560fr)_minmax(0,696fr)] lg:items-start lg:gap-16">
-          <ul className="border-t border-line lg:border-t-0">
+          <ul
+            className="border-t border-line lg:border-t-0"
+            data-reveal-group
+            style={{ "--reveal-stagger": "40ms" } as CSSProperties}
+          >
             {promises.map((promise) => (
-              <li key={promise.id} className="flex items-start gap-3 border-b border-line py-3.5 lg:gap-4 lg:py-4">
+              <li
+                key={promise.id}
+                className="flex items-start gap-3 border-b border-line py-3.5 lg:gap-4 lg:py-4"
+                data-reveal-item
+              >
                 <Icon name="check" className="size-5 shrink-0 text-ribbon-cyan" />
                 <span className="text-body">{promise.text}</span>
               </li>
@@ -103,9 +111,9 @@ export function HonestPricing() {
           </ul>
 
           <div>
-            <ul>
+            <ul data-reveal-group>
               {startingPrices.map((row) => (
-                <li key={row.title}>
+                <li key={row.title} data-reveal-item>
                   <Link
                     href={row.href}
                     className="group flex flex-col gap-2 border-b border-line py-5 text-ink no-underline lg:flex-row lg:items-center lg:gap-8 lg:py-6"
@@ -118,7 +126,7 @@ export function HonestPricing() {
                       <span className="aap-mono">{row.price}</span>
                       <Icon
                         name="arrow-right"
-                        className="size-5 shrink-0 transition-transform duration-(--aap-duration-base) ease-spring group-hover:translate-x-[3px]"
+                        className="size-5 shrink-0 transition-transform duration-(--aap-duration-base) ease-spring group-hover:translate-x-[3px] motion-reduce:group-hover:translate-x-0"
                       />
                     </div>
                   </Link>
@@ -137,7 +145,7 @@ export function HonestPricing() {
           </div>
         </div>
 
-        <figure className="flex flex-col gap-8 lg:gap-4">
+        <figure className="flex flex-col gap-8 lg:gap-4" data-reveal-group data-reveal-item>
           <SampleInvoice />
           <figcaption className="text-caption text-ink-secondary">
             Sample invoice from our templates. AI usage is passed on at cost, on its own line.

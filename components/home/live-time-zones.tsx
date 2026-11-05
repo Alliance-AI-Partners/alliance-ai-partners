@@ -51,11 +51,16 @@ export function LiveTimeZones() {
 
   return (
     <>
-      <ul className="aap-timezones">
+      <ul className="aap-timezones" data-reveal-group>
         {cities.map((city) => {
           const live = now ? describe(city, now) : city.sample;
           return (
-            <li key={city.name} className="aap-timezones__city" aria-current={city.home ? "true" : undefined}>
+            <li
+              key={city.name}
+              className="aap-timezones__city"
+              aria-current={city.home ? "true" : undefined}
+              data-reveal-item
+            >
               <span className="aap-timezones__name">{city.name}</span>
               <span className="aap-timezones__time">{live.time}</span>
               <span className="aap-timezones__note">{live.note}</span>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/site-link";
 import type { ReactNode } from "react";
 import { Icon } from "@/components/icon";
 import { cn } from "@/lib/cn";

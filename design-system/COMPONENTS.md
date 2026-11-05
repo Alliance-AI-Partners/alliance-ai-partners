@@ -158,7 +158,7 @@ The key is a small boxed numeral in Mona Sans Mono; the targeted source highligh
 | `--aap-easing-spring` | `linear()` approximation of a critically damped spring | Anything that moves in space |
 | `--aap-easing-standard` | `cubic-bezier(0.2, 0, 0, 1)` | Colour and opacity |
 
-Feedback starts on press, not on release. Movement uses the spring with no overshoot. In React, use Motion with `{ type: "spring", bounce: 0, duration: 0.35 }`; add bounce only after a flick or drag. Under `prefers-reduced-motion` the slow and ribbon durations drop to 1 ms, the shimmer and busy animations stop, and hover lifts are removed.
+Feedback starts on press, not on release. Movement uses the spring with no overshoot. In React, use Motion with `{ type: "spring", bounce: 0, duration: 0.35 }`; add bounce only after a flick or drag. Arrow nudges and other hover movement wait for a pointer that really hovers (`@media (hover: hover) and (pointer: fine)`), because touch screens fire `:hover` on tap. Navigation and footer links fade their colour over 150 ms, like every other link. The accordion's answer eases open and shut (height and opacity, 240 ms) where the browser can animate `<details>`. Under `prefers-reduced-motion` the slow and ribbon durations drop to 1 ms, the shimmer and busy animations stop, hover lifts and arrow nudges are removed, and the accordion keeps its fade but not its height animation.
 
 ## Accessibility checklist
 

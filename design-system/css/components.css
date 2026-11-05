@@ -263,8 +263,11 @@
   transition: transform var(--aap-duration-base) var(--aap-easing-spring);
 }
 
-.aap-button:hover svg[data-direction="forward"] {
-  transform: translateX(3px);
+/* Touch screens fire :hover on tap, so the nudge waits for a pointer that really hovers. */
+@media (hover: hover) and (pointer: fine) {
+  .aap-button:hover svg[data-direction="forward"] {
+    transform: translateX(3px);
+  }
 }
 
 .aap-button--primary {
@@ -331,8 +334,10 @@
   transition: transform var(--aap-duration-base) var(--aap-easing-spring);
 }
 
-.aap-link:hover svg {
-  transform: translateX(3px);
+@media (hover: hover) and (pointer: fine) {
+  .aap-link:hover svg {
+    transform: translateX(3px);
+  }
 }
 
 /* A link on its own line (not inside running text) gets a 44 px touch target that doesn't move the layout. */
@@ -825,6 +830,29 @@ a.aap-card:hover {
   color: var(--aap-color-text-secondary);
 }
 
+/* Opening and closing: the answer's height and opacity ease over 240ms where the browser can animate <details>
+   (::details-content, and interpolate-size for the height). Elsewhere it opens at once, as before. */
+@supports selector(::details-content) {
+  .aap-accordion {
+    interpolate-size: allow-keywords;
+  }
+
+  .aap-accordion::details-content {
+    block-size: 0;
+    overflow-y: clip;
+    opacity: 0;
+    transition:
+      block-size var(--aap-duration-base) var(--aap-easing-out),
+      opacity var(--aap-duration-base) var(--aap-easing-standard),
+      content-visibility var(--aap-duration-base) allow-discrete;
+  }
+
+  .aap-accordion[open]::details-content {
+    block-size: auto;
+    opacity: 1;
+  }
+}
+
 .aap-table {
   width: 100%;
   border-collapse: collapse;
@@ -965,6 +993,7 @@ a.aap-card:hover {
   color: var(--aap-color-text-secondary);
   font: var(--aap-typography-label-weight) var(--aap-typography-label-size)/1.2 var(--aap-font-family-sans);
   text-decoration: none;
+  transition: color var(--aap-duration-fast) var(--aap-easing-standard);
 }
 
 .aap-nav__link:hover,
@@ -1010,6 +1039,7 @@ a.aap-card:hover {
 .aap-footer__list a {
   color: var(--aap-color-text-secondary);
   text-decoration: none;
+  transition: color var(--aap-duration-fast) var(--aap-easing-standard);
 }
 
 .aap-footer__list a:hover {
@@ -1065,6 +1095,15 @@ a.aap-card:hover {
 
   a.aap-card:hover {
     transform: none;
+  }
+
+  .aap-button:hover svg[data-direction="forward"],
+  .aap-link:hover svg {
+    transform: none;
+  }
+
+  .aap-accordion::details-content {
+    transition-property: opacity, content-visibility;
   }
 }
 

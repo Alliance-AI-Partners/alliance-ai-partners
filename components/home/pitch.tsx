@@ -40,9 +40,9 @@ export function Pitch() {
             Most companies know AI could help them grow, but they don’t have the time or the people to make it happen.
             Alliance AI Partners becomes that team.
           </p>
-          <ul className="order-4 flex flex-col gap-7 lg:gap-6">
+          <ul className="order-4 flex flex-col gap-7 lg:gap-6" data-reveal-group>
             {outcomes.map((outcome) => (
-              <li key={outcome.title} className="flex items-start gap-4 lg:gap-5">
+              <li key={outcome.title} className="flex items-start gap-4 lg:gap-5" data-reveal-item>
                 <Image src={outcome.icon} alt="" className="size-8 shrink-0 lg:size-10" />
                 <div className="flex flex-col gap-1">
                   <h3 className="aap-h4">{outcome.title}</h3>
@@ -57,7 +57,11 @@ export function Pitch() {
           </p>
         </div>
 
-        <div className="aap-media relative order-3 aspect-[358/448] lg:order-first lg:aspect-[640/760]">
+        <div
+          className="aap-media relative order-3 aspect-[358/448] lg:order-first lg:aspect-[640/760]"
+          data-reveal-group
+          data-reveal-item
+        >
           <Image
             src={busyworkImage}
             alt="Tangled ribbons straightening into one smooth ribbon."

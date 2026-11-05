@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/site-link";
 import { HeaderNav } from "@/components/header-nav";
 import { Logo } from "@/components/logo";
 import { MobileMenu } from "@/components/mobile-menu";

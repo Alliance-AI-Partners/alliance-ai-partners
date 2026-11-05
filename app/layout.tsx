@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { monaSans, monaSansMono } from "@/app/fonts";
+import { NavigationProgress } from "@/components/navigation-progress";
+import { ScrollEffects } from "@/components/scroll-effects";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import appleTouchIcon from "@/design-system/logos/app-icons/apple-touch-icon.png";
@@ -34,12 +36,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     // The font classes define --font-mona-sans and --font-mona-sans-mono, which the design tokens point at.
     <html lang="en" className={`${monaSans.variable} ${monaSansMono.variable}`}>
       <body>
+        <NavigationProgress />
         <a href="#main" className="aap-skip-link">
           Skip to content
         </a>
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
+        <ScrollEffects />
       </body>
     </html>
   );

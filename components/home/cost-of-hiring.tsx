@@ -56,10 +56,11 @@ export function CostOfHiring() {
           lead="Roughly what one full-time software developer costs an employer each month, before recruiting, equipment and office space."
         />
 
-        <ul className="grid lg:grid-cols-3 lg:border-y lg:border-line">
+        <ul className="grid lg:grid-cols-3 lg:border-y lg:border-line" data-reveal-group>
           {stats.map((stat, index) => (
             <li
               key={stat.value}
+              data-reveal-item
               className={cn(
                 "flex flex-col gap-2 border-t border-line py-6 lg:border-t-0 lg:p-8",
                 index > 0 && "lg:border-l",
@@ -80,7 +81,11 @@ export function CostOfHiring() {
           ))}
         </ul>
 
-        <div className="aap-card flex flex-col gap-3 p-6 lg:flex-row lg:items-center lg:justify-between lg:gap-6 lg:p-8">
+        <div
+          className="aap-card flex flex-col gap-3 p-6 lg:flex-row lg:items-center lg:justify-between lg:gap-6 lg:p-8"
+          data-reveal-group
+          data-reveal-item
+        >
           <div className="flex flex-col gap-3 lg:gap-2">
             <p className="aap-numeral">[PRICE]</p>
             <p className="max-w-[600px] text-body text-ink-secondary">

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/site-link";
 import { Icon } from "@/components/icon";
 import dawnWave from "@/design-system/imagery/backgrounds/dawn-wave.jpg";
 import { contactEmail, primaryAction } from "@/lib/site";
@@ -11,7 +11,10 @@ export function ClosingCta() {
       aria-labelledby="cta-title"
       className="aap-surface-inverse relative isolate flex min-h-[680px] overflow-hidden lg:min-h-[600px] lg:items-center"
     >
-      <Image src={dawnWave} alt="" fill sizes="100vw" className="-z-20 object-cover" />
+      {/* The parallax layer reaches 24px past the band at the top and bottom, so it can drift without showing an edge. */}
+      <div data-parallax aria-hidden="true" className="absolute inset-x-0 -top-6 -bottom-6 -z-20">
+        <Image src={dawnWave} alt="" fill sizes="100vw" className="object-cover" />
+      </div>
       <div aria-hidden="true" className="home-scrim-cta absolute inset-0 -z-10" />
 
       <div className="aap-container flex flex-col gap-6 py-16 lg:gap-7">
