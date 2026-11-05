@@ -2,7 +2,7 @@ import { getImageProps } from "next/image";
 import Link from "@/components/site-link";
 import type { CSSProperties, ReactNode } from "react";
 import { Icon } from "@/components/icon";
-import { SectionHead } from "@/components/home/section-head";
+import { SectionHead } from "@/components/section-head";
 import invoiceDesktop from "@/brand-kit/emails/previews/invoice-ready-desktop.png";
 import invoiceMobile from "@/brand-kit/emails/previews/invoice-ready-mobile.png";
 

@@ -28,6 +28,26 @@ export const mobileMenuNav: NavLink[] = [...headerNav, { label: "Contact", href:
 /** The address in the mock-ups. `.example` is a reserved placeholder domain: replace it with the real inbox. */
 export const contactEmail = "hello@allianceaipartners.example";
 
+/**
+ * The Contact form's topics (docs/website/pages/contact.json). Links preselect one with `?service=<value>`, for example
+ * /contact?service=embedded-developers; build them with `contactHref`.
+ */
+export const contactTopics = [
+  { value: "ai-check-up", label: "An AI check-up" },
+  { value: "ai-automation", label: "AI automation" },
+  { value: "websites", label: "A website or web app" },
+  { value: "embedded-developers", label: "Embedded developers" },
+  { value: "fixed-quote", label: "A fixed quote for a project" },
+  { value: "something-else", label: "Something else" },
+] as const;
+
+export type ContactTopic = (typeof contactTopics)[number]["value"];
+
+/** The Contact page with a topic preselected. */
+export function contactHref(service: ContactTopic) {
+  return `/contact?service=${service}`;
+}
+
 export const footerColumns: { heading: string; links: NavLink[] }[] = [
   {
     heading: "Services",

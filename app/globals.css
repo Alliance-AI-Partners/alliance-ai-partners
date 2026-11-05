@@ -20,6 +20,19 @@
 @import "../design-system/tokens/tokens.css";
 @import "../design-system/tokens/tailwind-theme.css";
 @import "../design-system/css/components.css" layer(components);
+/* Page styles, one file per group of pages (each file writes its rules in @layer components). */
+@import "./styles/ai-check-up.css";
+@import "./styles/services.css";
+@import "./styles/offers.css";
+@import "./styles/company.css";
+@import "./styles/trust.css";
+@import "./styles/contact-legal-system.css";
+@import "./styles/insights.css";
+@import "./styles/industries.css";
+@import "./styles/markets.css";
+@import "./styles/agencies-careers.css";
+@import "./styles/brand.css";
+@import "./styles/proof.css";
 
 :root {
   /* next/font sets --font-mona-sans and --font-mona-sans-mono on <html> (see app/layout.tsx). */
@@ -56,6 +69,14 @@ html:has(dialog[open]) {
   .aap-footer__heading,
   .aap-timezones__name {
     letter-spacing: var(--aap-typography-label-tracking);
+  }
+
+  /* Figma's Data/Mono Clock text style: the clocks' type (28px mono, 1.1 line height, -2% tracking), also used for
+     the large facts beside a hero, such as a price and a duration. */
+  .site-mono-clock {
+    font: var(--aap-font-weight-medium) 1.75rem/1.1 var(--aap-font-family-mono);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
   }
 
   /* Sources: Figma (and the page toolkit) give the note numbers a 32px column at every size. */
@@ -316,22 +337,11 @@ html:has(dialog[open]) {
     }
   }
 
-  /* Scroll reveals (plan 004, components/scroll-effects.tsx): a group that starts below the fold is marked
-     data-revealed="false"; when it scrolls into view it turns "true" and its items rise 12px and fade in, in order.
-     The server HTML is never hidden, and nothing is hidden under reduced motion or in print. */
-  [data-reveal-group][data-revealed="false"] [data-reveal-item],
-  [data-reveal-group][data-revealed="false"][data-reveal-item] {
-    opacity: 0;
-    translate: 0 12px;
-  }
-
-  [data-reveal-group][data-revealed="true"] [data-reveal-item],
-  [data-reveal-group][data-revealed="true"][data-reveal-item] {
-    transition:
-      opacity var(--aap-duration-slow) var(--aap-easing-standard),
-      translate var(--aap-duration-slow) var(--aap-easing-out);
-    transition-delay: calc(var(--reveal-delay, 0ms) + var(--reveal-index, 0) * var(--reveal-stagger, 60ms));
-  }
+  /* Scroll reveals (plan 004, components/scroll-effects.tsx): groups that start below the fold are held at the first
+     frame of a paused animation (the browser's animation API) and play as they scroll into view; their items rise
+     12px and fade in, in order. These variables set a group's timing: items are --reveal-stagger apart (60ms unless a
+     group sets it) after --reveal-delay. The server HTML is never hidden, and nothing is held under reduced motion or
+     in print. */
 
   /* The steps: the ribbon rule grows from the left (from the top on phones, where it runs down the side) over the
      ribbon's 1.4s, and the four steps follow it, 80ms apart. */
@@ -344,21 +354,9 @@ html:has(dialog[open]) {
     transform-origin: left center;
   }
 
-  .aap-steps[data-revealed="false"]::before {
-    scale: 0 1;
-  }
-
-  .aap-steps[data-revealed="true"]::before {
-    transition: scale var(--aap-duration-ribbon) var(--aap-easing-out);
-  }
-
   @media (max-width: 767px) {
     .aap-steps::before {
       transform-origin: center top;
-    }
-
-    .aap-steps[data-revealed="false"]::before {
-      scale: 1 0;
     }
   }
 

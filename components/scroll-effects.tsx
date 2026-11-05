@@ -7,15 +7,18 @@ import { useEffect } from "react";
 /**
  * Scroll reveals for the page (plans/004), triggered by Motion's inView. It renders nothing.
  *
- * Reveals: a `[data-reveal-group]` that starts below the fold is marked `data-revealed="false"`, so its
- * `[data-reveal-item]`s are hidden by CSS; when the group scrolls into view it turns "true" and the items rise and
- * fade in, in order. The motion itself is CSS on the design system's tokens (app/globals.css). Groups already in view
- * are left alone, so the server HTML is never hidden and nothing flashes.
+ * Reveals: a `[data-reveal-group]` that starts below the fold has its `[data-reveal-item]`s (or itself, when it carries
+ * `data-reveal-item`) held at the first frame of a paused rise: 12px down and transparent. When the group scrolls into
+ * view the rises play, one item after another: 400ms (`--aap-duration-slow`), `translate` on `--aap-easing-out` and
+ * `opacity` on `--aap-easing-standard`, items `--reveal-stagger` apart (60ms unless the group sets it) after
+ * `--reveal-delay`. The steps' ribbon (`.aap-steps::before`) grows from the left over the ribbon's 1.4s, or from the
+ * top on phones, where it runs down the side.
  *
- * The band parallax (plans/006) is pure CSS on the browser's scroll timeline, so it needs no JavaScript here.
- *
- * Under prefers-reduced-motion nothing is hidden and nothing moves. The layout survives client navigation, so the
- * effect runs again for each new page.
+ * The motion uses the browser's animation API on the elements, never their attributes or inline styles: React may
+ * still be hydrating part of the page when this runs (a page's content can hydrate after the layout), and changing
+ * attributes there would not match the server HTML. The server HTML is never hidden; groups already in view are left
+ * alone, so nothing flashes. Under prefers-reduced-motion nothing is hidden and nothing moves, and print shows
+ * everything (app/globals.css). The layout survives client navigation, so the effect runs again for each new page.
  */
 export function ScrollEffects() {
   const pathname = usePathname();
@@ -23,27 +26,55 @@ export function ScrollEffects() {
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
+    const root = getComputedStyle(document.documentElement);
+    const token = (name: string) => root.getPropertyValue(name).trim();
+    const slow = parseFloat(token("--aap-duration-slow")) || 400;
+    const ribbon = parseFloat(token("--aap-duration-ribbon")) || 1400;
+    const easeOut = token("--aap-easing-out") || "ease-out";
+    const easeStandard = token("--aap-easing-standard") || "ease";
+    const phone = window.matchMedia("(max-width: 767px)").matches;
+
     const stops: VoidFunction[] = [];
+    const animations: Animation[] = [];
 
     for (const group of document.querySelectorAll<HTMLElement>("[data-reveal-group]")) {
       if (overlapsViewport(group)) continue;
       const items = group.hasAttribute("data-reveal-item")
         ? [group]
         : [...group.querySelectorAll<HTMLElement>("[data-reveal-item]")];
-      items.forEach((item, index) => item.style.setProperty("--reveal-index", String(index)));
-      group.dataset.revealed = "false";
+      const style = getComputedStyle(group);
+      const stagger = parseFloat(style.getPropertyValue("--reveal-stagger")) || 60;
+      const delay = parseFloat(style.getPropertyValue("--reveal-delay")) || 0;
+
+      // Paused at time 0 with backwards fill, each animation holds its item at the first keyframe until it plays.
+      const held: Animation[] = [];
+      items.forEach((item, index) => {
+        const timing = { duration: slow, delay: delay + index * stagger, fill: "backwards" as const };
+        held.push(item.animate([{ opacity: 0 }, { opacity: 1 }], { ...timing, easing: easeStandard }));
+        held.push(item.animate([{ translate: "0 12px" }, { translate: "0 0" }], { ...timing, easing: easeOut }));
+      });
+      if (group.classList.contains("aap-steps")) {
+        held.push(
+          group.animate([{ scale: phone ? "1 0" : "0 1" }, { scale: "1 1" }], {
+            duration: ribbon,
+            easing: easeOut,
+            fill: "backwards",
+            pseudoElement: "::before",
+          }),
+        );
+      }
+      held.forEach((animation) => animation.pause());
+      animations.push(...held);
+
       stops.push(
-        inView(
-          group,
-          () => {
-            group.dataset.revealed = "true";
-          },
-          { margin: "0px 0px -10% 0px" },
-        ),
+        inView(group, () => held.forEach((animation) => animation.play()), { margin: "0px 0px -10% 0px" }),
       );
     }
 
-    return () => stops.forEach((stop) => stop());
+    return () => {
+      stops.forEach((stop) => stop());
+      animations.forEach((animation) => animation.cancel());
+    };
   }, [pathname]);
 
   return null;

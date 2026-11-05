@@ -1,5 +1,5 @@
 import { ArrowLink } from "@/components/arrow-link";
-import { SectionHead } from "@/components/home/section-head";
+import { SectionHead } from "@/components/section-head";
 
 const steps = [
   { title: "Understand", text: "We learn how your business works and where it gets stuck." },

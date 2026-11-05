@@ -1,4 +1,4 @@
-import { SectionHead } from "@/components/home/section-head";
+import { SectionHead } from "@/components/section-head";
 import { LiveTimeZones } from "@/components/home/live-time-zones";
 
 const sources = [

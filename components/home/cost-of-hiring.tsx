@@ -1,5 +1,5 @@
 import { ArrowLink } from "@/components/arrow-link";
-import { SectionHead } from "@/components/home/section-head";
+import { SectionHead } from "@/components/section-head";
 import { cn } from "@/lib/cn";
 
 /* Monthly cost of one full-time software developer to an employer, from the Brand DNA cost comparison. Each figure

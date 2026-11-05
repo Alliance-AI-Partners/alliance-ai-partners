@@ -1,7 +1,7 @@
 import Image, { type StaticImageData } from "next/image";
 import type { ReactNode } from "react";
 import { ArrowLink } from "@/components/arrow-link";
-import { SectionHead } from "@/components/home/section-head";
+import { SectionHead } from "@/components/section-head";
 import aiStrategyIcon from "@/design-system/icons/brand/ai-strategy-mono.svg";
 import automationIcon from "@/design-system/icons/brand/automation-mono.svg";
 import growthIcon from "@/design-system/icons/brand/growth-mono.svg";

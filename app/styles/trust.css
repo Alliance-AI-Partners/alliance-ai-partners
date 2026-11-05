@@ -1,0 +1,5 @@
+/*
+ * Page styles for the trust pages: only what the design system's classes and Tailwind utilities cannot express (for
+ * example a photograph's Partner Navy scrim). Every rule is commented with the Figma node it matches. Class names
+ * start with the page's slug, for example .pricing-scrim-cta.
+ */
