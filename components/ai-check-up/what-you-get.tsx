@@ -76,20 +76,21 @@ export function WhatYouGet() {
 }
 
 /**
- * A page of the sample report in a sunken well (Figma: Well · Sample report preview). From 1024px the page is 536px
- * wide and runs past the well's foot, which clips it; on phones it is narrower, rounded at the top only, and each
- * row's saving moves under its task. Decorative: the real sample report is one link away.
+ * A page of the sample report in a sunken well (Figma: Well · Sample report preview). From 1024px the page is up to
+ * 536px wide and runs past the well's foot, which clips it; on phones it is narrower and rounded at the top only. Each
+ * row's saving sits under its task on phones and on narrow desktops, and beside it from 1280px (the desktop frame),
+ * where the column is wide enough. Decorative: the real sample report is one link away.
  */
 function ReportPreview() {
   return (
     <div
       aria-hidden="true"
-      className="flex h-[432px] flex-col overflow-hidden bg-sunken px-4 pt-6 lg:h-[340px] lg:items-center lg:px-14 lg:pt-10"
+      className="flex h-[432px] flex-col overflow-hidden bg-sunken px-4 pt-6 lg:h-[340px] lg:items-center lg:px-8 lg:pt-10 xl:px-14"
     >
-      <div className="flex w-full shrink-0 flex-col gap-3 rounded-t-md border border-line-subtle bg-raised px-4 pt-4 pb-2 shadow-md lg:max-w-[536px] lg:gap-4 lg:rounded-md lg:px-8 lg:py-7">
-        <div className="flex flex-col items-start gap-3 lg:flex-row lg:items-center">
+      <div className="flex w-full shrink-0 flex-col gap-3 rounded-t-md border border-line-subtle bg-raised px-4 pt-4 pb-2 shadow-md lg:max-w-[536px] lg:gap-4 lg:rounded-md lg:px-6 lg:py-7 xl:px-8">
+        <div className="flex flex-col items-start gap-3 xl:flex-row xl:items-center">
           <span className="aap-tag">Sample report</span>
-          <span className="aap-mono text-ink-secondary lg:flex-1 lg:text-right">AI check-up · [Partner name]</span>
+          <span className="aap-mono text-ink-secondary xl:flex-1 xl:text-right">AI check-up · [Partner name]</span>
         </div>
         <p className="aap-h4">Where AI could save [Partner name] time</p>
         <ol className="border-t border-line">
@@ -97,19 +98,19 @@ function ReportPreview() {
             <li
               key={row.n}
               className={cn(
-                "flex items-start gap-3 border-b border-line px-2 py-2.5 lg:items-center lg:px-3",
+                "flex items-start gap-3 border-b border-line px-2 py-2.5 xl:items-center xl:px-3",
                 row.n === 1 && "bg-ribbon-cyan/10",
               )}
             >
               <span className="aap-mono w-4 shrink-0 text-ink-secondary">{row.n}</span>
-              <span className="flex flex-1 flex-col gap-0.5 lg:flex-row lg:items-center lg:gap-3">
-                <span className="text-body-sm lg:flex-1">{row.task}</span>
-                <span className="aap-mono text-ink-secondary lg:text-ink">{row.saving}</span>
+              <span className="flex flex-1 flex-col gap-0.5 xl:flex-row xl:items-center xl:gap-3">
+                <span className="text-body-sm xl:flex-1">{row.task}</span>
+                <span className="aap-mono text-ink-secondary xl:text-ink">{row.saving}</span>
               </span>
             </li>
           ))}
         </ol>
-        <div className="flex items-center gap-3 px-2 py-3 lg:px-3 lg:pt-1 lg:pb-0">
+        <div className="flex items-center gap-3 px-2 py-3 xl:px-3 xl:pt-1 xl:pb-0">
           <span className="flex-1 text-body-sm text-ink-secondary">Fixed quote for the first fix</span>
           <span className="aap-mono">[PRICE]</span>
         </div>
