@@ -305,7 +305,7 @@ A cool, near-monochrome navy-and-daylight palette with one electric blue kept fo
 
 Content sits in a 1320px container with a fluid side gutter (16px to 32px). Sections breathe with fluid vertical padding (72px to 128px); reading text stops at 52ch and leads at 44ch, about 74 and 63 characters of Mona Sans (a ch is the width of a zero, which is wider than most letters). The spacing scale is a 4px base (4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 128), with 32px card padding, 48px between a section head and its content, and 80px to 128px between chapters.
 
-Section heads are asymmetric two-column grids (title 0.9fr, lead 1.1fr, aligned to the baseline); the hero splits text and mark 1.08fr to 1fr. Below 1024px every two-column grid collapses to one column and multi-column galleries drop to two. Breakpoints are 640, 768, 1024, 1280 and 1536px, min-width.
+Section heads are asymmetric two-column grids (title 0.9fr, lead 1.1fr, aligned to the baseline); the hero splits 1.08fr to 1fr (text and mark on the brand kit; on the website's Home, the headline and the introduction). Below 1024px every two-column grid collapses to one column and multi-column galleries drop to two. Breakpoints are 640, 768, 1024, 1280 and 1536px, min-width.
 
 ## Elevation & Depth
 

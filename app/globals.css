@@ -30,6 +30,8 @@
 
   /* The hero's top padding: 48px at 390 wide to 96px at 1440, like the section padding token. */
   --site-hero-padding-top: clamp(3rem, 1.8857rem + 4.5714vw, 6rem);
+  /* Home's hero: 48px at 390 wide to 128px at 1440, room for the two-line headline and the ribbon arcing over it. */
+  --home-hero-padding-top: clamp(3rem, 1.1429rem + 7.619vw, 8rem);
 }
 
 html {
@@ -301,13 +303,9 @@ html:has(dialog[open]) {
     }
   }
 
-  /* The brand kit's hero shadow for the 3D mark: light from the top left, no glow. */
-  .home-hero-mark {
-    filter: drop-shadow(10px 28px 36px rgba(18, 27, 42, 0.16));
-  }
-
   /* Hero entrance (plan 005): on first load the lead, the actions and the base line rise 8px and fade in, 60ms
-     apart, while the ribbon draws. The headline and the mark stay still: they are what the page paints first.
+     apart, while the ribbon draws from the headline's full stop. The headline stays still: it is what the page
+     paints first.
      CSS keyframes, so it runs before hydration and without JavaScript. Reduced motion shows everything at once. */
   @media (prefers-reduced-motion: no-preference) {
     .home-hero-rise {
