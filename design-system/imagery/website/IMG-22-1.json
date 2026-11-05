@@ -1,0 +1,18 @@
+{
+ "id": "IMG-22-1",
+ "slot": "IMG-22-1 · A sheltered garden",
+ "alt": "A calm faceted garden sheltered by a low hedge woven from one ribbon.",
+ "prompt": "Editorial illustration on a Daylight background, nearly square (about 1:1), safe to crop to 4:5 around the centre. A small, calm garden of flat faceted paper plants at first light, enclosed on every side by a low, continuous hedge woven from one satin ribbon in a gradient from Alliance Blue to Ribbon Cyan: a sheltered space where care and privacy are kept in. Inside, soft blossoms and young leaves in Partner Navy, slate blue and pale blue grow in neat, unhurried beds around a smooth open path. Generous calm Daylight sky in the top third. No buildings, no medical symbols, no crosses. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "22 · Healthcare and clinics",
+   "section": "hero",
+   "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

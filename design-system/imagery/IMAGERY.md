@@ -17,6 +17,7 @@ Every image comes from the logo kit's own language: **the ribbon** that binds th
 |---|---|---|
 | [graphics/](graphics/) | The logo kit's brand graphics: ribbon wave, data mesh, five patterns (tile and swatch each), badges, sticker artwork and the swallow mascot. PNG at 2x plus SVG. | [imagery.json](imagery.json) |
 | [backgrounds/](backgrounds/) | Generated nature backgrounds. Each has a web `.webp` (1920 px wide), a `.jpg` master and a `.json` record of its exact prompt, model, aspect ratio and date. | [imagery.json](imagery.json), `category: "background"` |
+| [website/](website/) | The website's images: one entry for every image slot in the Figma website file, with its prompt or repo source, sizes, alt text and slot node IDs. Generated images are saved here as well. | [website/manifest.json](website/manifest.json) |
 
 ## Backgrounds
 
@@ -45,6 +46,39 @@ python brand-kit/tools/build-assets-data.py   # refreshes the brand-kit page
 
 All eight were reviewed by eye on 2026-11-02: palette only, no text, the calm area where the table says. Generated images vary from run to run, so review any regenerated image the same way before it ships.
 
+## Website images
+
+The Figma website file ([Alliance AI Partners — Website](https://www.figma.com/design/1VGkymJ9AH6vGYgFDAU68A/Alliance-AI-Partners-%E2%80%94-Website)) marks every image as an Image slot named `IMG-<page>-<n> · <short>`. For example, `IMG-07-1` is the first image on page 07, Embedded developers. An image keeps its ID on desktop and mobile; an ID ending in `m` is a separate mobile crop. Each slot's label says `New:` (an image generated for this site, saved in [website/](website/)) or `Existing:` (a file already in this repository, such as a background or an email preview).
+
+[website/manifest.json](website/manifest.json) has one entry per image:
+
+| Field | What |
+|---|---|
+| `id`, `slotName` | The slot's ID and name in Figma |
+| `kind` | `new` or `existing` |
+| `prompt` | For a new image, the full Gemini prompt. It shows the section's idea and repeats the rules above: palette only, ribbon and facets, light from the upper left, no text, people or AI clichés |
+| `source` | For an existing image, its path in this repository |
+| `aspectDesktop`, `aspectMobile` | The slot's size on each frame |
+| `alt`, `textArea` | The alt text, and where text sits on or beside the image |
+| `uses` | Every page, section and placement that shows the image |
+| `figma` | The node IDs of its slots, frame by frame, so a script can fill them. A slot can name its own `source` (for example the mobile preview of an email) and a `crop` note |
+
+**Generate them.** [../../brand-kit/tools/generate-website-images.py](../../brand-kit/tools/generate-website-images.py) works like the background script. It makes every missing `new` image at the nearest aspect ratio Gemini supports, then saves `<id>.jpg`, `<id>.webp` and a `<id>.json` record of the exact prompt and model in this folder:
+
+```bash
+python brand-kit/tools/generate-website-images.py              # fills gaps only
+python brand-kit/tools/generate-website-images.py --jobs 3     # fills gaps, three at a time
+python brand-kit/tools/generate-website-images.py IMG-07-1     # regenerates one
+```
+
+It needs `google-genai` and `Pillow`, and reads `GEMINI_API_KEY` from the environment or the git-ignored `.env`. In a cloud session, add `generativelanguage.googleapis.com` to the environment's allowed domains first.
+
+**Review, then place them.** Check each image by eye: palette only, no text or letters, nothing the rules forbid, and the calm area where `textArea` says. Then upload it to the Figma file and fill its slots, using the node IDs in `figma`: give each slot instance an image fill, clear its dashed placeholder stroke, then switch off its `Show label` property, which also hides the ribbon hint. Most slots use scale mode Fill, centred. Where a tall phone crop must keep the subject in view, or the slot's `crop` note names a side, use a Crop moved to that side instead. Email previews always show the top of the email.
+
+**Colour fixes in post.** Gemini sometimes drifts off the palette: a cream ground, or a faint peach or rainbow cast in pale areas. Such an image is corrected in post rather than regenerated. Only the off-palette pixels move to the Daylight hue, and the change is written into the `postprocess` field of the image's `.json` record. A regenerated image comes back without the fix, so review it again.
+
+All 52 new images were reviewed by eye on 2026-11-04 and placed in the Figma file; with the 24 existing images they fill all 157 slots. IMG-05-1 was regenerated once, because the first version showed a seam. 19 images carry a colour fix in post. IMG-07-1's cream ground was fixed in post only because the API credits ran out before it could be regenerated, so regenerate and review it when there is budget.
+
 ## Brand graphics with conditions
 
 - **graphic-wave** carries a soft glow in the logo-kit artwork. Use it as a hero or print graphic, never behind UI text or controls, where the system has no glows.
@@ -52,7 +86,7 @@ All eight were reviewed by eye on 2026-11-02: palette only, no text, the calm ar
 
 ## Text over imagery
 
-Use [image-overlays.css](image-overlays.css) when copy has to sit on a busy part of an image. The scrims are Partner Navy gradients, so text on them is checked against navy (16:1 for Daylight text), never against the image.
+Use [image-overlays.css](image-overlays.css) whenever copy sits on an image. Each scrim holds at least 82 % Partner Navy over the part of the image nearest its edge, then fades out. Text kept inside that part passes AA over any image, even pure white: Daylight 9.1:1, `#BFCBE0` 6.0:1 and Ribbon Cyan 5.6:1. The Figma website file follows the same rule in every image band.
 
 ```html
 <div class="aap-media aap-scrim-start" style="aspect-ratio: 16 / 9">
@@ -61,8 +95,9 @@ Use [image-overlays.css](image-overlays.css) when copy has to sit on a busy part
 </div>
 ```
 
-- `.aap-scrim-start`: navy from the reading-start edge, fading out by 60 %.
-- `.aap-scrim-bottom`: navy from the bottom, for captions and stories.
+- `.aap-scrim-start`: navy from the reading-start edge. Keep the text in the first half.
+- `.aap-scrim-top`: navy from the top, for mobile bands. Keep the text in the top 45 %.
+- `.aap-scrim-bottom`: navy from the bottom, for captions and stories. Keep the text in the bottom 45 %.
 - Decorative backgrounds get `alt=""`; an image that carries meaning gets a description of what it shows.
 
 ## Formats

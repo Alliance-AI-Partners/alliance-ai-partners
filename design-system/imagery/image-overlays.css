@@ -1,13 +1,18 @@
-/* Partner Navy scrims for text over imagery. Load after ../tokens/tokens.css. Text on a scrim is checked against navy,
-   never against the photograph, so use the inverse text tokens (Daylight 16:1, #BFCBE0 10.6:1). */
+/* Partner Navy scrims for text over imagery. Load after ../tokens/tokens.css.
+   Each scrim holds at least 82% Partner Navy over the part of the image nearest its edge, then fades out. Keep every line
+   of text inside that part: the first half for .aap-scrim-start, the 45% nearest the edge for .aap-scrim-top and
+   .aap-scrim-bottom. There, text passes WCAG AA over any image, even pure white: Daylight 9.1:1, #BFCBE0 6.0:1 and
+   Ribbon Cyan 5.6:1. Use the inverse text tokens. */
 
 .aap-scrim-start,
+.aap-scrim-top,
 .aap-scrim-bottom {
   position: relative;
   isolation: isolate;
 }
 
 .aap-scrim-start::after,
+.aap-scrim-top::after,
 .aap-scrim-bottom::after {
   content: "";
   position: absolute;
@@ -17,18 +22,23 @@
 }
 
 .aap-scrim-start::after {
-  background: linear-gradient(to right, rgba(18, 27, 42, 0.86) 0%, rgba(18, 27, 42, 0.55) 32%, rgba(18, 27, 42, 0) 60%);
+  background: linear-gradient(to right, rgba(18, 27, 42, 0.88) 0%, rgba(18, 27, 42, 0.82) 50%, rgba(18, 27, 42, 0) 75%);
 }
 
 .aap-scrim-start:dir(rtl)::after {
-  background: linear-gradient(to left, rgba(18, 27, 42, 0.86) 0%, rgba(18, 27, 42, 0.55) 32%, rgba(18, 27, 42, 0) 60%);
+  background: linear-gradient(to left, rgba(18, 27, 42, 0.88) 0%, rgba(18, 27, 42, 0.82) 50%, rgba(18, 27, 42, 0) 75%);
+}
+
+.aap-scrim-top::after {
+  background: linear-gradient(to bottom, rgba(18, 27, 42, 0.88) 0%, rgba(18, 27, 42, 0.82) 45%, rgba(18, 27, 42, 0) 70%);
 }
 
 .aap-scrim-bottom::after {
-  background: linear-gradient(to top, rgba(18, 27, 42, 0.88) 0%, rgba(18, 27, 42, 0.5) 30%, rgba(18, 27, 42, 0) 55%);
+  background: linear-gradient(to top, rgba(18, 27, 42, 0.88) 0%, rgba(18, 27, 42, 0.82) 45%, rgba(18, 27, 42, 0) 70%);
 }
 
 .aap-scrim-start > :not(img, video),
+.aap-scrim-top > :not(img, video),
 .aap-scrim-bottom > :not(img, video) {
   position: relative;
   z-index: 1;

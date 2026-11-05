@@ -1,0 +1,18 @@
+{
+ "id": "IMG-29-2",
+ "slot": "IMG-29-2 · Blank paper tag",
+ "alt": "A blank paper tag hangs from a satin ribbon.",
+ "prompt": "Still life on a Daylight background. A large blank paper tag, folded from flat faceted planes in white and pale blue-grey, hangs from a satin ribbon in Alliance Blue shading to Ribbon Cyan that loops in from the upper left. The tag is completely blank, with no marks, lines or letters, ready to carry another name. A few small faceted paper leaves in Partner Navy and slate blue rest beneath it. Generous calm Daylight space on the right. Landscape, about 2:1, safe to crop to 3:2. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "29 · For agencies",
+   "section": "white-label",
+   "placement": "inset at the top of the large white-label card, full bleed inside the card"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

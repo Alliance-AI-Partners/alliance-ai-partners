@@ -287,8 +287,8 @@ A cool, near-monochrome navy-and-daylight palette with one electric blue kept fo
 - **Display LG** (620, 40px to 68px fluid, 1.02, Expanded): chapter openers; every showcase section title.
 - **Heading 1 / Heading 2** (600, 34px to 52px and 28px to 40px fluid, Semi-expanded 112.5%): page and section titles in documents and templates.
 - **Heading 3 / Heading 4** (600, 22px to 28px and 18px to 20px, normal width): sub-sections, card and step titles, accordion summaries.
-- **Body LG** (400, 18px to 21px, 1.55, max 60ch, Partner 46): lead paragraphs.
-- **Body** (400, 16px to 17px, 1.6, max 68ch): running text.
+- **Body LG** (400, 18px to 21px, 1.55, max 44ch, Partner 46): lead paragraphs.
+- **Body** (400, 16px to 17px, 1.6, max 52ch): running text.
 - **Body SM / Caption** (400 at 14px to 15px; 450 at 13px): secondary text, meta, help text.
 - **Label** (540, 14px, 0.01em, sentence case): buttons, form labels, nav, tabs.
 - **Numeral** (600, 40px to 64px, Expanded, tabular lining figures): prices and figures.
@@ -303,7 +303,7 @@ A cool, near-monochrome navy-and-daylight palette with one electric blue kept fo
 
 ## Layout
 
-Content sits in a 1320px container with a fluid side gutter (16px to 32px). Sections breathe with fluid vertical padding (72px to 128px); reading text stops at 68ch, leads at 60ch. The spacing scale is a 4px base (4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 128), with 32px card padding, 48px between a section head and its content, and 80px to 128px between chapters.
+Content sits in a 1320px container with a fluid side gutter (16px to 32px). Sections breathe with fluid vertical padding (72px to 128px); reading text stops at 52ch and leads at 44ch, about 74 and 63 characters of Mona Sans (a ch is the width of a zero, which is wider than most letters). The spacing scale is a 4px base (4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 128), with 32px card padding, 48px between a section head and its content, and 80px to 128px between chapters.
 
 Section heads are asymmetric two-column grids (title 0.9fr, lead 1.1fr, aligned to the baseline); the hero splits text and mark 1.08fr to 1fr. Below 1024px every two-column grid collapses to one column and multi-column galleries drop to two. Breakpoints are 640, 768, 1024, 1280 and 1536px, min-width.
 
@@ -378,7 +378,7 @@ The one signature, used once or twice per surface to tie sections together, neve
 - **Do** keep Alliance Blue to the one committing action in view; make every other interactive accent Partner Navy (Ribbon Cyan inside a navy chapter).
 - **Do** underline every inline link.
 - **Do** light depth from the top left: navy-tinted shadows falling down and right, plus a lit top edge on raised planes.
-- **Do** set display type at Expanded width with negative tracking, and running text at normal width within 68ch.
+- **Do** set display type at Expanded width with negative tracking, and running text at normal width within 52ch.
 - **Do** put sources, times, codes and hex values in Mona Sans Mono with tabular figures.
 - **Do** keep all text at WCAG AA or better on its ground.
 - **Do** keep the glow of the graphic-wave artwork to hero and print use, never behind UI text or controls.

@@ -217,7 +217,8 @@
   --aap-space-section: clamp(4.5rem, 3rem + 5vw, 8rem); /* Vertical padding of a page section, fluid. */
   --aap-space-gutter: clamp(1rem, 0.6rem + 1.6vw, 2rem); /* Page side gutter, fluid. */
   --aap-size-container: 1320px; /* Maximum content width. */
-  --aap-size-measure: 68ch; /* Maximum line length for reading. */
+  --aap-size-measure: 52ch; /* Maximum line length for running text: about 74 characters of Mona Sans (1ch is a zero, wider than most letters). */
+  --aap-size-measure-lead: 44ch; /* Maximum line length for leads (Body LG): about 63 characters of Mona Sans. */
   --aap-size-control-sm: 36px; /* Small control height. */
   --aap-size-control-md: 44px; /* Default control height (touch target). */
   --aap-size-control-lg: 52px; /* Large control height. */

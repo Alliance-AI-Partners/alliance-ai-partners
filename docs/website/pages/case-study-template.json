@@ -1,0 +1,339 @@
+{
+ "slug": "case-study-template",
+ "figmaPage": "36 · Case study template",
+ "phase": "Later",
+ "route": "/case-studies/<case>",
+ "purpose": "The layout every future case study will use, with placeholders only: who the partner is, the problem, what we did in the four steps, results that each carry a source and a date, the partner’s approved quote, related services and the AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "[Partner name]: [what changed] | Alliance AI Partners",
+  "description": "[One sentence: what changed for [Partner name], with its main result and where that figure comes from.]"
+ },
+ "states": [
+  "template (every bracketed item is filled in with partner-approved content before publishing)"
+ ],
+ "frames": {
+  "desktop": "96:588",
+  "mobile": "97:906"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "hero-text-led",
+   "ground": "daylight",
+   "job": "Open with what changed for the partner, say who they are, mark the page as a template, and show the case at a glance.",
+   "heading": "[What changed, in a sentence.] (set on two lines: ‘[What changed,’ / ‘in a sentence.]’)",
+   "lead": "[Two sentences: who [Partner name] is, what was slow or stuck for them, and what changed.]",
+   "meta": [
+    "Tag: [Industry]",
+    "Case study · Published [date]",
+    "Link: All case studies → /case-studies"
+   ],
+   "alert": {
+    "type": "Info",
+    "title": "This is a case study template.",
+    "body": "Every item in brackets, such as [Result], is replaced with real words and figures that [Partner name] has approved, each figure with its source and date."
+   },
+   "facts": [
+    {
+     "term": "Partner",
+     "value": "[Partner name]"
+    },
+    {
+     "term": "Industry",
+     "value": "[Industry]"
+    },
+    {
+     "term": "Based in",
+     "value": "[Country]"
+    },
+    {
+     "term": "Services",
+     "value": "[Service], [Service]"
+    },
+    {
+     "term": "Worked together",
+     "value": "[Month year] to [Month year]"
+    },
+    {
+     "term": "Approved by the partner",
+     "value": "[Date]"
+    }
+   ],
+   "desktop": "Padding 80 top. Split 1.08fr | 1fr, top-aligned: text column 652 (Display/LG title on two lines, Body/LG standfirst at 600, a meta row below: Tag, Body/SM line, small link; then the Info alert, full column width) | the ‘At a glance’ facts list (604; a plain list, not a card, since the hero holds no cards): Heading/4 and six term/value rows on hairlines. 56 below, the cover image across the 1320 container (1320x520, 18 px corners).",
+   "mobile": "Title, standfirst, meta row (wraps), the alert, the cover re-cropped to 4:3 (358x268), then the ‘At a glance’ facts list (no card) with the rows stacked term over value.",
+   "components": [
+    "Header",
+    "Tag",
+    "Link",
+    "Alert (Info)",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-36-1",
+     "slotName": "IMG-36-1 · Growth, measured",
+     "kind": "new",
+     "aspectDesktop": "1320x520 (about 2.5:1), inset with 18 px corners",
+     "aspectMobile": "4:3 (358x268), cropped to the right third",
+     "placement": "the case study’s cover, across the container under the hero text; under the alert on mobile",
+     "textArea": "none (no text sits on the image); the left two thirds stay calm",
+     "alt": "A ribbon marked like a measuring tape stands beside a tall young plant.",
+     "source": "Editorial illustration on a calm Daylight background, wide panoramic (about 2.5:1, 1320x520), safe to crop to 4:3 around the right third. In the right third, a tall young plant built from flat faceted paper planes in navy and blue shades rises from a low faceted paper mound, its top leaves catching Ribbon Cyan light from the upper left. Beside its stem, a satin ribbon in a gradient from Alliance Blue to Ribbon Cyan stands upright like a gardener’s measuring tape, marked with plain, evenly spaced tick lines (lines only, no numbers or letters), running from the ground to the plant’s top leaf: growth that was measured. At the foot of the mound lies the small faceted paper seed husk it grew from. The left two thirds are calm, open Daylight with low, soft faceted hills along the bottom edge. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "note": "The template’s default cover. A real case study may keep it or get its own cover made to the same rules; never a photo of the partner’s people or premises.",
+     "figma": {
+      "desktop": "96:682",
+      "mobile": "97:964"
+     }
+    }
+   ],
+   "figma": {
+    "desktop": "96:637",
+    "mobile": "97:945"
+   }
+  },
+  {
+   "id": "problem",
+   "name": "The problem",
+   "layout": "text-column",
+   "ground": "daylight",
+   "job": "Say what was slow or stuck, what it cost the partner, and how success would be measured, before anything about the fix.",
+   "heading": "The problem.",
+   "lead": "[One or two sentences on what was slow or stuck, and what it cost [Partner name] in time or money.]",
+   "body": [
+    "[How the work was done before: who did it, with which tools, and where it got stuck. Plain words, short sentences.]",
+    "[What [Partner name] had already tried, and why it didn’t work.]"
+   ],
+   "panel": {
+    "title": "What success meant",
+    "text": "[Before we started, we agreed with [Partner name] how to measure success, in their own numbers: what we would measure, where the figure comes from, and the target.]"
+   },
+   "desktop": "Heading/2 in a 572 column on the left | the reading column on the right: Body/LG at 684, two Body/Default paragraphs at 600, then a Neutral 50 well (600, 10 px corners, 24 padding) with Heading/4 and Body/Default.",
+   "mobile": "Title, then the paragraphs and the well in one column.",
+   "components": [],
+   "images": [],
+   "figma": {
+    "desktop": "96:686",
+    "mobile": "97:989"
+   }
+  },
+  {
+   "id": "what-we-did",
+   "name": "What we did",
+   "layout": "steps",
+   "ground": "daylight",
+   "job": "Walk through the four steps for this partner and show what we built.",
+   "heading": "What we did.",
+   "lead": "[One sentence on the fix we chose and why. Say so when part of it needed no AI.]",
+   "items": [
+    {
+     "title": "Understand",
+     "text": "[What we learned about how [Partner name] works and where the work got stuck.]"
+    },
+    {
+     "title": "Plan",
+     "text": "[The fix we picked and why, including any part that needed no AI.]"
+    },
+    {
+     "title": "Build",
+     "text": "[What we built, who built it, and how long it took.]"
+    },
+    {
+     "title": "Run and grow",
+     "text": "[How we keep it running, and what we have improved since.]"
+    }
+   ],
+   "built": {
+    "title": "What we built",
+    "text": "[What the tool does each day, who uses it, and which of [Partner name]’s systems it connects to.]",
+    "ownership": "[Partner name] owns what we built.",
+    "tags": [
+     "[Tool]",
+     "[System]"
+    ]
+   },
+   "desktop": "Asymmetric section head, then the Steps component (the page’s ribbon signature) with each step’s line replaced by its placeholder; 64 below, a split: a framed screen placeholder (720x400: white frame, Neutral 50 top bar with three dots, a file icon and the Body/SM note) | text column 536 (Heading/3, Body/Default, Body/SM ownership line, two Tags).",
+   "mobile": "Head stacked, the Steps component’s Mobile variant, the screen placeholder at 358x260, then the text and Tags.",
+   "components": [
+    "Section head",
+    "Steps",
+    "Tag",
+    "Icon/file"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "source": "Screen placeholder drawn in Figma (frame, top bar, icon, note). A real case study replaces it with a screenshot of what we built, shared with the partner’s permission; it is never generated."
+    }
+   ],
+   "figma": {
+    "desktop": "96:697",
+    "mobile": "97:998"
+   }
+  },
+  {
+   "id": "results",
+   "name": "The results",
+   "layout": "sourced-stats",
+   "ground": "daylight",
+   "job": "Show the results as placeholders that each carry a source key, with the note that every result has a source and a date and the dated source list.",
+   "heading": "The results.",
+   "lead": "Measured in [Partner name]’s own numbers, against what we agreed before we started. [Partner name] approved every figure on this page.",
+   "items": [
+    {
+     "title": "[Result]",
+     "text": "[Time saved: hours a week, and on which task]",
+     "meta": "Source key 1"
+    },
+    {
+     "title": "[Result]",
+     "text": "[Money saved or earned: a month or a year]",
+     "meta": "Source key 2"
+    },
+    {
+     "title": "[Result]",
+     "text": "[Quality or speed: errors, replies or orders a day]",
+     "meta": "Source key 3"
+    }
+   ],
+   "note": "Every result carries a source and a date: where the figure came from and when it was measured. A figure we can’t check doesn’t go on this page.",
+   "sources": [
+    {
+     "key": "1",
+     "text": "[Partner name]’s [order system] report, [start date] to [end date]. Approved by [Partner name] on [date]."
+    },
+    {
+     "key": "2",
+     "text": "[Partner name]’s [accounting software] export, [start date] to [end date]. Approved by [Partner name] on [date]."
+    },
+    {
+     "key": "3",
+     "text": "[Partner name]’s [help desk] report, [start date] to [end date]. Approved by [Partner name] on [date]."
+    }
+   ],
+   "desktop": "Section head, then three Stat cells between hairlines (left hairline between cells), each with its Source key; an info icon with the note at 600 (two lines); the mono source list below a hairline.",
+   "mobile": "Head stacked; the three Stats stacked, one per row between hairlines; the note; the source list.",
+   "components": [
+    "Section head",
+    "Stat",
+    "Source key + Source list",
+    "Icon/info"
+   ],
+   "images": [],
+   "figma": {
+    "desktop": "97:166",
+    "mobile": "97:1044"
+   }
+  },
+  {
+   "id": "quote",
+   "name": "Quote",
+   "layout": "text-column",
+   "ground": "navy",
+   "job": "Give the partner’s own words, approved by them, as a calm Navy chapter.",
+   "quote": "“[Quote, approved by the partner]” (desktop set on two lines: ‘“[Quote, approved’ / ‘by the partner]”’; mobile on three: ‘“[Quote,’ / ‘approved by’ / ‘the partner]”’)",
+   "attribution": {
+    "name": "[Name]",
+    "role": "[Role], [Partner name]",
+    "approval": "Approved by [Partner name] on [date]"
+   },
+   "desktop": "A whole Partner Navy chapter: the quote in Display/LG (Daylight) at 1000, then a hairline and an attribution row: Body/Strong name over Body/SM role | mono approval line on the right.",
+   "mobile": "The quote in Display/LG (mobile size), then the name, role and approval line stacked.",
+   "components": [],
+   "images": [],
+   "figma": {
+    "desktop": "97:210",
+    "mobile": "97:1087"
+   },
+   "note": "Keep the approved quote to one or two sentences, about 25 words. It is set in Display/LG (Expanded), which fits about 26 characters a line at 1000 px and about 11 on a phone, so a 25-word quote already runs to about six lines on desktop and over a dozen on mobile. If a partner’s approved quote is longer, set it in Heading/1 and keep Display/LG for short quotes (a design-system decision still to make)."
+  },
+  {
+   "id": "related-services",
+   "name": "Related services",
+   "layout": "list-rows",
+   "ground": "daylight",
+   "job": "Link to the services behind the work, each with its published starting price.",
+   "heading": "Related services.",
+   "lead": "Each one has a published starting price, and you get a fixed quote before work starts.",
+   "items": [
+    {
+     "title": "AI automation",
+     "text": "One slow process handled by AI and checked by a person.",
+     "price": "From [PRICE] a project",
+     "link": "/services/ai-automation"
+    },
+    {
+     "title": "Websites and web apps",
+     "text": "A fast, accessible site or web app, built and kept running.",
+     "price": "From [PRICE]",
+     "link": "/services/websites"
+    },
+    {
+     "title": "Embedded developers",
+     "text": "A developer from our team works inside yours, full time.",
+     "price": "From [PRICE] a month",
+     "link": "/services/embedded-developers"
+    }
+   ],
+   "ctas": [
+    {
+     "label": "See all services",
+     "variant": "link",
+     "target": "/services"
+    }
+   ],
+   "desktop": "Section head, then three Service rows on hairlines and the link.",
+   "mobile": "Head stacked; the Service rows’ Mobile variant; the link.",
+   "components": [
+    "Section head",
+    "Service row",
+    "Link"
+   ],
+   "images": [],
+   "note": "List the services the project actually used. The three launch services shown are the template’s example, with the rows and copy used on the Home page.",
+   "figma": {
+    "desktop": "97:218",
+    "mobile": "97:1094"
+   }
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the AI check-up, the page’s one committing action.",
+   "heading": "Start with an AI check-up. (set on two lines: ‘Start with an’ / ‘AI check-up.’)",
+   "accentWord": "check-up.",
+   "lead": "Our usual first project: a short review of where AI could save your team time or money. You get a report that ranks what we find and prices the first fix.",
+   "ctas": [
+    {
+     "label": "See where AI can help",
+     "variant": "primary",
+     "target": "/ai-check-up"
+    },
+    {
+     "label": "Read the sample report",
+     "variant": "link",
+     "target": "/ai-check-up/sample"
+    }
+   ],
+   "desktop": "Partner Navy chapter: the Ribbon rule (240), then an asymmetric row: Display/LG title (572, two lines, cyan accent) | Body/LG lead and Primary LG + cyan link.",
+   "mobile": "Rule, title, lead, full-width Primary LG, link centred.",
+   "components": [
+    "Ribbon rule",
+    "Button (Primary, LG)",
+    "Link"
+   ],
+   "images": [],
+   "figma": {
+    "desktop": "97:255",
+    "mobile": "97:1126"
+   }
+  }
+ ],
+ "notes": "Template only: every partner detail, result, date, quote and service list is a bracketed placeholder ([Partner name], [Industry], [Country], [Result], [Quote, approved by the partner], [Name], [Role], [date]); nothing is invented. The Info alert marks the frame as a template and is removed on a real case study. The four steps use the Brand DNA names (Understand, Plan, Build, Run and grow). Results follow the price-claim rules: a Source key on each figure, a dated source line, approval by the partner. One Primary (the closing band); the hero has none, the header keeps its Secondary outline and no nav item is marked current. The ribbon appears twice: the Steps component and the rule in the closing band. Build 2026-11-03: both frames pass the lint (node 37:851) with no findings, before and after the last text edits; the mobile frame has no layer wider than 390. Headings and the quote were set on balanced lines by hand (in code, text-wrap: balance). No existing background is used, so the template adds no repeated image. Outside review 2026-11-03: the ‘At a glance’ facts sat in a white raised card inside the hero, which broke the no-cards-in-the-hero rule and pulled the eye from the headline; the card chrome (fill, hairline, shadow, radius, padding) was removed on both frames (96:661, 97:968, now named ‘At a glance’), leaving a hairline-ruled facts list whose values fill the column. Both frames re-linted with no findings. The desktop Info alert now wraps to three lines because the Alert component’s body carries the 496 px measure cap; that is intended."
+}

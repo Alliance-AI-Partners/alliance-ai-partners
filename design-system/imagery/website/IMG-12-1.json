@@ -1,0 +1,18 @@
+{
+ "id": "IMG-12-1",
+ "slot": "IMG-12-1 · Ribbon across the gap",
+ "alt": "",
+ "prompt": "Wide landscape at first light, built from flat faceted paper planes. In the right half of the frame, two faceted paper hills stand on either side of a deep valley. One smooth, wide satin ribbon spans the gap between the two hilltops like a bridge, Alliance Blue on its shaded back turning to Ribbon Cyan where it catches the light, with one gentle twist in the middle: two sides joined into one team, the gap closed. The left half is calm, open pre-dawn sky in deep Partner Navy, lightening slowly toward a pale Alliance Blue horizon at the right, empty enough for white headline text. Aspect 16:9 for a full-bleed band, safe to crop to a tall mobile frame around the ribbon bridge, with the bridge in the lower half. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "12 · About",
+   "section": "hero",
+   "placement": "background of the hero band, navy scrim from the left (desktop) or the top (mobile)"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

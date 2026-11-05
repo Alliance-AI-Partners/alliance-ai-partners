@@ -1,0 +1,18 @@
+{
+ "id": "IMG-34-2",
+ "slot": "IMG-34-2 · A report, ready to open",
+ "alt": "A blank faceted booklet tied with a ribbon that is coming undone.",
+ "prompt": "Editorial illustration on a deep Partner Navy ground. In the lower left, a closed booklet folded from flat faceted paper, its blank cover in pale Daylight and soft navy shades with no marks at all, lies at a slight angle. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is tied around it and is just coming undone, its loose end curving up and away to the right: a finished report, ready to open. A soft navy-tinted shadow falls beneath the booklet. The right half and the top third are calm, plain deep navy for white text. Landscape, about 16:9 (1440x800); keep the booklet in the left third so a tall mobile crop positioned on the left still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "34 · AI check-up sample report",
+   "section": "next-steps",
+   "placement": "background with a navy scrim from the reading edge (right on desktop, top on mobile)"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

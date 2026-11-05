@@ -1,0 +1,345 @@
+{
+ "slug": "about",
+ "figmaPage": "12 · About",
+ "phase": "Launch",
+ "route": "/about",
+ "purpose": "Tell a founder who Alliance AI Partners is, why it exists, what it holds to and where it is based, so they trust the team enough to start an AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "About us | Alliance AI Partners",
+  "description": "Alliance AI Partners is an AI company based in the Philippines that works as part of its partners' teams in the US, Australia and the UK. We build it, run it, and help you grow."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "44:959",
+  "mobile": "46:1398"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "hero-fullbleed-image",
+   "ground": "navy",
+   "job": "Say who we are with the About-page tagline, and offer the one committing action.",
+   "desktop": "Full-bleed band 1440x760 (grows with the text). Image with a navy scrim from the left (92% to 78% over the first 58%, clear by 86%). Text block at x 60, centred vertically: Display/XL title on two set lines, Body/LG lead at 580, Primary LG + Link. No extra meta line: the hero keeps to one headline, one lead, one action group (the partners line lives in the Who we work with card).",
+   "mobile": "Band 390x820 or taller: text at the top over a scrim from the top (title on three balanced lines), full-width Primary LG, link; the ribbon bridge shows in the lower part of the image. Scrim holds 82% navy or more under every line of text.",
+   "content": {
+    "heading": "We build it, run it, and help you grow.",
+    "accentWord": "grow.",
+    "lead": "Alliance AI Partners is an AI company based in the Philippines. We team up with companies in the US, Australia, the UK and beyond to scale AI, solve business problems with AI, and grow.",
+    "body": [],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "How we work",
+      "variant": "link",
+      "target": "/how-we-work"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Image slot",
+    "Button",
+    "Link"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-12-1",
+     "slotName": "IMG-12-1 · Ribbon across the gap",
+     "kind": "new",
+     "aspectDesktop": "1440x760 full bleed (16:9 source, cropped)",
+     "aspectMobile": "390x820 (tall crop around the ribbon bridge)",
+     "placement": "background of the hero band, navy scrim from the left (desktop) or the top (mobile)",
+     "textArea": "left half, white text (desktop); top half (mobile)",
+     "alt": "",
+     "source": "Wide landscape at first light, built from flat faceted paper planes. In the right half of the frame, two faceted paper hills stand on either side of a deep valley. One smooth, wide satin ribbon spans the gap between the two hilltops like a bridge, Alliance Blue on its shaded back turning to Ribbon Cyan where it catches the light, with one gentle twist in the middle: two sides joined into one team, the gap closed. The left half is calm, open pre-dawn sky in deep Partner Navy, lightening slowly toward a pale Alliance Blue horizon at the right, empty enough for white headline text. Aspect 16:9 for a full-bleed band, safe to crop to a tall mobile frame around the ribbon bridge, with the bridge in the lower half. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "why-we-exist",
+   "name": "Why we exist",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "State the purpose, the 2035 vision and the daily mission, and say who we work with.",
+   "desktop": "Asymmetric head (title 0.45 | the purpose as the lead), 48 px, then a bento: two stacked cards on the left (mission with a link; who we work with) and the large vision card (648) on the right with IMG-12-2 across its top and a five-point hairline list. The left column fills the height of the vision card: the two cards share it equally, with the icon at the top and the copy at the foot of each card, so the bento ends on one line.",
+   "mobile": "Head stacked; the vision card first (image 358x224, 16:10), then the mission card, then the who-we-work-with card.",
+   "content": {
+    "heading": "Why we exist.",
+    "lead": "Many companies know AI could help them, but their teams are buried in slow, manual work and don’t have the time or the skills to make it happen. We exist to close that gap, so companies can get more done and grow without wearing out their people.",
+    "items": [
+     {
+      "title": "By 2035, a global hub for AI",
+      "text": "We want to be the partner that companies around the world trust most to help them use AI and grow. That means: hundreds of partner companies, each starting from what we’ve learned with the others; lessons travel across the alliance, partner data never does; long-term relationships, with partners counting on us year after year; our own products, built from problems we’ve solved many times over; a team that the best engineers, designers and marketers want to join."
+     },
+     {
+      "title": "What we do every day",
+      "text": "We work side by side with our partners to find where AI can help, build what they need, keep it running, and help them win more customers."
+     },
+     {
+      "title": "Who we work with",
+      "text": "Companies in the US, Australia, the UK and other countries. We call them partners, because we work as part of their team."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See how we work",
+      "variant": "link",
+      "target": "/how-we-work"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Card",
+    "Service icon/Mono",
+    "Icon/check",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-12-2",
+     "slotName": "IMG-12-2 · Many ribbons, one hub",
+     "kind": "new",
+     "aspectDesktop": "648x320 (about 2:1)",
+     "aspectMobile": "358x224 (16:10)",
+     "placement": "top of the large vision bento card, full bleed inside the card",
+     "textArea": "top third calm",
+     "alt": "Many satin ribbons arriving from every direction and braiding together on one faceted hill.",
+     "source": "A calm, wide faceted paper landscape at daybreak, seen from slightly above. Thin satin ribbons in Alliance Blue, Ribbon Cyan and soft slate blue arrive from every edge of the frame, crossing near and far hills, and meet on top of one central faceted hill, where they braid together into a single wide, smooth ribbon that rises toward the upper right: many partners, one place they trust. Daylight sky fading to pale Ribbon Cyan near the horizon, Partner Navy only in the deepest facets. Keep the top third calm. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "values",
+   "name": "Values",
+   "layout": "list-rows",
+   "ground": "navy",
+   "job": "Show the four values and what each one means in practice.",
+   "desktop": "Navy chapter. Heading/1 asymmetric head. Four hairline rows: value name (Heading/3, 572) | what it means (Body/LG) with two or three practice lines and Ribbon Cyan checks.",
+   "mobile": "Head stacked; the four values collapse into Accordion items on navy, the first open, the practice lines inside each answer.",
+   "content": {
+    "heading": "What we hold to.",
+    "lead": "Four values, written down so you can hold us to them.",
+    "items": [
+     {
+      "title": "One team, one goal",
+      "text": "Your goals become our goals. We work as part of your team, and we judge our work by your results, like more sales or hours saved."
+     },
+     {
+      "title": "Simple on purpose",
+      "text": "A good system stays in the background. People notice that their work got easier, and rarely think about what’s behind it."
+     },
+     {
+      "title": "Trust holds everything up",
+      "text": "You trust us with your data and the systems your business runs on. We protect that access as if it were our own."
+     },
+     {
+      "title": "Clear the path",
+      "text": "We go first. We try new AI tools on our own business before we bring them to you, so you only get what works."
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Icon/check",
+    "Accordion item"
+   ],
+   "images": []
+  },
+  {
+   "id": "big-idea",
+   "name": "The big idea",
+   "layout": "split-image-left",
+   "ground": "daylight",
+   "job": "Explain the Ribbon: one ribbon binds the A and the P, and “alliance” comes from a Latin word meaning “to bind.”",
+   "desktop": "White feature panel (600, 28 radius, card shadow and lit edge) holding Logo/Mark/Full colour light at 200 px with a mono legend (A for alliance, P for partners, Ribbon binds the two); text right: Heading/2 title, lead, body, then the Ribbon rule (the page's one ribbon signature).",
+   "mobile": "Title and lead first, then the panel (mark 140 px, legend wraps), body, Ribbon rule 200.",
+   "content": {
+    "heading": "A ribbon that binds.",
+    "accentWord": "binds.",
+    "lead": "In our logo, one ribbon binds the A and the P of Alliance AI Partners. The same ribbon ties our website and everything we make together.",
+    "body": [
+     "It fits our name: “alliance” comes from a Latin word meaning “to bind.” And it’s how we work: one team, tied to one goal."
+    ]
+   },
+   "components": [
+    "Card",
+    "Logo/Mark/Full colour light",
+    "Ribbon rule"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "slotName": "Panel · The mark",
+     "source": "Logo/Mark/Full colour light (component 13:12) inside a white feature panel; Ribbon rule (14:130) under the text",
+     "placement": "left half of a split; under the lead on mobile",
+     "alt": "The Alliance AI Partners mark: a ribbon binding an A and a P."
+    }
+   ]
+  },
+  {
+   "id": "where-we-are",
+   "name": "Where we are",
+   "layout": "sourced-stats",
+   "ground": "navy",
+   "job": "Say plainly that we are based in the Philippines and why it matters, with sourced figures. The base is stated in copy only, with no regional motifs.",
+   "desktop": "Navy chapter. Heading/1 head (accent in Ribbon Cyan). A 2x2 hairline grid: US$40.3 billion [1] | 1.89 million [1] / High [2] | the Data Privacy Act statement [3]; links to Why the Philippines and Data and security; numbered mono sources in Text/Secondary (navy-safe).",
+   "mobile": "Head stacked; the three stats and the law as stacked hairline rows; links stacked; sources.",
+   "content": {
+    "heading": "Based in the Philippines.",
+    "accentWord": "Philippines.",
+    "lead": "You’ll want to know where your team is, so here it is up front. It’s also a big part of why we cost less: our team’s costs are lower, AI does the repetitive work, and we pass the difference on to you.",
+    "items": [
+     {
+      "title": "US$40.3 billion",
+      "text": "Earned by the Philippines’ IT and business services industry in 2025.",
+      "meta": "1"
+     },
+     {
+      "title": "1.89 million",
+      "text": "People that industry employs (2025).",
+      "meta": "1"
+     },
+     {
+      "title": "High",
+      "text": "English proficiency, rated second in Asia.",
+      "meta": "2"
+     },
+     {
+      "title": "Data Privacy Act of 2012",
+      "text": "Personal data is protected by the Data Privacy Act of 2012, enforced by an independent National Privacy Commission.",
+      "meta": "3"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Why the Philippines",
+      "variant": "link",
+      "target": "/why-the-philippines"
+     },
+     {
+      "label": "Data and security",
+      "variant": "link",
+      "target": "/trust"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "IBPAP, Philippine IT and business services industry, 2025 revenue and headcount. Retrieved 2026-11-02.",
+      "url": "https://admin.ibpap.org/storage/hub-resources/7Hv9U2uoLJVx2kxyRMObNm6W6L0MR57l9dZfrez7.pdf"
+     },
+     {
+      "key": "2",
+      "text": "EF English Proficiency Index 2025, Philippines (rated “High,” second in Asia). Retrieved 2026-11-02.",
+      "url": "https://www.ef.com/wwen/epi/regions/asia/philippines/"
+     },
+     {
+      "key": "3",
+      "text": "Republic Act 10173, Data Privacy Act of 2012 (Supreme Court E-Library). Retrieved 2026-11-02.",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Stat",
+    "Source key",
+    "Link",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "team",
+   "name": "Team",
+   "layout": "gallery-strip",
+   "ground": "daylight",
+   "job": "Introduce the team honestly with placeholders, never invented people, and point to careers.",
+   "desktop": "Asymmetric head; four Person tiles (300 wide, 40 gap) with [Name] / [Role] and 'Photo to come'; caption; a hairline careers row: Heading/3 | text | Secondary button.",
+   "mobile": "Head stacked (title on two lines); Person tiles in a 2x2 grid at 171 wide; caption; careers block with the Secondary button.",
+   "content": {
+    "heading": "The people behind the work.",
+    "lead": "Engineers, designers and marketers who work inside our partners’ teams. We’ll introduce each person here, with their permission.",
+    "items": [
+     {
+      "title": "[Name]",
+      "text": "[Role]",
+      "meta": "Photo to come"
+     }
+    ],
+    "body": [
+     "Team profiles and photos to come.",
+     "Work with us: We want to build a team that the best engineers, designers and marketers want to join."
+    ],
+    "ctas": [
+     {
+      "label": "See careers",
+      "variant": "secondary",
+      "target": "/careers"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Person tile",
+    "Button"
+   ],
+   "images": [],
+   "notes": "Person tiles keep a 4:5 photo frame at both widths: 300x375 on desktop, 171x214 on mobile (2x2 grid). [Name] and [Role] stay placeholders; no names, photos, headcounts, years or certifications are added."
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the AI check-up, listening first.",
+   "desktop": "Navy chapter split: Display/LG title, lead at 620, Primary LG + email link (760) | the Graphic/Swallow (vector) at 1.5x on the right.",
+   "mobile": "Title, lead, full-width Primary LG, email link, then the swallow at 0.8x aligned right.",
+   "content": {
+    "heading": "Tell us where your week gets stuck.",
+    "accentWord": "stuck.",
+    "lead": "We’ll listen first. The AI check-up is a short first project: we learn how your business works, find where AI could save you time or money, and hand you a plan with a fixed quote.",
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "hello@allianceaipartners.example",
+      "variant": "link",
+      "target": "mailto:hello@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Button",
+    "Graphic/Swallow",
+    "Footer"
+   ],
+   "images": [
+    {
+     "kind": "vector",
+     "slotName": "Graphic · Swallow",
+     "source": "Graphic/Swallow component (22:261)",
+     "placement": "right of the CTA text; under the actions on mobile",
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "notes": "Grounds alternate: navy hero, Daylight, navy values, Daylight, navy where we are, Daylight team, navy CTA, then the footer. Image presentation is varied and differs from Home and How we work: a full-bleed hero with a navy scrim (IMG-12-1), an image inside the large bento card (IMG-12-2), and real vector brand assets (the mark in a feature panel, the swallow). The ribbon signature appears once (the Ribbon rule in the big idea). The Philippines base is stated in copy only. The team uses Person tiles with [Name] / [Role] placeholders; no people, names, photos, headcounts or results are invented, and the 2035 points are framed as the vision. Only Brand DNA sources are used (IBPAP 2025, EF EPI 2025, Republic Act 10173), each dated Retrieved 2026-11-02. One Primary in the hero and one in the closing navy band. Titles that would leave a single word on the last line are set on balanced lines. Both frames pass the lint with no findings. Review 2026-11-03 (outside reviewer): the hero's extra partners line removed (hero budget, and it repeated the Who we work with card); the Why we exist bento now ends level (left cards fill the vision card's height); The big idea writes the full name Alliance AI Partners and the legend reads A for alliance, P for partners; American quote punctuation in the EF source line; the mobile hero scrim's middle stop raised to 82%; the Data and security link points to /trust. Both frames lint clean."
+}

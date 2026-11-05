@@ -1,0 +1,19 @@
+{
+ "id": "IMG-27-1",
+ "slot": "IMG-27-1 · Night into daybreak",
+ "alt": "A satin ribbon runs from a night sky into daybreak, with paper leaves unfolding along it.",
+ "prompt": "A wide landscape of flat faceted paper hills under a sky that runs from deep Partner Navy night at the right to pale daybreak at the upper left. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan flows out of the dark side toward the light, and small faceted paper leaves unfold along it, larger and brighter as they reach the dawn: work that moves forward overnight and is ready by morning. Calm sky in the upper left quarter. Portrait, about 8:9, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "4:5",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "27 · United States",
+   "section": "services",
+   "placement": "right half of the split; under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Palette clamp in post (2026-11-04): 3.82% of pixels carried a faint warm tint (peach or cream light), outside the brand palette; their hue was moved to the Daylight hue and their saturation lowered, brightness unchanged. Cool cast in post (2026-11-04): 1.48% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

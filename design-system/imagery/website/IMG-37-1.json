@@ -1,0 +1,18 @@
+{
+ "id": "IMG-37-1",
+ "slot": "IMG-37-1 · Four paths, one hilltop",
+ "alt": "Four ribbon paths take different routes up one faceted hill and meet at the same top.",
+ "prompt": "Editorial illustration on a soft Daylight background, portrait 4:5, safe to crop to 4:3 around the middle. Four satin ribbon paths start from four different points along the lower edge, each in its own colour (Partner Navy, slate blue, pale blue-grey, and one in a gradient from Alliance Blue to Ribbon Cyan), and wind by different routes up a gentle hill of flat faceted paper to meet at the same rounded hilltop: four fair ways to reach one goal. The paths are about the same width and none is shown as better than the others. A few small flat faceted paper leaves sit along the routes. Keep the upper third of the sky calm and empty. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "4:5",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "37 · Compare",
+   "section": "right-choice",
+   "placement": "left column under the lead on desktop; under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

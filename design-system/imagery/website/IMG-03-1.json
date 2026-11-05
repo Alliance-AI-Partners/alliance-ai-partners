@@ -1,0 +1,18 @@
+{
+ "id": "IMG-03-1",
+ "slot": "IMG-03-1 · Scale AI",
+ "alt": "One ribbon river branching into channels that reach every terrace of a faceted hillside.",
+ "prompt": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. At the upper left a single satin ribbon river in a gradient from Alliance Blue to Ribbon Cyan begins as one stream, then branches into many smaller ribbon channels that run down across a wide hillside of terraces built from flat paper facets in slate blues, so one source reaches every level: AI reaching every team in a company. Small faceted trees stand on each terrace, taller on the lower terraces where the channels have arrived. Calm open Daylight sky in the top quarter, nothing important near the edges. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "5:4",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "03 · Services",
+   "section": "goals",
+   "placement": "left of the Scale AI row; under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "IMG-07-3",
+ "slot": "IMG-07-3 · One swallow joins the flock",
+ "alt": "A fifth faceted swallow joins a small flock in flight.",
+ "prompt": "Editorial illustration for a dark Partner Navy band. In the left third, a small flock of four swallows built from flat faceted paper planes in navy and blue shades flies in a loose, steady line toward the upper right. A fifth swallow, its facets catching Ribbon Cyan light from the upper left, glides in from the lower left edge and takes its place in the line: one new developer joining a team that is already moving. A faint satin ribbon in a gradient from Alliance Blue to Ribbon Cyan traces the flock's path. The right half and the top third are calm, almost plain deep navy, for white text. Wide landscape, about 21:9 (1440x600); keep the flock in the left third and lower half, so a tall mobile crop positioned on the left still shows the joining swallow. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "21:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "07 · Embedded developers",
+   "section": "cta",
+   "placement": "background with a Partner Navy scrim from the right edge (desktop) or from the top (mobile)"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "IMG-21-2",
+ "slot": "IMG-21-2 · A leaf read into its places",
+ "alt": "Ribbon threads lift from a leaf’s veins into a neat row of seed pods.",
+ "prompt": "Editorial illustration on a Daylight background, wide (about 2:1), safe to crop to 16:10 around the centre. At the left, one large flat faceted paper leaf lies on a calm surface, its veins traced in fine Alliance Blue lines. From the veins, four thin satin ribbons in a gradient from Alliance Blue to Ribbon Cyan lift and run to the right, each settling into its own small faceted paper seed pod in a neat row: each detail read from the leaf and put where it belongs, the way an invoice is read and filed. Keep the top third calm and plain. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "21 · Finance and accounting",
+   "section": "package",
+   "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

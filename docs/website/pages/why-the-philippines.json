@@ -1,0 +1,517 @@
+{
+ "slug": "why-the-philippines",
+ "figmaPage": "25 · Why the Philippines",
+ "phase": "Next",
+ "route": "/why-the-philippines",
+ "purpose": "Answer the question every buyer asks, why the Philippines, with sourced facts in the right order: skill first, then hours, the privacy law and price, and move the reader to an AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "Why the Philippines | Alliance AI Partners",
+  "description": "Why Alliance AI Partners is based in the Philippines: skilled people who work in English, hours that suit the US, Australia and the UK, a national privacy law, and lower costs passed on to you. Every figure has a source."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "41:1839",
+  "mobile": "43:2222"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "split-image-right",
+   "ground": "daylight",
+   "job": "Say where we are with pride and give the four reasons, skill first and price last, with the one committing action.",
+   "desktop": "Hero grid 1.08fr | 1fr: text column 652 (Display/XL title on three lines, Body/LG lead 600, Primary LG + underlined link, caption meta) | image slot 604x600 on the right, 64 gap, vertically centred.",
+   "mobile": "Title, lead, Primary full width LG, link, meta; the image moves under the actions and re-crops to 4:5 (358x448).",
+   "content": {
+    "heading": "Why we’re based in the Philippines.",
+    "accentWord": "Philippines.",
+    "lead": "Skilled people who work in English, hours that suit yours, a national privacy law, and lower costs that we pass on to you.",
+    "body": [
+     "Every figure on this page has a source and a date."
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "Compare the costs",
+      "variant": "link",
+      "target": "#costs"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-25-1",
+     "slotName": "IMG-25-1 · Flock on one ribbon",
+     "kind": "new",
+     "aspectDesktop": "604x600 (about 1:1)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right half of the hero split; under the actions on mobile",
+     "textArea": "none (text sits beside the image); keep the upper left quarter calm",
+     "alt": "A flock of paper swallows follows one satin ribbon across a daybreak sky.",
+     "source": "Editorial illustration on a soft Daylight sky at daybreak. A large flock of small faceted paper swallows, several dozen of them, flies in a loose but orderly formation from the lower left toward the upper right. Every bird follows the same long satin ribbon that arcs across the frame in a gradient from Alliance Blue to Ribbon Cyan, so the whole flock reads as one capable team moving together. The birds are folded from flat paper planes in Partner Navy, slate blue and pale cyan, each catching the light on its upper-left facets. A low band of flat faceted paper hills in pale blue-grey runs along the bottom edge. Keep the upper left quarter calm and empty. Near-square, about 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "skill",
+   "name": "Skill",
+   "layout": "sourced-stats",
+   "ground": "daylight",
+   "job": "Lead with skill: the size of the industry we hire from and its English, with sources.",
+   "desktop": "Asymmetric section head. Below, a stat block between hairlines: one wide cell (760) with the industry revenue and a body line, beside a column of two stacked cells (headcount; English proficiency), each a Stat with its Source key. Numbered source list under a hairline.",
+   "mobile": "Head stacked; the three stats stacked full width between hairlines, the revenue first; body line; sources.",
+   "content": {
+    "heading": "Skill comes first.",
+    "accentWord": "",
+    "lead": "Lower costs only matter if the work is good. Here is the talent pool we hire from.",
+    "items": [
+     {
+      "title": "US$40.3 billion",
+      "text": "Earned by the Philippines’ IT and business services industry in 2025.",
+      "meta": "Source 1"
+     },
+     {
+      "title": "1.89 million",
+      "text": "People employed in that industry.",
+      "meta": "Source 1"
+     },
+     {
+      "title": "High",
+      "text": "English proficiency rating, second in Asia.",
+      "meta": "Source 2"
+     }
+    ],
+    "body": [
+     "Our specialists use AI for the repetitive work and spend their time on the decisions that need judgment."
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "IT and Business Process Association of the Philippines (IBPAP), industry revenue and headcount, 2025. Retrieved 2026-11-02.",
+      "url": "https://admin.ibpap.org/storage/hub-resources/7Hv9U2uoLJVx2kxyRMObNm6W6L0MR57l9dZfrez7.pdf"
+     },
+     {
+      "key": "2",
+      "text": "EF English Proficiency Index 2025, Philippines. Retrieved 2026-11-02.",
+      "url": "https://www.ef.com/wwen/epi/regions/asia/philippines/"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Stat",
+    "Source key",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "quality",
+   "name": "Quality",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Answer 'does cheaper mean lower quality?' with reviewed work, visible progress and written documentation.",
+   "desktop": "Section head; bento: one large white card (760) with the framed sample report on top and text below | a column of two stacked cards with service icons that stretch to the large card's height.",
+   "mobile": "Head; the large card first with the mobile report preview cropped to the top (358x360); the two cards stacked below.",
+   "content": {
+    "heading": "A person checks every piece of work.",
+    "accentWord": "",
+    "lead": "AI takes over the repetitive hours. Nothing reaches you until a person has reviewed it.",
+    "items": [
+     {
+      "title": "Judged by your own numbers",
+      "text": "Before we start, we agree on what success looks like, using your own numbers. Then you see progress every week.",
+      "meta": "Sample report from our email templates."
+     },
+     {
+      "title": "Written down for a new hire",
+      "text": "We write down how everything works, clearly enough for a new hire to follow.",
+      "meta": "icon: training-enablement"
+     },
+     {
+      "title": "Tried on our own work first",
+      "text": "We try new AI tools on our own business before we bring them to you, so you only get what works.",
+      "meta": "icon: research-insights"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Card",
+    "Image slot",
+    "Service icon/Mono/research-insights",
+    "Service icon/Mono/training-enablement"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-25-2",
+     "slotName": "IMG-25-2 · Sample report",
+     "kind": "existing",
+     "source": "brand-kit/emails/previews/monthly-report-desktop.png (mobile: brand-kit/emails/previews/monthly-report-mobile.png)",
+     "aspectDesktop": "760x400 framed, top of the large bento card",
+     "aspectMobile": "358x360, mobile preview cropped to the top",
+     "placement": "inset product visual at the top of the large card, full bleed inside the card",
+     "textArea": "none",
+     "alt": "Sample monthly report email from Alliance AI Partners."
+    }
+   ]
+  },
+  {
+   "id": "hours",
+   "name": "Hours",
+   "layout": "timezones",
+   "ground": "daylight",
+   "job": "Show how our day lines up with each market, and route visitors to their country page.",
+   "desktop": "Section head; the Time zones row (four cities at the sample moment); three market rows between hairlines: market name (Heading/4, 280) | sentence with its Source key | link to the country page; caption; sources.",
+   "mobile": "Head; Time zones mobile variant (2x2); market rows stacked: name, sentence, link; caption; sources.",
+   "content": {
+    "heading": "Hours that suit yours.",
+    "accentWord": "",
+    "lead": "We work inside teams in the United States, Australia and the United Kingdom. Here is how our day lines up with each.",
+    "items": [
+     {
+      "title": "Australia",
+      "text": "We’re two hours behind Sydney, or three during Australian daylight saving.",
+      "meta": "Source 1",
+      "link": "/au"
+     },
+     {
+      "title": "United States",
+      "text": "You’re 12 to 16 hours behind us. Brief us before you log off, and see progress when you log on.",
+      "meta": "Source 2",
+      "link": "/us"
+     },
+     {
+      "title": "United Kingdom",
+      "text": "You’re seven or eight hours behind us. Our afternoon is your morning.",
+      "meta": "Source 2",
+      "link": "/uk"
+     }
+    ],
+    "body": [
+     "Sample times for a November morning in Manila. The live site shows the real time in each city."
+    ],
+    "ctas": [
+     {
+      "label": "For Australian partners",
+      "variant": "link",
+      "target": "/au"
+     },
+     {
+      "label": "For US partners",
+      "variant": "link",
+      "target": "/us"
+     },
+     {
+      "label": "For UK partners",
+      "variant": "link",
+      "target": "/uk"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
+     },
+     {
+      "key": "2",
+      "text": "NIST, Local time FAQs (time zones and daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Time zones",
+    "Source key",
+    "Link",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "privacy",
+   "name": "Privacy",
+   "layout": "split-image-left",
+   "ground": "daylight",
+   "job": "Show that personal data is protected by a national law, and what we promise on top of it.",
+   "desktop": "Image slot left (600x640) | text right: Heading/2, Body/LG lead with Source key, three check rows between hairlines, link, source list. 80 gap, vertically centred.",
+   "mobile": "Title, lead, check rows, link; image under at 358x300 (6:5); source list last.",
+   "content": {
+    "heading": "A national law protects personal data.",
+    "accentWord": "",
+    "lead": "Personal data in the Philippines is protected by the Data Privacy Act of 2012, enforced by an independent National Privacy Commission.",
+    "items": [
+     {
+      "text": "Your data stays where you decide, in your own systems wherever possible."
+     },
+     {
+      "text": "We never use your data to train anything you don’t own."
+     },
+     {
+      "text": "We share bad news early, along with a plan to fix it."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "How we handle your data",
+      "variant": "link",
+      "target": "/trust"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "Republic Act No. 10173, Data Privacy Act of 2012. Retrieved 2026-11-02.",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Icon/check",
+    "Source key",
+    "Link",
+    "Source list"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-25-3",
+     "slotName": "IMG-25-3 · Papers bound with ribbon",
+     "kind": "new",
+     "aspectDesktop": "600x640 (about 15:16)",
+     "aspectMobile": "6:5 (358x300)",
+     "placement": "left half of the split; under the list on mobile",
+     "textArea": "none (text sits beside the image); calm Daylight space at the top",
+     "alt": "A stack of blank paper bound with a satin ribbon tied in a firm knot.",
+     "source": "Still life on a Daylight background. A neat stack of plain, blank paper sheets rests on a flat surface, bound twice with a wide satin ribbon in Alliance Blue shading to Ribbon Cyan and tied in a firm, tidy knot on top: information kept together and protected. A few flat faceted paper leaves in Partner Navy and slate blue lie beside the stack. The sheets carry no marks, lines or letters. Generous calm Daylight space around the stack, especially at the top. Portrait, about 15:16, safe to crop to 6:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "costs",
+   "name": "Costs",
+   "layout": "table",
+   "ground": "navy",
+   "job": "Then price: the two reasons we cost less, the Clutch agency ranges with the AI development caveat, and our starting prices.",
+   "desktop": "Navy chapter. Section head (Heading/1 with one cyan accent | lead). Two reasons side by side under a hairline, each with a dark service icon. 'What agencies charge by the hour' (Heading/3), the Clutch table (Work | US | Australia | UK | Philippines | Source) and its caption. Then a split: 'Our starting prices' text (520) | four Service rows and a Secondary button. Sources.",
+   "mobile": "Head; reasons stacked; the table becomes one stacked block per kind of work (label and value rows); caption; Service rows (mobile variant); Secondary button full width; sources.",
+   "content": {
+    "heading": "Your AI team in the Philippines. Your savings back home.",
+    "accentWord": "savings",
+    "lead": "Two things let us charge less, and we pass the difference on to you.",
+    "items": [
+     {
+      "title": "AI does the repetitive work",
+      "text": "First drafts, testing, content production and data entry take fewer hours, so a project needs fewer billable hours."
+     },
+     {
+      "title": "Our costs are Philippine costs",
+      "text": "A team in the Philippines costs less to run than one in the US, the UK or Australia."
+     },
+     {
+      "title": "Websites and web apps",
+      "text": "A fast, accessible site or web app, built and kept running.",
+      "price": "From [PRICE]"
+     },
+     {
+      "title": "The AI check-up",
+      "text": "A short first project that finds where AI could save you time or money.",
+      "price": "From [PRICE]"
+     },
+     {
+      "title": "AI automation",
+      "text": "One slow process handled by AI and checked by a person.",
+      "price": "From [PRICE] a project"
+     },
+     {
+      "title": "Embedded developers",
+      "text": "A developer from our team works inside yours, full time.",
+      "price": "From [PRICE] a month"
+     }
+    ],
+    "table": {
+     "columns": [
+      "Work",
+      "US agencies",
+      "Australian agencies",
+      "UK agencies",
+      "Philippine agencies",
+      "Source"
+     ],
+     "rows": [
+      [
+       "Web development",
+       "US$100–149",
+       "US$100–149",
+       "—",
+       "US$25–49",
+       "1"
+      ],
+      [
+       "Web design",
+       "US$100–149",
+       "US$100–149",
+       "US$50–99",
+       "Under US$25",
+       "2"
+      ],
+      [
+       "AI development",
+       "US$50–99",
+       "US$25–49",
+       "—",
+       "US$25–49",
+       "3"
+      ]
+     ],
+     "oursRow": null,
+     "title": "What agencies charge by the hour"
+    },
+    "body": [
+     "Ranges most agencies charge on Clutch, a marketplace of reviewed agencies, in US dollars an hour. They are marketplace ranges, not official statistics, and they describe typical Philippine agencies, not our own prices. For AI development, Philippine and Australian agencies sit in the same band, so we don’t claim a gap there. A dash means our sources give no figure.",
+     "Published before you talk to us. Then a fixed quote that lists everything we’ll charge."
+    ],
+    "ctas": [
+     {
+      "label": "See all prices",
+      "variant": "secondary",
+      "target": "/pricing"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "Clutch, web developer pricing, September 2026. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-developers/pricing"
+     },
+     {
+      "key": "2",
+      "text": "Clutch, web designer pricing, September 2026. Retrieved 2026-11-02.",
+      "url": "https://clutch.co/web-designers/pricing"
+     },
+     {
+      "key": "3",
+      "text": "Clutch, AI development pricing, September 2026. Retrieved 2026-11-02."
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Service icon/Dark/automation",
+    "Service icon/Dark/partnership",
+    "Table row",
+    "Service row",
+    "Button",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "questions",
+   "name": "Questions",
+   "layout": "accordion",
+   "ground": "daylight",
+   "job": "Answer the four questions buyers ask about a team in the Philippines.",
+   "desktop": "Split: head column (504: Heading/2 + Body/LG lead) | accordion (first item open) with a link below.",
+   "mobile": "Head; accordion full width, first item open; link.",
+   "content": {
+    "heading": "Straight answers.",
+    "accentWord": "",
+    "lead": "What founders ask before they work with a team in another country.",
+    "faq": [
+     {
+      "q": "Where is your team?",
+      "a": "In the Philippines. We work inside teams in the United States, Australia and the United Kingdom."
+     },
+     {
+      "q": "Does cheaper mean lower quality?",
+      "a": "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you."
+     },
+     {
+      "q": "Isn’t outsourcing risky?",
+      "a": "You see progress every week, a person reviews every piece of work, and your data stays in your systems wherever possible. The Philippines also has a national privacy law, enforced by an independent National Privacy Commission."
+     },
+     {
+      "q": "What happens to our data?",
+      "a": "It stays where you decide, and we never use it to train anything you don’t own. Our data and security page explains how we handle it."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Read how we handle data",
+      "variant": "link",
+      "target": "/trust"
+     }
+    ]
+   },
+   "components": [
+    "Accordion item",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the AI check-up.",
+   "desktop": "Full-bleed band 1440x600: image slot with a navy scrim from the top; text block at the top left (x 60, y 88): Display/LG title, Body/LG lead, Primary + email link.",
+   "mobile": "390x640 band, scrim from the top, text at the top, Primary full width.",
+   "content": {
+    "heading": "Start with an AI check-up.",
+    "accentWord": "check-up.",
+    "lead": "A short first project. We learn how your business works, find where AI could save you time or money, and hand you a plan with a fixed quote.",
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "hello@allianceaipartners.example",
+      "variant": "link",
+      "target": "mailto:hello@allianceaipartners.example"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Button",
+    "Footer"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-25-4",
+     "slotName": "IMG-25-4 · Ribbon river",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/ribbon-river.webp",
+     "aspectDesktop": "1440x600 full bleed",
+     "aspectMobile": "390x640, crop to the sky and the top of the river",
+     "placement": "background of the closing band with a navy scrim from the top",
+     "textArea": "top third (desktop and mobile), white text on the scrim",
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "notes": "Skill leads, price follows (Brand DNA: lead with skill, then price). The Philippines base is said in copy only; no regional motifs in any image. Header marks About as current. One Primary in the hero and one in the closing band. Every number on the page carries a Source key and a dated source line in its own section; FAQ answers avoid numbers so they need none. Every promise is Brand DNA wording (values, Questions buyers will ask, Why we cost less); nothing else is promised. Review 2026-11-03: the Privacy title says personal data (what the Data Privacy Act covers), not all of a partner’s data; the Quality and Costs leads no longer repeat their titles and cards; the Quality icons now match their cards."
+}

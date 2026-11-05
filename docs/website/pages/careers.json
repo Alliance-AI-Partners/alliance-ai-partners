@@ -1,0 +1,401 @@
+{
+ "slug": "careers",
+ "figmaPage": "30 · Careers",
+ "phase": "Next",
+ "route": "/careers",
+ "purpose": "Show engineers, designers and marketers what working at Alliance AI Partners is like (the four values in practice, how we work inside partner teams, how you learn), be honest that the team and roles are placeholders and samples, and get them onto the talent list.",
+ "primaryAction": {
+  "label": "Join the talent list",
+  "target": "#talent-list"
+ },
+ "seo": {
+  "title": "Careers | Alliance AI Partners",
+  "description": "Build AI tools and software inside partner teams in the US, Australia and the UK, with an AI company based in the Philippines. See how we work, the sample roles and how hiring works, then join the talent list."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "83:3899",
+  "mobile": "84:864"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "split-image-right",
+   "ground": "daylight",
+   "job": "Say what is different about working here, in one line, with the one committing action.",
+   "desktop": "Hero grid 1.08fr | 1fr: text column 652 (Display/XL title, Body/LG lead 560, Primary LG + link) | image slot 604x600 on the right, 64 gap, vertically centred.",
+   "mobile": "Title, lead, Primary full width LG, link; the image moves under the actions and re-crops to 4:5 (358x448).",
+   "content": {
+    "heading": "Build it, run it, and see it grow.",
+    "accentWord": "grow.",
+    "lead": "Alliance AI Partners is an AI company based in the Philippines. You work inside our partners’ teams in the US, Australia and the UK, and you stay with what you build after launch.",
+    "ctas": [
+     {
+      "label": "Join the talent list",
+      "variant": "primary",
+      "target": "#talent-list"
+     },
+     {
+      "label": "See the sample roles",
+      "variant": "link",
+      "target": "#roles"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-30-1",
+     "slotName": "IMG-30-1 · Stepping stones at daybreak",
+     "kind": "new",
+     "aspectDesktop": "604x600 (about 1:1)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right half of the hero split; under the actions on mobile",
+     "textArea": "none (text sits beside the image); keep the upper left quarter calm",
+     "alt": "A satin ribbon laid along a path of paper stepping stones that rise across calm water at daybreak.",
+     "source": "Editorial illustration on a soft Daylight sky at daybreak. A calm stretch of water built from flat faceted paper planes in pale blue-grey fills the lower half. A path of flat faceted paper stepping stones crosses it from the lower left toward the upper right, each stone a little higher than the one before. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is laid along the stones like a handrail, the way a team clears the path for the next person: work that grows one step at a time. Low faceted hills in Partner Navy and slate blue sit on the far shore. Keep the upper left quarter calm and empty. Near-square, about 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "values",
+   "name": "Values",
+   "layout": "list-rows",
+   "ground": "daylight",
+   "job": "Show the four values as what each one asks of you on a normal day.",
+   "desktop": "Section head (Heading/2 title 0.9fr | Body/LG lead 1.1fr), then a 2 x 2 grid of value blocks separated by hairlines (no cards): a Data/Mono index beside the Heading/3 value name, the text indented under it.",
+   "mobile": "Head stacked; the four blocks stack with a hairline above each.",
+   "content": {
+    "heading": "What we ask of each other.",
+    "accentWord": null,
+    "lead": "The four values behind every partner project, and what each one means on a normal day.",
+    "items": [
+     {
+      "title": "One team, one goal",
+      "text": "You work as part of a partner’s team, and their goals become yours. We judge our work by their results, like more sales or hours saved. When something goes wrong, we say “we,” and we fix it."
+     },
+     {
+      "title": "Simple on purpose",
+      "text": "You pick the simplest thing that does the job. Every automation gets an owner and a backup plan, and you write down how it works, clearly enough for a new hire to follow."
+     },
+     {
+      "title": "Trust holds everything up",
+      "text": "You protect partner data as if it were our own. If AI isn’t the right answer, you say so, even when it means less work for us. Bad news goes out early, with a plan to fix it."
+     },
+     {
+      "title": "Clear the path",
+      "text": "We go first. We use what we sell, and a new tool reaches partners only after it has proven itself in our own work."
+     }
+    ]
+   },
+   "components": [
+    "Section head (K.head)"
+   ],
+   "images": []
+  },
+  {
+   "id": "how-we-work",
+   "name": "How we work",
+   "layout": "split-sticky",
+   "ground": "navy",
+   "job": "Show how the work runs inside a partner's team: the four steps and the commitments every role keeps.",
+   "desktop": "Navy chapter. Heading/1 head (title set on two lines). Two columns: the four steps as hairline rows (Heading/4 name 180 | Body text) at 628, and the commitments as a Ribbon Cyan check list at Body/LG.",
+   "mobile": "Head stacked; the four steps as rows (name over text), then the check list.",
+   "content": {
+    "heading": "Inside the partner’s team.",
+    "accentWord": null,
+    "lead": "You work in their tools and toward their numbers, with all of Alliance AI Partners behind you.",
+    "items": [
+     {
+      "title": "Understand",
+      "text": "We learn how the partner’s business works and where it gets stuck."
+     },
+     {
+      "title": "Plan",
+      "text": "We pick the right fix. Sometimes it doesn’t involve AI at all."
+     },
+     {
+      "title": "Build",
+      "text": "Our engineers and designers build it, on our own or inside the partner’s team."
+     },
+     {
+      "title": "Run and grow",
+      "text": "We keep it working, improve it over time, and help the partner find new customers."
+     }
+    ],
+    "body": [
+     "A person reviews every piece of work before it reaches a partner.",
+     "Partners see progress every week.",
+     "Work happens in the partner’s systems wherever possible.",
+     "If an off-the-shelf tool or a simpler fix costs the partner less, we say so."
+    ]
+   },
+   "components": [
+    "Section head (K.head)",
+    "Icon/check"
+   ],
+   "images": []
+  },
+  {
+   "id": "learning",
+   "name": "Learning",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Show how people learn here: new tools first, written notes, a review on everything.",
+   "desktop": "Section head, then a bento: one large card (648, image on top, body below) | two stacked cards in the right column.",
+   "mobile": "Head; the large card first with the image re-cropped to 16:10 (358x224); the two smaller cards stack under it.",
+   "content": {
+    "heading": "Learn on real projects.",
+    "accentWord": null,
+    "lead": "New tools reach you first, every system is written down, and a person reviews everything you make before a partner sees it.",
+    "items": [
+     {
+      "title": "New tools reach you first",
+      "text": "Every new AI tool we consider runs on our own business before it goes near a partner. You are one of the people trying it, and only the tools that prove themselves stay."
+     },
+     {
+      "title": "Everything is written down",
+      "text": "How every system works is written down, clearly enough for a new hire to follow. You learn a project from its notes, not from guesswork."
+     },
+     {
+      "title": "A second pair of eyes",
+      "text": "A person reviews every piece of work before it reaches a partner, so everything you make comes back with feedback."
+     }
+    ]
+   },
+   "components": [
+    "Card",
+    "Service icon",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-30-2",
+     "slotName": "IMG-30-2 · A ribbon clears the path",
+     "kind": "new",
+     "aspectDesktop": "648x340 (about 2:1)",
+     "aspectMobile": "16:10 (358x224)",
+     "placement": "top of the large bento card, full bleed inside the card",
+     "textArea": "top third calm",
+     "alt": "A satin ribbon opens a path through a paper meadow, with young leaves taking root along it.",
+     "source": "A wide, calm meadow of tall faceted paper grass in pale slate blue and soft navy shades at first light. One satin ribbon in a gradient from Alliance Blue to Ribbon Cyan lies along the ground and curves from the lower left into the distance, opening a clear path through the grass; along the stretch it has already crossed, small faceted paper leaves have taken root beside the path: we try the new tools first, and what works takes root. The sky is a soft Daylight gradient with pale Ribbon Cyan near the horizon. Keep the top third calm and empty. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "team",
+   "name": "Team",
+   "layout": "gallery-strip",
+   "ground": "daylight",
+   "job": "Introduce the team honestly with placeholders, never invented people.",
+   "desktop": "Asymmetric head (title on two lines), then a staggered strip of four Person tiles (300 wide, 40 gap; the second and fourth sit 48 px lower), then a hairline foot: the note | link to About.",
+   "mobile": "Head, the four Person tiles as a 2 x 2 grid at 171 wide, then the note and the link.",
+   "content": {
+    "heading": "The people you would work with.",
+    "accentWord": null,
+    "lead": "Engineers, designers and marketers who work inside partner teams in the US, Australia and the UK.",
+    "items": [
+     {
+      "title": "[Name]",
+      "text": "[Role]",
+      "meta": "Photo to come"
+     },
+     {
+      "title": "[Name]",
+      "text": "[Role]",
+      "meta": "Photo to come"
+     },
+     {
+      "title": "[Name]",
+      "text": "[Role]",
+      "meta": "Photo to come"
+     },
+     {
+      "title": "[Name]",
+      "text": "[Role]",
+      "meta": "Photo to come"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Read about Alliance AI Partners",
+      "variant": "link",
+      "target": "/about"
+     }
+    ],
+    "body": [
+     "We will add names and photos as each person agrees to be shown."
+    ]
+   },
+   "components": [
+    "Person tile",
+    "Link"
+   ],
+   "images": [],
+   "note": "Person tiles keep [Name] / [Role] and Photo to come until real people agree to be shown."
+  },
+  {
+   "id": "roles",
+   "name": "Open roles",
+   "layout": "list-rows",
+   "ground": "daylight",
+   "job": "List the roles as Job rows, marked as samples until real roles exist.",
+   "desktop": "Section head, then four Job rows (1320) with hairlines, then a line pointing to the talent list.",
+   "mobile": "Moves up to follow the hero. Head, then the Job rows at full width: the title and meta wrap in the left column with a 24 px gap before the 'View the role' link (the Job row has no Mobile variant and an instance can't change its direction; in code the link stacks under the text below md), then the talent-list line.",
+   "content": {
+    "heading": "Open roles.",
+    "accentWord": null,
+    "lead": "Sample roles for now, to show how our job posts will look. Real roles will appear here as they open.",
+    "items": [
+     {
+      "title": "Sample role: Full-stack developer",
+      "meta": "Remote, Philippines · Full time",
+      "link": "/careers/sample-full-stack-developer"
+     },
+     {
+      "title": "Sample role: AI automation engineer",
+      "meta": "Remote, Philippines · Full time"
+     },
+     {
+      "title": "Sample role: Product designer",
+      "meta": "Remote, Philippines · Full time"
+     },
+     {
+      "title": "Sample role: Marketing specialist",
+      "meta": "Remote, Philippines · Full time"
+     }
+    ],
+    "body": [
+     "Don’t see your role? Join the talent list, and we will email you when one opens."
+    ]
+   },
+   "components": [
+    "Job row",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "hiring",
+   "name": "Hiring process",
+   "layout": "steps",
+   "ground": "navy",
+   "job": "Show the hiring steps, marked as a sample process.",
+   "desktop": "Navy chapter. Heading/1 head, then four step columns hanging from a 1320 Ribbon rule that runs through the Ribbon Cyan markers (navy numerals), Heading/3 title, Body/Default text; the sample note below.",
+   "mobile": "Head, then the four steps as a vertical list hanging from a vertical Ribbon rule through the markers; the sample note below.",
+   "content": {
+    "heading": "How hiring works.",
+    "accentWord": null,
+    "lead": "Four steps from your application to an offer.",
+    "items": [
+     {
+      "title": "Apply",
+      "text": "Send your links and a few lines about something you built. No cover letter needed."
+     },
+     {
+      "title": "First call",
+      "text": "A [30-minute] call about your work and ours. Bring your questions too."
+     },
+     {
+      "title": "Work sample",
+      "text": "A short task like the real work, reviewed by the people you would work with."
+     },
+     {
+      "title": "Offer",
+      "text": "We decide within [one week] of the work sample and tell you either way."
+     }
+    ],
+    "body": [
+     "Sample process. Each job post confirms its own steps and times."
+    ]
+   },
+   "components": [
+    "Ribbon rule"
+   ],
+   "images": [],
+   "note": "The hiring steps and their times are a sample until the owner confirms them (owner check)."
+  },
+  {
+   "id": "talent-list",
+   "name": "Talent list",
+   "layout": "form",
+   "ground": "daylight",
+   "job": "Close by taking the reader onto the talent list, with consent.",
+   "desktop": "Split: text column 560 (Display/LG closing title, Body/LG lead, privacy link) | white form card (name and email side by side, select, links, consent, Primary LG).",
+   "mobile": "Title, lead, then the form card at full width with every field stacked and the Primary full width LG; the privacy line under the card. The email field carries no help text, because the lead already says we email you when a role opens.",
+   "content": {
+    "heading": "Hear first when a role opens.",
+    "accentWord": "first",
+    "lead": "Tell us what you do, and we will email you when a role that fits opens.",
+    "form": {
+     "fields": [
+      {
+       "label": "Full name",
+       "type": "text",
+       "placeholder": "Your name",
+       "required": true
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "placeholder": "name@example.com",
+       "required": true
+      },
+      {
+       "label": "What do you do?",
+       "type": "select",
+       "placeholder": "Choose one",
+       "help": "Engineering, design, marketing or something else.",
+       "required": true
+      },
+      {
+       "label": "Links to your work",
+       "type": "url",
+       "placeholder": "GitHub, portfolio or LinkedIn",
+       "help": "Optional.",
+       "required": false
+      },
+      {
+       "label": "I agree that Alliance AI Partners may keep my details to contact me about roles.",
+       "type": "checkbox",
+       "required": true
+      }
+     ],
+     "submit": "Join the talent list"
+    },
+    "body": [
+     "Read how we handle your details in our privacy notice."
+    ]
+   },
+   "components": [
+    "Card",
+    "Field",
+    "Select",
+    "Checkbox",
+    "Button",
+    "Link"
+   ],
+   "images": []
+  }
+ ],
+ "notes": "Header marks About as current (Careers sits with the company pages). Every promise comes from the Brand DNA: the four values and their bullets, the four steps, the review and weekly-progress commitments, the honest-pricing line about cheaper fixes, and the vision of engineers, designers and marketers. Nothing is invented: the team is four Person tiles with [Name] / [Role] and Photo to come; every role is marked 'Sample role'; the hiring process is marked as a sample with [30-minute] and [one week] placeholders (owner check). One Primary in the hero and one in the closing form (y 659 and 6368 on desktop; 457 and 8190 on mobile). The ribbon signature appears once (the Ribbon rule under the hiring steps; vertical on mobile). Images: two new slots, a hero split (IMG-30-1) and an image inside the large bento card (IMG-30-2). Grounds: Daylight hero, Daylight values, navy how-we-work, Daylight learning, team and roles, navy hiring, Daylight talent list, navy footer. Lint clean on both frames; no horizontal overflow on mobile. The Job row has no Mobile variant: on mobile its title and meta are set to fill and wrap beside the link.",
+ "mobileOrder": [
+  "hero",
+  "roles",
+  "values",
+  "how-we-work",
+  "learning",
+  "hiring",
+  "team",
+  "talent-list"
+ ],
+ "review": "Reviewed 2026-11-03: lint clean on both frames. Mobile Job rows had a 12 px gap between the wrapped title and the link, now 24 px. The mobile email help repeated the lead and was not on desktop; removed."
+}

@@ -1,0 +1,441 @@
+{
+ "slug": "ai-check-up",
+ "figmaPage": "02 · AI check-up",
+ "phase": "Launch",
+ "route": "/ai-check-up",
+ "purpose": "Get a founder to book the AI check-up: our usual first project, short and low-risk, where we find where AI could save their team time or money.",
+ "primaryAction": {
+  "label": "Book your AI check-up",
+  "target": "#book (the hero Primary scrolls to the booking form; the form's submit is the second Primary, a full screen further down)"
+ },
+ "seo": {
+  "title": "The AI check-up | Alliance AI Partners",
+  "description": "Our usual first project, at a fixed price. In [two weeks] we find where AI could save your team time or money, and hand you a written plan with a fixed quote for the first fix. From [PRICE]."
+ },
+ "states": [
+  "default",
+  "booked (after the form is sent: confirmation view)"
+ ],
+ "frames": {
+  "desktop": "39:528",
+  "mobile": "43:740",
+  "desktopBooked": "43:5529",
+  "mobileBooked": "43:5718"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "layout": "hero-split-image",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "39:577",
+    "mobile": "43:779"
+   },
+   "job": "Say what the check-up is and what it gives you, show its price and length, and offer the one Primary, which scrolls to the form.",
+   "heading": "Start where AI saves the most.",
+   "accentWord": "most.",
+   "lead": "The AI check-up is our usual first project. We learn how your team works, find where AI could save you time or money, and hand you a written plan with a fixed quote for the first fix.",
+   "facts": [
+    {
+     "value": "From [PRICE]",
+     "caption": "The whole check-up, at a fixed price"
+    },
+    {
+     "value": "[two weeks]",
+     "caption": "From the first call to your written plan"
+    }
+   ],
+   "ctas": [
+    {
+     "label": "Book your AI check-up",
+     "variant": "primary",
+     "target": "#book"
+    },
+    {
+     "label": "Read a sample report",
+     "variant": "link",
+     "target": "/ai-check-up/sample"
+    }
+   ],
+   "desktop": "1.08fr text (652) | image (604x600). Title, lead, two facts in mono between hairlines, then the actions.",
+   "mobile": "Title, lead, full-width LG Primary, centred link, the two facts as stacked rows, then the image re-cropped to 4:5 (358x448).",
+   "images": [
+    {
+     "imageId": "IMG-02-1",
+     "slotName": "IMG-02-1 · Three paths, one first step",
+     "kind": "new",
+     "figma": {
+      "desktop": "39:599",
+      "mobile": "43:800"
+     },
+     "aspectDesktop": "604x600 (about 1:1)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right half of the hero split; under the facts on mobile",
+     "textArea": "none (text sits beside the image); keep the top third calm",
+     "alt": "A ribbon path splits into three; the shortest branch ends at a young sapling.",
+     "source": "Editorial illustration on a Daylight background. A single satin ribbon path in a gradient from Alliance Blue to Ribbon Cyan runs in from the lower left across calm, pale faceted paper hills and splits into three branches. The two longer branches wind away toward the far hills; the shortest branch, nearest the viewer, curves to a stop beside a young faceted paper sapling that is already putting out its first leaves: of three possible paths, the first step that pays off soonest. Partner Navy only in the deepest shaded facets of the hills. Calm, open Daylight sky across the top third. About 1:1 (604x600), keep the split and the sapling inside the centre so it crops to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "what-we-look-at",
+   "layout": "steps",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "39:603",
+    "mobile": "43:804"
+   },
+   "job": "Show the Understand and Plan steps applied to the partner: interviews, a walk through their tools and their slowest processes, then how we weigh and check the fixes.",
+   "heading": "We listen first, then we plan. (mobile set on two lines: 'We listen first,' / 'then we plan.')",
+   "accentWord": "plan.",
+   "lead": "The check-up covers the first two of our four steps. Building the fix is a separate decision, and the plan is yours either way.",
+   "items": [
+    {
+     "step": "1 Understand",
+     "icon": "research-insights",
+     "title": "Interviews with your team",
+     "text": "We talk with the people who do the work, not only the managers, and repeat the problem back in their words."
+    },
+    {
+     "step": "1 Understand",
+     "icon": "cloud-integration",
+     "title": "A walk through your tools",
+     "text": "Your CRM, help desk, accounting software and spreadsheets: what each one does, and where work gets typed twice."
+    },
+    {
+     "step": "1 Understand",
+     "icon": "automation",
+     "title": "Your slowest processes, start to finish",
+     "text": "We follow each slow, manual step and note how long it takes and who it waits on."
+    },
+    {
+     "step": "2 Plan",
+     "icon": "data-analytics",
+     "title": "Each opportunity, weighed",
+     "text": "We estimate the time or money each fix would save, from your own records where you have them, and the work it would take."
+    },
+    {
+     "step": "2 Plan",
+     "icon": "ai-strategy",
+     "title": "The simplest fix first",
+     "text": "AI, automation, better design or a tool you already pay for. We recommend the one that does the job."
+    },
+    {
+     "step": "2 Plan",
+     "icon": "partnership",
+     "title": "Checked with your team",
+     "text": "We walk you through what we found before we write it up, so nothing in the plan is a surprise."
+    },
+    {
+     "title": "After the check-up",
+     "text": "If you want us to build the first fix, you already have its fixed price. You can also take the plan to your own team, or to anyone else."
+    }
+   ],
+   "ctas": [
+    {
+     "label": "See how we work",
+     "variant": "link",
+     "target": "/how-we-work"
+    }
+   ],
+   "desktop": "Section head (0.9fr | 1.1fr), then the two step markers on one ribbon rule (the page's ribbon signature) over two columns of hairline rows, and a narrow 'After the check-up' aside (Heading/4) where the rule fades to a hairline.",
+   "mobile": "Head stacked; each phase opens on its marker and a short ribbon rule, rows below; the aside and link last.",
+   "images": []
+  },
+  {
+   "id": "what-you-get",
+   "layout": "bento",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "39:687",
+    "mobile": "43:883"
+   },
+   "job": "Name the three deliverables and show a framed SAMPLE report preview that links to the sample report page.",
+   "heading": "A plan, a price and a straight answer. (desktop set on two lines: 'A plan, a price' / 'and a straight answer.')",
+   "lead": "At the end of the check-up you get three things, in writing. They are yours to keep, whatever you decide next.",
+   "items": [
+    {
+     "title": "A written plan, ranked by what it saves",
+     "text": "Every opportunity we found, ordered by the time or money it would save and the work it would take, with the fix we recommend for each.",
+     "link": "Read a sample report → /ai-check-up/sample"
+    },
+    {
+     "icon": "launch",
+     "title": "A fixed quote for the first fix",
+     "text": "One price for the fix we recommend first, listing everything it includes. Changes are quoted before we do them."
+    },
+    {
+     "icon": "advisory",
+     "title": "Honest advice when AI is not the answer",
+     "text": "If a simpler fix or a tool you already pay for would do the job, we say so, even when it means less work for us."
+    }
+   ],
+   "desktop": "Bento: one large card (the framed preview in a sunken well, then its text and link) beside two stacked cards.",
+   "mobile": "Head stacked; the large card first with a narrower preview (each row stacks the saving under the opportunity), then the two cards.",
+   "images": [
+    {
+     "slotName": "Sample report preview",
+     "kind": "vector",
+     "source": "UI composition drawn in Figma (not a raster): a white document in a Neutral 50 well at the top of the large card. 'Sample report' tag, 'AI check-up · [Partner name]', title 'Where AI could save [Partner name] time', three ranked rows that match the top three of the sample report on page 34 (Order entry from email, Matching supplier invoices, Repeat customer questions), each 'Saves [hours a week]' in mono, row 1 tinted 10% Ribbon Cyan as the recommended first fix, and the line 'Fixed quote for the first fix [PRICE]'.",
+     "aspectDesktop": "large bento card, about 648 wide",
+     "aspectMobile": "358 wide",
+     "placement": "top of the large bento card",
+     "alt": "Sample check-up report: three opportunities ranked by the time they would save, with placeholder figures."
+    }
+   ]
+  },
+  {
+   "id": "who-it-is-for",
+   "layout": "split-image-left",
+   "ground": "navy",
+   "figma": {
+    "desktop": "39:2742",
+    "mobile": "43:3477"
+   },
+   "job": "Say who the check-up suits and, honestly, when to skip it.",
+   "heading": "For teams that know AI could help.",
+   "accentWord": "help.",
+   "lead": "It suits companies whose teams are buried in slow, manual work and who want a clear plan before they spend.",
+   "items": [
+    {
+     "title": "A good fit if",
+     "text": "Your team types the same information into more than one system. / The same questions, quotes or reports come back every week. / You want a plan and a fixed price before you commit to a build. / You can bring the people who do the work into a few short interviews."
+    },
+    {
+     "title": "Skip it if",
+     "text": "You already know what you want built. Ask us for a fixed quote instead (link). / You need a developer on your team now. Read about embedded developers (link)."
+    }
+   ],
+   "desktop": "A whole Partner Navy chapter: image left (560x680, Navy-tone slot) | Heading/1 title with the cyan accent, lead and the two lists (cyan checks, arrows, cyan underlined links).",
+   "mobile": "Title, lead, the image re-cropped to 1:1 (358x358), then both lists.",
+   "images": [
+    {
+     "imageId": "IMG-02-2",
+     "slotName": "IMG-02-2 · Faceted leaves",
+     "kind": "existing",
+     "figma": {
+      "desktop": "39:2745",
+      "mobile": "43:3482"
+     },
+     "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+     "aspectDesktop": "560x680 crop",
+     "aspectMobile": "358x358 crop",
+     "placement": "inset split image on the navy chapter; no text over it",
+     "textArea": "none",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "id": "book",
+   "layout": "form",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "39:2782",
+    "mobile": "43:3516"
+   },
+   "job": "Take the booking: the form with the page's second Primary, and what to have ready beside it.",
+   "heading": "Book your AI check-up.",
+   "lead": "Tell us a little about your team and pick a time for the first call. It is a one-hour video call, and we spend most of it listening.",
+   "aside": {
+    "title": "What to have ready",
+    "items": [
+     "The two or three tasks that take your team the most time each week. Rough hours are fine.",
+     "The tools you use today, such as your CRM, help desk or accounting software.",
+     "A colleague who does the work day to day, if they can join."
+    ],
+    "dataNote": "Please don’t send passwords or customer data. We agree on access together, and your data stays in your systems wherever possible. Read how we handle data (link).",
+    "email": "Prefer email? Write to hello@allianceaipartners.example"
+   },
+   "form": {
+    "fields": [
+     {
+      "label": "Name",
+      "type": "text",
+      "placeholder": "Your full name",
+      "required": true
+     },
+     {
+      "label": "Work email",
+      "type": "email",
+      "placeholder": "name@company.example",
+      "help": "We send the confirmation here.",
+      "required": true
+     },
+     {
+      "label": "Company",
+      "type": "text",
+      "placeholder": "Company name",
+      "required": true
+     },
+     {
+      "label": "Website (optional)",
+      "type": "url",
+      "placeholder": "company.example",
+      "required": false
+     },
+     {
+      "label": "Where your team is",
+      "type": "select",
+      "value": "United States · Eastern Time",
+      "help": "We show call times in your time zone.",
+      "required": true
+     },
+     {
+      "label": "What slows your team down?",
+      "type": "textarea",
+      "placeholder": "For example: we type every order from email into our system by hand.",
+      "help": "A few sentences is plenty.",
+      "required": true
+     },
+     {
+      "label": "Pick a time for the first call",
+      "type": "radio",
+      "options": [
+       "Tuesday, November 17, 5:00 pm EST (6:00 am Wednesday in Manila)",
+       "Wednesday, November 18, 5:00 pm EST (6:00 am Thursday in Manila)",
+       "Thursday, November 19, 7:00 pm EST (8:00 am Friday in Manila)",
+       "None of these. Email me other times."
+      ],
+      "help": "Shown in your time zone, New York (EST), with our time in Manila.",
+      "required": true,
+      "tag": "Sample times",
+      "note": "The four slots are samples: a 'Sample times' Tag sits on the right of the group label."
+     },
+     {
+      "label": "I agree that Alliance AI Partners may use these details to arrange my AI check-up, as set out in the privacy policy.",
+      "type": "checkbox",
+      "required": true
+     }
+    ],
+    "submit": "Book your AI check-up",
+    "note": "You agree the fixed price before any work starts."
+   },
+   "desktop": "Title, lead, what to have ready, the data note (Neutral 50 well) and the email line left (0.9fr) | the form card right: two-up rows for name/email and company/website, the radio slots with Manila time in mono on the right.",
+   "mobile": "Title, lead, then the form card full width (one field per row, Manila time under each slot, full-width LG submit); what to have ready, the data note and the email line after it.",
+   "images": []
+  },
+  {
+   "id": "questions",
+   "layout": "accordion",
+   "ground": "daylight",
+   "figma": {
+    "desktop": "39:2912",
+    "mobile": "43:3645"
+   },
+   "job": "Answer the five questions people ask before booking.",
+   "heading": "Questions about the check-up (set on two lines: 'Questions about' / 'the check-up')",
+   "lead": "Short answers to what founders ask before they book. Anything else, ask us on the first call.",
+   "faq": [
+    {
+     "q": "How long does it take?",
+     "a": "About [two weeks] from the first call to your written plan. Most of that time is ours: your team joins the first call and a few short interviews."
+    },
+    {
+     "q": "What does it cost?",
+     "a": "From [PRICE]. We confirm the fixed price on the first call, before any work starts, and any change is quoted before we do it."
+    },
+    {
+     "q": "Do we have to hire you to build the fixes?",
+     "a": "No. The plan is yours. Build the fixes with your own team, with someone else, or with us at the price in your fixed quote."
+    },
+    {
+     "q": "What if AI is not the answer?",
+     "a": "Then we say so, and tell you what would work better, even when it means less work for us."
+    },
+    {
+     "q": "What do you need from us?",
+     "a": "An hour for the first call, a few short interviews with the people who do the work, and a look at the tools you use. No passwords or customer data before we meet."
+    }
+   ],
+   "ctas": [
+    {
+     "label": "Read all the questions",
+     "variant": "link",
+     "target": "page 14 · Questions buyers ask"
+    }
+   ],
+   "desktop": "Section head (title | lead), accordion under the lead column, first item open.",
+   "mobile": "Title, lead, the accordion full width, link last.",
+   "images": []
+  },
+  {
+   "id": "booked",
+   "layout": "split-image-right",
+   "ground": "daylight",
+   "state": "booked",
+   "figma": {
+    "desktop": "43:5578",
+    "mobile": "43:5757"
+   },
+   "job": "Confirm the booking, show the time in both time zones, add it to the calendar and say what happens next.",
+   "alert": {
+    "type": "Success",
+    "title": "Your AI check-up is booked.",
+    "body": "We sent the agenda and a calendar invite to [email address]."
+   },
+   "heading": "See you on Tuesday.",
+   "lead": "Your first call is a one-hour video call on Tuesday, November 17, at 5:00 pm EST. For us in Manila, that is 6:00 am on Wednesday.",
+   "times": [
+    {
+     "where": "Your time · New York",
+     "date": "Tuesday, November 17",
+     "time": "5:00 to 6:00 pm EST"
+    },
+    {
+     "where": "Our time · Manila",
+     "date": "Wednesday, November 18",
+     "time": "6:00 to 7:00 am PHT"
+    }
+   ],
+   "ctas": [
+    {
+     "label": "Add to calendar",
+     "variant": "secondary",
+     "target": "{{calendar_ics_url}}"
+    },
+    {
+     "label": "Need another time? Email hello@allianceaipartners.example",
+     "variant": "link",
+     "target": "mailto:hello@allianceaipartners.example"
+    }
+   ],
+   "items": [
+    {
+     "title": "1 Check your inbox",
+     "text": "The email has the agenda, what to prepare and the video link. Please don’t send passwords or customer data before we meet."
+    },
+    {
+     "title": "2 We listen first",
+     "text": "On the call, you walk us through a normal week. We ask questions and repeat the problem back in your words."
+    },
+    {
+     "title": "3 Your plan in [two weeks]",
+     "text": "A written plan ranked by what each fix would save, with a fixed quote for the first fix. You decide what happens next.",
+     "link": "Read a sample report → /ai-check-up/sample"
+    }
+   ],
+   "desktop": "Header, this section, footer. Confirmation column (652): Success alert, Heading/1, lead, a two-cell time card, Secondary 'Add to calendar' beside the email line, then 'What happens next' as three numbered rows | the framed email preview (604x760) with a mono caption.",
+   "mobile": "Alert, title, lead, the time card with its two cells stacked, full-width Secondary, email line, the three rows, then the mobile email preview (358x520). No Primary in this state.",
+   "images": [
+    {
+     "imageId": "IMG-02-3",
+     "slotName": "IMG-02-3 · Booking email",
+     "kind": "existing",
+     "figma": {
+      "desktop": "43:5635",
+      "mobile": "43:5814"
+     },
+     "source": "brand-kit/emails/previews/check-up-booked-desktop.png (mobile frame: brand-kit/emails/previews/check-up-booked-mobile.png)",
+     "aspectDesktop": "604x760 framed, top of the email",
+     "aspectMobile": "358x520 framed, top of the email",
+     "placement": "inset framed product visual beside the confirmation; under the rows on mobile",
+     "caption": "Sample confirmation email from our templates.",
+     "alt": "Sample confirmation email: the AI check-up is booked for Tuesday, November 17, with the agenda and what to prepare."
+    }
+   ],
+   "tag": "Sample booking (Tag under the lead; the date and times are the sample booking from brand-kit/emails/check-up-booked.html)"
+  }
+ ],
+ "notes": "Desktop 39:528 was started by an earlier builder copy that has stopped; it was taken over as it stood and fixed: the preview's first row went from solid Ribbon Cyan to the 10% tint, 'After the check-up' moved to Heading/4 so it no longer breaks mid-word, the FAQ title is set on two lines for the same reason, 'No payment now.' was removed (no payment policy is confirmed), 'Most partners start here.' was removed (it implied a track record), the country select shows the United States so the call times in EST make sense, and the consent link got the standard 1px underline. Sample booking values (Tuesday, November 17, 5:00 to 6:00 pm EST = 6:00 to 7:00 am PHT Wednesday; the one-hour call) follow brand-kit/emails/check-up-booked.html. Placeholders kept: [PRICE], [two weeks], [Partner name], [hours a week], [hours a month], [email address]. No figures are claimed, so the page has no source list. One ribbon signature (the step rule). Header CTA stays the Secondary outline and no nav item is marked current. faceted-leaves.webp is used twice across this page group (here and on page 34), the allowed maximum. All four frames pass the lint (node 37:851) with no findings. Review 2026-11-03 (outside reviewer): the booking slots now carry a 'Sample times' Tag and both Booked states a 'Sample booking' Tag; the preview's rows 2 and 3 now match the sample report's ranking (Matching supplier invoices, then Repeat customer questions); the 'After the check-up' line was rewritten in plain words; two headings were set on balanced lines. Still for the owner to confirm: the one-hour first call (from the brand-kit booking email). All four frames re-lint with no findings."
+}

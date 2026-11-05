@@ -21,7 +21,7 @@ The base layer themes what the browser would otherwise draw itself: `border-box`
 | `.aap-surface-sunken` | A Neutral 50 well for code, tables or quiet panels. |
 | `.aap-container` | Centred content, `min(100% - 2 x gutter, 1320px)`. The gutter is fluid (16 to 32 px). |
 | `.aap-section` | Vertical section padding, fluid 72 to 128 px. |
-| `.aap-measure` | Caps a text column at 68ch. |
+| `.aap-measure` | Caps a text column at 52ch, about 74 characters of Mona Sans. `.aap-lead` stops at 44ch. |
 
 ## Type
 
@@ -79,7 +79,7 @@ Use the ribbon once or twice per page, to tie sections together. It is not a div
 | `[aria-busy="true"]` | Loading: the ribbon runs along the button's foot; clicks are ignored. |
 | `:disabled`, `[aria-disabled="true"]` | 45 % opacity, no pointer events. |
 
-An icon with `data-direction="forward"` slides 3 px on hover with the spring easing. `.aap-link` is an inline text link (Partner Navy and always underlined, so colour alone never marks a link; Ribbon Cyan inside a navy chapter) with an optional trailing arrow that does the same.
+An icon with `data-direction="forward"` slides 3 px on hover with the spring easing. `.aap-link` is an inline text link (Partner Navy and always underlined, so colour alone never marks a link; Ribbon Cyan inside a navy chapter) with an optional trailing arrow that does the same. Add `.aap-link--standalone` to a link on its own line, such as "Read the price list" under a button: it gets a 44 px touch target without moving the layout, so keep 8 px or more between it and the next control.
 
 ## Forms
 
@@ -143,7 +143,7 @@ The key is a small boxed numeral in Mona Sans Mono; the targeted source highligh
 
 ## Header and footer
 
-- `.aap-header` is sticky and translucent (86 % Daylight with a blur), fading into the page instead of drawing a hard line. It turns solid under `prefers-reduced-transparency`. Inside it: `.aap-header__bar`, `.aap-header__logo` (36 px tall) and `.aap-nav` with `.aap-nav__link`. The current page (`aria-current="page"`) carries a ribbon underline.
+- `.aap-header` is sticky and translucent (86 % Daylight with a blur), fading into the page instead of drawing a hard line. It turns solid under `prefers-reduced-transparency`. Inside it: `.aap-header__bar`, `.aap-header__logo` (76 px tall with the lockup's built-in clear space, so the 3D mark is 48 px and the artwork 200 px wide, the brand kit's screen minimums) and `.aap-nav` with `.aap-nav__link`. Below 640 px the nav and the header's button are hidden and `.aap-header__menu` (an icon button that opens the menu sheet) appears, as in the Figma mobile header. The current page (`aria-current="page"`) carries a ribbon underline.
 - `.aap-footer` sits in a navy chapter (`.aap-surface-inverse`): `.aap-footer__grid` (2:1:1:1, two columns on tablets, one on phones), `.aap-footer__heading`, `.aap-footer__list`, `.aap-footer__base`.
 
 ## Motion

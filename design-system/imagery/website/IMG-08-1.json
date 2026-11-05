@@ -1,0 +1,18 @@
+{
+ "id": "IMG-08-1",
+ "slot": "IMG-08-1 · Scattered leaves, one flow",
+ "alt": "A satin ribbon gathering scattered paper leaves into one neat line.",
+ "prompt": "Editorial illustration on a Daylight background. In the lower left, dozens of small flat faceted paper leaves in slate blue and pale navy lie scattered and overlapping, a little untidy: the slow work done by hand. A single smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan sweeps in from the lower left, gathers the leaves and carries them in one neat, evenly spaced line across the frame toward the upper right: one process, flowing on its own. Generous calm Daylight space in the upper third. Square 1:1; keep the ribbon's sweep in the central area so it crops cleanly. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "08 · AI automation",
+   "section": "hero",
+   "placement": "left of the hero text on desktop; under the actions on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

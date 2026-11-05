@@ -1,0 +1,410 @@
+{
+  "slug": "data-and-security",
+  "figmaPage": "13 · Data and security",
+  "phase": "Launch",
+  "route": "/trust",
+  "purpose": "Show a founder or CTO, before they share anything, how Alliance AI Partners handles partner data: it stays in their systems wherever possible, we take only the access a job needs, a person reviews every piece of work, and a national privacy law stands behind it.",
+  "primaryAction": {
+    "label": "See where AI can help",
+    "target": "/ai-check-up"
+  },
+  "seo": {
+    "title": "Data and security | Alliance AI Partners",
+    "description": "How Alliance AI Partners handles your data: it stays in your systems wherever possible, we take only the access a job needs, and a person reviews every piece of work."
+  },
+  "states": [
+    "default"
+  ],
+  "frames": {
+    "desktop": "38:45",
+    "mobile": "39:1228"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Section · Hero",
+      "layout": "hero-split-mark",
+      "ground": "daylight",
+      "job": "Say the promise in four words and show least access as a concrete, sample access record.",
+      "desktop": "Text left: Display/XL title with one regular-weight accent, Body/LG lead, Secondary button and a link, a caption that the full data policy comes before launch. Right: a framed product visual, a sample 'Access record' card (lock icons, mono access levels) with a smaller 'Reviewed by a person' card overlapping its lower left. No Primary in the hero; the closing band carries it.",
+      "mobile": "Title, lead, full-width Secondary, link, caption; the access record card follows at full width with the review card overlapping its foot.",
+      "content": {
+        "heading": "Your data stays yours.",
+        "accentWord": "yours.",
+        "lead": "It stays in your systems wherever possible. We take only the access a job needs, and a person on our team reviews every piece of work before it reaches you.",
+        "body": [
+          "We will publish our full data policy on this page before launch."
+        ],
+        "items": [
+          {
+            "title": "Access record",
+            "meta": "[Partner name] · AI check-up · Sample"
+          },
+          {
+            "title": "Your CRM",
+            "text": "Contacts and deals only",
+            "meta": "Read only"
+          },
+          {
+            "title": "Your help desk",
+            "text": "Drafts replies; a person sends them",
+            "meta": "Draft only"
+          },
+          {
+            "title": "Shared drive",
+            "text": "One folder for the check-up files",
+            "meta": "One folder"
+          },
+          {
+            "title": "Access ends when the job ends.",
+            "meta": "Ends [date]"
+          },
+          {
+            "title": "Reviewed by a person",
+            "text": "[Name], [Role]"
+          }
+        ],
+        "ctas": [
+          {
+            "label": "See the AI tools we use",
+            "variant": "secondary",
+            "target": "/trust/subprocessors"
+          },
+          {
+            "label": "Report a security problem",
+            "variant": "link",
+            "target": "/security"
+          }
+        ]
+      },
+      "components": [
+        "Header",
+        "Button (Secondary)",
+        "Link",
+        "Card",
+        "Tag",
+        "Icon/lock",
+        "Service icon/security-governance (Mono)",
+        "Service icon/advisory (Mono)"
+      ],
+      "images": [
+        {
+          "imageId": null,
+          "slotName": "Access record (product visual)",
+          "kind": "vector",
+          "source": "UI composition drawn in Figma: a white 'Access record' card marked Sample, three systems with lock icons and mono access levels, a footer row 'Access ends when the job ends. Ends [date]', and an overlapping 'Reviewed by a person [Name], [Role]' card.",
+          "aspectDesktop": "about 600 wide, hugs height",
+          "aspectMobile": "358 wide",
+          "placement": "right half of the hero (desktop); under the caption (mobile)",
+          "alt": "Sample access record: read-only access to a CRM, draft-only access to a help desk, one shared folder, ending when the job ends."
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "name": "Section · Four rules",
+      "layout": "bento",
+      "ground": "daylight",
+      "job": "Spell out the four rules that apply to every project.",
+      "desktop": "Asymmetric section head; bento with one large card (an inset diagram of 'Your systems' tags with 'Our team works here', and a dashed 'A copy: only if you decide' box, then Heading/3 and text) and three stacked cards on the right with service icons and Heading/4 titles.",
+      "mobile": "Head, the large card, then the three cards stacked.",
+      "content": {
+        "heading": "Four rules on every project.",
+        "lead": "They hold for every service we offer, from the AI check-up to a developer working inside your team.",
+        "items": [
+          {
+            "title": "Your data stays in your systems wherever possible.",
+            "text": "We work inside your tools and accounts instead of copying your data into ours. When a job does need a copy, you decide first."
+          },
+          {
+            "title": "We take only the access a job needs.",
+            "text": "Named accounts, the lowest access level that does the work, removed when the job ends."
+          },
+          {
+            "title": "A person reviews every piece of work.",
+            "text": "AI drafts and checks. A person on our team reviews the result before it reaches you or your customers."
+          },
+          {
+            "title": "Your data trains only what you own.",
+            "text": "Your data is never used to train anything you don't own."
+          }
+        ]
+      },
+      "components": [
+        "Card",
+        "Tag",
+        "Service icon/security-governance",
+        "Service icon/advisory",
+        "Service icon/machine-learning"
+      ],
+      "images": [
+        {
+          "imageId": null,
+          "slotName": "Your systems diagram",
+          "kind": "vector",
+          "source": "UI composition drawn in Figma inside the large bento card: a 'Your systems' panel with CRM, Help desk, Shared drive and Code tags and a 10% cyan-tinted 'Our team works here' row, beside a dashed 'A copy: only if you decide' box.",
+          "aspectDesktop": "full card width, about 290 tall",
+          "aspectMobile": "358 wide",
+          "placement": "top of the large bento card",
+          "alt": "Diagram: our team works inside your systems; a copy is made only if you decide."
+        }
+      ]
+    },
+    {
+      "id": "data-map",
+      "name": "Section · What we touch",
+      "layout": "table",
+      "ground": "daylight",
+      "job": "Show where each kind of data lives and who can see it, marked as a placeholder until the data policy is published.",
+      "desktop": "Section head, an Info alert, then a five-column table. Every cell is a bracketed placeholder.",
+      "mobile": "The table becomes stacked rows: one block per kind of data with four label and value lines.",
+      "content": {
+        "heading": "What we touch, and where it lives.",
+        "lead": "Every kind of data we handle: why we use it, where it lives, who can see it and how long we keep it.",
+        "body": [
+          "Alert (Info): Placeholder until the data policy is published. Each row below will be filled in from the policy before launch. (Mobile: Each entry will be filled in from the policy before launch.)"
+        ],
+        "table": {
+          "columns": [
+            "Data",
+            "Why we use it",
+            "Where it lives",
+            "Who can see it",
+            "Kept for"
+          ],
+          "rows": [
+            [
+              "[Contact details you send us]",
+              "[Purpose]",
+              "[System and region]",
+              "[Roles]",
+              "[Period]"
+            ],
+            [
+              "[Records in your systems]",
+              "[Purpose]",
+              "[Stays in your systems]",
+              "[Roles]",
+              "[Period]"
+            ],
+            [
+              "[Customer conversations an assistant handles]",
+              "[Purpose]",
+              "[System and region]",
+              "[Roles]",
+              "[Period]"
+            ],
+            [
+              "[Code and repositories]",
+              "[Purpose]",
+              "[Your repositories]",
+              "[Roles]",
+              "[Period]"
+            ],
+            [
+              "[AI usage records for your invoice]",
+              "[Purpose]",
+              "[System and region]",
+              "[Roles]",
+              "[Period]"
+            ]
+          ]
+        }
+      },
+      "components": [
+        "Alert (Info)",
+        "Table row"
+      ],
+      "images": []
+    },
+    {
+      "id": "law",
+      "name": "Section · Law band",
+      "layout": "full-bleed-band",
+      "ground": "navy",
+      "job": "Name the Philippine privacy law and its independent regulator, with the source.",
+      "desktop": "Full-bleed 1440x640 band with the image behind a navy scrim; text block on the right: Display/LG title with one cyan accent, Body/LG with Source key 1, a cyan link to the Act, and the mono source line below a hairline. The scrim is solid 92% Partner Navy from the right edge to the middle of the band (x 720, before the text column at 780) and fades to 0 at x 288, so the leaves' lit edges never sit under the text.",
+      "mobile": "390x760 band, scrim from the top, text and source at the top. The scrim is solid 94% from the top to 62% of the height (below the source list) and fades to 0 at 90%, so the crop's leaves show only at the foot.",
+      "content": {
+        "heading": "Our promise, backed by law.",
+        "accentWord": "law.",
+        "lead": "Alliance AI Partners is based in the Philippines. Personal data there is protected by the Data Privacy Act of 2012, enforced by an independent National Privacy Commission.",
+        "ctas": [
+          {
+            "label": "Read the Data Privacy Act",
+            "variant": "link",
+            "target": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+          }
+        ],
+        "sources": [
+          {
+            "key": "1",
+            "text": "Republic Act No. 10173, the Data Privacy Act of 2012. Supreme Court of the Philippines E-Library. Retrieved 2026-11-02.",
+            "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+          }
+        ]
+      },
+      "components": [
+        "Image slot (Navy)",
+        "Source key",
+        "Source list",
+        "Link"
+      ],
+      "images": [
+        {
+          "imageId": "IMG-13-1",
+          "slotName": "IMG-13-1 · Faceted leaves",
+          "kind": "existing",
+          "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+          "aspectDesktop": "1440x640 full bleed",
+          "aspectMobile": "390x760, crop to the lower left leaves",
+          "placement": "background behind a navy scrim (behind the text on the right on desktop, from the top on mobile)",
+          "textArea": "right side, white text (desktop); top (mobile)",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "name": "Section · AI providers",
+      "layout": "product-visual",
+      "ground": "daylight",
+      "job": "Say that every AI provider and tool that may touch partner data is published, and link to the subprocessor list.",
+      "desktop": "Split: text left (Heading/2, Body/LG, the change notice, Secondary button); right a framed preview of the subprocessor list (white card, placeholder rows, mono 'Last updated' and preview note).",
+      "mobile": "Text, then the preview card at full width, then a full-width Secondary button.",
+      "content": {
+        "heading": "Which AI tools touch your data.",
+        "lead": "Some work runs through AI models and tools from other companies. We publish each one that may touch partner data: what it does, what it sees and where it runs.",
+        "body": [
+          "Before a new provider touches your data, we tell you [notice period] ahead.",
+          "Preview. We will publish the full list before launch."
+        ],
+        "table": {
+          "columns": [
+            "Provider",
+            "Purpose",
+            "Location"
+          ],
+          "rows": [
+            [
+              "[Provider]",
+              "[AI model: drafts and answers]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Automation platform]",
+              "[Region]"
+            ],
+            [
+              "[Provider]",
+              "[Hosting and storage]",
+              "[Region]"
+            ]
+          ]
+        },
+        "ctas": [
+          {
+            "label": "See the subprocessor list",
+            "variant": "secondary",
+            "target": "/trust/subprocessors"
+          }
+        ]
+      },
+      "components": [
+        "Card",
+        "Button (Secondary)",
+        "Table row"
+      ],
+      "images": [
+        {
+          "imageId": null,
+          "slotName": "Subprocessor list preview",
+          "kind": "vector",
+          "source": "UI composition drawn in Figma: a white 'Subprocessors' card with a mono 'Last updated [date]' line, three placeholder rows and a mono preview note.",
+          "aspectDesktop": "about 690 wide, hugs height",
+          "aspectMobile": "358 wide",
+          "placement": "right half (desktop); under the text (mobile)",
+          "alt": "Preview of the subprocessor list."
+        }
+      ]
+    },
+    {
+      "id": "security-contact",
+      "name": "Section · Security contact",
+      "layout": "inset-media",
+      "ground": "daylight",
+      "job": "Give the security contact and the response promise in one strip.",
+      "desktop": "One wide white card: a lock icon in a Neutral 50 well, Heading/3 and text, and on the right the security address as an underlined link with a link to the disclosure policy.",
+      "mobile": "The card stacks: icon, title, text, address, link.",
+      "content": {
+        "heading": "Found a security problem?",
+        "lead": "Tell us privately first. We acknowledge every report within [two working days].",
+        "ctas": [
+          {
+            "label": "security@allianceaipartners.example",
+            "variant": "link",
+            "target": "mailto:security@allianceaipartners.example"
+          },
+          {
+            "label": "How to report a vulnerability",
+            "variant": "link",
+            "target": "/security"
+          }
+        ]
+      },
+      "components": [
+        "Card",
+        "Icon/lock",
+        "Link"
+      ],
+      "images": []
+    },
+    {
+      "id": "cta",
+      "name": "Section · Closing CTA",
+      "layout": "cta-band",
+      "ground": "navy",
+      "job": "Close with the AI check-up and what a partner gets from it.",
+      "desktop": "Navy chapter: Ribbon rule (the page's one ribbon signature), Display/LG title with a cyan accent, lead, the page's one Primary and a cyan link; on the right three hairline rows with cyan check icons.",
+      "mobile": "Rule, title, lead, the three rows, full-width Primary, link.",
+      "content": {
+        "heading": "Start with an AI check-up.",
+        "accentWord": "check-up.",
+        "lead": "A short, low-risk first project.",
+        "items": [
+          {
+            "title": "We learn how your business works."
+          },
+          {
+            "title": "We find where AI could save you time or money."
+          },
+          {
+            "title": "You get a plan with a fixed quote."
+          }
+        ],
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "Ask us about your data first",
+            "variant": "link",
+            "target": "mailto:hello@allianceaipartners.example"
+          }
+        ]
+      },
+      "components": [
+        "Ribbon rule",
+        "Button (Primary)",
+        "Icon/check",
+        "Link",
+        "Footer"
+      ],
+      "images": []
+    }
+  ],
+  "notes": "Frames 38:45 and 39:1228 were built by a stopped duplicate builder and kept after review: lint clean on 2026-11-03 after two fixes (the law band Source key text raised from 10 to 12 px, and the fourth rule retitled 'Your data trains only what you own.' to match Brand DNA, since custom model training on a partner's own data is a listed service). Footer-linked trust page, so no nav item is current. The security-governance and lock visuals are used small and in context (lock icons on the access record and in the security strip, the shield service icon in the rules), never as padlock clip art. Everything that depends on the unpublished data policy is a bracketed placeholder and labelled as one (Brand DNA, Notes before launch 6). The only number shown (the Act and its year) carries Source key 1 and a dated source line. Review 2026-11-03: law band scrims strengthened on both frames (the text column started over a 15% scrim on desktop and the source list over a 10 to 25% scrim on mobile, where the crop puts leaves under all the text); the closing lead changed from 'the easiest way to start' (a superlative Brand DNA doesn't make) to Brand DNA's 'short, low-risk first project'. Also in review: the 'What we touch' lead is now publishable copy (it explained the placeholder, which the Info alert already says), and the alert and preview note say 'will be filled in' and 'We will publish' for things that happen before launch."
+}

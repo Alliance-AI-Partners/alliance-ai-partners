@@ -1,0 +1,300 @@
+{
+  "slug": "system-pages",
+  "figmaPage": "17 · System pages",
+  "phase": "Launch",
+  "route": "404: any unknown path (app/not-found.tsx) · Error: any route that fails (app/error.tsx) · Newsletter confirmed: /insights/subscribed (the link in the double opt-in email)",
+  "purpose": "Three short pages that catch a visitor when something is missing, broken or just finished, say plainly what happened, and give a kind way back to the home page or the AI check-up.",
+  "primaryAction": {
+    "label": "Go to the home page",
+    "target": "/ (404 and error); the newsletter page's Primary is 'See where AI can help' to /ai-check-up"
+  },
+  "seo": {
+    "title": "Page not found | Alliance AI Partners · Something went wrong | Alliance AI Partners · You’re subscribed to Insights | Alliance AI Partners",
+    "description": "System pages are noindex. 404 and error return their status codes (404, 500); the newsletter page is reached only from the confirmation email."
+  },
+  "states": [
+    "404",
+    "error",
+    "newsletter confirmed"
+  ],
+  "pages": [
+    {
+      "id": "not-found",
+      "name": "404",
+      "route": "any unknown path (app/not-found.tsx, HTTP 404)",
+      "seo": {
+        "title": "Page not found | Alliance AI Partners",
+        "robots": "noindex"
+      },
+      "primaryAction": {
+        "label": "Go to the home page",
+        "target": "/"
+      },
+      "frames": {
+        "desktop": "64:1428",
+        "mobile": "64:1596"
+      }
+    },
+    {
+      "id": "error",
+      "name": "Error",
+      "route": "any route that fails (app/error.tsx inside the root layout, HTTP 500)",
+      "seo": {
+        "title": "Something went wrong | Alliance AI Partners",
+        "robots": "noindex"
+      },
+      "primaryAction": {
+        "label": "Go to the home page",
+        "target": "/"
+      },
+      "frames": {
+        "desktop": "64:4882",
+        "mobile": "64:5056"
+      }
+    },
+    {
+      "id": "newsletter-confirmed",
+      "name": "Newsletter confirmed",
+      "route": "/insights/subscribed",
+      "seo": {
+        "title": "You’re subscribed to Insights | Alliance AI Partners",
+        "robots": "noindex"
+      },
+      "primaryAction": {
+        "label": "See where AI can help",
+        "target": "/ai-check-up"
+      },
+      "frames": {
+        "desktop": "65:732",
+        "mobile": "65:898"
+      }
+    }
+  ],
+  "frames": {
+    "404Desktop": "64:1428",
+    "404Mobile": "64:1596",
+    "errorDesktop": "64:4882",
+    "errorMobile": "64:5056",
+    "newsletterDesktop": "65:732",
+    "newsletterMobile": "65:898"
+  },
+  "canvas": "One Figma page, one row per system page: desktop at x 0, mobile at x 1600. Rows at y 0 (404), y 2800 (error) and y 5600 (newsletter confirmed). The brief suggested rows 1600 apart, but with the full mobile footer (1299 px since the footer update on 2026-11-03) the mobile frames are 2368 to 2554 px tall, so rows 1600 apart would overlap; 2800 apart they clear.",
+  "sections": [
+    {
+      "id": "not-found",
+      "page": "404",
+      "name": "Section · Not found",
+      "layout": "hero-split-mark",
+      "ground": "daylight",
+      "job": "Say kindly that the page isn’t here, and give three ways on: the home page, a person, or the pages people look for most.",
+      "desktop": "Hero split, never centred (padding 96 top, 128 bottom): text column 652 (Display/XL title over two lines, mono meta line, Body/LG lead at 560, Primary LG + Secondary LG, then a hairline and a 'Or go straight to' label over four underlined links with arrows in one row); the swallow graphic fills the right column, about 440 wide, vertically centred, flying up and out of the page.",
+      "mobile": "Title (Display/XL, breaks naturally after 'find'), meta, lead, full-width LG Primary and full-width LG Secondary, then the swallow at about 200 wide aligned right as a pause, then the four links as 52 px hairline rows (touch targets) under the label.",
+      "content": {
+        "heading": "We can’t find that page.",
+        "accentWord": "page.",
+        "meta": "Error 404 · Page not found",
+        "lead": "The link may be out of date, or the page may have moved. Start again from the home page, or tell us what you were looking for and we’ll send you the right link.",
+        "ctas": [
+          {
+            "label": "Go to the home page",
+            "variant": "primary",
+            "target": "/"
+          },
+          {
+            "label": "Contact us",
+            "variant": "secondary",
+            "target": "/contact"
+          }
+        ],
+        "items": [
+          {
+            "title": "Or go straight to",
+            "text": "label above the links (not a heading)"
+          },
+          {
+            "title": "Services",
+            "link": "/services"
+          },
+          {
+            "title": "Pricing",
+            "link": "/pricing"
+          },
+          {
+            "title": "AI check-up",
+            "link": "/ai-check-up"
+          },
+          {
+            "title": "Questions buyers ask",
+            "link": "/faq"
+          }
+        ]
+      },
+      "components": [
+        "Header",
+        "Button (Primary LG)",
+        "Button (Secondary LG)",
+        "Link",
+        "Graphic/Swallow",
+        "Footer"
+      ],
+      "images": [
+        {
+          "kind": "vector",
+          "slotName": "Graphic/Swallow",
+          "source": "Graphic/Swallow component (Figma 22:261), Partner Navy, scaled to about 440 wide on desktop and 200 wide on mobile. No image slot: the swallow is the page’s one visual.",
+          "aspectDesktop": "about 440x335",
+          "aspectMobile": "about 200x152",
+          "placement": "right column of the hero split; under the actions on mobile, aligned right",
+          "alt": "",
+          "textArea": "none (text sits beside the graphic)"
+        }
+      ]
+    },
+    {
+      "id": "error",
+      "page": "Error",
+      "name": "Section · Error",
+      "layout": "hero-text-led",
+      "ground": "daylight",
+      "job": "Own the problem in plain words, give the reader a retry and a way home, and put a person within reach even if other pages fail to load.",
+      "desktop": "Split, top half text-led (padding 96 top, 128 bottom): text column 652 (Display/LG title that breaks after 'wrong', mono meta with the error code and a request reference, a 240 px ribbon rule, Body/LG lead at 560, Primary LG 'Go to the home page' + Secondary LG 'Try again'); a white card on the right (fill, 32 padding) with 'If it keeps happening' (Heading/4), a Body/SM line asking for the reference, three hairline rows (icon, label, value: email, phone, hours) and the sample caption. The contact details sit on the page itself because /contact may be failing too.",
+      "mobile": "Title (Display/LG) set in three phrase-true lines 'Something / went wrong / on our side.' (balanced wrapping), meta, a 160 px ribbon rule, lead, full-width LG Primary and full-width LG Secondary, then the card full width (24 padding) with the rows stacked label over value.",
+      "content": {
+        "heading": "Something went wrong on our side.",
+        "accentWord": null,
+        "meta": "Error 500 · Reference [request ID]",
+        "lead": "It’s not something you did. Wait a minute, then try again. If it keeps happening, tell us what you were doing and we’ll fix it.",
+        "ctas": [
+          {
+            "label": "Go to the home page",
+            "variant": "primary",
+            "target": "/"
+          },
+          {
+            "label": "Try again",
+            "variant": "secondary",
+            "target": "reload the same URL (reset() in error.tsx)"
+          }
+        ],
+        "items": [
+          {
+            "title": "If it keeps happening",
+            "text": "Send us the reference above and we’ll find the problem faster."
+          },
+          {
+            "title": "Email",
+            "text": "hello@allianceaipartners.example",
+            "link": "mailto:hello@allianceaipartners.example"
+          },
+          {
+            "title": "Phone",
+            "text": "+1 202 555 0147",
+            "link": "tel:+12025550147"
+          },
+          {
+            "title": "Hours",
+            "text": "[9 am to 6 pm] Manila time, Monday to Friday"
+          }
+        ],
+        "body": [
+          "Sample email and phone until launch."
+        ]
+      },
+      "components": [
+        "Header",
+        "Button (Primary LG)",
+        "Button (Secondary LG)",
+        "Ribbon rule",
+        "Card",
+        "Icon/mail",
+        "Icon/phone",
+        "Icon/clock",
+        "Footer"
+      ],
+      "images": [
+        {
+          "kind": "vector",
+          "slotName": "Ribbon rule",
+          "source": "Ribbon rule component (Figma 14:130), 3 px Ribbon 57 to Ribbon Cyan, 240 wide on desktop and 160 on mobile, under the meta line. The page’s one visual and its one use of the ribbon.",
+          "aspectDesktop": "240x3",
+          "aspectMobile": "160x3",
+          "placement": "between the title block and the lead",
+          "alt": "",
+          "textArea": "n/a"
+        }
+      ]
+    },
+    {
+      "id": "newsletter-confirmed",
+      "page": "Newsletter confirmed",
+      "name": "Section · Subscribed",
+      "layout": "split-sticky",
+      "ground": "daylight",
+      "job": "Confirm the subscription, say what Insights is and what will arrive, and offer the AI check-up as the next step.",
+      "desktop": "Split (padding 96 top, 128 bottom): text column 652 (Display/LG title over two lines, ‘You’re subscribed / to Insights.’, with one accent word, Body/LG lead at 560, a Body/SM line naming the address, Primary LG + Secondary LG); a white 'What to expect' card on the right (fill) with the ribbon rule along its top edge, echoing the ribbon rule under the header of the Insights email, then Heading/3 and four hairline rows (UI/Label 152 | Body/Default) and the sample caption.",
+      "mobile": "Title in three phrase-true lines 'You’re / subscribed / to Insights.' (balanced wrapping, the accent kept on 'Insights.'), lead, address line, full-width LG Primary and full-width LG Secondary, then the card full width with the rule on top and each row stacked label over text.",
+      "content": {
+        "heading": "You’re subscribed to Insights.",
+        "accentWord": "Insights.",
+        "lead": "Thanks for confirming. Insights is one short email [once a month] on putting AI to work: where to start, when AI isn’t the answer, and what things really cost.",
+        "meta": "We’ll send it to [email address].",
+        "ctas": [
+          {
+            "label": "See where AI can help",
+            "variant": "primary",
+            "target": "/ai-check-up"
+          },
+          {
+            "label": "Read the latest insights",
+            "variant": "secondary",
+            "target": "/insights"
+          }
+        ],
+        "items": [
+          {
+            "title": "In each issue",
+            "text": "One main story, two short ones and one figure with its source and date."
+          },
+          {
+            "title": "How often",
+            "text": "Arrives [once a month] from hello@allianceaipartners.example. Add the address to your contacts so Insights doesn’t land in spam."
+          },
+          {
+            "title": "Your email",
+            "text": "We use it to send Insights. Our privacy notice explains the rest.",
+            "link": "/privacy"
+          },
+          {
+            "title": "Changing your mind",
+            "text": "Use the unsubscribe link at the bottom of any issue."
+          }
+        ],
+        "body": [
+          "Sample address until launch."
+        ]
+      },
+      "components": [
+        "Header",
+        "Button (Primary LG)",
+        "Button (Secondary LG)",
+        "Card",
+        "Ribbon rule",
+        "Link",
+        "Footer"
+      ],
+      "images": [
+        {
+          "kind": "vector",
+          "slotName": "Ribbon rule",
+          "source": "Ribbon rule component (Figma 14:130) along the top edge of the What to expect card, clipped by the card’s 18 px corners, as in the Insights email (brand-kit/emails/newsletter.html), where the ribbon rule sits under the header band.",
+          "aspectDesktop": "card width x 3",
+          "aspectMobile": "358x3",
+          "placement": "top edge of the What to expect card",
+          "alt": "",
+          "textArea": "n/a"
+        }
+      ]
+    }
+  ],
+  "notes": "Copy follows Brand DNA section 5: the result first, plain words, 'we will'. Nothing is invented: the newsletter name and contents come from brand-kit/emails/newsletter.html (Insights: a lead story, two short stories, one sourced figure, the AI check-up call to action); its cadence stays a placeholder, [once a month]. Placeholders kept: [request ID], [9 am to 6 pm], [once a month], [email address]. Contact details are the template samples and are marked as samples. Each page has one Primary and one visual (the swallow on the 404, the ribbon rule on the error and newsletter pages) and no raster image slots. The error page's Secondary is 'Try again' rather than a link to /contact, because the contact details are on the page itself; the newsletter page's Secondary goes to the Insights index, the natural next read. All three pages carry the full header and footer, so the footer’s links stay one tap away. The cadence placeholder appears only as [once a month], never capitalised, so it can be found and filled in one search."
+}

@@ -1,0 +1,18 @@
+{
+ "id": "IMG-01-1",
+ "slot": "IMG-01-1 · Busywork untangled",
+ "alt": "Tangled ribbons straightening into one smooth ribbon.",
+ "prompt": "Editorial illustration on a Daylight background. On the left, a loose tangle of thin satin ribbons in Partner Navy and muted slate blue loops and knots over itself. Moving right, the strands are gathered and straightened into one smooth, wide satin ribbon in a gradient from Alliance Blue to Ribbon Cyan that flows out of frame at the upper right, the busy work of a week turned into one clear flow. A few small flat faceted paper leaves sit along its path. Generous calm Daylight space in the lower third. Portrait 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "4:5",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "01 · Home",
+   "section": "pitch",
+   "placement": "left half of a split on desktop, so it zig-zags with the hero mark on the right; full width under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

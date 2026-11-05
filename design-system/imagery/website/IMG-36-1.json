@@ -1,0 +1,18 @@
+{
+ "id": "IMG-36-1",
+ "slot": "IMG-36-1 · Growth, measured",
+ "alt": "A ribbon marked like a measuring tape stands beside a tall young plant.",
+ "prompt": "Editorial illustration on a calm Daylight background, wide panoramic (about 2.5:1, 1320x520), safe to crop to 4:3 around the right third. In the right third, a tall young plant built from flat faceted paper planes in navy and blue shades rises from a low faceted paper mound, its top leaves catching Ribbon Cyan light from the upper left. Beside its stem, a satin ribbon in a gradient from Alliance Blue to Ribbon Cyan stands upright like a gardener’s measuring tape, marked with plain, evenly spaced tick lines (lines only, no numbers or letters), running from the ground to the plant’s top leaf: growth that was measured. At the foot of the mound lies the small faceted paper seed husk it grew from. The left two thirds are calm, open Daylight with low, soft faceted hills along the bottom edge. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "21:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "36 · Case study template",
+   "section": "hero",
+   "placement": "the case study’s cover, across the container under the hero text; under the alert on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

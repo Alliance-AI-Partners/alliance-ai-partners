@@ -1,0 +1,18 @@
+{
+ "id": "IMG-29-3",
+ "slot": "IMG-29-3 · Our team behind your brand",
+ "alt": "A blue ribbon runs behind a folded navy paper panel, seen only at its edges.",
+ "prompt": "Editorial illustration for a dark Partner Navy closing band. In the right half, a wide panel of flat faceted paper in deep and mid navy shades lies across low faceted hills like a cover. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs behind the panel: it shows only where it enters at one edge and leaves at the other, lifting the panel slightly so its facets catch light from the upper left: our team working behind your agency's brand. The left half and the top half are calm, plain deep navy for white text. Wide landscape, about 21:9 (1440x600); keep the panel in the right half and the lower part, so a tall mobile crop positioned on the lower right still shows where the ribbon enters and leaves. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "21:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "29 · For agencies",
+   "section": "cta",
+   "placement": "background of the closing band with a navy scrim from the left (from the top on mobile)"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

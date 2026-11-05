@@ -1,0 +1,19 @@
+{
+ "id": "IMG-28-1",
+ "slot": "IMG-28-1 · Afternoon into morning",
+ "alt": "A satin ribbon arcs from a late afternoon sky into the first light of morning over paper fields.",
+ "prompt": "Flat faceted paper fields under a wide sky that shifts from the deeper blue of late afternoon at the right to the pale first light of morning at the upper left. One satin ribbon in a gradient from Alliance Blue to Ribbon Cyan arcs across the whole sky from the afternoon side into the morning side, where a faceted paper blossom is just opening at its end: an afternoon’s work arriving at the start of a day. Calm sky in the upper left quarter. Portrait, about 8:9, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "4:5",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "28 · United Kingdom",
+   "section": "services",
+   "placement": "right half of the split; under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 1.48% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

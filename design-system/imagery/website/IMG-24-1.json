@@ -1,0 +1,19 @@
+{
+ "id": "IMG-24-1",
+ "slot": "IMG-24-1 · A ribbon road between groves",
+ "alt": "A ribbon road winds between small faceted tree groves at early evening.",
+ "prompt": "Editorial illustration on a Daylight background at early evening, nearly square (about 1:1), safe to crop to 4:5 around the centre. Low, rounded faceted paper hills in slate blue and Partner Navy under a soft pale sky. A satin ribbon road in a gradient from Alliance Blue to Ribbon Cyan winds through the valley and links a series of small faceted tree groves one after another, each grove with one leaf catching the light: the next jobs on the route, booked in order. Keep the top third a calm, open sky. No houses, no vehicles, no tools. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "24 · Home services and local businesses",
+   "section": "hero",
+   "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Palette clamp in post (2026-11-04): 5.12% of pixels carried a faint warm tint (peach or cream light), outside the brand palette; their hue was moved to the Daylight hue and their saturation lowered, brightness unchanged. Cool cast in post (2026-11-04): 1.9% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}
