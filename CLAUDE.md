@@ -1,6 +1,6 @@
 # Alliance AI Partners
 
-Brand foundation for Alliance AI Partners, a Philippines-based AI company that works as an embedded team for companies in the US, Australia and the UK. This repo holds the strategy, the finished logo kit, the design system, the brand kit and the records of the website design. The website is designed in Figma, desktop and mobile, but not yet built in code; the planned stack is Next.js on Vercel with Tailwind CSS v4.
+Brand foundation for Alliance AI Partners, a Philippines-based AI company that works as an embedded team for companies in the US, Australia and the UK. This repo holds the strategy, the finished logo kit, the design system, the brand kit, the records of the website design and the website itself. The website is designed in Figma, desktop and mobile, and is being built at the root of this repo with Next.js 16, TypeScript and Tailwind CSS v4, for Vercel. Built so far: the header, the mobile menu, the footer and Home.
 
 ## Sources of truth
 
@@ -17,6 +17,7 @@ Read these before changing anything. Where older notes disagree, these win.
 | Figma: logo suite | [Alliance AI Partners — Logo Suite](https://www.figma.com/design/rXNPaaMds46oWgM64QPRI6/Alliance-AI-Partners-%E2%80%94-Logo-Suite) |
 | Figma: every website page, desktop and mobile | [Alliance AI Partners — Website](https://www.figma.com/design/1VGkymJ9AH6vGYgFDAU68A/Alliance-AI-Partners-%E2%80%94-Website) (start with its Cover page); page records, routes and copy in `docs/website/` (start with its README) |
 | Website images: prompts, repo sources, alt text and slot locations | `design-system/imagery/website/manifest.json` |
+| Website code: pages, components, global styles | `app/`, `components/`, `lib/` (see "Working with the website code") |
 | What was decided, when, and what it replaced | `AllianceAIPartners/Decision Log.md` |
 
 Historical, kept for the record, not guidance: `AllianceAIPartners/Big Idea Options.md`, `AllianceAIPartners/Design System Directions.md`, `AllianceAIPartners/logo-concepts/`, `AllianceAIPartners/Logos/`, `docs/logos/` (the AI-generated source images), `.impeccable/` (design-tool review records) and `.claude-flow/` (a tool ledger).
@@ -45,6 +46,15 @@ Historical, kept for the record, not guidance: `AllianceAIPartners/Big Idea Opti
 - Images are Image slot instances named `IMG-<page>-<n> · <short>`. The manifest above gives each slot's prompt or repo source and its node IDs; `brand-kit/tools/generate-website-images.py` generates the new ones.
 - The page toolkit and the lint live in the file as text nodes `24:3` and `37:851` on the Image slots page, with their source in `docs/website/toolkit/`. Load them as `docs/website/README.md` shows, and don't delete them.
 - The Figma account is on the Education plan, which limits MCP calls per minute: build a whole frame per call, and take screenshots inside `use_figma` (at most five come back from one call).
+
+## Working with the website code
+
+- Run `npm install`, then `npm run dev` and open http://localhost:3000. Before pushing, run `npm run lint`, `npm run typecheck` and `npm run build`.
+- Next.js 16 differs from older versions. Read the guide in `node_modules/next/dist/docs/` before writing Next.js code (`AGENTS.md`, which `next dev` keeps current, says the same). Cache Components is on: a page must not read the time, `Math.random()` or request data while it prerenders; read the time in the browser, as `components/home/live-time-zones.tsx` does.
+- `app/globals.css` loads Tailwind, the tokens, the generated Tailwind theme and `design-system/css/components.css` (in Tailwind's components layer, so a utility can override one property). Style with the `aap-*` classes and the theme utilities (`text-body-lg`, `text-ink-secondary`, `border-line`); never type raw colours or sizes a token covers. Where Figma differs from a component, add a commented rule to `globals.css`.
+- Images, logos, icons and fonts are imported straight from `design-system/` and `brand-kit/` (images and SVG logos through `next/image`, icons through `components/icon.tsx`). Don't copy them into `public/`.
+- Layouts switch from the Figma mobile frame to the desktop frame at 1,024 px (`lg`). Copy that Figma words differently in the two frames is rendered twice, with `lg:hidden` and `hidden lg:inline`.
+- Check each page against its Figma frames at 1,440 and 390 wide: section tops and heights, text positions, and image and card boxes. Figma rounds every line height to a whole pixel and draws small Mona Sans about 2% wider than browsers do, so expect a few pixels of drift and the odd different line break; spacing itself should match.
 
 ## Build caveats
 

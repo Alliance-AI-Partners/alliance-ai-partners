@@ -10,6 +10,8 @@ The Alliance AI Partners website is designed in Figma, page by page, at desktop 
 
 Figma holds the final copy. Where a page record's draft copy differs from Figma, Figma wins.
 
+The site itself is built in code at the root of this repository (Next.js, TypeScript and Tailwind CSS; see the root `README.md`). Built so far: the header, the mobile menu, the footer and Home.
+
 ## Pages
 
 39 pages, in build order. Phase: Launch pages are needed for the first release, Next pages follow, and Later pages wait for real material (for example, case studies wait for real partner results).
@@ -121,10 +123,11 @@ Every figure on the site carries a source key and a dated source line, from the 
 ## Notes for building the site in code
 
 - The Contact form reads a `service` query parameter to preselect the topic, for example `/contact?service=embedded-developers` or `/contact?service=white-label`.
-- The time-zone clocks are live on the site. The mock-ups show one sample moment in November (Manila 9:41 am, Sydney 12:41 pm, New York 8:41 pm the day before, London 1:41 am); the United Kingdom page shows Manila 4:41 pm and London 8:41 am to match its headline.
+- The time-zone clocks are live on the site. The mock-ups show one sample moment in November (Manila 9:41 am, Sydney 12:41 pm, New York 8:41 pm the day before, London 1:41 am); the United Kingdom page shows Manila 4:41 pm and London 8:41 am to match its headline. In code (`components/home/live-time-zones.tsx`) the page is served with that sample moment and switches to the live times once it runs in the browser; the caption under the clocks then reads "Live times in each city." instead of the mock-up's note about sample times.
 - A link on its own line, such as "Read the price list" under a button, uses `.aap-link--standalone`, which gives it a 44 px touch target in code. Figma shows it at its visual size, 26 px tall.
 - Headings are balanced in code (`text-wrap: balance`, in the design system's base layer). In Figma the line breaks were set by hand, so they may differ slightly in the browser.
 - Text over an image sits on a Partner Navy scrim that holds at least 82 % under every line (`design-system/imagery/image-overlays.css`), so it passes AA whatever the image.
+- The header swaps its navigation for the menu button below 1,024 px in code (the design system's default is 640 px), so the bar never overflows on tablets. Every other layout also switches at 1,024 px (`lg`), the width where DESIGN.md collapses two-column grids.
 - Keep `/case-studies` out of the main navigation and footer until the first approved case study exists.
 - Job rows and Download rows have no mobile variant in Figma, so on mobile the wrapped title sits beside its link. In code, stack the link under the text below the `md` breakpoint.
 - The footer is the site map: Services, Company (including Why the Philippines and Insights), Who we work with (the three country pages and For agencies) and Trust (including Subprocessors and Security).
