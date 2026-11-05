@@ -6,6 +6,9 @@
 
 export type NavLink = { label: string; href: string };
 
+/** A header link and the other sections it stands for (Figma marks it Current on those pages too). */
+export type HeaderNavLink = NavLink & { sections?: string[] };
+
 /** The site's default title and description (docs/website/pages/home.json, seo). */
 export const siteTitle = "Alliance AI Partners | Put AI to work";
 export const siteDescription =
@@ -14,13 +17,22 @@ export const siteDescription =
 /** The primary action of the whole site (docs/website/pages/home.json, primaryAction). */
 export const primaryAction: NavLink = { label: "See where AI can help", href: "/ai-check-up" };
 
-/** Header navigation (Figma: Header, Viewport=Desktop). */
-export const headerNav: NavLink[] = [
-  { label: "Services", href: "/services" },
-  { label: "Pricing", href: "/pricing" },
+/**
+ * Header navigation (Figma: Header, Viewport=Desktop). Each link is current on its own route and the routes below it,
+ * and on the sections Figma groups under it: industries under Services, Compare under Pricing, the company pages under
+ * About. Every other page (the AI check-up, trust pages, contact, insights, country pages) marks none.
+ */
+export const headerNav: HeaderNavLink[] = [
+  { label: "Services", href: "/services", sections: ["/industries"] },
+  { label: "Pricing", href: "/pricing", sections: ["/compare"] },
   { label: "How we work", href: "/how-we-work" },
-  { label: "About", href: "/about" },
+  { label: "About", href: "/about", sections: ["/careers", "/brand", "/why-the-philippines"] },
 ];
+
+/** True when `pathname` is the link's route, a route below it, or one of the sections it stands for. */
+export function isCurrentNav(link: HeaderNavLink, pathname: string) {
+  return [link.href, ...(link.sections ?? [])].some((route) => pathname === route || pathname.startsWith(`${route}/`));
+}
 
 /** The mobile menu adds Contact to the header links (Figma: Header / Mobile menu). */
 export const mobileMenuNav: NavLink[] = [...headerNav, { label: "Contact", href: "/contact" }];

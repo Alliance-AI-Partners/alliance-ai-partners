@@ -2,7 +2,7 @@
 
 import Link from "@/components/site-link";
 import { usePathname } from "next/navigation";
-import { headerNav } from "@/lib/site";
+import { headerNav, isCurrentNav } from "@/lib/site";
 
 /** The desktop navigation. The link for the current section carries aria-current, which draws the ribbon underline. */
 export function HeaderNav() {
@@ -11,7 +11,7 @@ export function HeaderNav() {
   return (
     <nav aria-label="Main" className="aap-nav hidden lg:flex">
       {headerNav.map((item) => {
-        const current = pathname === item.href || pathname.startsWith(`${item.href}/`);
+        const current = isCurrentNav(item, pathname);
         return (
           <Link
             key={item.href}
