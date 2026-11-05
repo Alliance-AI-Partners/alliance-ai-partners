@@ -1,0 +1,2274 @@
+[
+ {
+  "id": "IMG-01-1",
+  "slotName": "IMG-01-1 · Busywork untangled",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background. On the left, a loose tangle of thin satin ribbons in Partner Navy and muted slate blue loops and knots over itself. Moving right, the strands are gathered and straightened into one smooth, wide satin ribbon in a gradient from Alliance Blue to Ribbon Cyan that flows out of frame at the upper right, the busy work of a week turned into one clear flow. A few small flat faceted paper leaves sit along its path. Generous calm Daylight space in the lower third. Portrait 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "640x760 (about 4:5)",
+  "aspectMobile": "4:5",
+  "alt": "Tangled ribbons straightening into one smooth ribbon.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "01 · Home",
+    "section": "pitch",
+    "placement": "left half of a split on desktop, so it zig-zags with the hero mark on the right; full width under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Home — Desktop",
+    "node": "26:301",
+    "size": "640x760"
+   },
+   {
+    "frame": "Home — Mobile",
+    "node": "30:528",
+    "size": "358x448",
+    "crop": "4:5 crop"
+   }
+  ]
+ },
+ {
+  "id": "IMG-01-2",
+  "slotName": "IMG-01-2 · Scale AI",
+  "kind": "new",
+  "prompt": "A wide calm landscape of flat faceted paper hills at daybreak. A row of faceted saplings rises along a winding satin ribbon path, each a little taller than the last, from a small shoot at the left to a strong young tree at the right: steady growth across a whole company. Sky in a soft gradient from Daylight near the horizon to pale Ribbon Cyan, with Partner Navy only in the deepest facets; the ribbon path is satin Alliance Blue to Ribbon Cyan. Keep the top third calm and empty. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "648x340 (about 2:1)",
+  "aspectMobile": "16:10",
+  "alt": "A row of faceted saplings growing taller along a ribbon path.",
+  "textArea": "top third calm",
+  "uses": [
+   {
+    "page": "01 · Home",
+    "section": "goals",
+    "placement": "top of the large Scale AI bento card, full bleed inside the card"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Home — Desktop",
+    "node": "26:312",
+    "size": "646x340"
+   },
+   {
+    "frame": "Home — Mobile",
+    "node": "30:566",
+    "size": "356x224",
+    "crop": "16:10 crop"
+   }
+  ]
+ },
+ {
+  "id": "IMG-01-3",
+  "slotName": "IMG-01-3 · Sample invoice",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/invoice-ready-desktop.png",
+  "aspectDesktop": "1320x520 framed",
+  "aspectMobile": "358x560",
+  "alt": "Sample invoice with AI usage on its own line, passed on at cost.",
+  "textArea": null,
+  "uses": [
+   {
+    "page": "01 · Home",
+    "section": "pricing",
+    "placement": "inset media under the price rows"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Home — Desktop",
+    "node": "28:262",
+    "size": "1320x520"
+   },
+   {
+    "frame": "Home — Mobile",
+    "node": "30:729",
+    "size": "358x560",
+    "source": "brand-kit/emails/previews/invoice-ready-mobile.png"
+   }
+  ]
+ },
+ {
+  "id": "IMG-01-4",
+  "slotName": "IMG-01-4 · Daybreak swallows",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/daybreak-swallows.webp",
+  "aspectDesktop": "1440x640 full bleed",
+  "aspectMobile": "390x600 crop to the open sky",
+  "alt": "",
+  "textArea": "left 45% on desktop (title 640 px, lead 560 px, block centred); top 60% on mobile",
+  "uses": [
+   {
+    "page": "01 · Home",
+    "section": "overnight",
+    "placement": "background with a navy scrim from the reading edge"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Home — Desktop",
+    "node": "28:315",
+    "size": "1440x640"
+   },
+   {
+    "frame": "Home — Mobile",
+    "node": "30:780",
+    "size": "390x600",
+    "crop": "crop to the open sky, 13:20"
+   }
+  ]
+ },
+ {
+  "id": "IMG-01-5",
+  "slotName": "IMG-01-5 · Dawn wave",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/dawn-wave.webp",
+  "aspectDesktop": "1440x600",
+  "aspectMobile": "390x680",
+  "alt": "",
+  "textArea": "left 60% on desktop, upper two thirds on mobile, always on the scrim",
+  "uses": [
+   {
+    "page": "01 · Home",
+    "section": "cta",
+    "placement": "background with a navy scrim from the reading edge (left on desktop, top on mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Home — Desktop",
+    "node": "28:401",
+    "size": "1440x600"
+   },
+   {
+    "frame": "Home — Mobile",
+    "node": "30:864",
+    "size": "390x680",
+    "crop": "crop 4:7, wave in the lower half"
+   }
+  ]
+ },
+ {
+  "id": "IMG-02-1",
+  "slotName": "IMG-02-1 · Three paths, one first step",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background. A single satin ribbon path in a gradient from Alliance Blue to Ribbon Cyan runs in from the lower left across calm, pale faceted paper hills and splits into three branches. The two longer branches wind away toward the far hills; the shortest branch, nearest the viewer, curves to a stop beside a young faceted paper sapling that is already putting out its first leaves: of three possible paths, the first step that pays off soonest. Partner Navy only in the deepest shaded facets of the hills. Calm, open Daylight sky across the top third. About 1:1 (604x600), keep the split and the sapling inside the centre so it crops to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x600 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A ribbon path splits into three; the shortest branch ends at a young sapling.",
+  "textArea": "none (text sits beside the image); keep the top third calm",
+  "uses": [
+   {
+    "page": "02 · AI check-up",
+    "section": "hero",
+    "placement": "right half of the hero split; under the facts on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "AI check-up — Desktop",
+    "node": "39:599",
+    "size": "604x600"
+   },
+   {
+    "frame": "AI check-up — Mobile",
+    "node": "43:800",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-02-2",
+  "slotName": "IMG-02-2 · Faceted leaves",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+  "aspectDesktop": "560x680 crop",
+  "aspectMobile": "358x358 crop",
+  "alt": "",
+  "textArea": "none",
+  "uses": [
+   {
+    "page": "02 · AI check-up",
+    "section": "who-it-is-for",
+    "placement": "inset split image on the navy chapter; no text over it"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "AI check-up — Desktop",
+    "node": "39:2745",
+    "size": "560x680"
+   },
+   {
+    "frame": "AI check-up — Mobile",
+    "node": "43:3482",
+    "size": "358x358"
+   }
+  ]
+ },
+ {
+  "id": "IMG-02-3",
+  "slotName": "IMG-02-3 · Booking email",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/check-up-booked-desktop.png",
+  "aspectDesktop": "604x760 framed, top of the email",
+  "aspectMobile": "358x520 framed, top of the email",
+  "alt": "Sample confirmation email: the AI check-up is booked for Tuesday, November 17, with the agenda and what to prepare.",
+  "textArea": null,
+  "uses": [
+   {
+    "page": "02 · AI check-up",
+    "section": "booked",
+    "placement": "inset framed product visual beside the confirmation; under the rows on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "AI check-up — Desktop · Booked",
+    "node": "43:5635",
+    "size": "604x760"
+   },
+   {
+    "frame": "AI check-up — Mobile · Booked",
+    "node": "43:5814",
+    "size": "358x520",
+    "source": "brand-kit/emails/previews/check-up-booked-mobile.png"
+   }
+  ]
+ },
+ {
+  "id": "IMG-03-1",
+  "slotName": "IMG-03-1 · Scale AI",
+  "kind": "new",
+  "prompt": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. At the upper left a single satin ribbon river in a gradient from Alliance Blue to Ribbon Cyan begins as one stream, then branches into many smaller ribbon channels that run down across a wide hillside of terraces built from flat paper facets in slate blues, so one source reaches every level: AI reaching every team in a company. Small faceted trees stand on each terrace, taller on the lower terraces where the channels have arrived. Calm open Daylight sky in the top quarter, nothing important near the edges. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "620x520 (about 6:5)",
+  "aspectMobile": "358x268 (4:3)",
+  "alt": "One ribbon river branching into channels that reach every terrace of a faceted hillside.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "03 · Services",
+    "section": "goals",
+    "placement": "left of the Scale AI row; under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Services — Desktop",
+    "node": "40:183",
+    "size": "620x520"
+   },
+   {
+    "frame": "Services — Mobile",
+    "node": "42:1250",
+    "size": "358x268",
+    "crop": "4:3 crop"
+   }
+  ]
+ },
+ {
+  "id": "IMG-03-2",
+  "slotName": "IMG-03-2 · Solve problems",
+  "kind": "new",
+  "prompt": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. A satin ribbon stream in a gradient from Alliance Blue to Ribbon Cyan used to be blocked by a jumble of flat faceted boulders in Partner Navy and slate blue. The boulders have been lifted and stacked neatly to one side, and the ribbon now runs straight and smooth through the cleared channel toward the lower right: the slow work moved out of the way. A few folded paper leaves ride the current. Calm Daylight space in the upper third. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "620x520 (about 6:5)",
+  "aspectMobile": "358x268 (4:3)",
+  "alt": "Faceted boulders lifted aside so a ribbon stream runs straight through a clear channel.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "03 · Services",
+    "section": "goals",
+    "placement": "right of the Solve problems with AI row; under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Services — Desktop",
+    "node": "40:213",
+    "size": "620x520"
+   },
+   {
+    "frame": "Services — Mobile",
+    "node": "42:1279",
+    "size": "358x268",
+    "crop": "4:3 crop"
+   }
+  ]
+ },
+ {
+  "id": "IMG-03-3",
+  "slotName": "IMG-03-3 · Grow",
+  "kind": "new",
+  "prompt": "Editorial illustration on a soft Daylight background, landscape 6:5, safe to crop to 4:3. A satin ribbon vine in a gradient from Alliance Blue to Ribbon Cyan climbs from the lower left to the upper right. Along it, flat folded paper blossoms open one after another, from closed buds near the bottom to full open blooms near the top, each a little larger than the last: more customers over time. Faceted leaves in slate blue and Partner Navy along the vine. Calm Daylight space along the right edge. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "620x520 (about 6:5)",
+  "aspectMobile": "358x268 (4:3)",
+  "alt": "Paper blossoms opening one after another along a climbing ribbon vine.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "03 · Services",
+    "section": "goals",
+    "placement": "left of the Grow row; under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Services — Desktop",
+    "node": "40:240",
+    "size": "620x520"
+   },
+   {
+    "frame": "Services — Mobile",
+    "node": "42:1309",
+    "size": "358x268",
+    "crop": "4:3 crop"
+   }
+  ]
+ },
+ {
+  "id": "IMG-03-4",
+  "slotName": "IMG-03-4 · Ribbon river",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/ribbon-river.webp",
+  "aspectDesktop": "1440x680 full bleed",
+  "aspectMobile": "390x720, crop to the river in the lower third",
+  "alt": "",
+  "textArea": "top left (desktop), top half (mobile), white text on the scrim",
+  "uses": [
+   {
+    "page": "03 · Services",
+    "section": "cta",
+    "placement": "background with a navy scrim from the top left"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Services — Desktop",
+    "node": "41:1056",
+    "size": "1440x680"
+   },
+   {
+    "frame": "Services — Mobile",
+    "node": "42:1549",
+    "size": "390x720",
+    "crop": "crop 390x720, river in the lower third"
+   }
+  ]
+ },
+ {
+  "id": "IMG-04-1",
+  "slotName": "IMG-04-1 · Growing flock",
+  "kind": "new",
+  "prompt": "Editorial illustration on a soft Daylight sky, nearly square, safe to crop to 4:5. A flock of swallows built from flat paper facets in Partner Navy and slate blue flies in a widening V formation along a satin ribbon current that sweeps from the lower left to the upper right in a gradient from Alliance Blue to Ribbon Cyan. Three birds lead at the lower left and the formation grows to many birds toward the upper right, every bird holding its place: AI growing across a whole company, with one team flying together. Below, low faceted hills at daybreak in pale blues. Calm open sky in the upper left quarter. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1:1)",
+  "aspectMobile": "358x448 (4:5)",
+  "alt": "Faceted swallows flying in a widening formation along a satin ribbon current.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "04 · Scale AI",
+    "section": "hero",
+    "placement": "right half of the hero split; under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Scale AI — Desktop",
+    "node": "43:3256",
+    "size": "604x560"
+   },
+   {
+    "frame": "Scale AI — Mobile",
+    "node": "43:5279",
+    "size": "358x448",
+    "crop": "4:5 crop"
+   }
+  ]
+ },
+ {
+  "id": "IMG-04-2",
+  "slotName": "IMG-04-2 · Monthly report",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/monthly-report-desktop.png",
+  "aspectDesktop": "640x480 framed, top of the email (headline, the three placeholder figures and What we shipped)",
+  "aspectMobile": "358x448, top of the email",
+  "alt": "Sample monthly report email: what shipped, what AI usage cost and next month’s plan, with placeholder figures.",
+  "textArea": "none",
+  "uses": [
+   {
+    "page": "04 · Scale AI",
+    "section": "engagement",
+    "placement": "inset media, right of the text in the navy chapter"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Scale AI — Desktop",
+    "node": "43:4101",
+    "size": "696x480",
+    "crop": "top of the email"
+   },
+   {
+    "frame": "Scale AI — Mobile",
+    "node": "43:5390",
+    "size": "358x448",
+    "source": "brand-kit/emails/previews/monthly-report-mobile.png",
+    "crop": "top of the email"
+   }
+  ]
+ },
+ {
+  "id": "IMG-05-1",
+  "slotName": "IMG-05-1 · Leaves gathered",
+  "kind": "new",
+  "prompt": "One continuous wide landscape at first light, about 1.9:1, with no panels, borders or split frames. A calm lake built from flat paper facets stretches across the whole frame under a deep Partner Navy sky that lightens softly toward Alliance Blue at the horizon. The left half of the scene is quiet and empty, open water and sky growing darker toward the left edge, for white text. Dozens of folded paper leaves lie scattered and tangled on the water at the far right; a satin ribbon current in a gradient from Alliance Blue to Ribbon Cyan gathers them and carries them in one tidy, evenly spaced line toward the lower right corner: scattered chores turned into one orderly flow that runs on its own. Low faceted hills on the horizon catching the first light. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x760 full bleed (about 1.9:1)",
+  "aspectMobile": "390x780, crop to the right third (the current and the leaves in the lower third)",
+  "alt": "",
+  "textArea": "left 55% (desktop) and top half (mobile): calm deep navy sky for white text",
+  "uses": [
+   {
+    "page": "05 · Solve problems with AI",
+    "section": "hero",
+    "placement": "hero background with a navy scrim from the left (desktop) and from the top (mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Solve problems with AI — Desktop",
+    "node": "45:1001",
+    "size": "1440x760"
+   },
+   {
+    "frame": "Solve problems with AI — Mobile",
+    "node": "46:2274",
+    "size": "390x780",
+    "crop": "crop 390x780, the current in the lower third"
+   }
+  ]
+ },
+ {
+  "id": "IMG-05-2",
+  "slotName": "IMG-05-2 · Proposal email",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/proposal-ready-desktop.png",
+  "aspectDesktop": "520x380 framed, top of the email (headline and the fixed total box)",
+  "aspectMobile": "358x448, top of the email",
+  "alt": "Sample proposal email: new orders go straight into your system, one fixed total, with everything it covers listed.",
+  "textArea": "none",
+  "uses": [
+   {
+    "page": "05 · Solve problems with AI",
+    "section": "questions",
+    "placement": "inset media in the left column, under the lead"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Solve problems with AI — Desktop",
+    "node": "46:1070",
+    "size": "536x440",
+    "crop": "top of the email"
+   },
+   {
+    "frame": "Solve problems with AI — Mobile",
+    "node": "46:2493",
+    "size": "358x448",
+    "source": "brand-kit/emails/previews/proposal-ready-mobile.png",
+    "crop": "top of the email"
+   }
+  ]
+ },
+ {
+  "id": "IMG-06-1",
+  "slotName": "IMG-06-1 · Orchard at first light",
+  "kind": "new",
+  "prompt": "Wide panoramic illustration, about 2.5:1, safe to crop to 4:5 at the left third. An orchard at first light built from flat paper facets: rows of faceted trees run along a satin ribbon path in a gradient from Alliance Blue to Ribbon Cyan that winds from the lower left toward the horizon. The trees nearest the viewer are heavy with round folded-paper fruit in Ribbon Cyan and Alliance Blue; trees further along are younger and lighter: steady growth that the team gets to harvest. Soft Daylight sky with pale cyan near the horizon across the top third, calm and empty. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1320x520 inset (about 2.5:1)",
+  "aspectMobile": "358x448 (4:5), crop to the nearest laden trees",
+  "alt": "An orchard of faceted paper trees along a ribbon path, the nearest trees heavy with fruit.",
+  "textArea": "none (text sits above the image)",
+  "uses": [
+   {
+    "page": "06 · Grow",
+    "section": "hero",
+    "placement": "inset media under the hero text, full container width"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Grow — Desktop",
+    "node": "46:6097",
+    "size": "1320x520"
+   },
+   {
+    "frame": "Grow — Mobile",
+    "node": "46:8166",
+    "size": "358x448",
+    "crop": "4:5 crop"
+   }
+  ]
+ },
+ {
+  "id": "IMG-06-2",
+  "slotName": "IMG-06-2 · Ribbon blossoms",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/ribbon-blossoms.webp",
+  "aspectDesktop": "1440x560 full bleed",
+  "aspectMobile": "390x560, crop to the blossoms on the right",
+  "alt": "",
+  "textArea": "left half (desktop), top half (mobile), white text on the scrim",
+  "uses": [
+   {
+    "page": "06 · Grow",
+    "section": "idea",
+    "placement": "band background with a navy scrim from the left (desktop) and from the top (mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Grow — Desktop",
+    "node": "46:6103",
+    "size": "1440x560"
+   },
+   {
+    "frame": "Grow — Mobile",
+    "node": "46:8172",
+    "size": "390x560",
+    "crop": "crop 390x560, blossoms in the lower half"
+   }
+  ]
+ },
+ {
+  "id": "IMG-07-1",
+  "slotName": "IMG-07-1 · Joining the band",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background. The ground is cool, pale Daylight #F4F7FB, with no warm, cream or beige tones anywhere. A band of four or five parallel satin ribbons in Partner Navy and slate blue flows from the lower left to the upper right, the partner's own team. A single brighter satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the left edge, weaves over and under the navy ribbons and settles into the band as one of them, so the band continues to the right as one team with the bright ribbon inside it. Low flat faceted paper hills in pale Daylight blues sit beneath. Keep the weave in the centre of the frame so it crops cleanly to 4:5, and keep the top quarter calm and open. Square 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x600 (1:1)",
+  "aspectMobile": "358x448 (4:5)",
+  "alt": "A blue-to-cyan satin ribbon weaving into a band of navy ribbons.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "07 · Embedded developers",
+    "section": "hero",
+    "placement": "right half of the hero split; under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Embedded developers — Desktop",
+    "node": "39:148",
+    "size": "604x600"
+   },
+   {
+    "frame": "Embedded developers — Mobile",
+    "node": "39:2213",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-07-2",
+  "slotName": "IMG-07-2 · Welcome email",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/welcome-desktop.png",
+  "aspectDesktop": "600x600 framed, top of the email",
+  "aspectMobile": "358x440 framed",
+  "alt": "Sample welcome email: your team starts on Monday, and you will see progress by Friday.",
+  "textArea": "none (caption below: 'Sample welcome email from our email templates.')",
+  "uses": [
+   {
+    "page": "07 · Embedded developers",
+    "section": "week",
+    "placement": "inset framed product visual, left of the text on desktop; under the rows on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Embedded developers — Desktop",
+    "node": "39:751",
+    "size": "600x600"
+   },
+   {
+    "frame": "Embedded developers — Mobile",
+    "node": "43:2954",
+    "size": "358x440",
+    "source": "brand-kit/emails/previews/welcome-mobile.png"
+   }
+  ]
+ },
+ {
+  "id": "IMG-07-3",
+  "slotName": "IMG-07-3 · One swallow joins the flock",
+  "kind": "new",
+  "prompt": "Editorial illustration for a dark Partner Navy band. In the left third, a small flock of four swallows built from flat faceted paper planes in navy and blue shades flies in a loose, steady line toward the upper right. A fifth swallow, its facets catching Ribbon Cyan light from the upper left, glides in from the lower left edge and takes its place in the line: one new developer joining a team that is already moving. A faint satin ribbon in a gradient from Alliance Blue to Ribbon Cyan traces the flock's path. The right half and the top third are calm, almost plain deep navy, for white text. Wide landscape, about 21:9 (1440x600); keep the flock in the left third and lower half, so a tall mobile crop positioned on the left still shows the joining swallow. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x600 full bleed",
+  "aspectMobile": "390x680, crop to the darkest navy area",
+  "alt": "A fifth faceted swallow joins a small flock in flight.",
+  "textArea": "right side, white text (desktop); top, white text (mobile)",
+  "uses": [
+   {
+    "page": "07 · Embedded developers",
+    "section": "cta",
+    "placement": "background with a Partner Navy scrim from the right edge (desktop) or from the top (mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Embedded developers — Desktop",
+    "node": "39:910",
+    "size": "1440x600"
+   },
+   {
+    "frame": "Embedded developers — Mobile",
+    "node": "43:3095",
+    "size": "390x680"
+   }
+  ]
+ },
+ {
+  "id": "IMG-08-1",
+  "slotName": "IMG-08-1 · Scattered leaves, one flow",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background. In the lower left, dozens of small flat faceted paper leaves in slate blue and pale navy lie scattered and overlapping, a little untidy: the slow work done by hand. A single smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan sweeps in from the lower left, gathers the leaves and carries them in one neat, evenly spaced line across the frame toward the upper right: one process, flowing on its own. Generous calm Daylight space in the upper third. Square 1:1; keep the ribbon's sweep in the central area so it crops cleanly. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x580 (about 1:1)",
+  "aspectMobile": "358x340 (about 1:1)",
+  "alt": "A satin ribbon gathering scattered paper leaves into one neat line.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "08 · AI automation",
+    "section": "hero",
+    "placement": "left of the hero text on desktop; under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "AI automation — Desktop",
+    "node": "41:3155",
+    "size": "604x580"
+   },
+   {
+    "frame": "AI automation — Mobile",
+    "node": "43:4834",
+    "size": "358x340"
+   }
+  ]
+ },
+ {
+  "id": "IMG-08-2",
+  "slotName": "IMG-08-2 · Proposal email",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/proposal-ready-desktop.png",
+  "aspectDesktop": "656x640 framed, top of the email (headline, fixed total, what is included)",
+  "aspectMobile": "358x480 framed",
+  "alt": "Sample proposal email: one fixed total for order entry automation, with project management, testing and documentation included.",
+  "textArea": "none (caption below: 'Sample proposal from our templates: one fixed total, agreed before any work starts.')",
+  "uses": [
+   {
+    "page": "08 · AI automation",
+    "section": "pricing",
+    "placement": "inset framed product visual right of the price on desktop; after the price on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "AI automation — Desktop",
+    "node": "41:3413",
+    "size": "656x640"
+   },
+   {
+    "frame": "AI automation — Mobile",
+    "node": "43:5037",
+    "size": "358x480",
+    "source": "brand-kit/emails/previews/proposal-ready-mobile.png"
+   }
+  ]
+ },
+ {
+  "id": "IMG-08-3",
+  "slotName": "IMG-08-3 · One slow loop pulled straight",
+  "kind": "new",
+  "prompt": "Editorial illustration for a dark Partner Navy band. A wide landscape of low faceted paper hills in navy shades. Through it runs one satin ribbon stream: at the left it winds in tight, slow loops in muted slate blue; at one point near the centre a loop has been pulled straight, and from there the ribbon runs smooth and wide in a gradient from Alliance Blue to Ribbon Cyan to the right edge: one slow process, made fast. The top third is calm, plain deep navy for white text; the ribbon and the hills sit in the lower two thirds. Wide landscape, about 21:9 (1440x640); keep the straightened loop near the centre so a tall mobile crop from the centre still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x640 full bleed",
+  "aspectMobile": "390x700, crop centred on the river",
+  "alt": "A looping ribbon stream with one loop pulled straight into a smooth run.",
+  "textArea": "top third, white text",
+  "uses": [
+   {
+    "page": "08 · AI automation",
+    "section": "cta",
+    "placement": "background with a Partner Navy scrim from the top"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "AI automation — Desktop",
+    "node": "41:3474",
+    "size": "1440x640"
+   },
+   {
+    "frame": "AI automation — Mobile",
+    "node": "43:5133",
+    "size": "390x700"
+   }
+  ]
+ },
+ {
+  "id": "IMG-09-1",
+  "slotName": "IMG-09-1 · Ribbon road at daybreak",
+  "kind": "new",
+  "prompt": "A wide, calm landscape of flat faceted paper hills at daybreak. A smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs like a fast, clean road from the lower right foreground toward the horizon, even and unbroken, with two small faceted paper swallows flying low alongside it: a fast site that keeps running. The sky is deep Partner Navy at the top, easing to Alliance Blue and a thin band of Ribbon Cyan light at the horizon. Keep the left two thirds dark and calm (open sky and soft hills) for white text. Wide 2:1. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x760 (about 2:1) full bleed",
+  "aspectMobile": "not used on mobile: the mobile hero uses IMG-09-1m, a portrait of the same scene",
+  "alt": "",
+  "textArea": "left two thirds, white text",
+  "uses": [
+   {
+    "page": "09 · Websites and web apps",
+    "section": "hero",
+    "placement": "desktop hero background with a Partner Navy scrim from the left"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Websites and web apps — Desktop",
+    "node": "46:132",
+    "size": "1440x760"
+   }
+  ]
+ },
+ {
+  "id": "IMG-09-1m",
+  "slotName": "IMG-09-1m · Ribbon road, portrait",
+  "kind": "new",
+  "prompt": "A calm landscape of flat faceted paper hills at daybreak, composed as a tall portrait for phones. A smooth satin ribbon in a gradient from Alliance Blue to Ribbon Cyan rises from the bottom centre like a fast, clean road toward a high horizon, even and unbroken, with two small faceted paper swallows flying low alongside it: a fast site that keeps running. The same scene as IMG-09-1, recomposed for a portrait frame. The sky is deep Partner Navy at the top, easing to Alliance Blue and a thin band of Ribbon Cyan light at the horizon. Keep the top 35% plain, calm deep Partner Navy sky with no detail, because it sits under a navy scrim and the end of the hero text; the ribbon, the hills and the swallows sit in the lower two thirds. Portrait 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "390x488 (4:5); mobile only, generate at 4:5",
+  "aspectMobile": "390x488 (4:5), full bleed at the bottom of the 390x800 hero band",
+  "alt": "",
+  "textArea": "top 35%: plain, calm deep navy sky under the scrim, where the end of the hero text overlaps",
+  "uses": [
+   {
+    "page": "09 · Websites and web apps",
+    "section": "hero",
+    "placement": "mobile hero only: full width at the bottom of the navy band, under a Partner Navy scrim from the top; the text sits above and over its top"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Websites and web apps — Mobile",
+    "node": "46:3047",
+    "size": "390x488"
+   }
+  ]
+ },
+ {
+  "id": "IMG-09-2",
+  "slotName": "IMG-09-2 · Sample site hero",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/paper-garden.webp",
+  "aspectDesktop": "656x230 (about 3:1) inside the browser mock, 10px corners",
+  "aspectMobile": "290x150 (about 2:1), 8px corners",
+  "alt": "",
+  "textArea": "none (no text on the image)",
+  "uses": [
+   {
+    "page": "09 · Websites and web apps",
+    "section": "what-you-get",
+    "placement": "the sample page's hero image inside the browser product visual"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Websites and web apps — Desktop",
+    "node": "46:174",
+    "size": "652x230"
+   },
+   {
+    "frame": "Websites and web apps — Mobile",
+    "node": "46:3086",
+    "size": "286x150"
+   }
+  ]
+ },
+ {
+  "id": "IMG-10-1",
+  "slotName": "IMG-10-1 · Tags facing forward",
+  "kind": "new",
+  "prompt": "Editorial illustration on a calm Daylight background. One continuous satin ribbon, shading from Alliance Blue at the left to Ribbon Cyan at the right, runs in a gentle, slightly sagging line from the upper left toward the right edge, like a line strung across a bright room. From it hang five blank tags made of flat faceted paper, in pale Daylight white, soft blue-grey and Partner Navy, each tied on with a short loop of the same ribbon. Every tag is turned to face the viewer, flat and fully visible, none twisted or turned away: prices shown openly, nothing hidden. The tags differ a little in size and hang at even intervals, the largest just right of centre. Soft navy-tinted shadows fall down and to the right onto the pale ground behind them. Keep the lower left third calm and empty. Aspect about 1.08:1, safe to crop to 4:5 for mobile. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1.08:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "Blank paper tags hanging from one ribbon, every tag turned to face you.",
+  "textArea": "none (text sits beside the image); keep the lower left third calm",
+  "uses": [
+   {
+    "page": "10 · Pricing",
+    "section": "hero",
+    "placement": "right half of the hero split; under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Pricing — Desktop",
+    "node": "46:5012",
+    "size": "604x560"
+   },
+   {
+    "frame": "Pricing — Mobile",
+    "node": "57:4101",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-10-2",
+  "slotName": "IMG-10-2 · Two ribbons, one steady route",
+  "kind": "new",
+  "prompt": "Editorial illustration on a deep Partner Navy ground. Two satin ribbons, one in Alliance Blue and one in Ribbon Cyan, rise side by side in smooth parallel curves from the lower right corner toward the upper right, evenly spaced and never tangled, with a single row of small flat faceted paper leaves between them like a path: two plain reasons, one steady route. The left 45 percent and the top half are calm, plain deep navy for text. Landscape, about 16:9 (1440x800); keep the ribbons in the right half and the lower part, so a tall mobile crop positioned on the lower right still shows both. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x800 full bleed",
+  "aspectMobile": "390x900, crop to the river in the lower part",
+  "alt": "Two parallel ribbons, blue and cyan, rising side by side.",
+  "textArea": "left 45% (desktop), top 60% (mobile), Daylight text on the scrim",
+  "uses": [
+   {
+    "page": "10 · Pricing",
+    "section": "why-we-cost-less",
+    "placement": "background of the navy band with a navy scrim from the reading edge (left on desktop, top on mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Pricing — Desktop",
+    "node": "46:10355",
+    "size": "1440x800"
+   },
+   {
+    "frame": "Pricing — Mobile",
+    "node": "59:3107",
+    "size": "390x995"
+   }
+  ]
+ },
+ {
+  "id": "IMG-10-3",
+  "slotName": "IMG-10-3 · Faceted swallow",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/faceted-swallow.webp",
+  "aspectDesktop": "520x520 inset, framed (18px radius)",
+  "aspectMobile": "358x240, crop centred on the bird",
+  "alt": "",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "10 · Pricing",
+    "section": "cta",
+    "placement": "right of the text in the navy CTA; under the buttons on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Pricing — Desktop",
+    "node": "46:10602",
+    "size": "520x520"
+   },
+   {
+    "frame": "Pricing — Mobile",
+    "node": "59:3349",
+    "size": "358x240"
+   }
+  ]
+ },
+ {
+  "id": "IMG-11-1",
+  "slotName": "IMG-11-1 · Four hills, one ribbon",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background. Four low hills made of flat faceted paper stand in a row from the lower left to the upper right, each a little higher than the one before. One continuous wide satin ribbon, in a gradient from Alliance Blue to Ribbon Cyan, runs across all four hills like a path, catching the light on each crest, and carries on out of frame at the upper right: four steps that keep going. A young faceted paper sapling stands on the last and highest hill. Soft slate-blue shadows, Partner Navy only in the deepest facets, a pale Daylight sky with calm empty space in the upper left quarter. Aspect about 1.08:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1.08:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "One ribbon path crossing four hills, with a young tree on the last one.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "11 · How we work",
+    "section": "hero",
+    "placement": "right column of the hero split; under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "How we work — Desktop",
+    "node": "39:1072",
+    "size": "604x560"
+   },
+   {
+    "frame": "How we work — Mobile",
+    "node": "42:752",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-11-2",
+  "slotName": "IMG-11-2 · Where work gets stuck",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, seen from slightly above. A wide satin ribbon in a gradient from Alliance Blue to Ribbon Cyan flows in from the left like a stream across a field of flat faceted paper tiles, then bunches into a loose tangled knot where it meets a cluster of faceted paper stones in the middle of the frame: the place where the work gets stuck, lit clearly so the eye goes straight to it. Beyond the stones a single smooth strand slips through and continues to the right. Soft slate-blue shadows, Partner Navy only in the deepest facets of the stones. Calm empty Daylight space across the top third. Portrait 4:5, safe to crop to 3:4. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "560x700 (4:5)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A ribbon stream bunching into a knot at a cluster of stones, with one strand slipping through.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "11 · How we work",
+    "section": "understand",
+    "placement": "left half of a split; under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "How we work — Desktop",
+    "node": "39:1106",
+    "size": "560x700"
+   },
+   {
+    "frame": "How we work — Mobile",
+    "node": "42:789",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-11-3",
+  "slotName": "IMG-11-3 · A young tree kept steady",
+  "kind": "new",
+  "prompt": "Editorial illustration on a deep Partner Navy ground. At the left, a young tree built from flat faceted paper planes in navy and blue shades stands on a low faceted hill. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is tied loosely around its trunk and runs to a slim stake beside it, the way a gardener keeps a young tree steady while it grows; fresh leaves at the top of the tree catch cyan light from the upper left: staying after launch to keep what we built growing. The right half is calm, open deep navy for white text. Landscape, about 16:9 (1440x760); keep the tree in the left third so a tall mobile crop positioned on the left still shows the tree and the tie. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x760 full bleed",
+  "aspectMobile": "390x600 or taller (grows with the text), cropped to the calm navy side, scrim from the top",
+  "alt": "A ribbon tie holds a young faceted tree steady as it grows.",
+  "textArea": "right side, white text (desktop); top (mobile)",
+  "uses": [
+   {
+    "page": "11 · How we work",
+    "section": "run-and-grow",
+    "placement": "background with a navy scrim from the reading edge (right on desktop, top on mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "How we work — Desktop",
+    "node": "39:1835",
+    "size": "1440x905"
+   },
+   {
+    "frame": "How we work — Mobile",
+    "node": "43:1325",
+    "size": "390x600"
+   }
+  ]
+ },
+ {
+  "id": "IMG-11-4",
+  "slotName": "IMG-11-4 · Sample monthly report",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/monthly-report-desktop.png",
+  "aspectDesktop": "640x760 framed, cropped to the top of the email",
+  "aspectMobile": "326x540 framed, inside a 358-wide Neutral 50 well (16 px padding)",
+  "alt": "Sample monthly report email: hours saved, what shipped, AI usage at cost and next month's plan, with bracketed placeholder figures.",
+  "textArea": "none",
+  "uses": [
+   {
+    "page": "11 · How we work",
+    "section": "weekly-updates",
+    "placement": "inset framed media in a Neutral 50 well, right of the text"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "How we work — Desktop",
+    "node": "39:1883",
+    "size": "600x720"
+   },
+   {
+    "frame": "How we work — Mobile",
+    "node": "43:1362",
+    "size": "326x540",
+    "source": "brand-kit/emails/previews/monthly-report-mobile.png"
+   }
+  ]
+ },
+ {
+  "id": "IMG-12-1",
+  "slotName": "IMG-12-1 · Ribbon across the gap",
+  "kind": "new",
+  "prompt": "Wide landscape at first light, built from flat faceted paper planes. In the right half of the frame, two faceted paper hills stand on either side of a deep valley. One smooth, wide satin ribbon spans the gap between the two hilltops like a bridge, Alliance Blue on its shaded back turning to Ribbon Cyan where it catches the light, with one gentle twist in the middle: two sides joined into one team, the gap closed. The left half is calm, open pre-dawn sky in deep Partner Navy, lightening slowly toward a pale Alliance Blue horizon at the right, empty enough for white headline text. Aspect 16:9 for a full-bleed band, safe to crop to a tall mobile frame around the ribbon bridge, with the bridge in the lower half. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x760 full bleed (16:9 source, cropped)",
+  "aspectMobile": "390x820 (tall crop around the ribbon bridge)",
+  "alt": "",
+  "textArea": "left half, white text (desktop); top half (mobile)",
+  "uses": [
+   {
+    "page": "12 · About",
+    "section": "hero",
+    "placement": "background of the hero band, navy scrim from the left (desktop) or the top (mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "About — Desktop",
+    "node": "44:1012",
+    "size": "1440x760"
+   },
+   {
+    "frame": "About — Mobile",
+    "node": "46:1439",
+    "size": "390x823"
+   }
+  ]
+ },
+ {
+  "id": "IMG-12-2",
+  "slotName": "IMG-12-2 · Many ribbons, one hub",
+  "kind": "new",
+  "prompt": "A calm, wide faceted paper landscape at daybreak, seen from slightly above. Thin satin ribbons in Alliance Blue, Ribbon Cyan and soft slate blue arrive from every edge of the frame, crossing near and far hills, and meet on top of one central faceted hill, where they braid together into a single wide, smooth ribbon that rises toward the upper right: many partners, one place they trust. Daylight sky fading to pale Ribbon Cyan near the horizon, Partner Navy only in the deepest facets. Keep the top third calm. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "648x320 (about 2:1)",
+  "aspectMobile": "358x224 (16:10)",
+  "alt": "Many satin ribbons arriving from every direction and braiding together on one faceted hill.",
+  "textArea": "top third calm",
+  "uses": [
+   {
+    "page": "12 · About",
+    "section": "why-we-exist",
+    "placement": "top of the large vision bento card, full bleed inside the card"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "About — Desktop",
+    "node": "44:1057",
+    "size": "646x320"
+   },
+   {
+    "frame": "About — Mobile",
+    "node": "46:1463",
+    "size": "356x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-13-1",
+  "slotName": "IMG-13-1 · Faceted leaves",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/faceted-leaves.webp",
+  "aspectDesktop": "1440x640 full bleed",
+  "aspectMobile": "390x760, crop to the lower left leaves",
+  "alt": "",
+  "textArea": "right side, white text (desktop); top (mobile)",
+  "uses": [
+   {
+    "page": "13 · Data and security",
+    "section": "law",
+    "placement": "background behind a navy scrim (behind the text on the right on desktop, from the top on mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Data and security — Desktop",
+    "node": "38:428",
+    "size": "1440x640"
+   },
+   {
+    "frame": "Data and security — Mobile",
+    "node": "39:1537",
+    "size": "390x760",
+    "crop": "crop to the lower left leaves"
+   }
+  ]
+ },
+ {
+  "id": "IMG-15-1",
+  "slotName": "IMG-15-1 · First stepping stone",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background. A calm satin ribbon stream, in a gradient from Alliance Blue to Ribbon Cyan, flows from the upper right toward the lower left through a landscape of flat faceted paper meadows in pale blue-grey. A short line of five flat, faceted stepping stones crosses the stream from the near bank at the lower left to the far bank, where low faceted trees and broad leaves catch the morning light. The first stone, nearest the viewer, is the largest and the brightest, lit from the upper left: one easy, low-risk first step with the way ahead in plain view. A single faceted paper swallow skims low over the stones toward the far bank. Partner Navy only in the deepest shaded sides of the stones and trees. Keep the upper third a calm, open Daylight sky. Landscape about 7:6, safe to crop to 6:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "560x480 (about 7:6), inside the card, running to its right edge",
+  "aspectMobile": "358x300 (6:5), inside the card, at its foot",
+  "alt": "A line of flat stepping stones crosses a satin ribbon stream, the nearest stone large and bright, with a swallow skimming toward the far bank.",
+  "textArea": "none (text sits beside the image); keep the upper third calm",
+  "uses": [
+   {
+    "page": "15 · Contact",
+    "section": "check-up",
+    "placement": "right half of the large check-up card; bottom of the card on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Contact — Desktop",
+    "node": "46:10994",
+    "size": "560x480"
+   },
+   {
+    "frame": "Contact — Desktop · Sent",
+    "node": "46:11520",
+    "size": "560x480"
+   },
+   {
+    "frame": "Contact — Mobile",
+    "node": "56:1662",
+    "size": "356x300"
+   },
+   {
+    "frame": "Contact — Mobile · Sent",
+    "node": "57:5120",
+    "size": "356x300"
+   }
+  ]
+ },
+ {
+  "id": "IMG-18-1",
+  "slotName": "IMG-18-1 · Worn path",
+  "kind": "new",
+  "prompt": "Editorial illustration of a calm meadow at daybreak, seen from slightly above. The meadow is built from thousands of small flat faceted paper blades of grass in pale blue-grey and soft Daylight white. Across it runs one path, worn smooth by being walked again and again, the same way every day: the path is a smooth satin ribbon in a gradient from Alliance Blue at the lower left to Ribbon Cyan at the upper right, pressed a little into the grass and easy to spot from above. It stands for the task a team repeats every week, plain to see once you look for it. A few faceted paper wildflowers in Partner Navy and Alliance Blue grow beside the path. Keep the path in the middle band of the frame and the top quarter a calm, pale sky. Landscape 16:9, safe to crop to 16:10 and 4:3 around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "636x358 (16:9) here; 760x428 on the Insights index",
+  "aspectMobile": "358x224 (16:10)",
+  "alt": "A ribbon path worn smooth across a faceted paper meadow.",
+  "textArea": "none (title sits below the image)",
+  "uses": [
+   {
+    "page": "19 · Article",
+    "section": "related",
+    "placement": "first related story, image above its Article card; the same picture leads the first story on 18 · Insights (same ID)"
+   },
+   {
+    "page": "18 · Insights",
+    "section": "browse",
+    "placement": "image of the first lead story (Article card); reused, same ID, in the related articles on the article page"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Insights — Desktop",
+    "node": "75:4095",
+    "size": "760x428"
+   },
+   {
+    "frame": "Insights — Mobile",
+    "node": "76:437",
+    "size": "358x224"
+   },
+   {
+    "frame": "Article — Desktop",
+    "node": "80:13396",
+    "size": "636x358"
+   },
+   {
+    "frame": "Article — Mobile",
+    "node": "80:13802",
+    "size": "358x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-18-2",
+  "slotName": "IMG-18-2 · Iceberg",
+  "kind": "new",
+  "prompt": "Editorial illustration of a calm sea on a Daylight morning, drawn in cross-section so the view is half above and half below the waterline. A faceted paper iceberg floats in the middle: above the water only a small tip shows, in Daylight white and pale blue-grey; below the waterline, through clear, still water in soft Alliance Blue shades, the much larger part of the iceberg is fully visible, built from layered flat facets that deepen to Partner Navy toward the bottom. A thin satin ribbon in a gradient from Alliance Blue to Ribbon Cyan marks the waterline across the whole frame. The salary is the tip; benefits, recruiting and equipment are the larger part below. Keep the upper third a calm, pale sky. Landscape 16:9, safe to crop to 16:10, 4:3 and 1:1 around the iceberg. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "636x358 (16:9) here; 760x428 on the Insights index",
+  "aspectMobile": "358x224 (16:10)",
+  "alt": "A faceted paper iceberg, small above the waterline and much larger below it.",
+  "textArea": "none (title sits below the image)",
+  "uses": [
+   {
+    "page": "19 · Article",
+    "section": "related",
+    "placement": "second related story, image above its Article card; the same picture leads the second story on 18 · Insights (same ID)"
+   },
+   {
+    "page": "18 · Insights",
+    "section": "browse",
+    "placement": "image of the second lead story (Article card, right column of the mirrored row); reused, same ID, in the related articles on the article page"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Insights — Desktop",
+    "node": "75:4099",
+    "size": "760x428"
+   },
+   {
+    "frame": "Insights — Mobile",
+    "node": "76:480",
+    "size": "358x224"
+   },
+   {
+    "frame": "Article — Desktop",
+    "node": "80:13409",
+    "size": "636x358"
+   },
+   {
+    "frame": "Article — Mobile",
+    "node": "80:13815",
+    "size": "358x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-18-3",
+  "slotName": "IMG-18-3 · Sample issue",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/newsletter-desktop.png",
+  "aspectDesktop": "560x620 framed, cropped to the top of the email",
+  "aspectMobile": "358x440 framed, cropped to the top of the mobile render",
+  "alt": "The top of a sample Insights email: the logo band and the lead story, ‘Start with the work your team does twice.’",
+  "textArea": "none",
+  "uses": [
+   {
+    "page": "18 · Insights",
+    "section": "newsletter",
+    "placement": "right half of the navy newsletter chapter; under the form on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Insights — Desktop",
+    "node": "75:3869",
+    "size": "624x620",
+    "crop": "cropped to the top"
+   },
+   {
+    "frame": "Insights — Mobile",
+    "node": "76:545",
+    "size": "358x440",
+    "source": "brand-kit/emails/previews/newsletter-mobile.png",
+    "crop": "cropped to the top"
+   }
+  ]
+ },
+ {
+  "id": "IMG-19-1",
+  "slotName": "IMG-19-1 · Box opened flat",
+  "kind": "new",
+  "prompt": "Still life on a calm Daylight background, seen from slightly above. A small box folded from flat faceted paper has been opened all the way: its satin ribbon, in a gradient from Alliance Blue to Ribbon Cyan, is untied and lies in one smooth curve beside it, the lid rests to one side, and all four sides are folded down flat, so everything that was inside is in plain view: a neat row of five faceted paper blocks of different sizes in pale Daylight white, soft blue-grey and Partner Navy, each one separate and fully visible, none hidden behind another. Two small flat faceted paper leaves rest near the ribbon. What the box holds is shown before anyone pays for it: an honest price, with nothing tucked away. Keep the opened box across the centre of the frame and the upper left quarter calm and empty. Landscape 16:9, safe to crop to 5:4, 4:3 and 4:5 around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1320x560 (about 2.4:1) here; 656x520 on the Insights index",
+  "aspectMobile": "358x268 (4:3) on both pages",
+  "alt": "A paper box opened out flat, every block inside in plain view, its ribbon untied beside it.",
+  "textArea": "none (text sits above the image); upper left quarter calm",
+  "uses": [
+   {
+    "page": "19 · Article",
+    "section": "article-header",
+    "placement": "cover under the article header, full container width, inset with 18 px corners; also the featured image on 18 · Insights (same ID)"
+   },
+   {
+    "page": "18 · Insights",
+    "section": "featured",
+    "placement": "left half of the featured split; the same picture is the cover of the article page (19 · Article), so it keeps one ID"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Insights — Desktop",
+    "node": "75:3724",
+    "size": "656x520"
+   },
+   {
+    "frame": "Insights — Mobile",
+    "node": "76:395",
+    "size": "358x268"
+   },
+   {
+    "frame": "Article — Desktop",
+    "node": "80:669",
+    "size": "1320x560"
+   },
+   {
+    "frame": "Article — Mobile",
+    "node": "80:13587",
+    "size": "358x268"
+   }
+  ]
+ },
+ {
+  "id": "IMG-20-1",
+  "slotName": "IMG-20-1 · Four bundles, one ribbon",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, nearly square (about 1:1), safe to crop to 4:5 around the centre. On a low, calm faceted paper hill, four small bundles of flat faceted paper plants stand in a loose row, each a different kind: a sheaf of slender leaves, a branch of soft blossoms, a cluster of broad leaves and a tuft of tall grasses, in Partner Navy, slate blue and pale blue facets. One continuous satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the lower left, loops once around the stem of each bundle and runs out at the right edge: ready-made packages for different industries, tied together by one team. Keep the bundles in the middle and lower two thirds and the top third a calm, open Daylight sky. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "Four different bundles of faceted paper plants, each tied by the same satin ribbon.",
+  "textArea": "none (text sits beside the image); keep the top third calm",
+  "uses": [
+   {
+    "page": "20 · Industries",
+    "section": "hero",
+    "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Industries — Desktop",
+    "node": "82:2160",
+    "size": "604x560"
+   },
+   {
+    "frame": "Industries — Mobile",
+    "node": "82:2517",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-21-1",
+  "slotName": "IMG-21-1 · Even rows, one stream",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, nearly square (about 1:1), safe to crop to 4:5 around the centre. A calm field seen from slightly above, laid out in long, perfectly even rows of small flat faceted paper plants in Partner Navy, slate blue and pale blue, like the lines of a tidy ledger. A smooth satin ribbon stream in a gradient from Alliance Blue to Ribbon Cyan flows in from the upper left and runs along the head of the field, feeding every row in turn: books kept in order without the typing. Generous calm Daylight space in the top third. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A ribbon stream runs along even rows of faceted paper plants.",
+  "textArea": "none (text sits beside the image); keep the top third calm",
+  "uses": [
+   {
+    "page": "21 · Finance and accounting",
+    "section": "hero",
+    "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Finance and accounting — Desktop",
+    "node": "82:8911",
+    "size": "604x560"
+   },
+   {
+    "frame": "Finance and accounting — Mobile",
+    "node": "82:9296",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-21-2",
+  "slotName": "IMG-21-2 · A leaf read into its places",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, wide (about 2:1), safe to crop to 16:10 around the centre. At the left, one large flat faceted paper leaf lies on a calm surface, its veins traced in fine Alliance Blue lines. From the veins, four thin satin ribbons in a gradient from Alliance Blue to Ribbon Cyan lift and run to the right, each settling into its own small faceted paper seed pod in a neat row: each detail read from the leaf and put where it belongs, the way an invoice is read and filed. Keep the top third calm and plain. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "648x340 (about 2:1)",
+  "aspectMobile": "16:10 (358x224)",
+  "alt": "Ribbon threads lift from a leaf’s veins into a neat row of seed pods.",
+  "textArea": "none (text sits below the image in the card); keep the top third calm",
+  "uses": [
+   {
+    "page": "21 · Finance and accounting",
+    "section": "package",
+    "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Finance and accounting — Desktop",
+    "node": "82:8959",
+    "size": "646x340"
+   },
+   {
+    "frame": "Finance and accounting — Mobile",
+    "node": "82:9341",
+    "size": "356x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-22-1",
+  "slotName": "IMG-22-1 · A sheltered garden",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, nearly square (about 1:1), safe to crop to 4:5 around the centre. A small, calm garden of flat faceted paper plants at first light, enclosed on every side by a low, continuous hedge woven from one satin ribbon in a gradient from Alliance Blue to Ribbon Cyan: a sheltered space where care and privacy are kept in. Inside, soft blossoms and young leaves in Partner Navy, slate blue and pale blue grow in neat, unhurried beds around a smooth open path. Generous calm Daylight sky in the top third. No buildings, no medical symbols, no crosses. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A calm faceted garden sheltered by a low hedge woven from one ribbon.",
+  "textArea": "none (text sits beside the image); keep the top third calm",
+  "uses": [
+   {
+    "page": "22 · Healthcare and clinics",
+    "section": "hero",
+    "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Healthcare and clinics — Desktop",
+    "node": "82:9991",
+    "size": "604x560"
+   },
+   {
+    "frame": "Healthcare and clinics — Mobile",
+    "node": "82:10377",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-22-2",
+  "slotName": "IMG-22-2 · Bellflowers on one stem",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, wide (about 2:1), safe to crop to 16:10 around the centre. One long satin ribbon stem in a gradient from Alliance Blue to Ribbon Cyan arches gently across the frame from the lower left to the right. A row of faceted paper bellflowers in slate blue and pale blue hangs from it at even intervals, each bell open toward the viewer, one after another: calls answered and reminders sent on time. Keep the top third calm and plain. No medical symbols. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "648x340 (about 2:1)",
+  "aspectMobile": "16:10 (358x224)",
+  "alt": "Faceted bellflowers hang in an even row along one arching ribbon stem.",
+  "textArea": "none (text sits below the image in the card); keep the top third calm",
+  "uses": [
+   {
+    "page": "22 · Healthcare and clinics",
+    "section": "package",
+    "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Healthcare and clinics — Desktop",
+    "node": "82:10039",
+    "size": "646x340"
+   },
+   {
+    "frame": "Healthcare and clinics — Mobile",
+    "node": "82:10422",
+    "size": "356x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-23-1",
+  "slotName": "IMG-23-1 · A swallow finds the blossom",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, nearly square (about 1:1), safe to crop to 4:5 around the centre. A wide meadow of many different flat faceted paper flowers in neat drifts, each kind a different shape in Partner Navy, slate blue and pale blue: a whole catalog. A single faceted paper swallow follows a satin ribbon in a gradient from Alliance Blue to Ribbon Cyan that curves through the meadow from the upper left and ends at one bright blossom in the lower right: helping a shopper find the right product. Calm, open Daylight sky in the top third. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A swallow follows a ribbon across a meadow of faceted flowers to one bright blossom.",
+  "textArea": "none (text sits beside the image); keep the top third calm",
+  "uses": [
+   {
+    "page": "23 · Online stores and retail",
+    "section": "hero",
+    "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Online stores and retail — Desktop",
+    "node": "82:10772",
+    "size": "604x560"
+   },
+   {
+    "frame": "Online stores and retail — Mobile",
+    "node": "82:11161",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-23-2",
+  "slotName": "IMG-23-2 · Every flower tied and ready",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, wide (about 2:1), safe to crop to 16:10 around the centre. A long, tidy row of different flat faceted paper flowers grows from a low faceted bed, each a different kind and shade of blue, and each stem tied with a small satin ribbon bow in a gradient from Alliance Blue to Ribbon Cyan: every product described and ready to go live. Keep the top third calm and plain. No shop fronts, no packaging, no price tags. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "648x340 (about 2:1)",
+  "aspectMobile": "16:10 (358x224)",
+  "alt": "A row of different faceted flowers, each tied with a small ribbon bow.",
+  "textArea": "none (text sits below the image in the card); keep the top third calm",
+  "uses": [
+   {
+    "page": "23 · Online stores and retail",
+    "section": "package",
+    "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Online stores and retail — Desktop",
+    "node": "82:10820",
+    "size": "646x340"
+   },
+   {
+    "frame": "Online stores and retail — Mobile",
+    "node": "82:11206",
+    "size": "356x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-24-1",
+  "slotName": "IMG-24-1 · A ribbon road between groves",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background at early evening, nearly square (about 1:1), safe to crop to 4:5 around the centre. Low, rounded faceted paper hills in slate blue and Partner Navy under a soft pale sky. A satin ribbon road in a gradient from Alliance Blue to Ribbon Cyan winds through the valley and links a series of small faceted tree groves one after another, each grove with one leaf catching the light: the next jobs on the route, booked in order. Keep the top third a calm, open sky. No houses, no vehicles, no tools. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A ribbon road winds between small faceted tree groves at early evening.",
+  "textArea": "none (text sits beside the image); keep the top third calm",
+  "uses": [
+   {
+    "page": "24 · Home services and local businesses",
+    "section": "hero",
+    "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Home services and local businesses — Desktop",
+    "node": "82:11559",
+    "size": "604x560"
+   },
+   {
+    "frame": "Home services and local businesses — Mobile",
+    "node": "83:420",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-24-2",
+  "slotName": "IMG-24-2 · A call answered",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background, wide (about 2:1), safe to crop to 16:10 around the centre. At the left, a faceted paper swallow perches on a loose curl of satin ribbon in a gradient from Alliance Blue to Ribbon Cyan, beak open as it answers; at the right, a second swallow flies in toward it: a call made and a call answered. Calm, open Daylight space between and above them. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "648x340 (about 2:1)",
+  "aspectMobile": "16:10 (358x224)",
+  "alt": "A swallow on a ribbon curl answers a second swallow flying in.",
+  "textArea": "none (text sits below the image in the card); keep the top third calm",
+  "uses": [
+   {
+    "page": "24 · Home services and local businesses",
+    "section": "package",
+    "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Home services and local businesses — Desktop",
+    "node": "82:11607",
+    "size": "646x340"
+   },
+   {
+    "frame": "Home services and local businesses — Mobile",
+    "node": "83:465",
+    "size": "356x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-25-1",
+  "slotName": "IMG-25-1 · Flock on one ribbon",
+  "kind": "new",
+  "prompt": "Editorial illustration on a soft Daylight sky at daybreak. A large flock of small faceted paper swallows, several dozen of them, flies in a loose but orderly formation from the lower left toward the upper right. Every bird follows the same long satin ribbon that arcs across the frame in a gradient from Alliance Blue to Ribbon Cyan, so the whole flock reads as one capable team moving together. The birds are folded from flat paper planes in Partner Navy, slate blue and pale cyan, each catching the light on its upper-left facets. A low band of flat faceted paper hills in pale blue-grey runs along the bottom edge. Keep the upper left quarter calm and empty. Near-square, about 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x600 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A flock of paper swallows follows one satin ribbon across a daybreak sky.",
+  "textArea": "none (text sits beside the image); keep the upper left quarter calm",
+  "uses": [
+   {
+    "page": "25 · Why the Philippines",
+    "section": "hero",
+    "placement": "right half of the hero split; under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Why the Philippines — Desktop",
+    "node": "41:1906",
+    "size": "604x600"
+   },
+   {
+    "frame": "Why the Philippines — Mobile",
+    "node": "43:2275",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-25-2",
+  "slotName": "IMG-25-2 · Sample report",
+  "kind": "existing",
+  "source": "brand-kit/emails/previews/monthly-report-desktop.png",
+  "aspectDesktop": "760x400 framed, top of the large bento card",
+  "aspectMobile": "358x360, mobile preview cropped to the top",
+  "alt": "Sample monthly report email from Alliance AI Partners.",
+  "textArea": "none",
+  "uses": [
+   {
+    "page": "25 · Why the Philippines",
+    "section": "quality",
+    "placement": "inset product visual at the top of the large card, full bleed inside the card"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Why the Philippines — Desktop",
+    "node": "41:1953",
+    "size": "758x400"
+   },
+   {
+    "frame": "Why the Philippines — Mobile",
+    "node": "43:2321",
+    "size": "356x360",
+    "source": "brand-kit/emails/previews/monthly-report-mobile.png"
+   }
+  ]
+ },
+ {
+  "id": "IMG-25-3",
+  "slotName": "IMG-25-3 · Papers bound with ribbon",
+  "kind": "new",
+  "prompt": "Still life on a Daylight background. A neat stack of plain, blank paper sheets rests on a flat surface, bound twice with a wide satin ribbon in Alliance Blue shading to Ribbon Cyan and tied in a firm, tidy knot on top: information kept together and protected. A few flat faceted paper leaves in Partner Navy and slate blue lie beside the stack. The sheets carry no marks, lines or letters. Generous calm Daylight space around the stack, especially at the top. Portrait, about 15:16, safe to crop to 6:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "600x640 (about 15:16)",
+  "aspectMobile": "6:5 (358x300)",
+  "alt": "A stack of blank paper bound with a satin ribbon tied in a firm knot.",
+  "textArea": "none (text sits beside the image); calm Daylight space at the top",
+  "uses": [
+   {
+    "page": "25 · Why the Philippines",
+    "section": "privacy",
+    "placement": "left half of the split; under the list on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Why the Philippines — Desktop",
+    "node": "41:2047",
+    "size": "600x640"
+   },
+   {
+    "frame": "Why the Philippines — Mobile",
+    "node": "43:2437",
+    "size": "358x300"
+   }
+  ]
+ },
+ {
+  "id": "IMG-25-4",
+  "slotName": "IMG-25-4 · Ribbon river",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/ribbon-river.webp",
+  "aspectDesktop": "1440x600 full bleed",
+  "aspectMobile": "390x640, crop to the sky and the top of the river",
+  "alt": "",
+  "textArea": "top third (desktop and mobile), white text on the scrim",
+  "uses": [
+   {
+    "page": "25 · Why the Philippines",
+    "section": "cta",
+    "placement": "background of the closing band with a navy scrim from the top"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Why the Philippines — Desktop",
+    "node": "41:2251",
+    "size": "1440x600"
+   },
+   {
+    "frame": "Why the Philippines — Mobile",
+    "node": "43:2607",
+    "size": "390x640"
+   }
+  ]
+ },
+ {
+  "id": "IMG-26-1",
+  "slotName": "IMG-26-1 · Two swallows, two hours apart",
+  "kind": "new",
+  "prompt": "Two faceted paper swallows fly side by side across a calm Daylight sky at daybreak, the second just a little behind the first, both following one long satin ribbon that curves from the lower left to the upper right in a gradient from Alliance Blue to Ribbon Cyan: two teams on the same working day, a short way apart. The birds are folded from flat paper planes in Partner Navy and slate blue, each catching the light on its upper-left facets. A low line of flat faceted paper hills in pale blue-grey runs along the bottom. Calm open sky in the upper left quarter. Portrait, about 8:9, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x680 (about 8:9)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "Two paper swallows fly side by side along a satin ribbon at daybreak, one just behind the other.",
+  "textArea": "none (text sits beside it); upper left quarter calm",
+  "uses": [
+   {
+    "page": "26 · Australia",
+    "section": "services",
+    "placement": "right half of the split; under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Australia — Desktop",
+    "node": "46:7099",
+    "size": "604x680"
+   },
+   {
+    "frame": "Australia — Mobile",
+    "node": "46:7503",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-26-2",
+  "slotName": "IMG-26-2 · Daybreak swallows",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/daybreak-swallows.webp",
+  "aspectDesktop": "1440x600 full bleed",
+  "aspectMobile": "390x640",
+  "alt": "",
+  "textArea": "left two thirds (desktop), top half (mobile)",
+  "uses": [
+   {
+    "page": "26 · Australia",
+    "section": "cta",
+    "placement": "background of the closing band with a navy scrim"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Australia — Desktop",
+    "node": "46:7329",
+    "size": "1440x600"
+   },
+   {
+    "frame": "Australia — Mobile",
+    "node": "46:7762",
+    "size": "390x640"
+   }
+  ]
+ },
+ {
+  "id": "IMG-27-1",
+  "slotName": "IMG-27-1 · Night into daybreak",
+  "kind": "new",
+  "prompt": "A wide landscape of flat faceted paper hills under a sky that runs from deep Partner Navy night at the right to pale daybreak at the upper left. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan flows out of the dark side toward the light, and small faceted paper leaves unfold along it, larger and brighter as they reach the dawn: work that moves forward overnight and is ready by morning. Calm sky in the upper left quarter. Portrait, about 8:9, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x680 (about 8:9)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A satin ribbon runs from a night sky into daybreak, with paper leaves unfolding along it.",
+  "textArea": "none (text sits beside it); upper left quarter calm",
+  "uses": [
+   {
+    "page": "27 · United States",
+    "section": "services",
+    "placement": "right half of the split; under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "United States — Desktop",
+    "node": "48:219",
+    "size": "604x680"
+   },
+   {
+    "frame": "United States — Mobile",
+    "node": "48:706",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-27-2",
+  "slotName": "IMG-27-2 · Dawn wave",
+  "kind": "existing",
+  "source": "design-system/imagery/backgrounds/dawn-wave.webp",
+  "aspectDesktop": "1440x600 full bleed",
+  "aspectMobile": "390x640",
+  "alt": "",
+  "textArea": "upper half, white text",
+  "uses": [
+   {
+    "page": "27 · United States",
+    "section": "cta",
+    "placement": "background of the closing band with a navy scrim"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "United States — Desktop",
+    "node": "48:457",
+    "size": "1440x600"
+   },
+   {
+    "frame": "United States — Mobile",
+    "node": "48:970",
+    "size": "390x640"
+   }
+  ]
+ },
+ {
+  "id": "IMG-28-1",
+  "slotName": "IMG-28-1 · Afternoon into morning",
+  "kind": "new",
+  "prompt": "Flat faceted paper fields under a wide sky that shifts from the deeper blue of late afternoon at the right to the pale first light of morning at the upper left. One satin ribbon in a gradient from Alliance Blue to Ribbon Cyan arcs across the whole sky from the afternoon side into the morning side, where a faceted paper blossom is just opening at its end: an afternoon’s work arriving at the start of a day. Calm sky in the upper left quarter. Portrait, about 8:9, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x680 (about 8:9)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A satin ribbon arcs from a late afternoon sky into the first light of morning over paper fields.",
+  "textArea": "none (text sits beside it); upper left quarter calm",
+  "uses": [
+   {
+    "page": "28 · United Kingdom",
+    "section": "services",
+    "placement": "right half of the split; under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "United Kingdom — Desktop",
+    "node": "59:1686",
+    "size": "604x680"
+   },
+   {
+    "frame": "United Kingdom — Mobile",
+    "node": "59:2067",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-28-2",
+  "slotName": "IMG-28-2 · Morning on the horizon",
+  "kind": "new",
+  "prompt": "Editorial illustration for a dark closing band. A deep Partner Navy night sky over low faceted paper hills; toward the right edge the sky grades softly through Alliance Blue to a band of Ribbon Cyan along the horizon, the first light of morning. One satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs along the hills from the lower left toward that light: our afternoon is your morning. The left half is calm, plain deep navy for white text. Wide landscape, about 21:9 (1440x600); keep the horizon light in the right third and the lower half, so a tall mobile crop positioned on the right still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x600 full bleed",
+  "aspectMobile": "390x640",
+  "alt": "A ribbon runs across dark faceted hills toward morning light.",
+  "textArea": "left half, white text on the scrim (the image is dark navy throughout)",
+  "uses": [
+   {
+    "page": "28 · United Kingdom",
+    "section": "cta",
+    "placement": "background of the closing band with a navy scrim"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "United Kingdom — Desktop",
+    "node": "59:1893",
+    "size": "1440x600"
+   },
+   {
+    "frame": "United Kingdom — Mobile",
+    "node": "59:2298",
+    "size": "390x640"
+   }
+  ]
+ },
+ {
+  "id": "IMG-29-1",
+  "slotName": "IMG-29-1 · Kite and flock",
+  "kind": "new",
+  "prompt": "Editorial illustration on a soft Daylight sky at daybreak. A large faceted paper kite, folded from flat planes in Partner Navy and slate blue, flies out in front, trailing a long satin ribbon in a gradient from Alliance Blue to Ribbon Cyan. A small flock of faceted paper swallows flies close behind the kite in a tight, orderly formation, following the ribbon: one shape leads and a capable team works behind it. The kite is plain, with no marks, symbols or letters. A low band of flat faceted paper hills in pale blue-grey runs along the bottom edge. Keep the upper left quarter calm and empty. Near-square, about 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x600 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A paper kite flies out front on a satin ribbon, with a flock of paper swallows close behind it.",
+  "textArea": "none (text sits beside the image); keep the upper left quarter calm",
+  "uses": [
+   {
+    "page": "29 · For agencies",
+    "section": "hero",
+    "placement": "right half of the hero split; under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "For agencies — Desktop",
+    "node": "64:1819",
+    "size": "604x600"
+   },
+   {
+    "frame": "For agencies — Mobile",
+    "node": "64:2206",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-29-2",
+  "slotName": "IMG-29-2 · Blank paper tag",
+  "kind": "new",
+  "prompt": "Still life on a Daylight background. A large blank paper tag, folded from flat faceted planes in white and pale blue-grey, hangs from a satin ribbon in Alliance Blue shading to Ribbon Cyan that loops in from the upper left. The tag is completely blank, with no marks, lines or letters, ready to carry another name. A few small faceted paper leaves in Partner Navy and slate blue rest beneath it. Generous calm Daylight space on the right. Landscape, about 2:1, safe to crop to 3:2. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "760x400 (about 2:1), top of the large bento card",
+  "aspectMobile": "3:2 (358x240)",
+  "alt": "A blank paper tag hangs from a satin ribbon.",
+  "textArea": "none",
+  "uses": [
+   {
+    "page": "29 · For agencies",
+    "section": "white-label",
+    "placement": "inset at the top of the large white-label card, full bleed inside the card"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "For agencies — Desktop",
+    "node": "64:1847",
+    "size": "758x400"
+   },
+   {
+    "frame": "For agencies — Mobile",
+    "node": "64:2217",
+    "size": "356x240"
+   }
+  ]
+ },
+ {
+  "id": "IMG-29-3",
+  "slotName": "IMG-29-3 · Our team behind your brand",
+  "kind": "new",
+  "prompt": "Editorial illustration for a dark Partner Navy closing band. In the right half, a wide panel of flat faceted paper in deep and mid navy shades lies across low faceted hills like a cover. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs behind the panel: it shows only where it enters at one edge and leaves at the other, lifting the panel slightly so its facets catch light from the upper left: our team working behind your agency's brand. The left half and the top half are calm, plain deep navy for white text. Wide landscape, about 21:9 (1440x600); keep the panel in the right half and the lower part, so a tall mobile crop positioned on the lower right still shows where the ribbon enters and leaves. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x600 full bleed",
+  "aspectMobile": "390x640",
+  "alt": "A blue ribbon runs behind a folded navy paper panel, seen only at its edges.",
+  "textArea": "upper half, white text on the scrim",
+  "uses": [
+   {
+    "page": "29 · For agencies",
+    "section": "cta",
+    "placement": "background of the closing band with a navy scrim from the left (from the top on mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "For agencies — Desktop",
+    "node": "64:2062",
+    "size": "1440x600"
+   },
+   {
+    "frame": "For agencies — Mobile",
+    "node": "64:2435",
+    "size": "390x640"
+   }
+  ]
+ },
+ {
+  "id": "IMG-30-1",
+  "slotName": "IMG-30-1 · Stepping stones at daybreak",
+  "kind": "new",
+  "prompt": "Editorial illustration on a soft Daylight sky at daybreak. A calm stretch of water built from flat faceted paper planes in pale blue-grey fills the lower half. A path of flat faceted paper stepping stones crosses it from the lower left toward the upper right, each stone a little higher than the one before. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is laid along the stones like a handrail, the way a team clears the path for the next person: work that grows one step at a time. Low faceted hills in Partner Navy and slate blue sit on the far shore. Keep the upper left quarter calm and empty. Near-square, about 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x600 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "A satin ribbon laid along a path of paper stepping stones that rise across calm water at daybreak.",
+  "textArea": "none (text sits beside the image); keep the upper left quarter calm",
+  "uses": [
+   {
+    "page": "30 · Careers",
+    "section": "hero",
+    "placement": "right half of the hero split; under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Careers — Desktop",
+    "node": "83:3965",
+    "size": "604x600"
+   },
+   {
+    "frame": "Careers — Mobile",
+    "node": "84:916",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-30-2",
+  "slotName": "IMG-30-2 · A ribbon clears the path",
+  "kind": "new",
+  "prompt": "A wide, calm meadow of tall faceted paper grass in pale slate blue and soft navy shades at first light. One satin ribbon in a gradient from Alliance Blue to Ribbon Cyan lies along the ground and curves from the lower left into the distance, opening a clear path through the grass; along the stretch it has already crossed, small faceted paper leaves have taken root beside the path: we try the new tools first, and what works takes root. The sky is a soft Daylight gradient with pale Ribbon Cyan near the horizon. Keep the top third calm and empty. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "648x340 (about 2:1)",
+  "aspectMobile": "16:10 (358x224)",
+  "alt": "A satin ribbon opens a path through a paper meadow, with young leaves taking root along it.",
+  "textArea": "top third calm",
+  "uses": [
+   {
+    "page": "30 · Careers",
+    "section": "learning",
+    "placement": "top of the large bento card, full bleed inside the card"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Careers — Desktop",
+    "node": "83:4044",
+    "size": "646x340"
+   },
+   {
+    "frame": "Careers — Mobile",
+    "node": "85:470",
+    "size": "356x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-32-1",
+  "slotName": "IMG-32-1 · Brand board",
+  "kind": "existing",
+  "source": "brand-kit/brand-board.png",
+  "aspectDesktop": "604x378 (16:10; the file is 3300x2065)",
+  "aspectMobile": "358x224 (16:10)",
+  "alt": "The Alliance AI Partners brand board: the logo on navy, its clear space, the homepage, a voice line, the colors, the type, merchandise, imagery and the system.",
+  "textArea": "none (text sits beside the image)",
+  "uses": [
+   {
+    "page": "32 · Brand and press",
+    "section": "hero",
+    "placement": "right half of the hero split, framed (radius 18); under the actions on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Brand and press — Desktop",
+    "node": "90:162",
+    "size": "604x378"
+   },
+   {
+    "frame": "Brand and press — Mobile",
+    "node": "93:641",
+    "size": "358x224"
+   }
+  ]
+ },
+ {
+  "id": "IMG-32-2",
+  "slotName": "IMG-32-2 · Tote",
+  "kind": "existing",
+  "source": "brand-kit/merch/mockups/tote.webp",
+  "aspectDesktop": "760x640 (centre crop of the square)",
+  "aspectMobile": "358x358",
+  "alt": "Mockup: a canvas tote printed with the logo and a ribbon line.",
+  "textArea": null,
+  "uses": [
+   {
+    "page": "32 · Brand and press",
+    "section": "merch",
+    "placement": "large left tile of the mosaic"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Brand and press — Desktop",
+    "node": "91:1022",
+    "size": "760x640"
+   },
+   {
+    "frame": "Brand and press — Mobile",
+    "node": "93:2028",
+    "size": "358x358"
+   }
+  ]
+ },
+ {
+  "id": "IMG-32-3",
+  "slotName": "IMG-32-3 · Notebook",
+  "kind": "existing",
+  "source": "brand-kit/merch/mockups/notebook.webp",
+  "aspectDesktop": "536x308 (centre crop)",
+  "aspectMobile": "358x200",
+  "alt": "Mockup: a navy notebook with the mark embossed and a cyan ribbon bookmark.",
+  "textArea": null,
+  "uses": [
+   {
+    "page": "32 · Brand and press",
+    "section": "merch",
+    "placement": "top right of the mosaic; the small image on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Brand and press — Desktop",
+    "node": "91:1027",
+    "size": "536x308"
+   },
+   {
+    "frame": "Brand and press — Mobile",
+    "node": "93:2032",
+    "size": "358x200"
+   }
+  ]
+ },
+ {
+  "id": "IMG-32-4",
+  "slotName": "IMG-32-4 · Mug",
+  "kind": "existing",
+  "source": "brand-kit/merch/mockups/mug.webp",
+  "aspectDesktop": "536x308 (centre crop)",
+  "aspectMobile": "dropped on mobile",
+  "alt": "Mockup: a white mug with the full-color mark and a ribbon line.",
+  "textArea": null,
+  "uses": [
+   {
+    "page": "32 · Brand and press",
+    "section": "merch",
+    "placement": "bottom right of the mosaic"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Brand and press — Desktop",
+    "node": "91:1031",
+    "size": "536x308"
+   }
+  ]
+ },
+ {
+  "id": "IMG-34-1",
+  "slotName": "IMG-34-1 · Ranked saplings",
+  "kind": "new",
+  "prompt": "Editorial illustration on a Daylight background. A single satin ribbon in a gradient from Alliance Blue to Ribbon Cyan unrolls across a calm, pale faceted paper ground from the lower left toward the upper right, like a route drawn across a map. Along it stand four flat faceted paper saplings of clearly different heights, the tallest first and nearest the viewer, then each one smaller: findings ranked by what they would save. A small faceted paper swallow rests on the tallest sapling. Partner Navy only in the shaded facets. Calm, open Daylight space across the top third. About 1:1 (604x600), keep the four saplings inside the centre so it crops to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x600 (about 1:1)",
+  "aspectMobile": "4:5 (358x448)",
+  "alt": "Four paper saplings of falling height stand along a ribbon path, the tallest first.",
+  "textArea": "none (text sits beside the image); calm top third",
+  "uses": [
+   {
+    "page": "34 · AI check-up sample report",
+    "section": "cover",
+    "placement": "right half of the cover split; last in the cover on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "AI check-up sample report — Desktop",
+    "node": "44:1799",
+    "size": "604x600"
+   },
+   {
+    "frame": "AI check-up sample report — Mobile",
+    "node": "46:1975",
+    "size": "358x448"
+   }
+  ]
+ },
+ {
+  "id": "IMG-34-2",
+  "slotName": "IMG-34-2 · A report, ready to open",
+  "kind": "new",
+  "prompt": "Editorial illustration on a deep Partner Navy ground. In the lower left, a closed booklet folded from flat faceted paper, its blank cover in pale Daylight and soft navy shades with no marks at all, lies at a slight angle. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan is tied around it and is just coming undone, its loose end curving up and away to the right: a finished report, ready to open. A soft navy-tinted shadow falls beneath the booklet. The right half and the top third are calm, plain deep navy for white text. Landscape, about 16:9 (1440x800); keep the booklet in the left third so a tall mobile crop positioned on the left still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x800 full bleed",
+  "aspectMobile": "390x828 full bleed",
+  "alt": "A blank faceted booklet tied with a ribbon that is coming undone.",
+  "textArea": "right side, white text (desktop); top (mobile)",
+  "uses": [
+   {
+    "page": "34 · AI check-up sample report",
+    "section": "next-steps",
+    "placement": "background with a navy scrim from the reading edge (right on desktop, top on mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "AI check-up sample report — Desktop",
+    "node": "45:1274",
+    "size": "1440x800"
+   },
+   {
+    "frame": "AI check-up sample report — Mobile",
+    "node": "46:2123",
+    "size": "390x828"
+   }
+  ]
+ },
+ {
+  "id": "IMG-35-1",
+  "slotName": "IMG-35-1 · Empty plinths",
+  "kind": "new",
+  "prompt": "Editorial still life on a calm Daylight background, seen at eye level from slightly above. Three plinths folded from flat faceted paper in white and pale blue-grey stand in a loose row across the lower half, each a little different in height, their tops bare and clean: space kept ready for results that are not in yet. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs in a loose, gentle curve across the front of the plinths from the lower left and rises toward the upper right, like a ribbon waiting to be cut at an opening. A few small faceted paper leaves rest on the ribbon where it touches the floor. The upper half is calm, open Daylight. Nearly square, about 1:1 (604x560), safe to crop to 4:5 (358x420) around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "604x560 (about 1:1)",
+  "aspectMobile": "4:5 (358x420)",
+  "alt": "Three empty faceted paper plinths with a satin ribbon across them.",
+  "textArea": "none (text sits beside the image); keep the upper half calm",
+  "uses": [
+   {
+    "page": "35 · Case studies",
+    "section": "hero",
+    "placement": "right half of the hero split on desktop; last in the hero on mobile, under the actions"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Case studies — Desktop",
+    "node": "94:703",
+    "size": "604x560"
+   },
+   {
+    "frame": "Case studies — Mobile",
+    "node": "94:2797",
+    "size": "358x420"
+   }
+  ]
+ },
+ {
+  "id": "IMG-36-1",
+  "slotName": "IMG-36-1 · Growth, measured",
+  "kind": "new",
+  "prompt": "Editorial illustration on a calm Daylight background, wide panoramic (about 2.5:1, 1320x520), safe to crop to 4:3 around the right third. In the right third, a tall young plant built from flat faceted paper planes in navy and blue shades rises from a low faceted paper mound, its top leaves catching Ribbon Cyan light from the upper left. Beside its stem, a satin ribbon in a gradient from Alliance Blue to Ribbon Cyan stands upright like a gardener’s measuring tape, marked with plain, evenly spaced tick lines (lines only, no numbers or letters), running from the ground to the plant’s top leaf: growth that was measured. At the foot of the mound lies the small faceted paper seed husk it grew from. The left two thirds are calm, open Daylight with low, soft faceted hills along the bottom edge. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1320x520 (about 2.5:1), inset with 18 px corners",
+  "aspectMobile": "4:3 (358x268), cropped to the right third",
+  "alt": "A ribbon marked like a measuring tape stands beside a tall young plant.",
+  "textArea": "none (no text sits on the image); the left two thirds stay calm",
+  "uses": [
+   {
+    "page": "36 · Case study template",
+    "section": "hero",
+    "placement": "the case study’s cover, across the container under the hero text; under the alert on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Case study template — Desktop",
+    "node": "96:682",
+    "size": "1320x520"
+   },
+   {
+    "frame": "Case study template — Mobile",
+    "node": "97:964",
+    "size": "358x268"
+   }
+  ]
+ },
+ {
+  "id": "IMG-37-1",
+  "slotName": "IMG-37-1 · Four paths, one hilltop",
+  "kind": "new",
+  "prompt": "Editorial illustration on a soft Daylight background, portrait 4:5, safe to crop to 4:3 around the middle. Four satin ribbon paths start from four different points along the lower edge, each in its own colour (Partner Navy, slate blue, pale blue-grey, and one in a gradient from Alliance Blue to Ribbon Cyan), and wind by different routes up a gentle hill of flat faceted paper to meet at the same rounded hilltop: four fair ways to reach one goal. The paths are about the same width and none is shown as better than the others. A few small flat faceted paper leaves sit along the routes. Keep the upper third of the sky calm and empty. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "520x650 (4:5)",
+  "aspectMobile": "358x268 (4:3)",
+  "alt": "Four ribbon paths take different routes up one faceted hill and meet at the same top.",
+  "textArea": "none (text sits beside or above the image); keep the upper third calm",
+  "uses": [
+   {
+    "page": "37 · Compare",
+    "section": "right-choice",
+    "placement": "left column under the lead on desktop; under the lead on mobile"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Compare — Desktop",
+    "node": "67:1048",
+    "size": "520x650"
+   },
+   {
+    "frame": "Compare — Mobile",
+    "node": "67:5402",
+    "size": "358x268"
+   }
+  ]
+ },
+ {
+  "id": "IMG-37-2",
+  "slotName": "IMG-37-2 · A fair balance",
+  "kind": "new",
+  "prompt": "Editorial illustration on a deep Partner Navy ground. In the left third, a simple balance built from flat faceted paper planes in navy and blue shades: a slim upright, a beam made of a satin ribbon in a gradient from Alliance Blue to Ribbon Cyan, and two shallow pans, each holding one small blank paper tag with no marks at all. The beam rests level and calm, lit from the upper left: options weighed fairly, side by side. The right half and the top third are calm, plain deep navy for white text. Landscape, about 21:9 (1440x640); keep the balance in the left third and the lower half, so a tall mobile crop positioned on the lower left still shows it whole. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+  "aspectDesktop": "1440x640 full bleed",
+  "aspectMobile": "390 wide, as tall as the text plus 280, crop to the calm navy side",
+  "alt": "A faceted paper balance holds two blank tags, level.",
+  "textArea": "right 45% (desktop), top 60% (mobile), Daylight text on the scrim",
+  "uses": [
+   {
+    "page": "37 · Compare",
+    "section": "cta",
+    "placement": "background of the navy band with a navy scrim from the reading edge (right on desktop, top on mobile)"
+   }
+  ],
+  "figma": [
+   {
+    "frame": "Compare — Desktop",
+    "node": "67:1193",
+    "size": "1440x640"
+   },
+   {
+    "frame": "Compare — Mobile",
+    "node": "67:5542",
+    "size": "390x688"
+   }
+  ]
+ }
+]

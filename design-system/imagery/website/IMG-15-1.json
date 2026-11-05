@@ -1,0 +1,19 @@
+{
+ "id": "IMG-15-1",
+ "slot": "IMG-15-1 · First stepping stone",
+ "alt": "A line of flat stepping stones crosses a satin ribbon stream, the nearest stone large and bright, with a swallow skimming toward the far bank.",
+ "prompt": "Editorial illustration on a Daylight background. A calm satin ribbon stream, in a gradient from Alliance Blue to Ribbon Cyan, flows from the upper right toward the lower left through a landscape of flat faceted paper meadows in pale blue-grey. A short line of five flat, faceted stepping stones crosses the stream from the near bank at the lower left to the far bank, where low faceted trees and broad leaves catch the morning light. The first stone, nearest the viewer, is the largest and the brightest, lit from the upper left: one easy, low-risk first step with the way ahead in plain view. A single faceted paper swallow skims low over the stones toward the far bank. Partner Navy only in the deepest shaded sides of the stones and trees. Keep the upper third a calm, open Daylight sky. Landscape about 7:6, safe to crop to 6:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "5:4",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "15 · Contact",
+   "section": "check-up",
+   "placement": "right half of the large check-up card; bottom of the card on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 3.8% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

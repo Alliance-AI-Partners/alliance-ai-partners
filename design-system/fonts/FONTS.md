@@ -44,30 +44,32 @@ Source: [github.com/github/mona-sans](https://github.com/github/mona-sans), rele
 
 **Static pages, emails previews and print.** [../tokens/tokens.css](../tokens/tokens.css) declares the `@font-face` rules with relative URLs, so keep this folder next to `tokens/`.
 
-**The Next.js site.** These masters are large because they carry every width. On the website, let Next.js subset and self-host the fonts so each page downloads only the glyphs and axes it uses:
+**The Next.js site.** These masters are large because they carry every width. The website loads them with `next/font/local`, which serves them from the site, preloads them and adds a size-matched fallback, so text does not jump when the font arrives. It does not subset local files (only `next/font/google` does), so the site loads just two: the upright Mona Sans and Mona Sans Mono. The italic master stays out until a page sets type in italics. The site's `app/fonts.ts`:
 
 ```tsx
 // app/fonts.ts
 import localFont from "next/font/local";
 
 export const monaSans = localFont({
-  src: [
-    { path: "../design-system/fonts/mona-sans/MonaSansVF-wdth-opsz-wght.ttf", style: "normal" },
-    { path: "../design-system/fonts/mona-sans/MonaSansVF-Italic-wdth-opsz-wght.ttf", style: "italic" },
-  ],
+  src: "../design-system/fonts/mona-sans/MonaSansVF-wdth-opsz-wght.ttf",
+  style: "normal",
+  weight: "200 900",
   variable: "--font-mona-sans",
   display: "swap",
+  // Declare the width axis, or the browser clamps font-stretch to 100% and Expanded display type falls back to normal width.
   declarations: [{ prop: "font-stretch", value: "75% 125%" }],
 });
 
 export const monaSansMono = localFont({
   src: "../design-system/fonts/mona-sans/MonaSansMonoVF-wght.ttf",
+  style: "normal",
+  weight: "200 900",
   variable: "--font-mona-sans-mono",
   display: "swap",
 });
 ```
 
-Then point the tokens at those variables in the root layout (`--aap-font-family-sans: var(--font-mona-sans), ...`). If you load Mona Sans from Google Fonts through `next/font/google` instead, confirm first that the width axis is offered and requested (`axes: ["wdth"]`); without it the Expanded display widths fall back to normal width.
+Then put both classes on `<html>` and point the tokens at the variables (`--aap-font-family-sans: var(--font-mona-sans), ...`), as `app/layout.tsx` and `app/globals.css` do. If you load Mona Sans from Google Fonts through `next/font/google` instead, confirm first that the width axis is offered and requested (`axes: ["wdth"]`); without it the Expanded display widths fall back to normal width.
 
 ## Fallbacks
 
@@ -75,7 +77,7 @@ Then point the tokens at those variables in the root layout (`--aap-font-family-
 
 ## Licence
 
-SIL Open Font License 1.1, with the Reserved Font Name "Mona". Using, embedding, printing and redistributing the unmodified files are all allowed, including commercially. A modified version (for example a subset you make yourself and redistribute) may not use the name "Mona"; serving a subset through `next/font` on your own site is the normal web-font use. The licence text is in [mona-sans/OFL.txt](mona-sans/OFL.txt).
+SIL Open Font License 1.1, with the Reserved Font Name "Mona". Using, embedding, printing and redistributing the unmodified files are all allowed, including commercially. A modified version (for example a subset you make yourself and redistribute) may not use the name "Mona"; serving the files through `next/font` on your own site, as the website does, is the normal web-font use. The licence text is in [mona-sans/OFL.txt](mona-sans/OFL.txt).
 
 ## Logo type
 

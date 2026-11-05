@@ -1,0 +1,18 @@
+{
+ "id": "IMG-28-2",
+ "slot": "IMG-28-2 · Morning on the horizon",
+ "alt": "A ribbon runs across dark faceted hills toward morning light.",
+ "prompt": "Editorial illustration for a dark closing band. A deep Partner Navy night sky over low faceted paper hills; toward the right edge the sky grades softly through Alliance Blue to a band of Ribbon Cyan along the horizon, the first light of morning. One satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs along the hills from the lower left toward that light: our afternoon is your morning. The left half is calm, plain deep navy for white text. Wide landscape, about 21:9 (1440x600); keep the horizon light in the right third and the lower half, so a tall mobile crop positioned on the right still shows it. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "21:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "28 · United Kingdom",
+   "section": "cta",
+   "placement": "background of the closing band with a navy scrim"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

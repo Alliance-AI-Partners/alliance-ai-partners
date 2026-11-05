@@ -1,0 +1,18 @@
+{
+ "id": "IMG-06-1",
+ "slot": "IMG-06-1 · Orchard at first light",
+ "alt": "An orchard of faceted paper trees along a ribbon path, the nearest trees heavy with fruit.",
+ "prompt": "Wide panoramic illustration, about 2.5:1, safe to crop to 4:5 at the left third. An orchard at first light built from flat paper facets: rows of faceted trees run along a satin ribbon path in a gradient from Alliance Blue to Ribbon Cyan that winds from the lower left toward the horizon. The trees nearest the viewer are heavy with round folded-paper fruit in Ribbon Cyan and Alliance Blue; trees further along are younger and lighter: steady growth that the team gets to harvest. Soft Daylight sky with pale cyan near the horizon across the top third, calm and empty. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "21:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "06 · Grow",
+   "section": "hero",
+   "placement": "inset media under the hero text, full container width"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

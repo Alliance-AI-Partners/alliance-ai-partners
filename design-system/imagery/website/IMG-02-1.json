@@ -1,0 +1,19 @@
+{
+ "id": "IMG-02-1",
+ "slot": "IMG-02-1 · Three paths, one first step",
+ "alt": "A ribbon path splits into three; the shortest branch ends at a young sapling.",
+ "prompt": "Editorial illustration on a Daylight background. A single satin ribbon path in a gradient from Alliance Blue to Ribbon Cyan runs in from the lower left across calm, pale faceted paper hills and splits into three branches. The two longer branches wind away toward the far hills; the shortest branch, nearest the viewer, curves to a stop beside a young faceted paper sapling that is already putting out its first leaves: of three possible paths, the first step that pays off soonest. Partner Navy only in the deepest shaded facets of the hills. Calm, open Daylight sky across the top third. About 1:1 (604x600), keep the split and the sapling inside the centre so it crops to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "02 · AI check-up",
+   "section": "hero",
+   "placement": "right half of the hero split; under the facts on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 1.66% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}

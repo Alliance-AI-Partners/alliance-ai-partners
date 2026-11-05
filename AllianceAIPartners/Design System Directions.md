@@ -1,5 +1,8 @@
 Alliance AI Partners · Design system directions · Draft 4, October 2026
 
+> [!NOTE]
+> Historical note, kept for its research. The finished design system is "The Ribbon", written up in `DESIGN.md` and built in `design-system/`. Some rules below no longer apply, such as the bans on Montserrat and on mascots; the [Decision Log](Decision%20Log.md) lists them.
+
 This note holds the groundwork for the logo, the visual identity, and the website design system: how directions are scored, what the research found, the rules every direction must follow, and the foundations they share.
 
 The 20 directions from Draft 3 were removed on 28 October 2026. None of them was strong enough, so the next round starts fresh from here. They're still in the git history if you need to look one up.

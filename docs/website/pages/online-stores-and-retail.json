@@ -1,0 +1,418 @@
+{
+ "slug": "online-stores-and-retail",
+ "figmaPage": "23 · Online stores and retail",
+ "phase": "Next",
+ "route": "/industries/online-stores-and-retail",
+ "template": "industry (shared by 21 · Finance and accounting, 22 · Healthcare and clinics, 23 · Online stores and retail, 24 · Home services and local businesses)",
+ "purpose": "Show an online store owner what the package takes off their team, what’s in it, how customer data stays safe, and get them to start an AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "AI for online stores and retail | Alliance AI Partners",
+  "description": "Product content for your whole catalog, shopping assistants, recommendations and customer support, built and run by an embedded AI team in the Philippines."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "82:10719",
+  "mobile": "82:11120"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Section · Hero",
+   "ground": "daylight",
+   "layout": "split-image-right",
+   "job": "Say what changes for a online stores and retail business in one line, prove it with the package in the lead, and offer the one committing action.",
+   "desktop": "Header (Services marked current). Hero grid 1.08fr | 1fr: text column 652 (Display/XL title with one accent word in regular weight, Body/LG lead 560, the page’s one Primary LG + an underlined link, a meta line in UI/Caption with a small UI icon) | image slot 604x560 on the right. 96 top, 128 bottom.",
+   "mobile": "Title, lead, full-width LG Primary, centred link, then the image re-cropped to 4:5 (358x448), then the meta line. 48 top, 72 bottom.",
+   "content": {
+    "heading": "Every product page, written.",
+    "lead": "We write content for your whole catalog, add a shopping assistant that helps people find the right product, and answer questions at any hour. Harder cases go to your team.",
+    "accentWord": "written.",
+    "body": [
+     "Built and run by our team in the Philippines, alongside your store team."
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "See what’s in the package",
+      "variant": "link",
+      "target": "#package"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Icon/globe",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-23-1",
+     "slotName": "IMG-23-1 · A swallow finds the blossom",
+     "kind": "new",
+     "source": "Editorial illustration on a Daylight background, nearly square (about 1:1), safe to crop to 4:5 around the centre. A wide meadow of many different flat faceted paper flowers in neat drifts, each kind a different shape in Partner Navy, slate blue and pale blue: a whole catalog. A single faceted paper swallow follows a satin ribbon in a gradient from Alliance Blue to Ribbon Cyan that curves through the meadow from the upper left and ends at one bright blossom in the lower right: helping a shopper find the right product. Calm, open Daylight sky in the top third. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "604x560 (about 1:1)",
+     "aspectMobile": "4:5 (358x448)",
+     "placement": "right half of the hero split (1.08fr text | 1fr image); on mobile under the actions, above the meta line",
+     "textArea": "none (text sits beside the image); keep the top third calm",
+     "alt": "A swallow follows a ribbon across a meadow of faceted flowers to one bright blossom.",
+     "figma": {
+      "desktop": "82:10772",
+      "mobile": "82:11161"
+     }
+    }
+   ]
+  },
+  {
+   "id": "slow-work",
+   "name": "Section · Slow work",
+   "ground": "daylight",
+   "layout": "split-sticky",
+   "job": "Show we understand the slow, manual work in this industry before offering a fix (Brand DNA: listen first).",
+   "desktop": "Split: head column 520 (Heading/2 title, Body/LG lead) | four hairline rows on the right (Heading/4 title 300 | Body/Default text).",
+   "mobile": "Head, then the four rows stacked (title above text) between hairlines.",
+   "content": {
+    "heading": "The work behind a growing store.",
+    "lead": "Every new product and every busy week means more writing, more answering and more retyping.",
+    "items": [
+     {
+      "title": "Writing product pages",
+      "text": "Every new product needs a description, details and images before it can go live."
+     },
+     {
+      "title": "The same questions, all day",
+      "text": "Sizes, delivery and returns, asked again and again by email and chat."
+     },
+     {
+      "title": "Shoppers who can’t find it",
+      "text": "Search only goes so far when a shopper doesn’t know what the product is called."
+     },
+     {
+      "title": "Orders typed twice",
+      "text": "Orders from email and marketplaces get retyped into your system."
+     }
+    ]
+   },
+   "components": [],
+   "images": [],
+   "note": "Descriptions of common manual work, written as the problem; no figures, no claims about how long anything takes."
+  },
+  {
+   "id": "package",
+   "name": "Section · Package",
+   "ground": "daylight",
+   "layout": "bento",
+   "job": "Name the ready-made package for this industry exactly as the Brand DNA lists it, with what each part does.",
+   "desktop": "Section head (anchor #package). Bento: one large card 648 (image slot 648x340 at the top, Heading/3 title and Body/Default text) beside a column of smaller cards, one per remaining package item (service icon 40 | Heading/4 title and Body/SM text). Both columns end at the same height.",
+   "mobile": "Head stacked; the large card first with the image re-cropped to 16:10 (358x224), then the item cards (icon 32).",
+   "content": {
+    "heading": "The online stores and retail package.",
+    "lead": "Four popular AI services, packaged for online stores and retailers. Start with one and add more over time.",
+    "items": [
+     {
+      "title": "Product content",
+      "text": "Descriptions and images for your whole catalog, written and made with AI and checked by a person before they go live."
+     },
+     {
+      "title": "Shopping assistants",
+      "text": "An AI assistant on your store that helps shoppers find the right product.",
+      "icon": "Service icon/Mono/research-insights"
+     },
+     {
+      "title": "Recommendations",
+      "text": "Each shopper sees the products they’re most likely to want.",
+      "icon": "Service icon/Mono/growth"
+     },
+     {
+      "title": "Customer support",
+      "text": "Questions answered at any hour by chat, email or message, with harder cases passed to your team.",
+      "icon": "Service icon/Mono/partnership"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Card",
+    "Image slot",
+    "Service icon/Mono/research-insights",
+    "Service icon/Mono/growth",
+    "Service icon/Mono/partnership"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-23-2",
+     "slotName": "IMG-23-2 · Every flower tied and ready",
+     "kind": "new",
+     "source": "Editorial illustration on a Daylight background, wide (about 2:1), safe to crop to 16:10 around the centre. A long, tidy row of different flat faceted paper flowers grows from a low faceted bed, each a different kind and shade of blue, and each stem tied with a small satin ribbon bow in a gradient from Alliance Blue to Ribbon Cyan: every product described and ready to go live. Keep the top third calm and plain. No shop fronts, no packaging, no price tags. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "648x340 (about 2:1)",
+     "aspectMobile": "16:10 (358x224)",
+     "placement": "top of the large bento card, full bleed inside the card (radius 0, the card clips it); same on mobile",
+     "textArea": "none (text sits below the image in the card); keep the top third calm",
+     "alt": "A row of different faceted flowers, each tied with a small ribbon bow.",
+     "figma": {
+      "desktop": "82:10820",
+      "mobile": "82:11206"
+     }
+    }
+   ],
+   "note": "Package items are the Brand DNA list for this industry (Ready-made solutions by industry); each line reuses the matching service’s Brand DNA meaning."
+  },
+  {
+   "id": "sample",
+   "name": "Section · Sample",
+   "ground": "navy",
+   "layout": "product-visual",
+   "job": "Show, as a clearly labelled sample, how one piece of work moves through the package and where a person decides.",
+   "desktop": "Whole Partner Navy chapter. Split: text column 520 (Heading/1 title with one cyan accent, Body/LG lead, cyan underlined link) | a Partner 30 panel drawn in Figma (raised shadow): a bar with the Sample tag and the panel title, then numbered steps in mono between hairlines, each with a Tag saying who does it. Steps where a person decides carry a 10% Ribbon Cyan tint.",
+   "mobile": "Title, lead, the panel full width (each step: number | text with its Tag below), then the link.",
+   "content": {
+    "heading": "AI answers first. You make it right.",
+    "lead": "A sample of how one shopper’s questions move through the package. We map your real steps with your team before we build.",
+    "accentWord": "right.",
+    "items": [
+     {
+      "title": "01",
+      "text": "A shopper asks in chat which size to order.",
+      "meta": "Chat"
+     },
+     {
+      "title": "02",
+      "text": "The assistant checks your size guide and answers.",
+      "meta": "AI"
+     },
+     {
+      "title": "03",
+      "text": "It suggests a matching product from your catalog.",
+      "meta": "AI"
+     },
+     {
+      "title": "04",
+      "text": "Later, the shopper reports a parcel that arrived damaged.",
+      "meta": "Chat"
+     },
+     {
+      "title": "05",
+      "text": "The assistant passes the case to your team with the order details.",
+      "meta": "AI"
+     },
+     {
+      "title": "06",
+      "text": "Your team arranges the refund or replacement.",
+      "meta": "Your team"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See how we help stores grow",
+      "variant": "link",
+      "target": "/services/grow"
+     }
+    ]
+   },
+   "components": [
+    "Card",
+    "Tag",
+    "Link"
+   ],
+   "images": [
+    {
+     "slotName": "Sample · One shopper’s questions",
+     "kind": "vector",
+     "source": "UI composition drawn in Figma (not a raster): a Partner 30 panel with a \"Sample\" tag, the title \"One shopper’s questions\", and the numbered steps above, each tagged with who does it.",
+     "alt": "Sample: One shopper’s questions, step by step."
+    }
+   ],
+   "note": "A sample, labelled as one; no times, volumes or results."
+  },
+  {
+   "id": "services",
+   "name": "Section · Services",
+   "ground": "daylight",
+   "layout": "list-rows",
+   "job": "List the services that work alongside the package, with published starting prices where they exist and a fixed quote otherwise.",
+   "desktop": "Section head, then six Service rows in two columns of three (title, Brand DNA one-liner, price in mono, arrow), then a link to every service. Review 2026-11-03: the desktop list is a 2 x 3 grid (three row pairs, the shorter row of each pair stretched, content top-aligned), so titles, prices and hairlines line up across the columns; each row keeps a 24 px gap between the description and the price (the Service row component itself still packs them with space-between and no gap).",
+   "mobile": "Head; the six Service rows (Mobile variant) in one column; link.",
+   "content": {
+    "heading": "Add more when you’re ready.",
+    "lead": "These services work well alongside the online stores and retail package. You get a fixed quote before any work starts.",
+    "items": [
+     {
+      "title": "Selling through AI assistants",
+      "text": "We set up your store so AI assistants like ChatGPT can find and recommend your products, and in some cases buy them for shoppers.",
+      "price": "Fixed quote",
+      "link": "/services/grow"
+     },
+     {
+      "title": "Forecasting",
+      "text": "Predictions for demand and stock levels, so you can plan ahead.",
+      "price": "Fixed quote",
+      "link": "/services/solve-problems-with-ai"
+     },
+     {
+      "title": "Email marketing",
+      "text": "Emails that adapt to each reader’s interests and actions.",
+      "price": "Fixed quote",
+      "link": "/services/grow"
+     },
+     {
+      "title": "AI search visibility (GEO)",
+      "text": "We help your business show up in answers from ChatGPT, Google’s AI results, Perplexity and other AI search tools.",
+      "price": "Fixed quote",
+      "link": "/services/grow"
+     },
+     {
+      "title": "AI automation",
+      "text": "One slow process handled by AI and checked by a person.",
+      "price": "From [PRICE] a project",
+      "link": "/services/ai-automation"
+     },
+     {
+      "title": "Websites and web apps",
+      "text": "A fast, accessible site or web app, built and kept running.",
+      "price": "From [PRICE]",
+      "link": "/services/websites"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See every service",
+      "variant": "link",
+      "target": "/services"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Service row",
+    "Link"
+   ],
+   "images": [],
+   "note": "Only the launch services carry a starting price ([PRICE]); every other row says \"Fixed quote\", which is the Brand DNA pricing promise (a fixed quote before work starts)."
+  },
+  {
+   "id": "data",
+   "name": "Section · Data",
+   "ground": "navy",
+   "layout": "promise-grid",
+   "job": "Say how the partner’s data stays safe, in Brand DNA promises only, with the one sourced legal fact.",
+   "desktop": "Whole Partner Navy chapter. Section head (Heading/1 title with the cyan accent 0.9fr | Body/LG lead 1.1fr). A 2x2 grid of promises between hairlines: cyan UI icon (24) | Heading/4 title (the law item carries Source key 1) and Body/Default text. Cyan underlined link, then the numbered source list.",
+   "mobile": "Head stacked; the four promises as one column of hairline rows (icon | title and text); link; source list.",
+   "content": {
+    "heading": "Your customers’ data stays yours.",
+    "lead": "Orders, addresses and chats are your customers’ details, so they stay in your own systems wherever possible.",
+    "accentWord": "yours.",
+    "items": [
+     {
+      "title": "Never used for training",
+      "text": "We never use your data to train anything you don’t own.",
+      "icon": "lock"
+     },
+     {
+      "title": "A person checks the work",
+      "text": "A person reviews every piece of work before it reaches you, including content before it goes live.",
+      "icon": "check-circle"
+     },
+     {
+      "title": "Harder cases go to people",
+      "text": "The assistant passes anything it can’t handle to your team, with the details attached.",
+      "icon": "mail"
+     },
+     {
+      "title": "Protected by law",
+      "text": "Personal data in the Philippines is protected by the Data Privacy Act of 2012, enforced by an independent National Privacy Commission.",
+      "icon": "globe",
+      "sourceKey": "1"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "Read how we handle data",
+      "variant": "link",
+      "target": "/trust"
+     }
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "Republic Act No. 10173, Data Privacy Act of 2012. Supreme Court E-Library. Retrieved 2026-11-02.",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Icon/lock",
+    "Icon/check-circle",
+    "Icon/file",
+    "Icon/globe",
+    "Source key",
+    "Source list",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Section · Closing CTA",
+   "ground": "daylight",
+   "layout": "cta-band",
+   "job": "Close with the AI check-up: what it is, its price and length, and the second Primary of the page.",
+   "desktop": "Daylight section holding one large white card (28px radius, 64 padding, raised shadow with the lit edge): text column | the swallow (Graphic/Swallow, 360x288). Display/LG title with one accent, Body/LG lead (620), two check-up facts in mono between hairlines (From [PRICE] · [two weeks]), then the closing Primary (LG) and a link. This Primary is far below the hero Primary, never in the same screenful.",
+   "mobile": "Card with 24 padding: title, lead, full-width Primary, link, the two facts as hairline rows, the swallow small (144x115) at the lower right.",
+   "content": {
+    "heading": "See what to automate first.",
+    "lead": "The AI check-up is our usual first project. We learn how your store works, find where AI could save you time or money, and hand you a written plan with a fixed quote for the first fix.",
+    "accentWord": "first.",
+    "items": [
+     {
+      "title": "From [PRICE]",
+      "text": "The whole check-up, at a fixed price"
+     },
+     {
+      "title": "[two weeks]",
+      "text": "From the first call to your written plan"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See where AI can help",
+      "variant": "primary",
+      "target": "/ai-check-up"
+     },
+     {
+      "label": "Ask us a question first",
+      "variant": "link",
+      "target": "/contact"
+     }
+    ]
+   },
+   "components": [
+    "Card",
+    "Button",
+    "Link",
+    "Graphic/Swallow",
+    "Footer"
+   ],
+   "images": [
+    {
+     "slotName": "Graphic/Swallow",
+     "kind": "vector",
+     "source": "Graphic/Swallow component (full colour), the brand mascot, placed for real; no raster.",
+     "alt": ""
+    }
+   ]
+  }
+ ],
+ "notes": "Built from the shared industry template. Package items are the Brand DNA online stores and retail list (product content, shopping assistants, recommendations, customer support); the related services reuse Brand DNA wording (Selling through AI assistants, Forecasting, Email marketing, AI search visibility). Content is checked by a person before it goes live (Brand DNA: written with AI and checked by people). No conversion, sales or traffic figures. The hero link “See what’s in the package” jumps to the #package section. Titles are set on balanced lines in Figma (a line break, and on mobile a few extra breaks); in code use text-wrap: balance. Review 2026-11-03 (builder): every frame passes the lint with no findings; sample-step tints are 10% Ribbon Cyan, re-applied after the build. Review 2026-11-03 (reviewer): the hero meta now names the Philippines base (globe icon); “a person checks every description” stays in the package card and the data promise, where it was already said twice; the sample headline now ends “You make it right.” so its accent is no longer a second “first.” (the closing CTA keeps it); services list regrouped into an aligned grid. Every frame lint-clean afterwards."
+}

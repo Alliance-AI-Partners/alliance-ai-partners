@@ -1,0 +1,18 @@
+{
+ "id": "IMG-11-2",
+ "slot": "IMG-11-2 · Where work gets stuck",
+ "alt": "A ribbon stream bunching into a knot at a cluster of stones, with one strand slipping through.",
+ "prompt": "Editorial illustration on a Daylight background, seen from slightly above. A wide satin ribbon in a gradient from Alliance Blue to Ribbon Cyan flows in from the left like a stream across a field of flat faceted paper tiles, then bunches into a loose tangled knot where it meets a cluster of faceted paper stones in the middle of the frame: the place where the work gets stuck, lit clearly so the eye goes straight to it. Beyond the stones a single smooth strand slips through and continues to the right. Soft slate-blue shadows, Partner Navy only in the deepest facets of the stones. Calm empty Daylight space across the top third. Portrait 4:5, safe to crop to 3:4. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "4:5",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "11 · How we work",
+   "section": "understand",
+   "placement": "left half of a split; under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

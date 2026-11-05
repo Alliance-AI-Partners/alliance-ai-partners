@@ -1,0 +1,18 @@
+{
+ "id": "IMG-26-1",
+ "slot": "IMG-26-1 · Two swallows, two hours apart",
+ "alt": "Two paper swallows fly side by side along a satin ribbon at daybreak, one just behind the other.",
+ "prompt": "Two faceted paper swallows fly side by side across a calm Daylight sky at daybreak, the second just a little behind the first, both following one long satin ribbon that curves from the lower left to the upper right in a gradient from Alliance Blue to Ribbon Cyan: two teams on the same working day, a short way apart. The birds are folded from flat paper planes in Partner Navy and slate blue, each catching the light on its upper-left facets. A low line of flat faceted paper hills in pale blue-grey runs along the bottom. Calm open sky in the upper left quarter. Portrait, about 8:9, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "4:5",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "26 · Australia",
+   "section": "services",
+   "placement": "right half of the split; under the lead on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

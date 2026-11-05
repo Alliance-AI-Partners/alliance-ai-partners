@@ -146,7 +146,7 @@
 .aap-h2 { font: var(--aap-typography-heading-2-weight) var(--aap-typography-heading-2-size)/var(--aap-typography-heading-2-line-height) var(--aap-typography-heading-2-family); letter-spacing: var(--aap-typography-heading-2-tracking); font-stretch: var(--aap-typography-heading-2-stretch); }
 .aap-h3 { font: var(--aap-typography-heading-3-weight) var(--aap-typography-heading-3-size)/var(--aap-typography-heading-3-line-height) var(--aap-typography-heading-3-family); letter-spacing: var(--aap-typography-heading-3-tracking); }
 .aap-h4 { font: var(--aap-typography-heading-4-weight) var(--aap-typography-heading-4-size)/var(--aap-typography-heading-4-line-height) var(--aap-typography-heading-4-family); letter-spacing: var(--aap-typography-heading-4-tracking); }
-.aap-lead { font: var(--aap-typography-body-lg-weight) var(--aap-typography-body-lg-size)/var(--aap-typography-body-lg-line-height) var(--aap-typography-body-lg-family); letter-spacing: var(--aap-typography-body-lg-tracking); color: var(--aap-color-text-secondary); max-width: 60ch; }
+.aap-lead { font: var(--aap-typography-body-lg-weight) var(--aap-typography-body-lg-size)/var(--aap-typography-body-lg-line-height) var(--aap-typography-body-lg-family); letter-spacing: var(--aap-typography-body-lg-tracking); color: var(--aap-color-text-secondary); max-width: var(--aap-size-measure-lead); }
 .aap-body { font: var(--aap-typography-body-weight) var(--aap-typography-body-size)/var(--aap-typography-body-line-height) var(--aap-typography-body-family); max-width: var(--aap-size-measure); }
 .aap-small { font: var(--aap-typography-body-sm-weight) var(--aap-typography-body-sm-size)/var(--aap-typography-body-sm-line-height) var(--aap-typography-body-sm-family); color: var(--aap-color-text-secondary); }
 .aap-label { font: var(--aap-typography-label-weight) var(--aap-typography-label-size)/var(--aap-typography-label-line-height) var(--aap-typography-label-family); letter-spacing: var(--aap-typography-label-tracking); }
@@ -263,8 +263,11 @@
   transition: transform var(--aap-duration-base) var(--aap-easing-spring);
 }
 
-.aap-button:hover svg[data-direction="forward"] {
-  transform: translateX(3px);
+/* Touch screens fire :hover on tap, so the nudge waits for a pointer that really hovers. */
+@media (hover: hover) and (pointer: fine) {
+  .aap-button:hover svg[data-direction="forward"] {
+    transform: translateX(3px);
+  }
 }
 
 .aap-button--primary {
@@ -331,8 +334,23 @@
   transition: transform var(--aap-duration-base) var(--aap-easing-spring);
 }
 
-.aap-link:hover svg {
-  transform: translateX(3px);
+@media (hover: hover) and (pointer: fine) {
+  .aap-link:hover svg {
+    transform: translateX(3px);
+  }
+}
+
+/* A link on its own line (not inside running text) gets a 44 px touch target that doesn't move the layout. */
+.aap-link--standalone {
+  position: relative;
+}
+
+.aap-link--standalone::before {
+  content: "";
+  position: absolute;
+  inset: 50% 0 auto;
+  height: max(100%, var(--aap-size-control-md));
+  transform: translateY(-50%);
 }
 
 /* ---------------------------------------------------------------- forms */
@@ -812,6 +830,29 @@ a.aap-card:hover {
   color: var(--aap-color-text-secondary);
 }
 
+/* Opening and closing: the answer's height and opacity ease over 240ms where the browser can animate <details>
+   (::details-content, and interpolate-size for the height). Elsewhere it opens at once, as before. */
+@supports selector(::details-content) {
+  .aap-accordion {
+    interpolate-size: allow-keywords;
+  }
+
+  .aap-accordion::details-content {
+    block-size: 0;
+    overflow-y: clip;
+    opacity: 0;
+    transition:
+      block-size var(--aap-duration-base) var(--aap-easing-out),
+      opacity var(--aap-duration-base) var(--aap-easing-standard),
+      content-visibility var(--aap-duration-base) allow-discrete;
+  }
+
+  .aap-accordion[open]::details-content {
+    block-size: auto;
+    opacity: 1;
+  }
+}
+
 .aap-table {
   width: 100%;
   border-collapse: collapse;
@@ -930,9 +971,14 @@ a.aap-card:hover {
   min-height: 72px;
 }
 
+/* The lockup SVG keeps its clear space (0.287 x the mark) inside its viewBox. At 76 px tall the 3D mark is 48 px high and the
+   artwork 200 px wide, the brand kit's screen minimums; the negative margins let that clear space overlap the bar's padding,
+   so the artwork lines up with the content edge and the bar stays 72 px tall. */
 .aap-header__logo {
   display: block;
-  height: 36px;
+  height: 76px;
+  margin-block: -14px;
+  margin-inline-start: -14px;
 }
 
 .aap-nav {
@@ -947,6 +993,7 @@ a.aap-card:hover {
   color: var(--aap-color-text-secondary);
   font: var(--aap-typography-label-weight) var(--aap-typography-label-size)/1.2 var(--aap-font-family-sans);
   text-decoration: none;
+  transition: color var(--aap-duration-fast) var(--aap-easing-standard);
 }
 
 .aap-nav__link:hover,
@@ -992,6 +1039,7 @@ a.aap-card:hover {
 .aap-footer__list a {
   color: var(--aap-color-text-secondary);
   text-decoration: none;
+  transition: color var(--aap-duration-fast) var(--aap-easing-standard);
 }
 
 .aap-footer__list a:hover {
@@ -1016,13 +1064,24 @@ a.aap-card:hover {
   }
 }
 
+/* Phones: the nav and the header's action move into the menu sheet (Figma: Header, Viewport=Mobile, and Header / Mobile menu),
+   so the bar holds the logo at its minimum size and the menu button. */
+.aap-header__menu {
+  display: none;
+}
+
 @media (max-width: 639px) {
   .aap-footer__grid {
     grid-template-columns: 1fr;
   }
 
-  .aap-nav {
+  .aap-nav,
+  .aap-header__bar > .aap-button:not(.aap-header__menu) {
     display: none;
+  }
+
+  .aap-header__menu {
+    display: inline-flex;
   }
 }
 
@@ -1036,6 +1095,15 @@ a.aap-card:hover {
 
   a.aap-card:hover {
     transform: none;
+  }
+
+  .aap-button:hover svg[data-direction="forward"],
+  .aap-link:hover svg {
+    transform: none;
+  }
+
+  .aap-accordion::details-content {
+    transition-property: opacity, content-visibility;
   }
 }
 

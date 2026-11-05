@@ -1,0 +1,18 @@
+{
+ "id": "IMG-35-1",
+ "slot": "IMG-35-1 · Empty plinths",
+ "alt": "Three empty faceted paper plinths with a satin ribbon across them.",
+ "prompt": "Editorial still life on a calm Daylight background, seen at eye level from slightly above. Three plinths folded from flat faceted paper in white and pale blue-grey stand in a loose row across the lower half, each a little different in height, their tops bare and clean: space kept ready for results that are not in yet. A satin ribbon in a gradient from Alliance Blue to Ribbon Cyan runs in a loose, gentle curve across the front of the plinths from the lower left and rises toward the upper right, like a ribbon waiting to be cut at an opening. A few small faceted paper leaves rest on the ribbon where it touches the floor. The upper half is calm, open Daylight. Nearly square, about 1:1 (604x560), safe to crop to 4:5 (358x420) around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "35 · Case studies",
+   "section": "hero",
+   "placement": "right half of the hero split on desktop; last in the hero on mobile, under the actions"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

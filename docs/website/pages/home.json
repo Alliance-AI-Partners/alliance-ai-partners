@@ -1,0 +1,173 @@
+{
+ "slug": "home",
+ "figmaPage": "01 · Home",
+ "phase": "Launch",
+ "route": "/",
+ "purpose": "Show a founder in seconds what changes for them, why Alliance AI Partners costs less, and get them to start an AI check-up.",
+ "primaryAction": {
+  "label": "See where AI can help",
+  "target": "/ai-check-up"
+ },
+ "seo": {
+  "title": "Alliance AI Partners | Put AI to work",
+  "description": "An embedded AI team in the Philippines for companies in the US, Australia and the UK. We build the AI tools and software you need, then help you grow. Published starting prices."
+ },
+ "states": [
+  "default",
+  "mobile menu open"
+ ],
+ "frames": {
+  "desktop": "26:186",
+  "mobile": "30:420",
+  "menuOpen": "31:813"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "layout": "hero-split-mark",
+   "ground": "daylight",
+   "job": "State the promise and offer the one committing action.",
+   "images": [
+    {
+     "kind": "vector",
+     "source": "Logo/Mark/Full colour light + ribbon line form (3px Daybreak stroke)"
+    }
+   ]
+  },
+  {
+   "id": "pitch",
+   "layout": "split-image-left",
+   "ground": "daylight",
+   "job": "Name the problem and the three ways we help.",
+   "images": [
+    {
+     "imageId": "IMG-01-1",
+     "slotName": "IMG-01-1 · Busywork untangled",
+     "kind": "new",
+     "aspectDesktop": "640x760 (about 4:5)",
+     "aspectMobile": "4:5",
+     "placement": "left half of a split on desktop, so it zig-zags with the hero mark on the right; full width under the lead on mobile",
+     "textArea": "none (text sits beside the image)",
+     "alt": "Tangled ribbons straightening into one smooth ribbon.",
+     "source": "Editorial illustration on a Daylight background. On the left, a loose tangle of thin satin ribbons in Partner Navy and muted slate blue loops and knots over itself. Moving right, the strands are gathered and straightened into one smooth, wide satin ribbon in a gradient from Alliance Blue to Ribbon Cyan that flows out of frame at the upper right, the busy work of a week turned into one clear flow. A few small flat faceted paper leaves sit along its path. Generous calm Daylight space in the lower third. Portrait 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "goals",
+   "layout": "bento",
+   "ground": "daylight",
+   "job": "Route visitors by goal: Scale AI, Solve problems with AI, Grow.",
+   "images": [
+    {
+     "imageId": "IMG-01-2",
+     "slotName": "IMG-01-2 · Scale AI",
+     "kind": "new",
+     "aspectDesktop": "648x340 (about 2:1)",
+     "aspectMobile": "16:10",
+     "placement": "top of the large Scale AI bento card, full bleed inside the card",
+     "textArea": "top third calm",
+     "alt": "A row of faceted saplings growing taller along a ribbon path.",
+     "source": "A wide calm landscape of flat faceted paper hills at daybreak. A row of faceted saplings rises along a winding satin ribbon path, each a little taller than the last, from a small shoot at the left to a strong young tree at the right: steady growth across a whole company. Sky in a soft gradient from Daylight near the horizon to pale Ribbon Cyan, with Partner Navy only in the deepest facets; the ribbon path is satin Alliance Blue to Ribbon Cyan. Keep the top third calm and empty. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "layout": "steps",
+   "ground": "daylight",
+   "job": "Show the four steps and that we stay after launch.",
+   "images": []
+  },
+  {
+   "id": "pricing",
+   "layout": "split-sticky",
+   "ground": "navy",
+   "job": "Prove honest pricing: the promise, starting prices and a sample invoice.",
+   "images": [
+    {
+     "imageId": "IMG-01-3",
+     "slotName": "IMG-01-3 · Sample invoice",
+     "kind": "existing",
+     "source": "brand-kit/emails/previews/invoice-ready-desktop.png (mobile: invoice-ready-mobile.png)",
+     "aspectDesktop": "1320x520 framed",
+     "aspectMobile": "358x560",
+     "placement": "inset media under the price rows",
+     "alt": "Sample invoice with AI usage on its own line, passed on at cost."
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "layout": "sourced-stats",
+   "ground": "daylight",
+   "job": "Compare what one full-time software developer costs an employer each month in the US, UK and Australia with our monthly price, like for like and sourced.",
+   "images": [],
+   "note": "Monthly figures from the Brand DNA cost comparison (about US$16,400, £5,800 and A$12,300 a month) against [PRICE] a month. Yearly figures set against a monthly price were not like for like."
+  },
+  {
+   "id": "overnight",
+   "layout": "full-bleed-band",
+   "ground": "navy",
+   "job": "Turn the time difference into a benefit.",
+   "images": [
+    {
+     "imageId": "IMG-01-4",
+     "slotName": "IMG-01-4 · Daybreak swallows",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/daybreak-swallows.webp",
+     "aspectDesktop": "1440x640 full bleed",
+     "aspectMobile": "390x600 crop to the open sky",
+     "placement": "background with a navy scrim from the reading edge",
+     "textArea": "left 45% on desktop (title 640 px, lead 560 px, block centred); top 60% on mobile",
+     "alt": "",
+     "scrim": {
+      "desktop": "linear, left to right: Partner Navy 88% at 0, 70% at 45%, 0 at 72%",
+      "mobile": "linear, top to bottom: Partner Navy 90% at 0, 72% at 68%, 0 at 92% (open-sky crop)",
+      "checked": "Contrast measured over the real image at these crops: 7.4:1 or better for every line of text (AA needs 4.5:1). The system .aap-scrim-start alone leaves the pale upper sky at about 1.4:1 under the title."
+     }
+    }
+   ],
+   "note": "Headline set as two sentences over four lines. The lead says what the time difference means for each market; the offsets themselves stay in the Time zones section."
+  },
+  {
+   "id": "timezones",
+   "layout": "timezones",
+   "ground": "daylight",
+   "job": "Show the four cities and the overlap, with sources.",
+   "images": []
+  },
+  {
+   "id": "questions",
+   "layout": "accordion",
+   "ground": "daylight",
+   "job": "Answer the four questions buyers ask first.",
+   "images": []
+  },
+  {
+   "id": "cta",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the AI check-up.",
+   "images": [
+    {
+     "imageId": "IMG-01-5",
+     "slotName": "IMG-01-5 · Dawn wave",
+     "kind": "existing",
+     "source": "design-system/imagery/backgrounds/dawn-wave.webp",
+     "aspectDesktop": "1440x600",
+     "aspectMobile": "390x680",
+     "placement": "background with a navy scrim from the reading edge (left on desktop, top on mobile)",
+     "textArea": "left 60% on desktop, upper two thirds on mobile, always on the scrim",
+     "alt": "",
+     "scrim": {
+      "desktop": "linear, left to right: Partner Navy 90% at 0, 82% at 36%, 58% at 62%, 0 at 82% (the bright cloud at the upper left sits under the title and lead)",
+      "mobile": "linear, top to bottom: Partner Navy 86% at 0, 80% at 66%, 25% at 86%, 10% at 100%",
+      "checked": "Contrast measured over the real image: 6.2:1 or better for every line of text."
+     }
+    }
+   ]
+  }
+ ],
+ "notes": "Reference page for the build. Headline accents are single words. The header CTA is the Secondary outline; the hero and the closing band carry the Primary. Review 2026-11-03: the cost comparison is per month on both sides; the pitch split is image left; headlines break as even two-line pairs; the hero mark uses the brand-kit hero shadow (10px 28px 36px, Partner Navy 16%) instead of an 8x-scaled Lifted shadow; band scrims are sized so text passes AA over the real images. In code, set headings with text-wrap: balance."
+}

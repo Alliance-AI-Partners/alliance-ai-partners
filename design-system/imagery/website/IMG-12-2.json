@@ -1,0 +1,18 @@
+{
+ "id": "IMG-12-2",
+ "slot": "IMG-12-2 · Many ribbons, one hub",
+ "alt": "Many satin ribbons arriving from every direction and braiding together on one faceted hill.",
+ "prompt": "A calm, wide faceted paper landscape at daybreak, seen from slightly above. Thin satin ribbons in Alliance Blue, Ribbon Cyan and soft slate blue arrive from every edge of the frame, crossing near and far hills, and meet on top of one central faceted hill, where they braid together into a single wide, smooth ribbon that rises toward the upper right: many partners, one place they trust. Daylight sky fading to pale Ribbon Cyan near the horizon, Partner Navy only in the deepest facets. Keep the top third calm. Aspect 2:1, safe to crop to 16:10. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "16:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "12 · About",
+   "section": "why-we-exist",
+   "placement": "top of the large vision bento card, full bleed inside the card"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

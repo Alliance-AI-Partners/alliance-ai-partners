@@ -1,0 +1,442 @@
+{
+ "slug": "embedded-developers",
+ "figmaPage": "07 · Embedded developers",
+ "phase": "Launch",
+ "route": "/services/embedded-developers",
+ "purpose": "Show a founder that a developer from our team can work inside theirs full time, what that costs next to hiring locally (sourced, like for like), what the monthly price covers, how a week runs and how the hours line up, then get them to describe the role.",
+ "primaryAction": {
+  "label": "Tell us about the role",
+  "target": "/contact?service=embedded-developers"
+ },
+ "seo": {
+  "title": "Embedded developers | Alliance AI Partners",
+  "description": "A full-time developer from our team in the Philippines works inside yours, on your tools and your hours. You don’t pay for recruiting, benefits or equipment. From [PRICE] a month."
+ },
+ "states": [
+  "default"
+ ],
+ "frames": {
+  "desktop": "39:39",
+  "mobile": "39:2161"
+ },
+ "sections": [
+  {
+   "id": "hero",
+   "name": "Hero",
+   "layout": "split-image-right",
+   "ground": "daylight",
+   "job": "Say what the partner gets (a developer without the hiring) and offer the one committing action.",
+   "desktop": "1.08fr text | 1fr image (604x600), centred. Display/XL title, Body/LG lead, Primary LG + 'Compare the costs' link, tertiary meta with the starting price and notice period.",
+   "mobile": "Title, lead, full-width Primary, centred link, then the image (358x448, 4:5), meta last.",
+   "content": {
+    "heading": "A developer, without the hiring.",
+    "accentWord": "hiring.",
+    "lead": "A developer from our team joins yours full time. They work in your tools, on your hours and on your priorities. We handle recruiting, benefits and equipment.",
+    "body": [
+     "From [PRICE] a month. Cancel with [30] days’ notice."
+    ],
+    "ctas": [
+     {
+      "label": "Tell us about the role",
+      "variant": "primary",
+      "target": "/contact?service=embedded-developers"
+     },
+     {
+      "label": "Compare the costs",
+      "variant": "link",
+      "target": "#cost-of-hiring"
+     }
+    ]
+   },
+   "components": [
+    "Header",
+    "Button",
+    "Link",
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-07-1",
+     "slotName": "IMG-07-1 · Joining the band",
+     "kind": "new",
+     "aspectDesktop": "604x600 (1:1)",
+     "aspectMobile": "358x448 (4:5)",
+     "placement": "right half of the hero split; under the actions on mobile",
+     "textArea": "none (text sits beside the image)",
+     "alt": "A blue-to-cyan satin ribbon weaving into a band of navy ribbons.",
+     "source": "Editorial illustration on a Daylight background. The ground is cool, pale Daylight #F4F7FB, with no warm, cream or beige tones anywhere. A band of four or five parallel satin ribbons in Partner Navy and slate blue flows from the lower left to the upper right, the partner's own team. A single brighter satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the left edge, weaves over and under the navy ribbons and settles into the band as one of them, so the band continues to the right as one team with the bright ribbon inside it. Low flat faceted paper hills in pale Daylight blues sit beneath. Keep the weave in the centre of the frame so it crops cleanly to 4:5, and keep the top quarter calm and open. Square 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
+    }
+   ]
+  },
+  {
+   "id": "cost-of-hiring",
+   "name": "Cost of hiring",
+   "layout": "table",
+   "ground": "daylight",
+   "job": "Compare the yearly and monthly cost of employing one developer in the US, UK and Australia with one embedded developer at [PRICE] a month, like for like, with sources and the working.",
+   "desktop": "Asymmetric section head, then a 5-column table (where you hire with source key, median pay, cost to employ per year, per month, Alliance AI Partners). The Alliance AI Partners column is tinted Ribbon Cyan at 10%. A note on what the local figures leave out, then three numbered mono sources below a hairline.",
+   "mobile": "The table becomes one stacked block per country (country + key, then label/value rows), then a white card with [PRICE] a month, then the note and sources.",
+   "content": {
+    "heading": "Compare it with hiring locally.",
+    "accentWord": "locally.",
+    "lead": "What it costs to employ one full-time software developer, before recruiting fees, equipment and office space. Our monthly price includes recruiting, benefits and equipment.",
+    "table": {
+     "columns": [
+      "Where you hire",
+      "Median pay",
+      "Cost to employ, per year",
+      "Per month",
+      "Alliance AI Partners"
+     ],
+     "rows": [
+      [
+       "United States [1]",
+       "US$135,980 a year",
+       "About US$196,500",
+       "About US$16,400",
+       "[PRICE] a month"
+      ],
+      [
+       "United Kingdom [2]",
+       "£59,863 a year",
+       "About £69,400",
+       "About £5,800",
+       "[PRICE] a month"
+      ],
+      [
+       "Australia [3]",
+       "A$2,537 a week (about A$131,900 a year)",
+       "About A$147,800",
+       "About A$12,300",
+       "[PRICE] a month"
+      ]
+     ],
+     "oursColumn": 4
+    },
+    "body": [
+     "None of these figures include recruiting fees, equipment or office space, so the real cost of hiring locally is higher.",
+     "Mobile card: An embedded developer from Alliance AI Partners. [PRICE] (Data/Numeral), then: a month, with recruiting, benefits and equipment included."
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "U.S. Bureau of Labor Statistics, software developers, median pay, May 2025; benefits are 30.8% of total compensation for professional workers (June 2026), so cost = pay ÷ 0.692. Retrieved 2026-11-02.",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm ; https://www.bls.gov/news.release/ecec.t04.htm"
+     },
+     {
+      "key": "2",
+      "text": "Office for National Statistics, Annual Survey of Hours and Earnings 2026 (provisional), programmers and software development professionals; employer National Insurance (15% above £5,000) and the minimum 3% employer pension at 2026-27 rates. Retrieved 2026-11-02.",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026"
+     },
+     {
+      "key": "3",
+      "text": "Jobs and Skills Australia, software and applications programmers (ABS data, May 2025), weekly pay × 52; superannuation guarantee 12%. Retrieved 2026-11-02.",
+      "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-anzsco/2613-software-and-applications-programmers"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Table row",
+    "Source key (Size=MD)",
+    "Source list",
+    "Card"
+   ],
+   "images": []
+  },
+  {
+   "id": "included",
+   "name": "What is included",
+   "layout": "split-sticky",
+   "ground": "navy",
+   "job": "Say what the monthly price covers and what the partner keeps, with the starting price.",
+   "desktop": "Navy chapter. Heading/1 head; a checklist with cyan checks and hairlines on the left; on the right a Service row (Embedded developer, From [PRICE] a month), three label/value rows (Quote, Notice, Ownership) and a Secondary 'See all prices'.",
+   "mobile": "Head, then the Service row and price first, then the checklist, the label/value rows and a full-width Secondary button.",
+   "content": {
+    "heading": "We handle the hiring. You get the developer.",
+    "accentWord": "developer.",
+    "lead": "One monthly price covers their pay and benefits, recruiting and equipment. You manage the work; we take care of the rest.",
+    "items": [
+     {
+      "title": "Recruiting: you don’t pay for it."
+     },
+     {
+      "title": "Pay, benefits and employment in the Philippines, handled by us."
+     },
+     {
+      "title": "Equipment: you don’t pay for it."
+     },
+     {
+      "title": "A person reviews every piece of work before it reaches you."
+     },
+     {
+      "title": "Embedded developer",
+      "text": "Full time, on your tools and your hours.",
+      "price": "From [PRICE] a month"
+     },
+     {
+      "title": "Quote",
+      "text": "Fixed, before they start"
+     },
+     {
+      "title": "Notice",
+      "text": "[30] days"
+     },
+     {
+      "title": "Ownership",
+      "text": "You own what they build"
+     }
+    ],
+    "ctas": [
+     {
+      "label": "See all prices",
+      "variant": "secondary",
+      "target": "/pricing"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Icon/check",
+    "Service row",
+    "Button"
+   ],
+   "images": []
+  },
+  {
+   "id": "week",
+   "name": "A normal week",
+   "layout": "split-image-left",
+   "ground": "daylight",
+   "job": "Show how a week works with an embedded developer and how the partner sees progress.",
+   "desktop": "Framed monthly report (600x600, caption below) on the left; Heading/2, Body/LG lead and four hairline rows (day | what happens) on the right.",
+   "mobile": "Title, lead, the four rows stacked (day above text), then the framed report (358x440) and caption.",
+   "content": {
+    "heading": "You see progress every week.",
+    "lead": "Your developer works like anyone else on your team, with a short written update every week.",
+    "items": [
+     {
+      "title": "Monday",
+      "text": "You set the priorities, and your developer takes work from your board."
+     },
+     {
+      "title": "Every day",
+      "text": "Your stand-ups, your tools, your code review. The work lives in your repositories and accounts."
+     },
+     {
+      "title": "Friday",
+      "text": "A short written update: what shipped, what’s next, and anything that needs you."
+     },
+     {
+      "title": "Any time",
+      "text": "If something isn’t working, you hear it from us early, with a plan to fix it."
+     }
+    ]
+   },
+   "components": [
+    "Image slot"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-07-2",
+     "slotName": "IMG-07-2 · Welcome email",
+     "kind": "existing",
+     "source": "brand-kit/emails/previews/welcome-desktop.png (mobile: brand-kit/emails/previews/welcome-mobile.png)",
+     "aspectDesktop": "600x600 framed, top of the email",
+     "aspectMobile": "358x440 framed",
+     "placement": "inset framed product visual, left of the text on desktop; under the rows on mobile",
+     "textArea": "none (caption below: 'Sample welcome email from our email templates.')",
+     "alt": "Sample welcome email: your team starts on Monday, and you will see progress by Friday."
+    }
+   ]
+  },
+  {
+   "id": "getting-started",
+   "name": "Getting started",
+   "layout": "steps",
+   "ground": "daylight",
+   "job": "Show the four steps from the first call to the developer's first day, with the start time as a placeholder.",
+   "desktop": "Section head, then the Steps component (the page's one ribbon).",
+   "mobile": "Stacked head, vertical Steps variant.",
+   "content": {
+    "heading": "From first call to first commit.",
+    "lead": "Four steps, and you can stop with [30] days’ notice.",
+    "items": [
+     {
+      "title": "Tell us about the role",
+      "text": "The skills, the stack, the hours and who they report to."
+     },
+     {
+      "title": "We recruit for the role",
+      "text": "We look for the skills, stack and hours you described. You don’t pay for recruiting."
+     },
+     {
+      "title": "Start in your tools",
+      "text": "Your developer starts within [two weeks] of your yes, in your accounts and your stand-ups."
+     },
+     {
+      "title": "Ship the first commit",
+      "text": "Your developer’s first work goes through your code review and into your repositories."
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Steps"
+   ],
+   "images": []
+  },
+  {
+   "id": "time-zones",
+   "name": "Time zones",
+   "layout": "timezones",
+   "ground": "navy",
+   "job": "Show how a morning in Manila lines up with Sydney, New York and London and what that means for each market, with sources.",
+   "desktop": "Navy chapter. Heading/1 head, the Time zones component (sample November moment), a sample-time note, three hairline rows (country + source key | what it means), two mono sources. Row text starts on the lead's column and stays 620 px wide (about 75 characters).",
+   "mobile": "Head, the 2x2 Time zones variant, note, rows stacked (country above text), sources.",
+   "content": {
+    "heading": "On your hours, wherever you are.",
+    "accentWord": "hours",
+    "lead": "Our day overlaps yours in Australia and the UK. For US partners, the work moves while you sleep: brief us before you log off, and see progress when you log on.",
+    "items": [
+     {
+      "title": "Australia [1]",
+      "text": "Sydney is two hours ahead of us, or three during Australian daylight saving, so our working days overlap."
+     },
+     {
+      "title": "United States [2]",
+      "text": "You are 12 to 16 hours behind us. Keep your hours, or brief your developer before you log off and see progress when you log on."
+     },
+     {
+      "title": "United Kingdom [2]",
+      "text": "You are seven or eight hours behind us. Our afternoon is your morning."
+     }
+    ],
+    "body": [
+     "Sample times for a November morning in Manila (Manila 9:41 am, Sydney 12:41 pm, New York 8:41 pm the day before, London 1:41 am). The live site shows the real time in each city."
+    ],
+    "sources": [
+     {
+      "key": "1",
+      "text": "NSW Government, Daylight saving (Sydney is UTC+10, or UTC+11 in daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
+     },
+     {
+      "key": "2",
+      "text": "NIST, Local time FAQs (US time zones and daylight saving). Retrieved 2026-11-02.",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/local-time-faqs"
+     }
+    ]
+   },
+   "components": [
+    "Section head",
+    "Time zones",
+    "Source key (Size=MD)",
+    "Source list"
+   ],
+   "images": []
+  },
+  {
+   "id": "questions",
+   "name": "Questions",
+   "layout": "accordion",
+   "ground": "daylight",
+   "job": "Answer the six questions a founder asks before a developer joins their team.",
+   "desktop": "Intro column (Heading/2, text, 'Read all the questions' link) on the left; accordion on the right, first item open.",
+   "mobile": "Title, text, accordion full width (first open), link last.",
+   "content": {
+    "heading": "Questions buyers ask",
+    "lead": "Straight answers about working with an embedded developer. If yours isn’t here, ask us directly.",
+    "faq": [
+     {
+      "q": "Who manages the developer day to day?",
+      "a": "You do. They join your stand-ups, take work from your board and follow your team’s process. We handle their employment, benefits and equipment."
+     },
+     {
+      "q": "What does the monthly price include?",
+      "a": "Their pay and benefits, recruiting and equipment. You get a fixed quote before they start."
+     },
+     {
+      "q": "What if it isn’t working out?",
+      "a": "Tell us early, and we will work it out with you."
+     },
+     {
+      "q": "Who owns the code?",
+      "a": "You do. The work happens in your repositories and accounts, and you own what they build."
+     },
+     {
+      "q": "Does cheaper mean lower quality?",
+      "a": "AI takes over the repetitive hours, and a person still reviews every piece of work before it reaches you. We cost less because our team is based in the Philippines."
+     },
+     {
+      "q": "Can we stop?",
+      "a": "Yes. Monthly plans can be canceled with [30] days’ notice."
+     }
+    ],
+    "ctas": [
+     {
+      "label": "ask us directly",
+      "variant": "link",
+      "target": "/contact?service=embedded-developers"
+     },
+     {
+      "label": "Read all the questions",
+      "variant": "link",
+      "target": "/faq"
+     }
+    ]
+   },
+   "components": [
+    "Accordion item",
+    "Link"
+   ],
+   "images": []
+  },
+  {
+   "id": "cta",
+   "name": "Closing CTA",
+   "layout": "cta-band",
+   "ground": "navy",
+   "job": "Close with the committing action, with the AI check-up as the softer start.",
+   "desktop": "Full-bleed 1440x600 band, image with a navy scrim from the right, text block on the right: Display/LG title, Body/LG lead, Primary LG + link.",
+   "mobile": "390x680 band, scrim from the top, text at the top, full-width Primary, link below.",
+   "content": {
+    "heading": "Start with one developer.",
+    "accentWord": "one",
+    "lead": "Tell us about the role. You’ll get a fixed monthly price before your developer starts.",
+    "ctas": [
+     {
+      "label": "Tell us about the role",
+      "variant": "primary",
+      "target": "/contact?service=embedded-developers"
+     },
+     {
+      "label": "Or start with an AI check-up",
+      "variant": "link",
+      "target": "/ai-check-up"
+     }
+    ]
+   },
+   "components": [
+    "Image slot",
+    "Button",
+    "Link",
+    "Footer"
+   ],
+   "images": [
+    {
+     "imageId": "IMG-07-3",
+     "slotName": "IMG-07-3 · One swallow joins the flock",
+     "kind": "new",
+     "source": "Editorial illustration for a dark Partner Navy band. In the left third, a small flock of four swallows built from flat faceted paper planes in navy and blue shades flies in a loose, steady line toward the upper right. A fifth swallow, its facets catching Ribbon Cyan light from the upper left, glides in from the lower left edge and takes its place in the line: one new developer joining a team that is already moving. A faint satin ribbon in a gradient from Alliance Blue to Ribbon Cyan traces the flock's path. The right half and the top third are calm, almost plain deep navy, for white text. Wide landscape, about 21:9 (1440x600); keep the flock in the left third and lower half, so a tall mobile crop positioned on the left still shows the joining swallow. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+     "aspectDesktop": "1440x600 full bleed",
+     "aspectMobile": "390x680, crop to the darkest navy area",
+     "placement": "background with a Partner Navy scrim from the right edge (desktop) or from the top (mobile)",
+     "textArea": "right side, white text (desktop); top, white text (mobile)",
+     "alt": "A fifth faceted swallow joins a small flock in flight."
+    }
+   ]
+  }
+ ],
+ "notes": "Frames were started by an earlier builder copy (stopped) and completed and checked in this session: desktop was complete; mobile was finished from 'A normal week' to the footer, copying the desktop's step texts and FAQ answers. Fixes made here: Source keys switched to Size=MD (12px) so no text is under 12px; the 'What if it isn’t working out?' answer reworded on both frames; the Alliance AI Partners table column tint rebuilt as Ribbon Cyan at 10% paint opacity (it was a solid cyan fill at 10% layer opacity). The ribbon signature is used once (Steps in 'Getting started'). One Primary per screenful (desktop y 631 and 6174; mobile y 429 and 8513). [PRICE], [30] and [two weeks] stay as placeholders; every figure has a dated source in its section. Lint: no findings on either frame. Lead review 2026-11-03: removed promises the Brand DNA does not make (holiday and sick cover, a replacement developer, a laptop, licences and a workspace, a senior engineer behind them); Figma is the final copy where it differs from this spec. Review 2026-11-03: the closed FAQ items still held the removed promises in their Answer property (a laptop, software licences, a workspace, cover when they’re away, a replacement developer); set to the answers above on both frames. Step 2 softened from 'Meet the shortlist' (we recruit and test candidates, you interview and choose) to what the Brand DNA supports (we recruit, you don’t pay for it), and the closing lead no longer promises a shortlist to interview: the owner confirms the hiring process before either comes back. Step 4 now lands on the first commit instead of repeating the section above; 'A normal week' no longer promises a monthly check-in (the lead removed it from the steps). Mobile price card split so [PRICE] sits on one line; mobile ONS source restored to the full working; 'ask us directly' linked to Contact; 'Read all the questions' goes to /faq. Lead image pass 2026-11-03: section-specific images replace backgrounds that repeated across pages."
+}

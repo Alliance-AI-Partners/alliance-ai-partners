@@ -1,0 +1,23 @@
+{
+ "id": "IMG-19-1",
+ "slot": "IMG-19-1 · Box opened flat",
+ "alt": "A paper box opened out flat, every block inside in plain view, its ribbon untied beside it.",
+ "prompt": "Still life on a calm Daylight background, seen from slightly above. A small box folded from flat faceted paper has been opened all the way: its satin ribbon, in a gradient from Alliance Blue to Ribbon Cyan, is untied and lies in one smooth curve beside it, the lid rests to one side, and all four sides are folded down flat, so everything that was inside is in plain view: a neat row of five faceted paper blocks of different sizes in pale Daylight white, soft blue-grey and Partner Navy, each one separate and fully visible, none hidden behind another. Two small flat faceted paper leaves rest near the ribbon. What the box holds is shown before anyone pays for it: an honest price, with nothing tucked away. Keep the opened box across the centre of the frame and the upper left quarter calm and empty. Landscape 16:9, safe to crop to 5:4, 4:3 and 4:5 around the centre. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "21:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "19 · Article",
+   "section": "article-header",
+   "placement": "cover under the article header, full container width, inset with 18 px corners; also the featured image on 18 · Insights (same ID)"
+  },
+  {
+   "page": "18 · Insights",
+   "section": "featured",
+   "placement": "left half of the featured split; the same picture is the cover of the article page (19 · Article), so it keeps one ID"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py"
+}

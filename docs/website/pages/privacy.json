@@ -1,0 +1,212 @@
+{
+  "slug": "privacy",
+  "figmaPage": "16 · Privacy (legal template)",
+  "phase": "Launch",
+  "route": "/privacy",
+  "purpose": "A long-form legal page template: plain title, last updated line, contents that stay in view, numbered sections and a contact block. Privacy is the first use; Terms, Cookies and Accessibility reuse the same design.",
+  "primaryAction": {
+    "label": "none on this page (the header carries the check-up outline)",
+    "target": "/ai-check-up"
+  },
+  "seo": {
+    "title": "Privacy policy | Alliance AI Partners",
+    "description": "How Alliance AI Partners collects, uses and protects personal data, and the choices you have."
+  },
+  "states": [
+    "default",
+    "mobile contents open"
+  ],
+  "frames": {
+    "desktop": "44:1362",
+    "mobile": "45:255",
+    "mobileContentsOpen": "45:593",
+    "note": "44:1684"
+  },
+  "sections": [
+    {
+      "id": "title",
+      "name": "Section · Title",
+      "layout": "hero-text-led",
+      "ground": "daylight",
+      "job": "Name the document plainly and show when it last changed.",
+      "desktop": "Heading/1 (simple page), Body/LG lead at 640, mono 'Last updated [date]' below, then a 240 Ribbon rule (the page's one ribbon signature).",
+      "mobile": "Same order at 358; the rule shortens to 120.",
+      "content": {
+        "heading": "Privacy policy",
+        "lead": "How Alliance AI Partners collects, uses and protects personal data, and the choices you have.",
+        "body": [
+          "Last updated [date]"
+        ]
+      },
+      "components": [
+        "Header",
+        "Ribbon rule"
+      ],
+      "images": []
+    },
+    {
+      "id": "contents",
+      "name": "Contents",
+      "layout": "accordion",
+      "ground": "daylight",
+      "job": "Let a reader jump to any section of a long document.",
+      "desktop": "Left column 296, sticky while the document scrolls: Heading/4 'On this page', eleven numbered items on a 1px hairline rail, the current item marked with a 2px Partner Navy bar and navy text (nav-link styling, not underlined), then 'Other policies' links to Terms, Cookies and Accessibility. Items are numbered 01 to 11, the same as the section markers.",
+      "mobile": "Collapses to one disclosure row under the title ('On this page · 11 sections', plus icon, 72 tall). The 'Contents open' state shows the eleven items as 48px rows with the current one marked.",
+      "content": {
+        "heading": "On this page",
+        "items": [
+          {
+            "title": "01 Who we are"
+          },
+          {
+            "title": "02 What this policy covers"
+          },
+          {
+            "title": "03 Personal data we collect"
+          },
+          {
+            "title": "04 How we use it"
+          },
+          {
+            "title": "05 Who we share it with"
+          },
+          {
+            "title": "06 Where it’s stored and sent"
+          },
+          {
+            "title": "07 How long we keep it"
+          },
+          {
+            "title": "08 Your rights"
+          },
+          {
+            "title": "09 Cookies"
+          },
+          {
+            "title": "10 Changes to this policy"
+          },
+          {
+            "title": "11 Contact us"
+          }
+        ],
+        "ctas": [
+          {
+            "label": "Terms",
+            "variant": "link",
+            "target": "/terms"
+          },
+          {
+            "label": "Cookies",
+            "variant": "link",
+            "target": "/cookies"
+          },
+          {
+            "label": "Accessibility",
+            "variant": "link",
+            "target": "/accessibility"
+          }
+        ]
+      },
+      "components": [
+        "Icon/plus",
+        "Icon/close",
+        "Link"
+      ],
+      "images": []
+    },
+    {
+      "id": "policy",
+      "name": "Section · Policy",
+      "layout": "split-sticky",
+      "ground": "daylight",
+      "job": "Hold the numbered legal sections, with bracketed placeholder text until legal review, and show how tables, lists and links sit inside the text.",
+      "desktop": "Right column 760 (about 68ch): each section has a mono number, a Heading/3 working title and Body text, separated by hairlines. Section 3 includes a three-column table, section 5 a link to the subprocessor list, section 8 a lettered list, section 9 a link to the cookie policy. Section 11 ends with the contact block card. Body paragraphs cap at 576 px (about 75 characters at 17 px; lettered items at 532 so their right edges align); headings, hairlines, the table and the contact card keep the full 704 px column.",
+      "mobile": "Sections stacked at 358; the table becomes stacked label and value rows.",
+      "content": {
+        "items": [
+          {
+            "title": "Who we are",
+            "text": "[Legal text to come: who Alliance AI Partners is, and that we are responsible for the personal data described here.]"
+          },
+          {
+            "title": "What this policy covers",
+            "text": "[Legal text to come: which websites, services and people this policy applies to, and what it does not cover.]"
+          },
+          {
+            "title": "Personal data we collect",
+            "text": "[Legal text to come: how we collect personal data, and what we collect.]"
+          },
+          {
+            "title": "How we use it",
+            "text": "[Legal text to come: what we use personal data for, and what we never use it for.]"
+          },
+          {
+            "title": "Who we share it with",
+            "text": "[Legal text to come: the service providers we share personal data with, and why.]",
+            "link": "/trust/subprocessors"
+          },
+          {
+            "title": "Where it’s stored and sent",
+            "text": "[Legal text to come: where personal data is stored, and how it is protected when it moves between countries.]"
+          },
+          {
+            "title": "How long we keep it",
+            "text": "[Legal text to come: how long we keep each kind of personal data, and how we delete it.]"
+          },
+          {
+            "title": "Your rights",
+            "text": "[Legal text to come: the rights people have over their personal data, and how to use them.] (a) [How to ask for a copy of your data] (b) [How to correct or delete it] (c) [How to object or withdraw consent] (d) [How to complain to a privacy regulator]"
+          },
+          {
+            "title": "Cookies",
+            "text": "[Legal text to come: a short summary of the cookies this site uses.]",
+            "link": "/cookies"
+          },
+          {
+            "title": "Changes to this policy",
+            "text": "[Legal text to come: how and when we tell you about changes to this policy.]"
+          },
+          {
+            "title": "Contact us",
+            "text": "[Legal text to come: how to reach us about privacy, and how quickly we reply.]"
+          }
+        ],
+        "table": {
+          "columns": [
+            "Data",
+            "Why we collect it",
+            "Legal basis"
+          ],
+          "rows": [
+            [
+              "[Contact details]",
+              "[Purpose]",
+              "[Legal basis]"
+            ],
+            [
+              "[Booking details for the AI check-up]",
+              "[Purpose]",
+              "[Legal basis]"
+            ],
+            [
+              "[Website usage]",
+              "[Purpose]",
+              "[Legal basis]"
+            ]
+          ]
+        },
+        "body": [
+          "Contact block: Alliance AI Partners · [Registered address] · Company number [Company number] · Data protection officer [Name] · hello@allianceaipartners.example"
+        ]
+      },
+      "components": [
+        "Table row",
+        "Link",
+        "Card",
+        "Footer"
+      ],
+      "images": []
+    }
+  ],
+  "notes": "Legal template, no image slots. Section headings are plain working titles for legal to confirm, and every body is a bracketed '[Legal text to come: ...]' placeholder, never lorem ipsum. The contents list uses nav-link styling (Partner 46, current in Partner Navy with a 2px bar), the one place links are not underlined, as in the header nav; every inline link is underlined. A canvas note frame beside the mobile frame records that Terms (/terms), Cookies (/cookies) and Accessibility (/accessibility) reuse this design. Review 2026-11-03: the desktop body measure was about 90 characters (704 px at 17 px), so paragraphs now cap at 576 px with maxWidth; the contents list now numbers 01 to 11 like the section markers (desktop and the Contents open state). Lint clean on all three frames."
+}

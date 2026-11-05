@@ -1,6 +1,6 @@
-Alliance AI Partners · Version 2.1 · October 2026
+Alliance AI Partners · Version 2.2 · November 2026
 
-This guide covers what Alliance AI Partners stands for and how the brand should sound. Check it whenever you're not sure something fits. How the brand looks is on hold until we choose the big idea behind it.
+This guide covers what Alliance AI Partners stands for and how the brand should sound. Check it whenever you're not sure something fits. Section 8 says where to find how the brand looks, and the [Decision Log](Decision%20Log.md) records what we decided and when.
 
 ## Who we are
 
@@ -18,7 +18,7 @@ The full list of services, including ready-made packages for common industries, 
 
 ## Our big idea
 
-Not chosen yet. The big idea is the one picture or story behind our logo, visual identity, and design system. The options we're weighing are in [Big Idea Options](Big%20Idea%20Options.md).
+The Ribbon. In our logo, one ribbon binds the A of Alliance to the P of Partners, and the same ribbon ties our website and materials together. It fits our name: "alliance" comes from a Latin word meaning "to bind." We chose it on 2 November 2026. The options we weighed first are in [Big Idea Options](Big%20Idea%20Options.md).
 
 ## 1. Purpose: why we exist
 
@@ -279,12 +279,19 @@ The button leads to an "AI check-up," a short first project where we find where 
 
 ## 8. Visual identity
 
-On hold. Our colors, fonts, logo, and design system will come from the big idea, so we'll build them after we choose it.
+Finished in November 2026. The full rules live in the design files, so this section only covers what they are and where to find them.
 
-Whatever we choose:
+- Logo: the 3D A+P ribbon mark beside the ALLIANCE AI PARTNERS wordmark, in 10 layouts, most in 6 color versions. Print and Illustrator files are in `docs/brand-kit/`, web files are in `design-system/logos/`, and the same suite is in the Figma file [Alliance AI Partners — Logo Suite](https://www.figma.com/design/rXNPaaMds46oWgM64QPRI6/Alliance-AI-Partners-%E2%80%94-Logo-Suite).
+- Colors: one palette, "A, P and the Ribbon": Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Partner Navy #121B2A, Daylight #F4F7FB and Pure White, plus eight shading tones for the 3D mark.
+- Type: Mona Sans for all live text, and Mona Sans Mono for prices, sources and times. The wordmark is Montserrat Bold, but only inside the logo files.
+- Design system: "The Ribbon", written up in `DESIGN.md` and built in `design-system/`.
+
+Rules that always apply:
 
 - All text must pass WCAG AA, the standard accessibility check for contrast.
+- Alliance Blue goes on one button per view: the one that commits. Links are Partner Navy and always underlined.
 - Skip the usual AI look: sparkles, glowing brains, circuit boards, robot faces, and purple-and-pink gradients.
+- No Philippine or other regional motifs. We work internationally, so our base in the Philippines is a fact we state, not a visual theme.
 
 ## Full list of services
 
@@ -467,4 +474,4 @@ Projects in healthcare, finance, insurance, and legal start with a privacy and c
 4. Pick a starting market. "Many companies" covers almost everyone. Choose one or two kinds of companies to focus on first (the industry table in the full list is a good place to start), do great work there, and let referrals bring in the next ones.
 5. Check the name. Many businesses use "Alliance," so run trademark and domain checks before paying for final logo design.
 6. Put the data promise in writing. We tell partners their data stays private. Publish a short, plain data policy that backs this up before the promise appears in marketing.
-7. Choose the big idea. The logo, colors, fonts, and design system all depend on it, so settle it before any visual work. The options are in [Big Idea Options](Big%20Idea%20Options.md).
+7. Choose the big idea. Done: on 2 November 2026 we chose The Ribbon, and section 8 says where the visual identity lives. The [Decision Log](Decision%20Log.md) records what we chose and which earlier rules it replaced.

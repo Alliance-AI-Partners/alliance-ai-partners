@@ -5,7 +5,7 @@ The design system for the new Alliance AI Partners website: tokens, components, 
 | | |
 |---|---|
 | Built | 2026-11-02 |
-| Source | The finalized logo kit (`docs/brand-kit/`, branch `brand-kit`) and its palette, "A, P and the Ribbon" (`docs/brand-kit/_build/palette.json`) |
+| Source | The finalized logo kit (`docs/brand-kit/` and the Figma file [Alliance AI Partners — Logo Suite](https://www.figma.com/design/rXNPaaMds46oWgM64QPRI6/Alliance-AI-Partners-%E2%80%94-Logo-Suite)) and its palette, "A, P and the Ribbon" (`docs/brand-kit/_build/palette.json`) |
 | Product truth | [../PRODUCT.md](../PRODUCT.md) and the Brand DNA guide (`AllianceAIPartners/Brand DNA & Foundation.md`) |
 | Stack | Next.js on Vercel; plain CSS custom properties plus a Tailwind CSS v4 theme |
 | Type | Mona Sans and Mona Sans Mono (SIL Open Font License) |
@@ -99,7 +99,7 @@ Every asset folder has a JSON manifest (`{area, retrieved, files[]}`) with each 
 ## Naming
 
 - Files are lowercase kebab-case: `alliance-ai-partners-<lockup>-<state>.svg`, `<icon-name>.svg`, `<service>-<style>.png`.
-- Custom properties are `--aap-<group>-<name>`; classes are `aap-<component>` with `--modifier` and `__part`.
+- Custom properties are `--aap-<group>-<name>`; classes are `aap-<component>` with `--modifier` and `__part`. The Figma Logo Suite's Brand Colors variables use these names as their code syntax (for example `var(--aap-color-brand-partner-navy)`), so rename a colour token in both places.
 - Colour names are the palette's: Alliance Blue, Ribbon Cyan, Partner Navy, Daylight, Pure White, and the shading tokens (Partner 30 to 50, Alliance 38 to 50, Ribbon 57). Their numbers are OKLCH lightness x 100.
 
 ## Rebuilding

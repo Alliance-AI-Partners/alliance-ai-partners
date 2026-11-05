@@ -1,0 +1,19 @@
+{
+ "id": "IMG-07-1",
+ "slot": "IMG-07-1 · Joining the band",
+ "alt": "A blue-to-cyan satin ribbon weaving into a band of navy ribbons.",
+ "prompt": "Editorial illustration on a Daylight background. A band of four or five parallel satin ribbons in Partner Navy and slate blue flows from the lower left to the upper right, the partner's own team. A single brighter satin ribbon in a gradient from Alliance Blue to Ribbon Cyan enters from the left edge, weaves over and under the navy ribbons and settles into the band as one of them, so the band continues to the right as one team with the bright ribbon inside it. Low flat faceted paper hills in pale Daylight blues sit beneath. Keep the weave in the centre of the frame so it crops cleanly to 4:5, and keep the top quarter calm and open. Square 1:1, safe to crop to 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "1:1",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "07 · Embedded developers",
+   "section": "hero",
+   "placement": "right half of the hero split; under the actions on mobile"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Ground tone corrected in post (2026-11-04): the generated cream ground was shifted toward Daylight #F4F7FB on pale pixels only (luminance above 170); ribbons unchanged."
+}

@@ -1,0 +1,19 @@
+{
+ "id": "IMG-37-2",
+ "slot": "IMG-37-2 · A fair balance",
+ "alt": "A faceted paper balance holds two blank tags, level.",
+ "prompt": "Editorial illustration on a deep Partner Navy ground. In the left third, a simple balance built from flat faceted paper planes in navy and blue shades: a slim upright, a beam made of a satin ribbon in a gradient from Alliance Blue to Ribbon Cyan, and two shallow pans, each holding one small blank paper tag with no marks at all. The beam rests level and calm, lit from the upper left: options weighed fairly, side by side. The right half and the top third are calm, plain deep navy for white text. Landscape, about 21:9 (1440x640); keep the balance in the left third and the lower half, so a tall mobile crop positioned on the lower left still shows it whole. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks.",
+ "model": "gemini-3-pro-image-preview",
+ "aspect_ratio": "21:9",
+ "size": "2K",
+ "uses": [
+  {
+   "page": "37 · Compare",
+   "section": "cta",
+   "placement": "background of the navy band with a navy scrim from the reading edge (right on desktop, top on mobile)"
+  }
+ ],
+ "generated": "2026-11-04",
+ "tool": "brand-kit/tools/generate-website-images.py",
+ "postprocess": "Cool cast in post (2026-11-04): 0.92% of pale pixels had a warm or rainbow cast; their hue was set to the Daylight hue, saturation and brightness unchanged."
+}
