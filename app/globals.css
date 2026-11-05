@@ -162,6 +162,22 @@ html:has(dialog[open]) {
     max-width: 560px;
   }
 
+  /* Accordion questions: Figma's summary spreads the question and its icon apart (space-between) with the question
+     filling the row up to the icon, so long questions keep Figma's line breaks. A 4px gap keeps them off the icon. */
+  .aap-accordion > summary {
+    gap: var(--aap-space-1);
+  }
+
+  /* Alerts: Figma strokes the box in the full status colour (the component tints it to 26%). */
+  .aap-alert {
+    border-color: var(--_tone);
+  }
+
+  /* Table headers use Figma's UI/Label weight (540; the component sets 500). */
+  .aap-table th {
+    font-weight: var(--aap-typography-label-weight);
+  }
+
   /* Footer: headings and links on their type roles' line heights (18px and 23px in Figma). */
   .aap-footer__heading {
     line-height: var(--aap-typography-label-line-height);

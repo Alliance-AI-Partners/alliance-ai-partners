@@ -3,8 +3,8 @@ import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 type PhotoBandProps = {
-  /** The heading's id inside the band. */
-  labelledBy: string;
+  /** The heading's id inside the band (used when the band is its own section). */
+  labelledBy?: string;
   image: StaticImageData;
   /** Alt text; empty (the default) for a decorative background, which most bands are. */
   alt?: string;
@@ -22,6 +22,8 @@ type PhotoBandProps = {
   parallax?: boolean;
   /** Load the image at once (loading="eager"): only for a band in the first screen. */
   eager?: boolean;
+  /** "div" when the band is only part of a larger section (it then takes no aria-labelledby of its own). */
+  as?: "section" | "div";
   children: ReactNode;
 };
 
@@ -38,11 +40,12 @@ export function PhotoBand({
   className,
   parallax = true,
   eager = false,
+  as: Tag = "section",
   children,
 }: PhotoBandProps) {
   return (
-    <section
-      aria-labelledby={labelledBy}
+    <Tag
+      aria-labelledby={Tag === "section" ? labelledBy : undefined}
       className={cn("aap-surface-inverse relative isolate flex overflow-hidden", className)}
     >
       {/* The parallax layer reaches 24px past the band at the top and bottom, so it can drift without showing an edge. */}
@@ -62,6 +65,6 @@ export function PhotoBand({
       </div>
       <div aria-hidden="true" className={cn("absolute inset-0 -z-10", scrimClassName)} />
       {children}
-    </section>
+    </Tag>
   );
 }
