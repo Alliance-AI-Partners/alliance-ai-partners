@@ -22,6 +22,12 @@ type PhotoBandProps = {
   parallax?: boolean;
   /** Load the image at once (loading="eager"): only for a band in the first screen. */
   eager?: boolean;
+  /**
+   * The image's `sizes`. A wide photograph covering a tall phone band is drawn much wider than the screen (a 16:9 photo
+   * in a 390 x 680 band is about 1,220px wide), so give its drawn width on phones, for example
+   * "(min-width: 1024px) 100vw, 1220px". Defaults to 100vw.
+   */
+  sizes?: string;
   /** "div" when the band is only part of a larger section (it then takes no aria-labelledby of its own). */
   as?: "section" | "div";
   children: ReactNode;
@@ -40,6 +46,7 @@ export function PhotoBand({
   className,
   parallax = true,
   eager = false,
+  sizes = "100vw",
   as: Tag = "section",
   children,
 }: PhotoBandProps) {
@@ -58,7 +65,7 @@ export function PhotoBand({
           src={image}
           alt={alt}
           fill
-          sizes="100vw"
+          sizes={sizes}
           loading={eager ? "eager" : undefined}
           className={cn("object-cover", imageClassName)}
         />

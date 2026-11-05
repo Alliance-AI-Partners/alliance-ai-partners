@@ -63,7 +63,7 @@ export function PersonTile({ name, role, photo, alt = "", className }: PersonTil
           <Image src={photo} alt={alt} fill sizes="(min-width: 1024px) 22vw, 50vw" className="object-cover" />
         </div>
       ) : (
-        <div className="grid aspect-[300/375] place-items-center rounded-lg border border-line bg-sunken">
+        <div className="grid aspect-[300/375] place-items-center rounded-lg border border-dashed border-line bg-sunken">
           <span className="text-caption text-ink-tertiary">Photo to come</span>
         </div>
       )}

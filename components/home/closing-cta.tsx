@@ -13,7 +13,8 @@ export function ClosingCta() {
     >
       {/* The parallax layer reaches 24px past the band at the top and bottom, so it can drift without showing an edge. */}
       <div data-parallax aria-hidden="true" className="absolute inset-x-0 -top-6 -bottom-6 -z-20">
-        <Image src={dawnWave} alt="" fill sizes="100vw" className="object-cover" />
+        {/* On phones the 16:9 photo covers a 680px tall band, so it is drawn about 1,220px wide. */}
+        <Image src={dawnWave} alt="" fill sizes="(min-width: 1024px) 100vw, 1220px" className="object-cover" />
       </div>
       <div aria-hidden="true" className="home-scrim-cta absolute inset-0 -z-10" />
 

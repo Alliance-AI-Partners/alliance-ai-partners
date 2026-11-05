@@ -178,6 +178,18 @@ html:has(dialog[open]) {
     font-weight: var(--aap-typography-label-weight);
   }
 
+  /* Cards on a Partner Navy chapter keep DESIGN.md's lit top edge, but faint, as Figma draws it: at the light ground's
+     65% it shows as a bright line on navy. */
+  .aap-surface-inverse .aap-card {
+    box-shadow: var(--aap-shadow-sm), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  /* The header's Daylight scroll-edge fade reads as a light strip over a page that opens on a Partner Navy section
+     (Figma draws the header straight onto the navy), so those pages go without it. */
+  .aap-header:has(~ #main > .aap-surface-inverse:first-child)::after {
+    content: none;
+  }
+
   /* Footer: headings and links on their type roles' line heights (18px and 23px in Figma). */
   .aap-footer__heading {
     line-height: var(--aap-typography-label-line-height);

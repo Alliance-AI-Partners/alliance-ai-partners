@@ -47,13 +47,17 @@ export function IconRows({
   );
 }
 
-/** A small numbered disc (Figma: Marker <n>): 28px, Control/Checked fill, the number in mono on the page colour. */
-export function StepMarker({ n, className }: { n: number; className?: string }) {
+/**
+ * A small numbered disc (Figma: Marker <n>): 28px (`size="sm"`: 24px), Control/Checked fill, the number in mono on the
+ * page colour. Decorative: the step's own text carries its number for assistive technology.
+ */
+export function StepMarker({ n, size = "md", className }: { n: number; size?: "sm" | "md"; className?: string }) {
   return (
     <span
       aria-hidden="true"
       className={cn(
-        "inline-grid size-7 shrink-0 place-items-center rounded-full bg-ink font-mono text-mono leading-none text-page",
+        "inline-grid shrink-0 place-items-center rounded-full bg-ink font-mono text-mono leading-none text-page",
+        size === "md" ? "size-7" : "size-6",
         className,
       )}
     >

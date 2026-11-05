@@ -25,7 +25,7 @@ const homeZone = "Asia/Manila";
  * it switches to the real time in each city and updates on the minute. The time is read only in the browser, never
  * while the page is prerendered.
  */
-export function LiveTimeZones() {
+export function LiveTimeZones({ captionClassName = "text-caption text-ink-tertiary" }: { captionClassName?: string } = {}) {
   const [now, setNow] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -68,7 +68,7 @@ export function LiveTimeZones() {
           );
         })}
       </ul>
-      <p className="text-caption text-ink-tertiary">
+      <p className={captionClassName}>
         {now ? "Live times in each city." : "Sample times for a November morning in Manila."}
       </p>
     </>

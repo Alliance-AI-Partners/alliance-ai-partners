@@ -18,7 +18,8 @@ export function OvernightBand() {
           src={daybreakSwallows}
           alt=""
           fill
-          sizes="100vw"
+          // On phones the 16:9 photo covers a 600px tall band, so it is drawn about 1,080px wide.
+          sizes="(min-width: 1024px) 100vw, 1080px"
           className="object-cover object-[20%_50%] lg:object-center"
         />
       </div>
