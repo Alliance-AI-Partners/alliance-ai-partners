@@ -24,13 +24,13 @@
  "sections": [
   {
    "id": "hero",
-   "layout": "hero-split-mark",
+   "layout": "hero-statement-intro",
    "ground": "daylight",
-   "job": "State the promise and offer the one committing action.",
+   "job": "State the promise, introduce Alliance AI Partners (what we are, what we do and what it is for) and offer the one committing action.",
    "images": [
     {
      "kind": "vector",
-     "source": "Logo/Mark/Full colour light + ribbon line form (3px Daybreak stroke)"
+     "source": "Ribbon line form (3px Daybreak stroke, 2.5px on mobile) leaving the headline's full stop, arcing over the introduction and running off the right edge"
     }
    ]
   },
@@ -46,7 +46,7 @@
      "kind": "new",
      "aspectDesktop": "640x760 (about 4:5)",
      "aspectMobile": "4:5",
-     "placement": "left half of a split on desktop, so it zig-zags with the hero mark on the right; full width under the lead on mobile",
+     "placement": "left half of a split on desktop, so it zig-zags with the hero introduction on the right; full width under the lead on mobile",
      "textArea": "none (text sits beside the image)",
      "alt": "Tangled ribbons straightening into one smooth ribbon.",
      "source": "Editorial illustration on a Daylight background. On the left, a loose tangle of thin satin ribbons in Partner Navy and muted slate blue loops and knots over itself. Moving right, the strands are gathered and straightened into one smooth, wide satin ribbon in a gradient from Alliance Blue to Ribbon Cyan that flows out of frame at the upper right, the busy work of a week turned into one clear flow. A few small flat faceted paper leaves sit along its path. Generous calm Daylight space in the lower third. Portrait 4:5. Palette only: Partner Navy #121B2A, Alliance Blue #1B56FF, Ribbon Cyan #00D5FF, Daylight #F4F7FB and the shades between them. Nature built from satin ribbon and flat paper facets. Light from the upper left, soft navy-tinted shadows falling down and to the right. No text or letters, no people, no hands, no robots, no brains, no circuit boards, no sparkles, no glow, no purple or pink, no regional or cultural motifs, no real places or landmarks."
@@ -169,5 +169,5 @@
    ]
   }
  ],
- "notes": "Reference page for the build. Headline accents are single words. The header CTA is the Secondary outline; the hero and the closing band carry the Primary. Review 2026-11-03: the cost comparison is per month on both sides; the pitch split is image left; headlines break as even two-line pairs; the hero mark uses the brand-kit hero shadow (10px 28px 36px, Partner Navy 16%) instead of an 8x-scaled Lifted shadow; band scrims are sized so text passes AA over the real images. In code, set headings with text-wrap: balance."
+ "notes": "Reference page for the build. Headline accents are single words. The header CTA is the Secondary outline; the hero and the closing band carry the Primary. Review 2026-11-03: the cost comparison is per month on both sides; the pitch split is image left; headlines break as even two-line pairs; band scrims are sized so text passes AA over the real images. Redesign 2026-11-06: the 3D mark left the hero (the header already shows the logo), so the first screen introduces Alliance AI Partners instead. The headline breaks as “Put AI / to work.” at both widths; on desktop the introduction sits 96px lower in the right column, its first sentence in Partner Navy and the rest in Partner 46, with the base line at the foot of the left column; the hero's top padding is 128px at 1440 (48px at 390). In code, set headings with text-wrap: balance."
 }
